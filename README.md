@@ -54,7 +54,7 @@ The item icons have been organized in a set of collections. To display an icon, 
     <span class="pkspr pokeball-dive"></span>
     <span class="pkspr tm-ice"></span>
 
-There are many different icons that can be displayed. See the [icon overview page](http://google.com/) for a complete overview.
+There are many different icons that can be displayed. See the [icon overview page](#) for a complete overview.
 
 Compiling SCSS to CSS
 ---------------------
@@ -90,11 +90,11 @@ We've attempted to make the icon package complete and consistent. In the few cas
 
 Icons of unknown origin:
 
-* ./icons/key-item/lost-item-mimejr.png
+* `icons/key-item/lost-item-mimejr.png`
 
 Unofficial icons (see FAQ):
 
-* ./icons/hm/fighting.png
+* `icons/hm/fighting.png`
 
 Frequently Asked Questions
 --------------------------

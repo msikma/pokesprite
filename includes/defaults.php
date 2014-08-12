@@ -41,7 +41,7 @@ $s['other_contributors'] = 'PokéSprite contributors';
 $s['contributors'] = implode(' and ', array($s['main_contributor'], $s['other_contributors']));
 $s['copyright_str'] = '(C) '.($s['copy_a'] != $s['copy_z'] ? $s['copy_a'].'-'.$s['copy_z'] : $s['copy_a']).', '.$s['contributors'];
 $s['copyright_gf'] = '(C) 1995-'.$s['copy_z'].' Nintendo/Creatures Inc./GAME FREAK Inc.';
-$s['copyright_website'] = 'http://doubla.de/pokesprite/';
+$s['copyright_website'] = 'https://github.com/msikma/pokesprite';
 $s['title_str'] = 'PokéSprite '.$s['version'];
 $s['title_str_site'] = $s['title_str'].' <'.$s['copyright_website'].'>';
 $s['copyright_contrib_notice'] = 'For a full list of contributors, view the project commit history.';
