@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+/*!
+ * {{$title_str_site}}
+ * {{$copyright_str}}
+ * {{$copyright_gf}}
+ * {{$copyright_contrib_notice}}
+ * {{$generated_on}}
+ */
+
+${{$var_base_name}}-sprite-url: '{{$img_output}}';
+{{$item_vars}}
+/**
+ * Mixin that sets sprite styling.
+ * 
+ * This mixin can be used to turn any element into an icon. When calling
+ * this function, the optional second argument is a map that can be
+ * used to specify which CSS values are set. It may contain any or all of
+ * the following values:
+ *
+ *    img         background-image
+ *    w           width
+ *    h           height
+ *    size        width and height
+ *    pos         background-position
+ *    content     sets a non-empty content value (for pseudoelements)
+ *
+ * When using this mixin to modify multiple elements, the second argument
+ * can be used to minimize the amount of generated CSS code; first set
+ * the common values, then add specific traits.
+ *
+ * For example, to set an element to show up as Bulbasaur,
+ * use: @include {{$var_base_name}}-sprite('bulbasaur');
+ */
+@mixin {{$var_base_name}}-sprite($label, $set:('img', 'size', 'pos', 'content'))
+{
+  @if index($set, 'img') != false {
+    background-image: url(${{$var_base_name}}-sprite-url);
+  }
+  // Setting content:' ' causes pseudoelements to show up.
+  @if index($set, 'content') != false {
+    content: ' ';
+  }
+  
+  // Look up this item's coordinates from the main variable
+  // and set the appropriate background coordinates.
+  @if map-has-key(${{$var_base_name}}-coords, $label) {
+    $item: map-get(${{$var_base_name}}-coords, $label);
+    @if index($set, 'size') != false or index($set, 'w') != false {
+      width: #{map-get($item, 'w')}px;
+    }
+    @if index($set, 'size') != false or index($set, 'h') != false {
+      height: #{map-get($item, 'h')}px;
+    }
+    @if index($set, 'pos') != false {
+      background-position: -#{map-get($item, 'x')}px -#{map-get($item, 'y')}px;
+    }
+  }
+}
+
+/**
+ * Mixin that sets sprite size based on type.
+ *
+ * This sets the size of an icon based on the type size variable.
+ * The optional second argument is a map that allows you to specify
+ * whether to set width, height or both:
+ *
+ *    w           width
+ *    h           height
+ *    size        width and height
+ */
+@mixin {{$var_base_name}}-type($type, $set:('size'))
+{
+  $item: map-get($pkspr-types, $type);
+  @if index($set, 'size') != false or index($set, 'w') != false {
+    &, > i {
+      $width-val: #{map-get($item, 'w')};
+      @if $width-val != '' {
+        width: #{$width-val}px;
+      }
+    }
+  }
+  @if index($set, 'size') != false or index($set, 'h') != false {
+    &, > i {
+      $height-val: #{map-get($item, 'h')};
+      @if $height-val != '' {
+        height: #{$height-val}px;
+      }
+    }
+  }
+}
+
+// If compatibility mode is enabled (and it should), browser-specific
+// CSS attributes will be used where required.
+${{$var_base_name}}-compatibility-mode: true;
+
+/**
+ * Base icon CSS.
+ *
+ * The display mode is determined by the element used in the HTML.
+ * If a <span> is used, the icon is an inline-block element (like an image).
+ * If a <div> is used, the icon is a block element.
+ *
+ * The <span> display mode has an alternative display style (via .display-over)
+ * that sets the main element to a height of 1px, allowing the icon to be
+ * displayed without affecting the line height of the running text.
+ *
+ * The icon itself is added to the <i> element inside of the container.
+ * The element is added by the JS code.
+ */
+.{{$css_base_selector}} {
+  display: inline-block;
+  position: relative;
+  vertical-align: baseline;
+  
+  // The actual icons are displayed in an embedded <i> element.
+  > i {
+    // Set the standard Pokémon icon attributes.
+    @include {{$var_base_name}}-sprite(nth(map-keys(${{$var_base_name}}-coords), 1), ('img', 'content'));
+    display: block;
+  }
+  
+  // Two standard display modes determined by the containing element.
+  &span {
+    display: inline-block;
+  }
+  &block {
+    display: block;
+  }
+  
+  // An optional display class: inline-block, but without modifying
+  // the line height of the sentence.
+  &span.display-over {
+    height: 1px;
+    vertical-align: middle;
+    
+    > i {
+      position: absolute;
+      // Manually chosen positioning connate with the Pokémon icon designs.
+      // This displays the Pokémon icon at a reasonable baseline.
+      top: -20px;
+      left: 0;
+    }
+  }
+  
+  // Displays the right-facing icons for icons that do not have a customized
+  // right-facing version. This class is to be added by the JS.
+  &.{{$var_base_name}}-faux-right {
+    // If we're using compatibility mode (and we should), generate a number
+    // of vendor-specific prefixes.
+    @if ${{$var_base_name}}-compatibility-mode == true {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: 'FlipH';
+    }
+    transform: scaleX(-1);
+  }
+  
+  // The sizes of all available icon types follow.
+{{$type_sizes}}
+}

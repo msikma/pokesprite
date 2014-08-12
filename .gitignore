@@ -1,0 +1,37 @@
+# Unsorted files, backups and WIPs
+_src
+
+# We're not excluding all output files, because there should be a
+# plug-and-play version in the repo. Still, exclude a dangling tmp file.
+output/pokesprite_tmp.png
+
+# External binaries
+tools/*
+
+# Mac OS X-specific
+Network Trash Folder
+Temporary Items
+.AppleDB
+.AppleDesktop
+.Spotlight-V100
+.Trashes
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+
+# Linux-specific
+*~
+.directory
+
+# SASS cache files
+*.sass-cache*
+**/.sass-cache
+**/.sass-cache/*
+
+# Font Studio backup files
+*.vfbak

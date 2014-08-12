@@ -1,0 +1,136 @@
+// PokéSprite
+// ----------
+// Overview HTML page SCSS mixins and functions.
+//
+// The use of this source code is governed by the MIT license.
+// See the COPYRIGHT file for more information.
+
+
+// Mixins and Functions
+// --------------------
+
+// Add rounding to a table (regardless of its structure).
+@mixin table-rounded($amount:"m") {
+  // Note: this will be overridden by .inner-borders if set.
+  border-collapse: separate;
+  
+  // If the <thead> et al. elements are not the first
+  // then they must be followed by either a <caption> or a <colgroup>.
+  // Otherwise, the table is invalid HTML.
+  thead:first-child, tbody:first-child, tfoot:first-child,
+  caption + thead, caption + tbody, caption + tfoot,
+  colgroup + thead, colgroup + tbody, colgroup + tfoot {
+    tr:first-child {
+      th:first-child, td:first-child {
+        @include border-radius($amount, ("tl"));
+      }
+      th:last-child, td:last-child {
+        @include border-radius($amount, ("tr"));
+      }
+    }
+  }
+  thead:last-child, tbody:last-child, tfoot:last-child {
+    tr:last-child {
+      th:first-child, td:first-child {
+        @include border-radius($amount, ("bl"));
+      }
+      th:last-child, td:last-child {
+        @include border-radius($amount, ("br"));
+      }
+    }
+  }
+}
+
+// Add border to a table.
+@mixin table-border($color-border) {
+  // See the @table-rounded mixin for more info.
+  thead:first-child, tbody:first-child, tfoot:first-child,
+  caption + thead, caption + tbody, caption + tfoot,
+  colgroup + thead, colgroup + tbody, colgroup + tfoot {
+    tr {
+      &:first-child {
+        th, td {
+          border-top: 1px solid $color-border;
+        }
+      }
+    }
+  }
+  thead, tbody, tfoot {
+    th, td {
+      &:first-child {
+        border-left: 1px solid $color-border;
+      }
+      &:last-child {
+        border-right: 1px solid $color-border;
+      }
+    }
+  }
+  thead:last-child, tbody:last-child, tfoot:last-child {
+    tr {
+      &:last-child {
+        th, td {
+          border-bottom: 1px solid $color-border;
+        }
+      }
+    }
+  }
+}
+
+// Box model setting
+// See <http://www.paulirish.com/2012/box-sizing-border-box-ftw/> for more info.
+// It's recommended to use either content-box or border-box.
+
+@mixin box-sizing($value:border-box) {
+  @if $pkspr-compatibility-mode {
+       -moz-box-sizing: $value; // Firefox current
+    -webkit-box-sizing: $value; // iOS <= 4, Android <= 2.3
+  }
+  box-sizing: $value;
+}
+
+// Mixin for border radiuses
+//
+// $amount can be a regular value, or 'xs', 's', 'm', or 'l'.
+//
+// $corners needs to be a list with any of 'tl', 'tr', 'bl', 'br',
+// in any order. For example, ('tl', 'tr'), which would apply the
+// border radius only to the top left and top right corners.
+
+@mixin border-radius($amount:"m", $corners:("tl", "tr", "bl", "br")) {
+	// If the $amount variable is a string, check if we have a variable
+	// with a standardized radius size.
+  $radius: 0;
+  $radiuses: (
+  	xs: $border-radius-xs,
+  	s: $border-radius-s,
+  	m: $border-radius-m,
+  	l: $border-radius-l,
+  );
+  $amount-val: map-get($radiuses, $amount);
+  
+  // Either take our standard value or use whatever was passed to $amount.
+  @if ($amount-val != null) {
+    $radius: $amount-val;
+  }
+  @else {
+    $radius: $amount;
+  }
+  
+  // Reset the border radius first.
+  border-radius: 0;
+  
+  // Loop through the $corners argument.
+  $i: length($corners);
+  $cmap: (
+  	tl: border-top-left-radius,
+  	tr: border-top-right-radius,
+  	bl: border-bottom-left-radius,
+  	br: border-bottom-right-radius,
+  );
+	@while $i > 0 {
+		$corner: nth($corners, $i);
+		$attr: map-get($cmap, $corner);
+		#{$attr}: $radius;
+		$i: $i - 1;
+	}
+}
