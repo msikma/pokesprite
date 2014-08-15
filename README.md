@@ -16,7 +16,7 @@ When loading an HTML page, the main factor that determines how long it takes is 
 
 For that reason, it's recommended to minimize the amount of files included on a webpage. In the case of images, we can do this by putting them together in one single image, and then having multiple elements refer to different parts of that same image. This way, instead of requesting tons and tons of different images, we only need to request one. Minimizing connections is overwhelmingly the largest factor in reducing load times for websites.
 
-Aside from that, it's useful to have one central location for all these files.
+Aside from that, it's useful to have one central location for all these icons.
 
 Usage guide
 -----------
@@ -99,12 +99,10 @@ java -jar closure-compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS \
   --charset UTF-8
 ```
 
-Localization
-------------
+More information
+----------------
 
-Currently, the script's data file has English and Japanese Pokémon names in it. Due to the way that the data file is set up right now, both form names and item names are all in English right now. The game is also translated in French, German, Italian, Spanish and Korean—contributions are welcome.
-
-The script itself is in English. However, it's got a simple internationalization function, so it's possible to translate it to other languages.
+See the [wiki](https://github.com/msikma/pokesprite/wiki) for more general information about the project and its development. There's also a [frequently asked questions](https://github.com/msikma/pokesprite/wiki/FAQ-and-other-notes) page and a [full icon overview](https://github.com/msikma/pokesprite/wiki/Overview).
 
 Credits
 -------
