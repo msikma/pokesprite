@@ -25,6 +25,7 @@ Displaying the sprites is a matter of adding an empty `<span>` or `<div>` elemen
 
 Here are some examples:
 
+```html
     <span class="pkspr pkmn-pikachu"></span>
     <span class="pkspr pkmn-bulbasaur color-shiny"></span>
     <span class="pkspr pkmn-deoxys form-defense"></span>
@@ -32,6 +33,7 @@ Here are some examples:
     <span class="pkspr pkmn-charizard form-mega-y"></span>
     <span class="pkspr pkmn-unown form-d"></span>
     <span class="pkspr pkmn-pyroar gender-female"></span>
+```
 
 To clarify, the following classes can be used:
 
@@ -49,6 +51,7 @@ The tag name used is also important: if a `<span>` is used, the icon is displaye
 
 The item icons have been organized in a set of collections. To display an icon, first the collection name must be used, followed by the item itself. Some names are modified; for example, `oran-berry` is already in the `berry` collection, so it was renamed to just `oran`. Some HTML examples follow:
 
+```html
     <span class="pkspr berry-oran"></span>
     <span class="pkspr body-style-bipedal-tailed"></span>
     <span class="pkspr fossil-helix"></span>
@@ -57,6 +60,7 @@ The item icons have been organized in a set of collections. To display an icon, 
     <span class="pkspr mega-stone-charizardite-y"></span>
     <span class="pkspr pokeball-dive"></span>
     <span class="pkspr tm-ice"></span>
+```
 
 There are many different icons that can be displayed. See the [icon overview page](#) for a complete overview.
 
