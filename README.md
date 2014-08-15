@@ -94,7 +94,9 @@ The JS file can be optimized with the Closure Compiler. The easiest way is to us
 In case you have a local binary, the following command can be used:
 
 ```
-java -jar closure-compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS --js output/pokesprite.js --js_output_file output/pokesprite.min.js --charset UTF-8
+java -jar closure-compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS \
+  --js output/pokesprite.js --js_output_file output/pokesprite.min.js \
+  --charset UTF-8
 ```
 
 Localization
