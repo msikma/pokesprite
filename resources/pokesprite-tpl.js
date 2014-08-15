@@ -5,10 +5,6 @@
  * {{$copyright_contrib_notice}}
  * {{$generated_on}}
  *
-// ==ClosureCompiler==
-// @output_file_name {{$js_output_min}}
-// @compilation_level ADVANCED_OPTIMIZATIONS
-// ==/ClosureCompiler==
  */
 ;(function(){
 
