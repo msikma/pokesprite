@@ -21,7 +21,7 @@ Aside from that, it's useful to have one central location for all these files.
 Usage guide
 -----------
 
-Displaying the sprites is a matter of adding an empty `<span>` or `<div>` element with the appropriate `class` attribute set. The base class is *`pkspr`*; following the base class, you can add a number of classes that specify which icon is to be displayed.
+Displaying the sprites is a matter of adding an empty `<span>` or `<div>` element with the appropriate `class` attribute set. The base class is *`pkspr`*. Following the base class, you can add a number of classes that specify which icon is to be displayed.
 
 Here are some examples:
 
@@ -64,25 +64,43 @@ The item icons have been organized in a set of collections. To display an icon, 
 
 There are many different icons that can be displayed. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a complete overview.
 
-Compiling SCSS to CSS
----------------------
+Compiling the sprite
+--------------------
+
+Running the script to generate a sprite image with default settings is a simple matter of running the program.
+
+```
+./pokesprite.php
+```
+
+This will generate a full sprite sheet with regular icons, shiny icons, right-facing icons (where a unique icon exists), and all other icon sets. It also generates SCSS and JS files and an overview HTML page for previewing your build. Everything is saved to the `output/` directory.
+
+### Compiling SCSS to CSS
 
 PokéSprite does not generate CSS—it only generates SCSS (which can't directly be used in a website). You'll have to compile the CSS yourself using [SASS](https://github.com/sass/sass). See the SASS manual for a more complete usage guide.
 
-Once you have SASS installed, the CSS file can be compiled using the following terminal command (assuming that you're in the project's root directory):
+Once you have SASS installed, the CSS file can be compiled using the following terminal command:
 
-```bash
+```
 sass --style compressed output/pokesprite.scss output/pokesprite.css
 ```
 
 The generated SCSS is currently not SassC compatible. This is planned for a later release.
 
+### Compiling the JS using the Closure Compiler
+
+The JS file can be optimized with the Closure Compiler. The easiest way is to use the [Closure Compiler Service](http://closure-compiler.appspot.com/home). Make sure to set the optimization level to *advanced*.
+
+In case you have a local binary, the following command can be used:
+
+```
+java -jar closure-compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS --js output/pokesprite.js --js_output_file output/pokesprite.min.js --charset UTF-8
+```
+
 Localization
 ------------
 
-Currently, the script has English and Japanese (and romanized* Japanese) Pokémon names in its data file. Due to the way that the data file is set up right now, both form names and item names are all in English right now. The game is also translated in French, German, Italian, Spanish and Korean—contributions are welcome.
-
-<sub>* Note: these are the official romanizations, rather than direct transliterations.</sub>
+Currently, the script's data file has English and Japanese Pokémon names in it. Due to the way that the data file is set up right now, both form names and item names are all in English right now. The game is also translated in French, German, Italian, Spanish and Korean—contributions are welcome.
 
 The script itself is in English. However, it's got a simple internationalization function, so it's possible to translate it to other languages.
 
@@ -92,46 +110,6 @@ Credits
 The Pokémon box icons were ripped by *Zhorken* from [Project Pokémon](http://projectpokemon.org/). It's unknown who ripped or tagged the other icons—if you did, please let me know so you can be credited.
 
 The icons were further organized and cleaned up by *Dada78641*, who also wrote the initial version of this script and made all the initial shiny versions of the Pokémon icons. For a list of contributors, see the commit log.
-
-Notes
------
-
-We've attempted to make the icon package complete and consistent. In the few cases where icons fit multiple categories, we've made duplicates. (Such as *King's Rock*, which can be found under *evo-item* and *hold-item*.)
-
-Icons of unknown origin:
-
-* `icons/key-item/lost-item-mimejr.png`
-
-Unofficial icons (see FAQ):
-
-* `icons/hm/fighting.png`
-
-Frequently Asked Questions
---------------------------
-
-###### Q: There's not supposed to be a Fighting type HM in Generation VI. Why is there an icon of it?
-
-A: Previous generations did have Rock Smash as an HM rather than a TM. But rather than use an old icon, we've custom made an icon in Generation VI style for consistency purposes, as all other icons are in that same style.
-
-###### Q: Where did the shiny Pokémon box icons come from?
-
-A: They were custom made. No Pokémon game has ever had official ones.
-
-###### Q: Were the icons modified in any way?
-
-A: All icons were, if necessary, padded to the Generation VI icon size of 30x30 (up from 24x24) for consistency purposes.
-
-###### Q: Are the shiny Pokémon icons just palette swaps?
-
-A: Most are, but some aren't. The goal was to make icons that have the same visual quality as the originals, except with shiny colors. Due to the way pixel art works, that meant pure recolors were sometimes impossible. For example, any Pokémon that has its colors changed from something dark to something bright usually needed extra shades of gray.
-
-Occasionally, the design itself also necessitated changes to specific areas rather than simply all pixels with those colors. In short, a good deal of them, particularly in later generations, were more work than just palette swapping.
-
-In any case, we've attempted to maintain the basic visual style.
-
-###### Q: Why does this system use JS to make the images show up instead of CSS?
-
-CSS wasn't efficient enough because of the huge amount of rules. IE9 in particular can't process more than 1024 rules per CSS file, and even in decent browsers it wasn't very efficient either. So now the CSS contains the most basic attributes and the sizes for each icon set. The coordinates of each icon are set through JS. The disadvantage is that this makes the system unusable for people who browse without JS enabled. However, these days that is a [very tiny fraction](https://gds.blog.gov.uk/2013/10/21/how-many-people-are-missing-out-on-javascript-enhancement/). (And, although it'd be nice to support that fraction too, it just doesn't seem like there's a feasible way to do so.)
 
 License
 -------
