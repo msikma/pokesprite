@@ -37,11 +37,11 @@ Here are some examples:
 
 To clarify, the following classes can be used:
 
-* <code>pkmn-<u>name</u></code> – Pokémon name*
+* <code>pkmn-<strong>name</strong></code> – Pokémon name*
 * <code>color-regular</code>, <code>color-shiny</code> – shiny or regular icon
 * <code>dir-left</code>, <code>dir-right</code> – direction the icon faces (some Pokémon, such as Roselia, have a different icon when facing right—by default, those that do not have a separate icon will be flipped using the CSS `transform` attribute)
 * <code>gender-male</code>, <code>gender-female</code> – gender of the icon (in case of gender differences, such as Meowstic)
-* <code>form-<u>name</u></code> – form of the Pokémon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
+* <code>form-<strong>name</strong></code> – form of the Pokémon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
 
 *Note: for Pokémon names, simplified versions without special characters are used, e.g. "flabebe" rather than "Flabébé". See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.
 
