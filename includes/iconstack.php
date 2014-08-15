@@ -517,7 +517,7 @@ class IconStack
         $pkmn_size = $this->get_pkmn_icon_stack_size();
         $etc_size = $this->get_etc_icon_stack_size();
         
-        $width = $include_pkmn ? $pkmn_size['w'] : 0;
+        $width = $include_pkmn ? $pkmn_size['w'] : $etc_size['w'];
         $height = $include_pkmn ? $pkmn_size['h'] : 0;
         $height += $include_icon_sets ? $etc_size['h'] : 0;
         
