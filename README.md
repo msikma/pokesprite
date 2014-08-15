@@ -37,19 +37,19 @@ Here are some examples:
 
 To clarify, the following classes can be used:
 
-* *`pkmn-(<name of Pokémon>)`* – Pokémon name*
-* *`color-(regular|shiny)`* – shiny or regular icon
-* *`dir-(left|right)`* – direction the icon faces (some Pokémon, such as Roselia, have a different icon when facing right—by default, those that do not have a separate icon will be flipped using the CSS `transform` attribute)
-* *`gender-(male|female)`* – gender of the icon (in case of gender differences, such as Meowstic)
-* *`form-(<name of form>)`* – form of the icon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
+* <code>pkmn-<u>name</u></code> – Pokémon name*
+* <code>color-regular</code>, <code>color-shiny</code> – shiny or regular icon
+* <code>dir-left</code>, <code>dir-right</code> – direction the icon faces (some Pokémon, such as Roselia, have a different icon when facing right—by default, those that do not have a separate icon will be flipped using the CSS `transform` attribute)
+* <code>gender-male</code>, <code>gender-female</code> – gender of the icon (in case of gender differences, such as Meowstic)
+* <code>form-<u>name</u></code> – form of the Pokémon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
 
-<sub>* Note: a simplified name without special characters is used. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.</sub>
+*Note: for Pokémon names, simplified versions without special characters are used, e.g. "flabebe" rather than "Flabébé". See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.
 
 The tag name used is also important: if a `<span>` is used, the icon is displayed as an `inline-block`. If a `<div>` is used, it's a `block`.
 
 ### Item icons
 
-The item icons have been organized in a set of collections. To display an icon, first the collection name must be used, followed by the item itself. Some names are modified; for example, `oran-berry` is already in the `berry` collection, so it was renamed to just `oran`. Some HTML examples follow:
+The item icons have been organized in a set of collections. To display an icon, first the collection name must be used, followed by the item itself. For example, an Oran Berry is named `oran` and is in the `berry` collection, so the full class name would be `pkspr berry-oran`. Some more HTML examples follow:
 
 ```html
 <span class="pkspr berry-oran"></span>
