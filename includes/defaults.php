@@ -71,6 +71,8 @@ $s['dir_output'] = './output/';
 $s['dir_mode'] = 0777;
 // If set, which Pokémon to include (debugging only)
 $s['pkmn_range'] = null;
+// Github project base directory
+$s['github_base_dir'] = 'https://raw.github.com/msikma/pokesprite/master/';
 
 // List of icon sets that are to be included aside from the Pokémon icons.
 // This searches for the directory in the icons base directory.
@@ -108,6 +110,8 @@ $s['scss_output'] = 'pokesprite.scss';
 $s['js_output'] = 'pokesprite.js';
 // Output name of the HTML overview
 $s['html_output'] = 'overview.html';
+// Output name of the Markdown overview
+$s['md_output'] = 'overview.md';
 // Resources directory name
 $s['resources_dir'] = './resources/';
 // SCSS template file
@@ -118,6 +122,8 @@ $s['js_tpl'] = 'pokesprite-tpl.js';
 $s['html_tpl'] = 'overview-tpl.html';
 // Usage template file
 $s['usage_tpl'] = 'usage.tpl';
+// Whether to generate a Markdown overview
+$s['generate_markdown'] = false;
 
 // Base CSS selector (identifies an element as ours)
 $s['css_base_selector'] = 'pkspr';

@@ -148,6 +148,9 @@ if ($generate_optimized) {
     print(I18n::l('task_optimize'));
 }
 print(I18n::l('task_html'));
+if ($generate_markdown) {
+    print(I18n::l('task_markdown'));
+}
 print(I18n::l('task_scss'));
 print(I18n::l('task_js'));
 
@@ -330,11 +333,21 @@ $base_vars = array(
 print(I18n::l('html_generating'));
 $icon_overview->register_vars($base_vars);
 $icon_overview->register_tpl($resources_dir.$html_tpl);
-$overview = $icon_overview->get_overview();
+$overview = $icon_overview->get_overview('html');
 if (file_exists($dir_output.$html_output)) {
     unlink($dir_output.$html_output);
 }
 file_put_contents($dir_output.$html_output, $overview);
+
+// If requested, generate a Markdown overview too.
+if ($generate_markdown) {
+    print(I18n::l('markdown_generating'));
+    $overview_md = $icon_overview->get_overview('markdown');
+    if (file_exists($dir_output.$md_output)) {
+        unlink($dir_output.$md_output);
+    }
+    file_put_contents($dir_output.$md_output, $overview_md);
+}
 
 // With the image and the overview done, let's generate the SCSS.
 print(I18n::l('scss_generating'));

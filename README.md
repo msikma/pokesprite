@@ -43,7 +43,7 @@ To clarify, the following classes can be used:
 * *`gender-(male|female)`* – gender of the icon (in case of gender differences, such as Meowstic)
 * *`form-(<name of form>)`* – form of the icon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
 
-<sub>* Note: a simplified name without special characters is used. See the icon overview for a full list of supported names.</sub>
+<sub>* Note: a simplified name without special characters is used. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.</sub>
 
 The tag name used is also important: if a `<span>` is used, the icon is displayed as an `inline-block`. If a `<div>` is used, it's a `block`.
 
@@ -62,7 +62,7 @@ The item icons have been organized in a set of collections. To display an icon, 
 <span class="pkspr tm-ice"></span>
 ```
 
-There are many different icons that can be displayed. See the [icon overview page](#) for a complete overview.
+There are many different icons that can be displayed. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a complete overview.
 
 Compiling SCSS to CSS
 ---------------------

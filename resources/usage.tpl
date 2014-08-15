@@ -35,6 +35,9 @@ Options:
   <frm=::bold>--file-output-html=filename</frm>
     HTML icon overview output filename. Default: <frm=::underline>overview.html</frm>.
     
+  <frm=::bold>--file-output-md=filename</frm>
+    Markdown icon overview output filename. Default: <frm=::underline>overview.md</frm>.
+    
   <frm=::bold>--dir-resources=dir</frm>
     Resources directory. Default: <frm=::underline>./resources/</frm>.
     
@@ -55,6 +58,9 @@ Options:
   
   <frm=::bold>--include-right=[0|1|2]</frm>
     Whether to include right-facing icons. If the argument is <frm=::underline>0</frm>, none will be included. If no argument is given or the argument is <frm=::underline>1</frm>, only Pokémon that have a unique right-facing icon are included (default). If the argument is <frm=::underline>2</frm>, all Pokémon get a right-facing icon (and those that don't have one, have their regular icon flipped).
+
+  <frm=::bold>--generate-markdown</frm>
+    Generates a Markdown overview file in addition to the HTML overview file.
 
   <frm=::bold>--pkmn-lang=[eng|jpn|jpn_ro]</frm>
     Sets the language of Pokémon names to use for the output. Default: <frm=::underline>eng</frm>.

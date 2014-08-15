@@ -18,10 +18,11 @@ class Usage extends TemplateFormatter
     public static $ARG_REQ = array(
         'dir-icons:', 'dir-data:', 'file-data:',
         'dir-output:', 'file-output-img-tmp:', 'file-output-img:',
-        'file-output-scss:', 'file-output-html:', 'tpl-scss:', 'tpl-html:',
-        'css-base-sel:', 'css-shiny-sel:', 'css-female-sel:', 'css-right-sel:',
-        'css-inline-sel:', 'css-block-sel:', 'path-pngcrush:', 'dir-pkmn:',
-        'dir-resources:', 'pkmn-lang:', 'lang:',
+        'file-output-scss:', 'file-output-html:', 'file-output-md:',
+        'tpl-scss:', 'tpl-html:', 'css-base-sel:', 'css-shiny-sel:',
+        'css-female-sel:', 'css-right-sel:', 'css-inline-sel:',
+        'css-block-sel:', 'path-pngcrush:', 'dir-pkmn:', 'dir-resources:',
+        'pkmn-lang:', 'lang:',
         // For debugging purposes only (undocumented):
         'pkmn-range:',
     );
@@ -35,6 +36,7 @@ class Usage extends TemplateFormatter
     public static $ARG_NONE = array(
         'exclude-pkmn', 'exclude-shiny', 'exclude-regular', 'exclude-forms',
         'exclude-icon-sets', 'verbose', 'monochrome', 'help', 'no-pngcrush',
+        'generate-markdown',
     );
     
     /** @var mixed[] Settings parsed from the command-line options. */
@@ -110,6 +112,9 @@ class Usage extends TemplateFormatter
             if ($arg == 'no-pngcrush') {
                 $s['generate_optimized'] = false;
             }
+            if ($arg == 'generate-markdown') {
+                $s['generate_markdown'] = true;
+            }
             if ($arg == 'include-right') {
                 $val_int = intval($val);
                 if (!is_numeric($val) || $val_int < 0 || $val_int > 2) {
@@ -150,6 +155,7 @@ class Usage extends TemplateFormatter
             'tpl-scss' => 'scss_tpl',
             'dir-resources' => 'resources_dir',
             'file-output-html' => 'html_output',
+            'file-output-md' => 'md_output',
             'file-output-scss' => 'scss_output',
             'file-output-img' => 'img_output',
             'file-output-img-tmp' => 'img_output_tmp',
