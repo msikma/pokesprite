@@ -3,7 +3,9 @@ PokéSprite – Image Sprite Generator
 
 This simple script generates a *complete image sprite* of all Pokémon in the National Pokédex, along with the icons for every single item, and a *SCSS file* to make them usable. This sprite can then be used to efficiently display these icons on a website.
 
-![alt tag](https://raw.github.com/msikma/pokesprite/master/resources/wiki/pokesprite-banner.png)
+<p style="text-align: center;">
+  <img src="https://raw.github.com/msikma/pokesprite/master/resources/wiki/pokesprite-banner.png" alt="PokéSprite icon example" />
+</p>
 
 Raison d'être
 -------------
