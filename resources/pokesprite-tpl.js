@@ -113,8 +113,8 @@ window["PkSpr"] = (function()
      */
     self.decoration_error = function(attrs)
     {
-    	window.console && console.warn("Couldn't decorate icon with the "+
-    		"following properties: %o", attrs);
+        window.console && console.warn("Couldn't decorate icon with the "+
+            "following properties: %o", attrs);
     }
     
     /**
@@ -144,8 +144,8 @@ window["PkSpr"] = (function()
         
         // Check whether this node's icon really exists.
         if (coords == null) {
-        	// If not, error out.
-        	self.decoration_error(attrs);
+            // If not, error out.
+            self.decoration_error(attrs);
             return false;
         }
         if (custom_size) {
@@ -162,7 +162,7 @@ window["PkSpr"] = (function()
         }
         // Flip the icon if we're showing a faux right-facing icon.
         if (props.flipped) {
-        	self.set_icon_direction(node, "right");
+            self.set_icon_direction(node, "right");
         }
         
         // Indicate that this node has been decorated so we don't
@@ -174,7 +174,7 @@ window["PkSpr"] = (function()
     
     self.set_icon_direction = function(node, dir)
     {
-    	self.add_class(node, '{{$var_base_name}}-faux-right');
+        self.add_class(node, '{{$var_base_name}}-faux-right');
     }
     
     /**
@@ -240,13 +240,13 @@ window["PkSpr"] = (function()
             "color": "{{$fallback_color}}"
         };
         var props = {
-        	"flipped": false
+            "flipped": false
         };
         
         for (attr in fallbacks) {
             // Check if we've reached an end node and quit iterating if so.
             if (tree.x >= 0) {
-            	break;
+                break;
             }
             
             val = attrs[attr];
@@ -264,21 +264,21 @@ window["PkSpr"] = (function()
                 // If we're reverting from a non-existent right-facing icon,
                 // keep note that this icon should be flipped later.
                 if (val == "right") {
-                	props.flipped = true;
+                    props.flipped = true;
                 }
                 continue;
             }
             // If the fallback value doesn't exist, error out.
             else {
-            	tree = null;
+                tree = null;
                 break;
             }
         }
         
         // If all went well, we'll have the coordinates and other properties.
         return {
-        	coords: tree,
-        	props: props
+            coords: tree,
+            props: props
         };
     }
     

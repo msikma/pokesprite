@@ -1,9 +1,9 @@
 # Unsorted files, backups and WIPs
 _src
 
-# We're not excluding all output files, because there should be a
-# plug-and-play version in the repo. Still, exclude a dangling tmp file.
-output/pokesprite_tmp.png
+# The output directory should be empty.
+# The plug-and-play version is located in `build/`.
+output/*
 
 # External binaries
 tools/*
