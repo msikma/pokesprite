@@ -26,13 +26,13 @@ Displaying the sprites is a matter of adding an empty `<span>` or `<div>` elemen
 Here are some examples:
 
 ```html
-    <span class="pkspr pkmn-pikachu"></span>
-    <span class="pkspr pkmn-bulbasaur color-shiny"></span>
-    <span class="pkspr pkmn-deoxys form-defense"></span>
-    <span class="pkspr pkmn-clauncher color-shiny dir-right"></span>
-    <span class="pkspr pkmn-charizard form-mega-y"></span>
-    <span class="pkspr pkmn-unown form-d"></span>
-    <span class="pkspr pkmn-pyroar gender-female"></span>
+<span class="pkspr pkmn-pikachu"></span>
+<span class="pkspr pkmn-bulbasaur color-shiny"></span>
+<span class="pkspr pkmn-deoxys form-defense"></span>
+<span class="pkspr pkmn-clauncher color-shiny dir-right"></span>
+<span class="pkspr pkmn-charizard form-mega-y"></span>
+<span class="pkspr pkmn-unown form-d"></span>
+<span class="pkspr pkmn-pyroar gender-female"></span>
 ```
 
 To clarify, the following classes can be used:
@@ -52,14 +52,14 @@ The tag name used is also important: if a `<span>` is used, the icon is displaye
 The item icons have been organized in a set of collections. To display an icon, first the collection name must be used, followed by the item itself. Some names are modified; for example, `oran-berry` is already in the `berry` collection, so it was renamed to just `oran`. Some HTML examples follow:
 
 ```html
-    <span class="pkspr berry-oran"></span>
-    <span class="pkspr body-style-bipedal-tailed"></span>
-    <span class="pkspr fossil-helix"></span>
-    <span class="pkspr gem-bug"></span>
-    <span class="pkspr medicine-potion"></span>
-    <span class="pkspr mega-stone-charizardite-y"></span>
-    <span class="pkspr pokeball-dive"></span>
-    <span class="pkspr tm-ice"></span>
+<span class="pkspr berry-oran"></span>
+<span class="pkspr body-style-bipedal-tailed"></span>
+<span class="pkspr fossil-helix"></span>
+<span class="pkspr gem-bug"></span>
+<span class="pkspr medicine-potion"></span>
+<span class="pkspr mega-stone-charizardite-y"></span>
+<span class="pkspr pokeball-dive"></span>
+<span class="pkspr tm-ice"></span>
 ```
 
 There are many different icons that can be displayed. See the [icon overview page](#) for a complete overview.
@@ -71,7 +71,9 @@ PokéSprite does not generate CSS—it only generates SCSS (which can't directly
 
 Once you have SASS installed, the CSS file can be compiled using the following terminal command (assuming that you're in the project's root directory):
 
-    sass --style compressed output/pokesprite.scss output/pokesprite.css
+```bash
+sass --style compressed output/pokesprite.scss output/pokesprite.css
+```
 
 The generated SCSS is currently not SassC compatible. This is planned for a later release.
 
