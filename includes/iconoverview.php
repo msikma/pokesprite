@@ -93,11 +93,13 @@ class IconOverview extends IconTplFactory
 	            $img_file = $icon['file'];
 	        }
             
-            $icon_str = vsprintf('<img src="%s%s" alt="%s" title="%s" />', array(
+            $icon_str = vsprintf('<img src="%s%s" alt="%s" title="%s" width="%d" height="%d" />', array(
             	$github_base_dir,
             	$this->remove_dot_base($img_file),
             	htmlspecialchars($name_str),
             	$this->remove_dot_base($img_file),
+            	$icon['w'],
+            	$icon['h'],
             ));
             $class_str = vsprintf('**`%s`**', array(implode(' ', $classes)));
             
