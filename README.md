@@ -107,9 +107,9 @@ See the [wiki](https://github.com/msikma/pokesprite/wiki) for more general infor
 Credits
 -------
 
-The Pokémon box icons were ripped by *Zhorken* from [Project Pokémon](http://projectpokemon.org/). It's unknown who ripped or tagged the other icons—if you did, please let me know so you can be credited.
+The Pokémon box icons were ripped by *Zhorken*. All other icons were ripped by *Kaphotics*. Both can be found at [Project Pokémon](http://projectpokemon.org/).
 
-The icons were further organized and cleaned up by *Dada78641*, who also wrote the initial version of this script and made all the initial shiny versions of the Pokémon icons. For a list of contributors, see the commit log.
+The icons were then reorganized and cleaned up by *Dada78641*, who also wrote the script and created all the shiny versions of the Pokémon icons. For a full list of project contributors, see the commit log.
 
 License
 -------
