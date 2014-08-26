@@ -45,7 +45,7 @@ To clarify, the following classes can be used:
 
 *\*Note: for Pokémon names, simplified versions without special characters are used, e.g. "flabebe" rather than "Flabébé". See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.*
 
-You can select which Pokémon to display using its index number too, e.g. `<span class="pkmn-004"></span>` for Charmander.
+You can select which Pokémon to display using its index number too, e.g. `<span class="pkspr pkmn-004"></span>` for Charmander.
 
 The tag name used is also important: if a `<span>` is used, the icon is displayed as an `inline-block`. If a `<div>` is used, it's a `block`.
 
