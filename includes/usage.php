@@ -23,7 +23,7 @@ class Usage extends TemplateFormatter
         'css-female-sel:', 'css-right-sel:', 'css-inline-sel:',
         'css-block-sel:', 'path-pngcrush:', 'dir-pkmn:', 'dir-resources:',
         'pkmn-lang:', 'lang:',
-        // For debugging purposes only (undocumented):
+        // Undocumented (debugging only):
         'pkmn-range:',
     );
     /** @var string[] Arguments that may have a value. */
@@ -37,6 +37,8 @@ class Usage extends TemplateFormatter
         'exclude-pkmn', 'exclude-shiny', 'exclude-regular', 'exclude-forms',
         'exclude-icon-sets', 'verbose', 'monochrome', 'help', 'no-pngcrush',
         'generate-markdown',
+        // Undocumented (debugging only):
+        'html-no-slugs',
     );
     
     /** @var mixed[] Settings parsed from the command-line options. */
@@ -114,6 +116,9 @@ class Usage extends TemplateFormatter
             }
             if ($arg == 'generate-markdown') {
                 $s['generate_markdown'] = true;
+            }
+            if ($arg == 'html-no-slugs') {
+                $s['html_no_slugs'] = true;
             }
             if ($arg == 'include-right') {
                 $val_int = intval($val);
@@ -231,8 +236,8 @@ class Usage extends TemplateFormatter
         }
         
         $usage_vars = array(
-            'website' => Settings::get('copyright_website'),
-            'version' => Settings::get('version'),
+            'website' => Settings::get('website'),
+            'revision' => Settings::get('revision'),
             'error' => $error_str,
             'copyright' => (
                 Settings::get('copyright_str').

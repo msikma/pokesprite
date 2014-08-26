@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
 
-// PokéSprite 1.0
-// --------------
+// PokéSprite
+// ----------
 // This simple script generates an image sprite containing small icons of
 // all Pokémon in the National Pokédex (along with several other types of
 // icons), and the pertaining SCSS and JS files. It was built for people
@@ -75,6 +75,12 @@ Settings::load_settings_file('includes/defaults.php');
 $usage = new Usage();
 $cl_settings = $usage->get_user_settings();
 
+// Check the current revision number for user feedback and for
+// inclusion in the output files.
+$revision = trim(shell_exec('git rev-list HEAD --count 2> /dev/null'));
+$revision = $revision ? $revision : '[unknown]';
+$cl_settings['revision'] = $revision;
+
 if ($usage->needs_usage) {
     // Display usage and exit.
     $usage->load_tpl_file(
@@ -101,7 +107,9 @@ I18n::add_output_filter(array('PkSpr\TerminalFormatter', 'format'));
 
 // Print basic program info.
 print(I18n::lf('info', array(
-    $title_str_site,
+    $title_str,
+    $revision,
+    $website_txt,
     $copyright_gf
 )));
 $generated_on = I18n::lf('generated_on', array($script_date));
@@ -272,7 +280,7 @@ if ($generate_optimized === true) {
     if (file_exists($dir_output.$img_output)) {
         unlink($dir_output.$img_output);
     }
-    $crush_cmd = $pngcrush_path.' -l 9 -q -text b author "Pokémon Sprite Generator v'.$version.'" -text b copyright "'.$copyright_gf.'" '.$dir_output.$img_output_tmp.' '.$dir_output.$img_output;
+    $crush_cmd = $pngcrush_path.' -l 9 -q -text b author "Pokémon Sprite Generator r'.$revision.'" -text b copyright "'.$copyright_gf.'" '.$dir_output.$img_output_tmp.' '.$dir_output.$img_output;
     exec($crush_cmd);
 
     if (file_exists($dir_output.$img_output)) {
@@ -321,7 +329,9 @@ $icon_js->set_icon_sizes($set_sizes);
 // For the generation of the HTML, SCSS and JS files, a number of
 // base variables are used.
 $base_vars = array(
-    'title_str_site' => $title_str_site,
+    'title_str' => $title_str,
+    'revision' => $revision,
+    'website_txt' => $website_txt,
     'copyright_str' => $copyright_str,
     'copyright_gf' => $copyright_gf,
     'copyright_contrib_notice' => $copyright_contrib_notice,

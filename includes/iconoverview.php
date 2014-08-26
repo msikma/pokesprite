@@ -223,6 +223,10 @@ class IconOverview extends IconTplFactory
         $cls_female = 'gender-female';
         $cls_right = 'dir-right';
         
+        // Whether to use slug classes or Pokédex classes in the overview.
+        // (For debugging only.)
+        $use_idx_classes = Settings::get('html_no_slugs');
+        
         // If we're only using shiny icons, omit the "color-shiny" class,
         // as no regular icons means the fallback will always be shiny.
         $only_shiny = (
@@ -234,7 +238,12 @@ class IconOverview extends IconTplFactory
 		
 		if ($icon['type'] == 'pkmn') {
 			// For Pokémon sprite icons.
-			$classes[] = $icon['type'].'-'.$icon['slug'];
+			if ($use_idx_classes) {
+				$classes[] = $icon['type'].'-'.$icon['id'];
+			}
+			else {
+				$classes[] = $icon['type'].'-'.$icon['slug'];
+			}
 			if ($icon['version'] != 'regular' && !$only_shiny) {
 				$classes[] = $cls_shiny;
 			}
@@ -354,7 +363,7 @@ class IconOverview extends IconTplFactory
             'css_output' => str_replace('.scss', '.css', Settings::get('scss_output')),
             'title_str_html' => htmlspecialchars(Settings::get('title_str')),
             'script_date_html' => htmlspecialchars(Settings::get('script_date')),
-            'copyright_website_html' => htmlspecialchars(Settings::get('copyright_website')),
+            'website_html' => htmlspecialchars(Settings::get('website')),
         ));
         
         $this->overview['html'] = $this->process_output($markup);

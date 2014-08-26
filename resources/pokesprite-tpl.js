@@ -1,5 +1,5 @@
 /** @preserve
- * {{$title_str_site}}
+ * {{$title_str}} r{{$revision}} {{$website_txt}}
  * {{$copyright_str}}
  * {{$copyright_gf}}
  * {{$copyright_contrib_notice}}
@@ -43,7 +43,22 @@ window["PkSpr"] = (function()
      * @const
      * @type {!Object}
      */
-    self.PKSPR_DATA = {{$coords_json}};
+    self.PKSPR_DATA = {{$coords_json}}; 
+    
+    /**
+     * Index linking Pokédex numbers to slugs. Generated on runtime.
+     *
+     * @type {?Object}
+     */
+    var pkmn_idx_to_slug;
+    
+    /**
+     * Regular Expression used to check whether an identifier
+     * is a valid dex number.
+     *
+     * @type {?RegExp}
+     */
+    var numeric_regexp;
     
     /**
      * Schedules the DOM to be processed completely as soon as it's ready.
@@ -78,7 +93,7 @@ window["PkSpr"] = (function()
         var obj, node, is_str, is_node;
         for (a = 0, z = val.length; a < z; ++a) {
             obj = val[a];
-            is_str = typeof obj == 'string' || obj instanceof String;
+            is_str = typeof obj == "string" || obj instanceof String;
             is_node = obj.nodeName !== null;
             
             // Fetch the object by its ID if necessary.
@@ -168,9 +183,15 @@ window["PkSpr"] = (function()
         return true;
     }
     
+    /**
+     * Adds a class to the icon signifying it is to be mirrored in CSS.
+     *
+     * @param {Element} node The icon node.
+     * @param {string} dir Direction the icon should face.
+     */
     self.set_icon_direction = function(node, dir)
     {
-        self.add_class(node, '{{$var_base_name}}-faux-right');
+        self.add_class(node, "{{$var_base_name}}-faux-"+dir);
     }
     
     /**
@@ -353,12 +374,68 @@ window["PkSpr"] = (function()
             }
         }
         
+        // Check to see if this is a Pokémon icon that uses the number
+        // as the identifier rather than the slug.
+        if (node_attrs.type == "pkmn"
+        &&  self.is_numeric_pkmn(node_attrs.slug)) {
+            // Replace the index number with the slug.
+            node_attrs.slug = pkmn_idx_to_slug[node_attrs.slug];
+        }
+        
         // Clean the output up a bit.
         for (spr_type in self.PKSPR_TYPES) {
             delete node_attrs[spr_type];
         }
         
         return node_attrs;
+    }
+    
+    /**
+     * Compiles a regular expression for use by PkSpr.is_numeric_pkmn().
+     */
+    self.prepare_numeric_check = function()
+    {
+        if (numeric_regexp != undefined) {
+            return;
+        }
+        // 000 is always false.
+        numeric_regexp = new RegExp(/(?!000)^[0-9]{3}$/);
+    }
+    
+    /**
+     * Generates a list of Pokédex numbers linked to their respective slugs.
+     */
+    self.generate_idx_list = function()
+    {
+        var a, z, pkmn;
+        
+        if (pkmn_idx_to_slug != undefined) {
+            return;
+        }
+        pkmn_idx_to_slug = {};
+        
+        // In case we don't have any Pokémon icons in this compile.
+        if (self.PKSPR_DATA == null
+        ||  self.PKSPR_DATA.pkmn == null) {
+            return;
+        }
+        
+        pkmn = Object.keys(self.PKSPR_DATA.pkmn);
+        for (a = 1, z = pkmn.length; a <= z; ++a) {
+            // Fast zero-padding hardcoded to work for 3 digits.
+            pkmn_idx_to_slug[("000"+a).slice(-3)] = pkmn[a - 1];
+        }
+    }
+    
+    /**
+     * Determines whether a Pokémon identifier is a dex number or not.
+     *
+     * @param {?string} pkmn The Pokémon identifier (slug or ID).
+     * @return {boolean} Whether it is or isn't a numeric identifier.
+     */
+    self.is_numeric_pkmn = function(pkmn)
+    {
+        return numeric_regexp.test(pkmn);
     }
     
     /**
@@ -415,8 +492,8 @@ window["PkSpr"] = (function()
         }
         catch(e) {}
         
-        // Can't use querySelectorAll(), so we'll do this the hard way.
-        // Grab all elements of those types and check for the
+        // Can't use document.querySelectorAll(), so we'll do this
+        // the hard way. Grab all elements of those types and check for the
         // base identifier class.
         var a, b;
         var result, results, elements = [];
@@ -542,8 +619,53 @@ window["PkSpr"] = (function()
         }
     }
     
+    /**
+     * Runs a couple of initialization functions.
+     */
+    self.initialize = function()
+    {
+        // Compile our numeric check regular expression.
+        self.prepare_numeric_check();
+        // Generate a list of slugs by Pokédex number.
+        self.generate_idx_list();
+    }()
+    
     return self;
 })();
+
+
+/**
+ * Object.keys() prototype method polyfill (simplified).
+ *
+ * For compatibility purposes, we'll define a polyfill so older browsers
+ * won't choke on Object.keys(), which the code requires.
+ *
+ * Source: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
+ */
+if (!Object.keys) {
+    Object.keys = (function()
+    {
+        "use strict";
+        var hasOwnProperty = Object.prototype.hasOwnProperty;
+        
+        return function(obj)
+        {
+            if (typeof obj !== "object" && (typeof obj !== "function" || obj === null)) {
+                throw new TypeError("Object.keys called on non-object");
+            }
+            
+            var result = [], prop, i;
+
+            for (prop in obj) {
+                if (hasOwnProperty.call(obj, prop)) {
+                    result.push(prop);
+                }
+            }
+            
+            return result;
+        };
+    }());
+}
 
 /* All done. */
 })();

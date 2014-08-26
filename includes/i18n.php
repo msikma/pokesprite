@@ -37,7 +37,7 @@ class I18n
             'overview_class' => 'Class',
             'overview_file' => 'File',
             'generated_on' => "Generated on %s.",
-            'info' => "<frm=cyan::bold>%s</frm>\n<frm=purple>Generates optimized Pokémon SCSS sprite\n%s\n\n</frm>",
+            'info' => "<frm=cyan::bold>%s %s %s</frm>\n<frm=purple>Generates optimized Pokémon SCSS sprite\n%s\n\n</frm>",
             'icon_dir_failure' => "<frm=red>Couldn't open icon directory (%s). Skipping.</frm>\n",
             'dir_create' => "Creating output directory.\n",
             'dir_error' => "<frm=red>Couldn't create directories.</frm>\n",

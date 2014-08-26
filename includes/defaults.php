@@ -35,15 +35,15 @@ $s['img_slug_lang'] = 'eng';
 // Copyright strings
 $s['copy_a'] = '2014';
 $s['copy_z'] = date('Y');
-$s['version'] = '1.0';
+$s['title_str'] = 'PokéSprite';
+$s['revision'] = '[unknown]';
+$s['website'] = 'https://github.com/msikma/pokesprite';
+$s['website_txt'] = '<'.$s['website'].'>';
 $s['main_contributor'] = 'Michiel Sikma <dada@doubla.de>';
 $s['other_contributors'] = 'PokéSprite contributors';
 $s['contributors'] = implode(' and ', array($s['main_contributor'], $s['other_contributors']));
 $s['copyright_str'] = '(C) '.($s['copy_a'] != $s['copy_z'] ? $s['copy_a'].'-'.$s['copy_z'] : $s['copy_a']).', '.$s['contributors'];
 $s['copyright_gf'] = '(C) 1995-'.$s['copy_z'].' Nintendo/Creatures Inc./GAME FREAK Inc.';
-$s['copyright_website'] = 'https://github.com/msikma/pokesprite';
-$s['title_str'] = 'PokéSprite '.$s['version'];
-$s['title_str_site'] = $s['title_str'].' <'.$s['copyright_website'].'>';
 $s['copyright_contrib_notice'] = 'For a full list of contributors, view the project commit history.';
 $s['script_date'] = date('Y-m-d H:i:s');
 
@@ -71,6 +71,8 @@ $s['dir_output'] = './output/';
 $s['dir_mode'] = 0777;
 // If set, which Pokémon to include (debugging only)
 $s['pkmn_range'] = null;
+// Whether to index numbers instead of slugs in the overview (debugging only)
+$s['html_no_slugs'] = false;
 // Github project base directory
 $s['github_base_dir'] = 'https://raw.github.com/msikma/pokesprite/master/';
 
@@ -124,6 +126,7 @@ $s['html_tpl'] = 'overview-tpl.html';
 $s['usage_tpl'] = 'usage.tpl';
 // Whether to generate a Markdown overview
 $s['generate_markdown'] = false;
+
 
 // Base CSS selector (identifies an element as ours)
 $s['css_base_selector'] = 'pkspr';

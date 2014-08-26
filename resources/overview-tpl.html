@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!--
 
-{{$title_str_site}}
+{{$title_str}} r{{$revision}} {{$website_txt}}
 {{$copyright_str}}
 {{$copyright_gf}}
 {{$copyright_contrib_notice}}
@@ -11,7 +11,7 @@
 -->
 <head>
   <meta charset="utf-8" />
-  <title>{{$title_str_html}} – Icon Overview</title>
+  <title>{{$title_str}} r{{$revision}} – Icon Overview</title>
   <!-- Pokémon icons -->
   <link type="text/css" href="{{$css_output}}" rel="stylesheet" media="screen" />
   <script charset="utf-8" src="{{$js_output}}" ></script>
@@ -29,9 +29,9 @@
 <body>
   <div id="top">
     <div class="description">
-      <h1>{{$title_str_html}} – Icon Overview</h1>
+      <h1>{{$title_str}} r{{$revision}} – Icon Overview</h1>
       <p>The following list is a complete overview of all icons and the HTML necessary to display them. It was generated on <span class="time">{{$script_date_html}}</span>.</p>
-      <p>For more information about the project, visit <a href="{{$copyright_website_html}}">{{$copyright_website_html}}</a>.</p>
+      <p>For more information about the project, visit <a href="{{$website_html}}">{{$website_html}}</a>.</p>
     </div>
 {{$icons}}
     <p>End of overview. <a href="#top">Back to top.</a></p>

@@ -1,4 +1,4 @@
-<frm=::bold>PokéSprite {{$version}}</frm>
+<frm=::bold>PokéSprite {{$revision}}</frm>
 {{$copyright}}
 {{$error}}
 Usage:
