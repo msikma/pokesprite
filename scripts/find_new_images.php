@@ -54,9 +54,14 @@ foreach ($imgs_new as $img_new_path => $img_new_info) {
   $unique_new_imgs[$img_new_path] = $img_new_info;
 }
 
-print(PHP_EOL.'Amount of unique images found: '.count($unique_new_imgs).PHP_EOL.PHP_EOL);
-foreach ($unique_new_imgs as $path => $img) {
-  print('    '.$path.PHP_EOL);
+if (empty($unique_new_imgs)) {
+  print(PHP_EOL.'No unique images found.');
+}
+else {
+  print(PHP_EOL.'Amount of unique images found: '.count($unique_new_imgs).PHP_EOL.PHP_EOL);
+  foreach ($unique_new_imgs as $path => $img) {
+    print('    '.$path.PHP_EOL);
+  }
 }
 print(PHP_EOL);
 
@@ -93,6 +98,10 @@ function iterate_dir($dir)
 
 function get_img_diff($new, $old)
 {
-  $diff = trim(exec('puzzle-diff '.$new.' '.$old));
+  $diff = trim(exec('puzzle-diff '.$new.' '.$old.' 2>&1', $output, $code));
+  if ($code !== 0) {
+    print(PHP_EOL.'find_new_images.php: error: couldn\'t run the `puzzle-diff\' script'.PHP_EOL);
+    die();
+  }
   return floatval($diff);
 }
