@@ -370,7 +370,17 @@
       "jpn": "pikachu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "beautiful": {
+        "has_right": true
+      },
+      "clever": {},
+      "cool": {},
+      "cosplay": {},
+      "cute": {
+        "has_right": true
+      },
+      "tough": {}
     },
     "name": {
       "eng": "Pikachu",
