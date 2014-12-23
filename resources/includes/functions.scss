@@ -97,14 +97,14 @@
 // border radius only to the top left and top right corners.
 
 @mixin border-radius($amount:"m", $corners:("tl", "tr", "bl", "br")) {
-	// If the $amount variable is a string, check if we have a variable
-	// with a standardized radius size.
+  // If the $amount variable is a string, check if we have a variable
+  // with a standardized radius size.
   $radius: 0;
   $radiuses: (
-  	xs: $border-radius-xs,
-  	s: $border-radius-s,
-  	m: $border-radius-m,
-  	l: $border-radius-l,
+    xs: $border-radius-xs,
+    s: $border-radius-s,
+    m: $border-radius-m,
+    l: $border-radius-l,
   );
   $amount-val: map-get($radiuses, $amount);
   
@@ -122,15 +122,15 @@
   // Loop through the $corners argument.
   $i: length($corners);
   $cmap: (
-  	tl: border-top-left-radius,
-  	tr: border-top-right-radius,
-  	bl: border-bottom-left-radius,
-  	br: border-bottom-right-radius,
+    tl: border-top-left-radius,
+    tr: border-top-right-radius,
+    bl: border-bottom-left-radius,
+    br: border-bottom-right-radius,
   );
-	@while $i > 0 {
-		$corner: nth($corners, $i);
-		$attr: map-get($cmap, $corner);
-		#{$attr}: $radius;
-		$i: $i - 1;
-	}
+  @while $i > 0 {
+    $corner: nth($corners, $i);
+    $attr: map-get($cmap, $corner);
+    #{$attr}: $radius;
+    $i: $i - 1;
+  }
 }
