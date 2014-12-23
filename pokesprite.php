@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 
 // PokéSprite
@@ -78,7 +78,7 @@ $cl_settings = $usage->get_user_settings();
 // Check the current revision number for user feedback and for
 // inclusion in the output files.
 $revision = trim(shell_exec('git rev-list HEAD --count 2> /dev/null'));
-$revision = $revision ? $revision : '[unknown]';
+$revision = $revision ? 'r'.$revision : '[unknown]';
 $cl_settings['revision'] = $revision;
 
 if ($usage->needs_usage) {
