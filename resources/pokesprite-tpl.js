@@ -1,5 +1,5 @@
 /** @preserve
- * {{$title_str}} r{{$revision}} {{$website_txt}}
+ * {{$title_str}} {{$revision}} {{$website_txt}}
  * {{$copyright_str}}
  * {{$copyright_gf}}
  * {{$copyright_contrib_notice}}
