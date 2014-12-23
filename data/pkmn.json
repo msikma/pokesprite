@@ -220,7 +220,8 @@
       "jpn": "spear"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Beedrill",
@@ -265,7 +266,8 @@
       "jpn": "pigeot"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Pidgeot",
@@ -1218,7 +1220,8 @@
       "jpn": "yadoran"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Slowbro",
@@ -3226,7 +3229,8 @@
       "jpn": "haganeil"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Steelix",
@@ -3924,7 +3928,8 @@
       "jpn": "jukain"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Sceptile",
@@ -4015,7 +4020,8 @@
       "jpn": "laglarge"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Swampert",
@@ -4646,7 +4652,8 @@
       "jpn": "yamirami"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Sableye",
@@ -4907,7 +4914,8 @@
       "jpn": "samehader"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Sharpedo",
@@ -4967,7 +4975,8 @@
       "jpn": "bakuda"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Camerupt",
@@ -5132,7 +5141,8 @@
       "jpn": "tyltalis"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Altaria",
@@ -5567,7 +5577,8 @@
       "jpn": "onigori"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Glalie",
@@ -5732,7 +5743,8 @@
       "jpn": "bohmander"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Salamence",
@@ -5777,7 +5789,8 @@
       "jpn": "metagross"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Metagross",
@@ -5871,7 +5884,8 @@
       "jpn": "kaiorga"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "primal": {}
     },
     "name": {
       "eng": "Kyogre",
@@ -5886,7 +5900,8 @@
       "jpn": "groudon"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "primal": {}
     },
     "name": {
       "eng": "Groudon",
@@ -5901,7 +5916,8 @@
       "jpn": "rayquaza"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Rayquaza",
@@ -6595,7 +6611,8 @@
       "jpn": "mimilop"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Lopunny",
@@ -7307,7 +7324,8 @@
       "jpn": "erureido"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Gallade",
@@ -8230,7 +8248,8 @@
       "jpn": "tabunne"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Audino",
@@ -11248,7 +11267,8 @@
       "jpn": "diancie"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "mega": {}
     },
     "name": {
       "eng": "Diancie",
@@ -11263,7 +11283,8 @@
       "jpn": "hoopa"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "unbound": {}
     },
     "name": {
       "eng": "Hoopa",
