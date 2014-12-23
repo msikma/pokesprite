@@ -109,7 +109,7 @@ See the [wiki](https://github.com/msikma/pokesprite/wiki) for more general infor
 Credits
 -------
 
-The Pokémon box icons were ripped by *Zhorken*. All other icons were ripped by *Kaphotics*. Both can be found at [Project Pokémon](http://projectpokemon.org/).
+The Pokémon box icons were ripped by *Zhorken*. All other icons were ripped by *Kaphotics*, who also ripped the new ORAS sprites. Both can be found at [Project Pokémon](http://projectpokemon.org/).
 
 The icons were then reorganized and cleaned up by *Dada78641*, who also wrote the script and created all the shiny versions of the Pokémon icons. For a full list of project contributors, see the commit log.
 
