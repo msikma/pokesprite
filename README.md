@@ -106,6 +106,13 @@ More information
 
 See the [wiki](https://github.com/msikma/pokesprite/wiki) for more general information about the project and its development. There's also a [frequently asked questions](https://github.com/msikma/pokesprite/wiki/FAQ-and-other-notes) page and a [full icon overview](https://github.com/msikma/pokesprite/wiki/Overview).
 
+Using in other projects
+-----------------------
+
+Feel free to use anything from this project in your own work. There's no need to give credit, especially if it's not convenient (e.g. in a blog or forum post). Of course, adding a link to the project is appreciated, but you don't need to.
+
+If you use this project or some of the icons, I'd love to see how they look. You can email me on [mike@letsdeliver.com](mailto:mike@letsdeliver.com) or message me on [/u/dada_](http://www.reddit.com/user/dada_/).
+
 Credits
 -------
 
