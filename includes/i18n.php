@@ -41,6 +41,7 @@ class I18n
             'icon_dir_failure' => "<frm=red>Couldn't open icon directory (%s). Skipping.</frm>\n",
             'dir_create' => "Creating output directory.\n",
             'dir_error' => "<frm=red>Couldn't create directories.</frm>\n",
+            'gd_error' => "<frm=red>Error: GD functions seem to be missing, e.g. imagecreatefrompng(). Install them or recompile PHP with GD support, then try again.</frm>\n",
             'dir_success' => "<frm=green>Dirs successfully created.</frm>\n",
             'no_cli' => "<frm=red>We don't seem to be running via the command line. Keep in mind this tool was designed for command line usage, and hasn't been tested in other situations.</frm>\n",
             'pngcrush_missing' => "<frm=red>pngcrush seems to be missing (path: %s). By default, it needs to be in the tools directory, chmodded to be executable, and at least version 1.7.60.\nImage will not be optimized by pngcrush.</frm>\n",

@@ -105,6 +105,12 @@ I18n::set_default_lines();
 $termfrm = new TerminalFormatter();
 I18n::add_output_filter(array('PkSpr\TerminalFormatter', 'format'));
 
+// Check if we have GD.
+if (!function_exists('imagecreatefrompng')) {
+    print(I18n::l('gd_error'));
+    die();
+}
+
 // Print basic program info.
 print(I18n::lf('info', array(
     $title_str,
