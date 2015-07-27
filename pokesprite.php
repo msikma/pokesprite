@@ -51,6 +51,8 @@
 
 namespace PkSpr;
 
+error_reporting(0);
+
 require_once 'includes/templateformatter.php';
 require_once 'includes/terminalformatter.php';
 require_once 'includes/settings.php';
