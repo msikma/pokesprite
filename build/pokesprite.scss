@@ -1,10 +1,10 @@
 @charset 'UTF-8';
 /*!
- * PokéSprite r39 <https://github.com/msikma/pokesprite>
- * (C) 2014, Michiel Sikma <dada@doubla.de> and PokéSprite contributors
- * (C) 1995-2014 Nintendo/Creatures Inc./GAME FREAK Inc.
+ * PokéSprite r49 <https://github.com/msikma/pokesprite>
+ * (C) 2014-2015, Michiel Sikma <dada@doubla.de> and PokéSprite contributors
+ * (C) 1995-2015 Nintendo/Creatures Inc./GAME FREAK Inc.
  * For a full list of contributors, view the project commit history.
- * Generated on 2014-12-24 00:12:03.
+ * Generated on 2015-08-03 03:56:06.
  */
 
 $pkspr-sprite-url: 'pokesprite.png';
@@ -2973,6 +2973,27 @@ $pkspr-coords: (
 $pkspr-compatibility-mode: true;
 
 /**
+ * Mixin that ensures crisp rendering on modern browsers by setting
+ * the resizing algorithm to nearest neighbor.
+ */
+@mixin crisp-rendering()
+{
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+}
+
+/**
+ * Mixin that resets the rendering of the sprites back to standard.
+ */
+@mixin standard-rendering()
+{
+  -ms-interpolation-mode: inherit;
+  image-rendering: inherit;
+}
+
+/**
  * Base icon CSS.
  *
  * The display mode is determined by the element used in the HTML.
@@ -2987,6 +3008,7 @@ $pkspr-compatibility-mode: true;
  * The element is added by the JS code.
  */
 .pkspr {
+  @include crisp-rendering();
   display: inline-block;
   position: relative;
   vertical-align: baseline;
@@ -3034,6 +3056,11 @@ $pkspr-compatibility-mode: true;
       -ms-filter: 'FlipH';
     }
     transform: scaleX(-1);
+  }
+  
+  // Resets the image display back to normal, in case the end user wants it.
+  &.interpolated {
+    @include standard-rendering();
   }
   
   // The sizes of all available icon types follow.

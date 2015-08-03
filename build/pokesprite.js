@@ -1,9 +1,9 @@
 /** @preserve
- * PokéSprite r39 <https://github.com/msikma/pokesprite>
- * (C) 2014, Michiel Sikma <dada@doubla.de> and PokéSprite contributors
- * (C) 1995-2014 Nintendo/Creatures Inc./GAME FREAK Inc.
+ * PokéSprite r49 <https://github.com/msikma/pokesprite>
+ * (C) 2014-2015, Michiel Sikma <dada@doubla.de> and PokéSprite contributors
+ * (C) 1995-2015 Nintendo/Creatures Inc./GAME FREAK Inc.
  * For a full list of contributors, view the project commit history.
- * Generated on 2014-12-24 00:12:03.
+ * Generated on 2015-08-03 03:56:06.
  *
  */
 ;(function(){
@@ -253,11 +253,11 @@ window["PkSpr"] = (function()
       "type": null,
       "slug": null,
       "form": ".",
-      "dir": ".",
+      "gender": ".",
       "color": "regular"
     };
     var props = {
-      "flipped": false
+      "flipped": attrs.dir === 'right'
     };
     
     for (attr in fallbacks) {
@@ -367,8 +367,8 @@ window["PkSpr"] = (function()
             node_attrs[var_key] = var_val;
           }
           else {
-            node_attrs[var_mapping.k] = var_key;
-            node_attrs[var_mapping.v] = var_val;
+            node_attrs[var_mapping['k']] = var_key;
+            node_attrs[var_mapping['v']] = var_val;
           }
         }
       }
