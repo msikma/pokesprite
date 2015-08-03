@@ -253,11 +253,11 @@ window["PkSpr"] = (function()
       "type": null,
       "slug": null,
       "form": ".",
-      "dir": ".",
+      "gender": ".",
       "color": "{{$fallback_color}}"
     };
     var props = {
-      "flipped": false
+      "flipped": attrs.dir === 'right'
     };
     
     for (attr in fallbacks) {
