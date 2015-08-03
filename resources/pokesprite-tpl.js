@@ -367,8 +367,8 @@ window["PkSpr"] = (function()
             node_attrs[var_key] = var_val;
           }
           else {
-            node_attrs[var_mapping.k] = var_key;
-            node_attrs[var_mapping.v] = var_val;
+            node_attrs[var_mapping['k']] = var_key;
+            node_attrs[var_mapping['v']] = var_val;
           }
         }
       }
