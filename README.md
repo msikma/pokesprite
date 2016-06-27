@@ -113,6 +113,8 @@ Feel free to use anything from this project in your own work. There's no need to
 
 If you use this project or some of the icons, I'd love to see how they look. You can email me on [mike@letsdeliver.com](mailto:mike@letsdeliver.com) or message me on [/u/dada_](http://www.reddit.com/user/dada_/).
 
+* [User fistingfish on Reddit made these shiny sprite perler beads](http://imgur.com/a/4UybW)
+
 Credits
 -------
 
