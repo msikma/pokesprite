@@ -11306,5 +11306,20 @@
       "jpn": "\u30dc\u30eb\u30b1\u30cb\u30aa\u30f3",
       "jpn_ro": "Volcanion"
     }
+  },
+  "722": {
+    "idx": 722,
+    "slug": {
+      "eng": "rowlet",
+      "jpn": "mokuroh"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Rowlet",
+      "jpn": "\u30e2\u30af\u30ed\u30fc",
+      "jpn_ro": "Mokuroh"
+    }
   }
 }
