@@ -11321,5 +11321,200 @@
       "jpn": "\u30e2\u30af\u30ed\u30fc",
       "jpn_ro": "Mokuroh"
     }
+  },
+  "723": {
+    "idx": 723,
+    "slug": {
+      "eng": "dartrix",
+      "jpn": "fukuthrow"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dartrix",
+      "jpn": "\u30d5\u30af\u30b9\u30ed\u30fc",
+      "jpn_ro": "Fukuthrow"
+    }
+  },
+  "724": {
+    "idx": 724,
+    "slug": {
+      "eng": "decidueye",
+      "jpn": "junaiper"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Decidueye",
+      "jpn": "\u30b8\u30e5\u30ca\u30a4\u30d1\u30fc",
+      "jpn_ro": "Junaiper"
+    }
+  },
+  "725": {
+    "idx": 725,
+    "slug": {
+      "eng": "litten",
+      "jpn": "nyabby"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Litten",
+      "jpn": "\u30cb\u30e3\u30d3\u30fc",
+      "jpn_ro": "Nyabby"
+    }
+  },
+  "726": {
+    "idx": 726,
+    "slug": {
+      "eng": "torracat",
+      "jpn": "nyaheat"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Torracat",
+      "jpn": "\u30cb\u30e3\u30d2\u30fc\u30c8",
+      "jpn_ro": "Nyaheat"
+    }
+  },
+  "727": {
+    "idx": 727,
+    "slug": {
+      "eng": "incineroar",
+      "jpn": "gaogaen"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Incineroar",
+      "jpn": "\u30ac\u30aa\u30ac\u30a8\u30f3",
+      "jpn_ro": "Gaogaen"
+    }
+  },
+  "728": {
+    "idx": 728,
+    "slug": {
+      "eng": "popplio",
+      "jpn": "ashimari"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Popplio",
+      "jpn": "\u30a2\u30b7\u30de\u30ea",
+      "jpn_ro": "Ashimari"
+    }
+  },
+  "729": {
+    "idx": 729,
+    "slug": {
+      "eng": "brionne",
+      "jpn": "osyamari"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Brionne",
+      "jpn": "\u30aa\u30b7\u30e3\u30de\u30ea",
+      "jpn_ro": "Osyamari"
+    }
+  },
+  "730": {
+    "idx": 730,
+    "slug": {
+      "eng": "primarina",
+      "jpn": "ashirene"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Primarina",
+      "jpn": "\u30a2\u30b7\u30ec\u30fc\u30cc",
+      "jpn_ro": "Ashirene"
+    }
+  },
+  "731": {
+    "idx": 731,
+    "slug": {
+      "eng": "pikipek",
+      "jpn": "tsutsukera"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pikipek",
+      "jpn": "\u30c4\u30c4\u30b1\u30e9",
+      "jpn_ro": "Tsutsukera"
+    }
+  },
+  "732": {
+    "idx": 732,
+    "slug": {
+      "eng": "trumbeak",
+      "jpn": "kerarappa"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Trumbeak",
+      "jpn": "\u30b1\u30e9\u30e9\u30c3\u30d1",
+      "jpn_ro": "Kerarappa"
+    }
+  },
+  "733": {
+    "idx": 733,
+    "slug": {
+      "eng": "toucannon",
+      "jpn": "dodekabashi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Toucannon",
+      "jpn": "\u30c9\u30c7\u30ab\u30d0\u30b7",
+      "jpn_ro": "Dodekabashi"
+    }
+  },
+  "734": {
+    "idx": 734,
+    "slug": {
+      "eng": "yungoos",
+      "jpn": "yangusu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Yungoos",
+      "jpn": "\u30e4\u30f3\u30b0\u30fc\u30b9",
+      "jpn_ro": "Yangūsu"
+    }
+  },
+  "735": {
+    "idx": 735,
+    "slug": {
+      "eng": "gumshoos",
+      "jpn": "dekagusu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Gumshoos",
+      "jpn": "\u30c7\u30ab\u30b0\u30fc\u30b9",
+      "jpn_ro": "Dekagūsu"
+    }
   }
 }
