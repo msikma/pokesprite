@@ -11516,5 +11516,165 @@
       "jpn": "\u30c7\u30ab\u30b0\u30fc\u30b9",
       "jpn_ro": "Dekagūsu"
     }
+  },
+  "736": {
+    "idx": 736,
+    "slug": {
+      "eng": "grubbin",
+      "jpn": "agojimushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Grubbin",
+      "jpn": "\u30a2\u30b4\u30b8\u30e0\u30b7",
+      "jpn_ro": "Agojimushi"
+    }
+  },
+  "737": {
+    "idx": 737,
+    "slug": {
+      "eng": "charjabug",
+      "jpn": "denjimushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Charjabug",
+      "jpn": "\u30c7\u30f3\u30c2\u30e0\u30b7",
+      "jpn_ro": "Denjimushi"
+    }
+  },
+  "738": {
+    "idx": 738,
+    "slug": {
+      "eng": "vikavolt",
+      "jpn": "kuwaganon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Vikavolt",
+      "jpn": "\u30af\u30ef\u30ac\u30ce\u30f3",
+      "jpn_ro": "Kuwaganon"
+    }
+  },
+  "739": {
+    "idx": 739,
+    "slug": {
+      "eng": "crabrawler",
+      "jpn": "makenkani"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Crabrawler",
+      "jpn": "\u30de\u30b1\u30f3\u30ab\u30cb",
+      "jpn_ro": "Makenkani"
+    }
+  },
+  "740": {
+    "idx": 740,
+    "slug": {
+      "eng": "crabominable",
+      "jpn": "kekenkani"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Crabominable",
+      "jpn": "\u30b1\u30b1\u30f3\u30ab\u30cb",
+      "jpn_ro": "Kekenkani"
+    }
+  },
+  "741": {
+    "idx": 741,
+    "slug": {
+      "eng": "oricorio",
+      "jpn": "odoridori"
+    },
+    "icons": {
+      ".": {},
+      "baile": {
+        "is_duplicate": true
+      },
+      "pom-pom": {},
+      "pa-u": {},
+      "sensu": {}
+    },
+    "name": {
+      "eng": "Oricorio",
+      "jpn": "\u30aa\u30c9\u30ea\u30c9\u30ea",
+      "jpn_ro": "Odoridori"
+    }
+  },
+  "742": {
+    "idx": 742,
+    "slug": {
+      "eng": "cutiefly",
+      "jpn": "abuly"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cutiefly",
+      "jpn": "\u30a2\u30d6\u30ea\u30fc",
+      "jpn_ro": "Abuly"
+    }
+  },
+  "743": {
+    "idx": 743,
+    "slug": {
+      "eng": "ribombee",
+      "jpn": "aburibon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Ribombee",
+      "jpn": "\u30a2\u30d6\u30ea\u30dc\u30f3",
+      "jpn_ro": "Aburibon"
+    }
+  },
+  "744": {
+    "idx": 744,
+    "slug": {
+      "eng": "rockruff",
+      "jpn": "iwanko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Rockruff",
+      "jpn": "\u30a4\u30ef\u30f3\u30b3",
+      "jpn_ro": "Iwanko"
+    }
+  },
+  "745": {
+    "idx": 745,
+    "slug": {
+      "eng": "lycanroc",
+      "jpn": "lugalgan"
+    },
+    "icons": {
+      ".": {},
+      "midday": {
+        "is_duplicate": true
+      },
+      "midnight": {}
+    },
+    "name": {
+      "eng": "Lycanroc",
+      "jpn": "\u30eb\u30ac\u30eb\u30ac\u30f3",
+      "jpn_ro": "Lugalgan"
+    }
   }
 }
