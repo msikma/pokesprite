@@ -11676,5 +11676,114 @@
       "jpn": "\u30eb\u30ac\u30eb\u30ac\u30f3",
       "jpn_ro": "Lugalgan"
     }
+  },
+  "746": {
+    "idx": 746,
+    "slug": {
+      "eng": "wishiwashi",
+      "jpn": "yowashi"
+    },
+    "icons": {
+      ".": {},
+      "solo": {
+        "is_duplicate": true
+      },
+      "school": {}
+    },
+    "name": {
+      "eng": "Wishiwashi",
+      "jpn": "\u30e8\u30ef\u30b7",
+      "jpn_ro": "Yowashi"
+    }
+  },
+  "747": {
+    "idx": 747,
+    "slug": {
+      "eng": "mareanie",
+      "jpn": "hidoide"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mareanie",
+      "jpn": "\u30d2\u30c9\u30a4\u30c7",
+      "jpn_ro": "Hidoide"
+    }
+  },
+  "748": {
+    "idx": 748,
+    "slug": {
+      "eng": "toxapex",
+      "jpn": "dohidoide"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Toxapex",
+      "jpn": "\u30c9\u30d2\u30c9\u30a4\u30c7",
+      "jpn_ro": "Dohidoide"
+    }
+  },
+  "749": {
+    "idx": 749,
+    "slug": {
+      "eng": "mudbray",
+      "jpn": "dorobanko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mudbray",
+      "jpn": "\u30c9\u30ed\u30d0\u30f3\u30b3",
+      "jpn_ro": "Dorobanko"
+    }
+  },
+  "750": {
+    "idx": 750,
+    "slug": {
+      "eng": "mudsdale",
+      "jpn": "banbadoro"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mudsdale",
+      "jpn": "\u30d0\u30f3\u30d0\u30c9\u30ed",
+      "jpn_ro": "Banbadoro"
+    }
+  },
+  "751": {
+    "idx": 751,
+    "slug": {
+      "eng": "dewpider",
+      "jpn": "shizukumo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dewpider",
+      "jpn": "\u30b7\u30ba\u30af\u30e2",
+      "jpn_ro": "Shizukumo"
+    }
+  },
+  "752": {
+    "idx": 752,
+    "slug": {
+      "eng": "araquanid",
+      "jpn": "onishizukumo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Araquanid",
+      "jpn": "\u30aa\u30cb\u30b7\u30ba\u30af\u30e2",
+      "jpn_ro": "Onishizukumo"
+    }
   }
 }
