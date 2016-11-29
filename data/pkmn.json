@@ -11785,5 +11785,170 @@
       "jpn": "\u30aa\u30cb\u30b7\u30ba\u30af\u30e2",
       "jpn_ro": "Onishizukumo"
     }
+  },
+  "753": {
+    "idx": 753,
+    "slug": {
+      "eng": "fomantis",
+      "jpn": "farikiri"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Fomantis",
+      "jpn": "\u30ab\u30ea\u30ad\u30ea",
+      "jpn_ro": "Karikiri"
+    }
+  },
+  "754": {
+    "idx": 754,
+    "slug": {
+      "eng": "lurantis",
+      "jpn": "rarantesu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Lurantis",
+      "jpn": "\u30e9\u30e9\u30f3\u30c6\u30b9",
+      "jpn_ro": "Rarantesu"
+    }
+  },
+  "755": {
+    "idx": 755,
+    "slug": {
+      "eng": "morelull",
+      "jpn": "nemashu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Morelull",
+      "jpn": "\u30cd\u30de\u30b7\u30e5",
+      "jpn_ro": "Nemashu"
+    }
+  },
+  "756": {
+    "idx": 756,
+    "slug": {
+      "eng": "shiinotic",
+      "jpn": "mashedo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Shiinotic",
+      "jpn": "\u30de\u30b7\u30a7\u30fc\u30c9",
+      "jpn_ro": "Mashēdo"
+    }
+  },
+  "757": {
+    "idx": 757,
+    "slug": {
+      "eng": "salandit",
+      "jpn": "yatomori"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Salandit",
+      "jpn": "\u30e4\u30c8\u30a6\u30e2\u30ea",
+      "jpn_ro": "Yatōmori"
+    }
+  },
+  "758": {
+    "idx": 758,
+    "slug": {
+      "eng": "salazzle",
+      "jpn": "ennyuto"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Salazzle",
+      "jpn": "\u30a8\u30f3\u30cb\u30e5\u30fc\u30c8",
+      "jpn_ro": "Ennyūto"
+    }
+  },
+  "759": {
+    "idx": 759,
+    "slug": {
+      "eng": "stufful",
+      "jpn": "nuikoguma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Stufful",
+      "jpn": "\u30cc\u30a4\u30b3\u30b0\u30de",
+      "jpn_ro": "Nuikoguma"
+    }
+  },
+  "760": {
+    "idx": 760,
+    "slug": {
+      "eng": "bewear",
+      "jpn": "kiteruguma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bewear",
+      "jpn": "\u30ad\u30c6\u30eb\u30b0\u30de",
+      "jpn_ro": "Kiteruguma"
+    }
+  },
+  "761": {
+    "idx": 761,
+    "slug": {
+      "eng": "bounsweet",
+      "jpn": "amakaji"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bounsweet",
+      "jpn": "\u30a2\u30de\u30ab\u30b8",
+      "jpn_ro": "Amakaji"
+    }
+  },
+  "762": {
+    "idx": 762,
+    "slug": {
+      "eng": "steenee",
+      "jpn": "amamaiko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Steenee",
+      "jpn": "\u30a2\u30de\u30de\u30a4\u30b3",
+      "jpn_ro": "Amamaiko"
+    }
+  },
+  "763": {
+    "idx": 763,
+    "slug": {
+      "eng": "tsareena",
+      "jpn": "amajo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tsareena",
+      "jpn": "\u30a2\u30de\u30fc\u30b8\u30e7",
+      "jpn_ro": "Amajo"
+    }
   }
 }
