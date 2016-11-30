@@ -12143,5 +12143,215 @@
       "jpn": "\u30e1\u30c6\u30ce",
       "jpn_ro": "Meteno"
     }
+  },
+  "775": {
+    "idx": 775,
+    "slug": {
+      "eng": "komala",
+      "jpn": "nekkoara"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Komala",
+      "jpn": "\u30cd\u30c3\u30b3\u30a2\u30e9",
+      "jpn_ro": "Nekkoara"
+    }
+  },
+  "776": {
+    "idx": 776,
+    "slug": {
+      "eng": "turtonator",
+      "jpn": "bakugames"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Turtonator",
+      "jpn": "\u30d0\u30af\u30ac\u30e1\u30b9",
+      "jpn_ro": "Bakugames"
+    }
+  },
+  "777": {
+    "idx": 777,
+    "slug": {
+      "eng": "togedemaru",
+      "jpn": "togedemaru"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Togedemaru",
+      "jpn": "\u30c8\u30b2\u30c7\u30de\u30eb",
+      "jpn_ro": "Togedemaru"
+    }
+  },
+  "778": {
+    "idx": 778,
+    "slug": {
+      "eng": "mimikyu",
+      "jpn": "mimikkyu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mimikyu",
+      "jpn": "\u30df\u30df\u30c3\u30ad\u30e5",
+      "jpn_ro": "Mimikkyu"
+    }
+  },
+  "779": {
+    "idx": 779,
+    "slug": {
+      "eng": "bruxish",
+      "jpn": "hagigishiri"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bruxish",
+      "jpn": "\u30cf\u30ae\u30ae\u30b7\u30ea",
+      "jpn_ro": "Hagigishiri"
+    }
+  },
+  "780": {
+    "idx": 780,
+    "slug": {
+      "eng": "drampa",
+      "jpn": "jijiron"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Drampa",
+      "jpn": "\u30b8\u30b8\u30fc\u30ed\u30f3",
+      "jpn_ro": "Jijīron"
+    }
+  },
+  "781": {
+    "idx": 781,
+    "slug": {
+      "eng": "dhelmise",
+      "jpn": "dadarin"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dhelmise",
+      "jpn": "\u30c0\u30c0\u30ea\u30f3",
+      "jpn_ro": "Dadarin"
+    }
+  },
+  "782": {
+    "idx": 782,
+    "slug": {
+      "eng": "jangmo-o",
+      "jpn": "jarako"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Jangmo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30b3",
+      "jpn_ro": "Jarako"
+    }
+  },
+  "783": {
+    "idx": 783,
+    "slug": {
+      "eng": "hakamo-o",
+      "jpn": "jarango"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Hakamo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30f3\u30b4",
+      "jpn_ro": "Jarango"
+    }
+  },
+  "784": {
+    "idx": 784,
+    "slug": {
+      "eng": "kommo-o",
+      "jpn": "jararanga"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Kommo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30e9\u30f3\u30ac",
+      "jpn_ro": "Jararanga"
+    }
+  },
+  "785": {
+    "idx": 785,
+    "slug": {
+      "eng": "tapu-koko",
+      "jpn": "kapu-kokeko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Koko",
+      "jpn": "\u30ab\u30d7\u30fb\u30b3\u30b1\u30b3",
+      "jpn_ro": "Kapu-Kokeko"
+    }
+  },
+  "786": {
+    "idx": 786,
+    "slug": {
+      "eng": "tapu-lele",
+      "jpn": "kapu-tetefu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Lele",
+      "jpn": "\u30ab\u30d7\u30fb\u30c6\u30c6\u30d5",
+      "jpn_ro": "Kapu-Tetefu"
+    }
+  },
+  "787": {
+    "idx": 781,
+    "slug": {
+      "eng": "tapu-bulu",
+      "jpn": "kapu-bulul"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Bulu",
+      "jpn": "\u30ab\u30d7\u30fb\u30d6\u30eb\u30eb",
+      "jpn_ro": "Kapu-Bulul"
+    }
+  },
+  "788": {
+    "idx": 788,
+    "slug": {
+      "eng": "tapu-fini",
+      "jpn": "kapu-rehire"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Fini",
+      "jpn": "\u30ab\u30d7\u30fb\u30ec\u30d2\u30ec",
+      "jpn_ro": "Kapu-Rehire"
+    }
   }
 }
