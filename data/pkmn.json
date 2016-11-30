@@ -12100,5 +12100,48 @@
       "jpn": "\u30b7\u30eb\u30f4\u30a1\u30c7\u30a3",
       "jpn_ro": "Silvady"
     }
+  },
+  "774": {
+    "idx": 774,
+    "slug": {
+      "eng": "minior",
+      "jpn": "meteno"
+    },
+    "icons": {
+      ".": {},
+      "meteor-red": {
+        "is_duplicate": true
+      },
+      "meteor-orange": {
+        "is_duplicate": true
+      },
+      "meteor-yellow": {
+        "is_duplicate": true
+      },
+      "meteor-green": {
+        "is_duplicate": true
+      },
+      "meteor-blue": {
+        "is_duplicate": true
+      },
+      "meteor-indigo": {
+        "is_duplicate": true
+      },
+      "meteor-violet": {
+        "is_duplicate": true
+      },
+      "core-red": {},
+      "core-orange": {},
+      "core-yellow": {},
+      "core-green": {},
+      "core-blue": {},
+      "core-indigo": {},
+      "core-violet": {}
+    },
+    "name": {
+      "eng": "Minior",
+      "jpn": "\u30e1\u30c6\u30ce",
+      "jpn_ro": "Meteno"
+    }
   }
 }
