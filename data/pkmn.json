@@ -12070,5 +12070,35 @@
       "jpn": "\u30ca\u30de\u30b3\u30d6\u30b7",
       "jpn_ro": "Namakobushi"
     }
+  },
+  "772": {
+    "idx": 772,
+    "slug": {
+      "eng": "type-null",
+      "jpn": "type-null"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Type: Null",
+      "jpn": "\u30bf\u30a4\u30d7\uff1a\u30cc\u30eb",
+      "jpn_ro": "Type: Null"
+    }
+  },
+  "773": {
+    "idx": 773,
+    "slug": {
+      "eng": "silvally",
+      "jpn": "silvady"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Silvally",
+      "jpn": "\u30b7\u30eb\u30f4\u30a1\u30c7\u30a3",
+      "jpn_ro": "Silvady"
+    }
   }
 }
