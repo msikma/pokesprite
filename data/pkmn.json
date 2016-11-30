@@ -11950,5 +11950,125 @@
       "jpn": "\u30a2\u30de\u30fc\u30b8\u30e7",
       "jpn_ro": "Amajo"
     }
+  },
+  "764": {
+    "idx": 764,
+    "slug": {
+      "eng": "comfey",
+      "jpn": "cuwawa"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Comfey",
+      "jpn": "\u30ad\u30e5\u30ef\u30ef\u30fc",
+      "jpn_ro": "Cuwawa"
+    }
+  },
+  "765": {
+    "idx": 765,
+    "slug": {
+      "eng": "oranguru",
+      "jpn": "yareyutan"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Oranguru",
+      "jpn": "\u30e4\u30ec\u30e6\u30fc\u30bf\u30f3",
+      "jpn_ro": "Yareyūtan"
+    }
+  },
+  "766": {
+    "idx": 766,
+    "slug": {
+      "eng": "passimian",
+      "jpn": "nagetsukesaru"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Passimian",
+      "jpn": "\u30ca\u30b2\u30c4\u30b1\u30b5\u30eb",
+      "jpn_ro": "Nagetsukesaru"
+    }
+  },
+  "767": {
+    "idx": 767,
+    "slug": {
+      "eng": "wimpod",
+      "jpn": "kosokumushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Wimpod",
+      "jpn": "\u30b3\u30bd\u30af\u30e0\u30b7",
+      "jpn_ro": "Kosokumushi"
+    }
+  },
+  "768": {
+    "idx": 768,
+    "slug": {
+      "eng": "golisopod",
+      "jpn": "gusokumusha"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Golisopod",
+      "jpn": "\u30b0\u30bd\u30af\u30e0\u30b7\u30e3",
+      "jpn_ro": "Gusokumusha"
+    }
+  },
+  "769": {
+    "idx": 769,
+    "slug": {
+      "eng": "sandygast",
+      "jpn": "sunaba"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Sandygast",
+      "jpn": "\u30b9\u30ca\u30d0\u30a1",
+      "jpn_ro": "Sunabā"
+    }
+  },
+  "770": {
+    "idx": 770,
+    "slug": {
+      "eng": "palossand",
+      "jpn": "shirodesuna"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Palossand",
+      "jpn": "\u30b7\u30ed\u30c7\u30b9\u30ca",
+      "jpn_ro": "Shirodesuna"
+    }
+  },
+  "771": {
+    "idx": 771,
+    "slug": {
+      "eng": "pyukumuku",
+      "jpn": "namakobushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pyukumuku",
+      "jpn": "\u30ca\u30de\u30b3\u30d6\u30b7",
+      "jpn_ro": "Namakobushi"
+    }
   }
 }
