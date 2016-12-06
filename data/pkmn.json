@@ -12353,5 +12353,35 @@
       "jpn": "\u30ab\u30d7\u30fb\u30ec\u30d2\u30ec",
       "jpn_ro": "Kapu-Rehire"
     }
+  },
+  "789": {
+    "idx": 789,
+    "slug": {
+      "eng": "cosmog",
+      "jpn": "cosmog"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cosmog",
+      "jpn": "\u30b3\u30b9\u30e2\u30c3\u30b0",
+      "jpn_ro": "Cosmog"
+    }
+  },
+  "790": {
+    "idx": 790,
+    "slug": {
+      "eng": "cosmoem",
+      "jpn": "cosmovum"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cosmoem",
+      "jpn": "\u30b3\u30b9\u30e2\u30a6\u30e0",
+      "jpn_ro": "Cosmovum"
+    }
   }
 }
