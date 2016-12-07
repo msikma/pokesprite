@@ -12383,5 +12383,110 @@
       "jpn": "\u30b3\u30b9\u30e2\u30a6\u30e0",
       "jpn_ro": "Cosmovum"
     }
+  },
+  "791": {
+    "idx": 791,
+    "slug": {
+      "eng": "solgaleo",
+      "jpn": "solgaleo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Solgaleo",
+      "jpn": "\u30bd\u30eb\u30ac\u30ec\u30aa",
+      "jpn_ro": "Solgaleo"
+    }
+  },
+  "792": {
+    "idx": 792,
+    "slug": {
+      "eng": "lunala",
+      "jpn": "lunala"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Lunala",
+      "jpn": "\u30eb\u30ca\u30a2\u30fc\u30e9",
+      "jpn_ro": "Lunala"
+    }
+  },
+  "793": {
+    "idx": 793,
+    "slug": {
+      "eng": "nihilego",
+      "jpn": "utsuroido"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Nihilego",
+      "jpn": "\u30a6\u30c4\u30ed\u30a4\u30c9",
+      "jpn_ro": "Utsuroido"
+    }
+  },
+  "794": {
+    "idx": 794,
+    "slug": {
+      "eng": "buzzwole",
+      "jpn": "masshibun"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Buzzwole",
+      "jpn": "\u30de\u30c3\u30b7\u30d6\u30fc\u30f3",
+      "jpn_ro": "Masshibūn"
+    }
+  },
+  "795": {
+    "idx": 795,
+    "slug": {
+      "eng": "pheromosa",
+      "jpn": "feroche"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pheromosa",
+      "jpn": "\u30d5\u30a7\u30ed\u30fc\u30c1\u30a7",
+      "jpn_ro": "Ferōche"
+    }
+  },
+  "796": {
+    "idx": 796,
+    "slug": {
+      "eng": "xurkitree",
+      "jpn": "denjumoku"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Xurkitree",
+      "jpn": "\u30c7\u30f3\u30b8\u30e5\u30e2\u30af",
+      "jpn_ro": "Denjumoku"
+    }
+  },
+  "797": {
+    "idx": 797,
+    "slug": {
+      "eng": "celesteela",
+      "jpn": "tekkaguya"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Celesteela",
+      "jpn": "\u30c6\u30c3\u30ab\u30b0\u30e4",
+      "jpn_ro": "Tekkaguya"
+    }
   }
 }
