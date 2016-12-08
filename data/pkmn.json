@@ -12488,5 +12488,81 @@
       "jpn": "\u30c6\u30c3\u30ab\u30b0\u30e4",
       "jpn_ro": "Tekkaguya"
     }
+  },
+  "798": {
+    "idx": 798,
+    "slug": {
+      "eng": "kartana",
+      "jpn": "kamitsurugi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Kartana",
+      "jpn": "\u30ab\u30df\u30c4\u30eb\u30ae",
+      "jpn_ro": "Kamitsurugi"
+    }
+  },
+  "799": {
+    "idx": 799,
+    "slug": {
+      "eng": "guzzlord",
+      "jpn": "akujikingu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Guzzlord",
+      "jpn": "\u30a2\u30af\u30b8\u30ad\u30f3\u30b0",
+      "jpn_ro": "Akujikingu"
+    }
+  },
+  "800": {
+    "idx": 800,
+    "slug": {
+      "eng": "necrozma",
+      "jpn": "necrozma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Necrozma",
+      "jpn": "\u30cd\u30af\u30ed\u30ba\u30de",
+      "jpn_ro": "Necrozma"
+    }
+  },
+  "801": {
+    "idx": 801,
+    "slug": {
+      "eng": "magearna",
+      "jpn": "magearna"
+    },
+    "icons": {
+      ".": {},
+      "original": {}
+    },
+    "name": {
+      "eng": "Magearna",
+      "jpn": "\u30de\u30ae\u30a2\u30ca",
+      "jpn_ro": "Magearna"
+    }
+  },
+  "802": {
+    "idx": 802,
+    "slug": {
+      "eng": "marshadow",
+      "jpn": "marshadow"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Marshadow",
+      "jpn": "\u30de\u30fc\u30b7\u30e3\u30c9\u30fc",
+      "jpn_ro": "Marshadow"
+    }
   }
 }
