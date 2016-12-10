@@ -11954,7 +11954,9 @@
       "jpn": "amamaiko"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Steenee",
@@ -12134,7 +12136,9 @@
       "jpn": "meteno"
     },
     "icons": {
-      ".": {},
+      ".": {
+        "has_right": true
+      },
       "meteor-red": {
         "is_duplicate": true
       },
@@ -12156,13 +12160,27 @@
       "meteor-violet": {
         "is_duplicate": true
       },
-      "core-red": {},
-      "core-orange": {},
-      "core-yellow": {},
-      "core-green": {},
-      "core-blue": {},
-      "core-indigo": {},
-      "core-violet": {}
+      "core-red": {
+        "has_right": true
+      },
+      "core-orange": {
+        "has_right": true
+      },
+      "core-yellow": {
+        "has_right": true
+      },
+      "core-green": {
+        "has_right": true
+      },
+      "core-blue": {
+        "has_right": true
+      },
+      "core-indigo": {
+        "has_right": true
+      },
+      "core-violet": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Minior",
@@ -12583,7 +12601,9 @@
       "jpn": "marshadow"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Marshadow",
