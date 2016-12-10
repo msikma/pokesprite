@@ -10,7 +10,7 @@ $verbose = false;
 $dir = @rtrim(trim($argv[1]), '/');
 $GLOBALS['file_exts'] = array('png');
 $pngcrush_path = '../tools/pngcrush';
-$pngcrush_cmd = $pngcrush_path.' -ow -fix -reduce -force -nofilecheck -brute -rem alla -oldtimestamp "%s"';
+$pngcrush_cmd = $pngcrush_path.' -ow -fix -force -nofilecheck -brute -rem alla -oldtimestamp "%s"';
 
 if (!isset($dir)) {
   print('usage: pngcrush_all.php dir'.PHP_EOL.'pngcrush_all.php: error: too few arguments'.PHP_EOL);
