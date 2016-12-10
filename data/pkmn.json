@@ -282,7 +282,8 @@
       "jpn": "koratta"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Rattata",
@@ -382,7 +383,15 @@
       "cute": {
         "has_right": true
       },
-      "tough": {}
+      "tough": {},
+      "original-cap": {
+        "has_right": true
+      },
+      "hoenn-cap": {},
+      "sinnoh-cap": {},
+      "unova-cap": {},
+      "kalos-cap": {},
+      "alola-cap": {}
     },
     "name": {
       "eng": "Pikachu",
@@ -397,7 +406,8 @@
       "jpn": "raichu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Raichu",
@@ -412,7 +422,8 @@
       "jpn": "sand"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Sandshrew",
@@ -427,7 +438,8 @@
       "jpn": "sandpan"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Sandslash",
@@ -566,7 +578,8 @@
       "jpn": "rokon"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Vulpix",
@@ -581,7 +594,8 @@
       "jpn": "kyukon"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Ninetales",
@@ -765,7 +779,8 @@
       "jpn": "digda"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Diglett",
@@ -780,7 +795,8 @@
       "jpn": "dugtrio"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Dugtrio",
@@ -795,7 +811,8 @@
       "jpn": "nyarth"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Meowth",
@@ -810,7 +827,8 @@
       "jpn": "persian"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Persian",
@@ -1130,7 +1148,8 @@
       "jpn": "ishitsubute"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Geodude",
@@ -1145,7 +1164,8 @@
       "jpn": "golone"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Graveler",
@@ -1160,7 +1180,8 @@
       "jpn": "golonya"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Golem",
@@ -1341,7 +1362,8 @@
       "jpn": "betbeter"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Grimer",
@@ -1356,7 +1378,8 @@
       "jpn": "betbeton"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Muk",
@@ -1569,7 +1592,8 @@
       "jpn": "nassy"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Exeggutor",
@@ -1599,7 +1623,8 @@
       "jpn": "garagara"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Marowak",
@@ -2612,7 +2637,8 @@
       "jpn": "pichu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "spiky-eared": {}
     },
     "name": {
       "eng": "Pichu",
@@ -11305,6 +11331,1284 @@
       "eng": "Volcanion",
       "jpn": "\u30dc\u30eb\u30b1\u30cb\u30aa\u30f3",
       "jpn_ro": "Volcanion"
+    }
+  },
+  "722": {
+    "idx": 722,
+    "slug": {
+      "eng": "rowlet",
+      "jpn": "mokuroh"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Rowlet",
+      "jpn": "\u30e2\u30af\u30ed\u30fc",
+      "jpn_ro": "Mokuroh"
+    }
+  },
+  "723": {
+    "idx": 723,
+    "slug": {
+      "eng": "dartrix",
+      "jpn": "fukuthrow"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dartrix",
+      "jpn": "\u30d5\u30af\u30b9\u30ed\u30fc",
+      "jpn_ro": "Fukuthrow"
+    }
+  },
+  "724": {
+    "idx": 724,
+    "slug": {
+      "eng": "decidueye",
+      "jpn": "junaiper"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Decidueye",
+      "jpn": "\u30b8\u30e5\u30ca\u30a4\u30d1\u30fc",
+      "jpn_ro": "Junaiper"
+    }
+  },
+  "725": {
+    "idx": 725,
+    "slug": {
+      "eng": "litten",
+      "jpn": "nyabby"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Litten",
+      "jpn": "\u30cb\u30e3\u30d3\u30fc",
+      "jpn_ro": "Nyabby"
+    }
+  },
+  "726": {
+    "idx": 726,
+    "slug": {
+      "eng": "torracat",
+      "jpn": "nyaheat"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Torracat",
+      "jpn": "\u30cb\u30e3\u30d2\u30fc\u30c8",
+      "jpn_ro": "Nyaheat"
+    }
+  },
+  "727": {
+    "idx": 727,
+    "slug": {
+      "eng": "incineroar",
+      "jpn": "gaogaen"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Incineroar",
+      "jpn": "\u30ac\u30aa\u30ac\u30a8\u30f3",
+      "jpn_ro": "Gaogaen"
+    }
+  },
+  "728": {
+    "idx": 728,
+    "slug": {
+      "eng": "popplio",
+      "jpn": "ashimari"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Popplio",
+      "jpn": "\u30a2\u30b7\u30de\u30ea",
+      "jpn_ro": "Ashimari"
+    }
+  },
+  "729": {
+    "idx": 729,
+    "slug": {
+      "eng": "brionne",
+      "jpn": "osyamari"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Brionne",
+      "jpn": "\u30aa\u30b7\u30e3\u30de\u30ea",
+      "jpn_ro": "Osyamari"
+    }
+  },
+  "730": {
+    "idx": 730,
+    "slug": {
+      "eng": "primarina",
+      "jpn": "ashirene"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Primarina",
+      "jpn": "\u30a2\u30b7\u30ec\u30fc\u30cc",
+      "jpn_ro": "Ashirene"
+    }
+  },
+  "731": {
+    "idx": 731,
+    "slug": {
+      "eng": "pikipek",
+      "jpn": "tsutsukera"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pikipek",
+      "jpn": "\u30c4\u30c4\u30b1\u30e9",
+      "jpn_ro": "Tsutsukera"
+    }
+  },
+  "732": {
+    "idx": 732,
+    "slug": {
+      "eng": "trumbeak",
+      "jpn": "kerarappa"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Trumbeak",
+      "jpn": "\u30b1\u30e9\u30e9\u30c3\u30d1",
+      "jpn_ro": "Kerarappa"
+    }
+  },
+  "733": {
+    "idx": 733,
+    "slug": {
+      "eng": "toucannon",
+      "jpn": "dodekabashi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Toucannon",
+      "jpn": "\u30c9\u30c7\u30ab\u30d0\u30b7",
+      "jpn_ro": "Dodekabashi"
+    }
+  },
+  "734": {
+    "idx": 734,
+    "slug": {
+      "eng": "yungoos",
+      "jpn": "yangusu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Yungoos",
+      "jpn": "\u30e4\u30f3\u30b0\u30fc\u30b9",
+      "jpn_ro": "Yangūsu"
+    }
+  },
+  "735": {
+    "idx": 735,
+    "slug": {
+      "eng": "gumshoos",
+      "jpn": "dekagusu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Gumshoos",
+      "jpn": "\u30c7\u30ab\u30b0\u30fc\u30b9",
+      "jpn_ro": "Dekagūsu"
+    }
+  },
+  "736": {
+    "idx": 736,
+    "slug": {
+      "eng": "grubbin",
+      "jpn": "agojimushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Grubbin",
+      "jpn": "\u30a2\u30b4\u30b8\u30e0\u30b7",
+      "jpn_ro": "Agojimushi"
+    }
+  },
+  "737": {
+    "idx": 737,
+    "slug": {
+      "eng": "charjabug",
+      "jpn": "denjimushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Charjabug",
+      "jpn": "\u30c7\u30f3\u30c2\u30e0\u30b7",
+      "jpn_ro": "Denjimushi"
+    }
+  },
+  "738": {
+    "idx": 738,
+    "slug": {
+      "eng": "vikavolt",
+      "jpn": "kuwaganon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Vikavolt",
+      "jpn": "\u30af\u30ef\u30ac\u30ce\u30f3",
+      "jpn_ro": "Kuwaganon"
+    }
+  },
+  "739": {
+    "idx": 739,
+    "slug": {
+      "eng": "crabrawler",
+      "jpn": "makenkani"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Crabrawler",
+      "jpn": "\u30de\u30b1\u30f3\u30ab\u30cb",
+      "jpn_ro": "Makenkani"
+    }
+  },
+  "740": {
+    "idx": 740,
+    "slug": {
+      "eng": "crabominable",
+      "jpn": "kekenkani"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Crabominable",
+      "jpn": "\u30b1\u30b1\u30f3\u30ab\u30cb",
+      "jpn_ro": "Kekenkani"
+    }
+  },
+  "741": {
+    "idx": 741,
+    "slug": {
+      "eng": "oricorio",
+      "jpn": "odoridori"
+    },
+    "icons": {
+      ".": {},
+      "baile": {
+        "is_duplicate": true
+      },
+      "pom-pom": {},
+      "pa-u": {},
+      "sensu": {}
+    },
+    "name": {
+      "eng": "Oricorio",
+      "jpn": "\u30aa\u30c9\u30ea\u30c9\u30ea",
+      "jpn_ro": "Odoridori"
+    }
+  },
+  "742": {
+    "idx": 742,
+    "slug": {
+      "eng": "cutiefly",
+      "jpn": "abuly"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cutiefly",
+      "jpn": "\u30a2\u30d6\u30ea\u30fc",
+      "jpn_ro": "Abuly"
+    }
+  },
+  "743": {
+    "idx": 743,
+    "slug": {
+      "eng": "ribombee",
+      "jpn": "aburibon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Ribombee",
+      "jpn": "\u30a2\u30d6\u30ea\u30dc\u30f3",
+      "jpn_ro": "Aburibon"
+    }
+  },
+  "744": {
+    "idx": 744,
+    "slug": {
+      "eng": "rockruff",
+      "jpn": "iwanko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Rockruff",
+      "jpn": "\u30a4\u30ef\u30f3\u30b3",
+      "jpn_ro": "Iwanko"
+    }
+  },
+  "745": {
+    "idx": 745,
+    "slug": {
+      "eng": "lycanroc",
+      "jpn": "lugalgan"
+    },
+    "icons": {
+      ".": {},
+      "midday": {
+        "is_duplicate": true
+      },
+      "midnight": {}
+    },
+    "name": {
+      "eng": "Lycanroc",
+      "jpn": "\u30eb\u30ac\u30eb\u30ac\u30f3",
+      "jpn_ro": "Lugalgan"
+    }
+  },
+  "746": {
+    "idx": 746,
+    "slug": {
+      "eng": "wishiwashi",
+      "jpn": "yowashi"
+    },
+    "icons": {
+      ".": {},
+      "solo": {
+        "is_duplicate": true
+      },
+      "school": {}
+    },
+    "name": {
+      "eng": "Wishiwashi",
+      "jpn": "\u30e8\u30ef\u30b7",
+      "jpn_ro": "Yowashi"
+    }
+  },
+  "747": {
+    "idx": 747,
+    "slug": {
+      "eng": "mareanie",
+      "jpn": "hidoide"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mareanie",
+      "jpn": "\u30d2\u30c9\u30a4\u30c7",
+      "jpn_ro": "Hidoide"
+    }
+  },
+  "748": {
+    "idx": 748,
+    "slug": {
+      "eng": "toxapex",
+      "jpn": "dohidoide"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Toxapex",
+      "jpn": "\u30c9\u30d2\u30c9\u30a4\u30c7",
+      "jpn_ro": "Dohidoide"
+    }
+  },
+  "749": {
+    "idx": 749,
+    "slug": {
+      "eng": "mudbray",
+      "jpn": "dorobanko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mudbray",
+      "jpn": "\u30c9\u30ed\u30d0\u30f3\u30b3",
+      "jpn_ro": "Dorobanko"
+    }
+  },
+  "750": {
+    "idx": 750,
+    "slug": {
+      "eng": "mudsdale",
+      "jpn": "banbadoro"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mudsdale",
+      "jpn": "\u30d0\u30f3\u30d0\u30c9\u30ed",
+      "jpn_ro": "Banbadoro"
+    }
+  },
+  "751": {
+    "idx": 751,
+    "slug": {
+      "eng": "dewpider",
+      "jpn": "shizukumo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dewpider",
+      "jpn": "\u30b7\u30ba\u30af\u30e2",
+      "jpn_ro": "Shizukumo"
+    }
+  },
+  "752": {
+    "idx": 752,
+    "slug": {
+      "eng": "araquanid",
+      "jpn": "onishizukumo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Araquanid",
+      "jpn": "\u30aa\u30cb\u30b7\u30ba\u30af\u30e2",
+      "jpn_ro": "Onishizukumo"
+    }
+  },
+  "753": {
+    "idx": 753,
+    "slug": {
+      "eng": "fomantis",
+      "jpn": "farikiri"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Fomantis",
+      "jpn": "\u30ab\u30ea\u30ad\u30ea",
+      "jpn_ro": "Karikiri"
+    }
+  },
+  "754": {
+    "idx": 754,
+    "slug": {
+      "eng": "lurantis",
+      "jpn": "rarantesu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Lurantis",
+      "jpn": "\u30e9\u30e9\u30f3\u30c6\u30b9",
+      "jpn_ro": "Rarantesu"
+    }
+  },
+  "755": {
+    "idx": 755,
+    "slug": {
+      "eng": "morelull",
+      "jpn": "nemashu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Morelull",
+      "jpn": "\u30cd\u30de\u30b7\u30e5",
+      "jpn_ro": "Nemashu"
+    }
+  },
+  "756": {
+    "idx": 756,
+    "slug": {
+      "eng": "shiinotic",
+      "jpn": "mashedo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Shiinotic",
+      "jpn": "\u30de\u30b7\u30a7\u30fc\u30c9",
+      "jpn_ro": "Mashēdo"
+    }
+  },
+  "757": {
+    "idx": 757,
+    "slug": {
+      "eng": "salandit",
+      "jpn": "yatomori"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Salandit",
+      "jpn": "\u30e4\u30c8\u30a6\u30e2\u30ea",
+      "jpn_ro": "Yatōmori"
+    }
+  },
+  "758": {
+    "idx": 758,
+    "slug": {
+      "eng": "salazzle",
+      "jpn": "ennyuto"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Salazzle",
+      "jpn": "\u30a8\u30f3\u30cb\u30e5\u30fc\u30c8",
+      "jpn_ro": "Ennyūto"
+    }
+  },
+  "759": {
+    "idx": 759,
+    "slug": {
+      "eng": "stufful",
+      "jpn": "nuikoguma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Stufful",
+      "jpn": "\u30cc\u30a4\u30b3\u30b0\u30de",
+      "jpn_ro": "Nuikoguma"
+    }
+  },
+  "760": {
+    "idx": 760,
+    "slug": {
+      "eng": "bewear",
+      "jpn": "kiteruguma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bewear",
+      "jpn": "\u30ad\u30c6\u30eb\u30b0\u30de",
+      "jpn_ro": "Kiteruguma"
+    }
+  },
+  "761": {
+    "idx": 761,
+    "slug": {
+      "eng": "bounsweet",
+      "jpn": "amakaji"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bounsweet",
+      "jpn": "\u30a2\u30de\u30ab\u30b8",
+      "jpn_ro": "Amakaji"
+    }
+  },
+  "762": {
+    "idx": 762,
+    "slug": {
+      "eng": "steenee",
+      "jpn": "amamaiko"
+    },
+    "icons": {
+      ".": {
+        "has_right": true
+      }
+    },
+    "name": {
+      "eng": "Steenee",
+      "jpn": "\u30a2\u30de\u30de\u30a4\u30b3",
+      "jpn_ro": "Amamaiko"
+    }
+  },
+  "763": {
+    "idx": 763,
+    "slug": {
+      "eng": "tsareena",
+      "jpn": "amajo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tsareena",
+      "jpn": "\u30a2\u30de\u30fc\u30b8\u30e7",
+      "jpn_ro": "Amajo"
+    }
+  },
+  "764": {
+    "idx": 764,
+    "slug": {
+      "eng": "comfey",
+      "jpn": "cuwawa"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Comfey",
+      "jpn": "\u30ad\u30e5\u30ef\u30ef\u30fc",
+      "jpn_ro": "Cuwawa"
+    }
+  },
+  "765": {
+    "idx": 765,
+    "slug": {
+      "eng": "oranguru",
+      "jpn": "yareyutan"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Oranguru",
+      "jpn": "\u30e4\u30ec\u30e6\u30fc\u30bf\u30f3",
+      "jpn_ro": "Yareyūtan"
+    }
+  },
+  "766": {
+    "idx": 766,
+    "slug": {
+      "eng": "passimian",
+      "jpn": "nagetsukesaru"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Passimian",
+      "jpn": "\u30ca\u30b2\u30c4\u30b1\u30b5\u30eb",
+      "jpn_ro": "Nagetsukesaru"
+    }
+  },
+  "767": {
+    "idx": 767,
+    "slug": {
+      "eng": "wimpod",
+      "jpn": "kosokumushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Wimpod",
+      "jpn": "\u30b3\u30bd\u30af\u30e0\u30b7",
+      "jpn_ro": "Kosokumushi"
+    }
+  },
+  "768": {
+    "idx": 768,
+    "slug": {
+      "eng": "golisopod",
+      "jpn": "gusokumusha"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Golisopod",
+      "jpn": "\u30b0\u30bd\u30af\u30e0\u30b7\u30e3",
+      "jpn_ro": "Gusokumusha"
+    }
+  },
+  "769": {
+    "idx": 769,
+    "slug": {
+      "eng": "sandygast",
+      "jpn": "sunaba"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Sandygast",
+      "jpn": "\u30b9\u30ca\u30d0\u30a1",
+      "jpn_ro": "Sunabā"
+    }
+  },
+  "770": {
+    "idx": 770,
+    "slug": {
+      "eng": "palossand",
+      "jpn": "shirodesuna"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Palossand",
+      "jpn": "\u30b7\u30ed\u30c7\u30b9\u30ca",
+      "jpn_ro": "Shirodesuna"
+    }
+  },
+  "771": {
+    "idx": 771,
+    "slug": {
+      "eng": "pyukumuku",
+      "jpn": "namakobushi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pyukumuku",
+      "jpn": "\u30ca\u30de\u30b3\u30d6\u30b7",
+      "jpn_ro": "Namakobushi"
+    }
+  },
+  "772": {
+    "idx": 772,
+    "slug": {
+      "eng": "type-null",
+      "jpn": "type-null"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Type: Null",
+      "jpn": "\u30bf\u30a4\u30d7\uff1a\u30cc\u30eb",
+      "jpn_ro": "Type: Null"
+    }
+  },
+  "773": {
+    "idx": 773,
+    "slug": {
+      "eng": "silvally",
+      "jpn": "silvady"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Silvally",
+      "jpn": "\u30b7\u30eb\u30f4\u30a1\u30c7\u30a3",
+      "jpn_ro": "Silvady"
+    }
+  },
+  "774": {
+    "idx": 774,
+    "slug": {
+      "eng": "minior",
+      "jpn": "meteno"
+    },
+    "icons": {
+      ".": {
+        "has_right": true
+      },
+      "meteor-red": {
+        "is_duplicate": true
+      },
+      "meteor-orange": {
+        "is_duplicate": true
+      },
+      "meteor-yellow": {
+        "is_duplicate": true
+      },
+      "meteor-green": {
+        "is_duplicate": true
+      },
+      "meteor-blue": {
+        "is_duplicate": true
+      },
+      "meteor-indigo": {
+        "is_duplicate": true
+      },
+      "meteor-violet": {
+        "is_duplicate": true
+      },
+      "core-red": {
+        "has_right": true
+      },
+      "core-orange": {
+        "has_right": true
+      },
+      "core-yellow": {
+        "has_right": true
+      },
+      "core-green": {
+        "has_right": true
+      },
+      "core-blue": {
+        "has_right": true
+      },
+      "core-indigo": {
+        "has_right": true
+      },
+      "core-violet": {
+        "has_right": true
+      }
+    },
+    "name": {
+      "eng": "Minior",
+      "jpn": "\u30e1\u30c6\u30ce",
+      "jpn_ro": "Meteno"
+    }
+  },
+  "775": {
+    "idx": 775,
+    "slug": {
+      "eng": "komala",
+      "jpn": "nekkoara"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Komala",
+      "jpn": "\u30cd\u30c3\u30b3\u30a2\u30e9",
+      "jpn_ro": "Nekkoara"
+    }
+  },
+  "776": {
+    "idx": 776,
+    "slug": {
+      "eng": "turtonator",
+      "jpn": "bakugames"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Turtonator",
+      "jpn": "\u30d0\u30af\u30ac\u30e1\u30b9",
+      "jpn_ro": "Bakugames"
+    }
+  },
+  "777": {
+    "idx": 777,
+    "slug": {
+      "eng": "togedemaru",
+      "jpn": "togedemaru"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Togedemaru",
+      "jpn": "\u30c8\u30b2\u30c7\u30de\u30eb",
+      "jpn_ro": "Togedemaru"
+    }
+  },
+  "778": {
+    "idx": 778,
+    "slug": {
+      "eng": "mimikyu",
+      "jpn": "mimikkyu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Mimikyu",
+      "jpn": "\u30df\u30df\u30c3\u30ad\u30e5",
+      "jpn_ro": "Mimikkyu"
+    }
+  },
+  "779": {
+    "idx": 779,
+    "slug": {
+      "eng": "bruxish",
+      "jpn": "hagigishiri"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Bruxish",
+      "jpn": "\u30cf\u30ae\u30ae\u30b7\u30ea",
+      "jpn_ro": "Hagigishiri"
+    }
+  },
+  "780": {
+    "idx": 780,
+    "slug": {
+      "eng": "drampa",
+      "jpn": "jijiron"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Drampa",
+      "jpn": "\u30b8\u30b8\u30fc\u30ed\u30f3",
+      "jpn_ro": "Jijīron"
+    }
+  },
+  "781": {
+    "idx": 781,
+    "slug": {
+      "eng": "dhelmise",
+      "jpn": "dadarin"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Dhelmise",
+      "jpn": "\u30c0\u30c0\u30ea\u30f3",
+      "jpn_ro": "Dadarin"
+    }
+  },
+  "782": {
+    "idx": 782,
+    "slug": {
+      "eng": "jangmo-o",
+      "jpn": "jarako"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Jangmo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30b3",
+      "jpn_ro": "Jarako"
+    }
+  },
+  "783": {
+    "idx": 783,
+    "slug": {
+      "eng": "hakamo-o",
+      "jpn": "jarango"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Hakamo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30f3\u30b4",
+      "jpn_ro": "Jarango"
+    }
+  },
+  "784": {
+    "idx": 784,
+    "slug": {
+      "eng": "kommo-o",
+      "jpn": "jararanga"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Kommo-o",
+      "jpn": "\u30b8\u30e3\u30e9\u30e9\u30f3\u30ac",
+      "jpn_ro": "Jararanga"
+    }
+  },
+  "785": {
+    "idx": 785,
+    "slug": {
+      "eng": "tapu-koko",
+      "jpn": "kapu-kokeko"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Koko",
+      "jpn": "\u30ab\u30d7\u30fb\u30b3\u30b1\u30b3",
+      "jpn_ro": "Kapu-Kokeko"
+    }
+  },
+  "786": {
+    "idx": 786,
+    "slug": {
+      "eng": "tapu-lele",
+      "jpn": "kapu-tetefu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Lele",
+      "jpn": "\u30ab\u30d7\u30fb\u30c6\u30c6\u30d5",
+      "jpn_ro": "Kapu-Tetefu"
+    }
+  },
+  "787": {
+    "idx": 781,
+    "slug": {
+      "eng": "tapu-bulu",
+      "jpn": "kapu-bulul"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Bulu",
+      "jpn": "\u30ab\u30d7\u30fb\u30d6\u30eb\u30eb",
+      "jpn_ro": "Kapu-Bulul"
+    }
+  },
+  "788": {
+    "idx": 788,
+    "slug": {
+      "eng": "tapu-fini",
+      "jpn": "kapu-rehire"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Tapu Fini",
+      "jpn": "\u30ab\u30d7\u30fb\u30ec\u30d2\u30ec",
+      "jpn_ro": "Kapu-Rehire"
+    }
+  },
+  "789": {
+    "idx": 789,
+    "slug": {
+      "eng": "cosmog",
+      "jpn": "cosmog"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cosmog",
+      "jpn": "\u30b3\u30b9\u30e2\u30c3\u30b0",
+      "jpn_ro": "Cosmog"
+    }
+  },
+  "790": {
+    "idx": 790,
+    "slug": {
+      "eng": "cosmoem",
+      "jpn": "cosmovum"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Cosmoem",
+      "jpn": "\u30b3\u30b9\u30e2\u30a6\u30e0",
+      "jpn_ro": "Cosmovum"
+    }
+  },
+  "791": {
+    "idx": 791,
+    "slug": {
+      "eng": "solgaleo",
+      "jpn": "solgaleo"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Solgaleo",
+      "jpn": "\u30bd\u30eb\u30ac\u30ec\u30aa",
+      "jpn_ro": "Solgaleo"
+    }
+  },
+  "792": {
+    "idx": 792,
+    "slug": {
+      "eng": "lunala",
+      "jpn": "lunala"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Lunala",
+      "jpn": "\u30eb\u30ca\u30a2\u30fc\u30e9",
+      "jpn_ro": "Lunala"
+    }
+  },
+  "793": {
+    "idx": 793,
+    "slug": {
+      "eng": "nihilego",
+      "jpn": "utsuroido"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Nihilego",
+      "jpn": "\u30a6\u30c4\u30ed\u30a4\u30c9",
+      "jpn_ro": "Utsuroido"
+    }
+  },
+  "794": {
+    "idx": 794,
+    "slug": {
+      "eng": "buzzwole",
+      "jpn": "masshibun"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Buzzwole",
+      "jpn": "\u30de\u30c3\u30b7\u30d6\u30fc\u30f3",
+      "jpn_ro": "Masshibūn"
+    }
+  },
+  "795": {
+    "idx": 795,
+    "slug": {
+      "eng": "pheromosa",
+      "jpn": "feroche"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Pheromosa",
+      "jpn": "\u30d5\u30a7\u30ed\u30fc\u30c1\u30a7",
+      "jpn_ro": "Ferōche"
+    }
+  },
+  "796": {
+    "idx": 796,
+    "slug": {
+      "eng": "xurkitree",
+      "jpn": "denjumoku"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Xurkitree",
+      "jpn": "\u30c7\u30f3\u30b8\u30e5\u30e2\u30af",
+      "jpn_ro": "Denjumoku"
+    }
+  },
+  "797": {
+    "idx": 797,
+    "slug": {
+      "eng": "celesteela",
+      "jpn": "tekkaguya"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Celesteela",
+      "jpn": "\u30c6\u30c3\u30ab\u30b0\u30e4",
+      "jpn_ro": "Tekkaguya"
+    }
+  },
+  "798": {
+    "idx": 798,
+    "slug": {
+      "eng": "kartana",
+      "jpn": "kamitsurugi"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Kartana",
+      "jpn": "\u30ab\u30df\u30c4\u30eb\u30ae",
+      "jpn_ro": "Kamitsurugi"
+    }
+  },
+  "799": {
+    "idx": 799,
+    "slug": {
+      "eng": "guzzlord",
+      "jpn": "akujikingu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Guzzlord",
+      "jpn": "\u30a2\u30af\u30b8\u30ad\u30f3\u30b0",
+      "jpn_ro": "Akujikingu"
+    }
+  },
+  "800": {
+    "idx": 800,
+    "slug": {
+      "eng": "necrozma",
+      "jpn": "necrozma"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Necrozma",
+      "jpn": "\u30cd\u30af\u30ed\u30ba\u30de",
+      "jpn_ro": "Necrozma"
+    }
+  },
+  "801": {
+    "idx": 801,
+    "slug": {
+      "eng": "magearna",
+      "jpn": "magearna"
+    },
+    "icons": {
+      ".": {},
+      "original": {}
+    },
+    "name": {
+      "eng": "Magearna",
+      "jpn": "\u30de\u30ae\u30a2\u30ca",
+      "jpn_ro": "Magearna"
+    }
+  },
+  "802": {
+    "idx": 802,
+    "slug": {
+      "eng": "marshadow",
+      "jpn": "marshadow"
+    },
+    "icons": {
+      ".": {
+        "has_right": true
+      }
+    },
+    "name": {
+      "eng": "Marshadow",
+      "jpn": "\u30de\u30fc\u30b7\u30e3\u30c9\u30fc",
+      "jpn_ro": "Marshadow"
     }
   }
 }
