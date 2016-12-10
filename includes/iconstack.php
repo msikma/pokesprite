@@ -381,6 +381,7 @@ class IconStack
         if (isset($range)) {
             $range = str_replace(',', '-', $range);
             $range = explode('-', $range);
+            $range[0] = $range[0] === '0' ? 1 : $range[0];
             if ($range[1] <= $range[0]) {
                 $range[1] = $range[0];
             }
