@@ -561,6 +561,56 @@ class IconStack
                 $this->pkmn_stack[] = $item;
             }
         }
+        
+        // Add the special items (e.g. egg, unknown).
+        $special_items = $this->get_special_stack_items();
+        $this->pkmn_stack = array_merge($this->pkmn_stack, $special_items);
+    }
+    
+    /**
+     * Returns the special items for the Pokémon stack.
+     * Currently, just "egg" and "unknown". These have no shiny icons.
+     */
+    public function get_special_stack_items()
+    {
+        // Unhatched egg.
+        $egg = array(
+            'idx' => null,
+            'slug' => array(
+                'eng' => 'egg',
+                'jpn' => 'tamago',
+            ),
+            'icons' => array(
+                '.' => array(),
+            ),
+            'name' => array(
+                'eng' => 'Egg',
+                'jpn' => 'タマゴ',
+                'jpn_ro' => 'Tamago',
+            ),
+        );
+        
+        // Unknown (not Unown) or glitch Pokémon.
+        $unknown = array(
+            'idx' => null,
+            'slug' => array(
+                'eng' => 'unknown',
+                'jpn' => 'fumei',
+            ),
+            'icons' => array(
+                '.' => array(),
+            ),
+            'name' => array(
+                'eng' => 'Unknown',
+                'jpn' => 'ふめい',
+                'jpn_ro' => 'Fumei',
+            ),
+        );
+        
+        return array_merge(
+            $this->get_pkmn_stack_items('egg', $egg, true),
+            $this->get_pkmn_stack_items('unknown', $unknown, true)
+        );
     }
     
     /**
@@ -630,7 +680,7 @@ class IconStack
      *
      * @return mixed[] Pokémon icon stack data.
      */
-    private function get_pkmn_stack_items($id, $pkmn)
+    private function get_pkmn_stack_items($id, $pkmn, $special=false)
     {
         // Base info that's the same for each stack item.
         $base_info = array(
@@ -663,6 +713,39 @@ class IconStack
         uksort($pkmn['icons'], array($this, 'pkmn_variation_sort'));
         
         foreach ($pkmn['icons'] as $icon => $icon_data) {
+            // If this is a special icon (no variations, no shiny version),
+            // add only the plain icon and continue.
+            if ($special) {
+                $var = $this->get_icon_var_name(
+                    'pkmn',
+                    $pkmn['slug'],
+                    $icon,
+                    '.',
+                    'regular'
+                );
+                $pkmn_info = array_merge($base_info,
+                    array(
+                        'version' => 'regular',
+                        'subvariation' => null,
+                        'is_duplicate' => false,
+                    ),
+                    $this->get_pkmn_icon_fit(),
+                    array(
+                        'variation' => $icon,
+                        'var' => $var,
+                        'file' => (
+                            $dir_base.
+                            $dir_pkmn.
+                            Settings::get('dir_pkmn_special').
+                            $pkmn['slug'][Settings::get('img_slug_lang')].
+                            '.png'
+                        ),
+                    )
+                );
+                $tmp_stack[] = $pkmn_info;
+                continue;
+            }
+            
             // Loop through each icon twice: once for regular versions, and
             // (if requested), once more for shiny versions.
             // Every variation is added to the stack.
