@@ -11136,15 +11136,9 @@
       "average": {
         "is_duplicate": true
       },
-      "large": {
-        "is_duplicate": true
-      },
-      "small": {
-        "is_duplicate": true
-      },
-      "super": {
-        "is_duplicate": true
-      }
+      "large": {},
+      "small": {},
+      "super": {}
     },
     "name": {
       "eng": "Pumpkaboo",
@@ -11163,15 +11157,9 @@
       "average": {
         "is_duplicate": true
       },
-      "large": {
-        "is_duplicate": true
-      },
-      "small": {
-        "is_duplicate": true
-      },
-      "super": {
-        "is_duplicate": true
-      }
+      "large": {},
+      "small": {},
+      "super": {}
     },
     "name": {
       "eng": "Gourgeist",
