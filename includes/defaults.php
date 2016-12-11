@@ -55,6 +55,8 @@ $s['dir_pkmn'] = 'pokemon/';
 $s['dir_pkmn_regular'] = 'regular/';
 // Shiny sprites directory
 $s['dir_pkmn_shiny'] = 'shiny/';
+// Special sprites directory
+$s['dir_pkmn_special'] = '';
 // Female sprites directory
 $s['dir_pkmn_female'] = 'female/';
 // Right-facing sprites directory
@@ -84,14 +86,16 @@ $s['etc_icon_sets'] = array(
     'apricorn', 'battle-item', 'berry', 'body-style', 'etc', 'ev-item',
     'evo-item', 'flute', 'fossil', 'gem', 'hm', 'hold-item', 'incense',
     'other-item', 'key-item', 'mail', 'medicine', 'mega-stone', 'mulch',
-    'plate', 'pokeball', 'scarf', 'shard', 'status', 'tm', 'valuable-item',
-    'wonder-launcher',
+    'plate', 'pokeball', 'scarf', 'shard', 'tm', 'valuable-item',
+    'wonder-launcher', 'z-crystals', 'memory'
 );
 
 // Pokémon icon width
 $s['pkmn_img_width'] = 40;
 // Pokémon icon height
 $s['pkmn_img_height'] = 30;
+// Pokémon icon padding
+$s['pkmn_img_padding'] = 1;
 // Amount of icons in one row of the sprite
 $s['pkmn_row_count'] = 32;
 

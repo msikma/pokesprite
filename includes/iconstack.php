@@ -21,6 +21,8 @@ class IconStack
     public $pkmn_img_width;
     /** @var int Pokémon sprite image height. */
     public $pkmn_img_height;
+    /** @var int Pokémon sprite image padding. */
+    public $pkmn_img_padding;
     /** @var int Amount of sprite images in one row. */
     public $pkmn_row_count;
     
@@ -52,10 +54,17 @@ class IconStack
      */
     public function __construct()
     {
-        $vars = array('pkmn_img_width', 'pkmn_img_height', 'pkmn_row_count');
+        $vars = array(
+            'pkmn_img_width',
+            'pkmn_img_height',
+            'pkmn_img_padding',
+            'pkmn_row_count',
+        );
         foreach ($vars as $var) {
             $this->$var = Settings::get($var);
         }
+        $this->pkmn_img_width += $this->pkmn_img_padding;
+        $this->pkmn_img_height += $this->pkmn_img_padding;
     }
     
     /**
@@ -125,13 +134,12 @@ class IconStack
             if ($type != 'pkmn') {
                 $y += $pkmn_sect_size['h'];
             }
-            
             $icon_info = array(
                 'std' => $is_standard,
                 'w' => $icon['w'],
                 'h' => $icon['h'],
-                'x' => $x,
-                'y' => $y,
+                'x' => $x + $this->pkmn_img_padding,
+                'y' => $y + $this->pkmn_img_padding,
                 'type' => $type,
                 'original' => $original,
                 'set' => $set,
@@ -176,8 +184,8 @@ class IconStack
         
         // The Pokémon icon sizes are always static.
         $sizes['pkmn'] = array(
-            'w' => Settings::get('pkmn_img_width'),
-            'h' => Settings::get('pkmn_img_height'),
+            'w' => $this->pkmn_img_width - $this->pkmn_img_padding,
+            'h' => $this->pkmn_img_height - $this->pkmn_img_padding,
         );
         // Define the sizes for other items.
         if (empty($this->type_tree['etc'])) {
@@ -207,7 +215,10 @@ class IconStack
                     continue(2);
                 }
             }
-            $sizes[$slug] = array('w' => $w, 'h' => $h);
+            $sizes[$slug] = array(
+                'w' => $w,
+                'h' => $h
+            );
         }
         $this->set_sizes = $sizes;
         return $this->set_sizes;
@@ -381,6 +392,7 @@ class IconStack
         if (isset($range)) {
             $range = str_replace(',', '-', $range);
             $range = explode('-', $range);
+            $range[0] = $range[0] === '0' ? 1 : $range[0];
             if ($range[1] <= $range[0]) {
                 $range[1] = $range[0];
             }
@@ -498,8 +510,8 @@ class IconStack
     public function get_etc_icon_stack_size()
     {
         return array(
-            'w' => $this->etc_sect_width,
-            'h' => $this->etc_sect_height,
+            'w' => $this->etc_sect_width + $this->img_padding,
+            'h' => $this->etc_sect_height + $this->img_padding,
         );
     }
     
@@ -522,8 +534,8 @@ class IconStack
         $height += $include_icon_sets ? $etc_size['h'] : 0;
         
         return array(
-            'w' => $width,
-            'h' => $height,
+            'w' => $width + $this->pkmn_img_padding,
+            'h' => $height + $this->pkmn_img_padding,
         );
     }
     
@@ -561,6 +573,56 @@ class IconStack
                 $this->pkmn_stack[] = $item;
             }
         }
+        
+        // Add the special items (e.g. egg, unknown).
+        $special_items = $this->get_special_stack_items();
+        $this->pkmn_stack = array_merge($this->pkmn_stack, $special_items);
+    }
+    
+    /**
+     * Returns the special items for the Pokémon stack.
+     * Currently, just "egg" and "unknown". These have no shiny icons.
+     */
+    public function get_special_stack_items()
+    {
+        // Unhatched egg.
+        $egg = array(
+            'idx' => null,
+            'slug' => array(
+                'eng' => 'egg',
+                'jpn' => 'tamago',
+            ),
+            'icons' => array(
+                '.' => array(),
+            ),
+            'name' => array(
+                'eng' => 'Egg',
+                'jpn' => 'タマゴ',
+                'jpn_ro' => 'Tamago',
+            ),
+        );
+        
+        // Unknown (not Unown) or glitch Pokémon.
+        $unknown = array(
+            'idx' => null,
+            'slug' => array(
+                'eng' => 'unknown',
+                'jpn' => 'fumei',
+            ),
+            'icons' => array(
+                '.' => array(),
+            ),
+            'name' => array(
+                'eng' => 'Unknown',
+                'jpn' => 'ふめい',
+                'jpn_ro' => 'Fumei',
+            ),
+        );
+        
+        return array_merge(
+            $this->get_pkmn_stack_items('egg', $egg, true),
+            $this->get_pkmn_stack_items('unknown', $unknown, true)
+        );
     }
     
     /**
@@ -630,7 +692,7 @@ class IconStack
      *
      * @return mixed[] Pokémon icon stack data.
      */
-    private function get_pkmn_stack_items($id, $pkmn)
+    private function get_pkmn_stack_items($id, $pkmn, $special=false)
     {
         // Base info that's the same for each stack item.
         $base_info = array(
@@ -663,6 +725,39 @@ class IconStack
         uksort($pkmn['icons'], array($this, 'pkmn_variation_sort'));
         
         foreach ($pkmn['icons'] as $icon => $icon_data) {
+            // If this is a special icon (no variations, no shiny version),
+            // add only the plain icon and continue.
+            if ($special) {
+                $var = $this->get_icon_var_name(
+                    'pkmn',
+                    $pkmn['slug'],
+                    $icon,
+                    '.',
+                    'regular'
+                );
+                $pkmn_info = array_merge($base_info,
+                    array(
+                        'version' => 'regular',
+                        'subvariation' => null,
+                        'is_duplicate' => false,
+                    ),
+                    $this->get_pkmn_icon_fit(),
+                    array(
+                        'variation' => $icon,
+                        'var' => $var,
+                        'file' => (
+                            $dir_base.
+                            $dir_pkmn.
+                            Settings::get('dir_pkmn_special').
+                            $pkmn['slug'][Settings::get('img_slug_lang')].
+                            '.png'
+                        ),
+                    )
+                );
+                $tmp_stack[] = $pkmn_info;
+                continue;
+            }
+            
             // Loop through each icon twice: once for regular versions, and
             // (if requested), once more for shiny versions.
             // Every variation is added to the stack.
