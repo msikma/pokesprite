@@ -7,17 +7,6 @@ This simple script generates a *complete image sprite* of all Pokémon in the Na
   <img src="https://raw.github.com/msikma/pokesprite/master/resources/wiki/pokesprite-banner.png" alt="PokéSprite icon example" />
 </p>
 
-Raison d'être
--------------
-
-###### Why put all these icons in one big image? Isn't it more efficient to keep them in separate files and then only use the ones you need?
-
-When loading an HTML page, the main factor that determines how long it takes is the amount of connections that need to be opened. For each file you include (CSS files, Javascript files, image files—anything), a new connection has to be made to request that file. If the file itself is small, it won't take long to download, but the act of opening the connection and getting the green light to begin transmitting the file's data takes time as well.
-
-For that reason, it's recommended to minimize the amount of files included on a webpage. In the case of images, we can do this by putting them together in one single image, and then having multiple elements refer to different parts of that same image. This way, instead of requesting tons and tons of different images, we only need to request one. Minimizing connections is overwhelmingly the largest factor in reducing load times for websites.
-
-Aside from that, it's useful to have one central location for all these icons.
-
 Usage guide
 -----------
 
@@ -77,6 +66,8 @@ Running the script to generate a sprite image with default settings is a simple 
 
 This will generate a full sprite sheet with regular icons, shiny icons, right-facing icons (where a unique icon exists), and all other icon sets. It also generates SCSS and JS files and an overview HTML page for previewing your build. Everything is saved to the `output/` directory.
 
+Normally you don't need to do this, since you can just use a pre-compiled version instead.
+
 ### Compiling SCSS to CSS
 
 PokéSprite does not generate CSS—it only generates SCSS (which can't directly be used in a website). You'll have to compile the CSS yourself using [SASS](https://github.com/sass/sass). See the SASS manual for a more complete usage guide.
@@ -101,30 +92,9 @@ java -jar closure-compiler.jar --compilation_level ADVANCED_OPTIMIZATIONS \
   --charset UTF-8
 ```
 
-More information
-----------------
-
-See the [wiki](https://github.com/msikma/pokesprite/wiki) for more general information about the project and its development. There's also a [frequently asked questions](https://github.com/msikma/pokesprite/wiki/FAQ-and-other-notes) page and a [full icon overview](https://github.com/msikma/pokesprite/wiki/Overview).
-
-Using in other projects
------------------------
-
-Feel free to use anything from this project in your own work. There's no need to give credit, especially if it's not convenient (e.g. in a blog or forum post). Of course, adding a link to the project is appreciated, but you don't need to.
-
-If you use this project or some of the icons, I'd love to see how they look. You can email me on [mike@letsdeliver.com](mailto:mike@letsdeliver.com) or message me on [/u/dada_](http://www.reddit.com/user/dada_/).
-
-* [User fistingfish on Reddit made these shiny sprite perler beads](http://imgur.com/a/4UybW)
-
-Credits
--------
-
-The Pokémon box icons were ripped by *Zhorken*. All other icons were ripped by *Kaphotics*, who also ripped the new ORAS sprites. Both can be found at [Project Pokémon](http://projectpokemon.org/).
-
-The icons were then reorganized and cleaned up by *Dada78641*, who also wrote the script and created all the shiny versions of the Pokémon icons. For a full list of project contributors, see the commit log.
-
 License
 -------
 
-The source icons are (C) Nintendo/Creatures Inc./GAME FREAK Inc.
+The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
 Everything else, and usage of the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
