@@ -21,6 +21,7 @@ class GrowingPacker
     
     private $permit_growth_w;
     private $permit_growth_h;
+    private $img_padding;
     
     /**
      * Fits size sorted blocks using a binary tree packing algorithm.
@@ -49,10 +50,11 @@ class GrowingPacker
         
         $this->permit_growth_w = $permit_growth_w;
         $this->permit_growth_h = $permit_growth_h;
+        $this->img_padding = Settings::get('pkmn_img_padding');
         
         // Set the initial sizes.
-        $w = isset($first_block) ? $first_block->w : 0;
-        $h = isset($first_block) ? $first_block->h : 0;
+        $w = isset($first_block) ? $first_block->w + $this->img_padding : 0;
+        $h = isset($first_block) ? $first_block->h + $this->img_padding : 0;
         $w = isset($initial_w) ? $initial_w : $w;
         $h = isset($initial_h) ? $initial_h : $h;
         
@@ -68,13 +70,16 @@ class GrowingPacker
         // Iterate over all our blocks and then either split or grow
         // nodes on the tree.
         foreach ($blocks as &$block) {
-            $node = $this->find_node($this->root, $block->w, $block->h);
+            $block_w = $block->w + $this->img_padding;
+            $block_h = $block->h + $this->img_padding;
+            
+            $node = $this->find_node($this->root, $block_w, $block_h);
             
             if ($node) {
-                $block->fit = $this->split_node($node, $block->w, $block->h);
+                $block->fit = $this->split_node($node, $block_w, $block_h);
             }
             else {
-                $block->fit = $this->grow_node($block->w, $block->h);
+                $block->fit = $this->grow_node($block_w, $block_h);
             }
         }
     }

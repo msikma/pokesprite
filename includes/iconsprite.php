@@ -22,6 +22,8 @@ class IconSprite
     public $verbose;
     /** @var mixed[] Default sprites (base for a duplicate). */
     public $std_sprites = array();
+    /** @var int Image padding. */
+    public $img_padding;
     
     /**
      * Initializes the sprite.
@@ -33,6 +35,7 @@ class IconSprite
      */
     function __construct($width, $height, $sections, $verbose=false)
     {
+        $this->img_padding = Settings::get('pkmn_img_padding');
         $this->sprite = @imagecreatetruecolor($width, $height);
         imagesavealpha($this->sprite, true);
         $trnsp = @imagecolorallocatealpha($this->sprite, 0, 0, 0, 127);
@@ -59,18 +62,24 @@ class IconSprite
      */
     function add($icon)
     {
-        $x = $icon['fit']['x'];
-        $y = $icon['fit']['y'];
-        
-        // Put the other icons underneath the Pokémon icons.
-        if ($icon['section'] != 'pkmn') {
-            $y += $this->sections['pkmn'];
-        }
+        $x = $icon['fit']['x'] + $this->img_padding;
+        $y = $icon['fit']['y'] + $this->img_padding;
         $w = $icon['w'];
         $h = $icon['h'];
         $file = $icon['file'];
         $slug = $icon['slug'];
         $type = $icon['type'];
+        
+        // Put the other icons underneath the Pokémon icons.
+        if ($icon['section'] != 'pkmn') {
+            $y += $this->sections['pkmn'];
+        }
+        // Remove the padding we added to the Pokémon icons earlier.
+        // Hackish, I know...
+        if ($icon['section'] == 'pkmn') {
+            $w -= $this->img_padding;
+            $h -= $this->img_padding;
+        }
         
         $indicator = ($type == 'pkmn' ? $icon['name_display'].' (variation='.$icon['variation'].', subvariation='.$icon['subvariation'].', version='.$icon['version'].')' : $slug);
         

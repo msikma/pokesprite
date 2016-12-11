@@ -327,6 +327,7 @@ $icon_js = new IconJS();
 // This will be given to the SCSS, JS and overview generators.
 $icon_tree = $icon_stack->get_icon_type_tree();
 $set_sizes = $icon_stack->get_set_sizes();
+
 $icon_overview->set_icon_list($all_icons);
 $icon_styler->set_icon_list($all_icons);
 $icon_styler->set_icon_sizes($set_sizes);
