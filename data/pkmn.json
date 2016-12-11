@@ -6955,7 +6955,9 @@
       "jpn": "hipopotasu"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_female": true
+      }
     },
     "name": {
       "eng": "Hippopotas",
@@ -6970,7 +6972,9 @@
       "jpn": "kabaldon"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_female": true
+      }
     },
     "name": {
       "eng": "Hippowdon",
