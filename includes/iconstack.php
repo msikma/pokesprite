@@ -21,6 +21,8 @@ class IconStack
     public $pkmn_img_width;
     /** @var int Pokémon sprite image height. */
     public $pkmn_img_height;
+    /** @var int Pokémon sprite image padding. */
+    public $pkmn_img_padding;
     /** @var int Amount of sprite images in one row. */
     public $pkmn_row_count;
     
@@ -52,10 +54,17 @@ class IconStack
      */
     public function __construct()
     {
-        $vars = array('pkmn_img_width', 'pkmn_img_height', 'pkmn_row_count');
+        $vars = array(
+            'pkmn_img_width',
+            'pkmn_img_height',
+            'pkmn_img_padding',
+            'pkmn_row_count',
+        );
         foreach ($vars as $var) {
             $this->$var = Settings::get($var);
         }
+        $this->pkmn_img_width += $this->pkmn_img_padding;
+        $this->pkmn_img_height += $this->pkmn_img_padding;
     }
     
     /**
@@ -125,13 +134,12 @@ class IconStack
             if ($type != 'pkmn') {
                 $y += $pkmn_sect_size['h'];
             }
-            
             $icon_info = array(
                 'std' => $is_standard,
                 'w' => $icon['w'],
                 'h' => $icon['h'],
-                'x' => $x,
-                'y' => $y,
+                'x' => $x + $this->pkmn_img_padding,
+                'y' => $y + $this->pkmn_img_padding,
                 'type' => $type,
                 'original' => $original,
                 'set' => $set,
@@ -176,8 +184,8 @@ class IconStack
         
         // The Pokémon icon sizes are always static.
         $sizes['pkmn'] = array(
-            'w' => Settings::get('pkmn_img_width'),
-            'h' => Settings::get('pkmn_img_height'),
+            'w' => $this->pkmn_img_width - $this->pkmn_img_padding,
+            'h' => $this->pkmn_img_height - $this->pkmn_img_padding,
         );
         // Define the sizes for other items.
         if (empty($this->type_tree['etc'])) {
@@ -207,7 +215,10 @@ class IconStack
                     continue(2);
                 }
             }
-            $sizes[$slug] = array('w' => $w, 'h' => $h);
+            $sizes[$slug] = array(
+                'w' => $w,
+                'h' => $h
+            );
         }
         $this->set_sizes = $sizes;
         return $this->set_sizes;
@@ -499,8 +510,8 @@ class IconStack
     public function get_etc_icon_stack_size()
     {
         return array(
-            'w' => $this->etc_sect_width,
-            'h' => $this->etc_sect_height,
+            'w' => $this->etc_sect_width + $this->img_padding,
+            'h' => $this->etc_sect_height + $this->img_padding,
         );
     }
     
@@ -523,8 +534,8 @@ class IconStack
         $height += $include_icon_sets ? $etc_size['h'] : 0;
         
         return array(
-            'w' => $width,
-            'h' => $height,
+            'w' => $width + $this->pkmn_img_padding,
+            'h' => $height + $this->pkmn_img_padding,
         );
     }
     
