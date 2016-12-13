@@ -75,15 +75,30 @@ html, body {
   .description {
     margin-bottom: 16px;
     
-    h1 {
-      font-family: $font-header;
-      font-size: 30px;
-      font-weight: 300;
-      margin: 0;
-      padding: 10px 0 6px;
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+      
+      h1 {
+        font-family: $font-header;
+        font-size: 30px;
+        margin: 0;
+        padding: 10px 0 0;
+      }
+      p {
+        font-size: 16px;
+        color: #686868;
+      }
     }
     p {
       margin: 0 0 6px;
+      
+      &.center {
+        text-align: center;
+      }
+      &.img {
+        margin-bottom: 30px;
+      }
     }
   }
   

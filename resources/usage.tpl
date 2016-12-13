@@ -86,6 +86,9 @@ Options:
   <frm=::bold>--no-pngcrush</frm>
     Skips the pngcrush step.
 
+  <frm=::bold>--no-padding</frm>
+    Don't add a 1px padding around all images (recommended for retina compatibility).
+
   <frm=::bold>--verbose</frm>
     Displays debugging information for every image added to the spritesheet.
 

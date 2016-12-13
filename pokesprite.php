@@ -22,7 +22,7 @@
 //
 // The MIT License (MIT)
 //
-// (C) 2014 Michiel Sikma <dada@doubla.de> and PokéSprite contributors
+// (C) 2014-2016 Michiel Sikma <michiel@sikma.org> and PokéSprite contributors
 //
 // For a full list of contributors, view the project commit history.
 //

@@ -39,7 +39,7 @@ $s['title_str'] = 'PokéSprite';
 $s['revision'] = '[unknown]';
 $s['website'] = 'https://github.com/msikma/pokesprite';
 $s['website_txt'] = '<'.$s['website'].'>';
-$s['main_contributor'] = 'Michiel Sikma <dada@doubla.de>';
+$s['main_contributor'] = 'Michiel Sikma <michiel@sikma.org>';
 $s['other_contributors'] = 'PokéSprite contributors';
 $s['contributors'] = implode(' and ', array($s['main_contributor'], $s['other_contributors']));
 $s['copyright_str'] = '(C) '.($s['copy_a'] != $s['copy_z'] ? $s['copy_a'].'-'.$s['copy_z'] : $s['copy_a']).', '.$s['contributors'];
