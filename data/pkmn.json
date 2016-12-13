@@ -10280,6 +10280,9 @@
     "icons": {
       ".": {
         "has_right": true
+      },
+      "ash": {
+        "has_right": true
       }
     },
     "name": {
