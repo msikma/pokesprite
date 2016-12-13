@@ -298,7 +298,8 @@
       "jpn": "ratta"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "alola": {}
     },
     "name": {
       "eng": "Raticate",
