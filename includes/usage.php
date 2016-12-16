@@ -158,6 +158,11 @@ class Usage extends TemplateFormatter
             }
         }
         
+        // When not adding Pokémon icons, exclude the special icons too.
+        if ($s['include_pkmn'] === false) {
+            $s['include_special_icons'] = false;
+        }
+        
         // These are settings values that are directly replaced by the values
         // of the command-line arguments.
         $var_replacements = array(
