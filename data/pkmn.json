@@ -12588,7 +12588,9 @@
       "jpn": "necrozma"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Necrozma",
