@@ -491,6 +491,13 @@ class IconStack
             $width = $fit['fit']['x'] + $this->pkmn_img_width;
         }
         
+        // See if the width is at least the size of 32 Pokémon icons.
+        // Note that padding has already been added to pkmn_img_width.
+        $min_width = (($this->pkmn_img_width) * $this->pkmn_row_count) + $this->pkmn_img_padding;
+        if ($width < $min_width) {
+            $width = $min_width;
+        }
+        
         $height = $fit['fit']['y'] + $this->pkmn_img_height;
         
         $this->pkmn_sect_width = intval($width);
