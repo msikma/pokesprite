@@ -11286,6 +11286,16 @@
     "icons": {
       ".": {
         "has_right": true
+      },
+      "10-percent": {
+        "has_right": true
+      },
+      "50-percent": {
+        "is_duplicate": true,
+        "has_right": true
+      },
+      "complete": {
+        "has_right": true
       }
     },
     "name": {
