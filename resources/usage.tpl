@@ -83,6 +83,9 @@ Options:
   <frm=::bold>--exclude-icon-sets</frm>
     Excludes icon sets (other than the Pokémon icons).
 
+  <frm=::bold>--exclude-special-icons</frm>
+    Excludes special icons (egg, and "unknown Pokémon").
+
   <frm=::bold>--no-pngcrush</frm>
     Skips the pngcrush step.
 

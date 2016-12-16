@@ -575,8 +575,10 @@ class IconStack
         }
         
         // Add the special items (e.g. egg, unknown).
-        $special_items = $this->get_special_stack_items();
-        $this->pkmn_stack = array_merge($this->pkmn_stack, $special_items);
+        if (Settings::get('include_special_icons')) {
+            $special_items = $this->get_special_stack_items();
+            $this->pkmn_stack = array_merge($this->pkmn_stack, $special_items);
+        }
     }
     
     /**

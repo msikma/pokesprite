@@ -22,6 +22,8 @@ $s['include_pkmn_forms'] = true;
 $s['include_pkmn_right'] = 1;
 // Include the icon sets
 $s['include_icon_sets'] = true;
+// Include the special icons (egg, unknown Pokémon)
+$s['include_special_icons'] = true;
 
 // Language used for Pokémon names
 $s['pkmn_language'] = 'eng';

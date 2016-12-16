@@ -36,7 +36,7 @@ class Usage extends TemplateFormatter
     public static $ARG_NONE = array(
         'exclude-pkmn', 'exclude-shiny', 'exclude-regular', 'exclude-forms',
         'exclude-icon-sets', 'verbose', 'monochrome', 'help', 'no-pngcrush',
-        'generate-markdown', 'no-padding',
+        'generate-markdown', 'no-padding', 'exclude-special-icons',
         // Undocumented (debugging only):
         'html-no-slugs',
     );
@@ -98,6 +98,9 @@ class Usage extends TemplateFormatter
             }
             if ($arg == 'exclude-icon-sets') {
                 $s['include_icon_sets'] = false;
+            }
+            if ($arg == 'exclude-special-icons') {
+                $s['include_special_icons'] = false;
             }
             if ($arg == 'exclude-forms') {
                 $s['include_pkmn_forms'] = false;
