@@ -7644,60 +7644,26 @@
     },
     "icons": {
       ".": {},
-      "bug": {
-        "is_duplicate": true
-      },
-      "dark": {
-        "is_duplicate": true
-      },
-      "dragon": {
-        "is_duplicate": true
-      },
-      "electric": {
-        "is_duplicate": true
-      },
-      "fairy": {
-        "is_duplicate": true
-      },
-      "fighting": {
-        "is_duplicate": true
-      },
-      "fire": {
-        "is_duplicate": true
-      },
-      "flying": {
-        "is_duplicate": true
-      },
-      "ghost": {
-        "is_duplicate": true
-      },
-      "grass": {
-        "is_duplicate": true
-      },
-      "ground": {
-        "is_duplicate": true
-      },
-      "ice": {
-        "is_duplicate": true
-      },
+      "bug": {},
+      "dark": {},
+      "dragon": {},
+      "electric": {},
+      "fairy": {},
+      "fighting": {},
+      "fire": {},
+      "flying": {},
+      "ghost": {},
+      "grass": {},
+      "ground": {},
+      "ice": {},
       "normal": {
         "is_duplicate": true
       },
-      "poison": {
-        "is_duplicate": true
-      },
-      "psychic": {
-        "is_duplicate": true
-      },
-      "rock": {
-        "is_duplicate": true
-      },
-      "steel": {
-        "is_duplicate": true
-      },
-      "water": {
-        "is_duplicate": true
-      }
+      "poison": {},
+      "psychic": {},
+      "rock": {},
+      "steel": {},
+      "water": {}
     },
     "name": {
       "eng": "Arceus",
@@ -12139,7 +12105,27 @@
       "jpn": "silvady"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "bug": {},
+      "dark": {},
+      "dragon": {},
+      "electric": {},
+      "fairy": {},
+      "fighting": {},
+      "fire": {},
+      "flying": {},
+      "ghost": {},
+      "grass": {},
+      "ground": {},
+      "ice": {},
+      "normal": {
+        "is_duplicate": true
+      },
+      "poison": {},
+      "psychic": {},
+      "rock": {},
+      "steel": {},
+      "water": {}
     },
     "name": {
       "eng": "Silvally",
