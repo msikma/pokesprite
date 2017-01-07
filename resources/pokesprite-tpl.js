@@ -172,7 +172,7 @@ window["PkSpr"] = (function()
       self.set_icon_size(node, inner, size);
     }
     // Flip the icon if we're showing a faux right-facing icon.
-    if (props.flipped) {
+    if (props['flipped']) {
       self.set_icon_direction(node, "right");
     }
     
