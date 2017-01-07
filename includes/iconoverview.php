@@ -354,11 +354,19 @@ class IconOverview extends IconTplFactory
 <?php
         $icons = ob_get_clean();
         
+        // Allow the template to use the minified version too.
+        $js_output_min = str_replace(
+            '.js',
+            '.min.js',
+            Settings::get('js_output')
+        );
+        
         // Decorate the template with our generated markup.
         $markup = $this->decorate_tpl_with_defaults($this->tpl, array(
             'icons' => $this->indent_lines($icons, 4),
             'resources_dir' => Settings::get('resources_dir'),
             'js_output' => Settings::get('js_output'),
+            'js_output_min' => $js_output_min,
             'script_date' => Settings::get('script_date'),
             'css_output' => str_replace('.scss', '.css', Settings::get('scss_output')),
             'title_str_html' => htmlspecialchars(Settings::get('title_str')),
