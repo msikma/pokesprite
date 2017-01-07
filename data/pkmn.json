@@ -10098,18 +10098,11 @@
     },
     "icons": {
       ".": {},
-      "burn": {
-        "is_duplicate": true
-      },
-      "chill": {
-        "is_duplicate": true
-      },
-      "douse": {
-        "is_duplicate": true
-      },
-      "shock": {
-        "is_duplicate": true
-      }
+      "normal": {},
+      "fire": {},
+      "ice": {},
+      "water": {},
+      "electric": {}
     },
     "name": {
       "eng": "Genesect",
