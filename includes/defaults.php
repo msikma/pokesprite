@@ -122,6 +122,8 @@ $s['scss_output'] = 'pokesprite.scss';
 $s['js_output'] = 'pokesprite.js';
 // Output name of the HTML overview
 $s['html_output'] = 'overview.html';
+// Output name of the HTML file with build information
+$s['html_build_output'] = 'files.html';
 // Output name of the Markdown overview
 $s['md_output'] = 'overview.md';
 // Resources directory name
@@ -132,6 +134,8 @@ $s['scss_tpl'] = 'pokesprite-tpl.scss';
 $s['js_tpl'] = 'pokesprite-tpl.js';
 // HTML template file
 $s['html_tpl'] = 'overview-tpl.html';
+// HTML template file for the build information
+$s['html_build_tpl'] = 'files-tpl.html';
 // Usage template file
 $s['usage_tpl'] = 'usage.tpl';
 // Whether to generate a Markdown overview

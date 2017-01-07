@@ -368,6 +368,14 @@ if ($generate_markdown) {
     file_put_contents($dir_output.$md_output, $overview_md);
 }
 
+// Generate a page about the build too.
+$icon_overview->register_tpl($resources_dir.$html_build_tpl);
+$overview = $icon_overview->get_build_overview('html');
+if (file_exists($dir_output.$html_build_output)) {
+    unlink($dir_output.$html_build_output);
+}
+file_put_contents($dir_output.$html_build_output, $overview);
+
 // With the image and the overview done, let's generate the SCSS.
 print(I18n::l('scss_generating'));
 $icon_styler->register_vars($base_vars);

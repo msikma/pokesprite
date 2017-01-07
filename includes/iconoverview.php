@@ -18,6 +18,8 @@ class IconOverview extends IconTplFactory
     public $icon_list;
     /** @var ?string[] The generated overview markup, by format. */
     public $overview;
+    /** @var ?string[] The generated build overview markup, by format. */
+    public $build_overview;
     /** @var string Empty cell content. */
     public $empty_cell = '–';
     
@@ -46,6 +48,20 @@ class IconOverview extends IconTplFactory
     }
     
     /**
+     * Returns build overview markup code.
+     *
+     * @param string $format The format to generate the overview in.
+     * @return string Overview markup code.
+     */
+    public function get_build_overview($format='html')
+    {
+        if (empty($this->build_overview[$format])) {
+            $this->generate_build_overview($format);
+        }
+        return $this->build_overview[$format];
+    }
+    
+    /**
      * Generates overview markup code.
      *
      * @param string $format The format to generate the overview in.
@@ -58,6 +74,19 @@ class IconOverview extends IconTplFactory
         else
         if ($format == 'markdown') {
             $this->generate_overview_markdown();
+        }
+    }
+    
+    /**
+     * Generates build overview markup code.
+     *
+     * @param string $format The format to generate the overview in.
+     */
+    public function generate_build_overview($format='html')
+    {
+        if ($format == 'html') {
+            // Actually, this is the only one we do.
+            $this->generate_build_overview_html();
         }
     }
     
@@ -290,6 +319,36 @@ class IconOverview extends IconTplFactory
     }
     
     /**
+     * Generates build overview markup code, HTML version.
+     *
+     * @return string Build overview markup code.
+     */
+    public function generate_build_overview_html()
+    {
+        // Allow the template to use the minified version too.
+        $js_output_min = str_replace(
+            '.js',
+            '.min.js',
+            Settings::get('js_output')
+        );
+        
+        // Decorate the template with our generated markup.
+        $markup = $this->decorate_tpl_with_defaults($this->tpl, array(
+            'resources_dir' => Settings::get('resources_dir'),
+            'js_output' => Settings::get('js_output'),
+            'js_output_min' => $js_output_min,
+            'icons_amount' => htmlspecialchars(count($this->icon_list)),
+            'script_date' => Settings::get('script_date'),
+            'css_output' => str_replace('.scss', '.css', Settings::get('scss_output')),
+            'title_str_html' => htmlspecialchars(Settings::get('title_str')),
+            'script_date_html' => htmlspecialchars(Settings::get('script_date')),
+            'website_html' => htmlspecialchars(Settings::get('website')),
+        ));
+        
+        $this->build_overview['html'] = $this->process_output($markup);
+    }
+    
+    /**
      * Generates overview markup code, HTML version.
      *
      * @return string Overview markup code.
@@ -395,6 +454,7 @@ class IconOverview extends IconTplFactory
             'css_output' => str_replace('.scss', '.css', Settings::get('scss_output')),
             'title_str_html' => htmlspecialchars(Settings::get('title_str')),
             'script_date_html' => htmlspecialchars(Settings::get('script_date')),
+            'icons_amount' => htmlspecialchars(count($this->icon_list)),
             'website_html' => htmlspecialchars(Settings::get('website')),
         ));
         

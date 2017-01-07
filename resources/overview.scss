@@ -101,6 +101,10 @@ html, body {
     p {
       margin: 0 0 6px;
       
+      &.build-section {
+        margin-top: 15px;
+      }
+      
       &.center {
         text-align: center;
       }
