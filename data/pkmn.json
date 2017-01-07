@@ -11967,7 +11967,9 @@
       "jpn": "cuwawa"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Comfey",
