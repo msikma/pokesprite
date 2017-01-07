@@ -49,6 +49,10 @@ $s['copyright_gf'] = '(C) 1995-'.$s['copy_z'].' Nintendo/Creatures Inc./GAME FRE
 $s['copyright_contrib_notice'] = 'For a full list of contributors, view the project commit history.';
 $s['script_date'] = date('Y-m-d H:i:s');
 
+// Base URL for direct links to icon files.
+$s['icon_url_info_base'] = 'https://github.com/msikma/pokesprite/tree/master/';
+$s['icon_url_img_base'] = 'https://raw.githubusercontent.com/msikma/pokesprite/master/';
+
 // Icons base directory
 $s['dir_base'] = './icons/';
 // Pokémon sprites base directory

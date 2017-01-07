@@ -296,6 +296,10 @@ class IconOverview extends IconTplFactory
      */
     public function generate_overview_html()
     {
+        // Keep track of which Pokémon we're at, to use rowspan.
+        $curr_pkmn = '';
+        $first_icon = true;
+        
         // Empty cells will get this content.
         $empty_cell = $this->empty_cell_content;
         
@@ -303,17 +307,30 @@ class IconOverview extends IconTplFactory
 ?>
 <table class="table pkspr-overview">
   <tr>
-    <th class="n"><p><?= I18n::l('overview_id'); ?></p></th>
+    <th class="n"><p><?= I18n::l('overview_id'); ?><span class="spacer">000</span></p></th>
     <th class="idx"><p><?= I18n::l('overview_dex'); ?></p></th>
     <th class="name"><p><?= I18n::l('overview_name'); ?></p></th>
     <th class="icon"><p><?= I18n::l('overview_icon'); ?></p></th>
     <th class="example"><p><?= I18n::l('overview_html'); ?></p></th>
-    <th class="file"><p><?= I18n::l('overview_file'); ?></p></th>
   </tr>
 <?php
         $n = 0;
         // Iterate over all icons and their variants and add them to the list.
         foreach ($this->icon_list as $icon) {
+            if ($curr_pkmn === '') {
+                $curr_pkmn = $icon['id'];
+                $first_icon = true;
+                
+                // How many more icons does this ID get?
+                $pokeid_icons = 0;
+                for ($m = $n; $m < count($this->icon_list); ++$m) {
+                    if ($this->icon_list[$m]['id'] !== $curr_pkmn) {
+                        break;
+                    }
+                    $pokeid_icons += 1;
+                }
+            }
+            
             $idx_str = $this->get_icon_idx_str($icon);
             $name_str = $this->get_icon_name_str($icon);
             $classes = $this->get_icon_classes($icon);
@@ -328,26 +345,33 @@ class IconOverview extends IconTplFactory
             }
             else {
 	            $img_file = $icon['file'];
-	        }
+	          }
 	        
             $img_str = '<span id="'.$html_id.'" class="'.$classes_str.'"></span>';
             $decorator = '<script>PkSpr.decorate(\''.$html_id.'\');</script>';
             $example_str = '<pre><code>'.htmlspecialchars('<span class="').'<span class="class">'.$classes_str_safe.'</span>'.htmlspecialchars('"></span>').'</code></pre>';
-            
-            // Add <wbr /> (word break opportunity) tags to the file string.
-            // This allows it to still be broken in case of lack of space.
-            $file_str = str_replace('/', '/<wbr />', $this->remove_dot_base($img_file));
+            $file_link = Settings::get('icon_url_img_base').$this->remove_dot_base($img_file);
 ?>
   <tr>
-    <td class="n"><p><?= $n; ?></p></td>
-    <td class="idx"><p class="idx"><?= $idx_str; ?></p></td>
-    <td class="name"><p><?= $name_str; ?></p></td>
+    <td class="n"><p><a href="<?= $file_link; ?>"><?= $n; ?></a></p></td>
+<?php
+            if ($first_icon) {
+?>
+    <td class="idx" rowspan="<?= $pokeid_icons; ?>"><p class="idx"><?= $idx_str; ?></p></td>
+    <td class="name" rowspan="<?= $pokeid_icons; ?>"><p><?= $name_str; ?></p></td>
+<?php
+            }
+?>
     <td class="icon"><p><?= $img_str.$decorator; ?></p></td>
     <td class="example"><?= $example_str; ?></td>
-    <td class="file"><p><?= $file_str; ?></p></td>
   </tr>
 <?php
             $n += 1;
+            $pokeid_icons -= 1;
+            $first_icon = false;
+            if ($pokeid_icons <= 0) {
+                $curr_pkmn = '';
+            }
         }
 ?>
 </table>

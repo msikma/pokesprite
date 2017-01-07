@@ -90,6 +90,14 @@ html, body {
         color: #686868;
       }
     }
+    .docs-container {
+      margin: auto;
+      width: 770px;
+      
+      @media screen and (max-width: 770px) {
+        width: 100%;
+      }
+    }
     p {
       margin: 0 0 6px;
       
@@ -98,6 +106,18 @@ html, body {
       }
       &.img {
         margin-bottom: 30px;
+        
+        // The overview image on the homepage.
+        > img.pkspr.banner {
+          @media screen and (max-width: 640px) {
+            -ms-interpolation-mode: bicubic;
+            image-rendering: -moz-auto;
+            image-rendering: -webkit-auto;
+            image-rendering: auto;
+            width: 100%;
+            height: auto;
+          }
+        }
       }
     }
   }
@@ -133,7 +153,28 @@ html, body {
         margin: 0;
         height: 30px;
         
+        &.n {
+          width: 1%;
+          white-space: nowrap;
+          
+          .spacer {
+            visibility: hidden;
+          }
+          
+          a {
+            color: black;
+          }
+        }
+        
+        &[rowspan]:not([rowspan="1"]) {
+          padding-top: 5px;
+          vertical-align: top;
+        }
+        
         &.idx {
+          width: 1%;
+          white-space: nowrap;
+          
           p.idx {
           }
         }
