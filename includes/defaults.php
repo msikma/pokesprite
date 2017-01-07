@@ -136,6 +136,8 @@ $s['js_tpl'] = 'pokesprite-tpl.js';
 $s['html_tpl'] = 'overview-tpl.html';
 // HTML template file for the build information
 $s['html_build_tpl'] = 'files-tpl.html';
+// Relative link back to the overview for the docs
+$s['html_rel_home'] = '/pokesprite/';
 // Usage template file
 $s['usage_tpl'] = 'usage.tpl';
 // Whether to generate a Markdown overview
