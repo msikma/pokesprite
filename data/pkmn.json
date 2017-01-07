@@ -11332,7 +11332,9 @@
       "jpn": "fukuthrow"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Dartrix",
@@ -12284,7 +12286,9 @@
       "jpn": "dadarin"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Dhelmise",
