@@ -253,11 +253,12 @@ window["PkSpr"] = (function()
       "type": null,
       "slug": null,
       "form": ".",
+      "dir": ".",
       "gender": ".",
       "color": "{{$fallback_color}}"
     };
     var props = {
-      "flipped": attrs.dir === 'right'
+      "flipped": null
     };
     
     for (attr in fallbacks) {
@@ -280,12 +281,22 @@ window["PkSpr"] = (function()
         tree = branch;
         // If we're reverting from a non-existent right-facing icon,
         // keep note that this icon should be flipped later.
-        if (val == "right") {
-          props.flipped = true;
+        if (attr === 'dir' && val === "right") {
+          props['flipped'] = true;
         }
         continue;
       }
-      // If the fallback value doesn't exist, error out.
+      // If the fallback value doesn't exist, and we're in "dir",
+      // continue with "gender" instead. These two share the same node.
+      else if (attr === "dir") {
+        continue;
+      }
+      // If the fallback value doesn't exist, and we're in "gender",
+      // just skip to the next one. It means we are in a right-facing icon.
+      else if (attr === "gender") {
+        continue;
+      }
+      // In all other cases, error out. We don't have the icon.
       else {
         tree = null;
         break;
