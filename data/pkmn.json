@@ -11948,7 +11948,9 @@
       "jpn": "amajo"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Tsareena",
