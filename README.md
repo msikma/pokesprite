@@ -10,7 +10,7 @@ This simple script generates a *complete image sprite* of all Pokémon in the Na
 Usage guide
 -----------
 
-Displaying the sprites is a matter of adding an empty `<span>` or `<div>` element with the appropriate `class` attribute set. The base class is `pkspr`. Following the base class, you can add a number of classes that specify which icon is to be displayed.
+Displaying the sprites is a matter of adding an empty `<span>` or `<div>` element with the appropriate `class` attribute set, and then running the JS decoration code. The base class is `pkspr`. Following the base class, you can add a number of classes that specify which icon is to be displayed.
 
 Here are some examples:
 
@@ -32,9 +32,7 @@ To clarify, the following classes can be used:
 * <code>gender-male</code>, <code>gender-female</code> – gender of the icon (in case of gender differences, such as Meowstic)
 * <code>form-<strong>name</strong></code> – form of the Pokémon (e.g. `defense` for Deoxys, `a` or `exclamation` for Unown, `orange` for Flabébé, etc.)
 
-*\*Note: for Pokémon names, simplified versions without special characters are used, e.g. "flabebe" rather than "Flabébé". See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a full list of supported names.*
-
-You can select which Pokémon to display using its index number too, e.g. `<span class="pkspr pkmn-004"></span>` for Charmander.
+\**Note: for Pokémon names, simplified versions without special characters are used, e.g. "flabebe" rather than "Flabébé". See the [icon overview page](http://msikma.github.io/pokesprite/build/overview.html) for a full list of supported names.*
 
 The tag name used is also important: if a `<span>` is used, the icon is displayed as an `inline-block`. If a `<div>` is used, it's a `block`.
 
@@ -54,6 +52,25 @@ The item icons have been organized in a set of collections. To display an icon, 
 ```
 
 There are many different icons that can be displayed. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a complete overview.
+
+### Decorating the icons
+
+The icons will not yet show up until you run the decoration JS code. There are two ways to activate the code: either with a single command that is added before the closing `</body>` tag (or, anywhere after the last icon):
+
+```html
+<script type="text/javascript">
+PkSpr.process_dom();
+</script>
+```
+
+Or, you can add the following after each individual icon. This ensures the icons show up as soon as possible, rather than showing them all at once after loading is complete:
+
+```html
+<span id="icon_1" class="pkspr pkmn-bulbasaur color-shiny"></span>
+<script type="text/javascript">
+PkSpr.decorate('icon_1');
+</script>
+```
 
 Compiling the sprite
 --------------------
