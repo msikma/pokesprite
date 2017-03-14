@@ -51,7 +51,7 @@ The item icons have been organized in a set of collections. To display an icon, 
 <span class="pkspr tm-ice"></span>
 ```
 
-There are many different icons that can be displayed. See the [icon overview page](https://github.com/msikma/pokesprite/wiki/Overview) for a complete overview.
+There are many different icons that can be displayed. See the [icon overview page](http://msikma.github.io/pokesprite/build/overview.html) for a complete overview.
 
 ### Decorating the icons
 
