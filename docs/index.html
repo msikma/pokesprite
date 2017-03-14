@@ -6,9 +6,32 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link type="text/css" href="build/pokesprite.min.css" rel="stylesheet" media="screen" />
   <link type="text/css" href="build/overview.min.css" rel="stylesheet" media="screen" />
-   <style>
-     button {padding:5px 15px;background:#000;border:0 none;cursor:pointer;-webkit-border-radius: 5px;border-radius: 5px;color: #fff;font-size:14px;line-height: 21px;} #button-center {text-align: center;}.fa{font-size:21px;margin-right:4px;}
-   </style>
+  <style type="text/css">
+  #github-button {
+    text-align: center;
+    margin: -5px 0 20px;
+  }
+  #github-button a {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+  }
+  #github-button a:hover {
+    background: #1F85EB;
+  }
+  #github-button a .fa {
+    font-size: 21px;
+    line-height: 21px;
+    vertical-align: top;
+    margin-right: 6px;
+  }
+  </style>
   <script charset="utf-8" src="build/pokesprite.min.js" ></script>
 </head>
 <body>
@@ -19,12 +42,11 @@
         <p>Pokémon icon database and sprite sheet generator</p>
       </div>
       <p class="center img"><img src="other/pokesprite-banner.png" alt="PokéSprite example" width="640" height="120" class="pkspr banner" /></p>
-      <div id="button-center">
-        <form action="https://github.com/msikma/pokesprite" target="_blank">
-          <button type="submit"><i class="fa fa-github"></i>Check it out on Github</button> 		
-        </form>
-       </div>
-      <br />
+      <div id="github-button">
+        <a href="https://github.com/msikma/pokesprite">
+          <i class="fa fa-github"></i>Check it out on Github
+        </a>
+      </div>
       <div class="docs-container">
         <p>This is a database containing icons for all the Pokémon in the National Pokédex, along with the icons for every single in-game item. It also includes shiny versions. Icons can be used either as individual files, or through an optimized sprite sheet (CSS and JS).</p>
         <p class="build-section"><strong>Current build:</strong></p>
