@@ -1,0 +1,15 @@
+{
+  "name": "pokesprite",
+  "description": "Pokémon icon database and sprite sheet",
+  "version": "1.4.6",
+  "main" : "pokesprite.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msikma/pokesprite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/msikma/pokesprite/issues"
+  },
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "license": "MIT"
+}
