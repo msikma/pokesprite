@@ -1,5 +1,5 @@
 /** @preserve
- * {{$title_str}} {{$revision}} {{$website_txt}}
+ * {{$title_str}} v{{$version}} ({{$revision}}) {{$website_txt}}
  * {{$copyright_str}}
  * {{$copyright_gf}}
  * {{$copyright_contrib_notice}}
@@ -18,7 +18,7 @@
 window["PkSpr"] = (function()
 {
   var self = this;
-  
+
   /**
    * Base CSS class that identifies an element as ours.
    *
@@ -26,7 +26,7 @@ window["PkSpr"] = (function()
    * @type {!string}
    */
   self.PKSPR_BASE_CLASS = "{{$css_base_selector}}";
-  
+
   /**
    * List of types and their sizes.
    *
@@ -34,7 +34,7 @@ window["PkSpr"] = (function()
    * @type {!Object}
    */
   self.PKSPR_TYPES = {{$sizes_json}};
-  
+
   /**
    * Coordinate and size data for every single icon. Size data is
    * not included if the type's size can already be found
@@ -43,15 +43,15 @@ window["PkSpr"] = (function()
    * @const
    * @type {!Object}
    */
-  self.PKSPR_DATA = {{$coords_json}}; 
-  
+  self.PKSPR_DATA = {{$coords_json}};
+
   /**
    * Index linking Pokédex numbers to slugs. Generated on runtime.
    *
    * @type {?Object}
    */
   var pkmn_idx_to_slug;
-  
+
   /**
    * Regular Expression used to check whether an identifier
    * is a valid dex number.
@@ -59,15 +59,15 @@ window["PkSpr"] = (function()
    * @type {?RegExp}
    */
   var numeric_regexp;
-  
+
   /**
    * Schedules the DOM to be processed completely as soon as it's ready.
-   */ 
+   */
   self["process_dom"] = function()
   {
     self.content_loaded(window, self.process_container);
   }
-  
+
   /**
    * Decorates a list of objects.
    *
@@ -88,14 +88,14 @@ window["PkSpr"] = (function()
     if (is_arr == false) {
       val = [val];
     }
-    
+
     var a, z;
     var obj, node, is_str, is_node;
     for (a = 0, z = val.length; a < z; ++a) {
       obj = val[a];
       is_str = typeof obj == "string" || obj instanceof String;
       is_node = obj.nodeName !== null;
-      
+
       // Fetch the object by its ID if necessary.
       if (is_str) {
         node = document.getElementById(obj);
@@ -103,7 +103,7 @@ window["PkSpr"] = (function()
       else {
         node = obj;
       }
-      
+
       // We either have a parent object that contains icons,
       // or an icon itself.
       if (self.has_class(node, self.PKSPR_BASE_CLASS)) {
@@ -116,7 +116,7 @@ window["PkSpr"] = (function()
       }
     }
   }
-  
+
   /**
    * Puts a message in the console in case of decoration failure.
    *
@@ -127,7 +127,7 @@ window["PkSpr"] = (function()
     window.console && console.warn("Couldn't decorate icon with the "+
       "following properties: %o", attrs);
   }
-  
+
   /**
    * Decorates a single node
    *
@@ -140,19 +140,19 @@ window["PkSpr"] = (function()
     if (self.is_decorated(node)) {
       return false;
     }
-    
+
     // Get the node's base attributes.
     var attrs = self.get_node_attrs(node);
     var size = self.get_type_size(attrs.type);
     var data = self.get_icon_data(attrs);
     var coords = data.coords;
     var props = data.props;
-    
+
     // If we were not able to gauge its size from the type,
     // that means this icon's size is stored alongside
     // the coordinate data.
     var custom_size = size == null || size.x == null;
-    
+
     // Check whether this node's icon really exists.
     if (coords == null) {
       // If not, error out.
@@ -162,7 +162,7 @@ window["PkSpr"] = (function()
     if (custom_size) {
       size = {"w": coords.w, "h": coords.h};
     }
-    
+
     // Create the inner element that is the icon itself.
     var inner = self.create_inner_node(node);
     // Set background coordinates.
@@ -175,14 +175,14 @@ window["PkSpr"] = (function()
     if (props['flipped']) {
       self.set_icon_direction(node, "right");
     }
-    
+
     // Indicate that this node has been decorated so we don't
     // accidentally decorate it twice.
     self.set_decorated(node);
-    
+
     return true;
   }
-  
+
   /**
    * Adds a class to the icon signifying it is to be mirrored in CSS.
    *
@@ -193,7 +193,7 @@ window["PkSpr"] = (function()
   {
     self.add_class(node, "{{$var_base_name}}-faux-"+dir);
   }
-  
+
   /**
    * Creates the inner node, which is an extra child element inside the
    * icon node that contains the actual icon itself.
@@ -207,7 +207,7 @@ window["PkSpr"] = (function()
     node.appendChild(inner);
     return inner;
   }
-  
+
   /**
    * Sets the background-position value of an icon.
    *
@@ -218,7 +218,7 @@ window["PkSpr"] = (function()
   {
     inner.style.backgroundPosition = (-coords.x)+"px "+(-coords.y)+"px";
   }
-  
+
   /**
    * Sets the size value of an icon.
    *
@@ -233,7 +233,7 @@ window["PkSpr"] = (function()
     inner.style.width = (size.w)+"px";
     inner.style.height = (size.h)+"px";
   }
-  
+
   /**
    * Returns the coordinates and other properties for the icon.
    *
@@ -244,7 +244,7 @@ window["PkSpr"] = (function()
   {
     var tree = self.PKSPR_DATA;
     var branch;
-    
+
     // The following list contains fallbacks. If a certain form
     // or variation is not found in the coordinates list, it will
     // either fall back to something from this list, or return an error.
@@ -260,16 +260,16 @@ window["PkSpr"] = (function()
     var props = {
       "flipped": null
     };
-    
+
     for (attr in fallbacks) {
       // Check if we've reached an end node and quit iterating if so.
       if (tree.x >= 0) {
         break;
       }
-      
+
       val = attrs[attr];
       fbval = fallbacks[attr];
-      
+
       // If the value exists in the tree, continue via that branch.
       if (branch = tree[val]) {
         tree = branch;
@@ -302,14 +302,14 @@ window["PkSpr"] = (function()
         break;
       }
     }
-    
+
     // If all went well, we'll have the coordinates and other properties.
     return {
       coords: tree,
       props: props
     };
   }
-  
+
   /**
    * Returns information about the icon type.
    *
@@ -326,7 +326,7 @@ window["PkSpr"] = (function()
     }
     return null;
   }
-  
+
   /**
    * Retrieves icon type information from a node's class.
    *
@@ -340,7 +340,7 @@ window["PkSpr"] = (function()
     if (node_class == null) {
       return null;
     }
-    
+
     var node_attrs = {
       "type": null,   // e.g. pkmn
       "slug": null,   // e.g. unown
@@ -349,7 +349,7 @@ window["PkSpr"] = (function()
       "gender": null, // male, female or genderless
       "dir": null     // left or right
     };
-    
+
     // Aside from these basic variables, we'll also scan for
     // every known icon type. We'll register the type and
     // redirect the values to the appropriate keys.
@@ -359,7 +359,7 @@ window["PkSpr"] = (function()
       // e.g. pkmn-caterpie yields type: pkmn, slug: caterpie.
       node_attrs[spr_type] = {"k": "type", "v": "slug"};
     }
-    
+
     var a, z;
     var var_idx, var_mapping, var_key, var_val;
     var bit, bits = node_class.split(" ");
@@ -371,7 +371,7 @@ window["PkSpr"] = (function()
         var_idx = bit.indexOf(var_key+"-");
         if (var_idx == 0) {
           var_val = bit.substring(var_key.length + 1);
-          
+
           if (var_mapping === null) {
             // Color, form, gender and dir are saved to
             // the node_attrs variable directly.
@@ -384,7 +384,7 @@ window["PkSpr"] = (function()
         }
       }
     }
-    
+
     // Check to see if this is a Pokémon icon that uses the number
     // as the identifier rather than the slug.
     if (node_attrs.type == "pkmn"
@@ -392,15 +392,15 @@ window["PkSpr"] = (function()
       // Replace the index number with the slug.
       node_attrs.slug = pkmn_idx_to_slug[node_attrs.slug];
     }
-    
+
     // Clean the output up a bit.
     for (spr_type in self.PKSPR_TYPES) {
       delete node_attrs[spr_type];
     }
-    
+
     return node_attrs;
   }
-  
+
   /**
    * Compiles a regular expression for use by PkSpr.is_numeric_pkmn().
    */
@@ -412,32 +412,32 @@ window["PkSpr"] = (function()
     // 000 is always false.
     numeric_regexp = new RegExp(/(?!000)^[0-9]{3}$/);
   }
-  
+
   /**
    * Generates a list of Pokédex numbers linked to their respective slugs.
    */
   self.generate_idx_list = function()
   {
     var a, z, pkmn;
-    
+
     if (pkmn_idx_to_slug != undefined) {
       return;
     }
     pkmn_idx_to_slug = {};
-    
+
     // In case we don't have any Pokémon icons in this compile.
     if (self.PKSPR_DATA == null
     ||  self.PKSPR_DATA.pkmn == null) {
       return;
     }
-    
+
     pkmn = Object.keys(self.PKSPR_DATA.pkmn);
     for (a = 1, z = pkmn.length; a <= z; ++a) {
       // Fast zero-padding hardcoded to work for 3 digits.
       pkmn_idx_to_slug[("000"+a).slice(-3)] = pkmn[a - 1];
     }
   }
-  
+
   /**
    * Determines whether a Pokémon identifier is a dex number or not.
    *
@@ -448,7 +448,7 @@ window["PkSpr"] = (function()
   {
     return numeric_regexp.test(pkmn);
   }
-  
+
   /**
    * Determines whether something is an array.
    *
@@ -459,7 +459,7 @@ window["PkSpr"] = (function()
   {
     return toString.call(something) === "[object Array]";
   }
-  
+
   /**
    * Decorates all icons found in the parent object.
    *
@@ -474,14 +474,14 @@ window["PkSpr"] = (function()
     if (parent == null) {
       parent = document;
     }
-    
+
     var a;
     var elements = self.get_icon_elements(parent);
     for (a = 0; a < elements.length; ++a) {
       self.decorate_node(elements[a]);
     }
   }
-  
+
   /**
    * Retrieves all elements in the DOM that can be decorated.
    *
@@ -492,7 +492,7 @@ window["PkSpr"] = (function()
     if (parent == null) {
       parent = document;
     }
-    
+
     // We'll attempt to use document.querySelectorAll() first.
     // If it's not available, we'll do our own check.
     try {
@@ -502,7 +502,7 @@ window["PkSpr"] = (function()
       );
     }
     catch(e) {}
-    
+
     // Can't use document.querySelectorAll(), so we'll do this
     // the hard way. Grab all elements of those types and check for the
     // base identifier class.
@@ -520,7 +520,7 @@ window["PkSpr"] = (function()
     }
     return elements;
   }
-  
+
   /**
    * Checks if an DOM element has already been decorated before.
    *
@@ -531,7 +531,7 @@ window["PkSpr"] = (function()
   {
     return self.has_class(element, self.PKSPR_BASE_CLASS+"-decorated");
   }
-  
+
   /**
    * Adds a class to an item that indicates it has been decorated already.
    *
@@ -541,7 +541,7 @@ window["PkSpr"] = (function()
   {
     self.add_class(element, " "+self.PKSPR_BASE_CLASS+"-decorated");
   }
-  
+
   /**
    * Adds a class to a DOM element.
    *
@@ -552,7 +552,7 @@ window["PkSpr"] = (function()
   {
     element.className += " "+cls;
   }
-  
+
   /**
    * Checks if an DOM element has a specific class.
    *
@@ -564,13 +564,13 @@ window["PkSpr"] = (function()
   {
     return (" "+element.className+" ").indexOf(" "+cls+" ") > -1;
   }
-  
+
   /**
    * Cross-browser DOMContentLoaded wrapper (version 1.2)
    *
    * Takes a window object and function; the function is executed after
    * DOM is loaded and ready, regardless of the browser used.
-   * 
+   *
    * Written by Diego Perini <diego.perini@gmail.com> and released under
    * the MIT license. Slightly modified for this project. For more
    * information, see <https://github.com/dperini/ContentLoaded>.
@@ -581,13 +581,13 @@ window["PkSpr"] = (function()
   self.content_loaded = function(win, fn)
   {
     var done = false, top = true,
-  
+
     doc = win.document, root = doc.documentElement,
-  
+
     add = doc.addEventListener ? "addEventListener" : "attachEvent",
     rem = doc.addEventListener ? "removeEventListener" : "detachEvent",
     pre = doc.addEventListener ? "" : "on",
-  
+
     init = function(e)
     {
       if (e.type == "readystatechange" && doc.readyState != "complete") {
@@ -598,7 +598,7 @@ window["PkSpr"] = (function()
         fn.call(win, e.type || e);
       }
     },
-  
+
     poll = function()
     {
       try {
@@ -609,7 +609,7 @@ window["PkSpr"] = (function()
       }
       init("poll");
     };
-  
+
     if (doc.readyState == "complete") {
       fn.call(win, "lazy");
     }
@@ -629,7 +629,7 @@ window["PkSpr"] = (function()
       win[add](pre+"load", init, false);
     }
   }
-  
+
   /**
    * Runs a couple of initialization functions.
    */
@@ -640,7 +640,7 @@ window["PkSpr"] = (function()
     // Generate a list of slugs by Pokédex number.
     self.generate_idx_list();
   }()
-  
+
   return self;
 })();
 
@@ -658,13 +658,13 @@ if (!Object.keys) {
   {
     "use strict";
     var hasOwnProperty = Object.prototype.hasOwnProperty;
-    
+
     return function(obj)
     {
       if (typeof obj !== "object" && (typeof obj !== "function" || obj === null)) {
         throw new TypeError("Object.keys called on non-object");
       }
-      
+
       var result = [], prop, i;
 
       for (prop in obj) {
@@ -672,7 +672,7 @@ if (!Object.keys) {
           result.push(prop);
         }
       }
-      
+
       return result;
     };
   }());

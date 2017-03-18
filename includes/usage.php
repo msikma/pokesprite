@@ -36,21 +36,23 @@ class Usage extends TemplateFormatter
     public static $ARG_NONE = array(
         'exclude-pkmn', 'exclude-shiny', 'exclude-regular', 'exclude-forms',
         'exclude-icon-sets', 'verbose', 'monochrome', 'help', 'no-pngcrush',
-        'generate-markdown', 'no-padding', 'exclude-special-icons',
+        'generate-markdown', 'no-padding', 'exclude-special-icons', 'version',
         // Undocumented (debugging only):
         'html-no-slugs',
     );
-    
+
     /** @var mixed[] Settings parsed from the command-line options. */
     public $opt_settings = array();
-    
+
     /** @var boolean Whether the user should be shown the usage overview. */
     public $needs_usage = false;
+    /** @var boolean Whether the user should be shown the version number. */
+    public $needs_version = false;
     /** @var boolean Whether invalid or unknown arguments were passed. */
     public $argument_error = false;
     /** @var string|null Error identifier. */
     public $error_id = null;
-    
+
     /**
      * Returns command-line arguments.
      *
@@ -67,7 +69,7 @@ class Usage extends TemplateFormatter
         $opts = getopt('', $long);
         return $opts;
     }
-    
+
     /**
      * Analyzes the user's passed command-line arguments and makes
      * a determination of whether the user invoked the script correctly.
@@ -81,13 +83,17 @@ class Usage extends TemplateFormatter
         $argument_error = false;
         // Error explanation identifier.
         $error_id = 'arg_error_unknown';
-        
+
         $opts = $this->get_opts();
-        
+
         // Iterate over the command-line arguments.
         foreach ($opts as $arg => $val) {
             if ($arg == 'help') {
                 $this->needs_usage = true;
+                break;
+            }
+            if ($arg == 'version') {
+                $this->needs_version = true;
                 break;
             }
             if ($arg == 'monochrome') {
@@ -157,12 +163,12 @@ class Usage extends TemplateFormatter
                 $s['file_exts'] = $val;
             }
         }
-        
+
         // When not adding Pokémon icons, exclude the special icons too.
         if ($s['include_pkmn'] === false) {
             $s['include_special_icons'] = false;
         }
-        
+
         // These are settings values that are directly replaced by the values
         // of the command-line arguments.
         $var_replacements = array(
@@ -199,16 +205,16 @@ class Usage extends TemplateFormatter
         if ($s['pkmn_language'] == 'jpn_ro') {
             $s['pkmn_language_slugs'] = 'jpn';
         }
-        
+
         if ($argument_error == true) {
             $this->needs_usage = true;
         }
-        
+
         $this->opt_settings = $s;
         $this->argument_error = $argument_error;
         $this->error_id = $error_id;
     }
-    
+
     /**
      * Returns an array of user-defined settings to override the
      * current settings with, based on passed command-line arguments.
@@ -220,10 +226,10 @@ class Usage extends TemplateFormatter
         if (empty($this->opt_settings)) {
             $this->parse_opts();
         }
-        
+
         return $this->opt_settings;
     }
-    
+
     /**
      * Trims the usage template prior to its decoration for proper display.
      */
@@ -231,31 +237,49 @@ class Usage extends TemplateFormatter
     {
         $this->tpl = "\n".trim($this->tpl)."\n\n";
     }
-    
+
+    /**
+     * Displays the version number.
+     */
+    public function display_version()
+    {
+        $usage_vars = array(
+            'website' => Settings::get('website'),
+            'revision' => Settings::get('revision'),
+            'version' => Settings::get('version'),
+        );
+        $trmfrm = new TerminalFormatter();
+        $this->render($usage_vars);
+        $usage = $this->get_buffer();
+        $usage = $trmfrm->format($usage);
+        print($usage);
+    }
+
     /**
      * Displays the program usage.
      */
     public function display_usage()
     {
         $this->trim_usage_tpl();
-        
+
         // Retrieve the proper error string in case we've got an error.
         if ($this->argument_error) {
             $error_str = I18n::lf('arg_error_tpl',
                 array(I18n::l($this->error_id))
             );
         }
-        
+
         $usage_vars = array(
             'website' => Settings::get('website'),
             'revision' => Settings::get('revision'),
+            'version' => Settings::get('version'),
             'error' => $error_str,
             'copyright' => (
                 Settings::get('copyright_str').
                 "\n".Settings::get('copyright_gf')
             ),
         );
-        
+
         // We'll replace variables and finally format the output
         // for use in a terminal.
         $trmfrm = new TerminalFormatter();

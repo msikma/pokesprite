@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 /*!
- * {{$title_str}} {{$revision}} {{$website_txt}}
+ * {{$title_str}} v{{$version}} ({{$revision}}) {{$website_txt}}
  * {{$copyright_str}}
  * {{$copyright_gf}}
  * {{$copyright_contrib_notice}}
@@ -11,7 +11,7 @@ ${{$var_base_name}}-sprite-url: '{{$img_output}}';
 {{$item_vars}}
 /**
  * Mixin that sets sprite styling.
- * 
+ *
  * This mixin can be used to turn any element into an icon. When calling
  * this function, the optional second argument is a map that can be
  * used to specify which CSS values are set. It may contain any or all of
@@ -40,7 +40,7 @@ ${{$var_base_name}}-sprite-url: '{{$img_output}}';
   @if index($set, 'content') != false {
     content: ' ';
   }
-  
+
   // Look up this item's coordinates from the main variable
   // and set the appropriate background coordinates.
   @if map-has-key(${{$var_base_name}}-coords, $label) {
@@ -133,14 +133,14 @@ ${{$var_base_name}}-compatibility-mode: true;
   display: inline-block;
   position: relative;
   vertical-align: baseline;
-  
+
   // The actual icons are displayed in an embedded <i> element.
   > i {
     // Set the standard Pokémon icon attributes.
     @include {{$var_base_name}}-sprite(nth(map-keys(${{$var_base_name}}-coords), 1), ('img', 'content'));
     display: block;
   }
-  
+
   // Two standard display modes determined by the containing element.
   &span {
     display: inline-block;
@@ -148,13 +148,13 @@ ${{$var_base_name}}-compatibility-mode: true;
   &block {
     display: block;
   }
-  
+
   // An optional display class: inline-block, but without modifying
   // the line height of the sentence.
   &span.display-over {
     height: 1px;
     vertical-align: middle;
-    
+
     > i {
       position: absolute;
       // Manually chosen positioning connate with the Pokémon icon designs.
@@ -163,7 +163,7 @@ ${{$var_base_name}}-compatibility-mode: true;
       left: 0;
     }
   }
-  
+
   // Displays the right-facing icons for icons that do not have a customized
   // right-facing version. This class is to be added by the JS.
   &.{{$var_base_name}}-faux-right {
@@ -178,12 +178,12 @@ ${{$var_base_name}}-compatibility-mode: true;
     }
     transform: scaleX(-1);
   }
-  
+
   // Resets the image display back to normal, in case the end user wants it.
   &.interpolated {
     @include standard-rendering();
   }
-  
+
   // The sizes of all available icon types follow.
 {{$type_sizes}}
 }

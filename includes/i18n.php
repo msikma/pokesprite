@@ -14,16 +14,16 @@ class I18n
 {
     /** @var mixed[] Language strings. */
     private static $lines = array();
-    
+
     /** @var string Default language. */
     private static $default_lang = 'en_us';
-    
+
     /** @var string Current language. */
     private static $curr_lang = '';
-    
+
     /** @var mixed[] Output filters. */
     private static $filters = array();
-    
+
     /** @var string[] Default language strings. */
     private static $DEFAULTS = array(
         // American English (en_us).
@@ -37,7 +37,7 @@ class I18n
             'overview_class' => 'Class',
             'overview_file' => 'File',
             'generated_on' => "Generated on %s.",
-            'info' => "<frm=cyan::bold>%s %s %s</frm>\n<frm=purple>Generates optimized Pokémon SCSS sprite\n%s\n\n</frm>",
+            'info' => "<frm=cyan::bold>%s v%s (%s) %s</frm>\n<frm=purple>Generates optimized Pokémon SCSS sprite\n%s\n\n</frm>",
             'icon_dir_failure' => "<frm=red>Couldn't open icon directory (%s). Skipping.</frm>\n",
             'dir_create' => "Creating output directory.\n",
             'dir_error' => "<frm=red>Couldn't create directories.</frm>\n",
@@ -130,7 +130,7 @@ class I18n
             'task_scss' => "  Generate SCSS file with basic styling attributes\n",
         ),
     );
-    
+
     /**
      * Populates the language array, optionally for a specific language.
      *
@@ -149,7 +149,7 @@ class I18n
         }
         static::$lines[$lang] = array_merge(static::$lines[$lang], $lines);
     }
-    
+
     /**
      * Adds a filter to the i18n output.
      *
@@ -162,7 +162,7 @@ class I18n
     {
         static::$filters[] = $ref;
     }
-    
+
     /**
      * Applies queued output filters to a string.
      *
@@ -175,7 +175,7 @@ class I18n
         }
         return $str;
     }
-    
+
     /**
      * Returns a formatted language string by its key, the
      * vsprintf replacement arguments, and optionally its language.
@@ -192,7 +192,7 @@ class I18n
         $line_str = static::l($line, $lang);
         return vsprintf($line_str, $args);
     }
-    
+
     /**
      * Returns a line from the language lines array by its key, and
      * optionally a language.
@@ -207,7 +207,7 @@ class I18n
         }
         return static::apply_output_filters(static::$lines[$lang][$line]);
     }
-    
+
     /**
      * Sets the active program language.
      *
@@ -217,7 +217,7 @@ class I18n
     {
         static::$curr_lang = $lang;
     }
-    
+
     /**
      * Merges the defaults into the language array.
      */

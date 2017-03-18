@@ -140,6 +140,8 @@ $s['html_build_tpl'] = 'files-tpl.html';
 $s['html_rel_home'] = '/pokesprite/';
 // Usage template file
 $s['usage_tpl'] = 'usage.tpl';
+// Version template file
+$s['version_tpl'] = 'version.tpl';
 // Whether to generate a Markdown overview
 $s['generate_markdown'] = false;
 

@@ -83,9 +83,23 @@ $revision = trim(shell_exec('git rev-list HEAD --count 2> /dev/null'));
 $revision = $revision ? 'r'.$revision : '[unknown]';
 $cl_settings['revision'] = $revision;
 
+// Retrieve the version number from the pkg-info.json file.
+$pkg_info = json_decode(file_get_contents('pkg-info.json'), true);
+$version = $pkg_info['version'];
+$cl_settings['version'] = $version;
+
 // Merge the user's command line arguments into the settings.
 Settings::load_settings($cl_settings);
 
+if ($usage->needs_version) {
+    // Display version and exit.
+    $usage->load_tpl_file(
+        Settings::get('resources_dir').
+        Settings::get('version_tpl')
+    );
+    $usage->display_version();
+    exit;
+}
 if ($usage->needs_usage) {
     // Display usage and exit.
     $usage->load_tpl_file(
@@ -117,6 +131,7 @@ if (!function_exists('imagecreatefrompng')) {
 // Print basic program info.
 print(I18n::lf('info', array(
     $title_str,
+    $version,
     $revision,
     $website_txt,
     $copyright_gf
@@ -289,7 +304,7 @@ if ($generate_optimized === true) {
     if (file_exists($dir_output.$img_output)) {
         unlink($dir_output.$img_output);
     }
-    $crush_cmd = $pngcrush_path.' -l 9 -q -text b author "Pokémon Sprite Generator r'.$revision.'" -text b copyright "'.$copyright_gf.'" '.$dir_output.$img_output_tmp.' '.$dir_output.$img_output;
+    $crush_cmd = $pngcrush_path.' -l 9 -q -text b author "Pokémon Sprite Generator v'.$version.' r'.$revision.'" -text b copyright "'.$copyright_gf.'" '.$dir_output.$img_output_tmp.' '.$dir_output.$img_output;
     exec($crush_cmd);
 
     if (file_exists($dir_output.$img_output)) {
@@ -341,6 +356,7 @@ $icon_js->set_icon_sizes($set_sizes);
 $base_vars = array(
     'title_str' => $title_str,
     'revision' => $revision,
+    'version' => $version,
     'website_txt' => $website_txt,
     'copyright_str' => $copyright_str,
     'copyright_gf' => $copyright_gf,

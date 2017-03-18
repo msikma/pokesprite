@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <!--
 
-{{$title_str}} {{$revision}} {{$website_txt}}
+{{$title_str}} v{{$version}} ({{$revision}}) {{$website_txt}}
 {{$copyright_str}}
 {{$copyright_gf}}
 {{$copyright_contrib_notice}}
@@ -11,7 +11,7 @@
 -->
 <head>
   <meta charset="utf-8" />
-  <title>{{$title_str}} {{$revision}} – Files</title>
+  <title>{{$title_str}} v{{$version}} ({{$revision}}) – Files</title>
   <!-- Pokémon icons -->
   <link type="text/css" href="{{$css_output_min}}" rel="stylesheet" media="screen" />
   <script charset="utf-8" src="{{$js_output_min}}" ></script>
@@ -26,7 +26,7 @@
         <p>Pokémon icon database and sprite sheet generator</p>
       </div>
       <div class="docs-container">
-        <h2>Files ({{$revision}})</h2>
+        <h2>Files (v{{$version}}; {{$revision}})</h2>
         <p>To implement PokéSprite on a website, you need to include one CSS file, one JS file and one image. Depending on where you want to keep the image, you'll need to edit the CSS file to point to the right location.</p>
         <p>Generated on <span class="time">{{$script_date_html}}</span> (<span class="amount">{{$icons_amount}}</span> icons).</p>
         <p class="build-section"><strong>Standard build:</strong></p>
