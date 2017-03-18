@@ -253,7 +253,7 @@ window["PkSpr"] = (function()
       "type": null,
       "slug": null,
       "form": ".",
-      "dir": ".",
+      "dir": null,
       "gender": ".",
       "color": "{{$fallback_color}}"
     };
