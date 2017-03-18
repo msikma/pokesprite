@@ -84,7 +84,7 @@ $revision = $revision ? 'r'.$revision : '[unknown]';
 $cl_settings['revision'] = $revision;
 
 // Retrieve the version number from the pkg-info.json file.
-$pkg_info = json_decode(file_get_contents('pkg-info.json'), true);
+$pkg_info = json_decode(file_get_contents(Settings::get('resources_dir').'pkg-info.json'), true);
 $version = $pkg_info['version'];
 $cl_settings['version'] = $version;
 

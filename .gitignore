@@ -1,6 +1,8 @@
 # Unsorted files, backups and WIPs
 _src
 
+.idea
+
 # The output directory should be empty.
 # The plug-and-play version is located in `build/`.
 output/*
