@@ -7,6 +7,8 @@
 
 $dir = @rtrim(trim($argv[1]), '/');
 $GLOBALS['file_exts'] = array('png');
+// To change:
+$GLOBALS['hex_color'] = '31313100';
 
 if (!isset($dir)) {
   print('usage: change_outline.php dir'.PHP_EOL.'change_outline.php: error: too few arguments'.PHP_EOL);
@@ -30,7 +32,9 @@ foreach ($imgs as $path => $img) {
   imagealphablending($i, false);
   imagesavealpha($i, true);
   $changed = change_color($i);
-  imagepng($i, $new_name, 9);
+  if ($changed) {
+    imagepng($i, $new_name, 9);
+  }
   print('img: '.$path.' (changed: '.($changed === true ? 'T' : 'F').')'.PHP_EOL);
 }
 
@@ -41,7 +45,7 @@ function change_color($i)
     for ($y = imagesy($i); $y--;) {
       $rgb = imagecolorat($i, $x, $y);
       $c = imagecolorsforindex($i, $rgb);
-      if (hex_color($c) === '31313100') {
+      if (hex_color($c) === $GLOBALS['hex_color']) {
         $new_c = imagecolorallocatealpha($i, 32, 32, 32, $c['alpha']);
         imagesetpixel($i, $x, $y, $new_c);
         $changed = true;

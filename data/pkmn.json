@@ -388,6 +388,9 @@
       "original-cap": {
         "has_right": true
       },
+      "partner-cap": {
+        "has_right": true
+      },
       "hoenn-cap": {},
       "sinnoh-cap": {},
       "unova-cap": {},
@@ -11662,6 +11665,7 @@
       "midday": {
         "is_duplicate": true
       },
+      "dusk": {},
       "midnight": {}
     },
     "name": {
@@ -12565,6 +12569,15 @@
     "icons": {
       ".": {
         "has_right": true
+      },
+      "dusk-mane": {
+        "has_right": true
+      },
+      "dawn-wings": {
+        "has_right": true
+      },
+      "ultra": {
+        "has_right": true
       }
     },
     "name": {
@@ -12604,6 +12617,83 @@
       "eng": "Marshadow",
       "jpn": "\u30de\u30fc\u30b7\u30e3\u30c9\u30fc",
       "jpn_ro": "Marshadow"
+    }
+  },
+  "803": {
+    "idx": 803,
+    "slug": {
+      "eng": "poipole",
+      "jpn": "bebenomu"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Poipole",
+      "jpn": "\u30d9\u30d9\u30ce\u30e0",
+      "jpn_ro": "Bebenomu"
+    }
+  },
+  "804": {
+    "idx": 804,
+    "slug": {
+      "eng": "naganadel",
+      "jpn": "aagoyon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Naganadel",
+      "jpn": "\u30a2\u30fc\u30b4\u30e8\u30f3",
+      "jpn_ro": "Aagoyon"
+    }
+  },
+  "805": {
+    "idx": 805,
+    "slug": {
+      "eng": "stakataka",
+      "jpn": "tsundetsunde"
+    },
+    "icons": {
+      ".": {
+        "has_right": true
+      }
+    },
+    "name": {
+      "eng": "Stakataka",
+      "jpn": "\u30c4\u30f3\u30c7\u30c4\u30f3\u30c7",
+      "jpn_ro": "Tsundetsunde"
+    }
+  },
+  "806": {
+    "idx": 806,
+    "slug": {
+      "eng": "blacephalon",
+      "jpn": "zugadoon"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Blacephalon",
+      "jpn": "\u30ba\u30ac\u30c9\u30fc\u30f3",
+      "jpn_ro": "Zugadoon"
+    }
+  },
+  "807": {
+    "idx": 807,
+    "slug": {
+      "eng": "zeraora",
+      "jpn": "zeraora"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Zeraora",
+      "jpn": "\u30bc\u30e9\u30aa\u30e9",
+      "jpn_ro": "Zeraora"
     }
   }
 }

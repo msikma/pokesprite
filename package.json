@@ -1,4 +1,7 @@
 {
   "name": "pokesprite-src",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^4.6.0"
+  }
 }

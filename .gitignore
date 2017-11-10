@@ -1,6 +1,7 @@
 # Unsorted files, backups and WIPs
 _src
 
+node_modules
 .idea
 
 # The output directory should be empty.

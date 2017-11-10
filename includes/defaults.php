@@ -93,7 +93,7 @@ $s['etc_icon_sets'] = array(
     'evo-item', 'flute', 'fossil', 'gem', 'hm', 'hold-item', 'incense',
     'other-item', 'key-item', 'mail', 'medicine', 'mega-stone', 'mulch',
     'plate', 'pokeball', 'scarf', 'shard', 'tm', 'valuable-item',
-    'wonder-launcher', 'z-crystals', 'memory'
+    'wonder-launcher', 'z-crystals', 'memory', 'roto', 'petal'
 );
 
 // Pokémon icon width
