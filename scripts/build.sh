@@ -10,10 +10,10 @@ rm -f "$DIR/output/"*
 "$DIR/pokesprite.php"
 java -jar "$DIR/tools/closure-compiler.jar" --compilation_level ADVANCED_OPTIMIZATIONS --js "$DIR/output/pokesprite.js" --js_output_file "$DIR/output/pokesprite.min.js" --charset UTF-8
 rm "$DIR/output/pokesprite.js"
-sass --sourcemap=none --style compressed "$DIR/output/pokesprite.scss" "$DIR/output/pokesprite.min.css"
+node-sass --sourcemap=none --style compressed "$DIR/output/pokesprite.scss" "$DIR/output/pokesprite.min.css"
 rm "$DIR/output/pokesprite.scss"
 rm -f "$DIR/output/pokesprite.css.map"
-sass --sourcemap=none --style compressed "$DIR/resources/overview.scss" "$DIR/output/overview.min.css"
+node-sass --sourcemap=none --style compressed "$DIR/resources/overview.scss" "$DIR/output/overview.min.css"
 rm -f "$DIR/output/overview.css.map"
 cp "$DIR/resources/node-readme.md" "$DIR/output/readme.md"
 cp "$DIR/LICENSE" "$DIR/output/license"
