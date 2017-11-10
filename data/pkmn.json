@@ -12569,6 +12569,12 @@
     "icons": {
       ".": {
         "has_right": true
+      },
+      "dusk-mane": {
+        "has_right": true
+      },
+      "dawn-wings": {
+        "has_right": true
       }
     },
     "name": {
