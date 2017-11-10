@@ -388,6 +388,9 @@
       "original-cap": {
         "has_right": true
       },
+      "partner-cap": {
+        "has_right": true
+      },
       "hoenn-cap": {},
       "sinnoh-cap": {},
       "unova-cap": {},
