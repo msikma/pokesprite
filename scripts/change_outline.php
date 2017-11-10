@@ -30,7 +30,9 @@ foreach ($imgs as $path => $img) {
   imagealphablending($i, false);
   imagesavealpha($i, true);
   $changed = change_color($i);
-  imagepng($i, $new_name, 9);
+  if ($changed) {
+    imagepng($i, $new_name, 9);
+  }
   print('img: '.$path.' (changed: '.($changed === true ? 'T' : 'F').')'.PHP_EOL);
 }
 
