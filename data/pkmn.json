@@ -12656,7 +12656,9 @@
       "jpn": "tsundetsunde"
     },
     "icons": {
-      ".": {}
+      ".": {
+        "has_right": true
+      }
     },
     "name": {
       "eng": "Stakataka",
