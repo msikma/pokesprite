@@ -514,9 +514,9 @@
     // Check to see if this is a Pokémon icon that uses the number
     // as the identifier rather than the slug.
     if (node_attrs.type === "pkmn"
-    &&  PkSpr.is_numeric_pkmn(node_attrs.slug)) {
+    &&  PkSpr.is_numeric_pkmn(node_attrs["slug"])) {
       // Replace the index number with the slug.
-      node_attrs.slug = pkmn_idx_to_slug[node_attrs.slug];
+      node_attrs["slug"] = pkmn_idx_to_slug[node_attrs["slug"]];
     }
 
     // Clean the output up a bit.
@@ -556,11 +556,11 @@
 
     // In case we don't have any Pokémon icons in this compile.
     if (PkSpr.PKSPR_DATA == null
-    ||  PkSpr.PKSPR_DATA.pkmn == null) {
+    ||  PkSpr.PKSPR_DATA["pkmn"] == null) {
       return;
     }
 
-    pkmn = Object.keys(PkSpr.PKSPR_DATA.pkmn);
+    pkmn = Object.keys(PkSpr.PKSPR_DATA["pkmn"]);
     for (a = 1, z = pkmn.length; a <= z; ++a) {
       // Fast zero-padding hardcoded to work for 3 digits.
       pkmn_idx_to_slug[("000"+a).slice(-3)] = pkmn[a - 1];
