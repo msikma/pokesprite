@@ -89,10 +89,10 @@ $s['github_base_dir'] = 'https://raw.github.com/msikma/pokesprite/master/';
 // If all images have the same size, their width and height is set only
 // once in the SCSS code for efficiency.
 $s['etc_icon_sets'] = array(
-    'apricorn', 'battle-item', 'berry', 'body-style', 'etc', 'ev-item',
+    'apricorn', 'ball', 'battle-item', 'berry', 'body-style', 'etc', 'ev-item',
     'evo-item', 'flute', 'fossil', 'gem', 'hm', 'hold-item', 'incense',
     'other-item', 'key-item', 'mail', 'medicine', 'mega-stone', 'mulch',
-    'plate', 'pokeball', 'scarf', 'shard', 'tm', 'valuable-item',
+    'plate', 'scarf', 'shard', 'tm', 'valuable-item',
     'wonder-launcher', 'z-crystals', 'memory', 'roto', 'petal'
 );
 
