@@ -590,7 +590,8 @@ class IconStack
     
     /**
      * Returns the special items for the Pokémon stack.
-     * Currently, just "egg" and "unknown". These have no shiny icons.
+     * Currently, just "egg", "egg-manaphy" and "unknown".
+     * These have no shiny icons.
      */
     public function get_special_stack_items()
     {
@@ -608,6 +609,23 @@ class IconStack
                 'eng' => 'Egg',
                 'jpn' => 'タマゴ',
                 'jpn_ro' => 'Tamago',
+            ),
+        );
+
+        // Manaphy egg.
+        $egg_manaphy = array(
+            'idx' => null,
+            'slug' => array(
+                'eng' => 'egg-manaphy',
+                'jpn' => 'tamago-manaphy',
+            ),
+            'icons' => array(
+                '.' => array(),
+            ),
+            'name' => array(
+                'eng' => 'Manaphy Egg',
+                'jpn' => 'マナフィのタマゴ',
+                'jpn_ro' => 'Manaphy Tamago',
             ),
         );
         
@@ -630,6 +648,7 @@ class IconStack
         
         return array_merge(
             $this->get_pkmn_stack_items('egg', $egg, true),
+            $this->get_pkmn_stack_items('egg-manaphy', $egg_manaphy, true),
             $this->get_pkmn_stack_items('unknown', $unknown, true)
         );
     }
