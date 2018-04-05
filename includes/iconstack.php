@@ -851,7 +851,7 @@ class IconStack
                 // Save this icon in the variant list.
                 // We need to re-use it for variations that
                 // don't have their own icon.
-                $this->sprite_variants[$id][$version][$icon] = $pkmn_info;
+                $this->sprites_variants[$id][$version][$icon] = $pkmn_info;
                 
                 // Female variant
                 if ($include_pkmn_forms && $icon_data['has_female']) {
