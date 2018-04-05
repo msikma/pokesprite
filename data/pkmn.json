@@ -301,11 +301,9 @@
       ".": {},
       "alola": {},
       "totem": {
-        "is_duplicate": true,
         "is_duplicate_from": "alola"
       },
       "totem-alola": {
-        "is_duplicate": true,
         "is_duplicate_from": "alola"
       }
     },
@@ -1638,11 +1636,9 @@
       ".": {},
       "alola": {},
       "totem": {
-        "is_duplicate": true,
         "is_duplicate_from": "alola"
       },
       "totem-alola": {
-        "is_duplicate": true,
         "is_duplicate_from": "alola"
       }
     },
@@ -3102,7 +3098,7 @@
     "icons": {
       ".": {},
       "a": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "b": {
         "has_right": true
@@ -5997,7 +5993,7 @@
       "attack": {},
       "defense": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "speed": {}
     },
@@ -6397,7 +6393,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandy": {},
       "trash": {}
@@ -6417,7 +6413,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandy": {},
       "trash": {}
@@ -6437,13 +6433,13 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandy": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "trash": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -6551,7 +6547,7 @@
     "icons": {
       ".": {},
       "overcast": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sunshine": {}
     },
@@ -6571,7 +6567,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -6590,7 +6586,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -7573,7 +7569,7 @@
     "icons": {
       ".": {},
       "altered": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "origin": {}
     },
@@ -7652,7 +7648,7 @@
     "icons": {
       ".": {},
       "land": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sky": {
         "has_right": true
@@ -7685,14 +7681,14 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poison": {},
       "psychic": {},
       "rock": {},
       "steel": {},
       "unkown": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "water": {}
     },
@@ -8569,7 +8565,7 @@
       ".": {},
       "blue-striped": {},
       "red-striped": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -8647,7 +8643,7 @@
     "icons": {
       ".": {},
       "standard": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "zen": {}
     },
@@ -9108,7 +9104,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "summer": {},
       "winter": {}
@@ -9129,7 +9125,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "summer": {},
       "winter": {}
@@ -9977,7 +9973,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -9996,7 +9992,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -10045,7 +10041,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -10087,7 +10083,7 @@
     "icons": {
       ".": {},
       "ordinary": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "resolute": {
         "has_right": true
@@ -10111,7 +10107,7 @@
       },
       "aria": {
         "has_right": true,
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "pirouette": {}
     },
@@ -10275,7 +10271,6 @@
         "has_right": true
       },
       "battle-bond": {
-        "is_duplicate": true,
         "is_duplicate_from": "ash"
       }
     },
@@ -10369,64 +10364,64 @@
     "icons": {
       ".": {},
       "archipelago": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "continental": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "elegant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "fancy": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "garden": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "high-plains": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "icy-snow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "jungle": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "marine": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "meadow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "modern": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "monsoon": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "ocean": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poke-ball": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "polar": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "river": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandstorm": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "savanna": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sun": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "tundra": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -10444,64 +10439,64 @@
     "icons": {
       ".": {},
       "archipelago": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "continental": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "elegant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "fancy": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "garden": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "high-plains": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "icy-snow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "jungle": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "marine": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "meadow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "modern": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "monsoon": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "ocean": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poke-ball": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "polar": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "river": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandstorm": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "savanna": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sun": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "tundra": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -10528,7 +10523,7 @@
       "jungle": {},
       "marine": {},
       "meadow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "modern": {},
       "monsoon": {},
@@ -10590,7 +10585,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10613,7 +10608,7 @@
       "eternal": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10635,7 +10630,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10724,7 +10719,7 @@
       "la-reine": {},
       "matron": {},
       "natural": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "pharaoh": {},
       "star": {}
@@ -10761,7 +10756,7 @@
         "has_female": true
       },
       "male": {
-        "is_duplicated": true,
+        "is_duplicate_from": ".",
         "has_female": false
       }
     },
@@ -10811,7 +10806,7 @@
       ".": {},
       "blade": {},
       "shield": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11259,7 +11254,7 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "large": {},
       "small": {},
@@ -11280,7 +11275,7 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "large": {},
       "small": {},
@@ -11361,7 +11356,7 @@
     "icons": {
       ".": {},
       "active": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "neutral": {}
     },
@@ -11400,7 +11395,7 @@
         "has_right": true
       },
       "50": {
-        "is_duplicate": true,
+        "is_duplicate_from": ".",
         "has_right": true
       },
       "complete": {
@@ -11666,7 +11661,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11714,7 +11709,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11762,7 +11757,7 @@
     "icons": {
       ".": {},
       "baile": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "pom-pom": {},
       "pau": {},
@@ -11798,7 +11793,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11816,7 +11811,7 @@
     "icons": {
       ".": {},
       "own-tempo": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11834,7 +11829,7 @@
     "icons": {
       ".": {},
       "midday": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "dusk": {},
       "midnight": {}
@@ -11854,7 +11849,7 @@
     "icons": {
       ".": {},
       "solo": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "school": {}
     },
@@ -11948,7 +11943,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11981,7 +11976,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -12044,7 +12039,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -12290,7 +12285,7 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poison": {},
       "psychic": {},
@@ -12315,25 +12310,25 @@
         "has_right": true
       },
       "red-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "orange-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "yellow-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "green-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "blue-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "indigo-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "violet-meteor": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "red": {
         "has_right": true
@@ -12402,7 +12397,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -12420,19 +12415,19 @@
     "icons": {
       ".": {},
       "busted": {
-        "is_duplicated": true
+        "is_duplicate_from": "."
       },
       "disguised": {
-        "is_duplicated": true
+        "is_duplicate_from": "."
       },
       "totem": {
-        "is_duplicated": true
+        "is_duplicate_from": "."
       },
       "totem-busted": {
-        "is_duplicated": true
+        "is_duplicate_from": "."
       },
       "totem-disguised": {
-        "is_duplicated": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -12527,7 +12522,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
