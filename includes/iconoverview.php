@@ -115,7 +115,7 @@ class IconOverview extends IconTplFactory
             $classes = $this->get_icon_classes($icon);
             
             // Check to ensure we're not linking to a non-existent file.
-            if ($icon['is_duplicate']) {
+            if ($icon['is_duplicate_from']) {
             	$img_file = $icon['original']['file'];
             }
             else {
@@ -400,8 +400,7 @@ class IconOverview extends IconTplFactory
             $classes_str_safe = htmlspecialchars($classes_str);
             $html_id = 'icon_'.$n;
             
-            // Check to ensure we're not linking to a non-existent file.
-            if ($icon['is_duplicate']) {
+            if ($icon['is_duplicate_from']) {
             	$img_file = $icon['original']['file'];
             }
             else {

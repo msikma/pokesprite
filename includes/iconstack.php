@@ -33,8 +33,8 @@ class IconStack
     private $counter = 0;
     /** @var mixed[] Pokémon sprite stack. */
     public $pkmn_stack = array();
-    /** @var mixed[] Default sprites (base for a duplicate). */
-    public $std_sprites = array();
+    /** @var mixed[] Sprites variants list (in case we have duplicates). */
+    public $sprites_variants = array();
     /** @var mixed[] Etc sprite stack (all non-Pokémon box sprite icons). */
     public $etc_stack = array();
     /** @var mixed[] Etc sprite sets. */
@@ -560,8 +560,8 @@ class IconStack
         // Initialize the sprite stack.
         $this->pkmn_stack = array();
         
-        // List of standard sprite variants.
-        $this->std_sprites = array();
+        // List of sprite variants.
+        $this->sprites_variants = array();
         
         // Include regular Pokémon, and shiny Pokémon if set.
         $this->versions = array();
@@ -677,7 +677,7 @@ class IconStack
         if (empty($this->pkmn_stack)) {
             $this->create_pkmn_icon_stack();
         }
-        return $this->std_sprites;
+        return $this->sprites_variants;
     }
     
     /**
@@ -753,8 +753,12 @@ class IconStack
         uksort($pkmn['icons'], array($this, 'pkmn_variation_sort'));
         
         foreach ($pkmn['icons'] as $icon => $icon_data) {
+            // Zygarde has '10' and '50' formes. Make sure the icon name is a string.
+            $icon = (string)$icon;
+
             // If this is a special icon (no variations, no shiny version),
             // add only the plain icon and continue.
+            // This should be only 'egg', 'egg-manaphy' and 'unknown'.
             if ($special) {
                 $var = $this->get_icon_var_name(
                     'pkmn',
@@ -767,7 +771,7 @@ class IconStack
                     array(
                         'version' => 'regular',
                         'subvariation' => null,
-                        'is_duplicate' => false,
+                        'is_duplicate_from' => false,
                     ),
                     $this->get_pkmn_icon_fit(),
                     array(
@@ -794,23 +798,16 @@ class IconStack
                 // Refer to either the regular or shiny icon directory.
                 $version_dir = Settings::get('dir_pkmn_'.$version);
                 
-                // Check to see if this variation doesn't actually
-                // have its own icon, and simply needs to refer
-                // to the default icon.
-                $is_duplicate = (
-                    !empty($icon_data['is_duplicate']) &&
-                    $icon_data['is_duplicate']
-                );
-                
+                $is_duplicate = !empty($icon_data['is_duplicate_from']);
                 $info = array(
                     'version' => $version,
                     'subvariation' => null,
-                    'is_duplicate' => $is_duplicate,
+                    'is_duplicate_from' => $icon_data['is_duplicate_from'],
                 );
                 // If this is a duplicate, keep a reference
                 // to the standard icon.
-                if ($is_duplicate) {
-                    $info['original'] = @$this->std_sprites[$id][$version];
+                if ($icon_data['is_duplicate_from']) {
+                    $info['original'] = @$this->sprites_variants[$id][$version][$icon_data['is_duplicate_from']];
                 }
                 $is_standard = $icon == '.';
         
@@ -851,12 +848,10 @@ class IconStack
                 );
                 $tmp_stack[] = $pkmn_info;
                 
-                // If this is the standard variant, save a copy by id.
+                // Save this icon in the variant list.
                 // We need to re-use it for variations that
                 // don't have their own icon.
-                if ($is_standard) {
-                    $this->std_sprites[$id][$version] = $pkmn_info;
-                }
+                $this->sprite_variants[$id][$version][$icon] = $pkmn_info;
                 
                 // Female variant
                 if ($include_pkmn_forms && $icon_data['has_female']) {
