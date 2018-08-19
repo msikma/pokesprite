@@ -11355,10 +11355,10 @@
     },
     "icons": {
       ".": {},
-      "active": {
+      "neutral": {
         "is_duplicate_from": "."
       },
-      "neutral": {}
+      "active": {}
     },
     "name": {
       "eng": "Xerneas",
