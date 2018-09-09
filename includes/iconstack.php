@@ -16,7 +16,9 @@ class IconStack
 {
     /** @var mixed[] Pokémon data. */
     public $pkmn_data = array();
-    
+    /** @var mixed[] Icon data. */
+    public $icon_data = array();
+
     /** @var int Pokémon sprite image width. */
     public $pkmn_img_width;
     /** @var int Pokémon sprite image height. */
@@ -25,10 +27,10 @@ class IconStack
     public $pkmn_img_padding;
     /** @var int Amount of sprite images in one row. */
     public $pkmn_row_count;
-    
+
     /** @var string[] Sprite versions to include (regular, shiny). */
     public $versions = array();
-    
+
     /** @var int Stack counter. */
     private $counter = 0;
     /** @var mixed[] Pokémon sprite stack. */
@@ -43,12 +45,12 @@ class IconStack
     public $etc_sect_width = 0;
     /** @var int Etc sprite stack height. */
     public $etc_sect_height = 0;
-    
+
     /** @var mixed[] Icon set sizes. */
     public $set_sizes = array();
     /** @var mixed[] Icon data. */
     public $type_tree = array();
-    
+
     /**
      * Initializes a number of variables from the settings file.
      */
@@ -66,7 +68,7 @@ class IconStack
         $this->pkmn_img_width += $this->pkmn_img_padding;
         $this->pkmn_img_height += $this->pkmn_img_padding;
     }
-    
+
     /**
      * Get icon stack of all icons besides Pokémon sprites.
      *
@@ -79,7 +81,7 @@ class IconStack
         }
         return $this->etc_stack;
     }
-    
+
     /**
      * Get all icons.
      *
@@ -89,7 +91,7 @@ class IconStack
     {
         return array_merge($this->pkmn_stack, $this->etc_stack);
     }
-    
+
     /**
      * Get icon set info.
      *
@@ -102,7 +104,7 @@ class IconStack
         }
         return $this->etc_sets;
     }
-    
+
     /**
      * Creates a special type of data structure specially suited
      * for the SCSS styler, JS generator and overview generator.
@@ -111,7 +113,7 @@ class IconStack
     {
         $icons = $this->get_all_icons();
         $pkmn_sect_size = $this->get_pkmn_icon_stack_size();
-        
+
         $tree = array();
         foreach ($icons as $icon) {
             $subvariation = $icon['subvariation'];
@@ -120,13 +122,13 @@ class IconStack
             $idx = $icon['idx'];
             $set = @$icon['set'];
             $original = @$icon['original'];
-            
+
             $slug = $icon['slug'];
             $variation = $icon['variation'];
             $version = $icon['version'];
-        
+
             $is_standard = $variation == '.';
-            
+
             // All icons other than Pokémon sprites need to be offset
             // with the height of the Pokémon sprite section.
             $x = $icon['fit']['x'];
@@ -146,7 +148,7 @@ class IconStack
                 'idx' => $idx,
                 'id' => $icon['id'],
             );
-        
+
             if ($type == 'pkmn') {
                 $tree['pkmn'][$slug][$variation][$version][$subvariation] = $icon_info;
             }
@@ -156,7 +158,7 @@ class IconStack
         }
         $this->type_tree = $tree;
     }
-    
+
     /**
      * Returns the type tree data structure for our icons.
      *
@@ -169,7 +171,7 @@ class IconStack
         }
         return $this->type_tree;
     }
-    
+
     /**
      * Determines and returns the sizes of the Pokémon icon sets.
      *
@@ -181,7 +183,7 @@ class IconStack
             return $this->set_sizes;
         }
         $sizes = array();
-        
+
         // The Pokémon icon sizes are always static.
         $sizes['pkmn'] = array(
             'w' => $this->pkmn_img_width - $this->pkmn_img_padding,
@@ -223,7 +225,7 @@ class IconStack
         $this->set_sizes = $sizes;
         return $this->set_sizes;
     }
-    
+
     /**
      * Creates an icon stack of the etc sprites.
      */
@@ -231,17 +233,17 @@ class IconStack
     {
         // This stack will contain icons from all other icon sets.
         $stack = array();
-        
+
         // Save an array of sets.
         $sets = array();
-        
+
         $etc_icon_sets = Settings::get('etc_icon_sets');
         $dir_base = Settings::get('dir_base');
         $file_exts = Settings::get('file_exts');
-        
+
         // Start off where the Pokémon stack ended.
         $n = count($this->pkmn_stack);
-        
+
         if (Settings::get('include_icon_sets')) {
             foreach ($etc_icon_sets as $set) {
                 $dir = $dir_base.$set.'/';
@@ -287,12 +289,12 @@ class IconStack
 
         // Sort icons by size.
         uasort($stack, array($this, 'etc_max_w_h_sort'));
-        
+
         // Deep convert $stack to a StdClass rather than a regular array.
         // This is in order to be able to use it with the GrowingPacker, which
         // only accepts a StdClass as input.
         $stack = json_decode(json_encode($stack), false);
-        
+
         // Make sure to pass the width of the Pokémon section as
         // the initial width. If we're not including Pokémon icons,
         // set it to a static value.
@@ -301,28 +303,28 @@ class IconStack
         if (!$initial_width) {
             $initial_width = $this->pkmn_img_width * $this->pkmn_row_count;
         }
-        
+
         // Initialize our packing algorithm and feed the icons.
         // Permit horizontal growth only if we're not including Pokémon icons.
         $packer = new GrowingPacker();
         $packer->fit($stack, $initial_width, null, false, true);
-        
+
         // Convert back to array.
         $stack = json_decode(json_encode($stack), true);
-        
+
         // Remove extraneous data from the stack.
         foreach ($stack as $n => $icon) {
             unset($stack[$n]['fit']['right']);
             unset($stack[$n]['fit']['down']);
             unset($stack[$n]['fit']['used']);
         }
-        
+
         $this->etc_stack = $stack;
         $this->etc_sets = $sets;
         $this->etc_sect_width = intval($packer->root->w);
         $this->etc_sect_height = intval($packer->root->h);
     }
-    
+
     /**
      * Sort by size (descending), then id (ascending).
      *
@@ -339,13 +341,13 @@ class IconStack
         // Take either the width or the height, whichever is the largest.
         $a_size = max($a['w'], $a['h']);
         $b_size = max($b['w'], $b['h']);
-    
+
         // If the items have the same size,
         if ($a_size == $b_size) {
             // Check their series number instead.
             $a_id = $a['id'];
             $b_id = $b['id'];
-        
+
             if ($a_id == $b_id) {
                 return 0;
             }
@@ -355,7 +357,7 @@ class IconStack
         // Descending
         return ($a_size > $b_size) ? -1 : 1;
     }
-    
+
     /**
      * Sorts the icons so that the standard variation is always at the top.
      *
@@ -377,7 +379,7 @@ class IconStack
             return $val;
         }
     }
-    
+
     /**
      * Parse Pokémon data file.
      *
@@ -386,9 +388,17 @@ class IconStack
      */
     public function parse_data_file($file, $range=null)
     {
-        $this->pkmn_data = json_decode(file_get_contents($file), true);
-        
-        // If requested, process only a specific range. (Debugging variable.)
+        $this->pkmn_data = $this->slice_icons(json_decode(file_get_contents($file), true), $range);
+    }
+
+    /**
+     * Parse icons data file.
+     *
+     * @param string $file Filename.
+     * @param string $range Range variable (undocumented; debugging only).
+     */
+    private function slice_icons($data, $range)
+    {
         if (isset($range)) {
             $range = str_replace(',', '-', $range);
             $range = explode('-', $range);
@@ -400,14 +410,26 @@ class IconStack
                 intval($range[0]) - 1,
                 intval($range[1]) - intval($range[0]) + 1
             );
-            $this->pkmn_data = array_slice(
-                $this->pkmn_data,
+            return array_slice(
+                $data,
                 $range[0],
                 $range[1]
             );
         }
+        return $data;
     }
-    
+
+    /**
+     * Parse icons data file.
+     *
+     * @param string $file Filename.
+     * @param string $range Range variable (undocumented; debugging only).
+     */
+    public function parse_icons_data_file($file, $range=null)
+    {
+        $this->icon_data = $this->slice_icons(json_decode(file_get_contents($file), true), $range);
+    }
+
     /**
      * Checks whether Pokémon data is loaded and non-empty.
      */
@@ -415,7 +437,15 @@ class IconStack
     {
         return !empty($this->pkmn_data);
     }
-    
+
+    /**
+     * Checks whether icon data is loaded and non-empty.
+     */
+    public function has_icon_data()
+    {
+        return !empty($this->icon_data);
+    }
+
     /**
      * Checks whether Pokémon images can be found.
      */
@@ -432,7 +462,23 @@ class IconStack
         );
         return is_file($final_img);
     }
-    
+
+    /**
+     * Checks whether icon images can be found.
+     */
+    public function has_icon_images()
+    {
+        // Check to see if the images are there.
+        $test_group = 'medicine';
+        $test_item = @reset($this->icon_data['icons'][$test_group]);
+        $test_img = (
+            Settings::get('dir_base').
+            $test_group.'/'.
+            $test_item['icon']['filename']
+        );
+        return is_file($test_img);
+    }
+
     /**
      * Returns parsed Pokémon data.
      *
@@ -442,7 +488,17 @@ class IconStack
     {
         return $this->pkmn_data;
     }
-    
+
+    /**
+     * Returns parsed icon data.
+     *
+     * @return mixed[] Parsed icon data.
+     */
+    public function get_icon_data()
+    {
+        return $this->icon_data;
+    }
+
     /**
      * Returns x/y coordinates for the next Pokémon icon.
      *
@@ -454,7 +510,7 @@ class IconStack
         $width = $this->pkmn_img_width;
         $height = $this->pkmn_img_height;
         $row_count = $this->pkmn_row_count;
-        
+
         if ($inc != false) {
             $this->counter += 1;
         }
@@ -468,7 +524,7 @@ class IconStack
         );
         return $fit;
     }
-    
+
     /**
      * Returns the total size of the Pokémon icon stack.
      *
@@ -483,32 +539,32 @@ class IconStack
             );
         }
         $fit = $this->get_pkmn_icon_fit(false);
-    
+
         if ($this->counter > $this->pkmn_row_count) {
             $width = ($this->pkmn_img_width * $this->pkmn_row_count);
         }
         else {
             $width = $fit['fit']['x'] + $this->pkmn_img_width;
         }
-        
+
         // See if the width is at least the size of 32 Pokémon icons.
         // Note that padding has already been added to pkmn_img_width.
         $min_width = (($this->pkmn_img_width) * $this->pkmn_row_count) + $this->pkmn_img_padding;
         if ($width < $min_width) {
             $width = $min_width;
         }
-        
+
         $height = $fit['fit']['y'] + $this->pkmn_img_height;
-        
+
         $this->pkmn_sect_width = intval($width);
         $this->pkmn_sect_height = intval($height);
-        
+
         return array(
             'w' => $this->pkmn_sect_width,
             'h' => $this->pkmn_sect_height,
         );
     }
-    
+
     /**
      * Returns the total size of the etc icon stack.
      *
@@ -521,7 +577,7 @@ class IconStack
             'h' => $this->etc_sect_height + $this->img_padding,
         );
     }
-    
+
     /**
      * Returns the total size of the Pokémon stack plus the etc icon
      * stack below it.
@@ -532,20 +588,20 @@ class IconStack
     {
         $include_pkmn = Settings::get('include_pkmn');
         $include_icon_sets = Settings::get('include_icon_sets');
-        
+
         $pkmn_size = $this->get_pkmn_icon_stack_size();
         $etc_size = $this->get_etc_icon_stack_size();
-        
+
         $width = $include_pkmn ? $pkmn_size['w'] : $etc_size['w'];
         $height = $include_pkmn ? $pkmn_size['h'] : 0;
         $height += $include_icon_sets ? $etc_size['h'] : 0;
-        
+
         return array(
             'w' => $width + $this->pkmn_img_padding,
             'h' => $height + $this->pkmn_img_padding,
         );
     }
-    
+
     /**
      * Creates an icon stack of the Pokémon sprites.
      *
@@ -556,13 +612,13 @@ class IconStack
     {
         // Loop through the available Pokémon and adding each of their
         // variants and forms to a stack.
-        
+
         // Initialize the sprite stack.
         $this->pkmn_stack = array();
-        
+
         // List of sprite variants.
         $this->sprites_variants = array();
-        
+
         // Include regular Pokémon, and shiny Pokémon if set.
         $this->versions = array();
         if (Settings::get('include_pkmn_nonshiny')) {
@@ -572,7 +628,7 @@ class IconStack
             $this->versions[] = 'shiny';
         }
         $this->counter = -1;
-        
+
         // If we're skipping Pokémon sprite icons, $pkmn_data will be empty.
         foreach ($this->pkmn_data as $id => $pkmn) {
             $stack_items = $this->get_pkmn_stack_items($id, $pkmn);
@@ -580,14 +636,14 @@ class IconStack
                 $this->pkmn_stack[] = $item;
             }
         }
-        
+
         // Add the special items (e.g. egg, unknown).
         if (Settings::get('include_special_icons')) {
             $special_items = $this->get_special_stack_items();
             $this->pkmn_stack = array_merge($this->pkmn_stack, $special_items);
         }
     }
-    
+
     /**
      * Returns the special items for the Pokémon stack.
      * Currently, just "egg", "egg-manaphy" and "unknown".
@@ -628,7 +684,7 @@ class IconStack
                 'jpn_ro' => 'Manaphy Tamago',
             ),
         );
-        
+
         // Unknown (not Unown) or glitch Pokémon.
         $unknown = array(
             'idx' => null,
@@ -645,14 +701,14 @@ class IconStack
                 'jpn_ro' => 'Fumei',
             ),
         );
-        
+
         return array_merge(
             $this->get_pkmn_stack_items('egg', $egg, true),
             $this->get_pkmn_stack_items('egg-manaphy', $egg_manaphy, true),
             $this->get_pkmn_stack_items('unknown', $unknown, true)
         );
     }
-    
+
     /**
      * Returns the icon stack (and generates it if it doesn't exist).
      *
@@ -665,7 +721,7 @@ class IconStack
         }
         return $this->pkmn_stack;
     }
-    
+
     /**
      * Returns the standard icons that need to be referred to
      * in the case of duplicates.
@@ -679,7 +735,7 @@ class IconStack
         }
         return $this->sprites_variants;
     }
-    
+
     /**
      * Produces and returns a variable name for an icon
      * based on its attributes.
@@ -713,8 +769,8 @@ class IconStack
         }
         return implode('-', $items);
     }
-    
-    
+
+
     /**
      * Returns stack items for a specific Pokémon.
      *
@@ -734,7 +790,7 @@ class IconStack
             'section' => 'pkmn',
             'name_display' => $pkmn['name'][Settings::get('pkmn_language')],
         );
-        
+
         // Retrieve some variables from the settings.
         $vars = array(
             'dir_base', 'dir_pkmn', 'dir_pkmn_female', 'dir_pkmn_right',
@@ -743,15 +799,15 @@ class IconStack
         foreach ($vars as $var) {
             $$var = Settings::get($var);
         }
-        
+
         // Keep this Pokémon's stack items and return them at the end.
         $tmp_stack = array();
-        
+
         // Sort the variations to ensure the standard variation
         // comes first. The data file should already be pre-sorted,
         // but we're making sure.
         uksort($pkmn['icons'], array($this, 'pkmn_variation_sort'));
-        
+
         foreach ($pkmn['icons'] as $icon => $icon_data) {
             // Zygarde has '10' and '50' formes. Make sure the icon name is a string.
             $icon = (string)$icon;
@@ -789,15 +845,15 @@ class IconStack
                 $tmp_stack[] = $pkmn_info;
                 continue;
             }
-            
+
             // Loop through each icon twice: once for regular versions, and
             // (if requested), once more for shiny versions.
             // Every variation is added to the stack.
-            
+
             foreach ($this->versions as $version) {
                 // Refer to either the regular or shiny icon directory.
                 $version_dir = Settings::get('dir_pkmn_'.$version);
-                
+
                 $is_duplicate = !empty($icon_data['is_duplicate_from']);
                 $info = array(
                     'version' => $version,
@@ -810,17 +866,17 @@ class IconStack
                     $info['original'] = @$this->sprites_variants[$id][$version][$icon_data['is_duplicate_from']];
                 }
                 $is_standard = $icon == '.';
-        
+
                 // Don't include non-standard forms
                 // if we've got that turned off.
                 if ($include_pkmn_forms != true && !$is_standard) {
                     continue;
                 }
-        
+
                 // The standard version is indicated by a single period.
                 // All other variants are present as slug-variant.png.
                 $variation = $is_standard ? '' : '-'.$icon;
-                
+
                 // Produce a variable name.
                 $var = $this->get_icon_var_name(
                     'pkmn',
@@ -829,7 +885,7 @@ class IconStack
                     '.',
                     $version
                 );
-                
+
                 // Add to the stack
                 $pkmn_info = array_merge($base_info,
                     $info,
@@ -847,12 +903,12 @@ class IconStack
                     )
                 );
                 $tmp_stack[] = $pkmn_info;
-                
+
                 // Save this icon in the variant list.
                 // We need to re-use it for variations that
                 // don't have their own icon.
                 $this->sprites_variants[$id][$version][$icon] = $pkmn_info;
-                
+
                 // Female variant
                 if ($include_pkmn_forms && $icon_data['has_female']) {
                     $var = $this->get_icon_var_name(
@@ -880,7 +936,7 @@ class IconStack
                         )
                     );
                 }
-                
+
                 // Right-facing variant
                 if ($include_pkmn_forms && $icon_data['has_right']
                 &&  $include_pkmn_right > 0) {
@@ -940,7 +996,7 @@ class IconStack
                 }
             }
         }
-        
+
         return $tmp_stack;
     }
 }

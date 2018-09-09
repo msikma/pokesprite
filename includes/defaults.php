@@ -73,12 +73,16 @@ $s['file_exts'] = array('png');
 $s['dir_data'] = './data/';
 // File containing Pokémon data
 $s['file_pkmn_data'] = 'pkmn.json';
+// File containing data for other icons
+$s['file_icon_data'] = 'item-icons.json';
 // Output directory (created if nonexistent)
 $s['dir_output'] = './output/';
 // Mode at which the directory is created
 $s['dir_mode'] = 0777;
 // If set, which Pokémon to include (debugging only)
 $s['pkmn_range'] = null;
+// If set, which icons to include (debugging only)
+$s['icon_range'] = null;
 // Whether to index numbers instead of slugs in the overview (debugging only)
 $s['html_no_slugs'] = false;
 // Github project base directory
