@@ -47,7 +47,7 @@ The item icons have been organized in a set of collections. To display an icon, 
 <span class="pkspr gem-bug"></span>
 <span class="pkspr medicine-potion"></span>
 <span class="pkspr mega-stone-charizardite-y"></span>
-<span class="pkspr pokeball-dive"></span>
+<span class="pkspr ball-dive"></span>
 <span class="pkspr tm-ice"></span>
 ```
 

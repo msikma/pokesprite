@@ -215,6 +215,25 @@ else {
     $pkmn_data = array();
 }
 
+// Retrieve icons from the set.
+if ($include_icon_sets) {
+    $icon_stack->parse_icons_data_file($dir_data.$file_icon_data, $icon_range);
+    $icon_data = $icon_stack->get_icon_data();
+
+    // Check if the data is there.
+    $has_data = $icon_stack->has_icon_data();
+    $has_imgs = $icon_stack->has_icon_images();
+
+    if (!$has_data) {
+        print(I18n::lf('no_icons_data', array($file_icon_data, $dir_data)));
+        die();
+    }
+    if (!$has_imgs) {
+        print(I18n::l('no_icon_images'));
+        die();
+    }
+}
+
 // Generate and return the entire Pokémon icon stack.
 $pkmn_icons = $icon_stack->get_pkmn_icon_stack();
 $pkmn_std_icons = $icon_stack->get_pkmn_std_icons();

@@ -73,12 +73,16 @@ $s['file_exts'] = array('png');
 $s['dir_data'] = './data/';
 // File containing Pokémon data
 $s['file_pkmn_data'] = 'pkmn.json';
+// File containing data for other icons
+$s['file_icon_data'] = 'item-icons.json';
 // Output directory (created if nonexistent)
 $s['dir_output'] = './output/';
 // Mode at which the directory is created
 $s['dir_mode'] = 0777;
 // If set, which Pokémon to include (debugging only)
 $s['pkmn_range'] = null;
+// If set, which icons to include (debugging only)
+$s['icon_range'] = null;
 // Whether to index numbers instead of slugs in the overview (debugging only)
 $s['html_no_slugs'] = false;
 // Github project base directory
@@ -89,10 +93,10 @@ $s['github_base_dir'] = 'https://raw.github.com/msikma/pokesprite/master/';
 // If all images have the same size, their width and height is set only
 // once in the SCSS code for efficiency.
 $s['etc_icon_sets'] = array(
-    'apricorn', 'battle-item', 'berry', 'body-style', 'etc', 'ev-item',
+    'apricorn', 'ball', 'battle-item', 'berry', 'body-style', 'etc', 'ev-item',
     'evo-item', 'flute', 'fossil', 'gem', 'hm', 'hold-item', 'incense',
     'other-item', 'key-item', 'mail', 'medicine', 'mega-stone', 'mulch',
-    'plate', 'pokeball', 'scarf', 'shard', 'tm', 'valuable-item',
+    'plate', 'scarf', 'shard', 'tm', 'valuable-item',
     'wonder-launcher', 'z-crystals', 'memory', 'roto', 'petal'
 );
 

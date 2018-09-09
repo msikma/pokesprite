@@ -16,7 +16,7 @@ class Usage extends TemplateFormatter
 {
     /** @var string[] Arguments that require a value. */
     public static $ARG_REQ = array(
-        'dir-icons:', 'dir-data:', 'file-data:',
+        'dir-icons:', 'dir-data:', 'file-data:', 'file-icons-data:',
         'dir-output:', 'file-output-img-tmp:', 'file-output-img:',
         'file-output-scss:', 'file-output-html:', 'file-output-md:',
         'tpl-scss:', 'tpl-html:', 'css-base-sel:', 'css-shiny-sel:',
@@ -183,10 +183,12 @@ class Usage extends TemplateFormatter
             'file-output-img-tmp' => 'img_output_tmp',
             'dir-output' => 'dir_output',
             'file-data' => 'file_pkmn_data',
+            'file-icons' => 'file_icon_data',
             'dir-data' => 'dir_data',
             'dir-pkmn' => 'dir_pkmn',
             'dir-icons' => 'dir_base',
             'pkmn-range' => 'pkmn_range',
+            'icon-range' => 'icon_range',
             'pkmn-lang' => 'pkmn_language',
             'lang' => 'i18n_language',
         );

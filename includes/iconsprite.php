@@ -83,7 +83,7 @@ class IconSprite
         
         $indicator = ($type == 'pkmn' ? $icon['name_display'].' (variation='.$icon['variation'].', subvariation='.$icon['subvariation'].', version='.$icon['version'].')' : $slug);
         
-        if ($icon['is_duplicate']) {
+        if ($icon['is_duplicate_from']) {
             // If this is a duplicate, we don't need to add it.
             return true;
         }

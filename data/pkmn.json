@@ -299,7 +299,13 @@
     },
     "icons": {
       ".": {},
-      "alola": {}
+      "alola": {},
+      "totem": {
+        "is_duplicate_from": "alola"
+      },
+      "totem-alola": {
+        "is_duplicate_from": "alola"
+      }
     },
     "name": {
       "eng": "Raticate",
@@ -375,16 +381,16 @@
     },
     "icons": {
       ".": {},
-      "beautiful": {
+      "belle": {
         "has_right": true
       },
-      "clever": {},
-      "cool": {},
+      "phd": {},
+      "rock-star": {},
       "cosplay": {},
-      "cute": {
+      "pop-star": {
         "has_right": true
       },
-      "tough": {},
+      "libre": {},
       "original-cap": {
         "has_right": true
       },
@@ -1628,7 +1634,13 @@
     },
     "icons": {
       ".": {},
-      "alola": {}
+      "alola": {},
+      "totem": {
+        "is_duplicate_from": "alola"
+      },
+      "totem-alola": {
+        "is_duplicate_from": "alola"
+      }
     },
     "name": {
       "eng": "Marowak",
@@ -3086,7 +3098,7 @@
     "icons": {
       ".": {},
       "a": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "b": {
         "has_right": true
@@ -5981,7 +5993,7 @@
       "attack": {},
       "defense": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "speed": {}
     },
@@ -6381,7 +6393,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandy": {},
       "trash": {}
@@ -6401,7 +6413,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sandy": {},
       "trash": {}
@@ -6419,7 +6431,16 @@
       "jpn": "gameiru"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "plant": {
+        "is_duplicate_from": "."
+      },
+      "sandy": {
+        "is_duplicate_from": "."
+      },
+      "trash": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Mothim",
@@ -6526,7 +6547,7 @@
     "icons": {
       ".": {},
       "overcast": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sunshine": {}
     },
@@ -6546,7 +6567,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -6565,7 +6586,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -7548,7 +7569,7 @@
     "icons": {
       ".": {},
       "altered": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "origin": {}
     },
@@ -7627,7 +7648,7 @@
     "icons": {
       ".": {},
       "land": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "sky": {
         "has_right": true
@@ -7660,12 +7681,15 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poison": {},
       "psychic": {},
       "rock": {},
       "steel": {},
+      "unkown": {
+        "is_duplicate_from": "."
+      },
       "water": {}
     },
     "name": {
@@ -8541,7 +8565,7 @@
       ".": {},
       "blue-striped": {},
       "red-striped": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -8619,7 +8643,7 @@
     "icons": {
       ".": {},
       "standard": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "zen": {}
     },
@@ -9080,7 +9104,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "summer": {},
       "winter": {}
@@ -9101,7 +9125,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "summer": {},
       "winter": {}
@@ -9949,7 +9973,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -9968,7 +9992,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -10017,7 +10041,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "therian": {}
     },
@@ -10059,7 +10083,7 @@
     "icons": {
       ".": {},
       "ordinary": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "resolute": {
         "has_right": true
@@ -10083,7 +10107,7 @@
       },
       "aria": {
         "has_right": true,
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "pirouette": {}
     },
@@ -10101,11 +10125,11 @@
     },
     "icons": {
       ".": {},
-      "normal": {},
-      "fire": {},
-      "ice": {},
-      "water": {},
-      "electric": {}
+      "standard": {},
+      "burn": {},
+      "chill": {},
+      "douse": {},
+      "shock": {}
     },
     "name": {
       "eng": "Genesect",
@@ -10245,6 +10269,9 @@
       },
       "ash": {
         "has_right": true
+      },
+      "battle-bond": {
+        "is_duplicate_from": "ash"
       }
     },
     "name": {
@@ -10335,7 +10362,67 @@
       "jpn": "kofukimushi"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "archipelago": {
+        "is_duplicate_from": "."
+      },
+      "continental": {
+        "is_duplicate_from": "."
+      },
+      "elegant": {
+        "is_duplicate_from": "."
+      },
+      "fancy": {
+        "is_duplicate_from": "."
+      },
+      "garden": {
+        "is_duplicate_from": "."
+      },
+      "high-plains": {
+        "is_duplicate_from": "."
+      },
+      "icy-snow": {
+        "is_duplicate_from": "."
+      },
+      "jungle": {
+        "is_duplicate_from": "."
+      },
+      "marine": {
+        "is_duplicate_from": "."
+      },
+      "meadow": {
+        "is_duplicate_from": "."
+      },
+      "modern": {
+        "is_duplicate_from": "."
+      },
+      "monsoon": {
+        "is_duplicate_from": "."
+      },
+      "ocean": {
+        "is_duplicate_from": "."
+      },
+      "poke-ball": {
+        "is_duplicate_from": "."
+      },
+      "polar": {
+        "is_duplicate_from": "."
+      },
+      "river": {
+        "is_duplicate_from": "."
+      },
+      "sandstorm": {
+        "is_duplicate_from": "."
+      },
+      "savanna": {
+        "is_duplicate_from": "."
+      },
+      "sun": {
+        "is_duplicate_from": "."
+      },
+      "tundra": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Scatterbug",
@@ -10350,7 +10437,67 @@
       "jpn": "kofuurai"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "archipelago": {
+        "is_duplicate_from": "."
+      },
+      "continental": {
+        "is_duplicate_from": "."
+      },
+      "elegant": {
+        "is_duplicate_from": "."
+      },
+      "fancy": {
+        "is_duplicate_from": "."
+      },
+      "garden": {
+        "is_duplicate_from": "."
+      },
+      "high-plains": {
+        "is_duplicate_from": "."
+      },
+      "icy-snow": {
+        "is_duplicate_from": "."
+      },
+      "jungle": {
+        "is_duplicate_from": "."
+      },
+      "marine": {
+        "is_duplicate_from": "."
+      },
+      "meadow": {
+        "is_duplicate_from": "."
+      },
+      "modern": {
+        "is_duplicate_from": "."
+      },
+      "monsoon": {
+        "is_duplicate_from": "."
+      },
+      "ocean": {
+        "is_duplicate_from": "."
+      },
+      "poke-ball": {
+        "is_duplicate_from": "."
+      },
+      "polar": {
+        "is_duplicate_from": "."
+      },
+      "river": {
+        "is_duplicate_from": "."
+      },
+      "sandstorm": {
+        "is_duplicate_from": "."
+      },
+      "savanna": {
+        "is_duplicate_from": "."
+      },
+      "sun": {
+        "is_duplicate_from": "."
+      },
+      "tundra": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Spewpa",
@@ -10376,7 +10523,7 @@
       "jungle": {},
       "marine": {},
       "meadow": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "modern": {},
       "monsoon": {},
@@ -10438,7 +10585,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10461,7 +10608,7 @@
       "eternal": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10483,7 +10630,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "white": {},
       "yellow": {}
@@ -10571,6 +10718,9 @@
       "kabuki": {},
       "la-reine": {},
       "matron": {},
+      "natural": {
+        "is_duplicate_from": "."
+      },
       "pharaoh": {},
       "star": {}
     },
@@ -10604,6 +10754,10 @@
     "icons": {
       ".": {
         "has_female": true
+      },
+      "male": {
+        "is_duplicate_from": ".",
+        "has_female": false
       }
     },
     "name": {
@@ -10652,7 +10806,7 @@
       ".": {},
       "blade": {},
       "shield": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       }
     },
     "name": {
@@ -11100,7 +11254,7 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "large": {},
       "small": {},
@@ -11121,7 +11275,7 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "large": {},
       "small": {},
@@ -11201,10 +11355,10 @@
     },
     "icons": {
       ".": {},
-      "active": {
-        "is_duplicate": true
+      "neutral": {
+        "is_duplicate_from": "."
       },
-      "neutral": {}
+      "active": {}
     },
     "name": {
       "eng": "Xerneas",
@@ -11237,11 +11391,11 @@
       ".": {
         "has_right": true
       },
-      "10-percent": {
+      "10": {
         "has_right": true
       },
-      "50-percent": {
-        "is_duplicate": true,
+      "50": {
+        "is_duplicate_from": ".",
         "has_right": true
       },
       "complete": {
@@ -11505,7 +11659,10 @@
       "jpn": "dekagusu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Gumshoos",
@@ -11550,7 +11707,10 @@
       "jpn": "kuwaganon"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Vikavolt",
@@ -11597,10 +11757,10 @@
     "icons": {
       ".": {},
       "baile": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "pom-pom": {},
-      "pa-u": {},
+      "pau": {},
       "sensu": {}
     },
     "name": {
@@ -11631,7 +11791,10 @@
       "jpn": "aburibon"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Ribombee",
@@ -11646,7 +11809,10 @@
       "jpn": "iwanko"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "own-tempo": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Rockruff",
@@ -11663,7 +11829,7 @@
     "icons": {
       ".": {},
       "midday": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "dusk": {},
       "midnight": {}
@@ -11683,7 +11849,7 @@
     "icons": {
       ".": {},
       "solo": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "school": {}
     },
@@ -11775,7 +11941,10 @@
       "jpn": "onishizukumo"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Araquanid",
@@ -11805,7 +11974,10 @@
       "jpn": "rarantesu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Lurantis",
@@ -11865,7 +12037,10 @@
       "jpn": "ennyuto"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Salazzle",
@@ -12110,7 +12285,7 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate": true
+        "is_duplicate_from": "."
       },
       "poison": {},
       "psychic": {},
@@ -12134,46 +12309,46 @@
       ".": {
         "has_right": true
       },
-      "meteor-red": {
-        "is_duplicate": true
+      "red-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-orange": {
-        "is_duplicate": true
+      "orange-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-yellow": {
-        "is_duplicate": true
+      "yellow-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-green": {
-        "is_duplicate": true
+      "green-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-blue": {
-        "is_duplicate": true
+      "blue-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-indigo": {
-        "is_duplicate": true
+      "indigo-meteor": {
+        "is_duplicate_from": "."
       },
-      "meteor-violet": {
-        "is_duplicate": true
+      "violet-meteor": {
+        "is_duplicate_from": "."
       },
-      "core-red": {
+      "red": {
         "has_right": true
       },
-      "core-orange": {
+      "orange": {
         "has_right": true
       },
-      "core-yellow": {
+      "yellow": {
         "has_right": true
       },
-      "core-green": {
+      "green": {
         "has_right": true
       },
-      "core-blue": {
+      "blue": {
         "has_right": true
       },
-      "core-indigo": {
+      "indigo": {
         "has_right": true
       },
-      "core-violet": {
+      "violet": {
         "has_right": true
       }
     },
@@ -12220,7 +12395,10 @@
       "jpn": "togedemaru"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Togedemaru",
@@ -12235,7 +12413,22 @@
       "jpn": "mimikkyu"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "busted": {
+        "is_duplicate_from": "."
+      },
+      "disguised": {
+        "is_duplicate_from": "."
+      },
+      "totem": {
+        "is_duplicate_from": "."
+      },
+      "totem-busted": {
+        "is_duplicate_from": "."
+      },
+      "totem-disguised": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Mimikyu",
@@ -12327,7 +12520,10 @@
       "jpn": "jararanga"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "totem": {
+        "is_duplicate_from": "."
+      }
     },
     "name": {
       "eng": "Kommo-o",
@@ -12570,10 +12766,10 @@
       ".": {
         "has_right": true
       },
-      "dusk-mane": {
+      "dusk": {
         "has_right": true
       },
-      "dawn-wings": {
+      "dawn": {
         "has_right": true
       },
       "ultra": {
