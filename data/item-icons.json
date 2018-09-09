@@ -1,6 +1,5 @@
 {
     "items": {
-        "": null,
         "17": [
             "medicine",
             "potion.png"
@@ -213,9 +212,6 @@
         "791": null
     },
     "icons": {
-        "": {
-            "": null
-        },
         "medicine": {
             "potion.png": {
                 "item": {

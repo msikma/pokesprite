@@ -107,11 +107,15 @@ foreach ($items as $item) {
   // Save the object to the item/icon database.
   // If this item does not have an associated icon, the value will be null instead of a string.
   // If it does have an icon, the string is a reference to an icon ID in 'icons'.
-  $item_icon_database[$obj['item']['id']] = !empty($obj['icon']['set']) ? array($obj['icon']['set'], $obj['icon']['filename']) : null;
-  if (!isset($icon_database[$obj['icon']['set']])) {
-    $icon_database[$obj['icon']['set']] = array();
+  if ($obj['item']['id']) {
+    $item_icon_database[$obj['item']['id']] = !empty($obj['icon']['set']) ? array($obj['icon']['set'], $obj['icon']['filename']) : null;
   }
-  $icon_database[$obj['icon']['set']][$obj['icon']['filename']] = $obj;
+  if ($obj['icon']['set']) {
+    if (!isset($icon_database[$obj['icon']['set']])) {
+      $icon_database[$obj['icon']['set']] = array();
+    }
+    $icon_database[$obj['icon']['set']][$obj['icon']['filename']] = $obj;
+  }
 }
 
 // Now we need to run through all existing physical icons to see which ones were not linked to an item.
@@ -202,7 +206,6 @@ function find_item_icon($item, $sets) {
     }
   }
   return $matches[0];
-  //if (strpos($obj['icon']['slug'], 'revive') > -1) {
 
   // NOTE: we're quitting the script here on error because all items should be accounted for.
   // If one isn't, we need to add it to ignored/aliased/typoed items.
