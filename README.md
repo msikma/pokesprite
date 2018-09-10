@@ -1,3 +1,5 @@
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 PokéSprite – Image Sprite Generator
 ===================================
 
@@ -74,6 +76,8 @@ PkSpr.decorate('icon_1');
 
 Compiling the sprite
 --------------------
+
+**Note: this section needs to be rewritten.**
 
 Running the script to generate a sprite image with default settings is a simple matter of running the program.
 

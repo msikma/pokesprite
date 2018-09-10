@@ -1,7 +1,36 @@
 {
   "name": "pokesprite-src",
+  "description": "Pokémon icon database and spritesheet generator",
   "private": true,
+  "version": "2.0.0",
+  "homepage": "https://github.com/msikma/pokesprite",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint src; exit 0",
+    "build": "babel src --presets babel-preset-env --plugins transform-class-properties,transform-object-rest-spread --out-dir dist"
+  },
+  "bin": {
+    "pokesprite": "bin/pokesprite"
+  },
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.6.0"
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.1.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.1.0",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-jsx-a11y": "^5.1.0",
+    "eslint-plugin-react": "^7.2.0"
+  },
+  "dependencies": {
+    "argparse": "1.0.10",
+    "babel-polyfill": "^6.1.0",
+    "chalk": "^2.3.1",
+    "filesize": "^3.6.0",
+    "lodash": "^4.17.10",
+    "tmp": "^0.0.33"
   }
 }
