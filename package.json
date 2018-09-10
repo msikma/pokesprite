@@ -23,7 +23,10 @@
     "eslint": "^4.4.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-jsx-a11y": "^5.1.0",
-    "eslint-plugin-react": "^7.2.0"
+    "eslint-plugin-react": "^7.2.0",
+    "imagemin": "^6.0.0",
+    "imagemin-pngcrush": "^5.1.0",
+    "spritesmith": "^3.3.1"
   },
   "dependencies": {
     "argparse": "1.0.10",

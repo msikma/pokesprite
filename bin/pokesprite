@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const path = require('path')
 const ArgumentParser = require('argparse').ArgumentParser
 const package = require('../package.json')
 
@@ -59,7 +60,7 @@ advanced && advArguments.map(addArgument)
 advanced && process.argv.push('-h')
 
 const defaults = advArguments.reduce((def, arg) => ({ ...def, [arg[0].replace(/-/g, '_').replace(/^_+/, '')]: arg[2] }), {})
-const args = { ...defaults, ...parser.parseArgs() }
+const args = { ...defaults, ...parser.parseArgs(), rootDir: path.resolve(__dirname, '..') }
 
 // Fire up the main application.
 require('babel-polyfill')
