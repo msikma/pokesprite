@@ -1,7 +1,7 @@
 {
   "name": "pokesprite",
   "description": "Pokémon icon database and sprite sheet",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "main" : "pokesprite.min.js",
   "repository": {
     "type": "git",
