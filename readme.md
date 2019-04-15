@@ -21,9 +21,9 @@ The easiest way to use and display these sprites is to include the CSS file from
 | pkmn-**[name]**, pkmn-l-**[name]** | Displays a Pokémon by name; use pkmn-l for larger LPLE sprites |
 | pkmn-**[dex nr]**, pkmn-l-**[dex nr]** | Displays a Pokémon by dex number (e.g. "001"); as above |
 | color-regular, color-shiny | Toggles the regular color or shiny variant |
-| dir-left, dir-right        | Direction the sprite faces (some have a custom sprite per direction, e.g. Zangoose) |
+| dir-left, dir-right        | Direction the sprite faces (some are asymmetrical, e.g. Zangoose) |
 | gender-male, gender-female | Toggles the gender (in case of gender differences, e.g. Meowstic) |
-| form-**[name]**            | Displays a specific form variant (e.g. **defense** for Deoxys, **orange** for Flabébé, etc.) |
+| form-**[name]**            | Displays a specific form variant (e.g. **defense** for Deoxys, etc.) |
 
 Only lowercase ASCII characters are used for Pokémon names; e.g. Flabébé becomes **pkmn-flabebe**. Only English names are supported. Additionally, the larger sprites from *Let's Go Pikachu/Eevee* are available by using the **pkmn-l** prefix, e.g. **pkmn-l-meltan**.
 
