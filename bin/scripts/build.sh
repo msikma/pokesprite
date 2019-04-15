@@ -18,7 +18,3 @@ rm -f "$DIR/output/overview.css.map"
 cp "$DIR/resources/node-readme.md" "$DIR/output/readme.md"
 cp "$DIR/LICENSE" "$DIR/output/license"
 cp "$DIR/resources/pkg-info.json" "$DIR/output/package.json"
-
-#./pokesprite.php --exclude-pkmn --file-output-img="icons.png"
-#./pokesprite.php --exclude-icon-sets --exclude-shiny --file-output-img="regular.png"
-#./pokesprite.php --exclude-icon-sets --exclude-regular --file-output-img="shiny.png"

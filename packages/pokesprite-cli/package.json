@@ -1,0 +1,11 @@
+{
+  "name": "pokesprite-cli",
+  "version": "2.0.0",
+  "description": "Command line interface for PokéSprite, a Pokémon icon spritesheet generator",
+  "main": "index.js",
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "license": "MIT",
+  "dependencies": {
+    "pokesprite-core": "^2.0.0"
+  }
+}

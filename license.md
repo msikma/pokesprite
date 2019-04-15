@@ -1,8 +1,6 @@
-The MIT License (MIT)
+#### The MIT License (MIT)
 
-(C) 2014-2017 Michiel Sikma <michiel@sikma.org> and PokéSprite contributors
-
-For a full list of contributors, view the project commit history.
+**© 2014-2019**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

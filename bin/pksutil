@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+# Print a command before running it.
+exe() {
+  echo "$@"
+  $@
+}
+
+# Ends the script if a specific directory is not present.
+# Used to ensure we're running a package-specific script for e.g. compilation.
+reqdir() {
+  if [ ! -d "$1" ]; then
+    echo "$self: error: $2: $3"
+    exit 1
+  fi
+}
+reqpkg() {
+  reqdir './src' $1 "Run this command from inside a package"
+}
+
+# Get the project's root directory, possibly through a symlink.
+link="$(dirname `readlink $0` 2> /dev/null)"
+path=`dirname $0 2> /dev/null`
+root=`cd "$path"/"$link"/.. && pwd`  # root dir (dir of the monorepo)
+project=`cat "$root/package.json" | grep -i "\"name\"" | awk -F[\"] '{print $4}'`
+self=`basename "$0"`  # name of this script
+package=$PWD  # reference to the current package, if in its directory
+
+# Retrieve the package name, version and homepage of the root package.
+project=`cat "$root/package.json" | grep -i "\"name\"" | awk -F[\"] '{print $4}'`
+version=`cat "$root/package.json" | grep -i "\"version\"" | awk -F[\"] '{print $4}'`
+homepage=`cat "$root/package.json" | grep -i "\"homepage\"" | awk -F[\"] '{print $4}'`
+
+usage="usage: $self [-h] [-v] {compile,watch,clean,lint-all,lint}"
+babel="$root/node_modules/.bin/babel"
+babelargs="--config-file $root/babel.config.js --verbose --relative $root/packages/**/src/ -d ../lib"
+
+case $1 in
+  compile)
+    cd $root
+    export NODE_ENV=production
+    exe "$babel $babelargs" --ignore $root'/packages/**/src/**/*.test.js' --ignore $root'/packages/**/src/*.test.js'
+    ;;
+  watch)
+    cd $root
+    exe "$babel --watch $babelargs"
+    ;;
+  clean)
+    exe "rm -rfv $root/packages/**/lib"
+    ;;
+  lint-all)
+    cd $root
+    exe "eslint packages/**/src"
+    ;;
+  lint)
+    reqpkg $1
+    cd $root
+    exe "eslint $package"
+    ;;
+  -v|--version)
+    echo "$project ($version)"
+    ;;
+  *)
+    if [[ $1 == "-h" || $1 == '--help' ]]; then
+      cat << EOF
+$usage
+
+Tooling utility function for PokéSprite. Runs scripts to compile and
+lint code. Tasks are divided into global tasks, which operate on
+all packages, and package tasks, which need to be invoked from inside
+a package directory.
+
+Global tasks:
+  compile               Transpiles package code for publication.
+  watch                 Watches for changes, then compiles.
+  clean                 Deletes all compiled files.
+  lint-all              Checks style guidelines for all packages.
+
+Package tasks:
+  lint                  Checks code for style guidelines.
+
+Optional arguments:
+  -h, --help            Show this help message and exit.
+  -v, --version         Show program's version number and exit.
+
+For more information, see <$homepage>.
+EOF
+      exit 0
+    fi
+    if [ -z "$1" ]; then
+      cat << EOF
+$usage
+$self: error: $self: too few arguments
+EOF
+      exit 1
+    fi
+    if [ ! -z "$1" ]; then
+      cat << EOF
+$usage
+$self: error: Invalid command: $1 (choose from [compile, watch, clean, lint-all, lint])
+EOF
+      exit 1
+    fi
+    ;;
+esac

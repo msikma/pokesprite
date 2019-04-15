@@ -1,6 +1,6 @@
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+### PokéSprite - icon resources and data
 
-This is the monorepo for Pokésprite.
+This package contains the actual icon files and the metadata needed to use them.
 
 <p align="center">
   <img src="https://raw.github.com/msikma/pokesprite/master/resources/wiki/pokesprite-banner.png" alt="PokéSprite icon example" />
