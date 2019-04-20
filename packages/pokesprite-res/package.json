@@ -2,7 +2,7 @@
   "name": "pokesprite-res",
   "version": "2.0.0",
   "description": "Pokémon icon database and spritesheet resources",
-  "main": "data/pkmn.json",
+  "main": "index.js",
   "author": "Michiel Sikma <michiel@sikma.org>",
   "license": "SEE LICENSE IN <readme.md>",
   "dependencies": {
