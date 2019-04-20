@@ -1,6 +1,7 @@
 /** PokéSprite - pokesprite-cli <https://github.com/msikma/pokesprite>
   * © MIT license */
 
+const path = require('path')
 const { ArgumentParser } = require('argparse')
 const addLongHelp = require('argparse-longhelp')
 
@@ -10,36 +11,37 @@ const parser = new ArgumentParser({
   version: pkgData.version,
   addHelp: true,
   description: `${pkgData.description}.`,
-  epilog: `The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc. -  -  - 
+  epilog: `The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc. -  -  -
 Everything else, and the programming code, is governed by the MIT license.`
 })
 addLongHelp(parser, `asdf`, true)
 
 // Regular arguments.
-const regArguments = [
-  ['--exclude-forms', 'Excludes alternate forms.', false],
-  ['--exclude-icon-sets', 'Excludes all icon sets (other than the Pokémon icons).', false],
-  ['--exclude-pkmn', 'Excludes all Pokémon icons.', false],
-  ['--exclude-regular', 'Excludes regular (non-shiny) icons.', false],
-  ['--exclude-shiny', 'Excludes shiny icons.', false],
-  ['--exclude-special', 'Excludes special icons (egg, and "unknown Pokémon").', false],
-  ['--icon-sets', 'List of icon sets to include in the image.', '*', null, 'list'],
-  ['--no-minify', 'Skips the minification and optimization step.', false],
+let regArguments = [
+  ['--exclude-pkmn', 'Exclude all Pokémon icons.', false],
+  ['--exclude-regular', 'Exclude regular (non-shiny) icons.', false],
+  ['--exclude-shiny', 'Exclude shiny icons.', false],
+  ['--exclude-forms', 'Exclude alternate forms.', false],
+  ['--exclude-gender', 'Exclude gender differences (pass "male" or "female").', 'neither', ['male', 'female', 'neither']],
+  ['--exclude-items', 'Exclude all item sets.', false],
+  ['--exclude-special', 'Exclude special icons (egg, and "unknown Pokémon").', false],
+  ['--right-face', 'Whether to include right-facing icons. 0: Include none. 1: only unique icons are included (default). 2: all Pokémon get right-facing icons.', '1', ['0', '1', '2']],
+  ['--item-sets', 'List of item sets to include in the image.', '*', null, 'list'],
+  ['--no-minify', 'Skip the minification and optimization step.', false],
   ['--no-padding', 'Don\'t add a 1px padding around all images.', false],
-  ['--pkmn-lang', 'Sets the language of Pokémon names to use for the output.', 'eng', ['eng', 'jpn', 'jpn_ro']],
-  ['--right-face', 'Whether to include right-facing icons. 0: Include none. 1: only unique icons are included (default). 2: all Pokémon get right-facing icons, possibly generated from their regular icon.', '1', ['0', '1', '2']],
-  ['--more-help', 'Show advanced configuration arguments.', false],
-  ['task', 'Action to perform.', 'build', ['build', 'html', 'md']]
+  ['--more-help', 'Show additional file output arguments.', false],
+  ['output', 'Directory to save the output to.']
 ]
 // Advanced arguments, visible only if you pass --more-help.
 const advArguments = [
-  ['--dir-data', 'Icon data directory.', './data/'],
-  ['--dir-icons', 'Icons directory.', './icons/'],
-  ['--dir-output', 'Output directory.', './output/'],
-  ['--dir-pkmn', 'Pokémon icons directory, relative to the icons directory.', 'pokemon/'],
-  ['--file-extensions', 'Permitted file extensions for images to be included.', 'png'],
+  ['--generate-html', 'Whether to generate HTML icon overview.', true],
+  ['--generate-css', 'Whether to generate CSS.', true],
+  ['--generate-img', 'Whether to generate sprite image.', true],
+  ['--generate-md', 'Whether to generate Markdown icon overview', true],
+  ['--generate-scss', 'Whether to generate SCSS.', true],
   ['--file-output-html', 'HTML icon overview output filename.', 'overview.html'],
-  ['--file-output-img', 'Final output image filename.', 'pkmn.png'],
+  ['--file-output-css', 'CSS output filename.', 'pkmn.css'],
+  ['--file-output-img', 'Sprite image output filename.', 'pkmn.png'],
   ['--file-output-md', 'Markdown icon overview output filename.', 'overview.md'],
   ['--file-output-scss', 'SCSS output filename.', 'pkmn.scss']
 ]
@@ -57,7 +59,9 @@ const addArgument = arg =>
     ...(arg[4] ? { dest: arg[4] } : {})
   })
 
-// Add our regular arguments (and advanced arguments if needed). Force --help on advanced.
+// Add our regular arguments (and advanced arguments if needed).
+// Display more help if --more-help was passed (and remove --more-help from regular arguments).
+advanced && (regArguments = regArguments.filter(arg => arg[0] !== '--more-help'))
 regArguments.map(addArgument)
 advanced && advArguments.map(addArgument)
 advanced && process.argv.push('-h')
@@ -65,7 +69,7 @@ advanced && process.argv.push('-h')
 const cliArgs = parser.parseArgs()
 const defaults = advArguments.reduce((def, arg) => ({ ...def, [arg[0].replace(/-/g, '_').replace(/^_+/, '')]: arg[2] }), {})
 const sets = cliArgs.list.split(',')
-const args = { ...defaults, ...cliArgs, rootDir: path.resolve(__dirname, '..'), icon_sets: sets[0] === '*' ? '*' : sets }
+const args = { ...defaults, ...cliArgs, icon_sets: sets[0] === '*' ? '*' : sets, output: `${path.resolve(cliArgs.output)}/` }
 
 // Fire up the main application.
 require('babel-polyfill')
