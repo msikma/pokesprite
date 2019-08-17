@@ -1,7 +1,19 @@
 {
   "name": "pokesprite-src",
+  "version": "1.0.0",
+  "description": "Pokésprite icon collection repository and database",
+  "files": [
+    "license.md",
+    "package.json",
+    "readme.md",
+    "/icons",
+    "/data"
+  ],
   "private": true,
-  "devDependencies": {
-    "node-sass": "^4.6.0"
-  }
+  "keywords": ["Icons", "Sprites", "SCSS", "Pokémon", "NodeJS"],
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT"
 }
