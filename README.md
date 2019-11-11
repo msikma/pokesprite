@@ -7,6 +7,8 @@ This simple script generates a *complete image sprite* of all Pokémon in the Na
   <img src="https://raw.github.com/msikma/pokesprite/master/resources/wiki/pokesprite-banner.png" alt="PokéSprite icon example" />
 </p>
 
+<p align="center"><b>Note: <a href="https://github.com/msikma/pokesprite/issues/54">work is underway</a> to support Pokémon Sword/Shield.</b></p>
+
 Usage guide
 -----------
 
