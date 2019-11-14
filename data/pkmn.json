@@ -12891,5 +12891,36 @@
       "jpn": "\u30bc\u30e9\u30aa\u30e9",
       "jpn_ro": "Zeraora"
     }
+  },
+  "808": {
+    "idx": 808,
+    "slug": {
+      "eng": "meltan",
+      "jpn": "meltan"
+    },
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Meltan",
+      "jpn": "\u30e1\u30eb\u30bf\u30f3",
+      "jpn_ro": "Meltan"
+    }
+  },
+  "809": {
+    "idx": 809,
+    "slug": {
+      "eng": "melmetal",
+      "jpn": "melmetal"
+    },
+    "unofficial_icon": true,
+    "icons": {
+      ".": {}
+    },
+    "name": {
+      "eng": "Melmetal",
+      "jpn": "\u30e1\u30eb\u30e1\u30bf\u30eb",
+      "jpn_ro": "Melmetal"
+    }
   }
 }
