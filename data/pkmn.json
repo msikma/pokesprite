@@ -12927,7 +12927,7 @@
     },
     "icons": {
       ".": {
-        "is_unofficial_icon": true
+        "is_unofficial_legacy_icon": true
       }
     },
     "name": {
