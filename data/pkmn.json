@@ -301,10 +301,10 @@
       ".": {},
       "alola": {},
       "totem": {
-        "is_duplicate_from": "alola"
+        "is_alias_of": "alola"
       },
       "totem-alola": {
-        "is_duplicate_from": "alola"
+        "is_alias_of": "alola"
       }
     },
     "name": {
@@ -1636,10 +1636,10 @@
       ".": {},
       "alola": {},
       "totem": {
-        "is_duplicate_from": "alola"
+        "is_alias_of": "alola"
       },
       "totem-alola": {
-        "is_duplicate_from": "alola"
+        "is_alias_of": "alola"
       }
     },
     "name": {
@@ -3098,7 +3098,7 @@
     "icons": {
       ".": {},
       "a": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "b": {
         "has_right": true
@@ -5993,7 +5993,7 @@
       "attack": {},
       "defense": {},
       "normal": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "speed": {}
     },
@@ -6393,7 +6393,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sandy": {},
       "trash": {}
@@ -6413,7 +6413,7 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sandy": {},
       "trash": {}
@@ -6433,13 +6433,13 @@
     "icons": {
       ".": {},
       "plant": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sandy": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "trash": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -6547,7 +6547,7 @@
     "icons": {
       ".": {},
       "overcast": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sunshine": {}
     },
@@ -6567,7 +6567,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -6586,7 +6586,7 @@
       ".": {},
       "east": {},
       "west": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -7569,7 +7569,7 @@
     "icons": {
       ".": {},
       "altered": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "origin": {}
     },
@@ -7648,7 +7648,7 @@
     "icons": {
       ".": {},
       "land": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sky": {
         "has_right": true
@@ -7681,14 +7681,14 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "poison": {},
       "psychic": {},
       "rock": {},
       "steel": {},
       "unkown": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "water": {}
     },
@@ -8565,7 +8565,7 @@
       ".": {},
       "blue-striped": {},
       "red-striped": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -8643,7 +8643,7 @@
     "icons": {
       ".": {},
       "standard": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "zen": {}
     },
@@ -9104,7 +9104,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "summer": {},
       "winter": {}
@@ -9125,7 +9125,7 @@
       ".": {},
       "autumn": {},
       "spring": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "summer": {},
       "winter": {}
@@ -9973,7 +9973,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "therian": {}
     },
@@ -9992,7 +9992,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "therian": {}
     },
@@ -10041,7 +10041,7 @@
     "icons": {
       ".": {},
       "incarnate": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "therian": {}
     },
@@ -10083,7 +10083,7 @@
     "icons": {
       ".": {},
       "ordinary": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "resolute": {
         "has_right": true
@@ -10107,7 +10107,7 @@
       },
       "aria": {
         "has_right": true,
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "pirouette": {}
     },
@@ -10271,7 +10271,7 @@
         "has_right": true
       },
       "battle-bond": {
-        "is_duplicate_from": "ash"
+        "is_alias_of": "ash"
       }
     },
     "name": {
@@ -10364,64 +10364,64 @@
     "icons": {
       ".": {},
       "archipelago": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "continental": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "elegant": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "fancy": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "garden": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "high-plains": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "icy-snow": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "jungle": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "marine": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "meadow": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "modern": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "monsoon": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "ocean": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "poke-ball": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "polar": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "river": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sandstorm": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "savanna": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sun": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "tundra": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -10439,64 +10439,64 @@
     "icons": {
       ".": {},
       "archipelago": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "continental": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "elegant": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "fancy": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "garden": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "high-plains": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "icy-snow": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "jungle": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "marine": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "meadow": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "modern": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "monsoon": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "ocean": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "poke-ball": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "polar": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "river": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sandstorm": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "savanna": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "sun": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "tundra": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -10523,7 +10523,7 @@
       "jungle": {},
       "marine": {},
       "meadow": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "modern": {},
       "monsoon": {},
@@ -10585,7 +10585,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "white": {},
       "yellow": {}
@@ -10608,7 +10608,7 @@
       "eternal": {},
       "orange": {},
       "red": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "white": {},
       "yellow": {}
@@ -10630,7 +10630,7 @@
       "blue": {},
       "orange": {},
       "red": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "white": {},
       "yellow": {}
@@ -10719,7 +10719,7 @@
       "la-reine": {},
       "matron": {},
       "natural": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "pharaoh": {},
       "star": {}
@@ -10756,7 +10756,7 @@
         "has_female": true
       },
       "male": {
-        "is_duplicate_from": ".",
+        "is_alias_of": ".",
         "has_female": false
       }
     },
@@ -10806,7 +10806,7 @@
       ".": {},
       "blade": {},
       "shield": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11254,11 +11254,17 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
-      "large": {},
-      "small": {},
-      "super": {}
+      "large": {
+        "is_unofficial_icon": true
+      },
+      "small": {
+        "is_unofficial_icon": true
+      },
+      "super": {
+        "is_unofficial_icon": true
+      }
     },
     "name": {
       "eng": "Pumpkaboo",
@@ -11275,11 +11281,17 @@
     "icons": {
       ".": {},
       "average": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
-      "large": {},
-      "small": {},
-      "super": {}
+      "large": {
+        "is_unofficial_icon": true
+      },
+      "small": {
+        "is_unofficial_icon": true
+      },
+      "super": {
+        "is_unofficial_icon": true
+      }
     },
     "name": {
       "eng": "Gourgeist",
@@ -11356,7 +11368,7 @@
     "icons": {
       ".": {},
       "neutral": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "active": {}
     },
@@ -11395,7 +11407,7 @@
         "has_right": true
       },
       "50": {
-        "is_duplicate_from": ".",
+        "is_alias_of": ".",
         "has_right": true
       },
       "complete": {
@@ -11661,7 +11673,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11709,7 +11721,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11757,7 +11769,7 @@
     "icons": {
       ".": {},
       "baile": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "pom-pom": {},
       "pau": {},
@@ -11793,7 +11805,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11811,7 +11823,7 @@
     "icons": {
       ".": {},
       "own-tempo": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11829,7 +11841,7 @@
     "icons": {
       ".": {},
       "midday": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "dusk": {},
       "midnight": {}
@@ -11849,7 +11861,7 @@
     "icons": {
       ".": {},
       "solo": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "school": {}
     },
@@ -11943,7 +11955,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -11976,7 +11988,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -12039,7 +12051,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -12285,7 +12297,7 @@
       "ground": {},
       "ice": {},
       "normal": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "poison": {},
       "psychic": {},
@@ -12310,25 +12322,25 @@
         "has_right": true
       },
       "red-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "orange-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "yellow-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "green-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "blue-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "indigo-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "violet-meteor": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "red": {
         "has_right": true
@@ -12397,7 +12409,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -12415,19 +12427,19 @@
     "icons": {
       ".": {},
       "busted": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "disguised": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "totem-busted": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       },
       "totem-disguised": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -12522,7 +12534,7 @@
     "icons": {
       ".": {},
       "totem": {
-        "is_duplicate_from": "."
+        "is_alias_of": "."
       }
     },
     "name": {
@@ -12913,9 +12925,10 @@
       "eng": "melmetal",
       "jpn": "melmetal"
     },
-    "unofficial_icon": true,
     "icons": {
-      ".": {}
+      ".": {
+        "is_unofficial_icon": true
+      }
     },
     "name": {
       "eng": "Melmetal",
