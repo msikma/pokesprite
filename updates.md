@@ -39,7 +39,7 @@ These updates have been backported to the 40×30 icons.
 The icons in this repository have been split up into three sets of Pokémon box sprites and item icons:
 
 <table>
-<tr><th>Set name</th><th colspan="2">Size (box, items)</th><th>Description</th></tr>
+<tr><th>Set name</th><th colspan="2">Size (box, items)</th><th>Description</th></tr>
 <tr><td>icons</td><td>32×32</td><td>40×30</td><td>Original icons from Gen 7 (core series; up to Pokémon Ultra Sun/Ultra Moon). These are mostly legacy sprites that won't be updated (much) anymore.</td></tr>
 <tr><td>icons‑gen7x</td><td>32×32</td><td>68×56</td><td>Original icons from Gen 7, modified to be more consistent with Gen 8 sprites by changing the size and contrast (see below).</td></tr>
 <tr><td>icons‑gen8</td><td>32×32</td><td>68×56</td><td>Original icons from Gen 8.</td></tr>
