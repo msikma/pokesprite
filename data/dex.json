@@ -389,6 +389,7 @@
         "has_right": true
       },
       "phd": {},
+      "starter": {},
       "rock-star": {},
       "cosplay": {},
       "pop-star": {
@@ -2068,7 +2069,8 @@
       "jpn": "eievui"
     },
     "icons": {
-      "_": {}
+      "_": {},
+      "starter": {}
     }
   },
   {
