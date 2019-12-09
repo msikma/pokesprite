@@ -385,6 +385,7 @@
         "has_right": true
       },
       "phd": {},
+      "starter": {},
       "rock-star": {},
       "cosplay": {},
       "pop-star": {
@@ -2063,7 +2064,8 @@
       "jpn": "eievui"
     },
     "icons": {
-      ".": {}
+      ".": {},
+      "starter": {}
     },
     "name": {
       "eng": "Eevee",
