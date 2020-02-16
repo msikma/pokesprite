@@ -12,14 +12,14 @@ These icons can be used as individual files, or accessed programmatically using 
 
 ## Icons and metadata
 
-This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8) are included. Item sprites are available with Gen 8 style white outlines and without.
+This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8) are included. Item sprites are available with Gen 8 style white outlines and without.
 
 | Directory | Example | Size | Type | Description |
 |:----------|:-------:|:----------|:-----|:------------|
-| `/pokemon-gen7x` | ![/pokemon-gen7x/ example](pokemon-gen7x/shiny/venusaur.png) | 68×56 | Pokémon | Gen 7 sprites, but padded to Gen 8 size and contrast |
-| `/pokemon-gen8` | ![/pokemon-gen8/ example](pokemon-gen8/shiny/venusaur.png) | 68×56 | Pokémon | Gen 8 sprites (plus older Gen 7 sprites where needed) |
+| `/pokemon‑gen7x` | ![/pokemon-gen7x/ example](pokemon-gen7x/shiny/venusaur.png) | 68×56 | Pokémon | Gen 7 sprites, but updated to Gen 8 size and contrast |
+| `/pokemon‑gen8` | ![/pokemon-gen8/ example](pokemon-gen8/shiny/venusaur.png) | 68×56 | Pokémon | Gen 8 sprites (plus older Gen 7 sprites where needed) |
 | `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | 32×32 | Items | Gen 7–8 inventory items |
-| `/items-outline` | ![/items-outline/ example](items-outline/evo-item/thunder-stone.png) | 32×32 | Items | Gen 7–8 inventory items with *Sword/Shield* style white outline |
+| `/items‑outline` | ![/items-outline/ example](items-outline/evo-item/thunder-stone.png) | 32×32 | Items | Gen 7–8 inventory items with *Sword/Shield* style outline |
 
 The item icons are separated by type in subdirectories (e.g. *"berry", "evo-item", "valuable-item",* etc).
 
@@ -83,9 +83,9 @@ Each entry in the `dex.json` file contains the following data (example):
 // ...
 ```
 
-The `jpn_ro` item in the `name` and `slug` objects refers to the official romanization of the Pokémon's name, rather than a Hepburn transliteration. For example, アーボック is "Arbok", rather than "Ābokku".
+The **`jpn_ro`** item in the `name` and `slug` objects refers to the official romanization of the Pokémon's name, rather than a Hepburn transliteration. For example, アーボック is "Arbok", rather than "Ābokku".
 
-The `forms` object contains a list of all icons pertaining to a Pokémon. It always contains at least a value `$` (dollar sign), which means the regular form or default icon. Each form object can contain the following details:
+The **`forms`** object contains a list of all icons pertaining to a Pokémon. It always contains at least a `"$"` (dollar sign) value, which means the regular form or default icon. Each form object can contain the following details:
 
 | Key | Meaning |
 |:----|:--------|
