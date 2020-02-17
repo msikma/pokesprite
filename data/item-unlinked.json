@@ -14,7 +14,7 @@
     }
   },
   "key-item/auroraticket": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/basement-key--new-mauville": {
     "type": "specific",
@@ -24,28 +24,28 @@
     }
   },
   "key-item/berry-pouch": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/bicycle": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/bike--green": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/bike-voucher": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/contest-costume--dress": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/data-card": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/devon-goods": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/dowsing-machine-xy": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/dropped-item--red": {
     "type": "specific",
@@ -62,13 +62,13 @@
     }
   },
   "key-item/exp-share": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/fame-checker": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/god-stone": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/holo-caster--green": {
     "type": "specific",
@@ -85,10 +85,10 @@
     }
   },
   "key-item/lost-item-mimejr": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/magma-emblem": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/meteorite--2": {
     "type": "specific",
@@ -112,10 +112,10 @@
     }
   },
   "key-item/mysticticket": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/oaks-letter": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/old-amber": {
     "type": "duplicate",
@@ -125,43 +125,43 @@
     }
   },
   "key-item/old-sea-map": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/pokeblock-case": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/powder-jar": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/professors-mask": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/profs-letter": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/rainbow-pass": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/rm-1-key": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/rm-2-key": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/rm-4-key": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/rm-6-key": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/ruby": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/sapphire": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/sparkling-stone-sm": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/storage-key--galactic-warehouse": {
     "type": "specific",
@@ -178,7 +178,7 @@
     }
   },
   "key-item/teachy-tv": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/travel-trunk--gold": {
     "type": "specific",
@@ -195,13 +195,13 @@
     }
   },
   "key-item/tri-pass": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/vs-recorder": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/vs-seeker": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "key-item/xtransceiver--blue": {
     "type": "specific",
@@ -225,109 +225,93 @@
     }
   },
   "mail/air-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/bead-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/bloom-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/brick-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/bubble-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/dream-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/fab-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/flame-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/glitter-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/grass-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/harbor-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/heart-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/mech-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/mosaic-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/orange-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/retro-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/shadow-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/snow-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/space-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/steel-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/tropic-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/tunnel-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/wave-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "mail/wood-mail": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "other-item/dynamax-crystal": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "roto/exp-points": {
-    "file": "unknown"
+    "type": "unknown"
   },
   "tm/fighting": {
-    "type": "duplicate",
-    "of": {
-      "file": "hm/fighting",
-      "item_id": "item_0335"
-    }
+    "type": "unknown"
   },
   "tm/flying": {
-    "type": "duplicate",
-    "of": {
-      "file": "hm/flying",
-      "item_id": "item_0421"
-    }
+    "type": "unknown"
   },
   "tm/normal": {
-    "type": "duplicate",
-    "of": {
-      "file": "hm/normal",
-      "item_id": "item_0332"
-    }
+    "type": "unknown"
   },
   "tm/water": {
-    "type": "duplicate",
-    "of": {
-      "file": "hm/water",
-      "item_id": "item_0345"
-    }
+    "type": "unknown"
   }
 }
