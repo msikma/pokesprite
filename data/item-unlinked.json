@@ -1,0 +1,333 @@
+{
+  "evo-item/metal-coat": {
+    "type": "duplicate",
+    "of": {
+      "file": "hold-item/metal-coat",
+      "item_id": "item_0233"
+    }
+  },
+  "hold-item/kings-rock": {
+    "type": "duplicate",
+    "of": {
+      "file": "evo-item/kings-rock",
+      "item_id": "item_0221"
+    }
+  },
+  "key-item/auroraticket": {
+    "file": "unknown"
+  },
+  "key-item/basement-key--new-mauville": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/basement-key",
+      "item_id": "item_0476"
+    }
+  },
+  "key-item/berry-pouch": {
+    "file": "unknown"
+  },
+  "key-item/bicycle": {
+    "file": "unknown"
+  },
+  "key-item/bike--green": {
+    "file": "unknown"
+  },
+  "key-item/bike-voucher": {
+    "file": "unknown"
+  },
+  "key-item/contest-costume--dress": {
+    "file": "unknown"
+  },
+  "key-item/data-card": {
+    "file": "unknown"
+  },
+  "key-item/devon-goods": {
+    "file": "unknown"
+  },
+  "key-item/dowsing-machine-xy": {
+    "file": "unknown"
+  },
+  "key-item/dropped-item--red": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/dropped-item",
+      "item_id": "item_0636"
+    }
+  },
+  "key-item/dropped-item--yellow": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/dropped-item",
+      "item_id": "item_0636"
+    }
+  },
+  "key-item/exp-share": {
+    "file": "unknown"
+  },
+  "key-item/fame-checker": {
+    "file": "unknown"
+  },
+  "key-item/god-stone": {
+    "file": "unknown"
+  },
+  "key-item/holo-caster--green": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/holo-caster",
+      "item_id": "item_0641"
+    }
+  },
+  "key-item/holo-caster--red": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/holo-caster",
+      "item_id": "item_0641"
+    }
+  },
+  "key-item/lost-item-mimejr": {
+    "file": "unknown"
+  },
+  "key-item/magma-emblem": {
+    "file": "unknown"
+  },
+  "key-item/meteorite--2": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/meteorite",
+      "item_id": "item_0729"
+    }
+  },
+  "key-item/meteorite--3": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/meteorite",
+      "item_id": "item_0729"
+    }
+  },
+  "key-item/meteorite--4": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/meteorite",
+      "item_id": "item_0729"
+    }
+  },
+  "key-item/mysticticket": {
+    "file": "unknown"
+  },
+  "key-item/oaks-letter": {
+    "file": "unknown"
+  },
+  "key-item/old-amber": {
+    "type": "duplicate",
+    "of": {
+      "file": "fossil/old-amber",
+      "item_id": "item_0103"
+    }
+  },
+  "key-item/old-sea-map": {
+    "file": "unknown"
+  },
+  "key-item/pokeblock-case": {
+    "file": "unknown"
+  },
+  "key-item/powder-jar": {
+    "file": "unknown"
+  },
+  "key-item/professors-mask": {
+    "file": "unknown"
+  },
+  "key-item/profs-letter": {
+    "file": "unknown"
+  },
+  "key-item/rainbow-pass": {
+    "file": "unknown"
+  },
+  "key-item/rm-1-key": {
+    "file": "unknown"
+  },
+  "key-item/rm-2-key": {
+    "file": "unknown"
+  },
+  "key-item/rm-4-key": {
+    "file": "unknown"
+  },
+  "key-item/rm-6-key": {
+    "file": "unknown"
+  },
+  "key-item/ruby": {
+    "file": "unknown"
+  },
+  "key-item/sapphire": {
+    "file": "unknown"
+  },
+  "key-item/sparkling-stone-sm": {
+    "file": "unknown"
+  },
+  "key-item/storage-key--galactic-warehouse": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/storage-key",
+      "item_id": "item_0463"
+    }
+  },
+  "key-item/storage-key--sea-mauville": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/storage-key",
+      "item_id": "item_0463"
+    }
+  },
+  "key-item/teachy-tv": {
+    "file": "unknown"
+  },
+  "key-item/travel-trunk--gold": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/travel-trunk",
+      "item_id": "item_0707"
+    }
+  },
+  "key-item/travel-trunk--silver": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/travel-trunk",
+      "item_id": "item_0707"
+    }
+  },
+  "key-item/tri-pass": {
+    "file": "unknown"
+  },
+  "key-item/vs-recorder": {
+    "file": "unknown"
+  },
+  "key-item/vs-seeker": {
+    "file": "unknown"
+  },
+  "key-item/xtransceiver--blue": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/xtransceiver",
+      "item_id": "item_0621"
+    }
+  },
+  "key-item/xtransceiver--red": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/xtransceiver",
+      "item_id": "item_0621"
+    }
+  },
+  "key-item/xtransceiver--yellow": {
+    "type": "specific",
+    "of": {
+      "file": "key-item/xtransceiver",
+      "item_id": "item_0621"
+    }
+  },
+  "mail/air-mail": {
+    "file": "unknown"
+  },
+  "mail/bead-mail": {
+    "file": "unknown"
+  },
+  "mail/bloom-mail": {
+    "file": "unknown"
+  },
+  "mail/brick-mail": {
+    "file": "unknown"
+  },
+  "mail/bubble-mail": {
+    "file": "unknown"
+  },
+  "mail/dream-mail": {
+    "file": "unknown"
+  },
+  "mail/fab-mail": {
+    "file": "unknown"
+  },
+  "mail/flame-mail": {
+    "file": "unknown"
+  },
+  "mail/glitter-mail": {
+    "file": "unknown"
+  },
+  "mail/grass-mail": {
+    "file": "unknown"
+  },
+  "mail/harbor-mail": {
+    "file": "unknown"
+  },
+  "mail/heart-mail": {
+    "file": "unknown"
+  },
+  "mail/mech-mail": {
+    "file": "unknown"
+  },
+  "mail/mosaic-mail": {
+    "file": "unknown"
+  },
+  "mail/orange-mail": {
+    "file": "unknown"
+  },
+  "mail/retro-mail": {
+    "file": "unknown"
+  },
+  "mail/shadow-mail": {
+    "file": "unknown"
+  },
+  "mail/snow-mail": {
+    "file": "unknown"
+  },
+  "mail/space-mail": {
+    "file": "unknown"
+  },
+  "mail/steel-mail": {
+    "file": "unknown"
+  },
+  "mail/tropic-mail": {
+    "file": "unknown"
+  },
+  "mail/tunnel-mail": {
+    "file": "unknown"
+  },
+  "mail/wave-mail": {
+    "file": "unknown"
+  },
+  "mail/wood-mail": {
+    "file": "unknown"
+  },
+  "other-item/dynamax-crystal": {
+    "file": "unknown"
+  },
+  "roto/exp-points": {
+    "file": "unknown"
+  },
+  "tm/fighting": {
+    "type": "duplicate",
+    "of": {
+      "file": "hm/fighting",
+      "item_id": "item_0335"
+    }
+  },
+  "tm/flying": {
+    "type": "duplicate",
+    "of": {
+      "file": "hm/flying",
+      "item_id": "item_0421"
+    }
+  },
+  "tm/normal": {
+    "type": "duplicate",
+    "of": {
+      "file": "hm/normal",
+      "item_id": "item_0332"
+    }
+  },
+  "tm/water": {
+    "type": "duplicate",
+    "of": {
+      "file": "hm/water",
+      "item_id": "item_0345"
+    }
+  }
+}
