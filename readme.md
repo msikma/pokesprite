@@ -23,7 +23,7 @@ This project contains both Pokémon box sprites and item sprites. For Pokémon, 
 
 The item icons are separated by type in subdirectories (e.g. *"berry", "evo-item", "valuable-item",* etc).
 
-Previous generations of games (Gen 1–2 and Gen 3–4) had their own collections of sprites, but these are not included in this project. The original 40×30 Pokémon sprites from Gen 6–7 are kept for legacy purposes in the `/icons` directory.
+Previous generations of games (Gen 1–2 and Gen 3–4) had their own collections of sprites, but these are not included in this project. The original 40×30 Pokémon sprites from Gen 6–7 are kept for legacy purposes in the [`/icons`](icons/) directory.
 
 ## Data files
 
@@ -102,9 +102,9 @@ The **`forms`** object contains a list of all icons pertaining to a Pokémon. I
 
 Several files are available for processing the icons for inventory items:
 
-* `/data/item-map.json` – a 1:1 map of item IDs and icon files, e.g. `"item_0017": "medicine/potion"`
-* `/data/item-unlinked.json` – all inventory icons not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* icon is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
-* `/data/item-legacy.json` – a list of old item icons from previous gen games
+* [`/data/item-map.json`](data/item-map.json) – a 1:1 map of item IDs and icon files, e.g. `"item_0017": "medicine/potion"`
+* [`/data/item-unlinked.json`](data/item-unlinked.json) – all inventory icons not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* icon is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
+* [`/data/item-legacy.json`](data/item-legacy.json) – a list of old item icons from previous gen games
 
 ## Sprite dimensions
 
