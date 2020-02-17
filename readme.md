@@ -90,7 +90,7 @@ The **`forms`** object contains a list of all icons pertaining to a Pokémon. I
 | Key | Meaning |
 |:----|:--------|
 | `is_alias_of` | This form uses the sprite of another form and does not have its own image |
-| `is_unofficial_icon` | This sprite is not a verbatim original and has been edited in some way (e.g. *Pumpkaboo* and *Gourgeist*)<sup>†</sup> |
+| `is_unofficial_icon` | This sprite is not a verbatim original and has been edited in some way (e.g. *Pumpkaboo* and *Gourgeist*)† |
 | `is_unofficial_legacy_icon` | As above, but only for the smaller legacy 40×30 sprites (only used for *Melmetal*) |
 | `is_prev_gen_icon` | This sprite is actually from an earlier generation |
 | `has_right` | A unique right-facing icon is available (e.g. *Roselia*—only for Gen 7 Pokémon) |
@@ -106,9 +106,25 @@ Several files are available for processing the icons for inventory items:
 * `/data/item-unlinked.json` – all inventory icons not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* icon is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
 * `/data/item-legacy.json` – a list of old item icons from previous gen games
 
-## Displaying icons
+## Sprite dimensions
 
-TODO: write this section.
+Since Gen 8, the Pokémon box sprites have become 68×56 (up from 40×30 in Gen 7) to accommodate larger icon designs. 
+
+<img align="left" src="resources/images/readme_gen8_size.png" width="177">
+
+Most Pokémon did not get a new sprite as of Gen 8, meaning their old sprite was padded to the new size. Sprites were padded from below, with one extra pixel of space on the bottom (see left).
+
+Since most Pokémon take up a very small amount of pixels of the allotted space, they'll look far more spaced apart than in Gen 7 if they're displayed adjacent to each other. This effect is especially noticeable for not-fully-evolved Pokémon.
+
+To somewhat mitigate this, the sprites can be made to overlap each other. In nearly all cases, only the empty space around the sprite will overlap—if there are multiple large icons next to each other (like several Gigantamax forms) the sprites themselves will overlap, but only a little.
+
+My recommended overlap is **-24px left** and **-16px top**, which is a compromise between bringing the smaller sprites closer together and not letting the larger sprites overlap. **Here's an example of what that looks like:**
+
+<center><img align="center" src="resources/images/offset_example_2x.png" width="512"></center>
+
+In this example, the larger sprites are quite close together, but not uncomfortably so, and the smaller sprites are not too far away from each other. The banner at the top of the page also uses this same amount of spacing.
+
+TODO: example
 
 ## Related projects
 
@@ -121,4 +137,4 @@ If your project uses PokéSprite and you'd like to be added to this list, feel f
 
 The source icons are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
-Everything else, and usage of the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
+Everything else, and the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
