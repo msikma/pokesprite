@@ -120,7 +120,7 @@ To somewhat mitigate this, the sprites can be made to overlap each other. In nea
 
 My recommended overlap is **-24px left** and **-16px top**, which is a compromise between bringing the smaller sprites closer together and not letting the larger sprites overlap. **Here's an example of what that looks like:**
 
-<center><img align="center" src="resources/images/offset_example_2x.png" width="512"></center>
+<p align="center"><img align="center" src="resources/images/offset_example_2x.png" width="512"></p>
 
 In this example, the larger sprites are quite close together, but not uncomfortably so, and the smaller sprites are not too far away from each other. The banner at the top of the page also uses this same amount of spacing.
 
