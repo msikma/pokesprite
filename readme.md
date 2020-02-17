@@ -102,9 +102,9 @@ The **`forms`** object contains a list of all icons pertaining to a Pokémon. I
 
 Several files are available for processing the icons for inventory items:
 
-* `/data/items-map.json` – a 1:1 map of item IDs and icon files, e.g. `"item_0017": "medicine/potion"`
-* `/data/items-unlinked.json` – all inventory icons not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* icon is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
-* `/data/items-legacy.json` – a list of old item icons from previous gen games
+* `/data/item-map.json` – a 1:1 map of item IDs and icon files, e.g. `"item_0017": "medicine/potion"`
+* `/data/item-unlinked.json` – all inventory icons not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* icon is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
+* `/data/item-legacy.json` – a list of old item icons from previous gen games
 
 ## Displaying icons
 
