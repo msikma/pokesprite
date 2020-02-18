@@ -130,7 +130,8 @@ TODO: example
 
 If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues).
 
-* [PKHeX](https://github.com/kwsch/PKHeX) – Pokémon Save File Editor
+* [PKHeX](https://github.com/kwsch/PKHeX) – Pokémon save file editor
+* [PikaSprite](https://github.com/arcanis/pikasprite) – a different interface for PokéSprite icons
 * Many Google Sheets used by Pokémon traders
 
 ## License
