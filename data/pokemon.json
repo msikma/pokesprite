@@ -2487,6 +2487,10 @@
         "$": {
           "has_female": false,
           "has_right": false
+        },
+        "galar": {
+          "has_female": false,
+          "has_right": false
         }
       }
     },
@@ -2494,6 +2498,9 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "galar": {
+          "is_prev_gen_icon": false
         }
       }
     }
