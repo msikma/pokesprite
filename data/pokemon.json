@@ -21154,8 +21154,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "has_female": true,
-          "is_prev_gen_icon": false
+          "is_prev_gen_icon": true
         }
       }
     }
@@ -21177,22 +21176,14 @@
         "$": {
           "has_female": true,
           "has_right": false
-        },
-        "male": {
-          "has_female": false,
-          "has_right": false,
-          "is_alias_of": "$"
         }
       }
     },
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
-        },
-        "male": {
-          "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "has_female": true,
+          "is_prev_gen_icon": false
         }
       }
     }
