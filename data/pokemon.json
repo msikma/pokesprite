@@ -14973,7 +14973,7 @@
           "has_female": false,
           "has_right": false
         },
-        "unkown": {
+        "unknown": {
           "has_female": false,
           "has_right": false,
           "is_alias_of": "$"
@@ -15041,7 +15041,7 @@
         "steel": {
           "is_prev_gen_icon": true
         },
-        "unkown": {
+        "unknown": {
           "is_alias_of": "$",
           "is_prev_gen_icon": true
         },
