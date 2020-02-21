@@ -5234,7 +5234,8 @@
         },
         "spiky-eared": {
           "has_female": false,
-          "has_right": false
+          "has_right": false,
+          "is_unofficial_icon": true
         }
       }
     },
@@ -5244,7 +5245,8 @@
           "is_prev_gen_icon": true
         },
         "spiky-eared": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         }
       }
     }
