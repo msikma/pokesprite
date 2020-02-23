@@ -13598,6 +13598,7 @@
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
           "is_prev_gen_icon": true
         }
       }
@@ -13626,6 +13627,7 @@
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
           "is_prev_gen_icon": false
         }
       }
@@ -17935,6 +17937,7 @@
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
           "is_prev_gen_icon": true
         }
       }
@@ -20714,6 +20717,7 @@
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
           "is_prev_gen_icon": true
         }
       }
