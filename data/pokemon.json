@@ -22192,16 +22192,16 @@
           "is_prev_gen_icon": false
         },
         "large": {
-          "is_prev_gen_icon": true,
-          "is_unofficial_icon": true
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
         },
         "small": {
-          "is_prev_gen_icon": true,
-          "is_unofficial_icon": true
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
         },
         "super": {
-          "is_prev_gen_icon": true,
-          "is_unofficial_icon": true
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
         }
       }
     }
