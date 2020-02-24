@@ -1,0 +1,66 @@
+{
+  "item_0113": {
+    "gen3": "key-item/tea-gen3"
+  },
+  "item_0123": {
+    "gen7": "key-item/tm-case"
+  },
+  "item_0164": {
+    "gen3": "berry/razz-gen3"
+  },
+  "item_0166": {
+    "gen3": "berry/nanab-gen3"
+  },
+  "item_0442": {
+    "gen3": "key-item/town-map-gen3",
+    "gen4": "key-item/town-map-gen4"
+  },
+  "item_0459": {
+    "gen7": "key-item/oaks-parcel"
+  },
+  "item_0467": {
+    "gen7": "key-item/secret-key-kanto"
+  },
+  "item_0471": {
+    "gen3": "key-item/dowsing-machine-gen3",
+    "gen5": "key-item/dowsing-machine-gen5"
+  },
+  "item_0475": {
+    "gen3": "key-item/card-key-gen3"
+  },
+  "item_0533": {
+    "gen4": "key-item/lock-capsule-gen4"
+  },
+  "item_0534": {
+    "gen3": "key-item/red-orb-gen3",
+    "gen4": "key-item/red-orb-gen4"
+  },
+  "item_0535": {
+    "gen3": "key-item/blue-orb-gen3",
+    "gen4": "key-item/blue-orb-gen4"
+  },
+  "item_0651": {
+    "gen3": "key-item/poke-flute-gen3"
+  },
+  "item_0700": {
+    "gen7": "key-item/lift-key"
+  },
+  "item_0703": {
+    "gen6": "key-item/adventure-rules"
+  },
+  "item_0728": {
+    "gen3": "key-item/go-goggles-gen3"
+  },
+  "item_0735": {
+    "gen3": "key-item/devon-scope-gen3"
+  },
+  "item_0773": {
+    "gen6": "key-item/key-stone-gen6"
+  },
+  "item_0874": {
+    "gen3": "key-item/silph-scope-gen3"
+  },
+  "item_1080": {
+    "gen7": "key-item/fishing-rod-gen7"
+  }
+}

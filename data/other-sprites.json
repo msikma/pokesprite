@@ -1,0 +1,71 @@
+{
+  "pokemon": [
+    {
+      "name": {
+        "eng": "Manaphy Egg",
+        "jpn": "マナフィのタマゴ",
+        "jpn_ro": "Manaphy no tamago"
+      },
+      "slug": {
+        "eng": "manaphy-egg",
+        "jpn": "manaphy-no-tamago",
+        "jpn_ro": "manaphy-no-tamago"
+      },
+      "file": "egg-manaphy"
+    },
+    {
+      "name": {
+        "eng": "Egg",
+        "jpn": "タマゴ",
+        "jpn_ro": "Tamago"
+      },
+      "slug": {
+        "eng": "egg",
+        "jpn": "tamago",
+        "jpn_ro": "tamago"
+      },
+      "file": "egg"
+    },
+    {
+      "name": {
+        "eng": "Mega Evolution Sigil",
+        "jpn": "メガシンカの模様",
+        "jpn_ro": "Mega shinka no moyou"
+      },
+      "slug": {
+        "eng": "mega-evolution-sigil",
+        "jpn": "mega-shinka-no-moyou",
+        "jpn_ro": "mega-shinka-no-moyou"
+      },
+      "file": "mega"
+    },
+    {
+      "name": {
+        "eng": "Unknown (Gen 5)",
+        "jpn": "知らないポケモン（第５世代）",
+        "jpn_ro": "Shiranai Pokémon (daigosedai)"
+      },
+      "slug": {
+        "eng": "unknown-gen5",
+        "jpn": "shiranai-pokemon-daigosedai",
+        "jpn_ro": "shiranai-pokemon-daigosedai"
+      },
+      "file": "unknown-gen5"
+    },
+    {
+      "name": {
+        "eng": "Unknown",
+        "jpn": "知らないポケモン",
+        "jpn_ro": "Shiranai Pokémon"
+      },
+      "slug": {
+        "eng": "unknown",
+        "jpn": "shiranai-pokemon",
+        "jpn_ro": "shiranai-pokemon"
+      },
+      "file": "unknown"
+    }
+  ],
+  "items": [
+  ]
+}
