@@ -1,19 +1,32 @@
 {
-  "name": "pokesprite-src",
-  "version": "1.0.0",
-  "description": "Pokésprite icon collection repository and database",
+  "name": "pokesprite-images",
+  "version": "2.0.0",
+  "description": "PokéSprite sprite collection and database",
+  "private": true,
   "files": [
     "license.md",
     "package.json",
     "readme.md",
+    "/data",
+    "/docs",
     "/icons",
-    "/data"
+    "/items",
+    "/items-outline",
+    "/pokemon-gen7x",
+    "/pokemon-gen8",
+    "/resources"
   ],
-  "private": true,
-  "keywords": ["Icons", "Sprites", "SCSS", "Pokémon", "NodeJS"],
+  "homepage": "https://github.com/msikma/pokesprite",
+  "repository": "git+https://github.com/msikma/pokesprite.git",
+  "keywords": ["Icons", "Sprites", "Pokémon", "Pokédex", "ポケットモンスター", "ポケモン", "スプライト", "ポケモン図鑑"],
   "author": "Michiel Sikma <michiel@sikma.org>",
-  "workspaces": [
-    "packages/*"
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
 }
