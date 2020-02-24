@@ -132,11 +132,17 @@ For a better example of what many adjacent sprites look like with this setup, se
 
 ## Related projects
 
-If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues).
+**Projects using PokéSprite:**
 
 * **[PKHeX](https://github.com/kwsch/PKHeX)** – Pokémon save file editor
 * **[PikaSprite](https://github.com/arcanis/pikasprite)** – a different interface for PokéSprite sprites
 * Many Google Sheets used by Pokémon traders
+
+If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues) to request it.
+
+**Other Pokémon artwork related links:**
+
+* [Project Pokémon - Animated 3D sprites index](https://projectpokemon.org/docs/spriteindex_148/)
 
 ## License
 
