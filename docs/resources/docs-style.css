@@ -564,6 +564,9 @@
   margin: 0;
 }
 .markdown-body .text-section .title img.p {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  max-width: inherit;
   margin: 0 0 0 -20px;
   position: relative;
   top: 6px;

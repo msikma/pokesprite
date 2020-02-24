@@ -72,7 +72,7 @@ def generate_index_page(version, commit):
     </div>
   ''' % {
     'menu_links': get_menu_links('index'),
-    'example_image': 'https://raw.githubusercontent.com/msikma/pokesprite/node3/resources/images/banner_gen8_2x.png',
+    'example_image': 'https://raw.githubusercontent.com/msikma/pokesprite/master/resources/images/banner_gen8_2x.png',
     'example_image_width': '726',
     'title_sprite': get_title_venusaur(),
     'project_url': PROJECT_URL,
