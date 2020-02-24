@@ -136,13 +136,13 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
 
 def get_menu_links(curr_page):
   menu = [
-    ['index', 'Index'],
-    ['overview/dex-gen7', 'Gen 7'],
-    ['overview/dex-gen8', 'Gen 8'],
-    ['overview/dex-gen8-new', 'Gen 8 (New sprites)'],
-    ['overview/inventory', 'Inventory']
+    ['index', 'index', 'Index'],
+    ['overview/dex-gen7', 'dex-gen7', 'Gen 7'],
+    ['overview/dex-gen8', 'dex-gen8', 'Gen 8'],
+    ['overview/dex-gen8-new', 'dex-gen8-new', 'Gen 8 (New sprites)'],
+    ['overview/inventory', 'inventory', 'Inventory']
   ]
-  menu_links = ['<li><a href="%s" class="%s">%s</a></li>' % (docs_url(item[0]), 'curr' if item[0] == curr_page else '', item[1]) for item in menu]
+  menu_links = ['<li><a href="%s" class="%s">%s</a></li>' % (docs_url(item[0]), 'curr' if item[1] == curr_page else '', item[2]) for item in menu]
   return ''.join(menu_links)
 
 def get_title_venusaur():
@@ -193,7 +193,7 @@ def read_repo_state():
     version = package['version']
   except:
     pass
-  
+
   # In case this fails (e.g. Git is not installed, or this isn't a repo).
   commit = '[unknown]'
   try:
@@ -227,7 +227,7 @@ def get_pkm_form(form_name, form_alias, is_unofficial_icon):
   if is_unofficial_icon:
     title.append('Unofficial icon (see below)')
     daggers.append('‡')
-  
+
   if len(title):
     title = '; '.join(title)
     daggers = ''.join(daggers)
@@ -299,7 +299,7 @@ def get_td_node(td):
       else:
         cols.append(f'<td class="min">{col}</td>')
     return ''.join(cols)
-  
+
   # Otherwise it's a string, and we'll check if it contains an image.
   attr = ' class="image"' if str(td)[:4] == '<img' else ''
   return f'<td{attr}>{td}</td>'
@@ -372,7 +372,7 @@ def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unkno
     if not item_dict.get(group):
       item_dict[group] = []
     item_dict[group].append({ 'name': name, 'id': id })
-  
+
   for group, items in item_dict.items():
     buffer.append(f'<tr><td></td><td colspan="6" class="group">{group.title()}</td></tr>')
     for item in items:
@@ -390,7 +390,7 @@ def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unkno
       buffer.append(f'<td class="item-id"><code>{filename}</code></td>')
       buffer.append('</tr>')
       sprites_counter += 1
-  
+
   buffer.append('</tbody>')
 
   buffer.append('<tfoot>')
@@ -436,7 +436,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
 
     if not 'forms' in gen_data:
       continue
-    
+
     for form_name, form_data in gen_data['forms'].items():
       form_slug_file, form_slug_display, form_alias = determine_form(slug_en, form_name, form_data)
       form_name_clean = EMPTY_PLACEHOLDER if form_name == '$' else form_name
@@ -458,7 +458,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
         form_data.get('is_prev_gen_icon', False),
         gen
       )
-    
+
     if not form_cols:
       continue
     first_col = form_cols[0]
@@ -480,7 +480,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
       for col in row:
         buffer.append(get_td_node(col))
       buffer.append('</tr>')
-  
+
   # Add the remaining other icons.
   if not new_sprites_only:
     buffer.append('<tr class="header">')
@@ -502,7 +502,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
         <td colspan="4"><code>{file}.png</code></td>
       ''')
       buffer.append('</tr>')
-  
+
   buffer.append('</tbody>')
 
   buffer.append('<tfoot>')
