@@ -137,10 +137,10 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
 def get_menu_links(curr_page):
   menu = [
     ['index', 'Index'],
-    ['dex-gen7', 'Gen 7'],
-    ['dex-gen8', 'Gen 8'],
-    ['dex-gen8-new', 'Gen 8 (New sprites)'],
-    ['inventory', 'Inventory']
+    ['overview/dex-gen7', 'Gen 7'],
+    ['overview/dex-gen8', 'Gen 8'],
+    ['overview/dex-gen8-new', 'Gen 8 (New sprites)'],
+    ['overview/inventory', 'Inventory']
   ]
   menu_links = ['<li><a href="%s" class="%s">%s</a></li>' % (docs_url(item[0]), 'curr' if item[0] == curr_page else '', item[1]) for item in menu]
   return ''.join(menu_links)
@@ -183,7 +183,7 @@ def write_file(filename, content):
     print(content, file=file)
 
 def docs_url(slug):
-  return f'{DOCS_BASE_URL}/overview/{slug}.html'
+  return f'{DOCS_BASE_URL}/{slug}.html'
 
 def read_repo_state():
   '''Returns information about the current state of the repository'''
