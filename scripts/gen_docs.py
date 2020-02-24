@@ -4,10 +4,11 @@
 #
 # This script will generate the following documentation files:
 #
-#   * docs/dex-gen7.html
-#   * docs/dex-gen8.html
-#   * docs/dex-gen8-new.html
-#   * docs/inventory.html
+#   * docs/overview/dex-gen7.html
+#   * docs/overview/dex-gen8.html
+#   * docs/overview/dex-gen8-new.html
+#   * docs/overview/inventory.html
+#   * docs/index.html
 #
 # These files are hosted on https://msikma.github.io/pokesprite.
 # Existing files will be overwritten.
