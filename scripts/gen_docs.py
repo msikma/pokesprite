@@ -77,7 +77,7 @@ def generate_index_page(version, commit):
     'project_url': PROJECT_URL,
     'old_links': ''.join(['<li><a href="%s">Gen 7 - %s</a></li>' % (item[0], item[1]) for item in old_links]),
     'old_images': ''.join(['<li><a href="%s">Gen 7 - %s</a></li>' % (item[0], item[1]) for item in old_images])
-  }, 'Index', version, commit)
+  }, 'Index', version, commit, '.')
   return content
 
 def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_page, version, commit, sprites_counter, new_sprites_only):
@@ -131,7 +131,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
     'commit': commit,
     'project_url': PROJECT_URL,
     'sprites_counter': sprites_counter
-  }, 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else ''), version, commit)
+  }, 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else ''), version, commit, '..')
 
 def get_menu_links(curr_page):
   menu = [
@@ -147,7 +147,7 @@ def get_menu_links(curr_page):
 def get_title_venusaur():
   return get_img_node(get_pkm_url(DEX_SPRITE_DIR[8], 'venusaur', True, False, False), None, 'Shiny Venusaur', 'p')
 
-def wrap_in_html(content, title, version, commit):
+def wrap_in_html(content, title, version, commit, res_dir = '.'):
   return '''
 <!doctype html>
 <html>
@@ -160,13 +160,14 @@ def wrap_in_html(content, title, version, commit):
 
     (；ﾟ～ﾟ)ゝ”
     -->
-    <link rel="stylesheet" href="./resources/docs-style.css" />
+    <link rel="stylesheet" href="%(res_dir)s/resources/docs-style.css" />
   </head>
   <body>
     %(content)s
   </body>
 </html>
   ''' % {
+    'res_dir': res_dir,
     'content': content,
     'title': title,
     'version': version,
@@ -181,7 +182,7 @@ def write_file(filename, content):
     print(content, file=file)
 
 def docs_url(slug):
-  return f'{DOCS_BASE_URL}/docs/{slug}.html'
+  return f'{DOCS_BASE_URL}/overview/{slug}.html'
 
 def read_repo_state():
   '''Returns information about the current state of the repository'''
@@ -520,12 +521,12 @@ def main():
   '''Generates several documentation files for the /docs directory'''
   version, commit = read_repo_state()
   json_data = read_data()
-  makedirs(TARGET_DIR, exist_ok=True)
+  makedirs(f'{TARGET_DIR}/overview/', exist_ok=True)
 
-  write_file(f'{TARGET_DIR}/dex-gen7.html', generate_dex_table(json_data['dex'], json_data['etc'], 7, 'pokemon-gen7x', 'dex-gen7', 'pokemon.json', True, False, version, commit))
-  write_file(f'{TARGET_DIR}/dex-gen8.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8', 'pokemon.json', True, False, version, commit))
-  write_file(f'{TARGET_DIR}/dex-gen8-new.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8-new', 'pokemon.json', True, False, version, commit))
-  write_file(f'{TARGET_DIR}/inventory.html', generate_items_table(json_data['itm'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
+  write_file(f'{TARGET_DIR}/overview/dex-gen7.html', generate_dex_table(json_data['dex'], json_data['etc'], 7, 'pokemon-gen7x', 'dex-gen7', 'pokemon.json', True, False, version, commit))
+  write_file(f'{TARGET_DIR}/overview/dex-gen8.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8', 'pokemon.json', True, False, version, commit))
+  write_file(f'{TARGET_DIR}/overview/dex-gen8-new.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8-new', 'pokemon.json', True, False, version, commit))
+  write_file(f'{TARGET_DIR}/overview/inventory.html', generate_items_table(json_data['itm'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
   write_file(f'{TARGET_DIR}/index.html', generate_index_page(version, commit))
 
 if __name__== "__main__":
