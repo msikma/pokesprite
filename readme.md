@@ -149,3 +149,5 @@ If your project uses PokéSprite and you'd like to be added to this list, feel f
 The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
 Everything else, and the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
+
+See [the credits file](credits.md) for contributor details.
