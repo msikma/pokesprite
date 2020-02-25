@@ -15,7 +15,7 @@ Special thanks to [@koenigderluegner](https://github.com/koenigderluegner) for h
 
 Also, special thanks to anyone who reported issues, gave suggestions or sent in contributions.
 
-The raw sprite files were originally ripped by Zhorken and Kaphotics who can be found at [Project Pokémon](http://projectpokemon.org/). Thanks to Kurt for hooking me up with their work.
+The raw sprite files were originally ripped by Zhorken and Kaphotics who can be found at [Project Pokémon](http://projectpokemon.org/).
 
 ----
 
