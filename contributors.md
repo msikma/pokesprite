@@ -13,6 +13,8 @@ The [alternate sizes for Pumpkaboo and Gourgeist](https://github.com/msikma/poke
 
 Special thanks to [@koenigderluegner](https://github.com/koenigderluegner) for his help on the <i title="Pokémon Let's Go, Pikachu! and Let's Go, Eevee!">LP/LE</i> and <i title="Pokémon Sword and Shield">SW/SH</i> update and for tagging all the new inventory sprites.
 
+Also, special thanks to anyone who reported issues, gave suggestions or sent in contributions.
+
 The raw sprite files were originally ripped by Zhorken and Kaphotics who can be found at [Project Pokémon](http://projectpokemon.org/). Thanks to Kurt for hooking me up with their work.
 
 ----
