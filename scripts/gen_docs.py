@@ -24,7 +24,9 @@ BASE_DIR = str(Path(dirname(abspath(__file__))).parent)
 TARGET_DIR = f'{BASE_DIR}/docs'
 DEX_JSON = f'{BASE_DIR}/data/pokemon.json'
 ITM_JSON = f'{BASE_DIR}/data/item-map.json'
+ITM_UNL_JSON = f'{BASE_DIR}/data/item-unlinked.json'
 ETC_JSON = f'{BASE_DIR}/data/other-sprites.json'
+INVENTORY_JSON = f'{BASE_DIR}/data/inventory.json'
 PROJECT_URL = 'https://github.com/msikma/pokesprite'
 DOCS_BASE_URL = 'https://msikma.github.io/pokesprite'
 REPO_BASE_URL = 'https://raw.githubusercontent.com/msikma/pokesprite/master'
@@ -214,7 +216,13 @@ def read_json_file(file):
 
 def read_data():
   '''Retrieves Pokémon and items JSON data'''
-  return { 'dex': read_json_file(DEX_JSON), 'itm': read_json_file(ITM_JSON), 'etc': read_json_file(ETC_JSON) }
+  return {
+    'dex': read_json_file(DEX_JSON),
+    'itm': read_json_file(ITM_JSON),
+    'itm_unl': read_json_file(ITM_UNL_JSON),
+    'inv': read_json_file(INVENTORY_JSON),
+    'etc': read_json_file(ETC_JSON)
+  }
 
 def get_pkm_form(form_name, form_alias, is_unofficial_icon):
   title = []
@@ -351,7 +359,7 @@ def append_pkm_form(cols, base, slug_display, slug_file, form_name, form_alias, 
   if has_female and add_female: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, True, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
   if has_right and add_right: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, False, True, is_unofficial_icon, is_prev_gen_icon, docs_gen)
 
-def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
+def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for inventory sprites'''
   reset_counter()
   new_sprites_only = '-new' in curr_page
@@ -361,8 +369,8 @@ def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unkno
 
   buffer = []
   buffer.append('<thead>')
-  buffer.append('<tr class="title"><th></th><th colspan="10">Inventory sprite overview table<br /><span>pokesprite-images v%(version)s %(commit)s</span></th></tr>' % { 'version': version, 'commit': commit })
-  buffer.append('<tr class="header"><th>#</th><th>Item ID</th><th>Name</th><th colspan="2">Sprites</th><th>Group</th><th>Filename</th></tr>')
+  buffer.append('<tr class="title"><th></th><th colspan="11">Inventory sprite overview table<br /><span>pokesprite-images v%(version)s %(commit)s</span></th></tr>' % { 'version': version, 'commit': commit })
+  buffer.append('<tr class="header"><th>#</th><th>Item ID</th><th>Name</th><th colspan="2">Sprites</th><th>Group</th><th colspan="2">Filename/notes</th></tr>')
   buffer.append('</thead>')
   buffer.append('<tbody>')
 
@@ -371,23 +379,46 @@ def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unkno
     group, name = item.split('/')
     if not item_dict.get(group):
       item_dict[group] = []
-    item_dict[group].append({ 'name': name, 'id': id })
+    item_dict[group].append({ 'name': name, 'id': id, 'linked': True })
+  
+  for item, details in itm_unl.items():
+    group, name = item.split('/')
+    type = { 'name': name, 'id': None, 'linked': False, 'type': details['type'], 'dupe_id': details.get('of', {}).get('item_id') }
+    of_file = details.get('of', {}).get('file')
+    if details['type'] == 'duplicate' and of_file:
+      type['expl'] = f'Duplicate of <code>{of_file}</code>'
+    if details['type'] == 'specific' and of_file:
+      type['expl'] = f'Subitem of <code>{of_file}</code>'
+    item_dict[group].append(type)
 
   for group, items in item_dict.items():
-    buffer.append(f'<tr><td></td><td colspan="6" class="group">{group.title()}</td></tr>')
+    item_dict[group] = sorted(items, key=lambda x: x['name'])
+
+  for group, items in item_dict.items():
+    if not len(items): continue
+    title = inv['item-groups'].get(group, None)
+    title = title['name'] if title else group.title()
+    buffer.append(f'<tr><td></td><td colspan="7" class="group">{title}</td></tr>')
     for item in items:
       count = get_counter()
       name = item['name']
       id = item['id']
+      expl = item.get('expl', False)
       imgs = ['<td class="image item">' + get_img_node(get_itm_url(base_url, dir, group, name), None, f'"{name}" (dir)', 'i') + '</td>' for dir in dirs]
       filename = group + '/' + name + '.png'
       buffer.append('<tr>')
       buffer.append(f'<td>{count}</td>')
-      buffer.append(f'<td class="item-id"><code>{id}</code></td>')
+      if id is not None:
+        buffer.append(f'<td class="item-id"><code>{id}</code></td>')
+      else:
+        buffer.append(f'<td class="item-id">{EMPTY_PLACEHOLDER}</td>')
       buffer.append(f'<td>{name}</td>')
       buffer.append(''.join(imgs))
       buffer.append(f'<td>{group}</td>')
-      buffer.append(f'<td class="item-id"><code>{filename}</code></td>')
+      if expl:
+        buffer.append(f'<td class="item-id" colspan="2"><code>{filename}</code> ({expl})</td>')
+      else:
+        buffer.append(f'<td colspan="2" class="item-id"><code>{filename}</code></td>')
       buffer.append('</tr>')
       sprites_counter += 1
 
@@ -398,8 +429,8 @@ def generate_items_table(itm, etc, dirs, curr_page, json_file, version = '[unkno
   buffer.append('''
     <td></td>
     <td colspan="10">
-      <p><sub>Note: item IDs are accurate only for the latest Pokémon game.</sub></p>
-      <p><sub>Only filenames are available, not proper item names or aliases (hence some items appear multiple times). This will be fixed in a future release.</sub></p>
+      <span>Note: item IDs are accurate only for the latest Pokémon game.<br /></span>
+      <span>Only filenames are available, not proper item names or aliases (hence some items appear multiple times). This will be fixed in a future release.</span>
     </td>
   ''')
   buffer.append('</tr>')
@@ -527,7 +558,7 @@ def main():
   write_file(f'{TARGET_DIR}/overview/dex-gen7.html', generate_dex_table(json_data['dex'], json_data['etc'], 7, 'pokemon-gen7x', 'dex-gen7', 'pokemon.json', True, False, version, commit))
   write_file(f'{TARGET_DIR}/overview/dex-gen8.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8', 'pokemon.json', True, False, version, commit))
   write_file(f'{TARGET_DIR}/overview/dex-gen8-new.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8-new', 'pokemon.json', True, False, version, commit))
-  write_file(f'{TARGET_DIR}/overview/inventory.html', generate_items_table(json_data['itm'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
+  write_file(f'{TARGET_DIR}/overview/inventory.html', generate_items_table(json_data['itm'], json_data['itm_unl'], json_data['inv'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
   write_file(f'{TARGET_DIR}/index.html', generate_index_page(version, commit))
 
 if __name__== "__main__":
