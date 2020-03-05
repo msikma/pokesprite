@@ -1,6 +1,6 @@
 {
   "name": "pokesprite-images",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "PokéSprite sprite collection and database",
   "private": true,
   "files": [
