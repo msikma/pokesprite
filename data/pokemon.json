@@ -9906,13 +9906,32 @@
         "$": {
           "has_female": false,
           "has_right": false
+        },
+        "blank": {
+          "has_female": false,
+          "has_right": false,
+          "is_unofficial_icon": true
+        },
+        "filled": {
+          "has_female": false,
+          "has_right": false,
+          "is_unofficial_icon": true
         }
       }
     },
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
+        "blank": {
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
+        "filled": {
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         }
       }
     }
