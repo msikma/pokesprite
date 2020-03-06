@@ -136,6 +136,7 @@ For a better example of what many adjacent sprites look like with this setup, se
 
 * **[PKHeX](https://github.com/kwsch/PKHeX)** – Pokémon save file editor
 * **[PikaSprite](https://github.com/arcanis/pikasprite)** – a different interface for PokéSprite sprites
+* [Spinda Painter](https://msikma.github.io/spinda-spots/) – proof of concept for displaying accurate Spinda spots on its box sprite
 * Many Google Sheets used by Pokémon traders
 
 If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues) to request it.
