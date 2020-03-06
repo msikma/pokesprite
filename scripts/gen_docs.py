@@ -169,7 +169,7 @@ def wrap_in_html(content, title, version, commit, res_dir = '.'):
     %(content)s
   </body>
 </html>
-  ''' % {
+  '''.strip() % {
     'res_dir': res_dir,
     'content': content,
     'title': title,
