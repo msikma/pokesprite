@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/pokesprite-images.svg)](https://badge.fury.io/js/pokesprite-images)
 
 # PokéSprite
 
