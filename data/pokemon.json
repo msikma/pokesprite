@@ -9922,8 +9922,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true,
-          "is_unofficial_icon": true
+          "is_prev_gen_icon": true
         },
         "blank": {
           "is_prev_gen_icon": true,
