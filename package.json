@@ -4,6 +4,7 @@
   "description": "Database project of box and inventory sprites from the Pokémon core series games",
   "private": true,
   "files": [
+    "contributors.md",
     "license.md",
     "package.json",
     "readme.md",
