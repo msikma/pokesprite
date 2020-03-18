@@ -114,5 +114,13 @@
     "z-crystals": {
       "name": "Z-crystals"
     }
+  },
+  "misc-groups": {
+    "body-style": {
+      "name": "Body styles"
+    },
+    "ribbon": {
+      "name": "Ribbons"
+    }
   }
 }

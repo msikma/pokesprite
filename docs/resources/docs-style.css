@@ -627,6 +627,9 @@
   display: inline-block;
   padding-top: 1px;
 }
+.markdown-body .pokesprite tbody tr.variable-height td {
+  vertical-align: middle;
+}
 .markdown-body .pokesprite tbody attr span {
   border-bottom: 1px dotted var(--gh-black);
 }
@@ -635,6 +638,9 @@
   vertical-align: top;
   white-space: nowrap;
   width: 10%;
+}
+.markdown-body .pokesprite tbody td.filler {
+  width: 50%;
 }
 .markdown-body .pokesprite tbody td code {
   padding: 0;

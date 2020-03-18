@@ -7,6 +7,7 @@
 #   * docs/overview/dex-gen7.html
 #   * docs/overview/dex-gen8.html
 #   * docs/overview/dex-gen8-new.html
+#   * docs/overview/misc.html
 #   * docs/overview/inventory.html
 #   * docs/index.html
 #
@@ -24,9 +25,10 @@ BASE_DIR = str(Path(dirname(abspath(__file__))).parent)
 TARGET_DIR = f'{BASE_DIR}/docs'
 DEX_JSON = f'{BASE_DIR}/data/pokemon.json'
 ITM_JSON = f'{BASE_DIR}/data/item-map.json'
+MSC_JSON = f'{BASE_DIR}/data/misc.json'
 ITM_UNL_JSON = f'{BASE_DIR}/data/item-unlinked.json'
 ETC_JSON = f'{BASE_DIR}/data/other-sprites.json'
-INVENTORY_JSON = f'{BASE_DIR}/data/inventory.json'
+META_JSON = f'{BASE_DIR}/data/meta.json'
 PROJECT_URL = 'https://github.com/msikma/pokesprite'
 DOCS_BASE_URL = 'https://msikma.github.io/pokesprite'
 REPO_BASE_URL = 'https://raw.githubusercontent.com/msikma/pokesprite/master'
@@ -83,7 +85,7 @@ def generate_index_page(version, commit):
   }, 'Index', version, commit, '.')
   return content
 
-def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_page, version, commit, sprites_counter, new_sprites_only):
+def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_page, is_misc_page, version, commit, sprites_counter, new_sprites_only):
   '''Wraps a documentation page in a table node and adds styling'''
   gen_url = f'{REPO_BASE_URL}/{gen_dir}'
   json_url = f'{REPO_BASE_URL}/data/{json_file}'
@@ -93,6 +95,13 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
     <p>This table lists all inventory item sprites. These items are from the last several games and is up-to-date as of Pokémon Sword/Shield. The sprites are from Gen 3 through 8.</p>
     <p>All sprites are 32×32 in size. There are sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites.</p>
   ''' if is_items_page else '''
+    <p>This table lists all miscellaneous sprites—all that aren't Pokémon box sprites or inventory items.</p>
+    <p>
+      The data for this list can be found in %(json_link)s.
+    </p>
+  ''' % {
+    'json_link': json_link
+  } if is_misc_page else '''
     <p>This table lists all Pokémon box sprites for <strong>Gen %(gen)s%(subtype)s</strong>, which can be found in the %(gen_link)s directory. The list is up-to-date as of Pokémon Sword/Shield, and some of the sprites are from an earlier generation. All shiny sprites were custom-made and are not found in-game.</p>
     <p>All box sprites are 68×56 as of Gen 8; the old Gen 7 sprites have been updated to the new size and contrast. (The original 40×30 sprites from Gen 7 are still available <a href="https://github.com/msikma/pokesprite/tree/master/icons">in the legacy sprites directory</a>.)</p>
     <p>
@@ -142,7 +151,8 @@ def get_menu_links(curr_page):
     ['overview/dex-gen7', 'dex-gen7', 'Gen 7'],
     ['overview/dex-gen8', 'dex-gen8', 'Gen 8'],
     ['overview/dex-gen8-new', 'dex-gen8-new', 'Gen 8 (New sprites)'],
-    ['overview/inventory', 'inventory', 'Inventory']
+    ['overview/inventory', 'inventory', 'Inventory'],
+    ['overview/misc', 'misc', 'Miscellaneous']
   ]
   menu_links = ['<li><a href="%s" class="%s">%s</a></li>' % (docs_url(item[0]), 'curr' if item[1] == curr_page else '', item[2]) for item in menu]
   return ''.join(menu_links)
@@ -219,8 +229,9 @@ def read_data():
   return {
     'dex': read_json_file(DEX_JSON),
     'itm': read_json_file(ITM_JSON),
+    'misc': read_json_file(MSC_JSON),
     'itm_unl': read_json_file(ITM_UNL_JSON),
-    'inv': read_json_file(INVENTORY_JSON),
+    'meta': read_json_file(META_JSON),
     'etc': read_json_file(ETC_JSON)
   }
 
@@ -272,6 +283,13 @@ def get_itm_url(base, ns, group, file):
     '/',
     file,
     '.png'
+  ])
+
+def get_misc_url(base, file):
+  return ''.join([
+    base,
+    '/misc/',
+    file
   ])
 
 def get_pkm_gen(is_prev_gen_icon, docs_gen):
@@ -359,6 +377,63 @@ def append_pkm_form(cols, base, slug_display, slug_file, form_name, form_alias, 
   if has_female and add_female: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, True, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
   if has_right and add_right: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, False, True, is_unofficial_icon, is_prev_gen_icon, docs_gen)
 
+def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
+  '''Generates a documentation table for miscellaneous sprites'''
+  reset_counter()
+  groups = meta['misc-groups']
+  base_url = REPO_BASE_URL
+
+  sprites_counter = 0
+
+  buffer = []
+  buffer.append('<thead>')
+  buffer.append('<tr class="title"><th></th><th colspan="10">Miscellaneous sprite overview table<br /><span>pokesprite-images v%(version)s %(commit)s</span></th></tr>' % { 'version': version, 'commit': commit })
+  buffer.append('</thead>')
+  buffer.append('<tbody>')
+
+  # Ribbons
+  buffer.append('<tr><th></th><td colspan="8" class="group">%s</td></tr>' % groups['ribbon']['name'])
+  #buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Description/gen</th><th colspan="2">Filename/gen</th></tr>')
+  buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Filename/gen</th></tr>')
+
+  for item in misc['ribbon']:
+    count = get_counter()
+    name = item['name']
+    name_eng = name['eng']
+    name_jpn = name['jpn']
+    name_jpn_ro = name['jpn_ro']
+    origin_gen = item['origin_gen']
+    desc = item['description']
+    desc_eng = desc['eng']
+    desc_gen = desc['from_gen']
+    for k, v in item['files'].items():
+      gen_n = k.split('-')[1]
+      buffer.append('<tr class="variable-height">')
+      buffer.append(f'<td>{count}</td>')
+      buffer.append(f'<td>{name_eng}</td>')
+      buffer.append(f'<td>{name_jpn}</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
+      buffer.append(f'<td>Gen {origin_gen}</td>')
+      #buffer.append(f'<td class="long-text">{desc_eng}</td>')
+      #buffer.append(f'<td>Gen {desc_gen}</td>')
+      buffer.append(f'<td class="filler"><code>{v}</code></td>')
+      buffer.append(f'<td>Gen {gen_n}</td>')
+      buffer.append('</tr>')
+      sprites_counter += 1
+  
+  buffer.append('</tbody>')
+  buffer.append('<tfoot>')
+  buffer.append('<tr>')
+  buffer.append('''
+    <td></td>
+    <td colspan="10">
+      <span>Note: ribbons for Gen 3 have had their sizes padded to 40×40 up from 32×32, and ribbons from Gen 3 and 4 have had their gamma curve adjusted to be identical to that of the later gens—both for consistency.<br /></span>
+    </td>
+  ''')
+  buffer.append('</tr>')
+  buffer.append('</tfoot>')
+  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, False, True, version, commit, sprites_counter, False)
+
 def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for inventory sprites'''
   reset_counter()
@@ -435,7 +510,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
   ''')
   buffer.append('</tr>')
   buffer.append('</tfoot>')
-  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, True, version, commit, sprites_counter, new_sprites_only)
+  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, True, False, version, commit, sprites_counter, new_sprites_only)
 
 def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female = True, add_right = False, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for Pokémon sprites'''
@@ -547,7 +622,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
   ''')
   buffer.append('</tr>')
   buffer.append('</tfoot>')
-  return wrap_docs_page('\n'.join(buffer), gen, gen_dir, curr_page, json_file, False, version, commit, sprites_counter, new_sprites_only)
+  return wrap_docs_page('\n'.join(buffer), gen, gen_dir, curr_page, json_file, False, False, version, commit, sprites_counter, new_sprites_only)
 
 def main():
   '''Generates several documentation files for the /docs directory'''
@@ -558,7 +633,8 @@ def main():
   write_file(f'{TARGET_DIR}/overview/dex-gen7.html', generate_dex_table(json_data['dex'], json_data['etc'], 7, 'pokemon-gen7x', 'dex-gen7', 'pokemon.json', True, False, version, commit))
   write_file(f'{TARGET_DIR}/overview/dex-gen8.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8', 'pokemon.json', True, False, version, commit))
   write_file(f'{TARGET_DIR}/overview/dex-gen8-new.html', generate_dex_table(json_data['dex'], json_data['etc'], 8, 'pokemon-gen8', 'dex-gen8-new', 'pokemon.json', True, False, version, commit))
-  write_file(f'{TARGET_DIR}/overview/inventory.html', generate_items_table(json_data['itm'], json_data['itm_unl'], json_data['inv'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
+  write_file(f'{TARGET_DIR}/overview/inventory.html', generate_items_table(json_data['itm'], json_data['itm_unl'], json_data['meta'], json_data['etc'], ['items', 'items-outline'], 'inventory', 'item-map.json', version, commit))
+  write_file(f'{TARGET_DIR}/overview/misc.html', generate_misc_table(json_data['misc'], json_data['meta'], 'misc', 'misc.json', version, commit))
   write_file(f'{TARGET_DIR}/index.html', generate_index_page(version, commit))
 
 if __name__== "__main__":
