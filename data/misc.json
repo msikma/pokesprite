@@ -6,10 +6,10 @@
         "jpn": "アビリティリボン",
         "jpn_ro": "Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/ability-ribbon.png"
@@ -21,10 +21,10 @@
         "jpn": "しゃっきリボン",
         "jpn_ro": "Brisk Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling an invigorating event that created life energy.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/alert-ribbon.png"
@@ -36,10 +36,10 @@
         "jpn": "アローラチャンプリボン",
         "jpn_ro": "Alola Champ Ribbon"
       },
-      "gen": 7,
+      "origin_gen": 7,
       "description": {
         "eng": "A Ribbon awarded for becoming the Alola Champion and entering the Alola Hall of Fame.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-7": "ribbon/alola-champion-ribbon.png"
@@ -51,10 +51,10 @@
         "jpn": "ブロマイドリボン",
         "jpn_ro": "Bromide Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded for being chosen as a super sketch model in the Hoenn region.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/artist-ribbon.png"
@@ -66,10 +66,10 @@
         "jpn": "バトルチャンプリボン",
         "jpn_ro": "Battle Champ Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon awarded to a Battle Competition Champion.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/battle-champion-ribbon.png"
@@ -81,13 +81,13 @@
         "jpn": "おもいでバトルリボン",
         "jpn_ro": "Battle Memories Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A commemorative Ribbon representing all of the Ribbons you collected for battling somewhere long ago.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/battle-memory-ribbon-gold.png"
+        "gen-6": "ribbon/battle-memory-ribbon.png"
       }
     },
     {
@@ -96,13 +96,13 @@
         "jpn": "おもいでバトルリボン",
         "jpn_ro": "Battle Memories Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A commemorative Ribbon representing all of the Ribbons you collected for battling somewhere long ago.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/battle-memory-ribbon.png"
+        "gen-6": "ribbon/battle-memory-ribbon-gold.png"
       }
     },
     {
@@ -111,10 +111,10 @@
         "jpn": "ロイヤルマスターリボン",
         "jpn_ro": "Royal Master Ribbon"
       },
-      "gen": 7,
+      "origin_gen": 7,
       "description": {
         "eng": "A Ribbon that can be given to a Pokémon that has achieved victory in the Battle Royal.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-7": "ribbon/battle-royal-master-ribbon.png"
@@ -126,10 +126,10 @@
         "jpn": "グレートツリーリボン",
         "jpn_ro": "Great Tree Ribbon"
       },
-      "gen": 7,
+      "origin_gen": 7,
       "description": {
         "eng": "A Ribbon awarded for winning against a Battle Legend in the Battle Tree.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-7": "ribbon/battle-tree-great-ribbon.png"
@@ -141,10 +141,10 @@
         "jpn": "マスターツリーリボン",
         "jpn_ro": "Master Tree Ribbon"
       },
-      "gen": 7,
+      "origin_gen": 7,
       "description": {
         "eng": "A Ribbon awarded for winning against a Battle Legend in super battles in the Battle Tree.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-7": "ribbon/battle-tree-master-ribbon.png"
@@ -156,10 +156,10 @@
         "jpn": "うつくしさマスターリボン",
         "jpn_ro": "Beauty Master Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied Beauty in Pokémon Contests.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/beauty-master-ribbon.png"
@@ -171,13 +171,13 @@
         "jpn": "ビューティリボン",
         "jpn_ro": "Beauty Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Beauty Contest Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/beauty-ribbon-sinnoh.png"
+        "gen-3": "ribbon/beauty-ribbon-hoenn.png"
       }
     },
     {
@@ -186,13 +186,13 @@
         "jpn": "ビューティリボン",
         "jpn_ro": "Beauty Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Beauty Category Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/beauty-ribbon-hoenn.png"
+        "gen-4": "ribbon/beauty-ribbon-sinnoh.png"
       }
     },
     {
@@ -201,10 +201,10 @@
         "jpn": "ビューティリボンスーパー",
         "jpn_ro": "Beauty Ribbon Super"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Beauty Category Great Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/beauty-ribbon-great-sinnoh.png"
@@ -216,10 +216,10 @@
         "jpn": "ビューティリボンハイパー",
         "jpn_ro": "Beauty Ribbon Hyper"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Beauty Contest Hyper Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/beauty-ribbon-hyper-hoenn.png"
@@ -231,13 +231,13 @@
         "jpn": "ビューティリボンマスター",
         "jpn_ro": "Beauty Ribbon Master"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Beauty Contest Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/beauty-ribbon-master-sinnoh.png"
+        "gen-3": "ribbon/beauty-ribbon-master-hoenn.png"
       }
     },
     {
@@ -246,13 +246,13 @@
         "jpn": "ビューティリボンマスター",
         "jpn_ro": "Beauty Ribbon Master"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Beauty Category Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/beauty-ribbon-master-hoenn.png"
+        "gen-4": "ribbon/beauty-ribbon-master-sinnoh.png"
       }
     },
     {
@@ -261,10 +261,10 @@
         "jpn": "ビューティリボンスーパー",
         "jpn_ro": "Beauty Ribbon Super"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Beauty Contest Super Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/beauty-ribbon-super-hoenn.png"
@@ -276,10 +276,10 @@
         "jpn": "ビューティリボンハイパー",
         "jpn_ro": "Beauty Ribbon Hyper"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Beauty Category Ultra Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/beauty-ribbon-ultra-sinnoh.png"
@@ -291,10 +291,10 @@
         "jpn": "なかよしリボン",
         "jpn_ro": "Good Friend Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon that can be given to a Pokémon with which you share a close and meaningful bond.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/best-friends-ribbon.png"
@@ -306,10 +306,10 @@
         "jpn": "バースデーリボン",
         "jpn_ro": "Birthday Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon that commemorates a birthday.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/birthday-ribbon.png"
@@ -321,10 +321,10 @@
         "jpn": "ブルーリボン",
         "jpn_ro": "Blue Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/blue-ribbon.png"
@@ -336,10 +336,10 @@
         "jpn": "うっかリボン",
         "jpn_ro": "Careless Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling a careless error that helped steer life decisions.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/careless-ribbon.png"
@@ -351,10 +351,10 @@
         "jpn": "カーニバルリボン",
         "jpn_ro": "Carnival Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/carnival-ribbon.png"
@@ -366,10 +366,10 @@
         "jpn": "チャンプリボン",
         "jpn_ro": "Champ Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded for clearing the Pokémon League and entering the Hall of Fame somewhere long ago.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/champion-ribbon.png"
@@ -381,10 +381,10 @@
         "jpn": "クラシックリボン",
         "jpn_ro": "Classic Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon that proclaims love for Pokémon.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/classic-ribbon.png"
@@ -396,10 +396,10 @@
         "jpn": "かしこさマスターリボン",
         "jpn_ro": "Cleverness Master Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied Cleverness in Pokémon Contests.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/cleverness-master-ribbon.png"
@@ -411,13 +411,13 @@
         "jpn": "おもいでコンテストリボン",
         "jpn_ro": "Contest Memories Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A commemorative Ribbon representing all of the Ribbons you collected for contests somewhere long ago.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/contest-memory-ribbon-gold.png"
+        "gen-6": "ribbon/contest-memory-ribbon.png"
       }
     },
     {
@@ -426,13 +426,13 @@
         "jpn": "おもいでコンテストリボン",
         "jpn_ro": "Contest Memories Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A commemorative Ribbon representing all of the Ribbons you collected for contests somewhere long ago.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/contest-memory-ribbon.png"
+        "gen-6": "ribbon/contest-memory-ribbon-gold.png"
       }
     },
     {
@@ -441,10 +441,10 @@
         "jpn": "コンテストスターリボン",
         "jpn_ro": "Contest Star Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has performed superbly in every kind of contest.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/contest-star-ribbon.png"
@@ -456,13 +456,13 @@
         "jpn": "クールリボン",
         "jpn_ro": "Cool Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cool Contest Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/cool-ribbon-sinnoh.png"
+        "gen-3": "ribbon/cool-ribbon-hoenn.png"
       }
     },
     {
@@ -471,13 +471,13 @@
         "jpn": "クールリボン",
         "jpn_ro": "Cool Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cool Category Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/cool-ribbon-hoenn.png"
+        "gen-4": "ribbon/cool-ribbon-sinnoh.png"
       }
     },
     {
@@ -486,10 +486,10 @@
         "jpn": "クールリボンスーパー",
         "jpn_ro": "Cool Ribbon Super"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cool Category Great Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/cool-ribbon-great-sinnoh.png"
@@ -501,10 +501,10 @@
         "jpn": "クールリボンハイパー",
         "jpn_ro": "Cool Ribbon Hyper"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cool Contest Hyper Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/cool-ribbon-hyper-hoenn.png"
@@ -516,13 +516,13 @@
         "jpn": "クールリボンマスター",
         "jpn_ro": "Cool Ribbon Master"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cool Contest Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/cool-ribbon-master-sinnoh.png"
+        "gen-3": "ribbon/cool-ribbon-master-hoenn.png"
       }
     },
     {
@@ -531,13 +531,13 @@
         "jpn": "クールリボンマスター",
         "jpn_ro": "Cool Ribbon Master"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cool Category Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/cool-ribbon-master-hoenn.png"
+        "gen-4": "ribbon/cool-ribbon-master-sinnoh.png"
       }
     },
     {
@@ -546,10 +546,10 @@
         "jpn": "クールリボンスーパー",
         "jpn_ro": "Cool Ribbon Super"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cool Contest Super Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/cool-ribbon-super-hoenn.png"
@@ -561,10 +561,10 @@
         "jpn": "クールリボンハイパー",
         "jpn_ro": "Cool Ribbon Hyper"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cool Category Ultra Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/cool-ribbon-ultra-sinnoh.png"
@@ -576,10 +576,10 @@
         "jpn": "かっこよさマスターリボン",
         "jpn_ro": "Coolness Master Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied Coolness in Pokémon Contests.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/coolness-master-ribbon.png"
@@ -591,10 +591,10 @@
         "jpn": "カントリーリボン",
         "jpn_ro": "Country Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon League Champion.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/country-ribbon.png"
@@ -606,13 +606,13 @@
         "jpn": "キュートリボン",
         "jpn_ro": "Cute Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cute Contest Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/cute-ribbon-sinnoh.png"
+        "gen-3": "ribbon/cute-ribbon-hoenn.png"
       }
     },
     {
@@ -621,13 +621,13 @@
         "jpn": "キュートリボン",
         "jpn_ro": "Cute Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cute Category Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/cute-ribbon-hoenn.png"
+        "gen-4": "ribbon/cute-ribbon-sinnoh.png"
       }
     },
     {
@@ -636,10 +636,10 @@
         "jpn": "キュートリボンスーパー",
         "jpn_ro": "Cute Ribbon Super"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cute Category Great Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/cute-ribbon-great-sinnoh.png"
@@ -651,10 +651,10 @@
         "jpn": "キュートリボンハイパー",
         "jpn_ro": "Cute Ribbon Hyper"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cute Contest Hyper Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/cute-ribbon-hyper-hoenn.png"
@@ -666,13 +666,13 @@
         "jpn": "キュートリボンマスター",
         "jpn_ro": "Cute Ribbon Master"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cute Contest Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/cute-ribbon-master-sinnoh.png"
+        "gen-3": "ribbon/cute-ribbon-master-hoenn.png"
       }
     },
     {
@@ -681,13 +681,13 @@
         "jpn": "キュートリボンマスター",
         "jpn_ro": "Cute Ribbon Master"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cute Category Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/cute-ribbon-master-hoenn.png"
+        "gen-4": "ribbon/cute-ribbon-master-sinnoh.png"
       }
     },
     {
@@ -696,10 +696,10 @@
         "jpn": "キュートリボンスーパー",
         "jpn_ro": "Cute Ribbon Super"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Cute Contest Super Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/cute-ribbon-super-hoenn.png"
@@ -711,10 +711,10 @@
         "jpn": "キュートリボンハイパー",
         "jpn_ro": "Cute Ribbon Hyper"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Cute Category Ultra Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/cute-ribbon-ultra-sinnoh.png"
@@ -726,10 +726,10 @@
         "jpn": "かわいさマスターリボン",
         "jpn_ro": "Cuteness Master Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied Cuteness in Pokémon Contests.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/cuteness-master-ribbon.png"
@@ -741,10 +741,10 @@
         "jpn": "ダブルアビリティリボン",
         "jpn_ro": "Double Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for completing the Battle Tower Double challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/double-ability-ribbon.png"
@@ -756,10 +756,10 @@
         "jpn": "しょんぼリボン",
         "jpn_ro": "Downhearted Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling feelings of sadness that added spice to life.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/downcast-ribbon.png"
@@ -771,10 +771,10 @@
         "jpn": "アースリボン",
         "jpn_ro": "Earth Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded for winning 100 battles in a row.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/earth-ribbon.png"
@@ -786,10 +786,10 @@
         "jpn": "がんばリボン",
         "jpn_ro": "Effort Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded for being an exceptionally hard worker.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/effort-ribbon.png"
@@ -801,10 +801,10 @@
         "jpn": "イベントリボン",
         "jpn_ro": "Event Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon awarded for participating in a special Pokémon event.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/event-ribbon.png"
@@ -816,10 +816,10 @@
         "jpn": "マスターバトルリボン",
         "jpn_ro": "Master Battle Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon that can be given to a brave Pokémon that has honed its battle skills to an art.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/expert-battler-ribbon.png"
@@ -831,10 +831,10 @@
         "jpn": "フェスティバルリボン",
         "jpn_ro": "Festival Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/festival-ribbon.png"
@@ -846,10 +846,10 @@
         "jpn": "あしあとリボン",
         "jpn_ro": "Footprint Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon deemed to have a top-quality footprint.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/footprint-ribbon.png"
@@ -861,10 +861,10 @@
         "jpn": "ゴージャスリボン",
         "jpn_ro": "Gorgeous Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "An extraordinarily gorgeous and extravagant Ribbon.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/gorgeous-ribbon.png"
@@ -876,10 +876,10 @@
         "jpn": "ゴージャスロイヤルリボン",
         "jpn_ro": "Gorgeous Royal Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A gorgeous and regal Ribbon that is the peak of fabulous.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/gorgeous-royal-ribbon.png"
@@ -891,10 +891,10 @@
         "jpn": "グレートアビリティリボン",
         "jpn_ro": "Great Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for defeating the Tower Tycoon at the Battle Tower.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/great-ability-ribbon.png"
@@ -906,10 +906,10 @@
         "jpn": "グリーンリボン",
         "jpn_ro": "Green Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/green-ribbon.png"
@@ -921,10 +921,10 @@
         "jpn": "ヒストリーリボン",
         "jpn_ro": "History Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for setting a historical record.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/history-ribbon.png"
@@ -936,10 +936,10 @@
         "jpn": "ホウエン チャンプリボン",
         "jpn_ro": "Hoenn Champ Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded for beating the Hoenn Champion and entering the Hoenn Hall of Fame.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/hoenn-champion-ribbon.png"
@@ -951,10 +951,10 @@
         "jpn": "カロス チャンプリボン",
         "jpn_ro": "Kalos Champ Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded for beating the Kalos Champion and entering the Kalos Hall of Fame.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/kalos-champion-ribbon.png"
@@ -966,10 +966,10 @@
         "jpn": "ランドリボン",
         "jpn_ro": "Land Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-3": "ribbon/land-ribbon.png"
@@ -981,10 +981,10 @@
         "jpn": "レジェンドリボン",
         "jpn_ro": "Legend Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon awarded for setting a legendary record.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/legend-ribbon.png"
@@ -996,10 +996,10 @@
         "jpn": "マリンリボン",
         "jpn_ro": "Marine Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-3": "ribbon/marine-ribbon.png"
@@ -1011,10 +1011,10 @@
         "jpn": "マルチアビリティリボン",
         "jpn_ro": "Multi Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for completing the Battle Tower Multi challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/multi-ability-ribbon.png"
@@ -1026,10 +1026,10 @@
         "jpn": "ナショナルチャンプリボン",
         "jpn_ro": "National Champ Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon awarded to a National Champion in the Pokémon World Championships.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/national-champion-ribbon.png"
@@ -1041,10 +1041,10 @@
         "jpn": "ナショナルリボン",
         "jpn_ro": "National Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded for overcoming all difficult challenges.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/national-ribbon.png"
@@ -1056,10 +1056,10 @@
         "jpn": "ペアアビリティリボン",
         "jpn_ro": "Pair Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for completing the Battle Tower Link Multi challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/pair-ability-ribbon.png"
@@ -1071,10 +1071,10 @@
         "jpn": "プレミアリボン",
         "jpn_ro": "Premier Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon awarded for a special holiday.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/premier-ribbon.png"
@@ -1086,10 +1086,10 @@
         "jpn": "レコードリボン",
         "jpn_ro": "Record Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon awarded for setting an incredible record.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/record-ribbon.png"
@@ -1101,10 +1101,10 @@
         "jpn": "レッドリボン",
         "jpn_ro": "Red Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-4": "ribbon/red-ribbon.png"
@@ -1116,10 +1116,10 @@
         "jpn": "エリアチャンプリボン",
         "jpn_ro": "Area Champ Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon awarded to a Regional Champion in the Pokémon World Championships.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/regional-champion-ribbon.png"
@@ -1131,10 +1131,10 @@
         "jpn": "すっきリボン",
         "jpn_ro": "Refreshed Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling a refreshing event that added sparkle to life.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/relax-ribbon.png"
@@ -1146,10 +1146,10 @@
         "jpn": "ロイヤルリボン",
         "jpn_ro": "Royal Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "An incredibly regal Ribbon with an air of nobility.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/royal-ribbon.png"
@@ -1161,10 +1161,10 @@
         "jpn": "どっきリボン",
         "jpn_ro": "Shock Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling a thrilling event that made life more exciting.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/shock-ribbon.png"
@@ -1176,10 +1176,10 @@
         "jpn": "シンオウ チャンプリボン",
         "jpn_ro": "Sinnoh Champ Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon awarded for beating the Sinnoh Champion and entering the Sinnoh Hall of Fame.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/sinnoh-champ-ribbon.png"
@@ -1191,10 +1191,10 @@
         "jpn": "グレートバトルリボン",
         "jpn_ro": "Great Battle Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon that can be given to a Pokémon that has achieved victory in difficult battles.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/skillful-battler-ribbon.png"
@@ -1206,10 +1206,10 @@
         "jpn": "スカイリボン",
         "jpn_ro": "Sky Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A commemorative Ribbon obtained in a Mystery Zone.",
+        "from_gen": 4
       },
       "files": {
         "gen-3": "ribbon/sky-ribbon.png"
@@ -1221,13 +1221,13 @@
         "jpn": "ジーニアスリボン",
         "jpn_ro": "Genius Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Smart Contest Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-4": "ribbon/smart-ribbon-sinnoh.png"
+        "gen-3": "ribbon/smart-ribbon-hoenn.png"
       }
     },
     {
@@ -1236,13 +1236,13 @@
         "jpn": "ジーニアスリボン",
         "jpn_ro": "Genius Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Smart Category Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
-        "gen-3": "ribbon/smart-ribbon-hoenn.png"
+        "gen-4": "ribbon/smart-ribbon-sinnoh.png"
       }
     },
     {
@@ -1251,10 +1251,10 @@
         "jpn": "ジーニアスリボンスーパー",
         "jpn_ro": "Genius Ribbon Super"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Smart Category Great Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/smart-ribbon-great-sinnoh.png"
@@ -1266,10 +1266,10 @@
         "jpn": "ジーニアスリボンハイパー",
         "jpn_ro": "Genius Ribbon Hyper"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Smart Contest Hyper Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/smart-ribbon-hyper-hoenn.png"
@@ -1281,10 +1281,10 @@
         "jpn": "ジーニアスリボンマスター",
         "jpn_ro": "Genius Ribbon Master"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Smart Category Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/smart-ribbon-master-sinnoh.png"
@@ -1296,10 +1296,10 @@
         "jpn": "ジーニアスリボンマスター",
         "jpn_ro": "Genius Ribbon Master"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Smart Contest Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/smart-ribbon-master-hoenn.png"
@@ -1311,10 +1311,10 @@
         "jpn": "ジーニアスリボンスーパー",
         "jpn_ro": "Genius Ribbon Super"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Smart Contest Super Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/smart-ribbon-super-hoenn.png"
@@ -1326,10 +1326,10 @@
         "jpn": "ジーニアスリボンハイパー",
         "jpn_ro": "Genius Ribbon Hyper"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Smart Category Ultra Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/smart-ribbon-ultra-sinnoh.png"
@@ -1341,10 +1341,10 @@
         "jpn": "にっこリボン",
         "jpn_ro": "Smile Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling that smiles enrich the quality of life.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/smile-ribbon.png"
@@ -1356,10 +1356,10 @@
         "jpn": "ぐっすリボン",
         "jpn_ro": "Snooze Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
         "eng": "A Ribbon for recalling a deep slumber that made life soothing.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-4": "ribbon/snooze-ribbon.png"
@@ -1371,10 +1371,10 @@
         "jpn": "メモリアルリボン",
         "jpn_ro": "Memorial Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon for cherishing a special memory.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/souvenir-ribbon.png"
@@ -1386,10 +1386,10 @@
         "jpn": "スペシャルリボン",
         "jpn_ro": "Special Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A special Ribbon for a special day.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/special-ribbon.png"
@@ -1401,10 +1401,10 @@
         "jpn": "パワフルリボン",
         "jpn_ro": "Powerful Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Tough Category Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/tough-ribbon-sinnoh.png"
@@ -1416,10 +1416,10 @@
         "jpn": "パワフルリボン",
         "jpn_ro": "Powerful Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Tough Contest Normal Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/tough-ribbon-hoenn.png"
@@ -1431,10 +1431,10 @@
         "jpn": "パワフルリボンスーパー",
         "jpn_ro": "Powerful Ribbon Super"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Tough Category Great Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/tough-ribbon-great-sinnoh.png"
@@ -1446,10 +1446,10 @@
         "jpn": "パワフルリボンハイパー",
         "jpn_ro": "Powerful Ribbon Hyper"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Tough Contest Hyper Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/tough-ribbon-hyper-hoenn.png"
@@ -1461,10 +1461,10 @@
         "jpn": "パワフルリボンマスター",
         "jpn_ro": "Powerful Ribbon Master"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Tough Category Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/tough-ribbon-master-sinnoh.png"
@@ -1476,10 +1476,10 @@
         "jpn": "パワフルリボンマスター",
         "jpn_ro": "Powerful Ribbon Master"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Tough Contest Master Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/tough-ribbon-master-hoenn.png"
@@ -1491,10 +1491,10 @@
         "jpn": "パワフルリボンスーパー",
         "jpn_ro": "Powerful Ribbon Super"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Hoenn Tough Contest Super Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/tough-ribbon-super-hoenn.png"
@@ -1506,10 +1506,10 @@
         "jpn": "パワフルリボンハイパー",
         "jpn_ro": "Powerful Ribbon Hyper"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Super Contest Tough Category Ultra Rank winner!",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/tough-ribbon-ultra-sinnoh.png"
@@ -1521,10 +1521,10 @@
         "jpn": "たくましさマスターリボン",
         "jpn_ro": "Hardiness Master Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied Toughness in Pokémon Contests.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/toughness-master-ribbon.png"
@@ -1536,10 +1536,10 @@
         "jpn": "しゅぎょうリボン",
         "jpn_ro": "Training Ribbon"
       },
-      "gen": 6,
+      "origin_gen": 6,
       "description": {
         "eng": "A Ribbon that can be given to a Pokémon that has overcome rigorous trials and training.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-6": "ribbon/training-ribbon.png"
@@ -1551,10 +1551,10 @@
         "jpn": "ビクトリーリボン",
         "jpn_ro": "Victory Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 100 challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/victory-ribbon.png"
@@ -1566,10 +1566,10 @@
         "jpn": "ウイニングリボン",
         "jpn_ro": "Winning Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "Ribbon awarded for clearing Hoenn's Battle Tower's Lv. 50 challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-3": "ribbon/winning-ribbon.png"
@@ -1581,10 +1581,10 @@
         "jpn": "ウィッシュリボン",
         "jpn_ro": "Wish Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon said to make your wish come true.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/wishing-ribbon.png"
@@ -1596,10 +1596,10 @@
         "jpn": "ワールドアビリティリボン",
         "jpn_ro": "World Ability Ribbon"
       },
-      "gen": 4,
+      "origin_gen": 4,
       "description": {
-        "eng": "Unknown",
-        "gen": 7
+        "eng": "A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.",
+        "from_gen": 5
       },
       "files": {
         "gen-4": "ribbon/world-ability-ribbon.png"
@@ -1611,10 +1611,10 @@
         "jpn": "ワールドチャンプリボン",
         "jpn_ro": "World Champ Ribbon"
       },
-      "gen": 5,
+      "origin_gen": 5,
       "description": {
         "eng": "A Ribbon awarded to a World Champion in the Pokémon World Championships.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-5": "ribbon/world-champion-ribbon.png"
@@ -1626,10 +1626,10 @@
         "jpn": "ワールドリボン",
         "jpn_ro": "World Ribbon"
       },
-      "gen": 3,
+      "origin_gen": 3,
       "description": {
         "eng": "A Ribbon awarded to a Pokémon League Champion.",
-        "gen": 7
+        "from_gen": 7
       },
       "files": {
         "gen-3": "ribbon/world-ribbon.png"
