@@ -482,7 +482,14 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('''
     <td></td>
     <td colspan="10">
-      <span>Note: ribbons for Gen 3 have had their sizes padded to 40×40 up from 32×32, and ribbons from Gen 3 and 4 have had their gamma curve adjusted to be identical to that of the later gens—both for consistency.<br /></span>
+      <div class="footnote">
+        <p>Note: for consistency and ease of use, several edits have been made to the ribbons:</p>
+        <ul>
+          <li>ribbons from Gen 3 have had their sizes padded to 40×40 (up from 32×32 originally);</li>
+          <li>ribbons from Gen 3 and 4 have had their gamma curve adjusted to be identical to that of the later gens.</li>
+        </ul>
+        <p>The higher resolution sprites from Gen 8 have not been resized; they're just being displayed at a smaller size in this preview.</p>
+      </div>
     </td>
   ''')
   buffer.append('</tr>')
@@ -560,8 +567,10 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
   buffer.append('''
     <td></td>
     <td colspan="10">
-      <span>Note: item IDs are accurate only for the latest Pokémon game.<br /></span>
-      <span>Only filenames are available, not proper item names or aliases (hence some items appear multiple times). This will be fixed in a future release.</span>
+      <div class="footnote">
+        <p>Note: item IDs are accurate only for the latest Pokémon game.</p>
+        <p>Only filenames are available, not proper item names or aliases (hence some items appear multiple times). This will be fixed in a future release.</p>
+      </div>
     </td>
   ''')
   buffer.append('</tr>')
@@ -672,8 +681,10 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
   buffer.append('''
     <td></td>
     <td colspan="10">
-      <span>†: form is an alias of another form and doesn't have a separate image.<br /></span>
-      <span>‡: this icon is unofficial (not directly lifted from the games; only applies to non-shiny sprites, as shiny sprites are all unofficial).</span>
+      <div class="footnote">
+        <p>†: form is an alias of another form and doesn't have a separate image.</p>
+        <p>‡: this icon is unofficial (not directly lifted from the games; only applies to non-shiny sprites, as shiny sprites are all unofficial).</p>
+      </div>
     </td>
   ''')
   buffer.append('</tr>')

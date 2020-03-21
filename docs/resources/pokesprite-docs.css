@@ -116,15 +116,15 @@
 .markdown-body .pokesprite tfoot td {
   line-height: 23px !important;
 }
-.markdown-body .pokesprite tfoot td span {
+.markdown-body .pokesprite tfoot td .footnote {
   line-height: 1.5;
-  margin-top: 0.5em;
   font-size: smaller;
   font-weight: normal;
   display: block;
+  margin: -0.5em 0;
 }
-.markdown-body .pokesprite tfoot td span:first-child {
-  margin-top: 0;
+.markdown-body .pokesprite tfoot td .footnote > * {
+  margin: 0.5em 0;
 }
 /* Some magic to get border rounding working. */
 .markdown-body .pokesprite {
