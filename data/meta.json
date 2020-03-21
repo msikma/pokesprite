@@ -1,0 +1,206 @@
+{
+  "item-groups": {
+    "apricorn": {
+      "name": {
+        "eng": "Apricorns"
+      }
+    },
+    "av-candy": {
+      "name": {
+        "eng": "AV candy"
+      }
+    },
+    "ball": {
+      "name": {
+        "eng": "Poké balls"
+      }
+    },
+    "battle-item": {
+      "name": {
+        "eng": "Battle items"
+      }
+    },
+    "berry": {
+      "name": {
+        "eng": "Berries"
+      }
+    },
+    "body-style": {
+      "name": {
+        "eng": "Body styles"
+      }
+    },
+    "curry-ingredient": {
+      "name": {
+        "eng": "Curry ingredients"
+      }
+    },
+    "etc": {
+      "name": {
+        "eng": "Et cetera"
+      }
+    },
+    "ev-item": {
+      "name": {
+        "eng": "EV-enhancing items"
+      }
+    },
+    "evo-item": {
+      "name": {
+        "eng": "Evolution items"
+      }
+    },
+    "exp-candy": {
+      "name": {
+        "eng": "Experience candy"
+      }
+    },
+    "flute": {
+      "name": {
+        "eng": "Flutes"
+      }
+    },
+    "fossil": {
+      "name": {
+        "eng": "Fossils"
+      }
+    },
+    "gem": {
+      "name": {
+        "eng": "Gems"
+      }
+    },
+    "hm": {
+      "name": {
+        "eng": "HMs (Hidden Machines)"
+      }
+    },
+    "hold-item": {
+      "name": {
+        "eng": "Held items"
+      }
+    },
+    "incense": {
+      "name": {
+        "eng": "Incense"
+      }
+    },
+    "key-item": {
+      "name": {
+        "eng": "Key items"
+      }
+    },
+    "mail": {
+      "name": {
+        "eng": "Mail"
+      }
+    },
+    "medicine": {
+      "name": {
+        "eng": "Medicine"
+      }
+    },
+    "mega-stone": {
+      "name": {
+        "eng": "Mega Stones"
+      }
+    },
+    "memory": {
+      "name": {
+        "eng": "Memory"
+      }
+    },
+    "mint": {
+      "name": {
+        "eng": "Mints"
+      }
+    },
+    "mulch": {
+      "name": {
+        "eng": "Mulch"
+      }
+    },
+    "other-item": {
+      "name": {
+        "eng": "Other items"
+      }
+    },
+    "partner-gift": {
+      "name": {
+        "eng": "Partner gifts"
+      }
+    },
+    "petal": {
+      "name": {
+        "eng": "Petals"
+      }
+    },
+    "plate": {
+      "name": {
+        "eng": "Plates"
+      }
+    },
+    "poke-candy": {
+      "name": {
+        "eng": "Poké candy"
+      }
+    },
+    "roto": {
+      "name": {
+        "eng": "Rotom powers"
+      }
+    },
+    "scarf": {
+      "name": {
+        "eng": "Scarves"
+      }
+    },
+    "shard": {
+      "name": {
+        "eng": "Shards"
+      }
+    },
+    "storage": {
+      "name": {
+        "eng": "Storage"
+      }
+    },
+    "tm": {
+      "name": {
+        "eng": "TMs (Technical Machines)"
+      }
+    },
+    "tr": {
+      "name": {
+        "eng": "TRs (Technical Records)"
+      }
+    },
+    "valuable-item": {
+      "name": {
+        "eng": "Valuable items"
+      }
+    },
+    "wonder-launcher": {
+      "name": {
+        "eng": "Wonder Launcher items"
+      }
+    },
+    "z-crystals": {
+      "name": {
+        "eng": "Z-crystals"
+      }
+    }
+  },
+  "misc-groups": {
+    "body-style": {
+      "name": {
+        "eng": "Body styles (shape)"
+      }
+    },
+    "ribbon": {
+      "name": {
+        "eng": "Ribbons"
+      }
+    }
+  }
+}

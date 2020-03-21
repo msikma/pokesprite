@@ -1,0 +1,190 @@
+/**
+ * Sprite overview table
+ *
+ * See gh-markdown.css for variables.
+ */
+
+/* Column sizes */
+.markdown-body .pokesprite {
+  width: min-content;
+  margin: auto;
+}
+.markdown-body .pokesprite tbody th,
+.markdown-body .pokesprite tbody td {
+}
+.markdown-body .pokesprite tbody td.filler {
+  width: 50%;
+}
+/* Slug column - the table is designed so this column fills out most of the remaining space. */
+.markdown-body .pokesprite tr.header th:last-child,
+.markdown-body .pokesprite tbody td:last-child {
+}
+/* Form column - contains the form name, and is optionally followed by one or two td.min nodes. */
+.markdown-body .pokesprite tbody td.form {
+}
+.markdown-body .pokesprite tbody td.min {
+  width: 0.1%;
+}
+.markdown-body .pokesprite tbody td.image {
+  width: 1px;
+}
+
+/* The rest */
+.markdown-body .pokesprite tr.header th {
+  text-align: left;
+  background-color: var(--shade-2);
+}
+.markdown-body .pokesprite tr.header th,
+.markdown-body .pokesprite tr.header td {
+  white-space: nowrap;
+}
+.markdown-body .pokesprite thead tr.title th {
+  text-align: left;
+  background: var(--shade-0);
+  line-height: 23px !important;
+}
+.markdown-body .pokesprite thead tr.title th span {
+  font-weight: normal;
+  display: block;
+  font-size: smaller;
+  line-height: 1.5;
+  color: var(--shade-7)
+}
+.markdown-body .pokesprite tbody tr:hover td {
+  background: var(--shade-3);
+}
+.markdown-body .pokesprite tbody:not(.alternating) tr td[rowspan] {
+  background: var(--shade-0);
+}
+.markdown-body .pokesprite tbody tr td.group {
+  font-weight: 500;
+}
+.markdown-body .pokesprite tbody tr td.item-id {
+  padding-bottom: 0;
+}
+.markdown-body .pokesprite tbody tr td.item-id code {
+  display: inline-block;
+  padding-top: 1px;
+}
+.markdown-body .pokesprite tbody tr.variable-height td {
+  vertical-align: middle;
+}
+.markdown-body .pokesprite tbody attr span {
+  border-bottom: 1px dotted var(--gh-black);
+}
+.markdown-body .pokesprite tbody th,
+.markdown-body .pokesprite tbody td {
+  vertical-align: top;
+  white-space: nowrap;
+}
+.markdown-body .pokesprite tbody td code {
+  padding: 0;
+  background: transparent;
+}
+/* Image no. column */
+.markdown-body .pokesprite tr.header th:first-child,
+.markdown-body .pokesprite tbody td:first-child {
+  text-align: right;
+  width: 1px;
+}
+.markdown-body .pokesprite tbody td.min {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.markdown-body .pokesprite tbody td.min.gender-m {
+  color: #0c8bff;
+}
+.markdown-body .pokesprite tbody td.min.gender-f {
+  color: #ff3b60;
+}
+/* Pokémon sprites */
+.markdown-body .pokesprite tbody img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  max-width: inherit;
+}
+.markdown-body .pokesprite tbody td.image {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.markdown-body .pokesprite tbody td.image.item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.markdown-body .pokesprite tfoot td {
+  line-height: 23px !important;
+}
+.markdown-body .pokesprite tfoot td .footnote {
+  line-height: 1.5;
+  font-size: smaller;
+  font-weight: normal;
+  display: block;
+  margin: -0.5em 0;
+}
+.markdown-body .pokesprite tfoot td .footnote > * {
+  margin: 0.5em 0;
+}
+/* Some magic to get border rounding working. */
+.markdown-body .pokesprite {
+  border-collapse: separate;
+}
+.markdown-body .pokesprite td,
+.markdown-body .pokesprite th {
+  border: none;
+  border-top: 1px solid var(--shade-4);
+  border-left: 1px solid var(--shade-4);
+}
+.markdown-body .pokesprite td:last-child,
+.markdown-body .pokesprite th:last-child {
+  border-right: 1px solid var(--shade-4);
+}
+.markdown-body .pokesprite thead tr:first-child th:first-child {
+  border-top-left-radius: var(--rounding);
+}
+.markdown-body .pokesprite thead tr:first-child th:last-child {
+  border-top-right-radius: var(--rounding);
+}
+.markdown-body .pokesprite tfoot tr:last-child td {
+  border-bottom: 1px solid var(--shade-4);
+}
+.markdown-body .pokesprite tfoot tr:last-child td:first-child {
+  border-bottom-left-radius: var(--rounding);
+}
+.markdown-body .pokesprite tfoot tr:last-child td:last-child {
+  border-bottom-right-radius: var(--rounding);
+}
+
+/* Differences per gen. */
+
+.markdown-body .pokesprite th,
+.markdown-body .pokesprite td {
+  line-height: 23px;
+}
+.markdown-body .pokesprite.gen8 th,
+.markdown-body .pokesprite.gen8 td {
+  line-height: 33px;
+}
+.markdown-body .pokesprite tbody img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.markdown-body .pokesprite tbody img.i {
+  margin: 2px 0 0 0;
+}
+.markdown-body .pokesprite tbody img.p {
+  margin: -28px 0 -4px 0;
+}
+.markdown-body .pokesprite.gen8 tbody img.p {
+  margin: -18px 0 -4px 0;
+}
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8,
+.markdown-body .pokesprite tbody img.retina-body-style-gen8 {
+  width: 32px;
+  height: 32px;
+}
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8 {
+  margin: 4px;
+}
