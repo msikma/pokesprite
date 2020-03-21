@@ -27,7 +27,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/alert-ribbon.png"
+        "gen-4": "ribbon/alert-ribbon.png",
+        "gen-8": "ribbon/gen8/alert-ribbon.png"
       }
     },
     {
@@ -42,7 +43,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-7": "ribbon/alola-champion-ribbon.png"
+        "gen-7": "ribbon/alola-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/alola-champion-ribbon.png"
       }
     },
     {
@@ -57,7 +59,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/artist-ribbon.png"
+        "gen-3": "ribbon/artist-ribbon.png",
+        "gen-8": "ribbon/gen8/artist-ribbon.png"
       }
     },
     {
@@ -72,7 +75,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/battle-champion-ribbon.png"
+        "gen-5": "ribbon/battle-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/battle-champion-ribbon.png"
       }
     },
     {
@@ -87,7 +91,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/battle-memory-ribbon.png"
+        "gen-6": "ribbon/battle-memory-ribbon.png",
+        "gen-8": "ribbon/gen8/battle-memory-ribbon.png"
       }
     },
     {
@@ -117,7 +122,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-7": "ribbon/battle-royal-master-ribbon.png"
+        "gen-7": "ribbon/battle-royal-master-ribbon.png",
+        "gen-8": "ribbon/gen8/battle-royal-master-ribbon.png"
       }
     },
     {
@@ -132,7 +138,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-7": "ribbon/battle-tree-great-ribbon.png"
+        "gen-7": "ribbon/battle-tree-great-ribbon.png",
+        "gen-8": "ribbon/gen8/battle-tree-great-ribbon.png"
       }
     },
     {
@@ -147,7 +154,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-7": "ribbon/battle-tree-master-ribbon.png"
+        "gen-7": "ribbon/battle-tree-master-ribbon.png",
+        "gen-8": "ribbon/gen8/battle-tree-master-ribbon.png"
       }
     },
     {
@@ -162,7 +170,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/beauty-master-ribbon.png"
+        "gen-6": "ribbon/beauty-master-ribbon.png",
+        "gen-8": "ribbon/gen8/beauty-master-ribbon.png"
       }
     },
     {
@@ -297,7 +306,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/best-friends-ribbon.png"
+        "gen-6": "ribbon/best-friends-ribbon.png",
+        "gen-8": "ribbon/gen8/best-friends-ribbon.png"
       }
     },
     {
@@ -342,7 +352,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/careless-ribbon.png"
+        "gen-4": "ribbon/careless-ribbon.png",
+        "gen-8": "ribbon/gen8/careless-ribbon.png"
       }
     },
     {
@@ -372,7 +383,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/champion-ribbon.png"
+        "gen-3": "ribbon/champion-ribbon.png",
+        "gen-8": "ribbon/gen8/champion-ribbon.png"
       }
     },
     {
@@ -402,7 +414,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/cleverness-master-ribbon.png"
+        "gen-6": "ribbon/cleverness-master-ribbon.png",
+        "gen-8": "ribbon/gen8/cleverness-master-ribbon.png"
       }
     },
     {
@@ -417,7 +430,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/contest-memory-ribbon.png"
+        "gen-6": "ribbon/contest-memory-ribbon.png",
+        "gen-8": "ribbon/gen8/contest-memory-ribbon.png"
       }
     },
     {
@@ -447,7 +461,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/contest-star-ribbon.png"
+        "gen-6": "ribbon/contest-star-ribbon.png",
+        "gen-8": "ribbon/gen8/contest-star-ribbon.png"
       }
     },
     {
@@ -582,7 +597,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/coolness-master-ribbon.png"
+        "gen-6": "ribbon/coolness-master-ribbon.png",
+        "gen-8": "ribbon/gen8/coolness-master-ribbon.png"
       }
     },
     {
@@ -597,7 +613,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/country-ribbon.png"
+        "gen-3": "ribbon/country-ribbon.png",
+        "gen-8": "ribbon/gen8/country-ribbon.png"
       }
     },
     {
@@ -732,7 +749,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/cuteness-master-ribbon.png"
+        "gen-6": "ribbon/cuteness-master-ribbon.png",
+        "gen-8": "ribbon/gen8/cuteness-master-ribbon.png"
       }
     },
     {
@@ -762,7 +780,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/downcast-ribbon.png"
+        "gen-4": "ribbon/downcast-ribbon.png",
+        "gen-8": "ribbon/gen8/downcast-ribbon.png"
       }
     },
     {
@@ -773,11 +792,12 @@
       },
       "origin_gen": 3,
       "description": {
-        "eng": "A Ribbon awarded for winning 100 battles in a row.",
-        "from_gen": 7
+        "eng": "A Ribbon awarded for winning one hundred battles in a row.",
+        "from_gen": 8
       },
       "files": {
-        "gen-3": "ribbon/earth-ribbon.png"
+        "gen-3": "ribbon/earth-ribbon.png",
+        "gen-8": "ribbon/gen8/earth-ribbon.png"
       }
     },
     {
@@ -792,7 +812,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/effort-ribbon.png"
+        "gen-3": "ribbon/effort-ribbon.png",
+        "gen-8": "ribbon/gen8/effort-ribbon.png"
       }
     },
     {
@@ -822,7 +843,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/expert-battler-ribbon.png"
+        "gen-6": "ribbon/expert-battler-ribbon.png",
+        "gen-8": "ribbon/gen8/expert-battler-ribbon.png"
       }
     },
     {
@@ -852,7 +874,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/footprint-ribbon.png"
+        "gen-4": "ribbon/footprint-ribbon.png",
+        "gen-8": "ribbon/gen8/footprint-ribbon.png"
       }
     },
     {
@@ -867,7 +890,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/gorgeous-ribbon.png"
+        "gen-4": "ribbon/gorgeous-ribbon.png",
+        "gen-8": "ribbon/gen8/gorgeous-ribbon.png"
       }
     },
     {
@@ -882,7 +906,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/gorgeous-royal-ribbon.png"
+        "gen-4": "ribbon/gorgeous-royal-ribbon.png",
+        "gen-8": "ribbon/gen8/gorgeous-royal-ribbon.png"
       }
     },
     {
@@ -942,7 +967,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/hoenn-champion-ribbon.png"
+        "gen-6": "ribbon/hoenn-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/hoenn-champion-ribbon.png"
       }
     },
     {
@@ -957,7 +983,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/kalos-champion-ribbon.png"
+        "gen-6": "ribbon/kalos-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/kalos-champion-ribbon.png"
       }
     },
     {
@@ -987,7 +1014,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/legend-ribbon.png"
+        "gen-4": "ribbon/legend-ribbon.png",
+        "gen-8": "ribbon/gen8/legend-ribbon.png"
       }
     },
     {
@@ -1032,7 +1060,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/national-champion-ribbon.png"
+        "gen-5": "ribbon/national-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/national-champion-ribbon.png"
       }
     },
     {
@@ -1047,7 +1076,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/national-ribbon.png"
+        "gen-3": "ribbon/national-ribbon.png",
+        "gen-8": "ribbon/gen8/national-ribbon.png"
       }
     },
     {
@@ -1092,7 +1122,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/record-ribbon.png"
+        "gen-4": "ribbon/record-ribbon.png",
+        "gen-8": "ribbon/gen8/record-ribbon.png"
       }
     },
     {
@@ -1122,7 +1153,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/regional-champion-ribbon.png"
+        "gen-5": "ribbon/regional-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/regional-champion-ribbon.png"
       }
     },
     {
@@ -1137,7 +1169,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/relax-ribbon.png"
+        "gen-4": "ribbon/relax-ribbon.png",
+        "gen-8": "ribbon/gen8/relax-ribbon.png"
       }
     },
     {
@@ -1152,7 +1185,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/royal-ribbon.png"
+        "gen-4": "ribbon/royal-ribbon.png",
+        "gen-8": "ribbon/gen8/royal-ribbon.png"
       }
     },
     {
@@ -1167,7 +1201,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/shock-ribbon.png"
+        "gen-4": "ribbon/shock-ribbon.png",
+        "gen-8": "ribbon/gen8/shock-ribbon.png"
       }
     },
     {
@@ -1182,7 +1217,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/sinnoh-champion-ribbon.png"
+        "gen-4": "ribbon/sinnoh-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/sinnoh-champion-ribbon.png"
       }
     },
     {
@@ -1197,7 +1233,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/skillful-battler-ribbon.png"
+        "gen-6": "ribbon/skillful-battler-ribbon.png",
+        "gen-8": "ribbon/gen8/skillful-battler-ribbon.png"
       }
     },
     {
@@ -1347,7 +1384,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/smile-ribbon.png"
+        "gen-4": "ribbon/smile-ribbon.png",
+        "gen-8": "ribbon/gen8/smile-ribbon.png"
       }
     },
     {
@@ -1362,7 +1400,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/snooze-ribbon.png"
+        "gen-4": "ribbon/snooze-ribbon.png",
+        "gen-8": "ribbon/gen8/snooze-ribbon.png"
       }
     },
     {
@@ -1527,7 +1566,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/toughness-master-ribbon.png"
+        "gen-6": "ribbon/toughness-master-ribbon.png",
+        "gen-8": "ribbon/gen8/toughness-master-ribbon.png"
       }
     },
     {
@@ -1542,7 +1582,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-6": "ribbon/training-ribbon.png"
+        "gen-6": "ribbon/training-ribbon.png",
+        "gen-8": "ribbon/gen8/training-ribbon.png"
       }
     },
     {
@@ -1617,7 +1658,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/world-champion-ribbon.png"
+        "gen-5": "ribbon/world-champion-ribbon.png",
+        "gen-8": "ribbon/gen8/world-champion-ribbon.png"
       }
     },
     {
@@ -1632,7 +1674,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-3": "ribbon/world-ribbon.png"
+        "gen-3": "ribbon/world-ribbon.png",
+        "gen-8": "ribbon/gen8/world-ribbon.png"
       }
     }
   ],
