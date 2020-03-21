@@ -322,7 +322,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/birthday-ribbon.png"
+        "gen-5": "ribbon/birthday-ribbon.png",
+        "gen-8": "ribbon/gen8/birthday-ribbon.png"
       }
     },
     {
@@ -399,7 +400,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/classic-ribbon.png"
+        "gen-4": "ribbon/classic-ribbon.png",
+        "gen-8": "ribbon/gen8/classic-ribbon.png"
       }
     },
     {
@@ -828,7 +830,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/event-ribbon.png"
+        "gen-5": "ribbon/event-ribbon.png",
+        "gen-8": "ribbon/gen8/event-ribbon.png"
       }
     },
     {
@@ -1107,7 +1110,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/premier-ribbon.png"
+        "gen-4": "ribbon/premier-ribbon.png",
+        "gen-8": "ribbon/gen8/premier-ribbon.png"
       }
     },
     {
@@ -1416,7 +1420,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/souvenir-ribbon.png"
+        "gen-5": "ribbon/souvenir-ribbon.png",
+        "gen-8": "ribbon/gen8/souvenir-ribbon.png"
       }
     },
     {
@@ -1431,7 +1436,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/special-ribbon.png"
+        "gen-5": "ribbon/special-ribbon.png",
+        "gen-8": "ribbon/gen8/special-ribbon.png"
       }
     },
     {
@@ -1628,7 +1634,8 @@
         "from_gen": 7
       },
       "files": {
-        "gen-5": "ribbon/wishing-ribbon.png"
+        "gen-5": "ribbon/wishing-ribbon.png",
+        "gen-8": "ribbon/gen8/wishing-ribbon.png"
       }
     },
     {
@@ -1676,6 +1683,51 @@
       "files": {
         "gen-3": "ribbon/world-ribbon.png",
         "gen-8": "ribbon/gen8/world-ribbon.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Galar Champion Ribbon",
+        "jpn": "ガラルチャンプリボン",
+        "jpn_ro": "Galar Champ Ribbon"
+      },
+      "origin_gen": 8,
+      "description": {
+        "eng": "A Ribbon awarded for becoming the Galar Champion and entering the Galar Hall of Fame.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "ribbon/gen8/galar-champion-ribbon.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Tower Master Ribbon",
+        "jpn": "マスタータワーリボン",
+        "jpn_ro": "Master Tower Ribbon"
+      },
+      "origin_gen": 8,
+      "description": {
+        "eng": "A Ribbon awarded for winning against a champion in the Battle Tower.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "ribbon/gen8/tower-master-ribbon.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Master Rank Ribbon",
+        "jpn": "マスターランクリボン",
+        "jpn_ro": "Master Rank Ribbon"
+      },
+      "origin_gen": 8,
+      "description": {
+        "eng": "A Ribbon awarded for winning against a Trainer in the Master Ball Tier of Ranked Battles.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "ribbon/gen8/master-rank-ribbon.png"
       }
     }
   ],
