@@ -182,6 +182,10 @@
 }
 .markdown-body .pokesprite tbody img.retina-ribbon-gen8,
 .markdown-body .pokesprite tbody img.retina-body-style-gen8 {
+  image-rendering: auto;
+}
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8,
+.markdown-body .pokesprite tbody img.retina-body-style-gen8 {
   width: 32px;
   height: 32px;
 }
