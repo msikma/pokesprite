@@ -1635,5 +1635,147 @@
         "gen-3": "ribbon/world-ribbon.png"
       }
     }
+  ],
+  "body-style": [
+    {
+      "name": {
+        "eng": "Pokémon consisting of only a head",
+        "jpn": "頭だけのポケモン",
+        "jpn_ro": "Kao dake no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/head-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon consisting of a head and legs",
+        "jpn": "頭と脚だけのポケモン",
+        "jpn_ro": "Kao to ashi dake no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/head-legs-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with fins",
+        "jpn": "ひれが付いたポケモン",
+        "jpn_ro": "Hira ga tsuita Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/fins-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with an insectoid body",
+        "jpn": "羽を持たない虫型のポケモン",
+        "jpn_ro": "Hane wo motanai mushikata no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/insectoid-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with a quadruped body",
+        "jpn": "4本脚のポケモン",
+        "jpn_ro": "Yonhon ashi no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/quadruped-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with two or more pairs of wings",
+        "jpn": "羽を持つ虫型のポケモン",
+        "jpn_ro": "Hane wo motsu mushikata no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/wings-multiple-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon consisting of multiple bodies",
+        "jpn": "複数の体を持つポケモン",
+        "jpn_ro": "Fukusuu no karada wo motsu Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/multiple-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with tentacles or a multiped body",
+        "jpn": "複数の脚を持つポケモン",
+        "jpn_ro": "Fukusuu no ashi wo motsu Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/tentacles-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon consisting of a head and a base",
+        "jpn": "頭と胴体だけのポケモン",
+        "jpn_ro": "Atama to doutai dake no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/head-base-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with a bipedal, tailed form",
+        "jpn": "尾を持つ2本脚のポケモン",
+        "jpn_ro": "O wo motsu nitai ashi no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/bipedal-tailed-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with a bipedal, tailless form",
+        "jpn": "尾を持たない2本脚のポケモン",
+        "jpn_ro": "O wo motanai nitai ashi no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/bipedal-tailless-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with a single pair of wings",
+        "jpn": "一対の翼を持つポケモン",
+        "jpn_ro": "Ittai no tsubasa wo motsu Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/wings-single-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon with serpentine bodies",
+        "jpn": "蛇型のポケモン",
+        "jpn_ro": "Hebikata no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/serpentine-gen6.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Pokémon consisting of a head and arms",
+        "jpn": "頭と腕だけのポケモン",
+        "jpn_ro": "Atama to ude dake no Pokémon"
+      },
+      "files": {
+        "gen-6": "body-style/head-arms-gen6.png"
+      }
+    }
   ]
 }

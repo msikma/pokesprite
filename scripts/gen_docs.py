@@ -399,7 +399,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons
-  buffer.append('<tr><th></th><td colspan="8" class="group">%s</td></tr>' % groups['ribbon']['name']['eng'])
+  buffer.append('<tr><th></th><td colspan="6" class="group">%s</td></tr>' % groups['ribbon']['name']['eng'])
   #buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Description/gen</th><th colspan="2">Filename/gen</th></tr>')
   buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Filename/gen</th></tr>')
 
@@ -426,6 +426,27 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       #buffer.append(f'<td class="long-text">{desc_eng}</td>')
       #buffer.append(f'<td>Gen {desc_gen}</td>')
       buffer.append(f'<td class="filler"><code>{v}</code></td>')
+      buffer.append(f'<td>Gen {gen_n}</td>')
+      buffer.append('</tr>')
+      sprites_counter += 1
+  
+  # Body styles
+  buffer.append('<tr><th></th><td colspan="6" class="group">%s</td></tr>' % groups['body-style']['name']['eng'])
+  buffer.append('<tr class="header"><th>#</th><th>Type</th><th>種類</th><th>Sprite</th><th colspan="4">Filename/gen</th></tr>')
+
+  for item in misc['body-style']:
+    count = get_counter()
+    name = item['name']
+    name_eng = name['eng']
+    name_jpn = name['jpn']
+    for k, v in item['files'].items():
+      gen_n = k.split('-')[1]
+      buffer.append('<tr class="variable-height">')
+      buffer.append(f'<td>{count}</td>')
+      buffer.append(f'<td>{name_eng}</td>')
+      buffer.append(f'<td>{name_jpn}</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
+      buffer.append(f'<td class="filler" colspan="2"><code>{v}</code></td>')
       buffer.append(f'<td>Gen {gen_n}</td>')
       buffer.append('</tr>')
       sprites_counter += 1
