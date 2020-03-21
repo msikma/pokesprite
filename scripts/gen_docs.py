@@ -336,9 +336,11 @@ def get_td_node(td):
   attr = ' class="image"' if str(td)[:4] == '<img' else ''
   return f'<td{attr}>{td}</td>'
 
-def get_img_node(url, name, form_name, type):
+def get_img_node(url, name, form_name, type, retina_type = None):
   form_name = html.escape(form_name)
-  return f'<img class="{type}" src="{url}" alt="{form_name}" />'
+  cls = [type, 'retina-' + retina_type if retina_type else '']
+  cls = ' '.join(cls).strip()
+  return f'<img class="{cls}" src="{url}" alt="{form_name}" />'
 
 def reset_counter():
   '''Resets the global sprite counter'''
@@ -386,6 +388,9 @@ def append_pkm_form(cols, base, slug_display, slug_file, form_name, form_alias, 
 
 def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for miscellaneous sprites'''
+  # Note: this table works slightly different than the rest.
+  # Instead of having one <tbody>, it has many of them,
+  # each one containing one item with potentially multiple sprites.
   reset_counter()
   groups = meta['misc-groups']
   base_url = REPO_BASE_URL
@@ -399,12 +404,14 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons
+  buffer.append('<tbody>')
   buffer.append('<tr><th></th><td colspan="6" class="group">%s</td></tr>' % groups['ribbon']['name']['eng'])
-  #buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Description/gen</th><th colspan="2">Filename/gen</th></tr>')
-  buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Filename/gen</th></tr>')
+  buffer.append('</tbody>')
+  buffer.append('<tbody>')
+  buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Origin</th><th>Sprite</th><th colspan="2">Filename/gen</th></tr>')
+  buffer.append('</tbody>')
 
   for item in misc['ribbon']:
-    count = get_counter()
     name = item['name']
     name_eng = name['eng']
     name_jpn = name['jpn']
@@ -415,43 +422,61 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     desc_gen = desc['from_gen']
     desc_eng_esc = html.escape(desc_eng)
     name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>'
-    for k, v in item['files'].items():
+    row_n = 0
+    files = item['files'].items()
+    buffer.append('<tbody class="alternating">')
+    for k, v in files:
+      count = get_counter()
       gen_n = k.split('-')[1]
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
-      buffer.append(f'<td>{name_eng_desc}</td>')
-      buffer.append(f'<td>{name_jpn}</td>')
-      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
-      buffer.append(f'<td>Gen {origin_gen}</td>')
-      #buffer.append(f'<td class="long-text">{desc_eng}</td>')
-      #buffer.append(f'<td>Gen {desc_gen}</td>')
+      if row_n == 0:
+        rows = len(files)
+        rowspan = f' rowspan="{rows}"' if rows > 1 else ''
+        buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
+        buffer.append(f'<td{rowspan}>{name_jpn}</td>')
+        buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if gen_n == '8' else None) + '</td>')
       buffer.append(f'<td class="filler"><code>{v}</code></td>')
       buffer.append(f'<td>Gen {gen_n}</td>')
       buffer.append('</tr>')
       sprites_counter += 1
+      row_n += 1
+    buffer.append('</tbody>')
   
   # Body styles
+  buffer.append('<tbody>')
   buffer.append('<tr><th></th><td colspan="6" class="group">%s</td></tr>' % groups['body-style']['name']['eng'])
-  buffer.append('<tr class="header"><th>#</th><th>Type</th><th>種類</th><th>Sprite</th><th colspan="4">Filename/gen</th></tr>')
+  buffer.append('</tbody>')
+  buffer.append('<tbody>')
+  buffer.append('<tr class="header"><th>#</th><th>Type</th><th colspan="2">種類</th><th>Sprite</th><th colspan="3">Filename/gen</th></tr>')
+  buffer.append('</tbody>')
 
   for item in misc['body-style']:
-    count = get_counter()
     name = item['name']
     name_eng = name['eng']
     name_jpn = name['jpn']
-    for k, v in item['files'].items():
+    row_n = 0
+    files = item['files'].items()
+    buffer.append('<tbody class="alternating">')
+    for k, v in files:
+      count = get_counter()
       gen_n = k.split('-')[1]
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
-      buffer.append(f'<td>{name_eng}</td>')
-      buffer.append(f'<td>{name_jpn}</td>')
+      if row_n == 0:
+        rows = len(files)
+        rowspan = f' rowspan="{rows}"' if rows > 1 else ''
+        buffer.append(f'<td{rowspan}>{name_eng}</td>')
+        buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
       buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
-      buffer.append(f'<td class="filler" colspan="2"><code>{v}</code></td>')
+      buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>Gen {gen_n}</td>')
       buffer.append('</tr>')
       sprites_counter += 1
+      row_n += 1
+    buffer.append('</tbody>')
   
-  buffer.append('</tbody>')
   buffer.append('<tfoot>')
   buffer.append('<tr>')
   buffer.append('''

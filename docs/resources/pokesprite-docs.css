@@ -32,6 +32,7 @@
 /* The rest */
 .markdown-body .pokesprite tr.header th {
   text-align: left;
+  background-color: var(--shade-2);
 }
 .markdown-body .pokesprite tr.header th,
 .markdown-body .pokesprite tr.header td {
@@ -52,7 +53,7 @@
 .markdown-body .pokesprite tbody tr:hover td {
   background: var(--shade-3);
 }
-.markdown-body .pokesprite tbody tr td[rowspan] {
+.markdown-body .pokesprite tbody:not(.alternating) tr td[rowspan] {
   background: var(--shade-0);
 }
 .markdown-body .pokesprite tbody tr td.group {
@@ -178,4 +179,9 @@
 }
 .markdown-body .pokesprite.gen8 tbody img.p {
   margin: -18px 0 -4px 0;
+}
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8 {
+  width: 32px;
+  height: 32px;
+  margin: 4px;
 }

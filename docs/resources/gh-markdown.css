@@ -425,7 +425,8 @@
   border-top: 1px solid var(--shade-5);
 }
 
-.markdown-body table tr:nth-child(2n) {
+.markdown-body table tbody:not(.alternating) tr:nth-child(2n),
+.markdown-body table tbody.alternating:nth-child(2n) tr {
   background-color: var(--shade-2);
 }
 
