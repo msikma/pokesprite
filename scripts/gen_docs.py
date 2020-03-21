@@ -413,11 +413,13 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     desc = item['description']
     desc_eng = desc['eng']
     desc_gen = desc['from_gen']
+    desc_eng_esc = html.escape(desc_eng)
+    name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>'
     for k, v in item['files'].items():
       gen_n = k.split('-')[1]
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
-      buffer.append(f'<td>{name_eng}</td>')
+      buffer.append(f'<td>{name_eng_desc}</td>')
       buffer.append(f'<td>{name_jpn}</td>')
       buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
       buffer.append(f'<td>Gen {origin_gen}</td>')
