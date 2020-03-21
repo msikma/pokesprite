@@ -16,6 +16,7 @@
 
 import json
 import subprocess
+import html
 from os import makedirs
 from os.path import abspath, dirname
 from pathlib import Path
@@ -85,12 +86,16 @@ def generate_index_page(version, commit):
   }, 'Index', version, commit, '.')
   return content
 
-def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_page, is_misc_page, version, commit, sprites_counter, new_sprites_only):
+def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_items_page, is_misc_page, version, commit, sprites_counter, new_sprites_only):
   '''Wraps a documentation page in a table node and adds styling'''
   gen_url = f'{REPO_BASE_URL}/{gen_dir}'
   json_url = f'{REPO_BASE_URL}/data/{json_file}'
   gen_link = f'<a href="{gen_url}"><code>{gen_dir}</code></a>'
   json_link = f'<a href="{json_url}"><code>data/{json_file}</code></a>'
+
+  if title is None and gen:
+    title = 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else '')
+  
   main_info = '''
     <p>This table lists all inventory item sprites. These items are from the last several games and is up-to-date as of Pokémon Sword/Shield. The sprites are from Gen 3 through 8.</p>
     <p>All sprites are 32×32 in size. There are sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites.</p>
@@ -124,7 +129,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
         %(main_info)s
         <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
       </div>
-      <table class="pokesprite gen%(gen)s">
+      <table class="pokesprite%(gen)s">
         %(table_content)s
       </table>
       <div class="text-section last">
@@ -135,7 +140,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
   ''' % {
     'table_content': table_content,
     'title_sprite': get_title_venusaur(),
-    'gen': gen,
+    'gen': ' gen%s' % gen if gen else '',
     'main_info': main_info,
     'curr_page': curr_page,
     'version': version,
@@ -143,7 +148,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, is_items_p
     'commit': commit,
     'project_url': PROJECT_URL,
     'sprites_counter': sprites_counter
-  }, 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else ''), version, commit, '..')
+  }, title, version, commit, '..')
 
 def get_menu_links(curr_page):
   menu = [
@@ -166,14 +171,15 @@ def wrap_in_html(content, title, version, commit, res_dir = '.'):
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>PokéSprite - %(title)s</title>
+    <title>PokéSprite%(title)s</title>
     <!--
     PokéSprite - Documentation page
     pokesprite-images v%(version)s %(commit)s
 
     (；ﾟ～ﾟ)ゝ”
     -->
-    <link rel="stylesheet" href="%(res_dir)s/resources/docs-style.css" />
+    <link rel="stylesheet" href="%(res_dir)s/resources/gh-markdown.css" />
+    <link rel="stylesheet" href="%(res_dir)s/resources/pokesprite-docs.css" />
   </head>
   <body>
     %(content)s
@@ -182,7 +188,7 @@ def wrap_in_html(content, title, version, commit, res_dir = '.'):
   '''.strip() % {
     'res_dir': res_dir,
     'content': content,
-    'title': title,
+    'title': ' - ' + title if title else '',
     'version': version,
     'commit': commit
   }
@@ -331,6 +337,7 @@ def get_td_node(td):
   return f'<td{attr}>{td}</td>'
 
 def get_img_node(url, name, form_name, type):
+  form_name = html.escape(form_name)
   return f'<img class="{type}" src="{url}" alt="{form_name}" />'
 
 def reset_counter():
@@ -432,7 +439,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   ''')
   buffer.append('</tr>')
   buffer.append('</tfoot>')
-  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, False, True, version, commit, sprites_counter, False)
+  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, 'Miscellaneous sprites', False, True, version, commit, sprites_counter, False)
 
 def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for inventory sprites'''
@@ -510,7 +517,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
   ''')
   buffer.append('</tr>')
   buffer.append('</tfoot>')
-  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, True, False, version, commit, sprites_counter, new_sprites_only)
+  return wrap_docs_page('\n'.join(buffer), None, None, curr_page, json_file, 'Inventory item sprites', True, False, version, commit, sprites_counter, new_sprites_only)
 
 def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female = True, add_right = False, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for Pokémon sprites'''
@@ -622,7 +629,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
   ''')
   buffer.append('</tr>')
   buffer.append('</tfoot>')
-  return wrap_docs_page('\n'.join(buffer), gen, gen_dir, curr_page, json_file, False, False, version, commit, sprites_counter, new_sprites_only)
+  return wrap_docs_page('\n'.join(buffer), gen, gen_dir, curr_page, json_file, None, False, False, version, commit, sprites_counter, new_sprites_only)
 
 def main():
   '''Generates several documentation files for the /docs directory'''
