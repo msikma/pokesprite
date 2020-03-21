@@ -180,8 +180,11 @@
 .markdown-body .pokesprite.gen8 tbody img.p {
   margin: -18px 0 -4px 0;
 }
-.markdown-body .pokesprite tbody img.retina-ribbon-gen8 {
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8,
+.markdown-body .pokesprite tbody img.retina-body-style-gen8 {
   width: 32px;
   height: 32px;
+}
+.markdown-body .pokesprite tbody img.retina-ribbon-gen8 {
   margin: 4px;
 }

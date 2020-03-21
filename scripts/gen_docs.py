@@ -469,7 +469,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm') + '</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>Gen {gen_n}</td>')
       buffer.append('</tr>')
