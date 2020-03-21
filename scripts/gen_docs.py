@@ -516,9 +516,9 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
     type = { 'name': name, 'id': None, 'linked': False, 'type': details['type'], 'dupe_id': details.get('of', {}).get('item_id') }
     of_file = details.get('of', {}).get('file')
     if details['type'] == 'duplicate' and of_file:
-      type['expl'] = f'Duplicate of <code>{of_file}</code>'
+      type['expl'] = f'Duplicate of "{of_file}"'
     if details['type'] == 'specific' and of_file:
-      type['expl'] = f'Subitem of <code>{of_file}</code>'
+      type['expl'] = f'Subitem of "{of_file}"'
     item_dict[group].append(type)
 
   for group, items in item_dict.items():
@@ -534,7 +534,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
       name = item['name']
       id = item['id']
       expl = item.get('expl', False)
-      imgs = ['<td class="image item">' + get_img_node(get_itm_url(base_url, dir, group, name), None, f'"{name}" (dir)', 'i') + '</td>' for dir in dirs]
+      imgs = ['<td class="image item">' + get_img_node(get_itm_url(base_url, dir, group, name), None, f'"{name}" ({dir})', 'i') + '</td>' for dir in dirs]
       filename = group + '/' + name + '.png'
       buffer.append('<tr>')
       buffer.append(f'<td>{count}</td>')
@@ -546,7 +546,8 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
       buffer.append(''.join(imgs))
       buffer.append(f'<td>{group}</td>')
       if expl:
-        buffer.append(f'<td class="item-id" colspan="2"><code>{filename}</code> ({expl})</td>')
+        expl_esc = html.escape(expl)
+        buffer.append(f'<td class="item-id" colspan="2"><attr title="{expl_esc}"><span><code>{filename}</code></span>†</attr></td>')
       else:
         buffer.append(f'<td colspan="2" class="item-id"><code>{filename}</code></td>')
       buffer.append('</tr>')
