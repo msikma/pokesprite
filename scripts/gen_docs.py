@@ -98,7 +98,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_
   
   main_info = '''
     <p>This table lists all inventory item sprites. These items are from the last several games and is up-to-date as of Pokémon Sword/Shield. The sprites are from Gen 3 through 8.</p>
-    <p>All sprites are 32×32 in size. There are sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites.</p>
+    <p>All sprites are 32×32 in size. There are two sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites, and both are listed below.</p>
   ''' if is_items_page else '''
     <p>This table lists all miscellaneous sprites—all that aren't Pokémon box sprites or inventory items.</p>
     <p>
