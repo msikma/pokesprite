@@ -1739,7 +1739,8 @@
         "jpn_ro": "Kao dake no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/head-gen6.png"
+        "gen-6": "body-style/head-gen6.png",
+        "gen-8": "body-style/head-gen8.png"
       }
     },
     {
@@ -1749,7 +1750,8 @@
         "jpn_ro": "Kao to ashi dake no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/head-legs-gen6.png"
+        "gen-6": "body-style/head-legs-gen6.png",
+        "gen-8": "body-style/head-legs-gen8.png"
       }
     },
     {
@@ -1759,7 +1761,8 @@
         "jpn_ro": "Hira ga tsuita Pokémon"
       },
       "files": {
-        "gen-6": "body-style/fins-gen6.png"
+        "gen-6": "body-style/fins-gen6.png",
+        "gen-8": "body-style/fins-gen8.png"
       }
     },
     {
@@ -1769,7 +1772,8 @@
         "jpn_ro": "Hane wo motanai mushikata no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/insectoid-gen6.png"
+        "gen-6": "body-style/insectoid-gen6.png",
+        "gen-8": "body-style/insectoid-gen8.png"
       }
     },
     {
@@ -1779,7 +1783,8 @@
         "jpn_ro": "Yonhon ashi no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/quadruped-gen6.png"
+        "gen-6": "body-style/quadruped-gen6.png",
+        "gen-8": "body-style/quadruped-gen8.png"
       }
     },
     {
@@ -1789,7 +1794,8 @@
         "jpn_ro": "Hane wo motsu mushikata no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/wings-multiple-gen6.png"
+        "gen-6": "body-style/wings-multiple-gen6.png",
+        "gen-8": "body-style/wings-multiple-gen8.png"
       }
     },
     {
@@ -1799,7 +1805,8 @@
         "jpn_ro": "Fukusuu no karada wo motsu Pokémon"
       },
       "files": {
-        "gen-6": "body-style/multiple-gen6.png"
+        "gen-6": "body-style/multiple-gen6.png",
+        "gen-8": "body-style/multiple-gen8.png"
       }
     },
     {
@@ -1809,7 +1816,8 @@
         "jpn_ro": "Fukusuu no ashi wo motsu Pokémon"
       },
       "files": {
-        "gen-6": "body-style/tentacles-gen6.png"
+        "gen-6": "body-style/tentacles-gen6.png",
+        "gen-8": "body-style/tentacles-gen8.png"
       }
     },
     {
@@ -1819,7 +1827,8 @@
         "jpn_ro": "Atama to doutai dake no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/head-base-gen6.png"
+        "gen-6": "body-style/head-base-gen6.png",
+        "gen-8": "body-style/head-base-gen8.png"
       }
     },
     {
@@ -1829,7 +1838,8 @@
         "jpn_ro": "O wo motsu nitai ashi no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/bipedal-tailed-gen6.png"
+        "gen-6": "body-style/bipedal-tailed-gen6.png",
+        "gen-8": "body-style/bipedal-tailed-gen8.png"
       }
     },
     {
@@ -1839,7 +1849,8 @@
         "jpn_ro": "O wo motanai nitai ashi no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/bipedal-tailless-gen6.png"
+        "gen-6": "body-style/bipedal-tailless-gen6.png",
+        "gen-8": "body-style/bipedal-tailless-gen8.png"
       }
     },
     {
@@ -1849,7 +1860,8 @@
         "jpn_ro": "Ittai no tsubasa wo motsu Pokémon"
       },
       "files": {
-        "gen-6": "body-style/wings-single-gen6.png"
+        "gen-6": "body-style/wings-single-gen6.png",
+        "gen-8": "body-style/wings-single-gen8.png"
       }
     },
     {
@@ -1859,7 +1871,8 @@
         "jpn_ro": "Hebikata no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/serpentine-gen6.png"
+        "gen-6": "body-style/serpentine-gen6.png",
+        "gen-8": "body-style/serpentine-gen8.png"
       }
     },
     {
@@ -1869,7 +1882,8 @@
         "jpn_ro": "Atama to ude dake no Pokémon"
       },
       "files": {
-        "gen-6": "body-style/head-arms-gen6.png"
+        "gen-6": "body-style/head-arms-gen6.png",
+        "gen-8": "body-style/head-arms-gen8.png"
       }
     }
   ]
