@@ -933,7 +933,7 @@
     {
       "name": {
         "eng": "Hoenn Champion Ribbon",
-        "jpn": "ホウエン チャンプリボン",
+        "jpn": "ホウエンチャンプリボン",
         "jpn_ro": "Hoenn Champ Ribbon"
       },
       "origin_gen": 6,
@@ -948,7 +948,7 @@
     {
       "name": {
         "eng": "Kalos Champion Ribbon",
-        "jpn": "カロス チャンプリボン",
+        "jpn": "カロスチャンプリボン",
         "jpn_ro": "Kalos Champ Ribbon"
       },
       "origin_gen": 6,
@@ -1172,8 +1172,8 @@
     },
     {
       "name": {
-        "eng": "Sinnoh Champ Ribbon",
-        "jpn": "シンオウ チャンプリボン",
+        "eng": "Sinnoh Champion Ribbon",
+        "jpn": "シンオウチャンプリボン",
         "jpn_ro": "Sinnoh Champ Ribbon"
       },
       "origin_gen": 4,
@@ -1182,7 +1182,7 @@
         "from_gen": 7
       },
       "files": {
-        "gen-4": "ribbon/sinnoh-champ-ribbon.png"
+        "gen-4": "ribbon/sinnoh-champion-ribbon.png"
       }
     },
     {
