@@ -20,8 +20,9 @@ This project contains both Pokémon box sprites and item sprites. For Pokémon, 
 | `/pokemon‑gen8` | ![/pokemon-gen8/ example](pokemon-gen8/shiny/venusaur.png) | 68×56 | Pokémon | [Gen 8 sprites](https://msikma.github.io/pokesprite/overview/dex-gen8.html) (plus older Gen 7 sprites where needed) |
 | `/items` | ![/items/ example](items/evo-item/thunder-stone.png) | 32×32 | Items | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) |
 | `/items‑outline` | ![/items-outline/ example](items-outline/evo-item/thunder-stone.png) | 32×32 | Items | [Gen 3–8 inventory items](https://msikma.github.io/pokesprite/overview/inventory.html) with *Sword/Shield* style outline |
+| `/misc` | ![/misc/ example](misc/body-style/wings-multiple-gen6.png) | Varies | Misc. | [Miscellaneous sprites](https://msikma.github.io/pokesprite/overview/misc.html) from multiple gens |
 
-The item sprites are separated by type in subdirectories (e.g. *"berry", "evo-item", "valuable-item",* etc).
+The item and miscellaneous sprites are separated by type in subdirectories (e.g. *"berry", "evo-item", "valuable-item", "ribbon",* etc).
 
 Previous generations of games (Gen 1–2 and Gen 3–4) had their own collections of sprites, but these are not included in this project. The original 40×30 Pokémon sprites from Gen 6–7 are kept for legacy purposes in the [`/icons`](icons/) directory.
 
@@ -108,7 +109,11 @@ Several files are available for processing the sprites for inventory items:
 * [`/data/item-unlinked.json`](data/item-unlinked.json) – all inventory sprites not linked to an item ID—these are mostly duplicates (e.g. the *Metal Coat* sprite is in both *"hold-item"* and *"evo-item"*, and so one goes unused) and legacy files
 * [`/data/item-legacy.json`](data/item-legacy.json) – a list of old item sprites from previous gen games
 
-See the [inventory overview page](https://msikma.github.io/pokesprite/) for a list of items.
+See the [inventory overview page](https://msikma.github.io/pokesprite/overview/inventory.html) for a list of items.
+
+### Miscellaneous sprites
+
+For all other sprites that are neither Pokémon nor inventory items, see [`/data/misc.json`](data/misc.json). Notably, the [ribbons](misc/ribbon) can be found there. Each group of miscellaneous sprites has its own unique data format. See the [miscellaneous overview page](https://msikma.github.io/pokesprite/overview/misc.html) for all included images.
 
 ## Sprite dimensions
 
