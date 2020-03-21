@@ -1,126 +1,206 @@
 {
   "item-groups": {
     "apricorn": {
-      "name": "Apricorns"
+      "name": {
+        "eng": "Apricorns"
+      }
     },
     "av-candy": {
-      "name": "AV candy"
+      "name": {
+        "eng": "AV candy"
+      }
     },
     "ball": {
-      "name": "Poké balls"
+      "name": {
+        "eng": "Poké balls"
+      }
     },
     "battle-item": {
-      "name": "Battle items"
+      "name": {
+        "eng": "Battle items"
+      }
     },
     "berry": {
-      "name": "Berries"
+      "name": {
+        "eng": "Berries"
+      }
     },
     "body-style": {
-      "name": "Body styles"
+      "name": {
+        "eng": "Body styles"
+      }
     },
     "curry-ingredient": {
-      "name": "Curry ingredients"
+      "name": {
+        "eng": "Curry ingredients"
+      }
     },
     "etc": {
-      "name": "Et cetera"
+      "name": {
+        "eng": "Et cetera"
+      }
     },
     "ev-item": {
-      "name": "EV-enhancing items"
+      "name": {
+        "eng": "EV-enhancing items"
+      }
     },
     "evo-item": {
-      "name": "Evolution items"
+      "name": {
+        "eng": "Evolution items"
+      }
     },
     "exp-candy": {
-      "name": "Experience candy"
+      "name": {
+        "eng": "Experience candy"
+      }
     },
     "flute": {
-      "name": "Flutes"
+      "name": {
+        "eng": "Flutes"
+      }
     },
     "fossil": {
-      "name": "Fossils"
+      "name": {
+        "eng": "Fossils"
+      }
     },
     "gem": {
-      "name": "Gems"
+      "name": {
+        "eng": "Gems"
+      }
     },
     "hm": {
-      "name": "HMs (Hidden Machines)"
+      "name": {
+        "eng": "HMs (Hidden Machines)"
+      }
     },
     "hold-item": {
-      "name": "Held items"
+      "name": {
+        "eng": "Held items"
+      }
     },
     "incense": {
-      "name": "Incense"
+      "name": {
+        "eng": "Incense"
+      }
     },
     "key-item": {
-      "name": "Key items"
+      "name": {
+        "eng": "Key items"
+      }
     },
     "mail": {
-      "name": "Mail"
+      "name": {
+        "eng": "Mail"
+      }
     },
     "medicine": {
-      "name": "Medicine"
+      "name": {
+        "eng": "Medicine"
+      }
     },
     "mega-stone": {
-      "name": "Mega Stones"
+      "name": {
+        "eng": "Mega Stones"
+      }
     },
     "memory": {
-      "name": "Memory"
+      "name": {
+        "eng": "Memory"
+      }
     },
     "mint": {
-      "name": "Mints"
+      "name": {
+        "eng": "Mints"
+      }
     },
     "mulch": {
-      "name": "Mulch"
+      "name": {
+        "eng": "Mulch"
+      }
     },
     "other-item": {
-      "name": "Other items"
+      "name": {
+        "eng": "Other items"
+      }
     },
     "partner-gift": {
-      "name": "Partner gifts"
+      "name": {
+        "eng": "Partner gifts"
+      }
     },
     "petal": {
-      "name": "Petals"
+      "name": {
+        "eng": "Petals"
+      }
     },
     "plate": {
-      "name": "Plates"
+      "name": {
+        "eng": "Plates"
+      }
     },
     "poke-candy": {
-      "name": "Poké candy"
+      "name": {
+        "eng": "Poké candy"
+      }
     },
     "roto": {
-      "name": "Rotom powers"
+      "name": {
+        "eng": "Rotom powers"
+      }
     },
     "scarf": {
-      "name": "Scarves"
+      "name": {
+        "eng": "Scarves"
+      }
     },
     "shard": {
-      "name": "Shards"
+      "name": {
+        "eng": "Shards"
+      }
     },
     "storage": {
-      "name": "Storage"
+      "name": {
+        "eng": "Storage"
+      }
     },
     "tm": {
-      "name": "TMs (Technical Machines)"
+      "name": {
+        "eng": "TMs (Technical Machines)"
+      }
     },
     "tr": {
-      "name": "TRs (Technical Records)"
+      "name": {
+        "eng": "TRs (Technical Records)"
+      }
     },
     "valuable-item": {
-      "name": "Valuable items"
+      "name": {
+        "eng": "Valuable items"
+      }
     },
     "wonder-launcher": {
-      "name": "Wonder Launcher items"
+      "name": {
+        "eng": "Wonder Launcher items"
+      }
     },
     "z-crystals": {
-      "name": "Z-crystals"
+      "name": {
+        "eng": "Z-crystals"
+      }
     }
   },
   "misc-groups": {
     "body-style": {
-      "name": "Body styles"
+      "name": {
+        "eng": "Body styles"
+      }
     },
     "ribbon": {
-      "name": "Ribbons"
+      "name": {
+        "eng": "Ribbons"
+      }
     }
   }
 }

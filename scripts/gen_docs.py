@@ -399,7 +399,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons
-  buffer.append('<tr><th></th><td colspan="8" class="group">%s</td></tr>' % groups['ribbon']['name'])
+  buffer.append('<tr><th></th><td colspan="8" class="group">%s</td></tr>' % groups['ribbon']['name']['eng'])
   #buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Description/gen</th><th colspan="2">Filename/gen</th></tr>')
   buffer.append('<tr class="header"><th>#</th><th>Name</th><th>名前</th><th>Sprite</th><th>Origin</th><th colspan="2">Filename/gen</th></tr>')
 
@@ -479,7 +479,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
   for group, items in item_dict.items():
     if not len(items): continue
     title = inv['item-groups'].get(group, None)
-    title = title['name'] if title else group.title()
+    title = title['name']['eng'] if title else group.title()
     buffer.append(f'<tr><td></td><td colspan="7" class="group">{title}</td></tr>')
     for item in items:
       count = get_counter()
