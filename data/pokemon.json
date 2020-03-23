@@ -3,6 +3,7 @@
     "idx": "001",
     "name": {
       "eng": "Bulbasaur",
+      "chs": "妙蛙种子",
       "jpn": "フシギダネ",
       "jpn_ro": "Fushigidane"
     },
@@ -31,6 +32,7 @@
     "idx": "002",
     "name": {
       "eng": "Ivysaur",
+      "chs": "妙蛙草",
       "jpn": "フシギソウ",
       "jpn_ro": "Fushigisou"
     },
@@ -59,6 +61,7 @@
     "idx": "003",
     "name": {
       "eng": "Venusaur",
+      "chs": "妙蛙花",
       "jpn": "フシギバナ",
       "jpn_ro": "Fushigibana"
     },
@@ -94,6 +97,7 @@
     "idx": "004",
     "name": {
       "eng": "Charmander",
+      "chs": "小火龙",
       "jpn": "ヒトカゲ",
       "jpn_ro": "Hitokage"
     },
@@ -122,6 +126,7 @@
     "idx": "005",
     "name": {
       "eng": "Charmeleon",
+      "chs": "火恐龙",
       "jpn": "リザード",
       "jpn_ro": "Lizardo"
     },
@@ -150,6 +155,7 @@
     "idx": "006",
     "name": {
       "eng": "Charizard",
+      "chs": "喷火龙",
       "jpn": "リザードン",
       "jpn_ro": "Lizardon"
     },
@@ -195,6 +201,7 @@
     "idx": "007",
     "name": {
       "eng": "Squirtle",
+      "chs": "杰尼龟",
       "jpn": "ゼニガメ",
       "jpn_ro": "Zenigame"
     },
@@ -223,6 +230,7 @@
     "idx": "008",
     "name": {
       "eng": "Wartortle",
+      "chs": "卡咪龟",
       "jpn": "カメール",
       "jpn_ro": "Kameil"
     },
@@ -251,6 +259,7 @@
     "idx": "009",
     "name": {
       "eng": "Blastoise",
+      "chs": "水箭龟",
       "jpn": "カメックス",
       "jpn_ro": "Kamex"
     },
@@ -286,6 +295,7 @@
     "idx": "010",
     "name": {
       "eng": "Caterpie",
+      "chs": "绿毛虫",
       "jpn": "キャタピー",
       "jpn_ro": "Caterpie"
     },
@@ -314,6 +324,7 @@
     "idx": "011",
     "name": {
       "eng": "Metapod",
+      "chs": "铁甲蛹",
       "jpn": "トランセル",
       "jpn_ro": "Transel"
     },
@@ -342,6 +353,7 @@
     "idx": "012",
     "name": {
       "eng": "Butterfree",
+      "chs": "巴大蝶",
       "jpn": "バタフリー",
       "jpn_ro": "Butterfree"
     },
@@ -373,6 +385,7 @@
     "idx": "013",
     "name": {
       "eng": "Weedle",
+      "chs": "独角虫",
       "jpn": "ビードル",
       "jpn_ro": "Beedle"
     },
@@ -401,6 +414,7 @@
     "idx": "014",
     "name": {
       "eng": "Kakuna",
+      "chs": "铁壳蛹",
       "jpn": "コクーン",
       "jpn_ro": "Cocoon"
     },
@@ -429,6 +443,7 @@
     "idx": "015",
     "name": {
       "eng": "Beedrill",
+      "chs": "大针蜂",
       "jpn": "スピアー",
       "jpn_ro": "Spear"
     },
@@ -464,6 +479,7 @@
     "idx": "016",
     "name": {
       "eng": "Pidgey",
+      "chs": "波波",
       "jpn": "ポッポ",
       "jpn_ro": "Poppo"
     },
@@ -492,6 +508,7 @@
     "idx": "017",
     "name": {
       "eng": "Pidgeotto",
+      "chs": "比比鸟",
       "jpn": "ピジョン",
       "jpn_ro": "Pigeon"
     },
@@ -520,6 +537,7 @@
     "idx": "018",
     "name": {
       "eng": "Pidgeot",
+      "chs": "大比鸟",
       "jpn": "ピジョット",
       "jpn_ro": "Pigeot"
     },
@@ -555,6 +573,7 @@
     "idx": "019",
     "name": {
       "eng": "Rattata",
+      "chs": "小拉达",
       "jpn": "コラッタ",
       "jpn_ro": "Koratta"
     },
@@ -590,6 +609,7 @@
     "idx": "020",
     "name": {
       "eng": "Raticate",
+      "chs": "拉达",
       "jpn": "ラッタ",
       "jpn_ro": "Ratta"
     },
@@ -643,6 +663,7 @@
     "idx": "021",
     "name": {
       "eng": "Spearow",
+      "chs": "烈雀",
       "jpn": "オニスズメ",
       "jpn_ro": "Onisuzume"
     },
@@ -671,6 +692,7 @@
     "idx": "022",
     "name": {
       "eng": "Fearow",
+      "chs": "大嘴雀",
       "jpn": "オニドリル",
       "jpn_ro": "Onidrill"
     },
@@ -699,6 +721,7 @@
     "idx": "023",
     "name": {
       "eng": "Ekans",
+      "chs": "阿柏蛇",
       "jpn": "アーボ",
       "jpn_ro": "Arbo"
     },
@@ -727,6 +750,7 @@
     "idx": "024",
     "name": {
       "eng": "Arbok",
+      "chs": "阿柏怪",
       "jpn": "アーボック",
       "jpn_ro": "Arbok"
     },
@@ -755,6 +779,7 @@
     "idx": "025",
     "name": {
       "eng": "Pikachu",
+      "chs": "皮卡丘",
       "jpn": "ピカチュウ",
       "jpn_ro": "Pikachu"
     },
@@ -884,6 +909,7 @@
     "idx": "026",
     "name": {
       "eng": "Raichu",
+      "chs": "雷丘",
       "jpn": "ライチュウ",
       "jpn_ro": "Raichu"
     },
@@ -919,6 +945,7 @@
     "idx": "027",
     "name": {
       "eng": "Sandshrew",
+      "chs": "穿山鼠",
       "jpn": "サンド",
       "jpn_ro": "Sand"
     },
@@ -954,6 +981,7 @@
     "idx": "028",
     "name": {
       "eng": "Sandslash",
+      "chs": "穿山王",
       "jpn": "サンドパン",
       "jpn_ro": "Sandpan"
     },
@@ -989,6 +1017,7 @@
     "idx": "029",
     "name": {
       "eng": "Nidoran♀",
+      "chs": "尼多兰",
       "jpn": "ニドラン♀",
       "jpn_ro": "Nidoran♀"
     },
@@ -1017,6 +1046,7 @@
     "idx": "030",
     "name": {
       "eng": "Nidorina",
+      "chs": "尼多娜",
       "jpn": "ニドリーナ",
       "jpn_ro": "Nidorina"
     },
@@ -1045,6 +1075,7 @@
     "idx": "031",
     "name": {
       "eng": "Nidoqueen",
+      "chs": "尼多后",
       "jpn": "ニドクイン",
       "jpn_ro": "Nidoqueen"
     },
@@ -1073,6 +1104,7 @@
     "idx": "032",
     "name": {
       "eng": "Nidoran♂",
+      "chs": "尼多朗",
       "jpn": "ニドラン♂",
       "jpn_ro": "Nidoran♂"
     },
@@ -1101,6 +1133,7 @@
     "idx": "033",
     "name": {
       "eng": "Nidorino",
+      "chs": "尼多力诺",
       "jpn": "ニドリーノ",
       "jpn_ro": "Nidorino"
     },
@@ -1129,6 +1162,7 @@
     "idx": "034",
     "name": {
       "eng": "Nidoking",
+      "chs": "尼多王",
       "jpn": "ニドキング",
       "jpn_ro": "Nidoking"
     },
@@ -1157,6 +1191,7 @@
     "idx": "035",
     "name": {
       "eng": "Clefairy",
+      "chs": "皮皮",
       "jpn": "ピッピ",
       "jpn_ro": "Pippi"
     },
@@ -1185,6 +1220,7 @@
     "idx": "036",
     "name": {
       "eng": "Clefable",
+      "chs": "皮可西",
       "jpn": "ピクシー",
       "jpn_ro": "Pixy"
     },
@@ -1213,6 +1249,7 @@
     "idx": "037",
     "name": {
       "eng": "Vulpix",
+      "chs": "六尾",
       "jpn": "ロコン",
       "jpn_ro": "Rokon"
     },
@@ -1248,6 +1285,7 @@
     "idx": "038",
     "name": {
       "eng": "Ninetales",
+      "chs": "九尾",
       "jpn": "キュウコン",
       "jpn_ro": "Kyukon"
     },
@@ -1283,6 +1321,7 @@
     "idx": "039",
     "name": {
       "eng": "Jigglypuff",
+      "chs": "胖丁",
       "jpn": "プリン",
       "jpn_ro": "Purin"
     },
@@ -1311,6 +1350,7 @@
     "idx": "040",
     "name": {
       "eng": "Wigglytuff",
+      "chs": "胖可丁",
       "jpn": "プクリン",
       "jpn_ro": "Pukurin"
     },
@@ -1339,6 +1379,7 @@
     "idx": "041",
     "name": {
       "eng": "Zubat",
+      "chs": "超音蝠",
       "jpn": "ズバット",
       "jpn_ro": "Zubat"
     },
@@ -1367,6 +1408,7 @@
     "idx": "042",
     "name": {
       "eng": "Golbat",
+      "chs": "大嘴蝠",
       "jpn": "ゴルバット",
       "jpn_ro": "Golbat"
     },
@@ -1395,6 +1437,7 @@
     "idx": "043",
     "name": {
       "eng": "Oddish",
+      "chs": "走路草",
       "jpn": "ナゾノクサ",
       "jpn_ro": "Nazonokusa"
     },
@@ -1423,6 +1466,7 @@
     "idx": "044",
     "name": {
       "eng": "Gloom",
+      "chs": "臭臭花",
       "jpn": "クサイハナ",
       "jpn_ro": "Kusaihana"
     },
@@ -1451,6 +1495,7 @@
     "idx": "045",
     "name": {
       "eng": "Vileplume",
+      "chs": "霸王花",
       "jpn": "ラフレシア",
       "jpn_ro": "Ruffresia"
     },
@@ -1479,6 +1524,7 @@
     "idx": "046",
     "name": {
       "eng": "Paras",
+      "chs": "派拉斯",
       "jpn": "パラス",
       "jpn_ro": "Paras"
     },
@@ -1507,6 +1553,7 @@
     "idx": "047",
     "name": {
       "eng": "Parasect",
+      "chs": "派拉斯特",
       "jpn": "パラセクト",
       "jpn_ro": "Parasect"
     },
@@ -1535,6 +1582,7 @@
     "idx": "048",
     "name": {
       "eng": "Venonat",
+      "chs": "毛球",
       "jpn": "コンパン",
       "jpn_ro": "Kongpang"
     },
@@ -1563,6 +1611,7 @@
     "idx": "049",
     "name": {
       "eng": "Venomoth",
+      "chs": "摩鲁蛾",
       "jpn": "モルフォン",
       "jpn_ro": "Morphon"
     },
@@ -1591,6 +1640,7 @@
     "idx": "050",
     "name": {
       "eng": "Diglett",
+      "chs": "地鼠",
       "jpn": "ディグダ",
       "jpn_ro": "Digda"
     },
@@ -1626,6 +1676,7 @@
     "idx": "051",
     "name": {
       "eng": "Dugtrio",
+      "chs": "三地鼠",
       "jpn": "ダグトリオ",
       "jpn_ro": "Dugtrio"
     },
@@ -1661,6 +1712,7 @@
     "idx": "052",
     "name": {
       "eng": "Meowth",
+      "chs": "喵喵",
       "jpn": "ニャース",
       "jpn_ro": "Nyarth"
     },
@@ -1702,6 +1754,7 @@
     "idx": "053",
     "name": {
       "eng": "Persian",
+      "chs": "猫老大",
       "jpn": "ペルシアン",
       "jpn_ro": "Persian"
     },
@@ -1737,6 +1790,7 @@
     "idx": "054",
     "name": {
       "eng": "Psyduck",
+      "chs": "可达鸭",
       "jpn": "コダック",
       "jpn_ro": "Koduck"
     },
@@ -1765,6 +1819,7 @@
     "idx": "055",
     "name": {
       "eng": "Golduck",
+      "chs": "哥达鸭",
       "jpn": "ゴルダック",
       "jpn_ro": "Golduck"
     },
@@ -1793,6 +1848,7 @@
     "idx": "056",
     "name": {
       "eng": "Mankey",
+      "chs": "猴怪",
       "jpn": "マンキー",
       "jpn_ro": "Mankey"
     },
@@ -1821,6 +1877,7 @@
     "idx": "057",
     "name": {
       "eng": "Primeape",
+      "chs": "火暴猴",
       "jpn": "オコリザル",
       "jpn_ro": "Okorizaru"
     },
@@ -1849,6 +1906,7 @@
     "idx": "058",
     "name": {
       "eng": "Growlithe",
+      "chs": "卡蒂狗",
       "jpn": "ガーディ",
       "jpn_ro": "Gardie"
     },
@@ -1877,6 +1935,7 @@
     "idx": "059",
     "name": {
       "eng": "Arcanine",
+      "chs": "风速狗",
       "jpn": "ウインディ",
       "jpn_ro": "Windie"
     },
@@ -1905,6 +1964,7 @@
     "idx": "060",
     "name": {
       "eng": "Poliwag",
+      "chs": "蚊香蝌蚪",
       "jpn": "ニョロモ",
       "jpn_ro": "Nyoromo"
     },
@@ -1933,6 +1993,7 @@
     "idx": "061",
     "name": {
       "eng": "Poliwhirl",
+      "chs": "蚊香君",
       "jpn": "ニョロゾ",
       "jpn_ro": "Nyorozo"
     },
@@ -1961,6 +2022,7 @@
     "idx": "062",
     "name": {
       "eng": "Poliwrath",
+      "chs": "蚊香泳士",
       "jpn": "ニョロボン",
       "jpn_ro": "Nyorobon"
     },
@@ -1989,6 +2051,7 @@
     "idx": "063",
     "name": {
       "eng": "Abra",
+      "chs": "凯西",
       "jpn": "ケーシィ",
       "jpn_ro": "Casey"
     },
@@ -2017,6 +2080,7 @@
     "idx": "064",
     "name": {
       "eng": "Kadabra",
+      "chs": "勇基拉",
       "jpn": "ユンゲラー",
       "jpn_ro": "Yungerer"
     },
@@ -2045,6 +2109,7 @@
     "idx": "065",
     "name": {
       "eng": "Alakazam",
+      "chs": "胡地",
       "jpn": "フーディン",
       "jpn_ro": "Foodin"
     },
@@ -2080,6 +2145,7 @@
     "idx": "066",
     "name": {
       "eng": "Machop",
+      "chs": "腕力",
       "jpn": "ワンリキー",
       "jpn_ro": "Wanriky"
     },
@@ -2108,6 +2174,7 @@
     "idx": "067",
     "name": {
       "eng": "Machoke",
+      "chs": "豪力",
       "jpn": "ゴーリキー",
       "jpn_ro": "Goriky"
     },
@@ -2136,6 +2203,7 @@
     "idx": "068",
     "name": {
       "eng": "Machamp",
+      "chs": "怪力",
       "jpn": "カイリキー",
       "jpn_ro": "Kairiky"
     },
@@ -2167,6 +2235,7 @@
     "idx": "069",
     "name": {
       "eng": "Bellsprout",
+      "chs": "喇叭芽",
       "jpn": "マダツボミ",
       "jpn_ro": "Madatsubomi"
     },
@@ -2195,6 +2264,7 @@
     "idx": "070",
     "name": {
       "eng": "Weepinbell",
+      "chs": "口呆花",
       "jpn": "ウツドン",
       "jpn_ro": "Utsudon"
     },
@@ -2223,6 +2293,7 @@
     "idx": "071",
     "name": {
       "eng": "Victreebel",
+      "chs": "大食花",
       "jpn": "ウツボット",
       "jpn_ro": "Utsubot"
     },
@@ -2251,6 +2322,7 @@
     "idx": "072",
     "name": {
       "eng": "Tentacool",
+      "chs": "玛瑙水母",
       "jpn": "メノクラゲ",
       "jpn_ro": "Menokurage"
     },
@@ -2279,6 +2351,7 @@
     "idx": "073",
     "name": {
       "eng": "Tentacruel",
+      "chs": "毒刺水母",
       "jpn": "ドククラゲ",
       "jpn_ro": "Dokukurage"
     },
@@ -2307,6 +2380,7 @@
     "idx": "074",
     "name": {
       "eng": "Geodude",
+      "chs": "小拳石",
       "jpn": "イシツブテ",
       "jpn_ro": "Ishitsubute"
     },
@@ -2342,6 +2416,7 @@
     "idx": "075",
     "name": {
       "eng": "Graveler",
+      "chs": "隆隆石",
       "jpn": "ゴローン",
       "jpn_ro": "Golone"
     },
@@ -2377,6 +2452,7 @@
     "idx": "076",
     "name": {
       "eng": "Golem",
+      "chs": "隆隆岩",
       "jpn": "ゴローニャ",
       "jpn_ro": "Golonya"
     },
@@ -2412,6 +2488,7 @@
     "idx": "077",
     "name": {
       "eng": "Ponyta",
+      "chs": "小火马",
       "jpn": "ポニータ",
       "jpn_ro": "Ponyta"
     },
@@ -2443,6 +2520,7 @@
     "idx": "078",
     "name": {
       "eng": "Rapidash",
+      "chs": "烈焰马",
       "jpn": "ギャロップ",
       "jpn_ro": "Gallop"
     },
@@ -2474,6 +2552,7 @@
     "idx": "079",
     "name": {
       "eng": "Slowpoke",
+      "chs": "呆呆兽",
       "jpn": "ヤドン",
       "jpn_ro": "Yadon"
     },
@@ -2509,6 +2588,7 @@
     "idx": "080",
     "name": {
       "eng": "Slowbro",
+      "chs": "呆壳兽",
       "jpn": "ヤドラン",
       "jpn_ro": "Yadoran"
     },
@@ -2544,6 +2624,7 @@
     "idx": "081",
     "name": {
       "eng": "Magnemite",
+      "chs": "小磁怪",
       "jpn": "コイル",
       "jpn_ro": "Coil"
     },
@@ -2572,6 +2653,7 @@
     "idx": "082",
     "name": {
       "eng": "Magneton",
+      "chs": "三合一磁怪",
       "jpn": "レアコイル",
       "jpn_ro": "Rarecoil"
     },
@@ -2600,6 +2682,7 @@
     "idx": "083",
     "name": {
       "eng": "Farfetch'd",
+      "chs": "大葱鸭",
       "jpn": "カモネギ",
       "jpn_ro": "Kamonegi"
     },
@@ -2631,6 +2714,7 @@
     "idx": "084",
     "name": {
       "eng": "Doduo",
+      "chs": "嘟嘟",
       "jpn": "ドードー",
       "jpn_ro": "Dodo"
     },
@@ -2659,6 +2743,7 @@
     "idx": "085",
     "name": {
       "eng": "Dodrio",
+      "chs": "嘟嘟利",
       "jpn": "ドードリオ",
       "jpn_ro": "Dodrio"
     },
@@ -2687,6 +2772,7 @@
     "idx": "086",
     "name": {
       "eng": "Seel",
+      "chs": "小海狮",
       "jpn": "パウワウ",
       "jpn_ro": "Pawou"
     },
@@ -2715,6 +2801,7 @@
     "idx": "087",
     "name": {
       "eng": "Dewgong",
+      "chs": "白海狮",
       "jpn": "ジュゴン",
       "jpn_ro": "Jugon"
     },
@@ -2743,6 +2830,7 @@
     "idx": "088",
     "name": {
       "eng": "Grimer",
+      "chs": "臭泥",
       "jpn": "ベトベター",
       "jpn_ro": "Betbeter"
     },
@@ -2778,6 +2866,7 @@
     "idx": "089",
     "name": {
       "eng": "Muk",
+      "chs": "臭臭泥",
       "jpn": "ベトベトン",
       "jpn_ro": "Betbeton"
     },
@@ -2813,6 +2902,7 @@
     "idx": "090",
     "name": {
       "eng": "Shellder",
+      "chs": "大舌贝",
       "jpn": "シェルダー",
       "jpn_ro": "Shellder"
     },
@@ -2841,6 +2931,7 @@
     "idx": "091",
     "name": {
       "eng": "Cloyster",
+      "chs": "刺甲贝",
       "jpn": "パルシェン",
       "jpn_ro": "Parshen"
     },
@@ -2869,6 +2960,7 @@
     "idx": "092",
     "name": {
       "eng": "Gastly",
+      "chs": "鬼斯",
       "jpn": "ゴース",
       "jpn_ro": "Ghos"
     },
@@ -2897,6 +2989,7 @@
     "idx": "093",
     "name": {
       "eng": "Haunter",
+      "chs": "鬼斯通",
       "jpn": "ゴースト",
       "jpn_ro": "Ghost"
     },
@@ -2925,6 +3018,7 @@
     "idx": "094",
     "name": {
       "eng": "Gengar",
+      "chs": "耿鬼",
       "jpn": "ゲンガー",
       "jpn_ro": "Gangar"
     },
@@ -2963,6 +3057,7 @@
     "idx": "095",
     "name": {
       "eng": "Onix",
+      "chs": "大岩蛇",
       "jpn": "イワーク",
       "jpn_ro": "Iwark"
     },
@@ -2991,6 +3086,7 @@
     "idx": "096",
     "name": {
       "eng": "Drowzee",
+      "chs": "催眠貘",
       "jpn": "スリープ",
       "jpn_ro": "Sleep"
     },
@@ -3019,6 +3115,7 @@
     "idx": "097",
     "name": {
       "eng": "Hypno",
+      "chs": "引梦貘人",
       "jpn": "スリーパー",
       "jpn_ro": "Sleeper"
     },
@@ -3047,6 +3144,7 @@
     "idx": "098",
     "name": {
       "eng": "Krabby",
+      "chs": "大钳蟹",
       "jpn": "クラブ",
       "jpn_ro": "Crab"
     },
@@ -3075,6 +3173,7 @@
     "idx": "099",
     "name": {
       "eng": "Kingler",
+      "chs": "巨钳蟹",
       "jpn": "キングラー",
       "jpn_ro": "Kingler"
     },
@@ -3106,6 +3205,7 @@
     "idx": "100",
     "name": {
       "eng": "Voltorb",
+      "chs": "霹雳电球",
       "jpn": "ビリリダマ",
       "jpn_ro": "Biriridama"
     },
@@ -3134,6 +3234,7 @@
     "idx": "101",
     "name": {
       "eng": "Electrode",
+      "chs": "顽皮雷弹",
       "jpn": "マルマイン",
       "jpn_ro": "Marumine"
     },
@@ -3162,6 +3263,7 @@
     "idx": "102",
     "name": {
       "eng": "Exeggcute",
+      "chs": "蛋蛋",
       "jpn": "タマタマ",
       "jpn_ro": "Tamatama"
     },
@@ -3190,6 +3292,7 @@
     "idx": "103",
     "name": {
       "eng": "Exeggutor",
+      "chs": "椰蛋树",
       "jpn": "ナッシー",
       "jpn_ro": "Nassy"
     },
@@ -3225,6 +3328,7 @@
     "idx": "104",
     "name": {
       "eng": "Cubone",
+      "chs": "卡拉卡拉",
       "jpn": "カラカラ",
       "jpn_ro": "Karakara"
     },
@@ -3253,6 +3357,7 @@
     "idx": "105",
     "name": {
       "eng": "Marowak",
+      "chs": "嘎啦嘎啦",
       "jpn": "ガラガラ",
       "jpn_ro": "Garagara"
     },
@@ -3306,6 +3411,7 @@
     "idx": "106",
     "name": {
       "eng": "Hitmonlee",
+      "chs": "飞腿郎",
       "jpn": "サワムラー",
       "jpn_ro": "Sawamular"
     },
@@ -3334,6 +3440,7 @@
     "idx": "107",
     "name": {
       "eng": "Hitmonchan",
+      "chs": "快拳郎",
       "jpn": "エビワラー",
       "jpn_ro": "Ebiwalar"
     },
@@ -3362,6 +3469,7 @@
     "idx": "108",
     "name": {
       "eng": "Lickitung",
+      "chs": "大舌头",
       "jpn": "ベロリンガ",
       "jpn_ro": "Beroringa"
     },
@@ -3390,6 +3498,7 @@
     "idx": "109",
     "name": {
       "eng": "Koffing",
+      "chs": "瓦斯弹",
       "jpn": "ドガース",
       "jpn_ro": "Dogars"
     },
@@ -3418,6 +3527,7 @@
     "idx": "110",
     "name": {
       "eng": "Weezing",
+      "chs": "双弹瓦斯",
       "jpn": "マタドガス",
       "jpn_ro": "Matadogas"
     },
@@ -3449,6 +3559,7 @@
     "idx": "111",
     "name": {
       "eng": "Rhyhorn",
+      "chs": "独角犀牛",
       "jpn": "サイホーン",
       "jpn_ro": "Sihorn"
     },
@@ -3477,6 +3588,7 @@
     "idx": "112",
     "name": {
       "eng": "Rhydon",
+      "chs": "钻角犀兽",
       "jpn": "サイドン",
       "jpn_ro": "Sidon"
     },
@@ -3505,6 +3617,7 @@
     "idx": "113",
     "name": {
       "eng": "Chansey",
+      "chs": "吉利蛋",
       "jpn": "ラッキー",
       "jpn_ro": "Lucky"
     },
@@ -3533,6 +3646,7 @@
     "idx": "114",
     "name": {
       "eng": "Tangela",
+      "chs": "蔓藤怪",
       "jpn": "モンジャラ",
       "jpn_ro": "Monjara"
     },
@@ -3561,6 +3675,7 @@
     "idx": "115",
     "name": {
       "eng": "Kangaskhan",
+      "chs": "袋兽",
       "jpn": "ガルーラ",
       "jpn_ro": "Garura"
     },
@@ -3596,6 +3711,7 @@
     "idx": "116",
     "name": {
       "eng": "Horsea",
+      "chs": "墨海马",
       "jpn": "タッツー",
       "jpn_ro": "Tattu"
     },
@@ -3624,6 +3740,7 @@
     "idx": "117",
     "name": {
       "eng": "Seadra",
+      "chs": "海刺龙",
       "jpn": "シードラ",
       "jpn_ro": "Seadra"
     },
@@ -3652,6 +3769,7 @@
     "idx": "118",
     "name": {
       "eng": "Goldeen",
+      "chs": "角金鱼",
       "jpn": "トサキント",
       "jpn_ro": "Tosakinto"
     },
@@ -3680,6 +3798,7 @@
     "idx": "119",
     "name": {
       "eng": "Seaking",
+      "chs": "金鱼王",
       "jpn": "アズマオウ",
       "jpn_ro": "Azumao"
     },
@@ -3708,6 +3827,7 @@
     "idx": "120",
     "name": {
       "eng": "Staryu",
+      "chs": "海星星",
       "jpn": "ヒトデマン",
       "jpn_ro": "Hitodeman"
     },
@@ -3736,6 +3856,7 @@
     "idx": "121",
     "name": {
       "eng": "Starmie",
+      "chs": "宝石海星",
       "jpn": "スターミー",
       "jpn_ro": "Starmie"
     },
@@ -3764,6 +3885,7 @@
     "idx": "122",
     "name": {
       "eng": "Mr. Mime",
+      "chs": "魔墙人偶",
       "jpn": "バリヤード",
       "jpn_ro": "Barrierd"
     },
@@ -3795,6 +3917,7 @@
     "idx": "123",
     "name": {
       "eng": "Scyther",
+      "chs": "飞天螳螂",
       "jpn": "ストライク",
       "jpn_ro": "Strike"
     },
@@ -3823,6 +3946,7 @@
     "idx": "124",
     "name": {
       "eng": "Jynx",
+      "chs": "迷唇姐",
       "jpn": "ルージュラ",
       "jpn_ro": "Rougela"
     },
@@ -3851,6 +3975,7 @@
     "idx": "125",
     "name": {
       "eng": "Electabuzz",
+      "chs": "电击兽",
       "jpn": "エレブー",
       "jpn_ro": "Eleboo"
     },
@@ -3879,6 +4004,7 @@
     "idx": "126",
     "name": {
       "eng": "Magmar",
+      "chs": "鸭嘴火兽",
       "jpn": "ブーバー",
       "jpn_ro": "Boober"
     },
@@ -3907,6 +4033,7 @@
     "idx": "127",
     "name": {
       "eng": "Pinsir",
+      "chs": "凯罗斯",
       "jpn": "カイロス",
       "jpn_ro": "Kailios"
     },
@@ -3942,6 +4069,7 @@
     "idx": "128",
     "name": {
       "eng": "Tauros",
+      "chs": "肯泰罗",
       "jpn": "ケンタロス",
       "jpn_ro": "Kentauros"
     },
@@ -3970,6 +4098,7 @@
     "idx": "129",
     "name": {
       "eng": "Magikarp",
+      "chs": "鲤鱼王",
       "jpn": "コイキング",
       "jpn_ro": "Koiking"
     },
@@ -3998,6 +4127,7 @@
     "idx": "130",
     "name": {
       "eng": "Gyarados",
+      "chs": "暴鲤龙",
       "jpn": "ギャラドス",
       "jpn_ro": "Gyarados"
     },
@@ -4033,6 +4163,7 @@
     "idx": "131",
     "name": {
       "eng": "Lapras",
+      "chs": "拉普拉斯",
       "jpn": "ラプラス",
       "jpn_ro": "Laplace"
     },
@@ -4064,6 +4195,7 @@
     "idx": "132",
     "name": {
       "eng": "Ditto",
+      "chs": "百变怪",
       "jpn": "メタモン",
       "jpn_ro": "Metamon"
     },
@@ -4092,6 +4224,7 @@
     "idx": "133",
     "name": {
       "eng": "Eevee",
+      "chs": "伊布",
       "jpn": "イーブイ",
       "jpn_ro": "Eievui"
     },
@@ -4130,6 +4263,7 @@
     "idx": "134",
     "name": {
       "eng": "Vaporeon",
+      "chs": "水伊布",
       "jpn": "シャワーズ",
       "jpn_ro": "Showers"
     },
@@ -4158,6 +4292,7 @@
     "idx": "135",
     "name": {
       "eng": "Jolteon",
+      "chs": "雷伊布",
       "jpn": "サンダース",
       "jpn_ro": "Thunders"
     },
@@ -4186,6 +4321,7 @@
     "idx": "136",
     "name": {
       "eng": "Flareon",
+      "chs": "火伊布",
       "jpn": "ブースター",
       "jpn_ro": "Booster"
     },
@@ -4214,6 +4350,7 @@
     "idx": "137",
     "name": {
       "eng": "Porygon",
+      "chs": "多边兽",
       "jpn": "ポリゴン",
       "jpn_ro": "Porygon/Polygon"
     },
@@ -4242,6 +4379,7 @@
     "idx": "138",
     "name": {
       "eng": "Omanyte",
+      "chs": "菊石兽",
       "jpn": "オムナイト",
       "jpn_ro": "Omnite"
     },
@@ -4270,6 +4408,7 @@
     "idx": "139",
     "name": {
       "eng": "Omastar",
+      "chs": "多刺菊石兽",
       "jpn": "オムスター",
       "jpn_ro": "Omstar"
     },
@@ -4298,6 +4437,7 @@
     "idx": "140",
     "name": {
       "eng": "Kabuto",
+      "chs": "化石盔",
       "jpn": "カブト",
       "jpn_ro": "Kabuto"
     },
@@ -4326,6 +4466,7 @@
     "idx": "141",
     "name": {
       "eng": "Kabutops",
+      "chs": "镰刀盔",
       "jpn": "カブトプス",
       "jpn_ro": "Kabutops"
     },
@@ -4354,6 +4495,7 @@
     "idx": "142",
     "name": {
       "eng": "Aerodactyl",
+      "chs": "化石翼龙",
       "jpn": "プテラ",
       "jpn_ro": "Ptera"
     },
@@ -4389,6 +4531,7 @@
     "idx": "143",
     "name": {
       "eng": "Snorlax",
+      "chs": "卡比兽",
       "jpn": "カビゴン",
       "jpn_ro": "Kabigon"
     },
@@ -4420,6 +4563,7 @@
     "idx": "144",
     "name": {
       "eng": "Articuno",
+      "chs": "急冻鸟",
       "jpn": "フリーザー",
       "jpn_ro": "Freezer"
     },
@@ -4448,6 +4592,7 @@
     "idx": "145",
     "name": {
       "eng": "Zapdos",
+      "chs": "闪电鸟",
       "jpn": "サンダー",
       "jpn_ro": "Thunder"
     },
@@ -4476,6 +4621,7 @@
     "idx": "146",
     "name": {
       "eng": "Moltres",
+      "chs": "火焰鸟",
       "jpn": "ファイヤー",
       "jpn_ro": "Fire"
     },
@@ -4504,6 +4650,7 @@
     "idx": "147",
     "name": {
       "eng": "Dratini",
+      "chs": "迷你龙",
       "jpn": "ミニリュウ",
       "jpn_ro": "Miniryu"
     },
@@ -4532,6 +4679,7 @@
     "idx": "148",
     "name": {
       "eng": "Dragonair",
+      "chs": "哈克龙",
       "jpn": "ハクリュー",
       "jpn_ro": "Hakuryu"
     },
@@ -4560,6 +4708,7 @@
     "idx": "149",
     "name": {
       "eng": "Dragonite",
+      "chs": "快龙",
       "jpn": "カイリュー",
       "jpn_ro": "Kairyu"
     },
@@ -4588,6 +4737,7 @@
     "idx": "150",
     "name": {
       "eng": "Mewtwo",
+      "chs": "超梦",
       "jpn": "ミュウツー",
       "jpn_ro": "Mewtwo"
     },
@@ -4630,6 +4780,7 @@
     "idx": "151",
     "name": {
       "eng": "Mew",
+      "chs": "梦幻",
       "jpn": "ミュウ",
       "jpn_ro": "Mew"
     },
@@ -4658,6 +4809,7 @@
     "idx": "152",
     "name": {
       "eng": "Chikorita",
+      "chs": "菊草叶",
       "jpn": "チコリータ",
       "jpn_ro": "Chicorita"
     },
@@ -4686,6 +4838,7 @@
     "idx": "153",
     "name": {
       "eng": "Bayleef",
+      "chs": "月桂叶",
       "jpn": "ベイリーフ",
       "jpn_ro": "Bayleaf"
     },
@@ -4714,6 +4867,7 @@
     "idx": "154",
     "name": {
       "eng": "Meganium",
+      "chs": "大竺葵",
       "jpn": "メガニウム",
       "jpn_ro": "Meganium"
     },
@@ -4742,6 +4896,7 @@
     "idx": "155",
     "name": {
       "eng": "Cyndaquil",
+      "chs": "火球鼠",
       "jpn": "ヒノアラシ",
       "jpn_ro": "Hinoarashi"
     },
@@ -4770,6 +4925,7 @@
     "idx": "156",
     "name": {
       "eng": "Quilava",
+      "chs": "火岩鼠",
       "jpn": "マグマラシ",
       "jpn_ro": "Magmarashi"
     },
@@ -4798,6 +4954,7 @@
     "idx": "157",
     "name": {
       "eng": "Typhlosion",
+      "chs": "火暴兽",
       "jpn": "バクフーン",
       "jpn_ro": "Bakphoon"
     },
@@ -4826,6 +4983,7 @@
     "idx": "158",
     "name": {
       "eng": "Totodile",
+      "chs": "小锯鳄",
       "jpn": "ワニノコ",
       "jpn_ro": "Waninoko"
     },
@@ -4854,6 +5012,7 @@
     "idx": "159",
     "name": {
       "eng": "Croconaw",
+      "chs": "蓝鳄",
       "jpn": "アリゲイツ",
       "jpn_ro": "Alligates"
     },
@@ -4882,6 +5041,7 @@
     "idx": "160",
     "name": {
       "eng": "Feraligatr",
+      "chs": "大力鳄",
       "jpn": "オーダイル",
       "jpn_ro": "Ordile/Ordail"
     },
@@ -4910,6 +5070,7 @@
     "idx": "161",
     "name": {
       "eng": "Sentret",
+      "chs": "尾立",
       "jpn": "オタチ",
       "jpn_ro": "Otachi"
     },
@@ -4938,6 +5099,7 @@
     "idx": "162",
     "name": {
       "eng": "Furret",
+      "chs": "大尾立",
       "jpn": "オオタチ",
       "jpn_ro": "Ōtachi"
     },
@@ -4966,6 +5128,7 @@
     "idx": "163",
     "name": {
       "eng": "Hoothoot",
+      "chs": "咕咕",
       "jpn": "ホーホー",
       "jpn_ro": "Hōhō"
     },
@@ -4994,6 +5157,7 @@
     "idx": "164",
     "name": {
       "eng": "Noctowl",
+      "chs": "猫头夜鹰",
       "jpn": "ヨルノズク",
       "jpn_ro": "Yorunozuku"
     },
@@ -5022,6 +5186,7 @@
     "idx": "165",
     "name": {
       "eng": "Ledyba",
+      "chs": "芭瓢虫",
       "jpn": "レディバ",
       "jpn_ro": "Rediba"
     },
@@ -5050,6 +5215,7 @@
     "idx": "166",
     "name": {
       "eng": "Ledian",
+      "chs": "安瓢虫",
       "jpn": "レディアン",
       "jpn_ro": "Redian"
     },
@@ -5078,6 +5244,7 @@
     "idx": "167",
     "name": {
       "eng": "Spinarak",
+      "chs": "圆丝蛛",
       "jpn": "イトマル",
       "jpn_ro": "Itomaru"
     },
@@ -5106,6 +5273,7 @@
     "idx": "168",
     "name": {
       "eng": "Ariados",
+      "chs": "阿利多斯",
       "jpn": "アリアドス",
       "jpn_ro": "Ariadosu"
     },
@@ -5134,6 +5302,7 @@
     "idx": "169",
     "name": {
       "eng": "Crobat",
+      "chs": "叉字蝠",
       "jpn": "クロバット",
       "jpn_ro": "Crobat"
     },
@@ -5162,6 +5331,7 @@
     "idx": "170",
     "name": {
       "eng": "Chinchou",
+      "chs": "灯笼鱼",
       "jpn": "チョンチー",
       "jpn_ro": "Chonchī"
     },
@@ -5190,6 +5360,7 @@
     "idx": "171",
     "name": {
       "eng": "Lanturn",
+      "chs": "电灯怪",
       "jpn": "ランターン",
       "jpn_ro": "Rantān"
     },
@@ -5218,6 +5389,7 @@
     "idx": "172",
     "name": {
       "eng": "Pichu",
+      "chs": "皮丘",
       "jpn": "ピチュー",
       "jpn_ro": "Pichu"
     },
@@ -5255,6 +5427,7 @@
     "idx": "173",
     "name": {
       "eng": "Cleffa",
+      "chs": "皮宝宝",
       "jpn": "ピィ",
       "jpn_ro": "Py"
     },
@@ -5283,6 +5456,7 @@
     "idx": "174",
     "name": {
       "eng": "Igglybuff",
+      "chs": "宝宝丁",
       "jpn": "ププリン",
       "jpn_ro": "Pupurin"
     },
@@ -5311,6 +5485,7 @@
     "idx": "175",
     "name": {
       "eng": "Togepi",
+      "chs": "波克比",
       "jpn": "トゲピー",
       "jpn_ro": "Togepy"
     },
@@ -5339,6 +5514,7 @@
     "idx": "176",
     "name": {
       "eng": "Togetic",
+      "chs": "波克基古",
       "jpn": "トゲチック",
       "jpn_ro": "Togechick"
     },
@@ -5367,6 +5543,7 @@
     "idx": "177",
     "name": {
       "eng": "Natu",
+      "chs": "天然雀",
       "jpn": "ネイティ",
       "jpn_ro": "Neiti"
     },
@@ -5395,6 +5572,7 @@
     "idx": "178",
     "name": {
       "eng": "Xatu",
+      "chs": "天然鸟",
       "jpn": "ネイティオ",
       "jpn_ro": "Neitio"
     },
@@ -5423,6 +5601,7 @@
     "idx": "179",
     "name": {
       "eng": "Mareep",
+      "chs": "咩利羊",
       "jpn": "メリープ",
       "jpn_ro": "Merīpu"
     },
@@ -5451,6 +5630,7 @@
     "idx": "180",
     "name": {
       "eng": "Flaaffy",
+      "chs": "茸茸羊",
       "jpn": "モココ",
       "jpn_ro": "Mokoko"
     },
@@ -5479,6 +5659,7 @@
     "idx": "181",
     "name": {
       "eng": "Ampharos",
+      "chs": "电龙",
       "jpn": "デンリュウ",
       "jpn_ro": "Denryū"
     },
@@ -5514,6 +5695,7 @@
     "idx": "182",
     "name": {
       "eng": "Bellossom",
+      "chs": "美丽花",
       "jpn": "キレイハナ",
       "jpn_ro": "Kireihana"
     },
@@ -5542,6 +5724,7 @@
     "idx": "183",
     "name": {
       "eng": "Marill",
+      "chs": "玛力露",
       "jpn": "マリル",
       "jpn_ro": "Maril"
     },
@@ -5570,6 +5753,7 @@
     "idx": "184",
     "name": {
       "eng": "Azumarill",
+      "chs": "玛力露丽",
       "jpn": "マリルリ",
       "jpn_ro": "Marilli"
     },
@@ -5598,6 +5782,7 @@
     "idx": "185",
     "name": {
       "eng": "Sudowoodo",
+      "chs": "树才怪",
       "jpn": "ウソッキー",
       "jpn_ro": "Usokkie"
     },
@@ -5626,6 +5811,7 @@
     "idx": "186",
     "name": {
       "eng": "Politoed",
+      "chs": "蚊香蛙皇",
       "jpn": "ニョロトノ",
       "jpn_ro": "Nyorotono"
     },
@@ -5654,6 +5840,7 @@
     "idx": "187",
     "name": {
       "eng": "Hoppip",
+      "chs": "毽子草",
       "jpn": "ハネッコ",
       "jpn_ro": "Hanecco"
     },
@@ -5682,6 +5869,7 @@
     "idx": "188",
     "name": {
       "eng": "Skiploom",
+      "chs": "毽子花",
       "jpn": "ポポッコ",
       "jpn_ro": "Popokko"
     },
@@ -5710,6 +5898,7 @@
     "idx": "189",
     "name": {
       "eng": "Jumpluff",
+      "chs": "毽子棉",
       "jpn": "ワタッコ",
       "jpn_ro": "Watacco"
     },
@@ -5738,6 +5927,7 @@
     "idx": "190",
     "name": {
       "eng": "Aipom",
+      "chs": "长尾怪手",
       "jpn": "エイパム",
       "jpn_ro": "Eipam"
     },
@@ -5766,6 +5956,7 @@
     "idx": "191",
     "name": {
       "eng": "Sunkern",
+      "chs": "向日种子",
       "jpn": "ヒマナッツ",
       "jpn_ro": "Himanattsu"
     },
@@ -5794,6 +5985,7 @@
     "idx": "192",
     "name": {
       "eng": "Sunflora",
+      "chs": "向日花怪",
       "jpn": "キマワリ",
       "jpn_ro": "Kimawari"
     },
@@ -5822,6 +6014,7 @@
     "idx": "193",
     "name": {
       "eng": "Yanma",
+      "chs": "蜻蜻蜓",
       "jpn": "ヤンヤンマ",
       "jpn_ro": "Yanyanma"
     },
@@ -5850,6 +6043,7 @@
     "idx": "194",
     "name": {
       "eng": "Wooper",
+      "chs": "乌波",
       "jpn": "ウパー",
       "jpn_ro": "Upah"
     },
@@ -5878,6 +6072,7 @@
     "idx": "195",
     "name": {
       "eng": "Quagsire",
+      "chs": "沼王",
       "jpn": "ヌオー",
       "jpn_ro": "Nuō"
     },
@@ -5906,6 +6101,7 @@
     "idx": "196",
     "name": {
       "eng": "Espeon",
+      "chs": "太阳伊布",
       "jpn": "エーフィ",
       "jpn_ro": "Eifie"
     },
@@ -5934,6 +6130,7 @@
     "idx": "197",
     "name": {
       "eng": "Umbreon",
+      "chs": "月亮伊布",
       "jpn": "ブラッキー",
       "jpn_ro": "Blacky"
     },
@@ -5962,6 +6159,7 @@
     "idx": "198",
     "name": {
       "eng": "Murkrow",
+      "chs": "黑暗鸦",
       "jpn": "ヤミカラス",
       "jpn_ro": "Yamikarasu"
     },
@@ -5990,6 +6188,7 @@
     "idx": "199",
     "name": {
       "eng": "Slowking",
+      "chs": "呆呆王",
       "jpn": "ヤドキング",
       "jpn_ro": "Yadoking"
     },
@@ -6018,6 +6217,7 @@
     "idx": "200",
     "name": {
       "eng": "Misdreavus",
+      "chs": "梦妖",
       "jpn": "ムウマ",
       "jpn_ro": "Muma"
     },
@@ -6046,6 +6246,7 @@
     "idx": "201",
     "name": {
       "eng": "Unown",
+      "chs": "未知图腾",
       "jpn": "アンノーン",
       "jpn_ro": "Unknown"
     },
@@ -6272,6 +6473,7 @@
     "idx": "202",
     "name": {
       "eng": "Wobbuffet",
+      "chs": "果然翁",
       "jpn": "ソーナンス",
       "jpn_ro": "Sonans"
     },
@@ -6300,6 +6502,7 @@
     "idx": "203",
     "name": {
       "eng": "Girafarig",
+      "chs": "麒麟奇",
       "jpn": "キリンリキ",
       "jpn_ro": "Kirinriki"
     },
@@ -6328,6 +6531,7 @@
     "idx": "204",
     "name": {
       "eng": "Pineco",
+      "chs": "榛果球",
       "jpn": "クヌギダマ",
       "jpn_ro": "Kunugidama"
     },
@@ -6356,6 +6560,7 @@
     "idx": "205",
     "name": {
       "eng": "Forretress",
+      "chs": "佛烈托斯",
       "jpn": "フォレトス",
       "jpn_ro": "Foretosu"
     },
@@ -6384,6 +6589,7 @@
     "idx": "206",
     "name": {
       "eng": "Dunsparce",
+      "chs": "土龙弟弟",
       "jpn": "ノコッチ",
       "jpn_ro": "Nokotchi"
     },
@@ -6412,6 +6618,7 @@
     "idx": "207",
     "name": {
       "eng": "Gligar",
+      "chs": "天蝎",
       "jpn": "グライガー",
       "jpn_ro": "Gliger"
     },
@@ -6440,6 +6647,7 @@
     "idx": "208",
     "name": {
       "eng": "Steelix",
+      "chs": "大钢蛇",
       "jpn": "ハガネール",
       "jpn_ro": "Haganeil"
     },
@@ -6475,6 +6683,7 @@
     "idx": "209",
     "name": {
       "eng": "Snubbull",
+      "chs": "布鲁",
       "jpn": "ブルー",
       "jpn_ro": "Burū"
     },
@@ -6503,6 +6712,7 @@
     "idx": "210",
     "name": {
       "eng": "Granbull",
+      "chs": "布鲁皇",
       "jpn": "グランブル",
       "jpn_ro": "Guranburu"
     },
@@ -6531,6 +6741,7 @@
     "idx": "211",
     "name": {
       "eng": "Qwilfish",
+      "chs": "千针鱼",
       "jpn": "ハリーセン",
       "jpn_ro": "Harīsen"
     },
@@ -6559,6 +6770,7 @@
     "idx": "212",
     "name": {
       "eng": "Scizor",
+      "chs": "巨钳螳螂",
       "jpn": "ハッサム",
       "jpn_ro": "Hassam"
     },
@@ -6594,6 +6806,7 @@
     "idx": "213",
     "name": {
       "eng": "Shuckle",
+      "chs": "壶壶",
       "jpn": "ツボツボ",
       "jpn_ro": "Tsubotsubo"
     },
@@ -6622,6 +6835,7 @@
     "idx": "214",
     "name": {
       "eng": "Heracross",
+      "chs": "赫拉克罗斯",
       "jpn": "ヘラクロス",
       "jpn_ro": "Heracros"
     },
@@ -6657,6 +6871,7 @@
     "idx": "215",
     "name": {
       "eng": "Sneasel",
+      "chs": "狃拉",
       "jpn": "ニューラ",
       "jpn_ro": "Nyūra"
     },
@@ -6685,6 +6900,7 @@
     "idx": "216",
     "name": {
       "eng": "Teddiursa",
+      "chs": "熊宝宝",
       "jpn": "ヒメグマ",
       "jpn_ro": "Himeguma"
     },
@@ -6713,6 +6929,7 @@
     "idx": "217",
     "name": {
       "eng": "Ursaring",
+      "chs": "圈圈熊",
       "jpn": "リングマ",
       "jpn_ro": "Ringuma"
     },
@@ -6741,6 +6958,7 @@
     "idx": "218",
     "name": {
       "eng": "Slugma",
+      "chs": "熔岩虫",
       "jpn": "マグマッグ",
       "jpn_ro": "Magumaggu"
     },
@@ -6769,6 +6987,7 @@
     "idx": "219",
     "name": {
       "eng": "Magcargo",
+      "chs": "熔岩蜗牛",
       "jpn": "マグカルゴ",
       "jpn_ro": "Magukarugo"
     },
@@ -6797,6 +7016,7 @@
     "idx": "220",
     "name": {
       "eng": "Swinub",
+      "chs": "小山猪",
       "jpn": "ウリムー",
       "jpn_ro": "Urimū"
     },
@@ -6825,6 +7045,7 @@
     "idx": "221",
     "name": {
       "eng": "Piloswine",
+      "chs": "长毛猪",
       "jpn": "イノムー",
       "jpn_ro": "Inomū"
     },
@@ -6853,6 +7074,7 @@
     "idx": "222",
     "name": {
       "eng": "Corsola",
+      "chs": "太阳珊瑚",
       "jpn": "サニーゴ",
       "jpn_ro": "Sanīgo"
     },
@@ -6884,6 +7106,7 @@
     "idx": "223",
     "name": {
       "eng": "Remoraid",
+      "chs": "铁炮鱼",
       "jpn": "テッポウオ",
       "jpn_ro": "Teppōo"
     },
@@ -6912,6 +7135,7 @@
     "idx": "224",
     "name": {
       "eng": "Octillery",
+      "chs": "章鱼桶",
       "jpn": "オクタン",
       "jpn_ro": "Okutan"
     },
@@ -6940,6 +7164,7 @@
     "idx": "225",
     "name": {
       "eng": "Delibird",
+      "chs": "信使鸟",
       "jpn": "デリバード",
       "jpn_ro": "Delibird"
     },
@@ -6968,6 +7193,7 @@
     "idx": "226",
     "name": {
       "eng": "Mantine",
+      "chs": "巨翅飞鱼",
       "jpn": "マンタイン",
       "jpn_ro": "Mantain"
     },
@@ -6996,6 +7222,7 @@
     "idx": "227",
     "name": {
       "eng": "Skarmory",
+      "chs": "盔甲鸟",
       "jpn": "エアームド",
       "jpn_ro": "Airmd"
     },
@@ -7024,6 +7251,7 @@
     "idx": "228",
     "name": {
       "eng": "Houndour",
+      "chs": "戴鲁比",
       "jpn": "デルビル",
       "jpn_ro": "Delvil"
     },
@@ -7052,6 +7280,7 @@
     "idx": "229",
     "name": {
       "eng": "Houndoom",
+      "chs": "黑鲁加",
       "jpn": "ヘルガー",
       "jpn_ro": "Hellgar"
     },
@@ -7087,6 +7316,7 @@
     "idx": "230",
     "name": {
       "eng": "Kingdra",
+      "chs": "刺龙王",
       "jpn": "キングドラ",
       "jpn_ro": "Kingudora"
     },
@@ -7115,6 +7345,7 @@
     "idx": "231",
     "name": {
       "eng": "Phanpy",
+      "chs": "小小象",
       "jpn": "ゴマゾウ",
       "jpn_ro": "Gomazou"
     },
@@ -7143,6 +7374,7 @@
     "idx": "232",
     "name": {
       "eng": "Donphan",
+      "chs": "顿甲",
       "jpn": "ドンファン",
       "jpn_ro": "Donfan"
     },
@@ -7171,6 +7403,7 @@
     "idx": "233",
     "name": {
       "eng": "Porygon2",
+      "chs": "多边兽 Ⅱ",
       "jpn": "ポリゴン2",
       "jpn_ro": "Porygon 2"
     },
@@ -7199,6 +7432,7 @@
     "idx": "234",
     "name": {
       "eng": "Stantler",
+      "chs": "惊角鹿",
       "jpn": "オドシシ",
       "jpn_ro": "Odoshishi"
     },
@@ -7227,6 +7461,7 @@
     "idx": "235",
     "name": {
       "eng": "Smeargle",
+      "chs": "图图犬",
       "jpn": "ドーブル",
       "jpn_ro": "Doble"
     },
@@ -7255,6 +7490,7 @@
     "idx": "236",
     "name": {
       "eng": "Tyrogue",
+      "chs": "无畏小子",
       "jpn": "バルキー",
       "jpn_ro": "Barukī"
     },
@@ -7283,6 +7519,7 @@
     "idx": "237",
     "name": {
       "eng": "Hitmontop",
+      "chs": "战舞郎",
       "jpn": "カポエラー",
       "jpn_ro": "Kapoerer"
     },
@@ -7311,6 +7548,7 @@
     "idx": "238",
     "name": {
       "eng": "Smoochum",
+      "chs": "迷唇娃",
       "jpn": "ムチュール",
       "jpn_ro": "Muchul"
     },
@@ -7339,6 +7577,7 @@
     "idx": "239",
     "name": {
       "eng": "Elekid",
+      "chs": "电击怪",
       "jpn": "エレキッド",
       "jpn_ro": "Erekiddo"
     },
@@ -7367,6 +7606,7 @@
     "idx": "240",
     "name": {
       "eng": "Magby",
+      "chs": "鸭嘴宝宝",
       "jpn": "ブビィ",
       "jpn_ro": "Bubii"
     },
@@ -7395,6 +7635,7 @@
     "idx": "241",
     "name": {
       "eng": "Miltank",
+      "chs": "大奶罐",
       "jpn": "ミルタンク",
       "jpn_ro": "Miltank"
     },
@@ -7423,6 +7664,7 @@
     "idx": "242",
     "name": {
       "eng": "Blissey",
+      "chs": "幸福蛋",
       "jpn": "ハピナス",
       "jpn_ro": "Happinas"
     },
@@ -7451,6 +7693,7 @@
     "idx": "243",
     "name": {
       "eng": "Raikou",
+      "chs": "雷公",
       "jpn": "ライコウ",
       "jpn_ro": "Raikou"
     },
@@ -7479,6 +7722,7 @@
     "idx": "244",
     "name": {
       "eng": "Entei",
+      "chs": "炎帝",
       "jpn": "エンテイ",
       "jpn_ro": "Entei"
     },
@@ -7507,6 +7751,7 @@
     "idx": "245",
     "name": {
       "eng": "Suicune",
+      "chs": "水君",
       "jpn": "スイクン",
       "jpn_ro": "Suicune"
     },
@@ -7535,6 +7780,7 @@
     "idx": "246",
     "name": {
       "eng": "Larvitar",
+      "chs": "幼基拉斯",
       "jpn": "ヨーギラス",
       "jpn_ro": "Yōgirasu"
     },
@@ -7563,6 +7809,7 @@
     "idx": "247",
     "name": {
       "eng": "Pupitar",
+      "chs": "沙基拉斯",
       "jpn": "サナギラス",
       "jpn_ro": "Sanagirasu"
     },
@@ -7591,6 +7838,7 @@
     "idx": "248",
     "name": {
       "eng": "Tyranitar",
+      "chs": "班基拉斯",
       "jpn": "バンギラス",
       "jpn_ro": "Bangiras"
     },
@@ -7626,6 +7874,7 @@
     "idx": "249",
     "name": {
       "eng": "Lugia",
+      "chs": "洛奇亚",
       "jpn": "ルギア",
       "jpn_ro": "Lugia"
     },
@@ -7654,6 +7903,7 @@
     "idx": "250",
     "name": {
       "eng": "Ho-Oh",
+      "chs": "凤王",
       "jpn": "ホウオウ",
       "jpn_ro": "Houou"
     },
@@ -7682,6 +7932,7 @@
     "idx": "251",
     "name": {
       "eng": "Celebi",
+      "chs": "时拉比",
       "jpn": "セレビィ",
       "jpn_ro": "Celebi"
     },
@@ -7710,6 +7961,7 @@
     "idx": "252",
     "name": {
       "eng": "Treecko",
+      "chs": "木守宫",
       "jpn": "キモリ",
       "jpn_ro": "Kimori"
     },
@@ -7738,6 +7990,7 @@
     "idx": "253",
     "name": {
       "eng": "Grovyle",
+      "chs": "森林蜥蜴",
       "jpn": "ジュプトル",
       "jpn_ro": "Juptile"
     },
@@ -7766,6 +8019,7 @@
     "idx": "254",
     "name": {
       "eng": "Sceptile",
+      "chs": "蜥蜴王",
       "jpn": "ジュカイン",
       "jpn_ro": "Jukain"
     },
@@ -7801,6 +8055,7 @@
     "idx": "255",
     "name": {
       "eng": "Torchic",
+      "chs": "火稚鸡",
       "jpn": "アチャモ",
       "jpn_ro": "Achamo"
     },
@@ -7829,6 +8084,7 @@
     "idx": "256",
     "name": {
       "eng": "Combusken",
+      "chs": "力壮鸡",
       "jpn": "ワカシャモ",
       "jpn_ro": "Wakasyamo"
     },
@@ -7857,6 +8113,7 @@
     "idx": "257",
     "name": {
       "eng": "Blaziken",
+      "chs": "火焰鸡",
       "jpn": "バシャーモ",
       "jpn_ro": "Bursyamo"
     },
@@ -7892,6 +8149,7 @@
     "idx": "258",
     "name": {
       "eng": "Mudkip",
+      "chs": "水跃鱼",
       "jpn": "ミズゴロウ",
       "jpn_ro": "Mizugorou"
     },
@@ -7920,6 +8178,7 @@
     "idx": "259",
     "name": {
       "eng": "Marshtomp",
+      "chs": "沼跃鱼",
       "jpn": "ヌマクロー",
       "jpn_ro": "Numacraw"
     },
@@ -7948,6 +8207,7 @@
     "idx": "260",
     "name": {
       "eng": "Swampert",
+      "chs": "巨沼怪",
       "jpn": "ラグラージ",
       "jpn_ro": "Laglarge"
     },
@@ -7983,6 +8243,7 @@
     "idx": "261",
     "name": {
       "eng": "Poochyena",
+      "chs": "土狼犬",
       "jpn": "ポチエナ",
       "jpn_ro": "Pochiena"
     },
@@ -8011,6 +8272,7 @@
     "idx": "262",
     "name": {
       "eng": "Mightyena",
+      "chs": "大狼犬",
       "jpn": "グラエナ",
       "jpn_ro": "Graena"
     },
@@ -8039,6 +8301,7 @@
     "idx": "263",
     "name": {
       "eng": "Zigzagoon",
+      "chs": "蛇纹熊",
       "jpn": "ジグザグマ",
       "jpn_ro": "Jiguzaguma"
     },
@@ -8070,6 +8333,7 @@
     "idx": "264",
     "name": {
       "eng": "Linoone",
+      "chs": "直冲熊",
       "jpn": "マッスグマ",
       "jpn_ro": "Massuguma"
     },
@@ -8101,6 +8365,7 @@
     "idx": "265",
     "name": {
       "eng": "Wurmple",
+      "chs": "刺尾虫",
       "jpn": "ケムッソ",
       "jpn_ro": "Kemusso"
     },
@@ -8129,6 +8394,7 @@
     "idx": "266",
     "name": {
       "eng": "Silcoon",
+      "chs": "甲壳茧",
       "jpn": "カラサリス",
       "jpn_ro": "Karasarisu"
     },
@@ -8157,6 +8423,7 @@
     "idx": "267",
     "name": {
       "eng": "Beautifly",
+      "chs": "狩猎凤蝶",
       "jpn": "アゲハント",
       "jpn_ro": "Agehunt"
     },
@@ -8185,6 +8452,7 @@
     "idx": "268",
     "name": {
       "eng": "Cascoon",
+      "chs": "盾甲茧",
       "jpn": "マユルド",
       "jpn_ro": "Mayurudo"
     },
@@ -8213,6 +8481,7 @@
     "idx": "269",
     "name": {
       "eng": "Dustox",
+      "chs": "毒粉蛾",
       "jpn": "ドクケイル",
       "jpn_ro": "Dokukeiru"
     },
@@ -8241,6 +8510,7 @@
     "idx": "270",
     "name": {
       "eng": "Lotad",
+      "chs": "莲叶童子",
       "jpn": "ハスボー",
       "jpn_ro": "Hassboh"
     },
@@ -8269,6 +8539,7 @@
     "idx": "271",
     "name": {
       "eng": "Lombre",
+      "chs": "莲帽小童",
       "jpn": "ハスブレロ",
       "jpn_ro": "Hasubrero"
     },
@@ -8297,6 +8568,7 @@
     "idx": "272",
     "name": {
       "eng": "Ludicolo",
+      "chs": "乐天河童",
       "jpn": "ルンパッパ",
       "jpn_ro": "Runpappa"
     },
@@ -8325,6 +8597,7 @@
     "idx": "273",
     "name": {
       "eng": "Seedot",
+      "chs": "橡实果",
       "jpn": "タネボー",
       "jpn_ro": "Tanebō"
     },
@@ -8353,6 +8626,7 @@
     "idx": "274",
     "name": {
       "eng": "Nuzleaf",
+      "chs": "长鼻叶",
       "jpn": "コノハナ",
       "jpn_ro": "Konohana"
     },
@@ -8381,6 +8655,7 @@
     "idx": "275",
     "name": {
       "eng": "Shiftry",
+      "chs": "狡猾天狗",
       "jpn": "ダーテング",
       "jpn_ro": "Dirteng"
     },
@@ -8409,6 +8684,7 @@
     "idx": "276",
     "name": {
       "eng": "Taillow",
+      "chs": "傲骨燕",
       "jpn": "スバメ",
       "jpn_ro": "Subame"
     },
@@ -8437,6 +8713,7 @@
     "idx": "277",
     "name": {
       "eng": "Swellow",
+      "chs": "大王燕",
       "jpn": "オオスバメ",
       "jpn_ro": "Ohsubame"
     },
@@ -8465,6 +8742,7 @@
     "idx": "278",
     "name": {
       "eng": "Wingull",
+      "chs": "长翅鸥",
       "jpn": "キャモメ",
       "jpn_ro": "Kyamome"
     },
@@ -8493,6 +8771,7 @@
     "idx": "279",
     "name": {
       "eng": "Pelipper",
+      "chs": "大嘴鸥",
       "jpn": "ペリッパー",
       "jpn_ro": "Pelipper"
     },
@@ -8521,6 +8800,7 @@
     "idx": "280",
     "name": {
       "eng": "Ralts",
+      "chs": "拉鲁拉丝",
       "jpn": "ラルトス",
       "jpn_ro": "Rarutosu"
     },
@@ -8549,6 +8829,7 @@
     "idx": "281",
     "name": {
       "eng": "Kirlia",
+      "chs": "奇鲁莉安",
       "jpn": "キルリア",
       "jpn_ro": "Kirlia"
     },
@@ -8577,6 +8858,7 @@
     "idx": "282",
     "name": {
       "eng": "Gardevoir",
+      "chs": "沙奈朵",
       "jpn": "サーナイト",
       "jpn_ro": "Sānaito"
     },
@@ -8612,6 +8894,7 @@
     "idx": "283",
     "name": {
       "eng": "Surskit",
+      "chs": "溜溜糖球",
       "jpn": "アメタマ",
       "jpn_ro": "Ametama"
     },
@@ -8640,6 +8923,7 @@
     "idx": "284",
     "name": {
       "eng": "Masquerain",
+      "chs": "雨翅蛾",
       "jpn": "アメモース",
       "jpn_ro": "Amemōsu"
     },
@@ -8668,6 +8952,7 @@
     "idx": "285",
     "name": {
       "eng": "Shroomish",
+      "chs": "蘑蘑菇",
       "jpn": "キノココ",
       "jpn_ro": "Kinococo"
     },
@@ -8696,6 +8981,7 @@
     "idx": "286",
     "name": {
       "eng": "Breloom",
+      "chs": "斗笠菇",
       "jpn": "キノガッサ",
       "jpn_ro": "Kinogassa"
     },
@@ -8724,6 +9010,7 @@
     "idx": "287",
     "name": {
       "eng": "Slakoth",
+      "chs": "懒人獭",
       "jpn": "ナマケロ",
       "jpn_ro": "Namakero"
     },
@@ -8752,6 +9039,7 @@
     "idx": "288",
     "name": {
       "eng": "Vigoroth",
+      "chs": "过动猿",
       "jpn": "ヤルキモノ",
       "jpn_ro": "Yarukimono"
     },
@@ -8780,6 +9068,7 @@
     "idx": "289",
     "name": {
       "eng": "Slaking",
+      "chs": "请假王",
       "jpn": "ケッキング",
       "jpn_ro": "Kekking"
     },
@@ -8808,6 +9097,7 @@
     "idx": "290",
     "name": {
       "eng": "Nincada",
+      "chs": "土居忍士",
       "jpn": "ツチニン",
       "jpn_ro": "Tsuchinin"
     },
@@ -8836,6 +9126,7 @@
     "idx": "291",
     "name": {
       "eng": "Ninjask",
+      "chs": "铁面忍者",
       "jpn": "テッカニン",
       "jpn_ro": "Tekkanin"
     },
@@ -8864,6 +9155,7 @@
     "idx": "292",
     "name": {
       "eng": "Shedinja",
+      "chs": "脱壳忍者",
       "jpn": "ヌケニン",
       "jpn_ro": "Nukenin"
     },
@@ -8892,6 +9184,7 @@
     "idx": "293",
     "name": {
       "eng": "Whismur",
+      "chs": "咕妞妞",
       "jpn": "ゴニョニョ",
       "jpn_ro": "Gonyonyo"
     },
@@ -8920,6 +9213,7 @@
     "idx": "294",
     "name": {
       "eng": "Loudred",
+      "chs": "吼爆弹",
       "jpn": "ドゴーム",
       "jpn_ro": "Dogōmu"
     },
@@ -8948,6 +9242,7 @@
     "idx": "295",
     "name": {
       "eng": "Exploud",
+      "chs": "爆音怪",
       "jpn": "バクオング",
       "jpn_ro": "Bakuong"
     },
@@ -8976,6 +9271,7 @@
     "idx": "296",
     "name": {
       "eng": "Makuhita",
+      "chs": "幕下力士",
       "jpn": "マクノシタ",
       "jpn_ro": "Makunoshita"
     },
@@ -9004,6 +9300,7 @@
     "idx": "297",
     "name": {
       "eng": "Hariyama",
+      "chs": "铁掌力士",
       "jpn": "ハリテヤマ",
       "jpn_ro": "Hariteyama"
     },
@@ -9032,6 +9329,7 @@
     "idx": "298",
     "name": {
       "eng": "Azurill",
+      "chs": "露力丽",
       "jpn": "ルリリ",
       "jpn_ro": "Ruriri"
     },
@@ -9060,6 +9358,7 @@
     "idx": "299",
     "name": {
       "eng": "Nosepass",
+      "chs": "朝北鼻",
       "jpn": "ノズパス",
       "jpn_ro": "Nozupasu"
     },
@@ -9088,6 +9387,7 @@
     "idx": "300",
     "name": {
       "eng": "Skitty",
+      "chs": "向尾喵",
       "jpn": "エネコ",
       "jpn_ro": "Eneco"
     },
@@ -9116,6 +9416,7 @@
     "idx": "301",
     "name": {
       "eng": "Delcatty",
+      "chs": "优雅猫",
       "jpn": "エネコロロ",
       "jpn_ro": "Enekororo"
     },
@@ -9144,6 +9445,7 @@
     "idx": "302",
     "name": {
       "eng": "Sableye",
+      "chs": "勾魂眼",
       "jpn": "ヤミラミ",
       "jpn_ro": "Yamirami"
     },
@@ -9179,6 +9481,7 @@
     "idx": "303",
     "name": {
       "eng": "Mawile",
+      "chs": "大嘴娃",
       "jpn": "クチート",
       "jpn_ro": "Kucheat"
     },
@@ -9214,6 +9517,7 @@
     "idx": "304",
     "name": {
       "eng": "Aron",
+      "chs": "可可多拉",
       "jpn": "ココドラ",
       "jpn_ro": "Cokodora"
     },
@@ -9242,6 +9546,7 @@
     "idx": "305",
     "name": {
       "eng": "Lairon",
+      "chs": "可多拉",
       "jpn": "コドラ",
       "jpn_ro": "Kodora"
     },
@@ -9270,6 +9575,7 @@
     "idx": "306",
     "name": {
       "eng": "Aggron",
+      "chs": "波士可多拉",
       "jpn": "ボスゴドラ",
       "jpn_ro": "Bosugodora"
     },
@@ -9305,6 +9611,7 @@
     "idx": "307",
     "name": {
       "eng": "Meditite",
+      "chs": "玛沙那",
       "jpn": "アサナン",
       "jpn_ro": "Asanan"
     },
@@ -9333,6 +9640,7 @@
     "idx": "308",
     "name": {
       "eng": "Medicham",
+      "chs": "恰雷姆",
       "jpn": "チャーレム",
       "jpn_ro": "Charem"
     },
@@ -9368,6 +9676,7 @@
     "idx": "309",
     "name": {
       "eng": "Electrike",
+      "chs": "落雷兽",
       "jpn": "ラクライ",
       "jpn_ro": "Rakurai"
     },
@@ -9396,6 +9705,7 @@
     "idx": "310",
     "name": {
       "eng": "Manectric",
+      "chs": "雷电兽",
       "jpn": "ライボルト",
       "jpn_ro": "Raiboruto"
     },
@@ -9431,6 +9741,7 @@
     "idx": "311",
     "name": {
       "eng": "Plusle",
+      "chs": "正电拍拍",
       "jpn": "プラスル",
       "jpn_ro": "Plusle"
     },
@@ -9459,6 +9770,7 @@
     "idx": "312",
     "name": {
       "eng": "Minun",
+      "chs": "负电拍拍",
       "jpn": "マイナン",
       "jpn_ro": "Minun"
     },
@@ -9487,6 +9799,7 @@
     "idx": "313",
     "name": {
       "eng": "Volbeat",
+      "chs": "电萤虫",
       "jpn": "バルビート",
       "jpn_ro": "Barubīto"
     },
@@ -9515,6 +9828,7 @@
     "idx": "314",
     "name": {
       "eng": "Illumise",
+      "chs": "甜甜萤",
       "jpn": "イルミーゼ",
       "jpn_ro": "Illumise"
     },
@@ -9543,6 +9857,7 @@
     "idx": "315",
     "name": {
       "eng": "Roselia",
+      "chs": "毒蔷薇",
       "jpn": "ロゼリア",
       "jpn_ro": "Rozeria"
     },
@@ -9571,6 +9886,7 @@
     "idx": "316",
     "name": {
       "eng": "Gulpin",
+      "chs": "溶食兽",
       "jpn": "ゴクリン",
       "jpn_ro": "Gokulin"
     },
@@ -9599,6 +9915,7 @@
     "idx": "317",
     "name": {
       "eng": "Swalot",
+      "chs": "吞食兽",
       "jpn": "マルノーム",
       "jpn_ro": "Marunōmu"
     },
@@ -9627,6 +9944,7 @@
     "idx": "318",
     "name": {
       "eng": "Carvanha",
+      "chs": "利牙鱼",
       "jpn": "キバニア",
       "jpn_ro": "Kibania"
     },
@@ -9655,6 +9973,7 @@
     "idx": "319",
     "name": {
       "eng": "Sharpedo",
+      "chs": "巨牙鲨",
       "jpn": "サメハダー",
       "jpn_ro": "Samehader"
     },
@@ -9690,6 +10009,7 @@
     "idx": "320",
     "name": {
       "eng": "Wailmer",
+      "chs": "吼吼鲸",
       "jpn": "ホエルコ",
       "jpn_ro": "Hoeruko"
     },
@@ -9718,6 +10038,7 @@
     "idx": "321",
     "name": {
       "eng": "Wailord",
+      "chs": "吼鲸王",
       "jpn": "ホエルオー",
       "jpn_ro": "Whaloh"
     },
@@ -9746,6 +10067,7 @@
     "idx": "322",
     "name": {
       "eng": "Numel",
+      "chs": "呆火驼",
       "jpn": "ドンメル",
       "jpn_ro": "Donmeru"
     },
@@ -9774,6 +10096,7 @@
     "idx": "323",
     "name": {
       "eng": "Camerupt",
+      "chs": "喷火驼",
       "jpn": "バクーダ",
       "jpn_ro": "Bakūda"
     },
@@ -9809,6 +10132,7 @@
     "idx": "324",
     "name": {
       "eng": "Torkoal",
+      "chs": "煤炭龟",
       "jpn": "コータス",
       "jpn_ro": "Kōtasu"
     },
@@ -9837,6 +10161,7 @@
     "idx": "325",
     "name": {
       "eng": "Spoink",
+      "chs": "跳跳猪",
       "jpn": "バネブー",
       "jpn_ro": "Baneboo"
     },
@@ -9865,6 +10190,7 @@
     "idx": "326",
     "name": {
       "eng": "Grumpig",
+      "chs": "噗噗猪",
       "jpn": "ブーピッグ",
       "jpn_ro": "Būpiggu"
     },
@@ -9893,6 +10219,7 @@
     "idx": "327",
     "name": {
       "eng": "Spinda",
+      "chs": "晃晃斑",
       "jpn": "パッチール",
       "jpn_ro": "Patcheel"
     },
@@ -9939,6 +10266,7 @@
     "idx": "328",
     "name": {
       "eng": "Trapinch",
+      "chs": "大颚蚁",
       "jpn": "ナックラー",
       "jpn_ro": "Nakkurā"
     },
@@ -9967,6 +10295,7 @@
     "idx": "329",
     "name": {
       "eng": "Vibrava",
+      "chs": "超音波幼虫",
       "jpn": "ビブラーバ",
       "jpn_ro": "Biburāba"
     },
@@ -9995,6 +10324,7 @@
     "idx": "330",
     "name": {
       "eng": "Flygon",
+      "chs": "沙漠蜻蜓",
       "jpn": "フライゴン",
       "jpn_ro": "Flygon"
     },
@@ -10023,6 +10353,7 @@
     "idx": "331",
     "name": {
       "eng": "Cacnea",
+      "chs": "刺球仙人掌",
       "jpn": "サボネア",
       "jpn_ro": "Sabonea"
     },
@@ -10051,6 +10382,7 @@
     "idx": "332",
     "name": {
       "eng": "Cacturne",
+      "chs": "梦歌仙人掌",
       "jpn": "ノクタス",
       "jpn_ro": "Noctus"
     },
@@ -10079,6 +10411,7 @@
     "idx": "333",
     "name": {
       "eng": "Swablu",
+      "chs": "青绵鸟",
       "jpn": "チルット",
       "jpn_ro": "Chirutto"
     },
@@ -10107,6 +10440,7 @@
     "idx": "334",
     "name": {
       "eng": "Altaria",
+      "chs": "七夕青鸟",
       "jpn": "チルタリス",
       "jpn_ro": "Tyltalis"
     },
@@ -10142,6 +10476,7 @@
     "idx": "335",
     "name": {
       "eng": "Zangoose",
+      "chs": "猫鼬斩",
       "jpn": "ザングース",
       "jpn_ro": "Zangoose"
     },
@@ -10170,6 +10505,7 @@
     "idx": "336",
     "name": {
       "eng": "Seviper",
+      "chs": "饭匙蛇",
       "jpn": "ハブネーク",
       "jpn_ro": "Habunake"
     },
@@ -10198,6 +10534,7 @@
     "idx": "337",
     "name": {
       "eng": "Lunatone",
+      "chs": "月石",
       "jpn": "ルナトーン",
       "jpn_ro": "Runatōn"
     },
@@ -10226,6 +10563,7 @@
     "idx": "338",
     "name": {
       "eng": "Solrock",
+      "chs": "太阳岩",
       "jpn": "ソルロック",
       "jpn_ro": "Sorurokku"
     },
@@ -10254,6 +10592,7 @@
     "idx": "339",
     "name": {
       "eng": "Barboach",
+      "chs": "泥泥鳅",
       "jpn": "ドジョッチ",
       "jpn_ro": "Dojotchi"
     },
@@ -10282,6 +10621,7 @@
     "idx": "340",
     "name": {
       "eng": "Whiscash",
+      "chs": "鲶鱼王",
       "jpn": "ナマズン",
       "jpn_ro": "Namazun"
     },
@@ -10310,6 +10650,7 @@
     "idx": "341",
     "name": {
       "eng": "Corphish",
+      "chs": "龙虾小兵",
       "jpn": "ヘイガニ",
       "jpn_ro": "Heigani"
     },
@@ -10338,6 +10679,7 @@
     "idx": "342",
     "name": {
       "eng": "Crawdaunt",
+      "chs": "铁螯龙虾",
       "jpn": "シザリガー",
       "jpn_ro": "Shizariger"
     },
@@ -10366,6 +10708,7 @@
     "idx": "343",
     "name": {
       "eng": "Baltoy",
+      "chs": "天秤偶",
       "jpn": "ヤジロン",
       "jpn_ro": "Yajiron"
     },
@@ -10394,6 +10737,7 @@
     "idx": "344",
     "name": {
       "eng": "Claydol",
+      "chs": "念力土偶",
       "jpn": "ネンドール",
       "jpn_ro": "Nendōru"
     },
@@ -10422,6 +10766,7 @@
     "idx": "345",
     "name": {
       "eng": "Lileep",
+      "chs": "触手百合",
       "jpn": "リリーラ",
       "jpn_ro": "Rirīra"
     },
@@ -10450,6 +10795,7 @@
     "idx": "346",
     "name": {
       "eng": "Cradily",
+      "chs": "摇篮百合",
       "jpn": "ユレイドル",
       "jpn_ro": "Yureidoru"
     },
@@ -10478,6 +10824,7 @@
     "idx": "347",
     "name": {
       "eng": "Anorith",
+      "chs": "太古羽虫",
       "jpn": "アノプス",
       "jpn_ro": "Anopusu"
     },
@@ -10506,6 +10853,7 @@
     "idx": "348",
     "name": {
       "eng": "Armaldo",
+      "chs": "太古盔甲",
       "jpn": "アーマルド",
       "jpn_ro": "Āmarudo"
     },
@@ -10534,6 +10882,7 @@
     "idx": "349",
     "name": {
       "eng": "Feebas",
+      "chs": "丑丑鱼",
       "jpn": "ヒンバス",
       "jpn_ro": "Hinbasu"
     },
@@ -10562,6 +10911,7 @@
     "idx": "350",
     "name": {
       "eng": "Milotic",
+      "chs": "美纳斯",
       "jpn": "ミロカロス",
       "jpn_ro": "Mirokarosu"
     },
@@ -10590,6 +10940,7 @@
     "idx": "351",
     "name": {
       "eng": "Castform",
+      "chs": "飘浮泡泡",
       "jpn": "ポワルン",
       "jpn_ro": "Powarun"
     },
@@ -10639,6 +10990,7 @@
     "idx": "352",
     "name": {
       "eng": "Kecleon",
+      "chs": "变隐龙",
       "jpn": "カクレオン",
       "jpn_ro": "Kakureon"
     },
@@ -10667,6 +11019,7 @@
     "idx": "353",
     "name": {
       "eng": "Shuppet",
+      "chs": "怨影娃娃",
       "jpn": "カゲボウズ",
       "jpn_ro": "Kagebōzu"
     },
@@ -10695,6 +11048,7 @@
     "idx": "354",
     "name": {
       "eng": "Banette",
+      "chs": "诅咒娃娃",
       "jpn": "ジュペッタ",
       "jpn_ro": "Jupetta"
     },
@@ -10730,6 +11084,7 @@
     "idx": "355",
     "name": {
       "eng": "Duskull",
+      "chs": "夜巡灵",
       "jpn": "ヨマワル",
       "jpn_ro": "Yomawaru"
     },
@@ -10758,6 +11113,7 @@
     "idx": "356",
     "name": {
       "eng": "Dusclops",
+      "chs": "彷徨夜灵",
       "jpn": "サマヨール",
       "jpn_ro": "Samayōru"
     },
@@ -10786,6 +11142,7 @@
     "idx": "357",
     "name": {
       "eng": "Tropius",
+      "chs": "热带龙",
       "jpn": "トロピウス",
       "jpn_ro": "Tropius"
     },
@@ -10814,6 +11171,7 @@
     "idx": "358",
     "name": {
       "eng": "Chimecho",
+      "chs": "风铃铃",
       "jpn": "チリーン",
       "jpn_ro": "Chirean"
     },
@@ -10842,6 +11200,7 @@
     "idx": "359",
     "name": {
       "eng": "Absol",
+      "chs": "阿勃梭鲁",
       "jpn": "アブソル",
       "jpn_ro": "Absol"
     },
@@ -10877,6 +11236,7 @@
     "idx": "360",
     "name": {
       "eng": "Wynaut",
+      "chs": "小果然",
       "jpn": "ソーナノ",
       "jpn_ro": "Sohnano"
     },
@@ -10905,6 +11265,7 @@
     "idx": "361",
     "name": {
       "eng": "Snorunt",
+      "chs": "雪童子",
       "jpn": "ユキワラシ",
       "jpn_ro": "Yukiwarashi"
     },
@@ -10933,6 +11294,7 @@
     "idx": "362",
     "name": {
       "eng": "Glalie",
+      "chs": "冰鬼护",
       "jpn": "オニゴーリ",
       "jpn_ro": "Onigōri"
     },
@@ -10968,6 +11330,7 @@
     "idx": "363",
     "name": {
       "eng": "Spheal",
+      "chs": "海豹球",
       "jpn": "タマザラシ",
       "jpn_ro": "Tamazarashi"
     },
@@ -10996,6 +11359,7 @@
     "idx": "364",
     "name": {
       "eng": "Sealeo",
+      "chs": "海魔狮",
       "jpn": "トドグラー",
       "jpn_ro": "Todogurā"
     },
@@ -11024,6 +11388,7 @@
     "idx": "365",
     "name": {
       "eng": "Walrein",
+      "chs": "帝牙海狮",
       "jpn": "トドゼルガ",
       "jpn_ro": "Todozeruga"
     },
@@ -11052,6 +11417,7 @@
     "idx": "366",
     "name": {
       "eng": "Clamperl",
+      "chs": "珍珠贝",
       "jpn": "パールル",
       "jpn_ro": "Pāruru"
     },
@@ -11080,6 +11446,7 @@
     "idx": "367",
     "name": {
       "eng": "Huntail",
+      "chs": "猎斑鱼",
       "jpn": "ハンテール",
       "jpn_ro": "Hantēru"
     },
@@ -11108,6 +11475,7 @@
     "idx": "368",
     "name": {
       "eng": "Gorebyss",
+      "chs": "樱花鱼",
       "jpn": "サクラビス",
       "jpn_ro": "Sakurabisu"
     },
@@ -11136,6 +11504,7 @@
     "idx": "369",
     "name": {
       "eng": "Relicanth",
+      "chs": "古空棘鱼",
       "jpn": "ジーランス",
       "jpn_ro": "Jīransu"
     },
@@ -11164,6 +11533,7 @@
     "idx": "370",
     "name": {
       "eng": "Luvdisc",
+      "chs": "爱心鱼",
       "jpn": "ラブカス",
       "jpn_ro": "Rabukasu"
     },
@@ -11192,6 +11562,7 @@
     "idx": "371",
     "name": {
       "eng": "Bagon",
+      "chs": "宝贝龙",
       "jpn": "タツベイ",
       "jpn_ro": "Tatsubei"
     },
@@ -11220,6 +11591,7 @@
     "idx": "372",
     "name": {
       "eng": "Shelgon",
+      "chs": "甲壳龙",
       "jpn": "コモルー",
       "jpn_ro": "Komorū"
     },
@@ -11248,6 +11620,7 @@
     "idx": "373",
     "name": {
       "eng": "Salamence",
+      "chs": "暴飞龙",
       "jpn": "ボーマンダ",
       "jpn_ro": "Bohmander"
     },
@@ -11283,6 +11656,7 @@
     "idx": "374",
     "name": {
       "eng": "Beldum",
+      "chs": "铁哑铃",
       "jpn": "ダンバル",
       "jpn_ro": "Danbaru"
     },
@@ -11311,6 +11685,7 @@
     "idx": "375",
     "name": {
       "eng": "Metang",
+      "chs": "金属怪",
       "jpn": "メタング",
       "jpn_ro": "Metangu"
     },
@@ -11339,6 +11714,7 @@
     "idx": "376",
     "name": {
       "eng": "Metagross",
+      "chs": "巨金怪",
       "jpn": "メタグロス",
       "jpn_ro": "Metagross"
     },
@@ -11374,6 +11750,7 @@
     "idx": "377",
     "name": {
       "eng": "Regirock",
+      "chs": "雷吉洛克",
       "jpn": "レジロック",
       "jpn_ro": "Regirock"
     },
@@ -11402,6 +11779,7 @@
     "idx": "378",
     "name": {
       "eng": "Regice",
+      "chs": "雷吉艾斯",
       "jpn": "レジアイス",
       "jpn_ro": "Regice"
     },
@@ -11430,6 +11808,7 @@
     "idx": "379",
     "name": {
       "eng": "Registeel",
+      "chs": "雷吉斯奇鲁",
       "jpn": "レジスチル",
       "jpn_ro": "Registeel"
     },
@@ -11458,6 +11837,7 @@
     "idx": "380",
     "name": {
       "eng": "Latias",
+      "chs": "拉帝亚斯",
       "jpn": "ラティアス",
       "jpn_ro": "Latias"
     },
@@ -11493,6 +11873,7 @@
     "idx": "381",
     "name": {
       "eng": "Latios",
+      "chs": "拉帝欧斯",
       "jpn": "ラティオス",
       "jpn_ro": "Latios"
     },
@@ -11528,6 +11909,7 @@
     "idx": "382",
     "name": {
       "eng": "Kyogre",
+      "chs": "盖欧卡",
       "jpn": "カイオーガ",
       "jpn_ro": "Kaiorga"
     },
@@ -11563,6 +11945,7 @@
     "idx": "383",
     "name": {
       "eng": "Groudon",
+      "chs": "固拉多",
       "jpn": "グラードン",
       "jpn_ro": "Groudon"
     },
@@ -11598,6 +11981,7 @@
     "idx": "384",
     "name": {
       "eng": "Rayquaza",
+      "chs": "烈空坐",
       "jpn": "レックウザ",
       "jpn_ro": "Rayquaza"
     },
@@ -11633,6 +12017,7 @@
     "idx": "385",
     "name": {
       "eng": "Jirachi",
+      "chs": "基拉祈",
       "jpn": "ジラーチ",
       "jpn_ro": "Jirachi"
     },
@@ -11661,6 +12046,7 @@
     "idx": "386",
     "name": {
       "eng": "Deoxys",
+      "chs": "代欧奇希斯",
       "jpn": "デオキシス",
       "jpn_ro": "Deoxys"
     },
@@ -11719,6 +12105,7 @@
     "idx": "387",
     "name": {
       "eng": "Turtwig",
+      "chs": "草苗龟",
       "jpn": "ナエトル",
       "jpn_ro": "Naetle"
     },
@@ -11747,6 +12134,7 @@
     "idx": "388",
     "name": {
       "eng": "Grotle",
+      "chs": "树林龟",
       "jpn": "ハヤシガメ",
       "jpn_ro": "Hayashigame"
     },
@@ -11775,6 +12163,7 @@
     "idx": "389",
     "name": {
       "eng": "Torterra",
+      "chs": "土台龟",
       "jpn": "ドダイトス",
       "jpn_ro": "Dodaitose"
     },
@@ -11803,6 +12192,7 @@
     "idx": "390",
     "name": {
       "eng": "Chimchar",
+      "chs": "小火焰猴",
       "jpn": "ヒコザル",
       "jpn_ro": "Hikozaru"
     },
@@ -11831,6 +12221,7 @@
     "idx": "391",
     "name": {
       "eng": "Monferno",
+      "chs": "猛火猴",
       "jpn": "モウカザル",
       "jpn_ro": "Moukazaru"
     },
@@ -11859,6 +12250,7 @@
     "idx": "392",
     "name": {
       "eng": "Infernape",
+      "chs": "烈焰猴",
       "jpn": "ゴウカザル",
       "jpn_ro": "Goukazaru"
     },
@@ -11887,6 +12279,7 @@
     "idx": "393",
     "name": {
       "eng": "Piplup",
+      "chs": "波加曼",
       "jpn": "ポッチャマ",
       "jpn_ro": "Pochama"
     },
@@ -11915,6 +12308,7 @@
     "idx": "394",
     "name": {
       "eng": "Prinplup",
+      "chs": "波皇子",
       "jpn": "ポッタイシ",
       "jpn_ro": "Pottaishi"
     },
@@ -11943,6 +12337,7 @@
     "idx": "395",
     "name": {
       "eng": "Empoleon",
+      "chs": "帝王拿波",
       "jpn": "エンペルト",
       "jpn_ro": "Emperte"
     },
@@ -11971,6 +12366,7 @@
     "idx": "396",
     "name": {
       "eng": "Starly",
+      "chs": "姆克儿",
       "jpn": "ムックル",
       "jpn_ro": "Mukkuru"
     },
@@ -11999,6 +12395,7 @@
     "idx": "397",
     "name": {
       "eng": "Staravia",
+      "chs": "姆克鸟",
       "jpn": "ムクバード",
       "jpn_ro": "Mukubird"
     },
@@ -12027,6 +12424,7 @@
     "idx": "398",
     "name": {
       "eng": "Staraptor",
+      "chs": "姆克鹰",
       "jpn": "ムクホーク",
       "jpn_ro": "Mukuhōku"
     },
@@ -12055,6 +12453,7 @@
     "idx": "399",
     "name": {
       "eng": "Bidoof",
+      "chs": "大牙狸",
       "jpn": "ビッパ",
       "jpn_ro": "Bippa"
     },
@@ -12083,6 +12482,7 @@
     "idx": "400",
     "name": {
       "eng": "Bibarel",
+      "chs": "大尾狸",
       "jpn": "ビーダル",
       "jpn_ro": "Bīdaru"
     },
@@ -12111,6 +12511,7 @@
     "idx": "401",
     "name": {
       "eng": "Kricketot",
+      "chs": "圆法师",
       "jpn": "コロボーシ",
       "jpn_ro": "Korobōshi"
     },
@@ -12139,6 +12540,7 @@
     "idx": "402",
     "name": {
       "eng": "Kricketune",
+      "chs": "音箱蟀",
       "jpn": "コロトック",
       "jpn_ro": "Korotokku"
     },
@@ -12167,6 +12569,7 @@
     "idx": "403",
     "name": {
       "eng": "Shinx",
+      "chs": "小猫怪",
       "jpn": "コリンク",
       "jpn_ro": "Kolink"
     },
@@ -12195,6 +12598,7 @@
     "idx": "404",
     "name": {
       "eng": "Luxio",
+      "chs": "勒克猫",
       "jpn": "ルクシオ",
       "jpn_ro": "Luxio"
     },
@@ -12223,6 +12627,7 @@
     "idx": "405",
     "name": {
       "eng": "Luxray",
+      "chs": "伦琴猫",
       "jpn": "レントラー",
       "jpn_ro": "Rentorar"
     },
@@ -12251,6 +12656,7 @@
     "idx": "406",
     "name": {
       "eng": "Budew",
+      "chs": "含羞苞",
       "jpn": "スボミー",
       "jpn_ro": "Subomie"
     },
@@ -12279,6 +12685,7 @@
     "idx": "407",
     "name": {
       "eng": "Roserade",
+      "chs": "罗丝雷朵",
       "jpn": "ロズレイド",
       "jpn_ro": "Roserade"
     },
@@ -12307,6 +12714,7 @@
     "idx": "408",
     "name": {
       "eng": "Cranidos",
+      "chs": "头盖龙",
       "jpn": "ズガイドス",
       "jpn_ro": "Zugaidos"
     },
@@ -12335,6 +12743,7 @@
     "idx": "409",
     "name": {
       "eng": "Rampardos",
+      "chs": "战槌龙",
       "jpn": "ラムパルド",
       "jpn_ro": "Rampald"
     },
@@ -12363,6 +12772,7 @@
     "idx": "410",
     "name": {
       "eng": "Shieldon",
+      "chs": "盾甲龙",
       "jpn": "タテトプス",
       "jpn_ro": "Tatetopusu"
     },
@@ -12391,6 +12801,7 @@
     "idx": "411",
     "name": {
       "eng": "Bastiodon",
+      "chs": "护城龙",
       "jpn": "トリデプス",
       "jpn_ro": "Torideps"
     },
@@ -12419,6 +12830,7 @@
     "idx": "412",
     "name": {
       "eng": "Burmy",
+      "chs": "结草儿",
       "jpn": "ミノムッチ",
       "jpn_ro": "Minomutchi"
     },
@@ -12470,6 +12882,7 @@
     "idx": "413",
     "name": {
       "eng": "Wormadam",
+      "chs": "结草贵妇",
       "jpn": "ミノマダム",
       "jpn_ro": "Minomadamu"
     },
@@ -12521,6 +12934,7 @@
     "idx": "414",
     "name": {
       "eng": "Mothim",
+      "chs": "绅士蛾",
       "jpn": "ガーメイル",
       "jpn_ro": "Gāmeiru"
     },
@@ -12576,6 +12990,7 @@
     "idx": "415",
     "name": {
       "eng": "Combee",
+      "chs": "三蜜蜂",
       "jpn": "ミツハニー",
       "jpn_ro": "Mitsuhoney"
     },
@@ -12604,6 +13019,7 @@
     "idx": "416",
     "name": {
       "eng": "Vespiquen",
+      "chs": "蜂女王",
       "jpn": "ビークイン",
       "jpn_ro": "Beequen"
     },
@@ -12632,6 +13048,7 @@
     "idx": "417",
     "name": {
       "eng": "Pachirisu",
+      "chs": "帕奇利兹",
       "jpn": "パチリス",
       "jpn_ro": "Pachirisu"
     },
@@ -12660,6 +13077,7 @@
     "idx": "418",
     "name": {
       "eng": "Buizel",
+      "chs": "泳圈鼬",
       "jpn": "ブイゼル",
       "jpn_ro": "Buoysel"
     },
@@ -12688,6 +13106,7 @@
     "idx": "419",
     "name": {
       "eng": "Floatzel",
+      "chs": "浮潜鼬",
       "jpn": "フローゼル",
       "jpn_ro": "Furōzeru"
     },
@@ -12716,6 +13135,7 @@
     "idx": "420",
     "name": {
       "eng": "Cherubi",
+      "chs": "樱花宝",
       "jpn": "チェリンボ",
       "jpn_ro": "Cherinbo"
     },
@@ -12744,6 +13164,7 @@
     "idx": "421",
     "name": {
       "eng": "Cherrim",
+      "chs": "樱花儿",
       "jpn": "チェリム",
       "jpn_ro": "Cherrim"
     },
@@ -12788,6 +13209,7 @@
     "idx": "422",
     "name": {
       "eng": "Shellos",
+      "chs": "无壳海兔",
       "jpn": "カラナクシ",
       "jpn_ro": "Karanakushi"
     },
@@ -12832,6 +13254,7 @@
     "idx": "423",
     "name": {
       "eng": "Gastrodon",
+      "chs": "海兔兽",
       "jpn": "トリトドン",
       "jpn_ro": "Toritodon"
     },
@@ -12876,6 +13299,7 @@
     "idx": "424",
     "name": {
       "eng": "Ambipom",
+      "chs": "双尾怪手",
       "jpn": "エテボース",
       "jpn_ro": "Eteboth"
     },
@@ -12904,6 +13328,7 @@
     "idx": "425",
     "name": {
       "eng": "Drifloon",
+      "chs": "飘飘球",
       "jpn": "フワンテ",
       "jpn_ro": "Fuwante"
     },
@@ -12932,6 +13357,7 @@
     "idx": "426",
     "name": {
       "eng": "Drifblim",
+      "chs": "随风球",
       "jpn": "フワライド",
       "jpn_ro": "Fuwaride"
     },
@@ -12960,6 +13386,7 @@
     "idx": "427",
     "name": {
       "eng": "Buneary",
+      "chs": "卷卷耳",
       "jpn": "ミミロル",
       "jpn_ro": "Mimirol"
     },
@@ -12988,6 +13415,7 @@
     "idx": "428",
     "name": {
       "eng": "Lopunny",
+      "chs": "长耳兔",
       "jpn": "ミミロップ",
       "jpn_ro": "Mimilop"
     },
@@ -13023,6 +13451,7 @@
     "idx": "429",
     "name": {
       "eng": "Mismagius",
+      "chs": "梦妖魔",
       "jpn": "ムウマージ",
       "jpn_ro": "Mumargi"
     },
@@ -13051,6 +13480,7 @@
     "idx": "430",
     "name": {
       "eng": "Honchkrow",
+      "chs": "乌鸦头头",
       "jpn": "ドンカラス",
       "jpn_ro": "Dongkarasu"
     },
@@ -13079,6 +13509,7 @@
     "idx": "431",
     "name": {
       "eng": "Glameow",
+      "chs": "魅力喵",
       "jpn": "ニャルマー",
       "jpn_ro": "Nyarmar"
     },
@@ -13107,6 +13538,7 @@
     "idx": "432",
     "name": {
       "eng": "Purugly",
+      "chs": "东施喵",
       "jpn": "ブニャット",
       "jpn_ro": "Bunyatto"
     },
@@ -13135,6 +13567,7 @@
     "idx": "433",
     "name": {
       "eng": "Chingling",
+      "chs": "铃铛响",
       "jpn": "リーシャン",
       "jpn_ro": "Lisyan"
     },
@@ -13163,6 +13596,7 @@
     "idx": "434",
     "name": {
       "eng": "Stunky",
+      "chs": "臭鼬噗",
       "jpn": "スカンプー",
       "jpn_ro": "Sukanpū"
     },
@@ -13191,6 +13625,7 @@
     "idx": "435",
     "name": {
       "eng": "Skuntank",
+      "chs": "坦克臭鼬",
       "jpn": "スカタンク",
       "jpn_ro": "Skutank"
     },
@@ -13219,6 +13654,7 @@
     "idx": "436",
     "name": {
       "eng": "Bronzor",
+      "chs": "铜镜怪",
       "jpn": "ドーミラー",
       "jpn_ro": "Dōmirā"
     },
@@ -13247,6 +13683,7 @@
     "idx": "437",
     "name": {
       "eng": "Bronzong",
+      "chs": "青铜钟",
       "jpn": "ドータクン",
       "jpn_ro": "Dohtakun"
     },
@@ -13275,6 +13712,7 @@
     "idx": "438",
     "name": {
       "eng": "Bonsly",
+      "chs": "盆才怪",
       "jpn": "ウソハチ",
       "jpn_ro": "Usohachi"
     },
@@ -13303,6 +13741,7 @@
     "idx": "439",
     "name": {
       "eng": "Mime Jr.",
+      "chs": "魔尼尼",
       "jpn": "マネネ",
       "jpn_ro": "Manene"
     },
@@ -13331,6 +13770,7 @@
     "idx": "440",
     "name": {
       "eng": "Happiny",
+      "chs": "小福蛋",
       "jpn": "ピンプク",
       "jpn_ro": "Pinpuku"
     },
@@ -13359,6 +13799,7 @@
     "idx": "441",
     "name": {
       "eng": "Chatot",
+      "chs": "聒噪鸟",
       "jpn": "ペラップ",
       "jpn_ro": "Perap"
     },
@@ -13387,6 +13828,7 @@
     "idx": "442",
     "name": {
       "eng": "Spiritomb",
+      "chs": "花岩怪",
       "jpn": "ミカルゲ",
       "jpn_ro": "Mikaruge"
     },
@@ -13415,6 +13857,7 @@
     "idx": "443",
     "name": {
       "eng": "Gible",
+      "chs": "圆陆鲨",
       "jpn": "フカマル",
       "jpn_ro": "Fukamaru"
     },
@@ -13443,6 +13886,7 @@
     "idx": "444",
     "name": {
       "eng": "Gabite",
+      "chs": "尖牙陆鲨",
       "jpn": "ガバイト",
       "jpn_ro": "Gabite"
     },
@@ -13471,6 +13915,7 @@
     "idx": "445",
     "name": {
       "eng": "Garchomp",
+      "chs": "烈咬陆鲨",
       "jpn": "ガブリアス",
       "jpn_ro": "Gaburias"
     },
@@ -13506,6 +13951,7 @@
     "idx": "446",
     "name": {
       "eng": "Munchlax",
+      "chs": "小卡比兽",
       "jpn": "ゴンベ",
       "jpn_ro": "Gonbe"
     },
@@ -13534,6 +13980,7 @@
     "idx": "447",
     "name": {
       "eng": "Riolu",
+      "chs": "利欧路",
       "jpn": "リオル",
       "jpn_ro": "Riolu"
     },
@@ -13562,6 +14009,7 @@
     "idx": "448",
     "name": {
       "eng": "Lucario",
+      "chs": "路卡利欧",
       "jpn": "ルカリオ",
       "jpn_ro": "Lucario"
     },
@@ -13597,6 +14045,7 @@
     "idx": "449",
     "name": {
       "eng": "Hippopotas",
+      "chs": "沙河马",
       "jpn": "ヒポポタス",
       "jpn_ro": "Hipopotasu"
     },
@@ -13626,6 +14075,7 @@
     "idx": "450",
     "name": {
       "eng": "Hippowdon",
+      "chs": "河马兽",
       "jpn": "カバルドン",
       "jpn_ro": "Kabaldon"
     },
@@ -13655,6 +14105,7 @@
     "idx": "451",
     "name": {
       "eng": "Skorupi",
+      "chs": "钳尾蝎",
       "jpn": "スコルピ",
       "jpn_ro": "Sukorupi"
     },
@@ -13683,6 +14134,7 @@
     "idx": "452",
     "name": {
       "eng": "Drapion",
+      "chs": "龙王蝎",
       "jpn": "ドラピオン",
       "jpn_ro": "Dorapion"
     },
@@ -13711,6 +14163,7 @@
     "idx": "453",
     "name": {
       "eng": "Croagunk",
+      "chs": "不良蛙",
       "jpn": "グレッグル",
       "jpn_ro": "Gureggru"
     },
@@ -13739,6 +14192,7 @@
     "idx": "454",
     "name": {
       "eng": "Toxicroak",
+      "chs": "毒骷蛙",
       "jpn": "ドクロッグ",
       "jpn_ro": "Dokurog"
     },
@@ -13767,6 +14221,7 @@
     "idx": "455",
     "name": {
       "eng": "Carnivine",
+      "chs": "尖牙笼",
       "jpn": "マスキッパ",
       "jpn_ro": "Muskippa"
     },
@@ -13795,6 +14250,7 @@
     "idx": "456",
     "name": {
       "eng": "Finneon",
+      "chs": "荧光鱼",
       "jpn": "ケイコウオ",
       "jpn_ro": "Keikouo"
     },
@@ -13823,6 +14279,7 @@
     "idx": "457",
     "name": {
       "eng": "Lumineon",
+      "chs": "霓虹鱼",
       "jpn": "ネオラント",
       "jpn_ro": "Neolant"
     },
@@ -13851,6 +14308,7 @@
     "idx": "458",
     "name": {
       "eng": "Mantyke",
+      "chs": "小球飞鱼",
       "jpn": "タマンタ",
       "jpn_ro": "Tamanta"
     },
@@ -13879,6 +14337,7 @@
     "idx": "459",
     "name": {
       "eng": "Snover",
+      "chs": "雪笠怪",
       "jpn": "ユキカブリ",
       "jpn_ro": "Yukikaburi"
     },
@@ -13907,6 +14366,7 @@
     "idx": "460",
     "name": {
       "eng": "Abomasnow",
+      "chs": "暴雪王",
       "jpn": "ユキノオー",
       "jpn_ro": "Yukinoō"
     },
@@ -13942,6 +14402,7 @@
     "idx": "461",
     "name": {
       "eng": "Weavile",
+      "chs": "玛狃拉",
       "jpn": "マニューラ",
       "jpn_ro": "Manyula"
     },
@@ -13970,6 +14431,7 @@
     "idx": "462",
     "name": {
       "eng": "Magnezone",
+      "chs": "自爆磁怪",
       "jpn": "ジバコイル",
       "jpn_ro": "Jibakoiru"
     },
@@ -13998,6 +14460,7 @@
     "idx": "463",
     "name": {
       "eng": "Lickilicky",
+      "chs": "大舌舔",
       "jpn": "ベロベルト",
       "jpn_ro": "Berobelt"
     },
@@ -14026,6 +14489,7 @@
     "idx": "464",
     "name": {
       "eng": "Rhyperior",
+      "chs": "超甲狂犀",
       "jpn": "ドサイドン",
       "jpn_ro": "Dosidon"
     },
@@ -14054,6 +14518,7 @@
     "idx": "465",
     "name": {
       "eng": "Tangrowth",
+      "chs": "巨蔓藤",
       "jpn": "モジャンボ",
       "jpn_ro": "Mojumbo"
     },
@@ -14082,6 +14547,7 @@
     "idx": "466",
     "name": {
       "eng": "Electivire",
+      "chs": "电击魔兽",
       "jpn": "エレキブル",
       "jpn_ro": "Elekible"
     },
@@ -14110,6 +14576,7 @@
     "idx": "467",
     "name": {
       "eng": "Magmortar",
+      "chs": "鸭嘴炎兽",
       "jpn": "ブーバーン",
       "jpn_ro": "Booburn"
     },
@@ -14138,6 +14605,7 @@
     "idx": "468",
     "name": {
       "eng": "Togekiss",
+      "chs": "波克基斯",
       "jpn": "トゲキッス",
       "jpn_ro": "Togekiss"
     },
@@ -14166,6 +14634,7 @@
     "idx": "469",
     "name": {
       "eng": "Yanmega",
+      "chs": "远古巨蜓",
       "jpn": "メガヤンマ",
       "jpn_ro": "Megayanma"
     },
@@ -14194,6 +14663,7 @@
     "idx": "470",
     "name": {
       "eng": "Leafeon",
+      "chs": "叶伊布",
       "jpn": "リーフィア",
       "jpn_ro": "Leafia"
     },
@@ -14222,6 +14692,7 @@
     "idx": "471",
     "name": {
       "eng": "Glaceon",
+      "chs": "冰伊布",
       "jpn": "グレイシア",
       "jpn_ro": "Glacia"
     },
@@ -14250,6 +14721,7 @@
     "idx": "472",
     "name": {
       "eng": "Gliscor",
+      "chs": "天蝎王",
       "jpn": "グライオン",
       "jpn_ro": "Glion"
     },
@@ -14278,6 +14750,7 @@
     "idx": "473",
     "name": {
       "eng": "Mamoswine",
+      "chs": "象牙猪",
       "jpn": "マンムー",
       "jpn_ro": "Mammoo"
     },
@@ -14306,6 +14779,7 @@
     "idx": "474",
     "name": {
       "eng": "Porygon-Z",
+      "chs": "多边兽Ｚ",
       "jpn": "ポリゴンZ",
       "jpn_ro": "PorygonZ"
     },
@@ -14334,6 +14808,7 @@
     "idx": "475",
     "name": {
       "eng": "Gallade",
+      "chs": "艾路雷朵",
       "jpn": "エルレイド",
       "jpn_ro": "Erureido"
     },
@@ -14369,6 +14844,7 @@
     "idx": "476",
     "name": {
       "eng": "Probopass",
+      "chs": "大朝北鼻",
       "jpn": "ダイノーズ",
       "jpn_ro": "Dainōzu"
     },
@@ -14397,6 +14873,7 @@
     "idx": "477",
     "name": {
       "eng": "Dusknoir",
+      "chs": "黑夜魔灵",
       "jpn": "ヨノワール",
       "jpn_ro": "Yonoir"
     },
@@ -14425,6 +14902,7 @@
     "idx": "478",
     "name": {
       "eng": "Froslass",
+      "chs": "雪妖女",
       "jpn": "ユキメノコ",
       "jpn_ro": "Yukimenoko"
     },
@@ -14453,6 +14931,7 @@
     "idx": "479",
     "name": {
       "eng": "Rotom",
+      "chs": "洛托姆",
       "jpn": "ロトム",
       "jpn_ro": "Rotom"
     },
@@ -14516,6 +14995,7 @@
     "idx": "480",
     "name": {
       "eng": "Uxie",
+      "chs": "由克希",
       "jpn": "ユクシー",
       "jpn_ro": "Yuxie"
     },
@@ -14544,6 +15024,7 @@
     "idx": "481",
     "name": {
       "eng": "Mesprit",
+      "chs": "艾姆利多",
       "jpn": "エムリット",
       "jpn_ro": "Emrit"
     },
@@ -14572,6 +15053,7 @@
     "idx": "482",
     "name": {
       "eng": "Azelf",
+      "chs": "亚克诺姆",
       "jpn": "アグノム",
       "jpn_ro": "Agnome"
     },
@@ -14600,6 +15082,7 @@
     "idx": "483",
     "name": {
       "eng": "Dialga",
+      "chs": "帝牙卢卡",
       "jpn": "ディアルガ",
       "jpn_ro": "Dialga"
     },
@@ -14628,6 +15111,7 @@
     "idx": "484",
     "name": {
       "eng": "Palkia",
+      "chs": "帕路奇亚",
       "jpn": "パルキア",
       "jpn_ro": "Palkia"
     },
@@ -14656,6 +15140,7 @@
     "idx": "485",
     "name": {
       "eng": "Heatran",
+      "chs": "席多蓝恩",
       "jpn": "ヒードラン",
       "jpn_ro": "Heatran"
     },
@@ -14684,6 +15169,7 @@
     "idx": "486",
     "name": {
       "eng": "Regigigas",
+      "chs": "雷吉奇卡斯",
       "jpn": "レジギガス",
       "jpn_ro": "Regigigas"
     },
@@ -14712,6 +15198,7 @@
     "idx": "487",
     "name": {
       "eng": "Giratina",
+      "chs": "骑拉帝纳",
       "jpn": "ギラティナ",
       "jpn_ro": "Giratina"
     },
@@ -14756,6 +15243,7 @@
     "idx": "488",
     "name": {
       "eng": "Cresselia",
+      "chs": "克雷色利亚",
       "jpn": "クレセリア",
       "jpn_ro": "Crecelia"
     },
@@ -14784,6 +15272,7 @@
     "idx": "489",
     "name": {
       "eng": "Phione",
+      "chs": "霏欧纳",
       "jpn": "フィオネ",
       "jpn_ro": "Phione"
     },
@@ -14812,6 +15301,7 @@
     "idx": "490",
     "name": {
       "eng": "Manaphy",
+      "chs": "玛纳霏",
       "jpn": "マナフィ",
       "jpn_ro": "Manaphy"
     },
@@ -14840,6 +15330,7 @@
     "idx": "491",
     "name": {
       "eng": "Darkrai",
+      "chs": "达克莱伊",
       "jpn": "ダークライ",
       "jpn_ro": "Darkrai"
     },
@@ -14868,6 +15359,7 @@
     "idx": "492",
     "name": {
       "eng": "Shaymin",
+      "chs": "谢米",
       "jpn": "シェイミ",
       "jpn_ro": "Shaymin"
     },
@@ -14912,6 +15404,7 @@
     "idx": "493",
     "name": {
       "eng": "Arceus",
+      "chs": "阿尔宙斯",
       "jpn": "アルセウス",
       "jpn_ro": "Arceus"
     },
@@ -15077,6 +15570,7 @@
     "idx": "494",
     "name": {
       "eng": "Victini",
+      "chs": "比克提尼",
       "jpn": "ビクティニ",
       "jpn_ro": "Victini"
     },
@@ -15105,6 +15599,7 @@
     "idx": "495",
     "name": {
       "eng": "Snivy",
+      "chs": "藤藤蛇",
       "jpn": "ツタージャ",
       "jpn_ro": "Tsutarja"
     },
@@ -15133,6 +15628,7 @@
     "idx": "496",
     "name": {
       "eng": "Servine",
+      "chs": "青藤蛇",
       "jpn": "ジャノビー",
       "jpn_ro": "Janovy"
     },
@@ -15161,6 +15657,7 @@
     "idx": "497",
     "name": {
       "eng": "Serperior",
+      "chs": "君主蛇",
       "jpn": "ジャローダ",
       "jpn_ro": "Jalorda"
     },
@@ -15189,6 +15686,7 @@
     "idx": "498",
     "name": {
       "eng": "Tepig",
+      "chs": "暖暖猪",
       "jpn": "ポカブ",
       "jpn_ro": "Pokabu"
     },
@@ -15217,6 +15715,7 @@
     "idx": "499",
     "name": {
       "eng": "Pignite",
+      "chs": "炒炒猪",
       "jpn": "チャオブー",
       "jpn_ro": "Chaoboo"
     },
@@ -15245,6 +15744,7 @@
     "idx": "500",
     "name": {
       "eng": "Emboar",
+      "chs": "炎武王",
       "jpn": "エンブオー",
       "jpn_ro": "Enbuoh"
     },
@@ -15273,6 +15773,7 @@
     "idx": "501",
     "name": {
       "eng": "Oshawott",
+      "chs": "水水獭",
       "jpn": "ミジュマル",
       "jpn_ro": "Mijumaru"
     },
@@ -15301,6 +15802,7 @@
     "idx": "502",
     "name": {
       "eng": "Dewott",
+      "chs": "双刃丸",
       "jpn": "フタチマル",
       "jpn_ro": "Futachimaru"
     },
@@ -15329,6 +15831,7 @@
     "idx": "503",
     "name": {
       "eng": "Samurott",
+      "chs": "大剑鬼",
       "jpn": "ダイケンキ",
       "jpn_ro": "Daikenki"
     },
@@ -15357,6 +15860,7 @@
     "idx": "504",
     "name": {
       "eng": "Patrat",
+      "chs": "探探鼠",
       "jpn": "ミネズミ",
       "jpn_ro": "Minezumi"
     },
@@ -15385,6 +15889,7 @@
     "idx": "505",
     "name": {
       "eng": "Watchog",
+      "chs": "步哨鼠",
       "jpn": "ミルホッグ",
       "jpn_ro": "Miruhog"
     },
@@ -15413,6 +15918,7 @@
     "idx": "506",
     "name": {
       "eng": "Lillipup",
+      "chs": "小约克",
       "jpn": "ヨーテリー",
       "jpn_ro": "Yorterrie"
     },
@@ -15441,6 +15947,7 @@
     "idx": "507",
     "name": {
       "eng": "Herdier",
+      "chs": "哈约克",
       "jpn": "ハーデリア",
       "jpn_ro": "Herderrie"
     },
@@ -15469,6 +15976,7 @@
     "idx": "508",
     "name": {
       "eng": "Stoutland",
+      "chs": "长毛狗",
       "jpn": "ムーランド",
       "jpn_ro": "Mooland"
     },
@@ -15497,6 +16005,7 @@
     "idx": "509",
     "name": {
       "eng": "Purrloin",
+      "chs": "扒手猫",
       "jpn": "チョロネコ",
       "jpn_ro": "Choroneko"
     },
@@ -15525,6 +16034,7 @@
     "idx": "510",
     "name": {
       "eng": "Liepard",
+      "chs": "酷豹",
       "jpn": "レパルダス",
       "jpn_ro": "Lepardas"
     },
@@ -15553,6 +16063,7 @@
     "idx": "511",
     "name": {
       "eng": "Pansage",
+      "chs": "花椰猴",
       "jpn": "ヤナップ",
       "jpn_ro": "Yanappu"
     },
@@ -15581,6 +16092,7 @@
     "idx": "512",
     "name": {
       "eng": "Simisage",
+      "chs": "花椰猿",
       "jpn": "ヤナッキー",
       "jpn_ro": "Yanakkie"
     },
@@ -15609,6 +16121,7 @@
     "idx": "513",
     "name": {
       "eng": "Pansear",
+      "chs": "爆香猴",
       "jpn": "バオップ",
       "jpn_ro": "Baoppu"
     },
@@ -15637,6 +16150,7 @@
     "idx": "514",
     "name": {
       "eng": "Simisear",
+      "chs": "爆香猿",
       "jpn": "バオッキー",
       "jpn_ro": "Baokkie"
     },
@@ -15665,6 +16179,7 @@
     "idx": "515",
     "name": {
       "eng": "Panpour",
+      "chs": "冷水猴",
       "jpn": "ヒヤップ",
       "jpn_ro": "Hiyappu"
     },
@@ -15693,6 +16208,7 @@
     "idx": "516",
     "name": {
       "eng": "Simipour",
+      "chs": "冷水猿",
       "jpn": "ヒヤッキー",
       "jpn_ro": "Hiyakkie"
     },
@@ -15721,6 +16237,7 @@
     "idx": "517",
     "name": {
       "eng": "Munna",
+      "chs": "食梦梦",
       "jpn": "ムンナ",
       "jpn_ro": "Munna"
     },
@@ -15749,6 +16266,7 @@
     "idx": "518",
     "name": {
       "eng": "Musharna",
+      "chs": "梦梦蚀",
       "jpn": "ムシャーナ",
       "jpn_ro": "Musharna"
     },
@@ -15777,6 +16295,7 @@
     "idx": "519",
     "name": {
       "eng": "Pidove",
+      "chs": "豆豆鸽",
       "jpn": "マメパト",
       "jpn_ro": "Mamepato"
     },
@@ -15805,6 +16324,7 @@
     "idx": "520",
     "name": {
       "eng": "Tranquill",
+      "chs": "咕咕鸽",
       "jpn": "ハトーボー",
       "jpn_ro": "Hatoboh"
     },
@@ -15833,6 +16353,7 @@
     "idx": "521",
     "name": {
       "eng": "Unfezant",
+      "chs": "高傲雉鸡",
       "jpn": "ケンホロウ",
       "jpn_ro": "Kenhallow"
     },
@@ -15862,6 +16383,7 @@
     "idx": "522",
     "name": {
       "eng": "Blitzle",
+      "chs": "斑斑马",
       "jpn": "シママ",
       "jpn_ro": "Shimama"
     },
@@ -15890,6 +16412,7 @@
     "idx": "523",
     "name": {
       "eng": "Zebstrika",
+      "chs": "雷电斑马",
       "jpn": "ゼブライカ",
       "jpn_ro": "Zebraika"
     },
@@ -15918,6 +16441,7 @@
     "idx": "524",
     "name": {
       "eng": "Roggenrola",
+      "chs": "石丸子",
       "jpn": "ダンゴロ",
       "jpn_ro": "Dangoro"
     },
@@ -15946,6 +16470,7 @@
     "idx": "525",
     "name": {
       "eng": "Boldore",
+      "chs": "地幔岩",
       "jpn": "ガントル",
       "jpn_ro": "Gantle"
     },
@@ -15974,6 +16499,7 @@
     "idx": "526",
     "name": {
       "eng": "Gigalith",
+      "chs": "庞岩怪",
       "jpn": "ギガイアス",
       "jpn_ro": "Gigaiath"
     },
@@ -16002,6 +16528,7 @@
     "idx": "527",
     "name": {
       "eng": "Woobat",
+      "chs": "滚滚蝙蝠",
       "jpn": "コロモリ",
       "jpn_ro": "Koromori"
     },
@@ -16030,6 +16557,7 @@
     "idx": "528",
     "name": {
       "eng": "Swoobat",
+      "chs": "心蝙蝠",
       "jpn": "ココロモリ",
       "jpn_ro": "Kokoromori"
     },
@@ -16058,6 +16586,7 @@
     "idx": "529",
     "name": {
       "eng": "Drilbur",
+      "chs": "螺钉地鼠",
       "jpn": "モグリュー",
       "jpn_ro": "Mogurew"
     },
@@ -16086,6 +16615,7 @@
     "idx": "530",
     "name": {
       "eng": "Excadrill",
+      "chs": "龙头地鼠",
       "jpn": "ドリュウズ",
       "jpn_ro": "Doryuzu"
     },
@@ -16114,6 +16644,7 @@
     "idx": "531",
     "name": {
       "eng": "Audino",
+      "chs": "差不多娃娃",
       "jpn": "タブンネ",
       "jpn_ro": "Tabunne"
     },
@@ -16149,6 +16680,7 @@
     "idx": "532",
     "name": {
       "eng": "Timburr",
+      "chs": "搬运小匠",
       "jpn": "ドッコラー",
       "jpn_ro": "Dokkorer"
     },
@@ -16177,6 +16709,7 @@
     "idx": "533",
     "name": {
       "eng": "Gurdurr",
+      "chs": "铁骨土人",
       "jpn": "ドテッコツ",
       "jpn_ro": "Dotekkotsu"
     },
@@ -16205,6 +16738,7 @@
     "idx": "534",
     "name": {
       "eng": "Conkeldurr",
+      "chs": "修建老匠",
       "jpn": "ローブシン",
       "jpn_ro": "Roubushin"
     },
@@ -16233,6 +16767,7 @@
     "idx": "535",
     "name": {
       "eng": "Tympole",
+      "chs": "圆蝌蚪",
       "jpn": "オタマロ",
       "jpn_ro": "Otamaro"
     },
@@ -16261,6 +16796,7 @@
     "idx": "536",
     "name": {
       "eng": "Palpitoad",
+      "chs": "蓝蟾蜍",
       "jpn": "ガマガル",
       "jpn_ro": "Gamagaru"
     },
@@ -16289,6 +16825,7 @@
     "idx": "537",
     "name": {
       "eng": "Seismitoad",
+      "chs": "蟾蜍王",
       "jpn": "ガマゲロゲ",
       "jpn_ro": "Gamageroge"
     },
@@ -16317,6 +16854,7 @@
     "idx": "538",
     "name": {
       "eng": "Throh",
+      "chs": "投摔鬼",
       "jpn": "ナゲキ",
       "jpn_ro": "Nageki"
     },
@@ -16345,6 +16883,7 @@
     "idx": "539",
     "name": {
       "eng": "Sawk",
+      "chs": "打击鬼",
       "jpn": "ダゲキ",
       "jpn_ro": "Dageki"
     },
@@ -16373,6 +16912,7 @@
     "idx": "540",
     "name": {
       "eng": "Sewaddle",
+      "chs": "虫宝包",
       "jpn": "クルミル",
       "jpn_ro": "Kurumiru"
     },
@@ -16401,6 +16941,7 @@
     "idx": "541",
     "name": {
       "eng": "Swadloon",
+      "chs": "宝包茧",
       "jpn": "クルマユ",
       "jpn_ro": "Kurumayu"
     },
@@ -16429,6 +16970,7 @@
     "idx": "542",
     "name": {
       "eng": "Leavanny",
+      "chs": "保姆虫",
       "jpn": "ハハコモリ",
       "jpn_ro": "Hahakomori"
     },
@@ -16457,6 +16999,7 @@
     "idx": "543",
     "name": {
       "eng": "Venipede",
+      "chs": "百足蜈蚣",
       "jpn": "フシデ",
       "jpn_ro": "Fushide"
     },
@@ -16485,6 +17028,7 @@
     "idx": "544",
     "name": {
       "eng": "Whirlipede",
+      "chs": "车轮球",
       "jpn": "ホイーガ",
       "jpn_ro": "Wheega"
     },
@@ -16513,6 +17057,7 @@
     "idx": "545",
     "name": {
       "eng": "Scolipede",
+      "chs": "蜈蚣王",
       "jpn": "ペンドラー",
       "jpn_ro": "Pendror"
     },
@@ -16541,6 +17086,7 @@
     "idx": "546",
     "name": {
       "eng": "Cottonee",
+      "chs": "木棉球",
       "jpn": "モンメン",
       "jpn_ro": "Monmen"
     },
@@ -16569,6 +17115,7 @@
     "idx": "547",
     "name": {
       "eng": "Whimsicott",
+      "chs": "风妖精",
       "jpn": "エルフーン",
       "jpn_ro": "Elfuun"
     },
@@ -16597,6 +17144,7 @@
     "idx": "548",
     "name": {
       "eng": "Petilil",
+      "chs": "百合根娃娃",
       "jpn": "チュリネ",
       "jpn_ro": "Churine"
     },
@@ -16625,6 +17173,7 @@
     "idx": "549",
     "name": {
       "eng": "Lilligant",
+      "chs": "裙儿小姐",
       "jpn": "ドレディア",
       "jpn_ro": "Dredear"
     },
@@ -16653,6 +17202,7 @@
     "idx": "550",
     "name": {
       "eng": "Basculin",
+      "chs": "野蛮鲈鱼",
       "jpn": "バスラオ",
       "jpn_ro": "Bassrao"
     },
@@ -16697,6 +17247,7 @@
     "idx": "551",
     "name": {
       "eng": "Sandile",
+      "chs": "黑眼鳄",
       "jpn": "メグロコ",
       "jpn_ro": "Meguroco"
     },
@@ -16725,6 +17276,7 @@
     "idx": "552",
     "name": {
       "eng": "Krokorok",
+      "chs": "混混鳄",
       "jpn": "ワルビル",
       "jpn_ro": "Waruvile"
     },
@@ -16753,6 +17305,7 @@
     "idx": "553",
     "name": {
       "eng": "Krookodile",
+      "chs": "流氓鳄",
       "jpn": "ワルビアル",
       "jpn_ro": "Waruvial"
     },
@@ -16781,6 +17334,7 @@
     "idx": "554",
     "name": {
       "eng": "Darumaka",
+      "chs": "火红不倒翁",
       "jpn": "ダルマッカ",
       "jpn_ro": "Darumakka"
     },
@@ -16812,6 +17366,7 @@
     "idx": "555",
     "name": {
       "eng": "Darmanitan",
+      "chs": "达摩狒狒",
       "jpn": "ヒヒダルマ",
       "jpn_ro": "Hihidaruma"
     },
@@ -16862,6 +17417,7 @@
     "idx": "556",
     "name": {
       "eng": "Maractus",
+      "chs": "沙铃仙人掌",
       "jpn": "マラカッチ",
       "jpn_ro": "Maracacchi"
     },
@@ -16890,6 +17446,7 @@
     "idx": "557",
     "name": {
       "eng": "Dwebble",
+      "chs": "石居蟹",
       "jpn": "イシズマイ",
       "jpn_ro": "Ishizumai"
     },
@@ -16918,6 +17475,7 @@
     "idx": "558",
     "name": {
       "eng": "Crustle",
+      "chs": "岩殿居蟹",
       "jpn": "イワパレス",
       "jpn_ro": "Iwapalace"
     },
@@ -16946,6 +17504,7 @@
     "idx": "559",
     "name": {
       "eng": "Scraggy",
+      "chs": "滑滑小子",
       "jpn": "ズルッグ",
       "jpn_ro": "Zuruggu"
     },
@@ -16974,6 +17533,7 @@
     "idx": "560",
     "name": {
       "eng": "Scrafty",
+      "chs": "头巾混混",
       "jpn": "ズルズキン",
       "jpn_ro": "Zuruzukin"
     },
@@ -17002,6 +17562,7 @@
     "idx": "561",
     "name": {
       "eng": "Sigilyph",
+      "chs": "象征鸟",
       "jpn": "シンボラー",
       "jpn_ro": "Symboler"
     },
@@ -17030,6 +17591,7 @@
     "idx": "562",
     "name": {
       "eng": "Yamask",
+      "chs": "哭哭面具",
       "jpn": "デスマス",
       "jpn_ro": "Desumasu"
     },
@@ -17061,6 +17623,7 @@
     "idx": "563",
     "name": {
       "eng": "Cofagrigus",
+      "chs": "死神棺",
       "jpn": "デスカーン",
       "jpn_ro": "Desukarn"
     },
@@ -17089,6 +17652,7 @@
     "idx": "564",
     "name": {
       "eng": "Tirtouga",
+      "chs": "原盖海龟",
       "jpn": "プロトーガ",
       "jpn_ro": "Protoga"
     },
@@ -17117,6 +17681,7 @@
     "idx": "565",
     "name": {
       "eng": "Carracosta",
+      "chs": "肋骨海龟",
       "jpn": "アバゴーラ",
       "jpn_ro": "Abagoura"
     },
@@ -17145,6 +17710,7 @@
     "idx": "566",
     "name": {
       "eng": "Archen",
+      "chs": "始祖小鸟",
       "jpn": "アーケン",
       "jpn_ro": "Archen"
     },
@@ -17173,6 +17739,7 @@
     "idx": "567",
     "name": {
       "eng": "Archeops",
+      "chs": "始祖大鸟",
       "jpn": "アーケオス",
       "jpn_ro": "Archeos"
     },
@@ -17201,6 +17768,7 @@
     "idx": "568",
     "name": {
       "eng": "Trubbish",
+      "chs": "破破袋",
       "jpn": "ヤブクロン",
       "jpn_ro": "Yabukuron"
     },
@@ -17229,6 +17797,7 @@
     "idx": "569",
     "name": {
       "eng": "Garbodor",
+      "chs": "灰尘山",
       "jpn": "ダストダス",
       "jpn_ro": "Dustdas"
     },
@@ -17260,6 +17829,7 @@
     "idx": "570",
     "name": {
       "eng": "Zorua",
+      "chs": "索罗亚",
       "jpn": "ゾロア",
       "jpn_ro": "Zorua"
     },
@@ -17288,6 +17858,7 @@
     "idx": "571",
     "name": {
       "eng": "Zoroark",
+      "chs": "索罗亚克",
       "jpn": "ゾロアーク",
       "jpn_ro": "Zoroark"
     },
@@ -17316,6 +17887,7 @@
     "idx": "572",
     "name": {
       "eng": "Minccino",
+      "chs": "泡沫栗鼠",
       "jpn": "チラーミィ",
       "jpn_ro": "Chillarmy"
     },
@@ -17344,6 +17916,7 @@
     "idx": "573",
     "name": {
       "eng": "Cinccino",
+      "chs": "奇诺栗鼠",
       "jpn": "チラチーノ",
       "jpn_ro": "Chillaccino"
     },
@@ -17372,6 +17945,7 @@
     "idx": "574",
     "name": {
       "eng": "Gothita",
+      "chs": "哥德宝宝",
       "jpn": "ゴチム",
       "jpn_ro": "Gothimu"
     },
@@ -17400,6 +17974,7 @@
     "idx": "575",
     "name": {
       "eng": "Gothorita",
+      "chs": "哥德小童",
       "jpn": "ゴチミル",
       "jpn_ro": "Gothimiru"
     },
@@ -17428,6 +18003,7 @@
     "idx": "576",
     "name": {
       "eng": "Gothitelle",
+      "chs": "哥德小姐",
       "jpn": "ゴチルゼル",
       "jpn_ro": "Gothiruselle"
     },
@@ -17456,6 +18032,7 @@
     "idx": "577",
     "name": {
       "eng": "Solosis",
+      "chs": "单卵细胞球",
       "jpn": "ユニラン",
       "jpn_ro": "Uniran"
     },
@@ -17484,6 +18061,7 @@
     "idx": "578",
     "name": {
       "eng": "Duosion",
+      "chs": "双卵细胞球",
       "jpn": "ダブラン",
       "jpn_ro": "Doublan"
     },
@@ -17512,6 +18090,7 @@
     "idx": "579",
     "name": {
       "eng": "Reuniclus",
+      "chs": "人造细胞卵",
       "jpn": "ランクルス",
       "jpn_ro": "Lanculus"
     },
@@ -17540,6 +18119,7 @@
     "idx": "580",
     "name": {
       "eng": "Ducklett",
+      "chs": "鸭宝宝",
       "jpn": "コアルヒー",
       "jpn_ro": "Koaruhie"
     },
@@ -17568,6 +18148,7 @@
     "idx": "581",
     "name": {
       "eng": "Swanna",
+      "chs": "舞天鹅",
       "jpn": "スワンナ",
       "jpn_ro": "Swanna"
     },
@@ -17596,6 +18177,7 @@
     "idx": "582",
     "name": {
       "eng": "Vanillite",
+      "chs": "迷你冰",
       "jpn": "バニプッチ",
       "jpn_ro": "Vanipeti"
     },
@@ -17624,6 +18206,7 @@
     "idx": "583",
     "name": {
       "eng": "Vanillish",
+      "chs": "多多冰",
       "jpn": "バニリッチ",
       "jpn_ro": "Vanirich"
     },
@@ -17652,6 +18235,7 @@
     "idx": "584",
     "name": {
       "eng": "Vanilluxe",
+      "chs": "双倍多多冰",
       "jpn": "バイバニラ",
       "jpn_ro": "Baivanilla"
     },
@@ -17680,6 +18264,7 @@
     "idx": "585",
     "name": {
       "eng": "Deerling",
+      "chs": "四季鹿",
       "jpn": "シキジカ",
       "jpn_ro": "Shikijika"
     },
@@ -17738,6 +18323,7 @@
     "idx": "586",
     "name": {
       "eng": "Sawsbuck",
+      "chs": "萌芽鹿",
       "jpn": "メブキジカ",
       "jpn_ro": "Mebukijika"
     },
@@ -17796,6 +18382,7 @@
     "idx": "587",
     "name": {
       "eng": "Emolga",
+      "chs": "电飞鼠",
       "jpn": "エモンガ",
       "jpn_ro": "Emonga"
     },
@@ -17824,6 +18411,7 @@
     "idx": "588",
     "name": {
       "eng": "Karrablast",
+      "chs": "盖盖虫",
       "jpn": "カブルモ",
       "jpn_ro": "Kaburumo"
     },
@@ -17852,6 +18440,7 @@
     "idx": "589",
     "name": {
       "eng": "Escavalier",
+      "chs": "骑士蜗牛",
       "jpn": "シュバルゴ",
       "jpn_ro": "Chevargo"
     },
@@ -17880,6 +18469,7 @@
     "idx": "590",
     "name": {
       "eng": "Foongus",
+      "chs": "哎呀球菇",
       "jpn": "タマゲタケ",
       "jpn_ro": "Tamagetake"
     },
@@ -17908,6 +18498,7 @@
     "idx": "591",
     "name": {
       "eng": "Amoonguss",
+      "chs": "败露球菇",
       "jpn": "モロバレル",
       "jpn_ro": "Morobareru"
     },
@@ -17936,6 +18527,7 @@
     "idx": "592",
     "name": {
       "eng": "Frillish",
+      "chs": "轻飘飘",
       "jpn": "プルリル",
       "jpn_ro": "Pururill"
     },
@@ -17965,6 +18557,7 @@
     "idx": "593",
     "name": {
       "eng": "Jellicent",
+      "chs": "胖嘟嘟",
       "jpn": "ブルンゲル",
       "jpn_ro": "Burungel"
     },
@@ -17994,6 +18587,7 @@
     "idx": "594",
     "name": {
       "eng": "Alomomola",
+      "chs": "保姆曼波",
       "jpn": "ママンボウ",
       "jpn_ro": "Mamanbou"
     },
@@ -18022,6 +18616,7 @@
     "idx": "595",
     "name": {
       "eng": "Joltik",
+      "chs": "电电虫",
       "jpn": "バチュル",
       "jpn_ro": "Bachuru"
     },
@@ -18050,6 +18645,7 @@
     "idx": "596",
     "name": {
       "eng": "Galvantula",
+      "chs": "电蜘蛛",
       "jpn": "デンチュラ",
       "jpn_ro": "Dentula"
     },
@@ -18078,6 +18674,7 @@
     "idx": "597",
     "name": {
       "eng": "Ferroseed",
+      "chs": "种子铁球",
       "jpn": "テッシード",
       "jpn_ro": "Tesseed"
     },
@@ -18106,6 +18703,7 @@
     "idx": "598",
     "name": {
       "eng": "Ferrothorn",
+      "chs": "坚果哑铃",
       "jpn": "ナットレイ",
       "jpn_ro": "Nutrey"
     },
@@ -18134,6 +18732,7 @@
     "idx": "599",
     "name": {
       "eng": "Klink",
+      "chs": "齿轮儿",
       "jpn": "ギアル",
       "jpn_ro": "Giaru"
     },
@@ -18162,6 +18761,7 @@
     "idx": "600",
     "name": {
       "eng": "Klang",
+      "chs": "齿轮组",
       "jpn": "ギギアル",
       "jpn_ro": "Gigiaru"
     },
@@ -18190,6 +18790,7 @@
     "idx": "601",
     "name": {
       "eng": "Klinklang",
+      "chs": "齿轮怪",
       "jpn": "ギギギアル",
       "jpn_ro": "Gigigiaru"
     },
@@ -18218,6 +18819,7 @@
     "idx": "602",
     "name": {
       "eng": "Tynamo",
+      "chs": "麻麻小鱼",
       "jpn": "シビシラス",
       "jpn_ro": "Shibishirasu"
     },
@@ -18246,6 +18848,7 @@
     "idx": "603",
     "name": {
       "eng": "Eelektrik",
+      "chs": "麻麻鳗",
       "jpn": "シビビール",
       "jpn_ro": "Shibibeel"
     },
@@ -18274,6 +18877,7 @@
     "idx": "604",
     "name": {
       "eng": "Eelektross",
+      "chs": "麻麻鳗鱼王",
       "jpn": "シビルドン",
       "jpn_ro": "Shibirudon"
     },
@@ -18302,6 +18906,7 @@
     "idx": "605",
     "name": {
       "eng": "Elgyem",
+      "chs": "小灰怪",
       "jpn": "リグレー",
       "jpn_ro": "Ligray"
     },
@@ -18330,6 +18935,7 @@
     "idx": "606",
     "name": {
       "eng": "Beheeyem",
+      "chs": "大宇怪",
       "jpn": "オーベム",
       "jpn_ro": "Ohbem"
     },
@@ -18358,6 +18964,7 @@
     "idx": "607",
     "name": {
       "eng": "Litwick",
+      "chs": "烛光灵",
       "jpn": "ヒトモシ",
       "jpn_ro": "Hitomoshi"
     },
@@ -18386,6 +18993,7 @@
     "idx": "608",
     "name": {
       "eng": "Lampent",
+      "chs": "灯火幽灵",
       "jpn": "ランプラー",
       "jpn_ro": "Lampler"
     },
@@ -18414,6 +19022,7 @@
     "idx": "609",
     "name": {
       "eng": "Chandelure",
+      "chs": "水晶灯火灵",
       "jpn": "シャンデラ",
       "jpn_ro": "Chandela"
     },
@@ -18442,6 +19051,7 @@
     "idx": "610",
     "name": {
       "eng": "Axew",
+      "chs": "牙牙",
       "jpn": "キバゴ",
       "jpn_ro": "Kibago"
     },
@@ -18470,6 +19080,7 @@
     "idx": "611",
     "name": {
       "eng": "Fraxure",
+      "chs": "斧牙龙",
       "jpn": "オノンド",
       "jpn_ro": "Onondo"
     },
@@ -18498,6 +19109,7 @@
     "idx": "612",
     "name": {
       "eng": "Haxorus",
+      "chs": "双斧战龙",
       "jpn": "オノノクス",
       "jpn_ro": "Ononokus"
     },
@@ -18526,6 +19138,7 @@
     "idx": "613",
     "name": {
       "eng": "Cubchoo",
+      "chs": "喷嚏熊",
       "jpn": "クマシュン",
       "jpn_ro": "Kumasyun"
     },
@@ -18554,6 +19167,7 @@
     "idx": "614",
     "name": {
       "eng": "Beartic",
+      "chs": "冻原熊",
       "jpn": "ツンベアー",
       "jpn_ro": "Tunbear"
     },
@@ -18582,6 +19196,7 @@
     "idx": "615",
     "name": {
       "eng": "Cryogonal",
+      "chs": "几何雪花",
       "jpn": "フリージオ",
       "jpn_ro": "Freegeo"
     },
@@ -18610,6 +19225,7 @@
     "idx": "616",
     "name": {
       "eng": "Shelmet",
+      "chs": "小嘴蜗",
       "jpn": "チョボマキ",
       "jpn_ro": "Chobomaki"
     },
@@ -18638,6 +19254,7 @@
     "idx": "617",
     "name": {
       "eng": "Accelgor",
+      "chs": "敏捷虫",
       "jpn": "アギルダー",
       "jpn_ro": "Agilder"
     },
@@ -18666,6 +19283,7 @@
     "idx": "618",
     "name": {
       "eng": "Stunfisk",
+      "chs": "泥巴鱼",
       "jpn": "マッギョ",
       "jpn_ro": "Maggyo"
     },
@@ -18697,6 +19315,7 @@
     "idx": "619",
     "name": {
       "eng": "Mienfoo",
+      "chs": "功夫鼬",
       "jpn": "コジョフー",
       "jpn_ro": "Kojofu"
     },
@@ -18725,6 +19344,7 @@
     "idx": "620",
     "name": {
       "eng": "Mienshao",
+      "chs": "师父鼬",
       "jpn": "コジョンド",
       "jpn_ro": "Kojondo"
     },
@@ -18753,6 +19373,7 @@
     "idx": "621",
     "name": {
       "eng": "Druddigon",
+      "chs": "赤面龙",
       "jpn": "クリムガン",
       "jpn_ro": "Crimgan"
     },
@@ -18781,6 +19402,7 @@
     "idx": "622",
     "name": {
       "eng": "Golett",
+      "chs": "泥偶小人",
       "jpn": "ゴビット",
       "jpn_ro": "Gobit"
     },
@@ -18809,6 +19431,7 @@
     "idx": "623",
     "name": {
       "eng": "Golurk",
+      "chs": "泥偶巨人",
       "jpn": "ゴルーグ",
       "jpn_ro": "Goloog"
     },
@@ -18837,6 +19460,7 @@
     "idx": "624",
     "name": {
       "eng": "Pawniard",
+      "chs": "驹刀小兵",
       "jpn": "コマタナ",
       "jpn_ro": "Komatana"
     },
@@ -18865,6 +19489,7 @@
     "idx": "625",
     "name": {
       "eng": "Bisharp",
+      "chs": "劈斩司令",
       "jpn": "キリキザン",
       "jpn_ro": "Kirikizan"
     },
@@ -18893,6 +19518,7 @@
     "idx": "626",
     "name": {
       "eng": "Bouffalant",
+      "chs": "爆炸头水牛",
       "jpn": "バッフロン",
       "jpn_ro": "Buffron"
     },
@@ -18921,6 +19547,7 @@
     "idx": "627",
     "name": {
       "eng": "Rufflet",
+      "chs": "毛头小鹰",
       "jpn": "ワシボン",
       "jpn_ro": "Washibon"
     },
@@ -18949,6 +19576,7 @@
     "idx": "628",
     "name": {
       "eng": "Braviary",
+      "chs": "勇士雄鹰",
       "jpn": "ウォーグル",
       "jpn_ro": "Warrgle"
     },
@@ -18977,6 +19605,7 @@
     "idx": "629",
     "name": {
       "eng": "Vullaby",
+      "chs": "秃鹰丫头",
       "jpn": "バルチャイ",
       "jpn_ro": "Valchai"
     },
@@ -19005,6 +19634,7 @@
     "idx": "630",
     "name": {
       "eng": "Mandibuzz",
+      "chs": "秃鹰娜",
       "jpn": "バルジーナ",
       "jpn_ro": "Vulgina"
     },
@@ -19033,6 +19663,7 @@
     "idx": "631",
     "name": {
       "eng": "Heatmor",
+      "chs": "熔蚁兽",
       "jpn": "クイタラン",
       "jpn_ro": "Kuitaran"
     },
@@ -19061,6 +19692,7 @@
     "idx": "632",
     "name": {
       "eng": "Durant",
+      "chs": "铁蚁",
       "jpn": "アイアント",
       "jpn_ro": "Aiant"
     },
@@ -19089,6 +19721,7 @@
     "idx": "633",
     "name": {
       "eng": "Deino",
+      "chs": "单首龙",
       "jpn": "モノズ",
       "jpn_ro": "Monozu"
     },
@@ -19117,6 +19750,7 @@
     "idx": "634",
     "name": {
       "eng": "Zweilous",
+      "chs": "双首暴龙",
       "jpn": "ジヘッド",
       "jpn_ro": "Dihead"
     },
@@ -19145,6 +19779,7 @@
     "idx": "635",
     "name": {
       "eng": "Hydreigon",
+      "chs": "三首恶龙",
       "jpn": "サザンドラ",
       "jpn_ro": "Sazandora"
     },
@@ -19173,6 +19808,7 @@
     "idx": "636",
     "name": {
       "eng": "Larvesta",
+      "chs": "燃烧虫",
       "jpn": "メラルバ",
       "jpn_ro": "Merlarva"
     },
@@ -19201,6 +19837,7 @@
     "idx": "637",
     "name": {
       "eng": "Volcarona",
+      "chs": "火神蛾",
       "jpn": "ウルガモス",
       "jpn_ro": "Ulgamoth"
     },
@@ -19229,6 +19866,7 @@
     "idx": "638",
     "name": {
       "eng": "Cobalion",
+      "chs": "勾帕路翁",
       "jpn": "コバルオン",
       "jpn_ro": "Cobalon"
     },
@@ -19257,6 +19895,7 @@
     "idx": "639",
     "name": {
       "eng": "Terrakion",
+      "chs": "代拉基翁",
       "jpn": "テラキオン",
       "jpn_ro": "Terrakion"
     },
@@ -19285,6 +19924,7 @@
     "idx": "640",
     "name": {
       "eng": "Virizion",
+      "chs": "毕力吉翁",
       "jpn": "ビリジオン",
       "jpn_ro": "Virizion"
     },
@@ -19313,6 +19953,7 @@
     "idx": "641",
     "name": {
       "eng": "Tornadus",
+      "chs": "龙卷云",
       "jpn": "トルネロス",
       "jpn_ro": "Tornelos"
     },
@@ -19357,6 +19998,7 @@
     "idx": "642",
     "name": {
       "eng": "Thundurus",
+      "chs": "雷电云",
       "jpn": "ボルトロス",
       "jpn_ro": "Voltolos"
     },
@@ -19401,6 +20043,7 @@
     "idx": "643",
     "name": {
       "eng": "Reshiram",
+      "chs": "莱希拉姆",
       "jpn": "レシラム",
       "jpn_ro": "Reshiram"
     },
@@ -19429,6 +20072,7 @@
     "idx": "644",
     "name": {
       "eng": "Zekrom",
+      "chs": "捷克罗姆",
       "jpn": "ゼクロム",
       "jpn_ro": "Zekrom"
     },
@@ -19457,6 +20101,7 @@
     "idx": "645",
     "name": {
       "eng": "Landorus",
+      "chs": "土地云",
       "jpn": "ランドロス",
       "jpn_ro": "Landlos"
     },
@@ -19501,6 +20146,7 @@
     "idx": "646",
     "name": {
       "eng": "Kyurem",
+      "chs": "酋雷姆",
       "jpn": "キュレム",
       "jpn_ro": "Kyurem"
     },
@@ -19543,6 +20189,7 @@
     "idx": "647",
     "name": {
       "eng": "Keldeo",
+      "chs": "凯路迪欧",
       "jpn": "ケルディオ",
       "jpn_ro": "Keldeo"
     },
@@ -19587,6 +20234,7 @@
     "idx": "648",
     "name": {
       "eng": "Meloetta",
+      "chs": "美洛耶塔",
       "jpn": "メロエッタ",
       "jpn_ro": "Meloetta"
     },
@@ -19631,6 +20279,7 @@
     "idx": "649",
     "name": {
       "eng": "Genesect",
+      "chs": "盖诺赛克特",
       "jpn": "ゲノセクト",
       "jpn_ro": "Genesect"
     },
@@ -19694,6 +20343,7 @@
     "idx": "650",
     "name": {
       "eng": "Chespin",
+      "chs": "哈力栗",
       "jpn": "ハリマロン",
       "jpn_ro": "Harimaron"
     },
@@ -19722,6 +20372,7 @@
     "idx": "651",
     "name": {
       "eng": "Quilladin",
+      "chs": "胖胖哈力",
       "jpn": "ハリボーグ",
       "jpn_ro": "Hariborg"
     },
@@ -19750,6 +20401,7 @@
     "idx": "652",
     "name": {
       "eng": "Chesnaught",
+      "chs": "布里卡隆",
       "jpn": "ブリガロン",
       "jpn_ro": "Briggaron"
     },
@@ -19778,6 +20430,7 @@
     "idx": "653",
     "name": {
       "eng": "Fennekin",
+      "chs": "火狐狸",
       "jpn": "フォッコ",
       "jpn_ro": "Fokko"
     },
@@ -19806,6 +20459,7 @@
     "idx": "654",
     "name": {
       "eng": "Braixen",
+      "chs": "长尾火狐",
       "jpn": "テールナー",
       "jpn_ro": "Teruna"
     },
@@ -19834,6 +20488,7 @@
     "idx": "655",
     "name": {
       "eng": "Delphox",
+      "chs": "妖火红狐",
       "jpn": "マフォクシー",
       "jpn_ro": "Mafoxy"
     },
@@ -19862,6 +20517,7 @@
     "idx": "656",
     "name": {
       "eng": "Froakie",
+      "chs": "呱呱泡蛙",
       "jpn": "ケロマツ",
       "jpn_ro": "Keromatsu"
     },
@@ -19890,6 +20546,7 @@
     "idx": "657",
     "name": {
       "eng": "Frogadier",
+      "chs": "呱头蛙",
       "jpn": "ゲコガシラ",
       "jpn_ro": "Gekogahshier"
     },
@@ -19918,6 +20575,7 @@
     "idx": "658",
     "name": {
       "eng": "Greninja",
+      "chs": "甲贺忍蛙",
       "jpn": "ゲッコウガ",
       "jpn_ro": "Gekkouga"
     },
@@ -19962,6 +20620,7 @@
     "idx": "659",
     "name": {
       "eng": "Bunnelby",
+      "chs": "掘掘兔",
       "jpn": "ホルビー",
       "jpn_ro": "Horubee"
     },
@@ -19990,6 +20649,7 @@
     "idx": "660",
     "name": {
       "eng": "Diggersby",
+      "chs": "掘地兔",
       "jpn": "ホルード",
       "jpn_ro": "Horudo"
     },
@@ -20018,6 +20678,7 @@
     "idx": "661",
     "name": {
       "eng": "Fletchling",
+      "chs": "小箭雀",
       "jpn": "ヤヤコマ",
       "jpn_ro": "Yayakoma"
     },
@@ -20046,6 +20707,7 @@
     "idx": "662",
     "name": {
       "eng": "Fletchinder",
+      "chs": "火箭雀",
       "jpn": "ヒノヤコマ",
       "jpn_ro": "Hinoyakoma"
     },
@@ -20074,6 +20736,7 @@
     "idx": "663",
     "name": {
       "eng": "Talonflame",
+      "chs": "烈箭鹰",
       "jpn": "ファイアロー",
       "jpn_ro": "Fiarrow"
     },
@@ -20102,6 +20765,7 @@
     "idx": "664",
     "name": {
       "eng": "Scatterbug",
+      "chs": "粉蝶虫",
       "jpn": "コフキムシ",
       "jpn_ro": "Kofukimushi"
     },
@@ -20310,6 +20974,7 @@
     "idx": "665",
     "name": {
       "eng": "Spewpa",
+      "chs": "粉蝶蛹",
       "jpn": "コフーライ",
       "jpn_ro": "Kofuurai"
     },
@@ -20518,6 +21183,7 @@
     "idx": "666",
     "name": {
       "eng": "Vivillon",
+      "chs": "彩粉蝶",
       "jpn": "ビビヨン",
       "jpn_ro": "Viviyon"
     },
@@ -20688,6 +21354,7 @@
     "idx": "667",
     "name": {
       "eng": "Litleo",
+      "chs": "小狮狮",
       "jpn": "シシコ",
       "jpn_ro": "Shishiko"
     },
@@ -20716,6 +21383,7 @@
     "idx": "668",
     "name": {
       "eng": "Pyroar",
+      "chs": "火炎狮",
       "jpn": "カエンジシ",
       "jpn_ro": "Kaenjishi"
     },
@@ -20745,6 +21413,7 @@
     "idx": "669",
     "name": {
       "eng": "Flabébé",
+      "chs": "花蓓蓓",
       "jpn": "フラベベ",
       "jpn_ro": "Flabebe"
     },
@@ -20810,6 +21479,7 @@
     "idx": "670",
     "name": {
       "eng": "Floette",
+      "chs": "花叶蒂",
       "jpn": "フラエッテ",
       "jpn_ro": "Flaette"
     },
@@ -20882,6 +21552,7 @@
     "idx": "671",
     "name": {
       "eng": "Florges",
+      "chs": "花洁夫人",
       "jpn": "フラージェス",
       "jpn_ro": "Florges"
     },
@@ -20947,6 +21618,7 @@
     "idx": "672",
     "name": {
       "eng": "Skiddo",
+      "chs": "坐骑小羊",
       "jpn": "メェークル",
       "jpn_ro": "Meecle"
     },
@@ -20975,6 +21647,7 @@
     "idx": "673",
     "name": {
       "eng": "Gogoat",
+      "chs": "坐骑山羊",
       "jpn": "ゴーゴート",
       "jpn_ro": "Gogoat"
     },
@@ -21003,6 +21676,7 @@
     "idx": "674",
     "name": {
       "eng": "Pancham",
+      "chs": "顽皮熊猫",
       "jpn": "ヤンチャム",
       "jpn_ro": "Yancham"
     },
@@ -21031,6 +21705,7 @@
     "idx": "675",
     "name": {
       "eng": "Pangoro",
+      "chs": "流氓熊猫",
       "jpn": "ゴロンダ",
       "jpn_ro": "Goronda"
     },
@@ -21059,6 +21734,7 @@
     "idx": "676",
     "name": {
       "eng": "Furfrou",
+      "chs": "多丽米亚",
       "jpn": "トリミアン",
       "jpn_ro": "Trimmien"
     },
@@ -21159,6 +21835,7 @@
     "idx": "677",
     "name": {
       "eng": "Espurr",
+      "chs": "妙喵",
       "jpn": "ニャスパー",
       "jpn_ro": "Nyasper"
     },
@@ -21187,6 +21864,7 @@
     "idx": "678",
     "name": {
       "eng": "Meowstic",
+      "chs": "超能妙喵",
       "jpn": "ニャオニクス",
       "jpn_ro": "Nyaonix"
     },
@@ -21216,6 +21894,7 @@
     "idx": "679",
     "name": {
       "eng": "Honedge",
+      "chs": "独剑鞘",
       "jpn": "ヒトツキ",
       "jpn_ro": "Hitotsuki"
     },
@@ -21244,6 +21923,7 @@
     "idx": "680",
     "name": {
       "eng": "Doublade",
+      "chs": "双剑鞘",
       "jpn": "ニダンギル",
       "jpn_ro": "Nidangill"
     },
@@ -21272,6 +21952,7 @@
     "idx": "681",
     "name": {
       "eng": "Aegislash",
+      "chs": "坚盾剑怪",
       "jpn": "ギルガルド",
       "jpn_ro": "Gillguard"
     },
@@ -21316,6 +21997,7 @@
     "idx": "682",
     "name": {
       "eng": "Spritzee",
+      "chs": "粉香香",
       "jpn": "シュシュプ",
       "jpn_ro": "Shushupu"
     },
@@ -21344,6 +22026,7 @@
     "idx": "683",
     "name": {
       "eng": "Aromatisse",
+      "chs": "芳香精",
       "jpn": "フレフワン",
       "jpn_ro": "Frefuwan"
     },
@@ -21372,6 +22055,7 @@
     "idx": "684",
     "name": {
       "eng": "Swirlix",
+      "chs": "绵绵泡芙",
       "jpn": "ペロッパフ",
       "jpn_ro": "Peroppafu"
     },
@@ -21400,6 +22084,7 @@
     "idx": "685",
     "name": {
       "eng": "Slurpuff",
+      "chs": "胖甜妮",
       "jpn": "ペロリーム",
       "jpn_ro": "Peroream"
     },
@@ -21428,6 +22113,7 @@
     "idx": "686",
     "name": {
       "eng": "Inkay",
+      "chs": "好啦鱿",
       "jpn": "マーイーカ",
       "jpn_ro": "Maaiika"
     },
@@ -21456,6 +22142,7 @@
     "idx": "687",
     "name": {
       "eng": "Malamar",
+      "chs": "乌贼王",
       "jpn": "カラマネロ",
       "jpn_ro": "Calamanero"
     },
@@ -21484,6 +22171,7 @@
     "idx": "688",
     "name": {
       "eng": "Binacle",
+      "chs": "龟脚脚",
       "jpn": "カメテテ",
       "jpn_ro": "Kametete"
     },
@@ -21512,6 +22200,7 @@
     "idx": "689",
     "name": {
       "eng": "Barbaracle",
+      "chs": "龟足巨铠",
       "jpn": "ガメノデス",
       "jpn_ro": "Gamenodes"
     },
@@ -21540,6 +22229,7 @@
     "idx": "690",
     "name": {
       "eng": "Skrelp",
+      "chs": "垃垃藻",
       "jpn": "クズモー",
       "jpn_ro": "Kuzumo"
     },
@@ -21568,6 +22258,7 @@
     "idx": "691",
     "name": {
       "eng": "Dragalge",
+      "chs": "毒藻龙",
       "jpn": "ドラミドロ",
       "jpn_ro": "Dramidoro"
     },
@@ -21596,6 +22287,7 @@
     "idx": "692",
     "name": {
       "eng": "Clauncher",
+      "chs": "铁臂枪虾",
       "jpn": "ウデッポウ",
       "jpn_ro": "Udeppou"
     },
@@ -21624,6 +22316,7 @@
     "idx": "693",
     "name": {
       "eng": "Clawitzer",
+      "chs": "钢炮臂虾",
       "jpn": "ブロスター",
       "jpn_ro": "Bloster"
     },
@@ -21652,6 +22345,7 @@
     "idx": "694",
     "name": {
       "eng": "Helioptile",
+      "chs": "伞电蜥",
       "jpn": "エリキテル",
       "jpn_ro": "Erikiteru"
     },
@@ -21680,6 +22374,7 @@
     "idx": "695",
     "name": {
       "eng": "Heliolisk",
+      "chs": "光电伞蜥",
       "jpn": "エレザード",
       "jpn_ro": "Elezard"
     },
@@ -21708,6 +22403,7 @@
     "idx": "696",
     "name": {
       "eng": "Tyrunt",
+      "chs": "宝宝暴龙",
       "jpn": "チゴラス",
       "jpn_ro": "Chigoras"
     },
@@ -21736,6 +22432,7 @@
     "idx": "697",
     "name": {
       "eng": "Tyrantrum",
+      "chs": "怪颚龙",
       "jpn": "ガチゴラス",
       "jpn_ro": "Gachigoras"
     },
@@ -21764,6 +22461,7 @@
     "idx": "698",
     "name": {
       "eng": "Amaura",
+      "chs": "冰雪龙",
       "jpn": "アマルス",
       "jpn_ro": "Amarus"
     },
@@ -21792,6 +22490,7 @@
     "idx": "699",
     "name": {
       "eng": "Aurorus",
+      "chs": "冰雪巨龙",
       "jpn": "アマルルガ",
       "jpn_ro": "Amaruruga"
     },
@@ -21820,6 +22519,7 @@
     "idx": "700",
     "name": {
       "eng": "Sylveon",
+      "chs": "仙子伊布",
       "jpn": "ニンフィア",
       "jpn_ro": "Nymphia"
     },
@@ -21848,6 +22548,7 @@
     "idx": "701",
     "name": {
       "eng": "Hawlucha",
+      "chs": "摔角鹰人",
       "jpn": "ルチャブル",
       "jpn_ro": "Luchabull"
     },
@@ -21876,6 +22577,7 @@
     "idx": "702",
     "name": {
       "eng": "Dedenne",
+      "chs": "咚咚鼠",
       "jpn": "デデンネ",
       "jpn_ro": "Dedenne"
     },
@@ -21904,6 +22606,7 @@
     "idx": "703",
     "name": {
       "eng": "Carbink",
+      "chs": "小碎钻",
       "jpn": "メレシー",
       "jpn_ro": "Melecie"
     },
@@ -21932,6 +22635,7 @@
     "idx": "704",
     "name": {
       "eng": "Goomy",
+      "chs": "黏黏宝",
       "jpn": "ヌメラ",
       "jpn_ro": "Numera"
     },
@@ -21960,6 +22664,7 @@
     "idx": "705",
     "name": {
       "eng": "Sliggoo",
+      "chs": "黏美儿",
       "jpn": "ヌメイル",
       "jpn_ro": "Numeil"
     },
@@ -21988,6 +22693,7 @@
     "idx": "706",
     "name": {
       "eng": "Goodra",
+      "chs": "黏美龙",
       "jpn": "ヌメルゴン",
       "jpn_ro": "Numelgon"
     },
@@ -22016,6 +22722,7 @@
     "idx": "707",
     "name": {
       "eng": "Klefki",
+      "chs": "钥圈儿",
       "jpn": "クレッフィ",
       "jpn_ro": "Cleffy"
     },
@@ -22044,6 +22751,7 @@
     "idx": "708",
     "name": {
       "eng": "Phantump",
+      "chs": "小木灵",
       "jpn": "ボクレー",
       "jpn_ro": "Bokurei"
     },
@@ -22072,6 +22780,7 @@
     "idx": "709",
     "name": {
       "eng": "Trevenant",
+      "chs": "朽木妖",
       "jpn": "オーロット",
       "jpn_ro": "Ohrot"
     },
@@ -22100,6 +22809,7 @@
     "idx": "710",
     "name": {
       "eng": "Pumpkaboo",
+      "chs": "南瓜精",
       "jpn": "バケッチャ",
       "jpn_ro": "Bakeccha"
     },
@@ -22164,6 +22874,7 @@
     "idx": "711",
     "name": {
       "eng": "Gourgeist",
+      "chs": "南瓜怪人",
       "jpn": "パンプジン",
       "jpn_ro": "Pumpjin"
     },
@@ -22228,6 +22939,7 @@
     "idx": "712",
     "name": {
       "eng": "Bergmite",
+      "chs": "冰宝",
       "jpn": "カチコール",
       "jpn_ro": "Kachikohru"
     },
@@ -22256,6 +22968,7 @@
     "idx": "713",
     "name": {
       "eng": "Avalugg",
+      "chs": "冰岩怪",
       "jpn": "クレベース",
       "jpn_ro": "Crebase"
     },
@@ -22284,6 +22997,7 @@
     "idx": "714",
     "name": {
       "eng": "Noibat",
+      "chs": "嗡蝠",
       "jpn": "オンバット",
       "jpn_ro": "Onbat"
     },
@@ -22312,6 +23026,7 @@
     "idx": "715",
     "name": {
       "eng": "Noivern",
+      "chs": "音波龙",
       "jpn": "オンバーン",
       "jpn_ro": "Onvern"
     },
@@ -22340,6 +23055,7 @@
     "idx": "716",
     "name": {
       "eng": "Xerneas",
+      "chs": "哲尔尼亚斯",
       "jpn": "ゼルネアス",
       "jpn_ro": "Xerneas"
     },
@@ -22384,6 +23100,7 @@
     "idx": "717",
     "name": {
       "eng": "Yveltal",
+      "chs": "伊裴尔塔尔",
       "jpn": "イベルタル",
       "jpn_ro": "Yveltal"
     },
@@ -22412,6 +23129,7 @@
     "idx": "718",
     "name": {
       "eng": "Zygarde",
+      "chs": "基格尔德",
       "jpn": "ジガルデ",
       "jpn_ro": "Zygarde"
     },
@@ -22463,6 +23181,7 @@
     "idx": "719",
     "name": {
       "eng": "Diancie",
+      "chs": "蒂安希",
       "jpn": "ディアンシー",
       "jpn_ro": "Diancie"
     },
@@ -22498,6 +23217,7 @@
     "idx": "720",
     "name": {
       "eng": "Hoopa",
+      "chs": "胡帕",
       "jpn": "フーパ",
       "jpn_ro": "Hoopa"
     },
@@ -22533,6 +23253,7 @@
     "idx": "721",
     "name": {
       "eng": "Volcanion",
+      "chs": "波尔凯尼恩",
       "jpn": "ボルケニオン",
       "jpn_ro": "Volcanion"
     },
@@ -22561,6 +23282,7 @@
     "idx": "722",
     "name": {
       "eng": "Rowlet",
+      "chs": "木木枭",
       "jpn": "モクロー",
       "jpn_ro": "Mokuroh"
     },
@@ -22589,6 +23311,7 @@
     "idx": "723",
     "name": {
       "eng": "Dartrix",
+      "chs": "投羽枭",
       "jpn": "フクスロー",
       "jpn_ro": "Fukuthrow"
     },
@@ -22617,6 +23340,7 @@
     "idx": "724",
     "name": {
       "eng": "Decidueye",
+      "chs": "狙射树枭",
       "jpn": "ジュナイパー",
       "jpn_ro": "Junaiper"
     },
@@ -22645,6 +23369,7 @@
     "idx": "725",
     "name": {
       "eng": "Litten",
+      "chs": "火斑喵",
       "jpn": "ニャビー",
       "jpn_ro": "Nyabby"
     },
@@ -22673,6 +23398,7 @@
     "idx": "726",
     "name": {
       "eng": "Torracat",
+      "chs": "炎热喵",
       "jpn": "ニャヒート",
       "jpn_ro": "Nyaheat"
     },
@@ -22701,6 +23427,7 @@
     "idx": "727",
     "name": {
       "eng": "Incineroar",
+      "chs": "炽焰咆哮虎",
       "jpn": "ガオガエン",
       "jpn_ro": "Gaogaen"
     },
@@ -22729,6 +23456,7 @@
     "idx": "728",
     "name": {
       "eng": "Popplio",
+      "chs": "球球海狮",
       "jpn": "アシマリ",
       "jpn_ro": "Ashimari"
     },
@@ -22757,6 +23485,7 @@
     "idx": "729",
     "name": {
       "eng": "Brionne",
+      "chs": "花漾海狮",
       "jpn": "オシャマリ",
       "jpn_ro": "Osyamari"
     },
@@ -22785,6 +23514,7 @@
     "idx": "730",
     "name": {
       "eng": "Primarina",
+      "chs": "西狮海壬",
       "jpn": "アシレーヌ",
       "jpn_ro": "Ashirene"
     },
@@ -22813,6 +23543,7 @@
     "idx": "731",
     "name": {
       "eng": "Pikipek",
+      "chs": "小笃儿",
       "jpn": "ツツケラ",
       "jpn_ro": "Tsutsukera"
     },
@@ -22841,6 +23572,7 @@
     "idx": "732",
     "name": {
       "eng": "Trumbeak",
+      "chs": "喇叭啄鸟",
       "jpn": "ケララッパ",
       "jpn_ro": "Kerarappa"
     },
@@ -22869,6 +23601,7 @@
     "idx": "733",
     "name": {
       "eng": "Toucannon",
+      "chs": "铳嘴大鸟",
       "jpn": "ドデカバシ",
       "jpn_ro": "Dodekabashi"
     },
@@ -22897,6 +23630,7 @@
     "idx": "734",
     "name": {
       "eng": "Yungoos",
+      "chs": "猫鼬少",
       "jpn": "ヤングース",
       "jpn_ro": "Yangūsu"
     },
@@ -22925,6 +23659,7 @@
     "idx": "735",
     "name": {
       "eng": "Gumshoos",
+      "chs": "猫鼬探长",
       "jpn": "デカグース",
       "jpn_ro": "Dekagūsu"
     },
@@ -22962,6 +23697,7 @@
     "idx": "736",
     "name": {
       "eng": "Grubbin",
+      "chs": "强颚鸡母虫",
       "jpn": "アゴジムシ",
       "jpn_ro": "Agojimushi"
     },
@@ -22990,6 +23726,7 @@
     "idx": "737",
     "name": {
       "eng": "Charjabug",
+      "chs": "虫电宝",
       "jpn": "デンヂムシ",
       "jpn_ro": "Denjimushi"
     },
@@ -23018,6 +23755,7 @@
     "idx": "738",
     "name": {
       "eng": "Vikavolt",
+      "chs": "锹农炮虫",
       "jpn": "クワガノン",
       "jpn_ro": "Kuwaganon"
     },
@@ -23055,6 +23793,7 @@
     "idx": "739",
     "name": {
       "eng": "Crabrawler",
+      "chs": "好胜蟹",
       "jpn": "マケンカニ",
       "jpn_ro": "Makenkani"
     },
@@ -23083,6 +23822,7 @@
     "idx": "740",
     "name": {
       "eng": "Crabominable",
+      "chs": "好胜毛蟹",
       "jpn": "ケケンカニ",
       "jpn_ro": "Kekenkani"
     },
@@ -23111,6 +23851,7 @@
     "idx": "741",
     "name": {
       "eng": "Oricorio",
+      "chs": "花舞鸟",
       "jpn": "オドリドリ",
       "jpn_ro": "Odoridori"
     },
@@ -23169,6 +23910,7 @@
     "idx": "742",
     "name": {
       "eng": "Cutiefly",
+      "chs": "萌虻",
       "jpn": "アブリー",
       "jpn_ro": "Abuly"
     },
@@ -23197,6 +23939,7 @@
     "idx": "743",
     "name": {
       "eng": "Ribombee",
+      "chs": "蝶结萌虻",
       "jpn": "アブリボン",
       "jpn_ro": "Aburibon"
     },
@@ -23234,6 +23977,7 @@
     "idx": "744",
     "name": {
       "eng": "Rockruff",
+      "chs": "岩狗狗",
       "jpn": "イワンコ",
       "jpn_ro": "Iwanko"
     },
@@ -23271,6 +24015,7 @@
     "idx": "745",
     "name": {
       "eng": "Lycanroc",
+      "chs": "鬃岩狼人",
       "jpn": "ルガルガン",
       "jpn_ro": "Lugalgan"
     },
@@ -23322,6 +24067,7 @@
     "idx": "746",
     "name": {
       "eng": "Wishiwashi",
+      "chs": "弱丁鱼",
       "jpn": "ヨワシ",
       "jpn_ro": "Yowashi"
     },
@@ -23366,6 +24112,7 @@
     "idx": "747",
     "name": {
       "eng": "Mareanie",
+      "chs": "好坏星",
       "jpn": "ヒドイデ",
       "jpn_ro": "Hidoide"
     },
@@ -23394,6 +24141,7 @@
     "idx": "748",
     "name": {
       "eng": "Toxapex",
+      "chs": "超坏星",
       "jpn": "ドヒドイデ",
       "jpn_ro": "Dohidoide"
     },
@@ -23422,6 +24170,7 @@
     "idx": "749",
     "name": {
       "eng": "Mudbray",
+      "chs": "泥驴仔",
       "jpn": "ドロバンコ",
       "jpn_ro": "Dorobanko"
     },
@@ -23450,6 +24199,7 @@
     "idx": "750",
     "name": {
       "eng": "Mudsdale",
+      "chs": "重泥挽马",
       "jpn": "バンバドロ",
       "jpn_ro": "Banbadoro"
     },
@@ -23478,6 +24228,7 @@
     "idx": "751",
     "name": {
       "eng": "Dewpider",
+      "chs": "滴蛛",
       "jpn": "シズクモ",
       "jpn_ro": "Shizukumo"
     },
@@ -23506,6 +24257,7 @@
     "idx": "752",
     "name": {
       "eng": "Araquanid",
+      "chs": "滴蛛霸",
       "jpn": "オニシズクモ",
       "jpn_ro": "Onishizukumo"
     },
@@ -23543,6 +24295,7 @@
     "idx": "753",
     "name": {
       "eng": "Fomantis",
+      "chs": "伪螳草",
       "jpn": "カリキリ",
       "jpn_ro": "Karikiri"
     },
@@ -23571,6 +24324,7 @@
     "idx": "754",
     "name": {
       "eng": "Lurantis",
+      "chs": "兰螳花",
       "jpn": "ラランテス",
       "jpn_ro": "Rarantesu"
     },
@@ -23608,6 +24362,7 @@
     "idx": "755",
     "name": {
       "eng": "Morelull",
+      "chs": "睡睡菇",
       "jpn": "ネマシュ",
       "jpn_ro": "Nemashu"
     },
@@ -23636,6 +24391,7 @@
     "idx": "756",
     "name": {
       "eng": "Shiinotic",
+      "chs": "灯罩夜菇",
       "jpn": "マシェード",
       "jpn_ro": "Mashēdo"
     },
@@ -23664,6 +24420,7 @@
     "idx": "757",
     "name": {
       "eng": "Salandit",
+      "chs": "夜盗火蜥",
       "jpn": "ヤトウモリ",
       "jpn_ro": "Yatōmori"
     },
@@ -23692,6 +24449,7 @@
     "idx": "758",
     "name": {
       "eng": "Salazzle",
+      "chs": "焰后蜥",
       "jpn": "エンニュート",
       "jpn_ro": "Ennyūto"
     },
@@ -23729,6 +24487,7 @@
     "idx": "759",
     "name": {
       "eng": "Stufful",
+      "chs": "童偶熊",
       "jpn": "ヌイコグマ",
       "jpn_ro": "Nuikoguma"
     },
@@ -23757,6 +24516,7 @@
     "idx": "760",
     "name": {
       "eng": "Bewear",
+      "chs": "穿着熊",
       "jpn": "キテルグマ",
       "jpn_ro": "Kiteruguma"
     },
@@ -23785,6 +24545,7 @@
     "idx": "761",
     "name": {
       "eng": "Bounsweet",
+      "chs": "甜竹竹",
       "jpn": "アマカジ",
       "jpn_ro": "Amakaji"
     },
@@ -23813,6 +24574,7 @@
     "idx": "762",
     "name": {
       "eng": "Steenee",
+      "chs": "甜舞妮",
       "jpn": "アママイコ",
       "jpn_ro": "Amamaiko"
     },
@@ -23841,6 +24603,7 @@
     "idx": "763",
     "name": {
       "eng": "Tsareena",
+      "chs": "甜冷美后",
       "jpn": "アマージョ",
       "jpn_ro": "Amajo"
     },
@@ -23869,6 +24632,7 @@
     "idx": "764",
     "name": {
       "eng": "Comfey",
+      "chs": "花疗环环",
       "jpn": "キュワワー",
       "jpn_ro": "Cuwawa"
     },
@@ -23897,6 +24661,7 @@
     "idx": "765",
     "name": {
       "eng": "Oranguru",
+      "chs": "智挥猩",
       "jpn": "ヤレユータン",
       "jpn_ro": "Yareyūtan"
     },
@@ -23925,6 +24690,7 @@
     "idx": "766",
     "name": {
       "eng": "Passimian",
+      "chs": "投掷猴",
       "jpn": "ナゲツケサル",
       "jpn_ro": "Nagetsukesaru"
     },
@@ -23953,6 +24719,7 @@
     "idx": "767",
     "name": {
       "eng": "Wimpod",
+      "chs": "胆小虫",
       "jpn": "コソクムシ",
       "jpn_ro": "Kosokumushi"
     },
@@ -23981,6 +24748,7 @@
     "idx": "768",
     "name": {
       "eng": "Golisopod",
+      "chs": "具甲武者",
       "jpn": "グソクムシャ",
       "jpn_ro": "Gusokumusha"
     },
@@ -24009,6 +24777,7 @@
     "idx": "769",
     "name": {
       "eng": "Sandygast",
+      "chs": "沙丘娃",
       "jpn": "スナバァ",
       "jpn_ro": "Sunabā"
     },
@@ -24037,6 +24806,7 @@
     "idx": "770",
     "name": {
       "eng": "Palossand",
+      "chs": "噬沙堡爷",
       "jpn": "シロデスナ",
       "jpn_ro": "Shirodesuna"
     },
@@ -24065,6 +24835,7 @@
     "idx": "771",
     "name": {
       "eng": "Pyukumuku",
+      "chs": "拳海参",
       "jpn": "ナマコブシ",
       "jpn_ro": "Namakobushi"
     },
@@ -24093,6 +24864,7 @@
     "idx": "772",
     "name": {
       "eng": "Type: Null",
+      "chs": "属性：空",
       "jpn": "タイプ：ヌル",
       "jpn_ro": "Type: Null"
     },
@@ -24121,6 +24893,7 @@
     "idx": "773",
     "name": {
       "eng": "Silvally",
+      "chs": "银伴战兽",
       "jpn": "シルヴァディ",
       "jpn_ro": "Silvady"
     },
@@ -24311,6 +25084,7 @@
     "idx": "774",
     "name": {
       "eng": "Minior",
+      "chs": "小陨星",
       "jpn": "メテノ",
       "jpn_ro": "Meteno"
     },
@@ -24451,6 +25225,7 @@
     "idx": "775",
     "name": {
       "eng": "Komala",
+      "chs": "树枕尾熊",
       "jpn": "ネッコアラ",
       "jpn_ro": "Nekkoara"
     },
@@ -24479,6 +25254,7 @@
     "idx": "776",
     "name": {
       "eng": "Turtonator",
+      "chs": "爆焰龟兽",
       "jpn": "バクガメス",
       "jpn_ro": "Bakugames"
     },
@@ -24507,6 +25283,7 @@
     "idx": "777",
     "name": {
       "eng": "Togedemaru",
+      "chs": "托戈德玛尔",
       "jpn": "トゲデマル",
       "jpn_ro": "Togedemaru"
     },
@@ -24544,6 +25321,7 @@
     "idx": "778",
     "name": {
       "eng": "Mimikyu",
+      "chs": "谜拟Ｑ",
       "jpn": "ミミッキュ",
       "jpn_ro": "Mimikkyu"
     },
@@ -24617,6 +25395,7 @@
     "idx": "779",
     "name": {
       "eng": "Bruxish",
+      "chs": "磨牙彩皮鱼",
       "jpn": "ハギギシリ",
       "jpn_ro": "Hagigishiri"
     },
@@ -24645,6 +25424,7 @@
     "idx": "780",
     "name": {
       "eng": "Drampa",
+      "chs": "老翁龙",
       "jpn": "ジジーロン",
       "jpn_ro": "Jijīron"
     },
@@ -24673,6 +25453,7 @@
     "idx": "781",
     "name": {
       "eng": "Dhelmise",
+      "chs": "破破舵轮",
       "jpn": "ダダリン",
       "jpn_ro": "Dadarin"
     },
@@ -24701,6 +25482,7 @@
     "idx": "782",
     "name": {
       "eng": "Jangmo-o",
+      "chs": "心鳞宝",
       "jpn": "ジャラコ",
       "jpn_ro": "Jarako"
     },
@@ -24729,6 +25511,7 @@
     "idx": "783",
     "name": {
       "eng": "Hakamo-o",
+      "chs": "鳞甲龙",
       "jpn": "ジャランゴ",
       "jpn_ro": "Jarango"
     },
@@ -24757,6 +25540,7 @@
     "idx": "784",
     "name": {
       "eng": "Kommo-o",
+      "chs": "杖尾鳞甲龙",
       "jpn": "ジャラランガ",
       "jpn_ro": "Jararanga"
     },
@@ -24794,6 +25578,7 @@
     "idx": "785",
     "name": {
       "eng": "Tapu Koko",
+      "chs": "卡璞・鸣鸣",
       "jpn": "カプ・コケコ",
       "jpn_ro": "Kapu-Kokeko"
     },
@@ -24822,6 +25607,7 @@
     "idx": "786",
     "name": {
       "eng": "Tapu Lele",
+      "chs": "卡璞・蝶蝶",
       "jpn": "カプ・テテフ",
       "jpn_ro": "Kapu-Tetefu"
     },
@@ -24850,6 +25636,7 @@
     "idx": "787",
     "name": {
       "eng": "Tapu Bulu",
+      "chs": "卡璞・哞哞",
       "jpn": "カプ・ブルル",
       "jpn_ro": "Kapu-Bulul"
     },
@@ -24878,6 +25665,7 @@
     "idx": "788",
     "name": {
       "eng": "Tapu Fini",
+      "chs": "卡璞・鳍鳍",
       "jpn": "カプ・レヒレ",
       "jpn_ro": "Kapu-Rehire"
     },
@@ -24906,6 +25694,7 @@
     "idx": "789",
     "name": {
       "eng": "Cosmog",
+      "chs": "科斯莫古",
       "jpn": "コスモッグ",
       "jpn_ro": "Cosmog"
     },
@@ -24934,6 +25723,7 @@
     "idx": "790",
     "name": {
       "eng": "Cosmoem",
+      "chs": "科斯莫姆",
       "jpn": "コスモウム",
       "jpn_ro": "Cosmovum"
     },
@@ -24962,6 +25752,7 @@
     "idx": "791",
     "name": {
       "eng": "Solgaleo",
+      "chs": "索尔迦雷欧",
       "jpn": "ソルガレオ",
       "jpn_ro": "Solgaleo"
     },
@@ -24990,6 +25781,7 @@
     "idx": "792",
     "name": {
       "eng": "Lunala",
+      "chs": "露奈雅拉",
       "jpn": "ルナアーラ",
       "jpn_ro": "Lunala"
     },
@@ -25018,6 +25810,7 @@
     "idx": "793",
     "name": {
       "eng": "Nihilego",
+      "chs": "虚吾伊德",
       "jpn": "ウツロイド",
       "jpn_ro": "Utsuroido"
     },
@@ -25046,6 +25839,7 @@
     "idx": "794",
     "name": {
       "eng": "Buzzwole",
+      "chs": "爆肌蚊",
       "jpn": "マッシブーン",
       "jpn_ro": "Masshibūn"
     },
@@ -25074,6 +25868,7 @@
     "idx": "795",
     "name": {
       "eng": "Pheromosa",
+      "chs": "费洛美螂",
       "jpn": "フェローチェ",
       "jpn_ro": "Ferōche"
     },
@@ -25102,6 +25897,7 @@
     "idx": "796",
     "name": {
       "eng": "Xurkitree",
+      "chs": "电束木",
       "jpn": "デンジュモク",
       "jpn_ro": "Denjumoku"
     },
@@ -25130,6 +25926,7 @@
     "idx": "797",
     "name": {
       "eng": "Celesteela",
+      "chs": "铁火辉夜",
       "jpn": "テッカグヤ",
       "jpn_ro": "Tekkaguya"
     },
@@ -25158,6 +25955,7 @@
     "idx": "798",
     "name": {
       "eng": "Kartana",
+      "chs": "纸御剑",
       "jpn": "カミツルギ",
       "jpn_ro": "Kamitsurugi"
     },
@@ -25186,6 +25984,7 @@
     "idx": "799",
     "name": {
       "eng": "Guzzlord",
+      "chs": "恶食大王",
       "jpn": "アクジキング",
       "jpn_ro": "Akujikingu"
     },
@@ -25214,6 +26013,7 @@
     "idx": "800",
     "name": {
       "eng": "Necrozma",
+      "chs": "奈克洛兹玛",
       "jpn": "ネクロズマ",
       "jpn_ro": "Necrozma"
     },
@@ -25263,6 +26063,7 @@
     "idx": "801",
     "name": {
       "eng": "Magearna",
+      "chs": "玛机雅娜",
       "jpn": "マギアナ",
       "jpn_ro": "Magearna"
     },
@@ -25298,6 +26099,7 @@
     "idx": "802",
     "name": {
       "eng": "Marshadow",
+      "chs": "玛夏多",
       "jpn": "マーシャドー",
       "jpn_ro": "Marshadow"
     },
@@ -25326,6 +26128,7 @@
     "idx": "803",
     "name": {
       "eng": "Poipole",
+      "chs": "毒贝比",
       "jpn": "ベベノム",
       "jpn_ro": "Bebenomu"
     },
@@ -25354,6 +26157,7 @@
     "idx": "804",
     "name": {
       "eng": "Naganadel",
+      "chs": "四颚针龙",
       "jpn": "アーゴヨン",
       "jpn_ro": "Aagoyon"
     },
@@ -25382,6 +26186,7 @@
     "idx": "805",
     "name": {
       "eng": "Stakataka",
+      "chs": "垒磊石",
       "jpn": "ツンデツンデ",
       "jpn_ro": "Tsundetsunde"
     },
@@ -25410,6 +26215,7 @@
     "idx": "806",
     "name": {
       "eng": "Blacephalon",
+      "chs": "砰头小丑",
       "jpn": "ズガドーン",
       "jpn_ro": "Zugadoon"
     },
@@ -25438,6 +26244,7 @@
     "idx": "807",
     "name": {
       "eng": "Zeraora",
+      "chs": "捷拉奥拉",
       "jpn": "ゼラオラ",
       "jpn_ro": "Zeraora"
     },
@@ -25466,6 +26273,7 @@
     "idx": "808",
     "name": {
       "eng": "Meltan",
+      "chs": "美录坦",
       "jpn": "メルタン",
       "jpn_ro": "Meltan"
     },
@@ -25494,6 +26302,7 @@
     "idx": "809",
     "name": {
       "eng": "Melmetal",
+      "chs": "美录梅塔",
       "jpn": "メルメタル",
       "jpn_ro": "Melmetal"
     },
@@ -25526,6 +26335,7 @@
     "idx": "810",
     "name": {
       "eng": "Grookey",
+      "chs": "敲音猴",
       "jpn": "サルノリ",
       "jpn_ro": "Sarunori"
     },
@@ -25547,6 +26357,7 @@
     "idx": "811",
     "name": {
       "eng": "Thwackey",
+      "chs": "啪咚猴",
       "jpn": "バチンキー",
       "jpn_ro": "Bachinkī"
     },
@@ -25568,6 +26379,7 @@
     "idx": "812",
     "name": {
       "eng": "Rillaboom",
+      "chs": "轰擂金刚猩",
       "jpn": "ゴリランダー",
       "jpn_ro": "Gorirandā"
     },
@@ -25589,6 +26401,7 @@
     "idx": "813",
     "name": {
       "eng": "Scorbunny",
+      "chs": "炎兔儿",
       "jpn": "ヒバニー",
       "jpn_ro": "Hibanny"
     },
@@ -25610,6 +26423,7 @@
     "idx": "814",
     "name": {
       "eng": "Raboot",
+      "chs": "腾蹴小将",
       "jpn": "ラビフット",
       "jpn_ro": "Rabifutto"
     },
@@ -25631,6 +26445,7 @@
     "idx": "815",
     "name": {
       "eng": "Cinderace",
+      "chs": "闪焰王牌",
       "jpn": "エースバーン",
       "jpn_ro": "Ēsubān"
     },
@@ -25652,6 +26467,7 @@
     "idx": "816",
     "name": {
       "eng": "Sobble",
+      "chs": "泪眼蜥",
       "jpn": "メッソン",
       "jpn_ro": "Messon"
     },
@@ -25673,6 +26489,7 @@
     "idx": "817",
     "name": {
       "eng": "Drizzile",
+      "chs": "变涩蜥",
       "jpn": "ジメレオン",
       "jpn_ro": "Jimereon"
     },
@@ -25694,6 +26511,7 @@
     "idx": "818",
     "name": {
       "eng": "Inteleon",
+      "chs": "千面避役",
       "jpn": "インテレオン",
       "jpn_ro": "Intereon"
     },
@@ -25715,6 +26533,7 @@
     "idx": "819",
     "name": {
       "eng": "Skwovet",
+      "chs": "贪心栗鼠",
       "jpn": "ホシガリス",
       "jpn_ro": "Hoshigarisu"
     },
@@ -25736,6 +26555,7 @@
     "idx": "820",
     "name": {
       "eng": "Greedent",
+      "chs": "藏饱栗鼠",
       "jpn": "ヨクバリス",
       "jpn_ro": "Yokubarisu"
     },
@@ -25757,6 +26577,7 @@
     "idx": "821",
     "name": {
       "eng": "Rookidee",
+      "chs": "稚山雀",
       "jpn": "ココガラ",
       "jpn_ro": "Kokogara"
     },
@@ -25778,6 +26599,7 @@
     "idx": "822",
     "name": {
       "eng": "Corvisquire",
+      "chs": "蓝鸦",
       "jpn": "アオガラス",
       "jpn_ro": "Aogarasu"
     },
@@ -25799,6 +26621,7 @@
     "idx": "823",
     "name": {
       "eng": "Corviknight",
+      "chs": "钢铠鸦",
       "jpn": "アーマーガア",
       "jpn_ro": "Armorga"
     },
@@ -25823,6 +26646,7 @@
     "idx": "824",
     "name": {
       "eng": "Blipbug",
+      "chs": "索侦虫",
       "jpn": "サッチムシ",
       "jpn_ro": "Satchimushi"
     },
@@ -25844,6 +26668,7 @@
     "idx": "825",
     "name": {
       "eng": "Dottler",
+      "chs": "天罩虫",
       "jpn": "レドームシ",
       "jpn_ro": "Redōmushi"
     },
@@ -25865,6 +26690,7 @@
     "idx": "826",
     "name": {
       "eng": "Orbeetle",
+      "chs": "以欧路普",
       "jpn": "イオルブ",
       "jpn_ro": "Iorubu"
     },
@@ -25889,6 +26715,7 @@
     "idx": "827",
     "name": {
       "eng": "Nickit",
+      "chs": "偷儿狐",
       "jpn": "クスネ",
       "jpn_ro": "Kusune"
     },
@@ -25910,6 +26737,7 @@
     "idx": "828",
     "name": {
       "eng": "Thievul",
+      "chs": "狐大盗",
       "jpn": "フォクスライ",
       "jpn_ro": "Fokusurai"
     },
@@ -25931,6 +26759,7 @@
     "idx": "829",
     "name": {
       "eng": "Gossifleur",
+      "chs": "幼棉棉",
       "jpn": "ヒメンカ",
       "jpn_ro": "Himenka"
     },
@@ -25952,6 +26781,7 @@
     "idx": "830",
     "name": {
       "eng": "Eldegoss",
+      "chs": "白蓬蓬",
       "jpn": "ワタシラガ",
       "jpn_ro": "Watashiraga"
     },
@@ -25973,6 +26803,7 @@
     "idx": "831",
     "name": {
       "eng": "Wooloo",
+      "chs": "毛辫羊",
       "jpn": "ウールー",
       "jpn_ro": "Wooluu"
     },
@@ -25994,6 +26825,7 @@
     "idx": "832",
     "name": {
       "eng": "Dubwool",
+      "chs": "毛毛角羊",
       "jpn": "バイウールー",
       "jpn_ro": "Baiūrū"
     },
@@ -26015,6 +26847,7 @@
     "idx": "833",
     "name": {
       "eng": "Chewtle",
+      "chs": "咬咬龟",
       "jpn": "カムカメ",
       "jpn_ro": "Kamukame"
     },
@@ -26036,6 +26869,7 @@
     "idx": "834",
     "name": {
       "eng": "Drednaw",
+      "chs": "暴噬龟",
       "jpn": "カジリガメ",
       "jpn_ro": "Kajirigame"
     },
@@ -26060,6 +26894,7 @@
     "idx": "835",
     "name": {
       "eng": "Yamper",
+      "chs": "来电汪",
       "jpn": "ワンパチ",
       "jpn_ro": "Wanpachi"
     },
@@ -26081,6 +26916,7 @@
     "idx": "836",
     "name": {
       "eng": "Boltund",
+      "chs": "逐电犬",
       "jpn": "パルスワン",
       "jpn_ro": "Parusuwan"
     },
@@ -26102,6 +26938,7 @@
     "idx": "837",
     "name": {
       "eng": "Rolycoly",
+      "chs": "小炭仔",
       "jpn": "タンドン",
       "jpn_ro": "Tandon"
     },
@@ -26123,6 +26960,7 @@
     "idx": "838",
     "name": {
       "eng": "Carkol",
+      "chs": "大炭车",
       "jpn": "トロッゴン",
       "jpn_ro": "Toroggon"
     },
@@ -26144,6 +26982,7 @@
     "idx": "839",
     "name": {
       "eng": "Coalossal",
+      "chs": "巨炭山",
       "jpn": "セキタンザン",
       "jpn_ro": "Sekitanzan"
     },
@@ -26168,6 +27007,7 @@
     "idx": "840",
     "name": {
       "eng": "Applin",
+      "chs": "啃果虫",
       "jpn": "カジッチュ",
       "jpn_ro": "Kajitchu"
     },
@@ -26189,6 +27029,7 @@
     "idx": "841",
     "name": {
       "eng": "Flapple",
+      "chs": "苹裹龙",
       "jpn": "アップリュー",
       "jpn_ro": "Appuryū"
     },
@@ -26213,6 +27054,7 @@
     "idx": "842",
     "name": {
       "eng": "Appletun",
+      "chs": "丰蜜龙",
       "jpn": "タルップル",
       "jpn_ro": "Taruppuru"
     },
@@ -26234,6 +27076,7 @@
     "idx": "843",
     "name": {
       "eng": "Silicobra",
+      "chs": "沙包蛇",
       "jpn": "スナヘビ",
       "jpn_ro": "Sunahebi"
     },
@@ -26255,6 +27098,7 @@
     "idx": "844",
     "name": {
       "eng": "Sandaconda",
+      "chs": "沙螺蟒",
       "jpn": "サダイジャ",
       "jpn_ro": "Sadaija"
     },
@@ -26279,6 +27123,7 @@
     "idx": "845",
     "name": {
       "eng": "Cramorant",
+      "chs": "古月鸟",
       "jpn": "ウッウ",
       "jpn_ro": "Uu"
     },
@@ -26306,6 +27151,7 @@
     "idx": "846",
     "name": {
       "eng": "Arrokuda",
+      "chs": "刺梭鱼",
       "jpn": "サシカマス",
       "jpn_ro": "Sashikamasu"
     },
@@ -26327,6 +27173,7 @@
     "idx": "847",
     "name": {
       "eng": "Barraskewda",
+      "chs": "戽斗尖梭",
       "jpn": "カマスジョー",
       "jpn_ro": "Kamasujō"
     },
@@ -26348,6 +27195,7 @@
     "idx": "848",
     "name": {
       "eng": "Toxel",
+      "chs": "毒电婴",
       "jpn": "エレズン",
       "jpn_ro": "Erezun"
     },
@@ -26369,6 +27217,7 @@
     "idx": "849",
     "name": {
       "eng": "Toxtricity",
+      "chs": "颤弦蝾螈",
       "jpn": "ストリンダー",
       "jpn_ro": "Sutorindā"
     },
@@ -26404,6 +27253,7 @@
     "idx": "850",
     "name": {
       "eng": "Sizzlipede",
+      "chs": "烧火蚣",
       "jpn": "ヤクデ",
       "jpn_ro": "Yakude"
     },
@@ -26425,6 +27275,7 @@
     "idx": "851",
     "name": {
       "eng": "Centiskorch",
+      "chs": "焚焰蚣",
       "jpn": "マルヤクデ",
       "jpn_ro": "Maruyakude"
     },
@@ -26449,6 +27300,7 @@
     "idx": "852",
     "name": {
       "eng": "Clobbopus",
+      "chs": "拳拳蛸",
       "jpn": "タタッコ",
       "jpn_ro": "Tatakko"
     },
@@ -26470,6 +27322,7 @@
     "idx": "853",
     "name": {
       "eng": "Grapploct",
+      "chs": "八爪武师",
       "jpn": "オトスパス",
       "jpn_ro": "Otosupasu"
     },
@@ -26491,6 +27344,7 @@
     "idx": "854",
     "name": {
       "eng": "Sinistea",
+      "chs": "来悲茶",
       "jpn": "ヤバチャ",
       "jpn_ro": "Yabacha"
     },
@@ -26512,6 +27366,7 @@
     "idx": "855",
     "name": {
       "eng": "Polteageist",
+      "chs": "怖思壶",
       "jpn": "ポットデス",
       "jpn_ro": "Potdeath"
     },
@@ -26533,6 +27388,7 @@
     "idx": "856",
     "name": {
       "eng": "Hatenna",
+      "chs": "迷布莉姆",
       "jpn": "ミブリム",
       "jpn_ro": "Miburimu"
     },
@@ -26554,6 +27410,7 @@
     "idx": "857",
     "name": {
       "eng": "Hattrem",
+      "chs": "提布莉姆",
       "jpn": "テブリム",
       "jpn_ro": "Teburimu"
     },
@@ -26575,6 +27432,7 @@
     "idx": "858",
     "name": {
       "eng": "Hatterene",
+      "chs": "布莉姆温",
       "jpn": "ブリムオン",
       "jpn_ro": "Burimuon"
     },
@@ -26599,6 +27457,7 @@
     "idx": "859",
     "name": {
       "eng": "Impidimp",
+      "chs": "捣蛋小妖",
       "jpn": "ベロバー",
       "jpn_ro": "Berobā"
     },
@@ -26620,6 +27479,7 @@
     "idx": "860",
     "name": {
       "eng": "Morgrem",
+      "chs": "诈唬魔",
       "jpn": "ギモー",
       "jpn_ro": "Gimō"
     },
@@ -26641,6 +27501,7 @@
     "idx": "861",
     "name": {
       "eng": "Grimmsnarl",
+      "chs": "长毛巨魔",
       "jpn": "オーロンゲ",
       "jpn_ro": "Ōronge"
     },
@@ -26665,6 +27526,7 @@
     "idx": "862",
     "name": {
       "eng": "Obstagoon",
+      "chs": "堵拦熊",
       "jpn": "タチフサグマ",
       "jpn_ro": "Tachifusaguma"
     },
@@ -26686,6 +27548,7 @@
     "idx": "863",
     "name": {
       "eng": "Perrserker",
+      "chs": "喵头目",
       "jpn": "ニャイキング",
       "jpn_ro": "Nyaikingu"
     },
@@ -26707,6 +27570,7 @@
     "idx": "864",
     "name": {
       "eng": "Cursola",
+      "chs": "魔灵珊瑚",
       "jpn": "サニゴーン",
       "jpn_ro": "Sanigōn"
     },
@@ -26728,6 +27592,7 @@
     "idx": "865",
     "name": {
       "eng": "Sirfetch'd",
+      "chs": "葱游兵",
       "jpn": "ネギガナイト",
       "jpn_ro": "Negigaknight"
     },
@@ -26749,6 +27614,7 @@
     "idx": "866",
     "name": {
       "eng": "Mr. Rime",
+      "chs": "踏冰人偶",
       "jpn": "バリコオル",
       "jpn_ro": "Barikōru"
     },
@@ -26770,6 +27636,7 @@
     "idx": "867",
     "name": {
       "eng": "Runerigus",
+      "chs": "死神板",
       "jpn": "デスバーン",
       "jpn_ro": "Desubān"
     },
@@ -26791,6 +27658,7 @@
     "idx": "868",
     "name": {
       "eng": "Milcery",
+      "chs": "小仙奶",
       "jpn": "マホミル",
       "jpn_ro": "Mahomiru"
     },
@@ -26812,6 +27680,7 @@
     "idx": "869",
     "name": {
       "eng": "Alcremie",
+      "chs": "霜奶仙",
       "jpn": "マホイップ",
       "jpn_ro": "Mawhip"
     },
@@ -27116,6 +27985,7 @@
     "idx": "870",
     "name": {
       "eng": "Falinks",
+      "chs": "列阵兵",
       "jpn": "タイレーツ",
       "jpn_ro": "Tairētsu"
     },
@@ -27137,6 +28007,7 @@
     "idx": "871",
     "name": {
       "eng": "Pincurchin",
+      "chs": "啪嚓海胆",
       "jpn": "バチンウニ",
       "jpn_ro": "Bachin'uni"
     },
@@ -27158,6 +28029,7 @@
     "idx": "872",
     "name": {
       "eng": "Snom",
+      "chs": "雪吞虫",
       "jpn": "ユキハミ",
       "jpn_ro": "Yukihami"
     },
@@ -27179,6 +28051,7 @@
     "idx": "873",
     "name": {
       "eng": "Frosmoth",
+      "chs": "雪绒蛾",
       "jpn": "モスノー",
       "jpn_ro": "Mosunō"
     },
@@ -27200,6 +28073,7 @@
     "idx": "874",
     "name": {
       "eng": "Stonjourner",
+      "chs": "巨石丁",
       "jpn": "イシヘンジン",
       "jpn_ro": "Ishihenjin"
     },
@@ -27221,6 +28095,7 @@
     "idx": "875",
     "name": {
       "eng": "Eiscue",
+      "chs": "冰砌鹅",
       "jpn": "コオリッポ",
       "jpn_ro": "Kōrippo"
     },
@@ -27249,6 +28124,7 @@
     "idx": "876",
     "name": {
       "eng": "Indeedee",
+      "chs": "爱管侍",
       "jpn": "イエッサン",
       "jpn_ro": "Iessan"
     },
@@ -27271,6 +28147,7 @@
     "idx": "877",
     "name": {
       "eng": "Morpeko",
+      "chs": "莫鲁贝可",
       "jpn": "モルペコ",
       "jpn_ro": "Morpeko"
     },
@@ -27299,6 +28176,7 @@
     "idx": "878",
     "name": {
       "eng": "Cufant",
+      "chs": "铜象",
       "jpn": "ゾウドウ",
       "jpn_ro": "Zōdō"
     },
@@ -27320,6 +28198,7 @@
     "idx": "879",
     "name": {
       "eng": "Copperajah",
+      "chs": "大王铜象",
       "jpn": "ダイオウドウ",
       "jpn_ro": "Daiōdō"
     },
@@ -27344,6 +28223,7 @@
     "idx": "880",
     "name": {
       "eng": "Dracozolt",
+      "chs": "雷鸟龙",
       "jpn": "パッチラゴン",
       "jpn_ro": "Patchiragon"
     },
@@ -27365,6 +28245,7 @@
     "idx": "881",
     "name": {
       "eng": "Arctozolt",
+      "chs": "雷鸟海兽",
       "jpn": "パッチルドン",
       "jpn_ro": "Patchirudon"
     },
@@ -27386,6 +28267,7 @@
     "idx": "882",
     "name": {
       "eng": "Dracovish",
+      "chs": "鳃鱼龙",
       "jpn": "ウオノラゴン",
       "jpn_ro": "Uonoragon"
     },
@@ -27407,6 +28289,7 @@
     "idx": "883",
     "name": {
       "eng": "Arctovish",
+      "chs": "鳃鱼海兽",
       "jpn": "ウオチルドン",
       "jpn_ro": "Uochirudon"
     },
@@ -27428,6 +28311,7 @@
     "idx": "884",
     "name": {
       "eng": "Duraludon",
+      "chs": "铝钢龙",
       "jpn": "ジュラルドン",
       "jpn_ro": "Duraludon"
     },
@@ -27452,6 +28336,7 @@
     "idx": "885",
     "name": {
       "eng": "Dreepy",
+      "chs": "多龙梅西亚",
       "jpn": "ドラメシヤ",
       "jpn_ro": "Dorameshiya"
     },
@@ -27473,6 +28358,7 @@
     "idx": "886",
     "name": {
       "eng": "Drakloak",
+      "chs": "多龙奇",
       "jpn": "ドロンチ",
       "jpn_ro": "Doronchi"
     },
@@ -27494,6 +28380,7 @@
     "idx": "887",
     "name": {
       "eng": "Dragapult",
+      "chs": "多龙巴鲁托",
       "jpn": "ドラパルト",
       "jpn_ro": "Doraparuto"
     },
@@ -27515,6 +28402,7 @@
     "idx": "888",
     "name": {
       "eng": "Zacian",
+      "chs": "苍响",
       "jpn": "ザシアン",
       "jpn_ro": "Zacian"
     },
@@ -27543,6 +28431,7 @@
     "idx": "889",
     "name": {
       "eng": "Zamazenta",
+      "chs": "藏玛然特",
       "jpn": "ザマゼンタ",
       "jpn_ro": "Zamazenta"
     },
@@ -27571,6 +28460,7 @@
     "idx": "890",
     "name": {
       "eng": "Eternatus",
+      "chs": "无极汰那",
       "jpn": "ムゲンダイナ",
       "jpn_ro": "Mugendaina"
     },
