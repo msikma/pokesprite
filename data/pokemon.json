@@ -26183,12 +26183,19 @@
         "$": {
           "has_female": false,
           "has_right": true
+        },
+        "gen7": {
+          "has_female": false,
+          "has_right": true
         }
       }
     },
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "gen7": {
           "is_prev_gen_icon": false
         }
       }
