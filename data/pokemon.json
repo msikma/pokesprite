@@ -26186,7 +26186,8 @@
         },
         "gen7": {
           "has_female": false,
-          "has_right": true
+          "has_right": true,
+          "is_unofficial_icon": true
         }
       }
     },
@@ -26196,7 +26197,8 @@
           "is_prev_gen_icon": false
         },
         "gen7": {
-          "is_prev_gen_icon": false
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
