@@ -101,6 +101,8 @@ The **`forms`** object contains a list of all sprites pertaining to a Pokémon.
 
 <sub>†: only applies to non-shiny sprites, as shiny sprites are always unofficial.</sub>
 
+There are a few cases where a Pokémon's shiny design changed in an update. For example, Minior's shiny form was originally [gray](pokemon-gen8/shiny/minior-blue-gen7.png) but became [colorized](pokemon-gen8/shiny/minior-blue.png) with the release of Pokémon HOME. This project always uses the latest designs, with the old ones renamed to their gen of origin.
+
 ### Inventory items list
 
 Several files are available for processing the sprites for inventory items:

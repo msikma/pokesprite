@@ -25103,6 +25103,11 @@
           "has_female": false,
           "has_right": true
         },
+        "blue-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_unofficial_icon": true
+        },
         "blue-meteor": {
           "has_female": false,
           "has_right": false,
@@ -25111,6 +25116,12 @@
         "green": {
           "has_female": false,
           "has_right": true
+        },
+        "green-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
         },
         "green-meteor": {
           "has_female": false,
@@ -25121,6 +25132,12 @@
           "has_female": false,
           "has_right": true
         },
+        "indigo-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
+        },
         "indigo-meteor": {
           "has_female": false,
           "has_right": false,
@@ -25129,6 +25146,12 @@
         "orange": {
           "has_female": false,
           "has_right": true
+        },
+        "orange-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
         },
         "orange-meteor": {
           "has_female": false,
@@ -25139,6 +25162,12 @@
           "has_female": false,
           "has_right": true
         },
+        "red-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
+        },
         "red-meteor": {
           "has_female": false,
           "has_right": false,
@@ -25148,6 +25177,12 @@
           "has_female": false,
           "has_right": true
         },
+        "violet-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
+        },
         "violet-meteor": {
           "has_female": false,
           "has_right": false,
@@ -25156,6 +25191,12 @@
         "yellow": {
           "has_female": false,
           "has_right": true
+        },
+        "yellow-gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_alias_of": "blue-gen7",
+          "is_unofficial_icon": true
         },
         "yellow-meteor": {
           "has_female": false,
@@ -25172,12 +25213,21 @@
         "blue": {
           "is_prev_gen_icon": true
         },
+        "blue-gen7": {
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
         "blue-meteor": {
           "is_alias_of": "$",
           "is_prev_gen_icon": true
         },
         "green": {
           "is_prev_gen_icon": true
+        },
+        "green-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         },
         "green-meteor": {
           "is_alias_of": "$",
@@ -25186,12 +25236,22 @@
         "indigo": {
           "is_prev_gen_icon": true
         },
+        "indigo-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
         "indigo-meteor": {
           "is_alias_of": "$",
           "is_prev_gen_icon": true
         },
         "orange": {
           "is_prev_gen_icon": true
+        },
+        "orange-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         },
         "orange-meteor": {
           "is_alias_of": "$",
@@ -25200,6 +25260,11 @@
         "red": {
           "is_prev_gen_icon": true
         },
+        "red-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
         "red-meteor": {
           "is_alias_of": "$",
           "is_prev_gen_icon": true
@@ -25207,12 +25272,22 @@
         "violet": {
           "is_prev_gen_icon": true
         },
+        "violet-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
+        },
         "violet-meteor": {
           "is_alias_of": "$",
           "is_prev_gen_icon": true
         },
         "yellow": {
           "is_prev_gen_icon": true
+        },
+        "yellow-gen7": {
+          "is_alias_of": "blue-gen7",
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         },
         "yellow-meteor": {
           "is_alias_of": "$",
@@ -26113,6 +26188,11 @@
         "$": {
           "has_female": false,
           "has_right": true
+        },
+        "gen7": {
+          "has_female": false,
+          "has_right": true,
+          "is_unofficial_icon": true
         }
       }
     },
@@ -26120,6 +26200,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "gen7": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
