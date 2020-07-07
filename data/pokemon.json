@@ -89,6 +89,9 @@
         },
         "mega": {
           "is_prev_gen_icon": true
+        },
+        "gmax": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -287,6 +290,9 @@
         },
         "mega": {
           "is_prev_gen_icon": true
+        },
+        "gmax": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -847,6 +853,10 @@
           "has_right": false
         },
         "unova-cap": {
+          "has_female": false,
+          "has_right": false
+        },
+        "galar-cap": {
           "has_female": false,
           "has_right": false
         }
@@ -2616,6 +2626,9 @@
         },
         "mega": {
           "is_prev_gen_icon": true
+        },
+        "galar": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26477,6 +26490,9 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "gmax": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26543,6 +26559,9 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "gmax": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26608,6 +26627,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "gmax": {
           "is_prev_gen_icon": false
         }
       }
