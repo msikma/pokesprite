@@ -28631,10 +28631,10 @@
         "gmax": {
           "is_prev_gen_icon": false
         },
-        "gmax-rapid-strike": {
+        "rapid-strike-gmax": {
           "is_prev_gen_icon": false
         },
-        "gmax-single-strike": {
+        "single-strike-gmax": {
           "is_prev_gen_icon": false,
           "is_alias_of": "gmax"
         }
