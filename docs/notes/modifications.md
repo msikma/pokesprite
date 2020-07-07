@@ -30,8 +30,7 @@ Note: when converting, make sure to prevent ImageMagick from adding a `gAMA` blo
 Replacing a color can be done with the following ImageMagick command (e.g. `#202020` → `#000000` in this example):
 
 ```sh
-# where $i is a file
-magick convert -fill "#000000" -define png:exclude-chunk=gAMA -opaque "#202020" $i -depth 32 PNG32:$i
+magick convert -fill "#000000" -opaque "#202020" -define png:exclude-chunk=gAMA $i -depth 32 PNG32:$i
 ```
 
 ### LPLE minor updates
@@ -44,3 +43,11 @@ The following minor updates were part of LPLE:
 * Wartortle icon: properly closed the outline on its head
 
 These updates have been backported to the 40×30 icons.
+
+## Gen 8 modifications
+
+The Gen 8 sprites seem to come in 2× upscaled format now, 136×112 instead of 68×56. For downscaling them:
+
+```sh
+magick convert -interpolate Nearest -filter point -resize 50% -define png:exclude-chunk=gAMA $i -depth 32 PNG32:$i
+```
