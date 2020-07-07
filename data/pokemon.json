@@ -28586,5 +28586,84 @@
         }
       }
     }
+  },
+  "891": {
+    "idx": "891",
+    "name": {
+      "eng": "Kubfu",
+      "chs": "熊徒弟",
+      "jpn": "ダクマ",
+      "jpn_ro": "Dakuma"
+    },
+    "slug": {
+      "eng": "kubfu",
+      "jpn": "dakuma",
+      "jpn_ro": "dakuma"
+    },
+    "gen-7": {},
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "892": {
+    "idx": "892",
+    "name": {
+      "eng": "Urshifu",
+      "chs": "武道熊師",
+      "jpn": "ウーラオス",
+      "jpn_ro": "Wulaosu"
+    },
+    "slug": {
+      "eng": "urshifu",
+      "jpn": "wulaosu",
+      "jpn_ro": "wulaosu"
+    },
+    "gen-7": {},
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        },
+        "gmax": {
+          "is_prev_gen_icon": false
+        },
+        "gmax-rapid-strike": {
+          "is_prev_gen_icon": false
+        },
+        "gmax-single-strike": {
+          "is_prev_gen_icon": false,
+          "is_alias_of": "gmax"
+        }
+      }
+    }
+  },
+  "893": {
+    "idx": "893",
+    "name": {
+      "eng": "Zarude",
+      "chs": "薩戮德",
+      "jpn": "ザルード",
+      "jpn_ro": "Zarude"
+    },
+    "slug": {
+      "eng": "zarude",
+      "jpn": "zarude",
+      "jpn_ro": "zarude"
+    },
+    "gen-7": {},
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        },
+        "dada": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
   }
 }
