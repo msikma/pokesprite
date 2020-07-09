@@ -1015,7 +1015,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "alola": {
           "is_prev_gen_icon": true
@@ -1380,7 +1380,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -2686,7 +2686,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -3404,18 +3404,18 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "alola": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "totem": {
           "is_alias_of": "alola",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "totem-alola": {
           "is_alias_of": "alola",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -3889,7 +3889,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -5786,7 +5786,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -5844,7 +5844,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -6221,7 +6221,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -6622,7 +6622,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -6807,7 +6807,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -6872,7 +6872,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -7255,7 +7255,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7349,7 +7349,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7436,7 +7436,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7668,7 +7668,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7697,7 +7697,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -9275,7 +9275,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -10010,7 +10010,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -12660,7 +12660,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -13452,7 +13452,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -14464,7 +14464,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14493,7 +14493,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14551,7 +14551,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14812,7 +14812,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -16009,7 +16009,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17090,7 +17090,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17206,7 +17206,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17338,7 +17338,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17891,7 +17891,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -18415,7 +18415,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -18531,7 +18531,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19377,7 +19377,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19406,7 +19406,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19551,7 +19551,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19870,7 +19870,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20769,7 +20769,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22291,7 +22291,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22349,7 +22349,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22610,7 +22610,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22755,7 +22755,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -24061,17 +24061,17 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "dusk": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "midday": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "midnight": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -24362,7 +24362,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "totem": {
           "is_alias_of": "$",
@@ -24665,7 +24665,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -24839,7 +24839,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26175,10 +26175,10 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "original": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
