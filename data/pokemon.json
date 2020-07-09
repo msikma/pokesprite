@@ -865,9 +865,13 @@
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "alola-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "belle": {
@@ -880,18 +884,26 @@
           "is_prev_gen_icon": false
         },
         "hoenn-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "kalos-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "libre": {
           "is_prev_gen_icon": true
         },
         "original-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "partner-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "phd": {
@@ -904,15 +916,23 @@
           "is_prev_gen_icon": true
         },
         "sinnoh-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "starter": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "unova-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": true
         },
         "world-cap": {
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": false
         }
       }

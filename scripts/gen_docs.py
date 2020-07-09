@@ -243,7 +243,7 @@ def read_data():
     'etc': read_json_file(ETC_JSON)
   }
 
-def get_pkm_form(form_name, form_alias, is_unofficial_icon):
+def get_pkm_form(form_name, form_alias, is_unofficial_icon, is_female, has_unofficial_female_icon):
   title = []
   daggers = []
 
@@ -253,6 +253,9 @@ def get_pkm_form(form_name, form_alias, is_unofficial_icon):
     daggers.append('†')
   if is_unofficial_icon:
     title.append('Unofficial icon (see below)')
+    daggers.append('‡')
+  if is_female and has_unofficial_female_icon:
+    title.append('Unofficial female icon (see below)')
     daggers.append('‡')
 
   if len(title):
@@ -372,21 +375,21 @@ def determine_form(slug, form_name, form_data):
 
   return (form_slug_file, form_slug_display, form_alias)
 
-def append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, is_female, is_right, is_unofficial_icon, is_prev_gen_icon, docs_gen):
+def append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_unofficial_female_icon, is_female, is_right, is_unofficial_icon, is_prev_gen_icon, docs_gen):
   '''Adds a single Pokémon row'''
   cols.append([
     get_counter(),
     get_img_node(get_pkm_url(base, slug_file, False, is_female, is_right), None, form_name, 'p'),
     get_img_node(get_pkm_url(base, slug_file, True, is_female, is_right), None, form_name, 'p'),
-    [get_pkm_form(form_name, form_alias, is_unofficial_icon), get_pkm_gender(is_female, has_female), get_pkm_gen(is_prev_gen_icon, docs_gen)],
+    [get_pkm_form(form_name, form_alias, is_unofficial_icon, is_female, has_unofficial_female_icon), get_pkm_gender(is_female, has_female), get_pkm_gen(is_prev_gen_icon, docs_gen)],
     f'<code>{slug_display}</code>'
   ])
 
-def append_pkm_form(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_right, add_female, add_right, is_unofficial_icon, is_prev_gen_icon, docs_gen):
+def append_pkm_form(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_unofficial_female_icon, has_right, add_female, add_right, is_unofficial_icon, is_prev_gen_icon, docs_gen):
   '''Adds columns for a single form: at least two, then female sprites, then right-facing sprites'''
-  append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, False, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
-  if has_female and add_female: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, True, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
-  if has_right and add_right: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, False, True, is_unofficial_icon, is_prev_gen_icon, docs_gen)
+  append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_unofficial_female_icon, False, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
+  if has_female and add_female: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_unofficial_female_icon, True, False, is_unofficial_icon, is_prev_gen_icon, docs_gen)
+  if has_right and add_right: append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_female, has_unofficial_female_icon, False, True, is_unofficial_icon, is_prev_gen_icon, docs_gen)
 
 def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]', commit = '[unknown]'):
   '''Generates a documentation table for miscellaneous sprites'''
@@ -629,6 +632,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
         form_name_clean,
         form_alias,
         form_data.get('has_female', False),
+        form_data.get('has_unofficial_female_icon', False),
         form_data.get('has_right', False),
         add_female,
         add_right,
