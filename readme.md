@@ -97,7 +97,8 @@ The **`forms`** object contains a list of all sprites pertaining to a Pokémon.
 | `is_unofficial_legacy_icon` | As above, but only for the smaller legacy 40×30 sprites (only used for *Melmetal*) |
 | `is_prev_gen_icon` | This sprite is actually from an earlier generation |
 | `has_right` | A unique right-facing sprite is available (e.g. *Roselia*—only for Gen 7 Pokémon) |
-| `has_female` | A unique female sprite is available (e.g. *Unfezant*) |
+| `has_female` | This Pokémon has visible gender differences (e.g. *Unfezant*) |
+| `has_unofficial_female_icon` | The female version of this Pokémon's sprite was custom made (e.g. *Pikachu*) |
 
 <sub>†: only applies to non-shiny sprites, as shiny sprites are always unofficial.</sub>
 
