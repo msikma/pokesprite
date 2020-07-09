@@ -911,6 +911,9 @@
         },
         "unova-cap": {
           "is_prev_gen_icon": true
+        },
+        "world-cap": {
+          "is_prev_gen_icon": false
         }
       }
     }
