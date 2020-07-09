@@ -797,11 +797,13 @@
     "gen-7": {
       "forms": {
         "$": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "alola-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "belle": {
@@ -813,11 +815,13 @@
           "has_right": false
         },
         "hoenn-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "kalos-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "libre": {
@@ -825,11 +829,13 @@
           "has_right": false
         },
         "original-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": true
         },
         "partner-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": true
         },
         "phd": {
@@ -845,19 +851,23 @@
           "has_right": false
         },
         "sinnoh-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "starter": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "unova-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         },
         "world-cap": {
-          "has_female": false,
+          "has_female": true,
+          "has_unofficial_female_icon": true,
           "has_right": false
         }
       }
