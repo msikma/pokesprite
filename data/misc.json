@@ -1902,7 +1902,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found in the middle of the day",
+        "eng": "A mark for a peckish Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -1923,7 +1923,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found at night",
+        "eng": "A mark for a sleepy Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -1944,7 +1944,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found in the evening",
+        "eng": "A mark for a dozy Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -1965,7 +1965,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found in the morning",
+        "eng": "A mark for an early-riser Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -1986,7 +1986,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found while it's overcast",
+        "eng": "A mark for a cloud-watching Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2007,7 +2007,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found while it's raining",
+        "eng": "A mark for a sodden Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2028,7 +2028,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found while it's stormy",
+        "eng": "A mark for a thunderstruck Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2049,7 +2049,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found while it's snowing",
+        "eng": "A mark for a snow-frolicking Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2070,7 +2070,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found while there's a snowstorm",
+        "eng": "A mark for a shivering Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2091,7 +2091,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found when it's intense sunlight",
+        "eng": "A mark for a parched Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2112,7 +2112,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found in a sandstorm",
+        "eng": "A mark for a sandswept Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2133,7 +2133,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found in fog",
+        "eng": "A mark for a mist-drifter Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2154,7 +2154,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "",
+        "eng": "A mark of a chosen Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2175,7 +2175,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a caught Pokémon found by fishing",
+        "eng": "A mark for a catch-of-the-day Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2196,7 +2196,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "On a Pokémon that comes to your camp after you cook Curry",
+        "eng": "A mark for a curry-connoisseur Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2217,7 +2217,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have an extremely small chance of having this mark",
+        "eng": "A mark for a sociable Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2238,7 +2238,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a small chance of having this mark",
+        "eng": "A mark for a reclusive Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2259,7 +2259,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a rowdy Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2280,7 +2280,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a spacey Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2301,7 +2301,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an anxious Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2322,7 +2322,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a giddy Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2343,7 +2343,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a radiant Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2364,7 +2364,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a serene Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2385,7 +2385,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a feisty Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2406,7 +2406,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a daydreaming Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2427,7 +2427,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a joyful Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2448,7 +2448,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a furious Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2469,7 +2469,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a beaming Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2490,7 +2490,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a teary-eyed Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2511,7 +2511,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a chipper Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2532,7 +2532,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a grumpy Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2553,7 +2553,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a scholarly Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2574,7 +2574,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a rampaging Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2595,7 +2595,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an opportunistic Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2616,7 +2616,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a stern Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2637,7 +2637,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a kindhearted Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2658,7 +2658,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an easily flustered Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2679,7 +2679,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a driven Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2700,11 +2700,11 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an apathetic Pokémon.",
         "from_gen": 8
       },
       "files": {
-        "gen-8": "mark/zero-energy-mark.png"
+        "gen-8": "mark/zeroenergy-mark.png"
       }
     },
     {
@@ -2721,7 +2721,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an arrogant Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2742,7 +2742,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for an unsure Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2763,7 +2763,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a humble Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2784,7 +2784,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a pompous Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2805,7 +2805,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a lively Pokémon.",
         "from_gen": 8
       },
       "files": {
@@ -2826,7 +2826,7 @@
         "jpn_ro": null
       },
       "description": {
-        "eng": "All Pokémon have a very small chance of having this mark",
+        "eng": "A mark for a worn-out Pokémon.",
         "from_gen": 8
       },
       "files": {
