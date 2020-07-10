@@ -42,6 +42,13 @@ EMPTY_PLACEHOLDER = '–'
 # Global sprite counter for the leftmost column
 _n_counter = None
 
+def flatten(items, seqtypes=(list, tuple)):
+  '''Flattens a list.'''
+  for i, x in enumerate(items):
+    while i < len(items) and isinstance(items[i], seqtypes):
+      items[i:i+1] = items[i]
+  return items
+
 def generate_index_page(version, commit):
   '''Generates the index page'''
   old_links = [
@@ -398,7 +405,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   # each one containing one item with potentially multiple sprites.
   reset_counter()
   groups = meta['misc-groups']
-  order = ['ribbon', 'mark', 'body-style']
+  order = ['ribbon', 'mark', 'special-attribute', 'body-style']
   base_url = REPO_BASE_URL
 
   # List of items to display in the opening text.
@@ -413,7 +420,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons and marks
-  for misc_set in ['ribbon', 'mark']:
+  for misc_set in ['ribbon', 'mark', 'special-attribute']:
     buffer.append('<tbody>')
     buffer.append('<tr><th></th><th colspan="6" class="group" id="%s">%s</th></tr>' % (misc_set, groups[misc_set]['name']['eng']))
     buffer.append('</tbody>')
@@ -427,36 +434,44 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       name_jpn = name['jpn']
       name_jpn_ro = name['jpn_ro']
       origin_gen = item['origin_gen']
-      desc = item['description']
-      desc_eng = desc['eng']
-      desc_gen = desc['from_gen']
-      desc_eng_esc = html.escape(desc_eng)
-      name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>'
+      desc = item.get('description', {})
+      desc_eng = desc.get('eng')
+      desc_gen = desc.get('from_gen')
+      desc_eng_esc = html.escape(desc_eng) if desc_eng else ''
+      name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>' if desc_eng else name_eng
       row_n = 0
       files = item['files'].items()
       buffer.append('<tbody class="alternating">')
-      for k, v in files:
-        count = get_counter()
-        gen_n = k.split('-')[1]
-        buffer.append('<tr class="variable-height">')
-        buffer.append(f'<td>{count}</td>')
-        if row_n == 0:
-          rows = len(files)
-          rowspan = f' rowspan="{rows}"' if rows > 1 else ''
-          buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
-          buffer.append(f'<td{rowspan}>{name_jpn}</td>')
-          buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-        buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if gen_n == '8' else None) + '</td>')
-        buffer.append(f'<td class="filler"><code>{v}</code></td>')
-        buffer.append(f'<td>Gen {gen_n}</td>')
-        buffer.append('</tr>')
-        sprites_counter += 1
-        row_n += 1
+      images = flatten([[item['files'][n]] for n in item['files']])
+      for k, vs in files:
+        vs = vs if isinstance(vs, list) else [vs]
+        for v in vs:
+          count = get_counter()
+          gen_n = k.split('-')[1]
+          buffer.append('<tr class="variable-height">')
+          buffer.append(f'<td>{count}</td>')
+          if row_n == 0:
+            rows = len(files)
+            rowspan = f' rowspan="{len(images)}"' if len(images) > 1 else ''
+            buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
+            buffer.append(f'<td{rowspan}>{name_jpn}</td>')
+            buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
+          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if gen_n == '8' else None) + '</td>')
+          buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
+          if len(vs) > 1:
+            if row_n == 0:
+              rowspan = f' rowspan="{len(vs)}"'
+              buffer.append(f'<td{rowspan}>Gen {gen_n}</td>')
+          else:
+            buffer.append(f'<td>Gen {gen_n}</td>')
+          buffer.append('</tr>')
+          sprites_counter += 1
+          row_n += 1
       buffer.append('</tbody>')
   
   # Body styles
   buffer.append('<tbody>')
-  buffer.append('<tr><th></th><td colspan="6" class="group" id="body-style">%s</td></tr>' % groups['body-style']['name']['eng'])
+  buffer.append('<tr><th></th><th colspan="6" class="group" id="body-style">%s</th></tr>' % groups['body-style']['name']['eng'])
   buffer.append('</tbody>')
   buffer.append('<tbody>')
   buffer.append('<tr class="header"><th>#</th><th>Type</th><th colspan="2">種類</th><th>Sprite</th><th colspan="3">Filename/gen</th></tr>')

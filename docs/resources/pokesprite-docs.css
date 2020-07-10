@@ -73,6 +73,9 @@
   display: inline-block;
   padding-top: 1px;
 }
+.markdown-body .pokesprite tbody tr td.last-item {
+  border-right-width: 0;
+}
 .markdown-body .pokesprite tbody tr.variable-height td {
   vertical-align: middle;
 }

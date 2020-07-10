@@ -2833,5 +2833,29 @@
         "gen-8": "mark/slump-mark.png"
       }
     }
+  ],
+  "special-attribute": [
+    {
+      "name": {
+        "eng": "Shiny Leaf",
+        "jpn": "かがやくはっぱ",
+        "jpn_ro": "Kagayaku happa"
+      },
+      "origin_gen": 4,
+      "files": {
+        "gen-4": ["special-attribute/shiny-leaf.png", "special-attribute/shiny-leaf--shadow.png"]
+      }
+    },
+    {
+      "name": {
+        "eng": "Leaf Crown",
+        "jpn": "おうかん",
+        "jpn_ro": "Oukan"
+      },
+      "origin_gen": 4,
+      "files": {
+        "gen-4": ["special-attribute/leaf-crown.png", "special-attribute/leaf-crown--shadow.png"]
+      }
+    }
   ]
 }
