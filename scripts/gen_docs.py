@@ -456,7 +456,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
             buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
             buffer.append(f'<td{rowspan}>{name_jpn}</td>')
             buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if gen_n == '8' else None) + '</td>')
+          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if (gen_n == '8' and misc_set in ['ribbon', 'mark']) else None) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
             if row_n == 0:

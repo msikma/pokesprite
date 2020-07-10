@@ -2856,6 +2856,17 @@
       "files": {
         "gen-4": ["special-attribute/leaf-crown.png", "special-attribute/leaf-crown--shadow.png"]
       }
+    },
+    {
+      "name": {
+        "eng": "Gigantamax Icon",
+        "jpn": "キョダイマックスのアイコン",
+        "jpn_ro": "Gyodaimakkusu no aikon"
+      },
+      "origin_gen": 8,
+      "files": {
+        "gen-8": "special-attribute/gigantamax-icon.png"
+      }
     }
   ]
 }
