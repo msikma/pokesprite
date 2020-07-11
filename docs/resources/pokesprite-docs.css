@@ -56,8 +56,15 @@
 .markdown-body .pokesprite tbody:not(.alternating) tr td[rowspan] {
   background: var(--shade-0);
 }
-.markdown-body .pokesprite tbody tr td.group {
+.markdown-body .pokesprite tbody tr th.group {
   font-weight: 500;
+  text-align: left;
+}
+.markdown-body .pokesprite tbody tr th.group:hover {
+  background: var(--shade-0);
+}
+.markdown-body .pokesprite tbody:not(:nth-child(3)) tr th.group {
+  padding-top: 25px;
 }
 .markdown-body .pokesprite tbody tr td.item-id {
   padding-bottom: 0;
@@ -65,6 +72,9 @@
 .markdown-body .pokesprite tbody tr td.item-id code {
   display: inline-block;
   padding-top: 1px;
+}
+.markdown-body .pokesprite tbody tr td.last-item {
+  border-right-width: 0;
 }
 .markdown-body .pokesprite tbody tr.variable-height td {
   vertical-align: middle;

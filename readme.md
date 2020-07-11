@@ -12,7 +12,7 @@ These sprites can be used as individual files, or accessed programmatically usin
 
 ## Sprites and metadata
 
-This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8) are included. Item sprites are available with Gen 8 style white outlines and without.
+This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8), including the DLC, are included. Item sprites are available with Gen 8 style white outlines and without.
 
 | Directory | Example | Size | Type | Description |
 |:----------|:-------:|:----------|:-----|:------------|
@@ -30,7 +30,7 @@ See the [Pokémon sprite overview page](https://msikma.github.io/pokesprite/over
 
 ## Data files
 
-Developers who want to use these sprites programmatically might want to look at the `/data/dex.json` and `/data/items.json` files; the former contains a list of all Pokémon and their associated sprites, and the latter links all sprites in the repo to their internal IDs used in-game.
+Developers who want to use these sprites programmatically might want to look at the `/data/pokemon.json` and `/data/item-map.json` files; the former contains a list of all Pokémon and their associated sprites, and the latter links all sprites in the repo to their internal IDs used in-game.
 
 ### Pokémon sprite list
 
@@ -97,7 +97,8 @@ The **`forms`** object contains a list of all sprites pertaining to a Pokémon.
 | `is_unofficial_legacy_icon` | As above, but only for the smaller legacy 40×30 sprites (only used for *Melmetal*) |
 | `is_prev_gen_icon` | This sprite is actually from an earlier generation |
 | `has_right` | A unique right-facing sprite is available (e.g. *Roselia*—only for Gen 7 Pokémon) |
-| `has_female` | A unique female sprite is available (e.g. *Unfezant*) |
+| `has_female` | This Pokémon has visible gender differences (e.g. *Unfezant*) |
+| `has_unofficial_female_icon` | The female version of this Pokémon's sprite was custom made (e.g. *Pikachu*) |
 
 <sub>†: only applies to non-shiny sprites, as shiny sprites are always unofficial.</sub>
 
@@ -121,7 +122,11 @@ For all other sprites that are neither Pokémon nor inventory items, see [`/data
 
 Since Gen 8, the Pokémon box sprites have become 68×56 (up from 40×30 in Gen 7) to accommodate larger sprite designs. 
 
-<img align="left" src="resources/images/readme_gen8_size.png" width="177">
+<p align="center">
+<img src="resources/images/readme_gen8_size_1.png" width="166">
+&nbsp;&nbsp;&nbsp;
+<img src="resources/images/readme_gen8_size_2.png" width="166">
+<p>
 
 Most Pokémon did not get a new sprite as of Gen 8, meaning their old sprite was padded to the new size. Sprites were padded from below, with one extra pixel of space on the bottom (see left).
 

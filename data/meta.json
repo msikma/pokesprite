@@ -201,6 +201,16 @@
       "name": {
         "eng": "Ribbons"
       }
+    },
+    "mark": {
+      "name": {
+        "eng": "Marks"
+      }
+    },
+    "special-attribute": {
+      "name": {
+        "eng": "Special attributes"
+      }
     }
   }
 }

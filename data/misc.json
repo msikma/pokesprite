@@ -1886,5 +1886,1010 @@
         "gen-8": "body-style/head-arms-gen8.png"
       }
     }
+  ],
+  "mark": [
+    {
+      "id": "53",
+      "name": {
+        "eng": "Lunchtime Mark",
+        "jpn": "しょうごのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Peckish",
+        "jpn": "はらペコの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a peckish Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/lunchtime-mark.png"
+      }
+    },
+    {
+      "id": "54",
+      "name": {
+        "eng": "Sleepy-Time Mark",
+        "jpn": "しょうしのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Sleepy",
+        "jpn": "おねむな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a sleepy Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/sleepy-time-mark.png"
+      }
+    },
+    {
+      "id": "55",
+      "name": {
+        "eng": "Dusk Mark",
+        "jpn": "たそがれのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Dozy",
+        "jpn": "そろそろねむい",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a dozy Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/dusk-mark.png"
+      }
+    },
+    {
+      "id": "56",
+      "name": {
+        "eng": "Dawn Mark",
+        "jpn": "あかつきのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Early Riser",
+        "jpn": "はやくにめざめた",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an early-riser Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/dawn-mark.png"
+      }
+    },
+    {
+      "id": "57",
+      "name": {
+        "eng": "Cloudy Mark",
+        "jpn": "どんてんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Cloud Watcher",
+        "jpn": "くもをみつめる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a cloud-watching Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/cloudy-mark.png"
+      }
+    },
+    {
+      "id": "58",
+      "name": {
+        "eng": "Rainy Mark",
+        "jpn": "あめふりのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Sodden",
+        "jpn": "あめにむせぶ",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a sodden Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/rainy-mark.png"
+      }
+    },
+    {
+      "id": "59",
+      "name": {
+        "eng": "Stormy Mark",
+        "jpn": "いかづちのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Thunderstruck",
+        "jpn": "かみなりにさわぐ",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a thunderstruck Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/stormy-mark.png"
+      }
+    },
+    {
+      "id": "60",
+      "name": {
+        "eng": "Snowy Mark",
+        "jpn": "こうせつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Snow Frolicker",
+        "jpn": "ゆきにころがる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a snow-frolicking Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/snowy-mark.png"
+      }
+    },
+    {
+      "id": "61",
+      "name": {
+        "eng": "Blizzard Mark",
+        "jpn": "ごうせつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Shivering",
+        "jpn": "こごえふるえる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a shivering Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/blizzard-mark.png"
+      }
+    },
+    {
+      "id": "62",
+      "name": {
+        "eng": "Dry Mark",
+        "jpn": "かんそうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Parched",
+        "jpn": "のどカラカラの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a parched Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/dry-mark.png"
+      }
+    },
+    {
+      "id": "63",
+      "name": {
+        "eng": "Sandstorm Mark",
+        "jpn": "さじんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Sandswept",
+        "jpn": "すなにまみれる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a sandswept Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/sandstorm-mark.png"
+      }
+    },
+    {
+      "id": "64",
+      "name": {
+        "eng": "Misty Mark",
+        "jpn": "のうむのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Mist Drifter",
+        "jpn": "きりにとまどう",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a mist-drifter Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/misty-mark.png"
+      }
+    },
+    {
+      "id": "65",
+      "name": {
+        "eng": "Destiny Mark",
+        "jpn": "うんめいのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Chosen One",
+        "jpn": "うんめいかんじる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark of a chosen Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/destiny-mark.png"
+      }
+    },
+    {
+      "id": "66",
+      "name": {
+        "eng": "Fishing Mark",
+        "jpn": "つりあげられたあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Catch of the Day",
+        "jpn": "つりたてピチピチの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a catch-of-the-day Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/fishing-mark.png"
+      }
+    },
+    {
+      "id": "67",
+      "name": {
+        "eng": "Curry Mark",
+        "jpn": "カレーのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Curry Connoisseur",
+        "jpn": "カレーずきな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a curry-connoisseur Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/curry-mark.png"
+      }
+    },
+    {
+      "id": "68",
+      "name": {
+        "eng": "Uncommon Mark",
+        "jpn": "ときどきみるあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Sociable",
+        "jpn": "ひとになれてる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a sociable Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/rare-mark.png"
+      }
+    },
+    {
+      "id": "69",
+      "name": {
+        "eng": "Rare Mark",
+        "jpn": "みたことのないあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Recluse",
+        "jpn": "ひとをしらない",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a reclusive Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/uncommon-mark.png"
+      }
+    },
+    {
+      "id": "70",
+      "name": {
+        "eng": "Rowdy Mark",
+        "jpn": "わんぱくなあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Rowdy",
+        "jpn": "あばれんぼうの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a rowdy Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/rowdy-mark.png"
+      }
+    },
+    {
+      "id": "71",
+      "name": {
+        "eng": "Absent-Minded Mark",
+        "jpn": "のうてんきなあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Spacey",
+        "jpn": "なにもかんがえてない",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a spacey Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/absent-minded-mark.png"
+      }
+    },
+    {
+      "id": "72",
+      "name": {
+        "eng": "Jittery Mark",
+        "jpn": "きんちょうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Anxious",
+        "jpn": "ドキドキしてる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an anxious Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/jittery-mark.png"
+      }
+    },
+    {
+      "id": "73",
+      "name": {
+        "eng": "Excited Mark",
+        "jpn": "きたいのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Giddy",
+        "jpn": "ワクワクしてる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a giddy Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/excited-mark.png"
+      }
+    },
+    {
+      "id": "74",
+      "name": {
+        "eng": "Charismatic Mark",
+        "jpn": "カリスマのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Radiant",
+        "jpn": "オーラをかんじる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a radiant Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/charismatic-mark.png"
+      }
+    },
+    {
+      "id": "75",
+      "name": {
+        "eng": "Calmness Mark",
+        "jpn": "れいせいのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Serene",
+        "jpn": "クールな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a serene Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/calmness-mark.png"
+      }
+    },
+    {
+      "id": "76",
+      "name": {
+        "eng": "Intense Mark",
+        "jpn": "じょうねつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Feisty",
+        "jpn": "アグレッシブな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a feisty Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/intense-mark.png"
+      }
+    },
+    {
+      "id": "77",
+      "name": {
+        "eng": "Zoned-Out Mark",
+        "jpn": "ゆだんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Daydreamer",
+        "jpn": "ボーっとしてる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a daydreaming Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/zoned-out-mark.png"
+      }
+    },
+    {
+      "id": "78",
+      "name": {
+        "eng": "Joyful Mark",
+        "jpn": "たこうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Joyful",
+        "jpn": "しあわせそうな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a joyful Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/joyful-mark.png"
+      }
+    },
+    {
+      "id": "79",
+      "name": {
+        "eng": "Angry Mark",
+        "jpn": "ふんぬのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Furious",
+        "jpn": "プンプンおこる",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a furious Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/angry-mark.png"
+      }
+    },
+    {
+      "id": "80",
+      "name": {
+        "eng": "Smiley Mark",
+        "jpn": "びしょうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Beaming",
+        "jpn": "ニコニコわらう",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a beaming Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/smiley-mark.png"
+      }
+    },
+    {
+      "id": "81",
+      "name": {
+        "eng": "Teary Mark",
+        "jpn": "ひそうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Teary-Eyed",
+        "jpn": "メソメソなく",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a teary-eyed Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/teary-mark.png"
+      }
+    },
+    {
+      "id": "82",
+      "name": {
+        "eng": "Upbeat Mark",
+        "jpn": "かいちょうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Chipper",
+        "jpn": "ごきげんな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a chipper Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/upbeat-mark.png"
+      }
+    },
+    {
+      "id": "83",
+      "name": {
+        "eng": "Peeved Mark",
+        "jpn": "げきはつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Grumpy",
+        "jpn": "ふきげんな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a grumpy Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/peeved-mark.png"
+      }
+    },
+    {
+      "id": "84",
+      "name": {
+        "eng": "Intellectual Mark",
+        "jpn": "りせいのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Scholar",
+        "jpn": "ちてきな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a scholarly Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/intellectual-mark.png"
+      }
+    },
+    {
+      "id": "85",
+      "name": {
+        "eng": "Ferocious Mark",
+        "jpn": "ほんのうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Rampaging",
+        "jpn": "あれくるう",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a rampaging Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/ferocious-mark.png"
+      }
+    },
+    {
+      "id": "86",
+      "name": {
+        "eng": "Crafty Mark",
+        "jpn": "こうかつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Opportunist",
+        "jpn": "スキをねらう",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an opportunistic Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/crafty-mark.png"
+      }
+    },
+    {
+      "id": "87",
+      "name": {
+        "eng": "Scowling Mark",
+        "jpn": "こわもてのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Stern",
+        "jpn": "いかつい",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a stern Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/scowling-mark.png"
+      }
+    },
+    {
+      "id": "88",
+      "name": {
+        "eng": "Kindly Mark",
+        "jpn": "やさがたのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Kindhearted",
+        "jpn": "やさしげな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a kindhearted Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/kindly-mark.png"
+      }
+    },
+    {
+      "id": "89",
+      "name": {
+        "eng": "Flustered Mark",
+        "jpn": "どうようのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Easily Flustered",
+        "jpn": "あわてんぼうの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an easily flustered Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/flustered-mark.png"
+      }
+    },
+    {
+      "id": "90",
+      "name": {
+        "eng": "Pumped-Up Mark",
+        "jpn": "こうようのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Driven",
+        "jpn": "やるきまんまんの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a driven Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/pumped-up-mark.png"
+      }
+    },
+    {
+      "id": "91",
+      "name": {
+        "eng": "Zero Energy Mark",
+        "jpn": "けんたいのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Apathetic",
+        "jpn": "やるきゼロの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an apathetic Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/zero-energy-mark.png"
+      }
+    },
+    {
+      "id": "92",
+      "name": {
+        "eng": "Prideful Mark",
+        "jpn": "じしんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Arrogant",
+        "jpn": "ふんぞりかえった",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an arrogant Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/prideful-mark.png"
+      }
+    },
+    {
+      "id": "93",
+      "name": {
+        "eng": "Unsure Mark",
+        "jpn": "ふしんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Reluctant",
+        "jpn": "じしんのない",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for an unsure Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/unsure-mark.png"
+      }
+    },
+    {
+      "id": "94",
+      "name": {
+        "eng": "Humble Mark",
+        "jpn": "ぼくとつのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Humble",
+        "jpn": "そぼくな",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a humble Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/humble-mark.png"
+      }
+    },
+    {
+      "id": "95",
+      "name": {
+        "eng": "Thorny Mark",
+        "jpn": "ふじゅんのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Pompous",
+        "jpn": "きどっている",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a pompous Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/thorny-mark.png"
+      }
+    },
+    {
+      "id": "96",
+      "name": {
+        "eng": "Vigor Mark",
+        "jpn": "げんきのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Lively",
+        "jpn": "げんきいっぱいの",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a lively Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/vigor-mark.png"
+      }
+    },
+    {
+      "id": "97",
+      "name": {
+        "eng": "Slump Mark",
+        "jpn": "ふちょうのあかし",
+        "jpn_ro": null
+      },
+      "origin_gen": 8,
+      "title": {
+        "eng": "the Worn-Out",
+        "jpn": "どこかくたびれた",
+        "jpn_ro": null
+      },
+      "description": {
+        "eng": "A mark for a worn-out Pokémon.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "mark/slump-mark.png"
+      }
+    }
+  ],
+  "special-attribute": [
+    {
+      "name": {
+        "eng": "Shiny Leaf",
+        "jpn": "かがやくはっぱ",
+        "jpn_ro": "Kagayaku happa"
+      },
+      "origin_gen": 4,
+      "files": {
+        "gen-4": ["special-attribute/shiny-leaf.png", "special-attribute/shiny-leaf--shadow.png"]
+      }
+    },
+    {
+      "name": {
+        "eng": "Leaf Crown",
+        "jpn": "おうかん",
+        "jpn_ro": "Oukan"
+      },
+      "origin_gen": 4,
+      "files": {
+        "gen-4": ["special-attribute/leaf-crown.png", "special-attribute/leaf-crown--shadow.png"]
+      }
+    },
+    {
+      "name": {
+        "eng": "Mega Evolution Sigil",
+        "jpn": "メガシンカの模様",
+        "jpn_ro": "Mega shinka no moyou"
+      },
+      "origin_gen": 6,
+      "files": {
+        "gen-6": "special-attribute/mega-evolution-sigil-gen6.png",
+        "gen-7": "special-attribute/mega-evolution-sigil.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Mega Evolution Sigil (Edit)",
+        "jpn": "メガシンカの模様（編集）",
+        "jpn_ro": "Mega shinka no moyou henshuu"
+      },
+      "origin_gen": 6,
+      "files": {
+        "gen-8": "special-attribute/mega-evolution-sigil-hires.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Gigantamax Icon",
+        "jpn": "キョダイマックスのアイコン",
+        "jpn_ro": "Gyodaimakkusu no aikon"
+      },
+      "origin_gen": 8,
+      "files": {
+        "gen-8": "special-attribute/gigantamax-icon.png"
+      }
+    }
   ]
 }

@@ -1,8 +1,11 @@
-## Ribbon notes
+## Notes on Ribbons and Marks
 
-Ribbon descriptions have been taken from [Bulbapedia's *List of Ribbons in the games* page](https://bulbapedia.bulbagarden.net/wiki/List_of_Ribbons_in_the_games). They were requested in [issue #8](https://github.com/msikma/pokesprite/issues/8) and merged with [PR #59](https://github.com/msikma/pokesprite/pull/59).
+The data for Ribbons and Marks has been taken from Bulbapedia:
 
-Each item in the [`misc.json`](https://github.com/msikma/pokesprite/blob/master/data/misc.json) data file has the following structure:
+* the [*List of Ribbons in the games*](https://bulbapedia.bulbagarden.net/wiki/List_of_Ribbons_in_the_games) page for Ribbons,
+* the [*Mark*](https://bulbapedia.bulbagarden.net/wiki/Mark) page for Marks.
+
+Items in the [`misc.json`](https://github.com/msikma/pokesprite/blob/master/data/misc.json) data file have roughly the following structure (varying depending on the item type):
 
 ```js
 {
@@ -20,17 +23,17 @@ Each item in the [`misc.json`](https://github.com/msikma/pokesprite/blob/master/
     "gen-6": "ribbon/training-ribbon.png",
     "gen-8": "ribbon/gen8/training-ribbon.png"
   }
-},
+}
 ```
 
-A brief description of what each item is:
+A description of each item:
 
 | Key | Meaning |
 |:----|:--------|
 | `name` | Official names in various languages |
-| `origin_gen` | The generation in which this ribbon was originally introduced |
-| `description` | A description of the ribbon from a specific generation |
-| `files` | Object containing paths to the sprites from various generations |
+| `origin_gen` | The generation in which this item was originally introduced |
+| `description` | A description of the item from a specific generation (absent in some items) |
+| `files` | Object containing paths to the sprites from various generations; either a string, or an array of strings |
 
 Note that `files` may have multiple entries, such as the *Training Ribbon* which has an image for Gen 6 and Gen 8.
 
