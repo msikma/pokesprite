@@ -2859,6 +2859,29 @@
     },
     {
       "name": {
+        "eng": "Mega Evolution Sigil",
+        "jpn": "メガシンカの模様",
+        "jpn_ro": "Mega shinka no moyou"
+      },
+      "origin_gen": 6,
+      "files": {
+        "gen-6": "special-attribute/mega-evolution-sigil-gen6.png",
+        "gen-7": "special-attribute/mega-evolution-sigil.png"
+      }
+    },
+    {
+      "name": {
+        "eng": "Mega Evolution Sigil (Edit)",
+        "jpn": "メガシンカの模様（編集）",
+        "jpn_ro": "Mega shinka no moyou henshuu"
+      },
+      "origin_gen": 6,
+      "files": {
+        "gen-8": "special-attribute/mega-evolution-sigil-hires.png"
+      }
+    },
+    {
+      "name": {
         "eng": "Gigantamax Icon",
         "jpn": "キョダイマックスのアイコン",
         "jpn_ro": "Gyodaimakkusu no aikon"
