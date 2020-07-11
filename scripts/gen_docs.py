@@ -445,6 +445,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       images = flatten([[item['files'][n]] for n in item['files']])
       for k, vs in files:
         vs = vs if isinstance(vs, list) else [vs]
+        gen_row_n = 0
         for v in vs:
           count = get_counter()
           gen_n = k.split('-')[1]
@@ -459,13 +460,14 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
           buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'ribbon-gen8' if (gen_n == '8' and misc_set in ['ribbon', 'mark']) else None) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
-            if row_n == 0:
+            if gen_row_n == 0:
               rowspan = f' rowspan="{len(vs)}"'
               buffer.append(f'<td{rowspan}>Gen {gen_n}</td>')
           else:
             buffer.append(f'<td>Gen {gen_n}</td>')
           buffer.append('</tr>')
           sprites_counter += 1
+          gen_row_n += 1
           row_n += 1
       buffer.append('</tbody>')
   
