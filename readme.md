@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/pokesprite-images.svg)](https://badge.fury.io/js/pokesprite-images)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/pokesprite-images.svg)](https://badge.fury.io/js/pokesprite-images) ![Updated for](https://img.shields.io/badge/Updated%20for-Pok%C3%A9mon%20Sword%2FShield%20(Isle%20of%20Armor%20DLC)-blue)
 
 # PokéSprite
 
