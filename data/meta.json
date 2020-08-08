@@ -192,11 +192,6 @@
     }
   },
   "misc-groups": {
-    "body-style": {
-      "name": {
-        "eng": "Body styles (shape)"
-      }
-    },
     "ribbon": {
       "name": {
         "eng": "Ribbons"
@@ -210,6 +205,21 @@
     "special-attribute": {
       "name": {
         "eng": "Special attributes"
+      }
+    },
+    "types": {
+      "name": {
+        "eng": "Type icons"
+      }
+    },
+    "type-logos": {
+      "name": {
+        "eng": "Type logos"
+      }
+    },
+    "body-style": {
+      "name": {
+        "eng": "Body styles (shape)"
       }
     }
   }

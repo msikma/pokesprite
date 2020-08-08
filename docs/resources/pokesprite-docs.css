@@ -102,11 +102,27 @@
   font-size: 14px;
   font-weight: 500;
 }
-.markdown-body .pokesprite tbody td.min.gender-m {
-  color: #0c8bff;
+.markdown-body .pokesprite tbody td.min.form-badge {
+  border-left: 0;
+  padding-left: 0;
+  padding-right: 8px;
 }
-.markdown-body .pokesprite tbody td.min.gender-f {
+.markdown-body .pokesprite tbody td.min.form-badge span {
+  text-align: center;
+  display: inline-block;
+  min-width: 28px;
+  padding: 0;
+  line-height: 28px;
+  border-radius: 50%;
+  background: rgba(36, 41, 46, 0.13);
+}
+.markdown-body .pokesprite tbody td.min.gender-m span {
+  color: #0c8bff;
+  background: rgba(12, 139, 255, 0.2);
+}
+.markdown-body .pokesprite tbody td.min.gender-f span {
   color: #ff3b60;
+  background: rgba(255, 59, 96, 0.2);
 }
 /* Pokémon sprites */
 .markdown-body .pokesprite tbody img {
@@ -172,8 +188,8 @@
 .markdown-body .pokesprite td {
   line-height: 23px;
 }
-.markdown-body .pokesprite.gen8 th,
-.markdown-body .pokesprite.gen8 td {
+.markdown-body .pokesprite tbody.gen8 th,
+.markdown-body .pokesprite tbody.gen8 td {
   line-height: 33px;
 }
 .markdown-body .pokesprite tbody img {
@@ -187,15 +203,11 @@
 .markdown-body .pokesprite tbody img.p {
   margin: -28px 0 -4px 0;
 }
-.markdown-body .pokesprite.gen8 tbody img.p {
+.markdown-body .pokesprite tbody.gen8 img.p {
   margin: -18px 0 -4px 0;
 }
-.markdown-body .pokesprite tbody img.retina-ribbon-gen8,
-.markdown-body .pokesprite tbody img.retina-body-style-gen8 {
+.markdown-body .pokesprite tbody img.retina {
   image-rendering: auto;
-}
-.markdown-body .pokesprite tbody img.retina-ribbon-gen8,
-.markdown-body .pokesprite tbody img.retina-body-style-gen8 {
   width: 32px;
   height: 32px;
 }

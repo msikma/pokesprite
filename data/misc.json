@@ -3490,5 +3490,657 @@
         "gen-8": "2x"
       }
     }
+  ],
+  "type-logos": [
+    {
+      "name": {
+        "eng": "normal",
+        "jpn": "ノーマル",
+        "jpn_ro": "noomaru"
+      },
+      "colors": {
+        "gen-8": [
+          "#919aa2",
+          "#4d5052"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/normal.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fighting",
+        "jpn": "かくとう",
+        "jpn_ro": "kakutou"
+      },
+      "colors": {
+        "gen-8": [
+          "#ce416b",
+          "#58414a"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/fighting.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "flying",
+        "jpn": "ひこう",
+        "jpn_ro": "hikou"
+      },
+      "colors": {
+        "gen-8": [
+          "#8fa9de",
+          "#4d525a"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/flying.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "poison",
+        "jpn": "どく",
+        "jpn_ro": "doku"
+      },
+      "colors": {
+        "gen-8": [
+          "#aa6bc8",
+          "#524958"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/poison.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ground",
+        "jpn": "じめん",
+        "jpn_ro": "jimen"
+      },
+      "colors": {
+        "gen-8": [
+          "#d97845",
+          "#5a4a42"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/ground.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "rock",
+        "jpn": "いわ",
+        "jpn_ro": "iwa"
+      },
+      "colors": {
+        "gen-8": [
+          "#c5b78c",
+          "#585550"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/rock.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "bug",
+        "jpn": "むし",
+        "jpn_ro": "mushi"
+      },
+      "colors": {
+        "gen-8": [
+          "#91c12f",
+          "#4d553f"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/bug.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ghost",
+        "jpn": "ゴースト",
+        "jpn_ro": "ghost"
+      },
+      "colors": {
+        "gen-8": [
+          "#5269ad",
+          "#424952"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/ghost.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "steel",
+        "jpn": "はがね",
+        "jpn_ro": "hagane"
+      },
+      "colors": {
+        "gen-8": [
+          "#5a8ea2",
+          "#454d52"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/steel.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fire",
+        "jpn": "ほのお",
+        "jpn_ro": "honoo"
+      },
+      "colors": {
+        "gen-8": [
+          "#ff9d55",
+          "#605045"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/fire.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "water",
+        "jpn": "みず",
+        "jpn_ro": "mizu"
+      },
+      "colors": {
+        "gen-8": [
+          "#5090d6",
+          "#424e5a"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/water.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "grass",
+        "jpn": "くさ",
+        "jpn_ro": "kusa"
+      },
+      "colors": {
+        "gen-8": [
+          "#63bc5a",
+          "#455547"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/grass.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "electric",
+        "jpn": "デンキ",
+        "jpn_ro": "denki"
+      },
+      "colors": {
+        "gen-8": [
+          "#f4d23c",
+          "#5d5942"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/electric.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "psychic",
+        "jpn": "エスパー",
+        "jpn_ro": "esper"
+      },
+      "colors": {
+        "gen-8": [
+          "#fa7179",
+          "#5d494a"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/psychic.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ice",
+        "jpn": "こおり",
+        "jpn_ro": "koori"
+      },
+      "colors": {
+        "gen-8": [
+          "#73cec0",
+          "#475858"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/ice.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "dragon",
+        "jpn": "ドラゴン",
+        "jpn_ro": "dragon"
+      },
+      "colors": {
+        "gen-8": [
+          "#0b6dc3",
+          "#374958"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/dragon.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "dark",
+        "jpn": "あく",
+        "jpn_ro": "aku"
+      },
+      "colors": {
+        "gen-8": [
+          "#5a5465",
+          "#45454a"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/dark.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fairy",
+        "jpn": "フェアリー",
+        "jpn_ro": "fairy"
+      },
+      "colors": {
+        "gen-8": [
+          "#ec8fe6",
+          "#5d4e5d"
+        ]
+      },
+      "files": {
+        "gen-8": "type-logos/gen8/fairy.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": {
+        "eng": "normal",
+        "jpn": "ノーマル",
+        "jpn_ro": "noomaru"
+      },
+      "files": {
+        "go": "types/go/normal.png",
+        "masters": "types/masters/normal.png",
+        "gen-8": "types/gen8/normal.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fighting",
+        "jpn": "かくとう",
+        "jpn_ro": "kakutou"
+      },
+      "files": {
+        "go": "types/go/fighting.png",
+        "masters": "types/masters/fighting.png",
+        "gen-8": "types/gen8/fighting.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "flying",
+        "jpn": "ひこう",
+        "jpn_ro": "hikou"
+      },
+      "files": {
+        "go": "types/go/flying.png",
+        "masters": "types/masters/flying.png",
+        "gen-8": "types/gen8/flying.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "poison",
+        "jpn": "どく",
+        "jpn_ro": "doku"
+      },
+      "files": {
+        "go": "types/go/poison.png",
+        "masters": "types/masters/poison.png",
+        "gen-8": "types/gen8/poison.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ground",
+        "jpn": "じめん",
+        "jpn_ro": "jimen"
+      },
+      "files": {
+        "go": "types/go/ground.png",
+        "masters": "types/masters/ground.png",
+        "gen-8": "types/gen8/ground.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "rock",
+        "jpn": "いわ",
+        "jpn_ro": "iwa"
+      },
+      "files": {
+        "go": "types/go/rock.png",
+        "masters": "types/masters/rock.png",
+        "gen-8": "types/gen8/rock.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "bug",
+        "jpn": "むし",
+        "jpn_ro": "mushi"
+      },
+      "files": {
+        "go": "types/go/bug.png",
+        "masters": "types/masters/bug.png",
+        "gen-8": "types/gen8/bug.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ghost",
+        "jpn": "ゴースト",
+        "jpn_ro": "ghost"
+      },
+      "files": {
+        "go": "types/go/ghost.png",
+        "masters": "types/masters/ghost.png",
+        "gen-8": "types/gen8/ghost.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "steel",
+        "jpn": "はがね",
+        "jpn_ro": "hagane"
+      },
+      "files": {
+        "go": "types/go/steel.png",
+        "masters": "types/masters/steel.png",
+        "gen-8": "types/gen8/steel.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fire",
+        "jpn": "ほのお",
+        "jpn_ro": "honoo"
+      },
+      "files": {
+        "go": "types/go/fire.png",
+        "masters": "types/masters/fire.png",
+        "gen-8": "types/gen8/fire.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "water",
+        "jpn": "みず",
+        "jpn_ro": "mizu"
+      },
+      "files": {
+        "go": "types/go/water.png",
+        "masters": "types/masters/water.png",
+        "gen-8": "types/gen8/water.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "grass",
+        "jpn": "くさ",
+        "jpn_ro": "kusa"
+      },
+      "files": {
+        "go": "types/go/grass.png",
+        "masters": "types/masters/grass.png",
+        "gen-8": "types/gen8/grass.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "electric",
+        "jpn": "デンキ",
+        "jpn_ro": "denki"
+      },
+      "files": {
+        "go": "types/go/electric.png",
+        "masters": "types/masters/electric.png",
+        "gen-8": "types/gen8/electric.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "psychic",
+        "jpn": "エスパー",
+        "jpn_ro": "esper"
+      },
+      "files": {
+        "go": "types/go/psychic.png",
+        "masters": "types/masters/psychic.png",
+        "gen-8": "types/gen8/psychic.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "ice",
+        "jpn": "こおり",
+        "jpn_ro": "koori"
+      },
+      "files": {
+        "go": "types/go/ice.png",
+        "masters": "types/masters/ice.png",
+        "gen-8": "types/gen8/ice.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "dragon",
+        "jpn": "ドラゴン",
+        "jpn_ro": "dragon"
+      },
+      "files": {
+        "go": "types/go/dragon.png",
+        "masters": "types/masters/dragon.png",
+        "gen-8": "types/gen8/dragon.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "dark",
+        "jpn": "あく",
+        "jpn_ro": "aku"
+      },
+      "files": {
+        "go": "types/go/dark.png",
+        "masters": "types/masters/dark.png",
+        "gen-8": "types/gen8/dark.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "fairy",
+        "jpn": "フェアリー",
+        "jpn_ro": "fairy"
+      },
+      "files": {
+        "go": "types/go/fairy.png",
+        "masters": "types/masters/fairy.png",
+        "gen-8": "types/gen8/fairy.png"
+      },
+      "resolution": {
+        "go": "2x",
+        "masters": "2x",
+        "gen-8": "2x"
+      }
+    }
   ]
 }
