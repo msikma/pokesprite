@@ -63,7 +63,7 @@
 .markdown-body .pokesprite tbody tr th.group:hover {
   background: var(--shade-0);
 }
-.markdown-body .pokesprite tbody:not(:nth-child(3)) tr th.group {
+.markdown-body .pokesprite tbody tr th.group {
   padding-top: 25px;
 }
 .markdown-body .pokesprite tbody tr td.item-id {
