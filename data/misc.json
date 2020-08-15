@@ -4152,13 +4152,13 @@
       },
       "files": {
         "home": "seals/home/move-physical.png",
-        "gen8": "seals/gen8/move-physical.png",
-        "gen4": "seals/gen4/move-physical.png"
+        "gen-8": "seals/gen8/move-physical.png",
+        "gen-4": "seals/gen4/move-physical.png"
       },
       "resolution": {
         "home": "3x",
-        "gen8": "2x",
-        "gen4": "1x"
+        "gen-8": "2x",
+        "gen-4": "1x"
       }
     },
     {
@@ -4169,13 +4169,13 @@
       },
       "files": {
         "home": "seals/home/move-special.png",
-        "gen8": "seals/gen8/move-special.png",
-        "gen4": "seals/gen4/move-special.png"
+        "gen-8": "seals/gen8/move-special.png",
+        "gen-4": "seals/gen4/move-special.png"
       },
       "resolution": {
         "home": "3x",
-        "gen8": "2x",
-        "gen4": "1x"
+        "gen-8": "2x",
+        "gen-4": "1x"
       }
     },
     {
@@ -4186,13 +4186,13 @@
       },
       "files": {
         "home": "seals/home/move-status.png",
-        "gen8": "seals/gen8/move-status.png",
-        "gen4": "seals/gen4/move-status.png"
+        "gen-8": "seals/gen8/move-status.png",
+        "gen-4": "seals/gen4/move-status.png"
       },
       "resolution": {
         "home": "3x",
-        "gen8": "2x",
-        "gen4": "1x"
+        "gen-8": "2x",
+        "gen-4": "1x"
       }
     }
   ]
