@@ -536,7 +536,9 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
       
-      buffer.append('<td class="image item" style="background:' + main_color + '">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
+      buffer.append('<td class="image item type-icon-' + name_eng + '">' + \
+        f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
+        get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>{gen_n}</td>')
       buffer.append('</tr>')
