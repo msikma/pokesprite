@@ -217,6 +217,11 @@
         "eng": "Type logos"
       }
     },
+    "seals": {
+      "name": {
+        "eng": "Seals"
+      }
+    },
     "body-style": {
       "name": {
         "eng": "Body styles (shape)"

@@ -4155,8 +4155,8 @@
         "gen8": "seals/gen8/move-physical.png"
       },
       "resolution": {
-        "home": "2x",
-        "gen8": "1x"
+        "home": "3x",
+        "gen8": "2x"
       }
     },
     {
@@ -4170,8 +4170,8 @@
         "gen8": "seals/gen8/move-special.png"
       },
       "resolution": {
-        "home": "2x",
-        "gen8": "1x"
+        "home": "3x",
+        "gen8": "2x"
       }
     },
     {
@@ -4185,8 +4185,8 @@
         "gen8": "seals/gen8/move-status.png"
       },
       "resolution": {
-        "home": "2x",
-        "gen8": "1x"
+        "home": "3x",
+        "gen8": "2x"
       }
     }
   ]

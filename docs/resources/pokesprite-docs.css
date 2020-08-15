@@ -214,3 +214,7 @@
 .markdown-body .pokesprite tbody img.retina-ribbon-gen8 {
   margin: 4px;
 }
+.markdown-body .pokesprite tbody img.retina-seal-2x {
+  width: 24px;
+  height: 16px;
+}

@@ -543,6 +543,43 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       sprites_counter += 1
       row_n += 1
     buffer.append('</tbody>')
+
+  # Seals
+  buffer.append('<tbody>')
+  buffer.append('<tr><th></th><th colspan="6" class="group" id="seals">%s</th></tr>' % groups['seals']['name']['eng'])
+  buffer.append('</tbody>')
+  buffer.append('<tbody>')
+  buffer.append('<tr class="header"><th>#</th><th>Type</th><th colspan="2">タイプ</th><th>Sprite</th><th colspan="3">Filename/source</th></tr>')
+  buffer.append('</tbody>')
+  for item in misc['seals']:
+    name = item['name']
+    name_eng = name['eng']
+    name_jpn = name['jpn']
+    row_n = 0
+    files = item['files'].items()
+    buffer.append('<tbody class="alternating">')
+    for k, v in files:
+      count = get_counter()
+      gen_n = get_gen_str(k)
+      res = item['resolution'][k]
+      retina_type = \
+        'seal-3x' if res == '3x' else \
+        'seal-2x' if res == '2x' else \
+        None
+      buffer.append('<tr class="variable-height">')
+      buffer.append(f'<td>{count}</td>')
+      if row_n == 0:
+        rows = len(files)
+        rowspan = f' rowspan="{rows}"' if rows > 1 else ''
+        buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
+        buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+      buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
+      buffer.append(f'<td>{gen_n}</td>')
+      buffer.append('</tr>')
+      sprites_counter += 1
+      row_n += 1
+    buffer.append('</tbody>')
   
   # Body styles
   buffer.append('<tbody>')
