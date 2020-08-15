@@ -147,6 +147,7 @@ For a better example of what many adjacent sprites look like with this setup, se
 **Projects using PokéSprite:**
 
 * **[PKHeX](https://github.com/kwsch/PKHeX)** – Pokémon save file editor
+* **[PokéSprite spritesheet](https://github.com/msikma/pokesprite-spritesheet/)** – spritesheet of all Pokémon box sprites and inventory items for use in websites
 * **[PikaSprite](https://github.com/arcanis/pikasprite)** – a different interface for PokéSprite sprites
 * **[DexTool](https://github.com/PoshoDev/DexTool)** – management tools for a Pokémon living Dex, shiny hunting and streaming
 * [Spinda Painter](https://msikma.github.io/spinda-spots/) – proof of concept for displaying accurate Spinda spots on its box sprite
