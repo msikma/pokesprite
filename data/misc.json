@@ -4142,5 +4142,52 @@
         "gen-8": "2x"
       }
     }
+  ],
+  "seals": [
+    {
+      "name": {
+        "eng": "Physical move",
+        "jpn": "ぶつりわざ",
+        "jpn_ro": "butsuriwaza"
+      },
+      "files": {
+        "home": "seals/home/move-physical.png",
+        "gen8": "seals/gen8/move-physical.png"
+      },
+      "resolution": {
+        "home": "2x",
+        "gen8": "1x"
+      }
+    },
+    {
+      "name": {
+        "eng": "Special move",
+        "jpn": "とくしゅわざ",
+        "jpn_ro": "tokushuwaza"
+      },
+      "files": {
+        "home": "seals/home/move-special.png",
+        "gen8": "seals/gen8/move-special.png"
+      },
+      "resolution": {
+        "home": "2x",
+        "gen8": "1x"
+      }
+    },
+    {
+      "name": {
+        "eng": "Status move",
+        "jpn": "へんかわざ",
+        "jpn_ro": "henkawaza"
+      },
+      "files": {
+        "home": "seals/home/move-status.png",
+        "gen8": "seals/gen8/move-status.png"
+      },
+      "resolution": {
+        "home": "2x",
+        "gen8": "1x"
+      }
+    }
   ]
 }
