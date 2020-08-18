@@ -87,11 +87,11 @@
         "$": {
           "is_prev_gen_icon": false
         },
-        "mega": {
-          "is_prev_gen_icon": true
-        },
         "gmax": {
           "is_prev_gen_icon": false
+        },
+        "mega": {
+          "is_prev_gen_icon": true
         }
       }
     }
@@ -288,11 +288,11 @@
         "$": {
           "is_prev_gen_icon": false
         },
-        "mega": {
-          "is_prev_gen_icon": true
-        },
         "gmax": {
           "is_prev_gen_icon": false
+        },
+        "mega": {
+          "is_prev_gen_icon": true
         }
       }
     }
@@ -798,13 +798,13 @@
       "forms": {
         "$": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "alola-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "belle": {
           "has_female": false,
@@ -816,13 +816,13 @@
         },
         "hoenn-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "kalos-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "libre": {
           "has_female": false,
@@ -830,13 +830,13 @@
         },
         "original-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": true
+          "has_right": true,
+          "has_unofficial_female_icon": true
         },
         "partner-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": true
+          "has_right": true,
+          "has_unofficial_female_icon": true
         },
         "phd": {
           "has_female": false,
@@ -852,23 +852,23 @@
         },
         "sinnoh-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "starter": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "unova-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         },
         "world-cap": {
           "has_female": true,
-          "has_unofficial_female_icon": true,
-          "has_right": false
+          "has_right": false,
+          "has_unofficial_female_icon": true
         }
       }
     },
@@ -2657,11 +2657,11 @@
         "$": {
           "is_prev_gen_icon": false
         },
-        "mega": {
-          "is_prev_gen_icon": true
-        },
         "galar": {
           "is_prev_gen_icon": false
+        },
+        "mega": {
+          "is_prev_gen_icon": true
         }
       }
     }
@@ -26474,7 +26474,8 @@
       "jpn": "sarunori",
       "jpn_ro": "sarunori"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26496,7 +26497,8 @@
       "jpn": "bachinki",
       "jpn_ro": "bachinki"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26518,7 +26520,8 @@
       "jpn": "goriranda",
       "jpn_ro": "goriranda"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26543,7 +26546,8 @@
       "jpn": "hibanny",
       "jpn_ro": "hibanny"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26565,7 +26569,8 @@
       "jpn": "rabifutto",
       "jpn_ro": "rabifutto"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26587,7 +26592,8 @@
       "jpn": "esuban",
       "jpn_ro": "esuban"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26612,7 +26618,8 @@
       "jpn": "messon",
       "jpn_ro": "messon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26634,7 +26641,8 @@
       "jpn": "jimereon",
       "jpn_ro": "jimereon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26656,7 +26664,8 @@
       "jpn": "intereon",
       "jpn_ro": "intereon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26681,7 +26690,8 @@
       "jpn": "hoshigarisu",
       "jpn_ro": "hoshigarisu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26703,7 +26713,8 @@
       "jpn": "yokubarisu",
       "jpn_ro": "yokubarisu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26725,7 +26736,8 @@
       "jpn": "kokogara",
       "jpn_ro": "kokogara"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26747,7 +26759,8 @@
       "jpn": "aogarasu",
       "jpn_ro": "aogarasu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26769,7 +26782,8 @@
       "jpn": "armorga",
       "jpn_ro": "armorga"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26794,7 +26808,8 @@
       "jpn": "satchimushi",
       "jpn_ro": "satchimushi"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26816,7 +26831,8 @@
       "jpn": "redomushi",
       "jpn_ro": "redomushi"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26838,7 +26854,8 @@
       "jpn": "iorubu",
       "jpn_ro": "iorubu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26863,7 +26880,8 @@
       "jpn": "kusune",
       "jpn_ro": "kusune"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26885,7 +26903,8 @@
       "jpn": "fokusurai",
       "jpn_ro": "fokusurai"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26907,7 +26926,8 @@
       "jpn": "himenka",
       "jpn_ro": "himenka"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26929,7 +26949,8 @@
       "jpn": "watashiraga",
       "jpn_ro": "watashiraga"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26951,7 +26972,8 @@
       "jpn": "wooluu",
       "jpn_ro": "wooluu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26973,7 +26995,8 @@
       "jpn": "baiuru",
       "jpn_ro": "baiuru"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -26995,7 +27018,8 @@
       "jpn": "kamukame",
       "jpn_ro": "kamukame"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27017,7 +27041,8 @@
       "jpn": "kajirigame",
       "jpn_ro": "kajirigame"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27042,7 +27067,8 @@
       "jpn": "wanpachi",
       "jpn_ro": "wanpachi"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27064,7 +27090,8 @@
       "jpn": "parusuwan",
       "jpn_ro": "parusuwan"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27086,7 +27113,8 @@
       "jpn": "tandon",
       "jpn_ro": "tandon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27108,7 +27136,8 @@
       "jpn": "toroggon",
       "jpn_ro": "toroggon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27130,7 +27159,8 @@
       "jpn": "sekitanzan",
       "jpn_ro": "sekitanzan"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27155,7 +27185,8 @@
       "jpn": "kajitchu",
       "jpn_ro": "kajitchu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27177,7 +27208,8 @@
       "jpn": "appuryu",
       "jpn_ro": "appuryu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27202,7 +27234,8 @@
       "jpn": "taruppuru",
       "jpn_ro": "taruppuru"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27224,7 +27257,8 @@
       "jpn": "sunahebi",
       "jpn_ro": "sunahebi"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27246,7 +27280,8 @@
       "jpn": "sadaija",
       "jpn_ro": "sadaija"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27271,7 +27306,8 @@
       "jpn": "uu",
       "jpn_ro": "uu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27299,7 +27335,8 @@
       "jpn": "sashikamasu",
       "jpn_ro": "sashikamasu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27321,7 +27358,8 @@
       "jpn": "kamasujo",
       "jpn_ro": "kamasujo"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27343,7 +27381,8 @@
       "jpn": "erezun",
       "jpn_ro": "erezun"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27365,7 +27404,8 @@
       "jpn": "sutorinda",
       "jpn_ro": "sutorinda"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27401,7 +27441,8 @@
       "jpn": "yakude",
       "jpn_ro": "yakude"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27423,7 +27464,8 @@
       "jpn": "maruyakude",
       "jpn_ro": "maruyakude"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27448,7 +27490,8 @@
       "jpn": "tatakko",
       "jpn_ro": "tatakko"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27470,7 +27513,8 @@
       "jpn": "otosupasu",
       "jpn_ro": "otosupasu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27492,7 +27536,8 @@
       "jpn": "yabacha",
       "jpn_ro": "yabacha"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27514,7 +27559,8 @@
       "jpn": "potdeath",
       "jpn_ro": "potdeath"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27536,7 +27582,8 @@
       "jpn": "miburimu",
       "jpn_ro": "miburimu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27558,7 +27605,8 @@
       "jpn": "teburimu",
       "jpn_ro": "teburimu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27580,7 +27628,8 @@
       "jpn": "burimuon",
       "jpn_ro": "burimuon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27605,7 +27654,8 @@
       "jpn": "beroba",
       "jpn_ro": "beroba"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27627,7 +27677,8 @@
       "jpn": "gimo",
       "jpn_ro": "gimo"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27649,7 +27700,8 @@
       "jpn": "oronge",
       "jpn_ro": "oronge"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27674,7 +27726,8 @@
       "jpn": "tachifusaguma",
       "jpn_ro": "tachifusaguma"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27696,7 +27749,8 @@
       "jpn": "nyaikingu",
       "jpn_ro": "nyaikingu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27718,7 +27772,8 @@
       "jpn": "sanigon",
       "jpn_ro": "sanigon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27740,7 +27795,8 @@
       "jpn": "negigaknight",
       "jpn_ro": "negigaknight"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27762,7 +27818,8 @@
       "jpn": "barikoru",
       "jpn_ro": "barikoru"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27784,7 +27841,8 @@
       "jpn": "desuban",
       "jpn_ro": "desuban"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27806,7 +27864,8 @@
       "jpn": "mahomiru",
       "jpn_ro": "mahomiru"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -27828,7 +27887,8 @@
       "jpn": "mawhip",
       "jpn_ro": "mawhip"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28133,7 +28193,8 @@
       "jpn": "tairetsu",
       "jpn_ro": "tairetsu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28155,7 +28216,8 @@
       "jpn": "bachinuni",
       "jpn_ro": "bachinuni"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28177,7 +28239,8 @@
       "jpn": "yukihami",
       "jpn_ro": "yukihami"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28199,7 +28262,8 @@
       "jpn": "mosuno",
       "jpn_ro": "mosuno"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28221,7 +28285,8 @@
       "jpn": "ishihenjin",
       "jpn_ro": "ishihenjin"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28243,7 +28308,8 @@
       "jpn": "korippo",
       "jpn_ro": "korippo"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28272,7 +28338,8 @@
       "jpn": "iessan",
       "jpn_ro": "iessan"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28295,7 +28362,8 @@
       "jpn": "morpeko",
       "jpn_ro": "morpeko"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28324,7 +28392,8 @@
       "jpn": "zodo",
       "jpn_ro": "zodo"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28346,7 +28415,8 @@
       "jpn": "daiodo",
       "jpn_ro": "daiodo"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28371,7 +28441,8 @@
       "jpn": "patchiragon",
       "jpn_ro": "patchiragon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28393,7 +28464,8 @@
       "jpn": "patchirudon",
       "jpn_ro": "patchirudon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28415,7 +28487,8 @@
       "jpn": "uonoragon",
       "jpn_ro": "uonoragon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28437,7 +28510,8 @@
       "jpn": "uochirudon",
       "jpn_ro": "uochirudon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28459,7 +28533,8 @@
       "jpn": "duraludon",
       "jpn_ro": "duraludon"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28484,7 +28559,8 @@
       "jpn": "dorameshiya",
       "jpn_ro": "dorameshiya"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28506,7 +28582,8 @@
       "jpn": "doronchi",
       "jpn_ro": "doronchi"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28528,7 +28605,8 @@
       "jpn": "doraparuto",
       "jpn_ro": "doraparuto"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28550,7 +28628,8 @@
       "jpn": "zacian",
       "jpn_ro": "zacian"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28579,7 +28658,8 @@
       "jpn": "zamazenta",
       "jpn_ro": "zamazenta"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28608,7 +28688,8 @@
       "jpn": "mugendaina",
       "jpn_ro": "mugendaina"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28633,7 +28714,8 @@
       "jpn": "dakuma",
       "jpn_ro": "dakuma"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28655,7 +28737,8 @@
       "jpn": "wulaosu",
       "jpn_ro": "wulaosu"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
@@ -28668,8 +28751,8 @@
           "is_prev_gen_icon": false
         },
         "single-strike-gmax": {
-          "is_prev_gen_icon": false,
-          "is_alias_of": "gmax"
+          "is_alias_of": "gmax",
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -28687,7 +28770,8 @@
       "jpn": "zarude",
       "jpn_ro": "zarude"
     },
-    "gen-7": {},
+    "gen-7": {
+    },
     "gen-8": {
       "forms": {
         "$": {
