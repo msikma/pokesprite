@@ -2425,12 +2425,12 @@
       "eng": "Geodude",
       "chs": "小拳石",
       "jpn": "イシツブテ",
-      "jpn_ro": "Ishitsubute"
+      "jpn_ro": "Isitsubute"
     },
     "slug": {
       "eng": "geodude",
-      "jpn": "ishitsubute",
-      "jpn_ro": "ishitsubute"
+      "jpn": "isitsubute",
+      "jpn_ro": "isitsubute"
     },
     "gen-7": {
       "forms": {
@@ -2791,12 +2791,12 @@
       "eng": "Dodrio",
       "chs": "嘟嘟利",
       "jpn": "ドードリオ",
-      "jpn_ro": "Dodrio"
+      "jpn_ro": "Dodorio"
     },
     "slug": {
       "eng": "dodrio",
-      "jpn": "dodrio",
-      "jpn_ro": "dodrio"
+      "jpn": "dodorio",
+      "jpn_ro": "dodorio"
     },
     "gen-7": {
       "forms": {
@@ -3134,12 +3134,12 @@
       "eng": "Drowzee",
       "chs": "催眠貘",
       "jpn": "スリープ",
-      "jpn_ro": "Sleep"
+      "jpn_ro": "Sleepe"
     },
     "slug": {
       "eng": "drowzee",
-      "jpn": "sleep",
-      "jpn_ro": "sleep"
+      "jpn": "sleepe",
+      "jpn_ro": "sleepe"
     },
     "gen-7": {
       "forms": {
@@ -4398,12 +4398,12 @@
       "eng": "Porygon",
       "chs": "多边兽",
       "jpn": "ポリゴン",
-      "jpn_ro": "Porygon/Polygon"
+      "jpn_ro": "Porygon"
     },
     "slug": {
       "eng": "porygon",
-      "jpn": "porygon-polygon",
-      "jpn_ro": "porygon-polygon"
+      "jpn": "porygon",
+      "jpn_ro": "porygon"
     },
     "gen-7": {
       "forms": {
@@ -5089,12 +5089,12 @@
       "eng": "Feraligatr",
       "chs": "大力鳄",
       "jpn": "オーダイル",
-      "jpn_ro": "Ordile/Ordail"
+      "jpn_ro": "Ordile"
     },
     "slug": {
       "eng": "feraligatr",
-      "jpn": "ordile-ordail",
-      "jpn_ro": "ordile-ordail"
+      "jpn": "ordile",
+      "jpn_ro": "ordile"
     },
     "gen-7": {
       "forms": {
@@ -5147,12 +5147,12 @@
       "eng": "Furret",
       "chs": "大尾立",
       "jpn": "オオタチ",
-      "jpn_ro": "Ōtachi"
+      "jpn_ro": "Ootachi"
     },
     "slug": {
       "eng": "furret",
-      "jpn": "otachi",
-      "jpn_ro": "otachi"
+      "jpn": "ootachi",
+      "jpn_ro": "ootachi"
     },
     "gen-7": {
       "forms": {
@@ -5176,7 +5176,7 @@
       "eng": "Hoothoot",
       "chs": "咕咕",
       "jpn": "ホーホー",
-      "jpn_ro": "Hōhō"
+      "jpn_ro": "Hoho"
     },
     "slug": {
       "eng": "hoothoot",
@@ -5321,12 +5321,12 @@
       "eng": "Ariados",
       "chs": "阿利多斯",
       "jpn": "アリアドス",
-      "jpn_ro": "Ariadosu"
+      "jpn_ro": "Ariados"
     },
     "slug": {
       "eng": "ariados",
-      "jpn": "ariadosu",
-      "jpn_ro": "ariadosu"
+      "jpn": "ariados",
+      "jpn_ro": "ariados"
     },
     "gen-7": {
       "forms": {
@@ -5379,12 +5379,12 @@
       "eng": "Chinchou",
       "chs": "灯笼鱼",
       "jpn": "チョンチー",
-      "jpn_ro": "Chonchī"
+      "jpn_ro": "Chonchie"
     },
     "slug": {
       "eng": "chinchou",
-      "jpn": "chonchi",
-      "jpn_ro": "chonchi"
+      "jpn": "chonchie",
+      "jpn_ro": "chonchie"
     },
     "gen-7": {
       "forms": {
@@ -5408,12 +5408,12 @@
       "eng": "Lanturn",
       "chs": "电灯怪",
       "jpn": "ランターン",
-      "jpn_ro": "Rantān"
+      "jpn_ro": "Lantern"
     },
     "slug": {
       "eng": "lanturn",
-      "jpn": "rantan",
-      "jpn_ro": "rantan"
+      "jpn": "lantern",
+      "jpn_ro": "lantern"
     },
     "gen-7": {
       "forms": {
@@ -5591,12 +5591,12 @@
       "eng": "Natu",
       "chs": "天然雀",
       "jpn": "ネイティ",
-      "jpn_ro": "Neiti"
+      "jpn_ro": "Naty"
     },
     "slug": {
       "eng": "natu",
-      "jpn": "neiti",
-      "jpn_ro": "neiti"
+      "jpn": "naty",
+      "jpn_ro": "naty"
     },
     "gen-7": {
       "forms": {
@@ -5620,12 +5620,12 @@
       "eng": "Xatu",
       "chs": "天然鸟",
       "jpn": "ネイティオ",
-      "jpn_ro": "Neitio"
+      "jpn_ro": "Natio"
     },
     "slug": {
       "eng": "xatu",
-      "jpn": "neitio",
-      "jpn_ro": "neitio"
+      "jpn": "natio",
+      "jpn_ro": "natio"
     },
     "gen-7": {
       "forms": {
@@ -5649,12 +5649,12 @@
       "eng": "Mareep",
       "chs": "咩利羊",
       "jpn": "メリープ",
-      "jpn_ro": "Merīpu"
+      "jpn_ro": "Merriep"
     },
     "slug": {
       "eng": "mareep",
-      "jpn": "meripu",
-      "jpn_ro": "meripu"
+      "jpn": "merriep",
+      "jpn_ro": "merriep"
     },
     "gen-7": {
       "forms": {
@@ -5707,7 +5707,7 @@
       "eng": "Ampharos",
       "chs": "电龙",
       "jpn": "デンリュウ",
-      "jpn_ro": "Denryū"
+      "jpn_ro": "Denryu"
     },
     "slug": {
       "eng": "ampharos",
@@ -5917,12 +5917,12 @@
       "eng": "Skiploom",
       "chs": "毽子花",
       "jpn": "ポポッコ",
-      "jpn_ro": "Popokko"
+      "jpn_ro": "Popocco"
     },
     "slug": {
       "eng": "skiploom",
-      "jpn": "popokko",
-      "jpn_ro": "popokko"
+      "jpn": "popocco",
+      "jpn_ro": "popocco"
     },
     "gen-7": {
       "forms": {
@@ -6004,12 +6004,12 @@
       "eng": "Sunkern",
       "chs": "向日种子",
       "jpn": "ヒマナッツ",
-      "jpn_ro": "Himanattsu"
+      "jpn_ro": "Himanuts"
     },
     "slug": {
       "eng": "sunkern",
-      "jpn": "himanattsu",
-      "jpn_ro": "himanattsu"
+      "jpn": "himanuts",
+      "jpn_ro": "himanuts"
     },
     "gen-7": {
       "forms": {
@@ -6120,12 +6120,12 @@
       "eng": "Quagsire",
       "chs": "沼王",
       "jpn": "ヌオー",
-      "jpn_ro": "Nuō"
+      "jpn_ro": "Nuoh"
     },
     "slug": {
       "eng": "quagsire",
-      "jpn": "nuo",
-      "jpn_ro": "nuo"
+      "jpn": "nuoh",
+      "jpn_ro": "nuoh"
     },
     "gen-7": {
       "forms": {
@@ -6608,12 +6608,12 @@
       "eng": "Forretress",
       "chs": "佛烈托斯",
       "jpn": "フォレトス",
-      "jpn_ro": "Foretosu"
+      "jpn_ro": "Foretos"
     },
     "slug": {
       "eng": "forretress",
-      "jpn": "foretosu",
-      "jpn_ro": "foretosu"
+      "jpn": "foretos",
+      "jpn_ro": "foretos"
     },
     "gen-7": {
       "forms": {
@@ -6637,12 +6637,12 @@
       "eng": "Dunsparce",
       "chs": "土龙弟弟",
       "jpn": "ノコッチ",
-      "jpn_ro": "Nokotchi"
+      "jpn_ro": "Nokocchi"
     },
     "slug": {
       "eng": "dunsparce",
-      "jpn": "nokotchi",
-      "jpn_ro": "nokotchi"
+      "jpn": "nokocchi",
+      "jpn_ro": "nokocchi"
     },
     "gen-7": {
       "forms": {
@@ -6731,12 +6731,12 @@
       "eng": "Snubbull",
       "chs": "布鲁",
       "jpn": "ブルー",
-      "jpn_ro": "Burū"
+      "jpn_ro": "Bulu"
     },
     "slug": {
       "eng": "snubbull",
-      "jpn": "buru",
-      "jpn_ro": "buru"
+      "jpn": "bulu",
+      "jpn_ro": "bulu"
     },
     "gen-7": {
       "forms": {
@@ -6760,12 +6760,12 @@
       "eng": "Granbull",
       "chs": "布鲁皇",
       "jpn": "グランブル",
-      "jpn_ro": "Guranburu"
+      "jpn_ro": "Granbulu"
     },
     "slug": {
       "eng": "granbull",
-      "jpn": "guranburu",
-      "jpn_ro": "guranburu"
+      "jpn": "granbulu",
+      "jpn_ro": "granbulu"
     },
     "gen-7": {
       "forms": {
@@ -6789,12 +6789,12 @@
       "eng": "Qwilfish",
       "chs": "千针鱼",
       "jpn": "ハリーセン",
-      "jpn_ro": "Harīsen"
+      "jpn_ro": "Harysen"
     },
     "slug": {
       "eng": "qwilfish",
-      "jpn": "harisen",
-      "jpn_ro": "harisen"
+      "jpn": "harysen",
+      "jpn_ro": "harysen"
     },
     "gen-7": {
       "forms": {
@@ -6919,12 +6919,12 @@
       "eng": "Sneasel",
       "chs": "狃拉",
       "jpn": "ニューラ",
-      "jpn_ro": "Nyūra"
+      "jpn_ro": "Nyula"
     },
     "slug": {
       "eng": "sneasel",
-      "jpn": "nyura",
-      "jpn_ro": "nyura"
+      "jpn": "nyula",
+      "jpn_ro": "nyula"
     },
     "gen-7": {
       "forms": {
@@ -7006,12 +7006,12 @@
       "eng": "Slugma",
       "chs": "熔岩虫",
       "jpn": "マグマッグ",
-      "jpn_ro": "Magumaggu"
+      "jpn_ro": "Magmag"
     },
     "slug": {
       "eng": "slugma",
-      "jpn": "magumaggu",
-      "jpn_ro": "magumaggu"
+      "jpn": "magmag",
+      "jpn_ro": "magmag"
     },
     "gen-7": {
       "forms": {
@@ -7035,12 +7035,12 @@
       "eng": "Magcargo",
       "chs": "熔岩蜗牛",
       "jpn": "マグカルゴ",
-      "jpn_ro": "Magukarugo"
+      "jpn_ro": "Magcargot"
     },
     "slug": {
       "eng": "magcargo",
-      "jpn": "magukarugo",
-      "jpn_ro": "magukarugo"
+      "jpn": "magcargot",
+      "jpn_ro": "magcargot"
     },
     "gen-7": {
       "forms": {
@@ -7064,12 +7064,12 @@
       "eng": "Swinub",
       "chs": "小山猪",
       "jpn": "ウリムー",
-      "jpn_ro": "Urimū"
+      "jpn_ro": "Urimoo"
     },
     "slug": {
       "eng": "swinub",
-      "jpn": "urimu",
-      "jpn_ro": "urimu"
+      "jpn": "urimoo",
+      "jpn_ro": "urimoo"
     },
     "gen-7": {
       "forms": {
@@ -7093,12 +7093,12 @@
       "eng": "Piloswine",
       "chs": "长毛猪",
       "jpn": "イノムー",
-      "jpn_ro": "Inomū"
+      "jpn_ro": "Inomoo"
     },
     "slug": {
       "eng": "piloswine",
-      "jpn": "inomu",
-      "jpn_ro": "inomu"
+      "jpn": "inomoo",
+      "jpn_ro": "inomoo"
     },
     "gen-7": {
       "forms": {
@@ -7122,12 +7122,12 @@
       "eng": "Corsola",
       "chs": "太阳珊瑚",
       "jpn": "サニーゴ",
-      "jpn_ro": "Sanīgo"
+      "jpn_ro": "Sunnygo"
     },
     "slug": {
       "eng": "corsola",
-      "jpn": "sanigo",
-      "jpn_ro": "sanigo"
+      "jpn": "sunnygo",
+      "jpn_ro": "sunnygo"
     },
     "gen-7": {
       "forms": {
@@ -7154,12 +7154,12 @@
       "eng": "Remoraid",
       "chs": "铁炮鱼",
       "jpn": "テッポウオ",
-      "jpn_ro": "Teppōo"
+      "jpn_ro": "Teppouo"
     },
     "slug": {
       "eng": "remoraid",
-      "jpn": "teppoo",
-      "jpn_ro": "teppoo"
+      "jpn": "teppouo",
+      "jpn_ro": "teppouo"
     },
     "gen-7": {
       "forms": {
@@ -7183,12 +7183,12 @@
       "eng": "Octillery",
       "chs": "章鱼桶",
       "jpn": "オクタン",
-      "jpn_ro": "Okutan"
+      "jpn_ro": "Okutank"
     },
     "slug": {
       "eng": "octillery",
-      "jpn": "okutan",
-      "jpn_ro": "okutan"
+      "jpn": "okutank",
+      "jpn_ro": "okutank"
     },
     "gen-7": {
       "forms": {
@@ -7364,12 +7364,12 @@
       "eng": "Kingdra",
       "chs": "刺龙王",
       "jpn": "キングドラ",
-      "jpn_ro": "Kingudora"
+      "jpn_ro": "Kingdra"
     },
     "slug": {
       "eng": "kingdra",
-      "jpn": "kingudora",
-      "jpn_ro": "kingudora"
+      "jpn": "kingdra",
+      "jpn_ro": "kingdra"
     },
     "gen-7": {
       "forms": {
@@ -7451,12 +7451,12 @@
       "eng": "Porygon2",
       "chs": "多边兽 Ⅱ",
       "jpn": "ポリゴン2",
-      "jpn_ro": "Porygon 2"
+      "jpn_ro": "Porygon2"
     },
     "slug": {
       "eng": "porygon2",
-      "jpn": "porygon-2",
-      "jpn_ro": "porygon-2"
+      "jpn": "porygon2",
+      "jpn_ro": "porygon2"
     },
     "gen-7": {
       "forms": {
@@ -7538,12 +7538,12 @@
       "eng": "Tyrogue",
       "chs": "无畏小子",
       "jpn": "バルキー",
-      "jpn_ro": "Barukī"
+      "jpn_ro": "Balkie"
     },
     "slug": {
       "eng": "tyrogue",
-      "jpn": "baruki",
-      "jpn_ro": "baruki"
+      "jpn": "balkie",
+      "jpn_ro": "balkie"
     },
     "gen-7": {
       "forms": {
@@ -7625,12 +7625,12 @@
       "eng": "Elekid",
       "chs": "电击怪",
       "jpn": "エレキッド",
-      "jpn_ro": "Erekiddo"
+      "jpn_ro": "Elekid"
     },
     "slug": {
       "eng": "elekid",
-      "jpn": "erekiddo",
-      "jpn_ro": "erekiddo"
+      "jpn": "elekid",
+      "jpn_ro": "elekid"
     },
     "gen-7": {
       "forms": {
@@ -7654,12 +7654,12 @@
       "eng": "Magby",
       "chs": "鸭嘴宝宝",
       "jpn": "ブビィ",
-      "jpn_ro": "Bubii"
+      "jpn_ro": "Buby"
     },
     "slug": {
       "eng": "magby",
-      "jpn": "bubii",
-      "jpn_ro": "bubii"
+      "jpn": "buby",
+      "jpn_ro": "buby"
     },
     "gen-7": {
       "forms": {
@@ -7828,12 +7828,12 @@
       "eng": "Larvitar",
       "chs": "幼基拉斯",
       "jpn": "ヨーギラス",
-      "jpn_ro": "Yōgirasu"
+      "jpn_ro": "Yogiras"
     },
     "slug": {
       "eng": "larvitar",
-      "jpn": "yogirasu",
-      "jpn_ro": "yogirasu"
+      "jpn": "yogiras",
+      "jpn_ro": "yogiras"
     },
     "gen-7": {
       "forms": {
@@ -7857,12 +7857,12 @@
       "eng": "Pupitar",
       "chs": "沙基拉斯",
       "jpn": "サナギラス",
-      "jpn_ro": "Sanagirasu"
+      "jpn_ro": "Sanagiras"
     },
     "slug": {
       "eng": "pupitar",
-      "jpn": "sanagirasu",
-      "jpn_ro": "sanagirasu"
+      "jpn": "sanagiras",
+      "jpn_ro": "sanagiras"
     },
     "gen-7": {
       "forms": {
@@ -8442,12 +8442,12 @@
       "eng": "Silcoon",
       "chs": "甲壳茧",
       "jpn": "カラサリス",
-      "jpn_ro": "Karasarisu"
+      "jpn_ro": "Karasalis"
     },
     "slug": {
       "eng": "silcoon",
-      "jpn": "karasarisu",
-      "jpn_ro": "karasarisu"
+      "jpn": "karasalis",
+      "jpn_ro": "karasalis"
     },
     "gen-7": {
       "forms": {
@@ -8500,12 +8500,12 @@
       "eng": "Cascoon",
       "chs": "盾甲茧",
       "jpn": "マユルド",
-      "jpn_ro": "Mayurudo"
+      "jpn_ro": "Mayuld"
     },
     "slug": {
       "eng": "cascoon",
-      "jpn": "mayurudo",
-      "jpn_ro": "mayurudo"
+      "jpn": "mayuld",
+      "jpn_ro": "mayuld"
     },
     "gen-7": {
       "forms": {
@@ -8529,12 +8529,12 @@
       "eng": "Dustox",
       "chs": "毒粉蛾",
       "jpn": "ドクケイル",
-      "jpn_ro": "Dokukeiru"
+      "jpn_ro": "Dokucale"
     },
     "slug": {
       "eng": "dustox",
-      "jpn": "dokukeiru",
-      "jpn_ro": "dokukeiru"
+      "jpn": "dokucale",
+      "jpn_ro": "dokucale"
     },
     "gen-7": {
       "forms": {
@@ -8645,12 +8645,12 @@
       "eng": "Seedot",
       "chs": "橡实果",
       "jpn": "タネボー",
-      "jpn_ro": "Tanebō"
+      "jpn_ro": "Taneboh"
     },
     "slug": {
       "eng": "seedot",
-      "jpn": "tanebo",
-      "jpn_ro": "tanebo"
+      "jpn": "taneboh",
+      "jpn_ro": "taneboh"
     },
     "gen-7": {
       "forms": {
@@ -8790,12 +8790,12 @@
       "eng": "Wingull",
       "chs": "长翅鸥",
       "jpn": "キャモメ",
-      "jpn_ro": "Kyamome"
+      "jpn_ro": "Camome"
     },
     "slug": {
       "eng": "wingull",
-      "jpn": "kyamome",
-      "jpn_ro": "kyamome"
+      "jpn": "camome",
+      "jpn_ro": "camome"
     },
     "gen-7": {
       "forms": {
@@ -8848,12 +8848,12 @@
       "eng": "Ralts",
       "chs": "拉鲁拉丝",
       "jpn": "ラルトス",
-      "jpn_ro": "Rarutosu"
+      "jpn_ro": "Ralts"
     },
     "slug": {
       "eng": "ralts",
-      "jpn": "rarutosu",
-      "jpn_ro": "rarutosu"
+      "jpn": "ralts",
+      "jpn_ro": "ralts"
     },
     "gen-7": {
       "forms": {
@@ -8906,12 +8906,12 @@
       "eng": "Gardevoir",
       "chs": "沙奈朵",
       "jpn": "サーナイト",
-      "jpn_ro": "Sānaito"
+      "jpn_ro": "Sirnight"
     },
     "slug": {
       "eng": "gardevoir",
-      "jpn": "sanaito",
-      "jpn_ro": "sanaito"
+      "jpn": "sirnight",
+      "jpn_ro": "sirnight"
     },
     "gen-7": {
       "forms": {
@@ -8971,12 +8971,12 @@
       "eng": "Masquerain",
       "chs": "雨翅蛾",
       "jpn": "アメモース",
-      "jpn_ro": "Amemōsu"
+      "jpn_ro": "Amemoth"
     },
     "slug": {
       "eng": "masquerain",
-      "jpn": "amemosu",
-      "jpn_ro": "amemosu"
+      "jpn": "amemoth",
+      "jpn_ro": "amemoth"
     },
     "gen-7": {
       "forms": {
@@ -9145,12 +9145,12 @@
       "eng": "Nincada",
       "chs": "土居忍士",
       "jpn": "ツチニン",
-      "jpn_ro": "Tsuchinin"
+      "jpn_ro": "Tutinin"
     },
     "slug": {
       "eng": "nincada",
-      "jpn": "tsuchinin",
-      "jpn_ro": "tsuchinin"
+      "jpn": "tutinin",
+      "jpn_ro": "tutinin"
     },
     "gen-7": {
       "forms": {
@@ -9261,12 +9261,12 @@
       "eng": "Loudred",
       "chs": "吼爆弹",
       "jpn": "ドゴーム",
-      "jpn_ro": "Dogōmu"
+      "jpn_ro": "Dogohmb"
     },
     "slug": {
       "eng": "loudred",
-      "jpn": "dogomu",
-      "jpn_ro": "dogomu"
+      "jpn": "dogohmb",
+      "jpn_ro": "dogohmb"
     },
     "gen-7": {
       "forms": {
@@ -9406,12 +9406,12 @@
       "eng": "Nosepass",
       "chs": "朝北鼻",
       "jpn": "ノズパス",
-      "jpn_ro": "Nozupasu"
+      "jpn_ro": "Nosepass"
     },
     "slug": {
       "eng": "nosepass",
-      "jpn": "nozupasu",
-      "jpn_ro": "nozupasu"
+      "jpn": "nosepass",
+      "jpn_ro": "nosepass"
     },
     "gen-7": {
       "forms": {
@@ -9623,12 +9623,12 @@
       "eng": "Aggron",
       "chs": "波士可多拉",
       "jpn": "ボスゴドラ",
-      "jpn_ro": "Bosugodora"
+      "jpn_ro": "Bossgodora"
     },
     "slug": {
       "eng": "aggron",
-      "jpn": "bosugodora",
-      "jpn_ro": "bosugodora"
+      "jpn": "bossgodora",
+      "jpn_ro": "bossgodora"
     },
     "gen-7": {
       "forms": {
@@ -9753,12 +9753,12 @@
       "eng": "Manectric",
       "chs": "雷电兽",
       "jpn": "ライボルト",
-      "jpn_ro": "Raiboruto"
+      "jpn_ro": "Livolt"
     },
     "slug": {
       "eng": "manectric",
-      "jpn": "raiboruto",
-      "jpn_ro": "raiboruto"
+      "jpn": "livolt",
+      "jpn_ro": "livolt"
     },
     "gen-7": {
       "forms": {
@@ -9789,12 +9789,12 @@
       "eng": "Plusle",
       "chs": "正电拍拍",
       "jpn": "プラスル",
-      "jpn_ro": "Plusle"
+      "jpn_ro": "Prasle"
     },
     "slug": {
       "eng": "plusle",
-      "jpn": "plusle",
-      "jpn_ro": "plusle"
+      "jpn": "prasle",
+      "jpn_ro": "prasle"
     },
     "gen-7": {
       "forms": {
@@ -9847,12 +9847,12 @@
       "eng": "Volbeat",
       "chs": "电萤虫",
       "jpn": "バルビート",
-      "jpn_ro": "Barubīto"
+      "jpn_ro": "Barubeat"
     },
     "slug": {
       "eng": "volbeat",
-      "jpn": "barubito",
-      "jpn_ro": "barubito"
+      "jpn": "barubeat",
+      "jpn_ro": "barubeat"
     },
     "gen-7": {
       "forms": {
@@ -9905,12 +9905,12 @@
       "eng": "Roselia",
       "chs": "毒蔷薇",
       "jpn": "ロゼリア",
-      "jpn_ro": "Rozeria"
+      "jpn_ro": "Roselia"
     },
     "slug": {
       "eng": "roselia",
-      "jpn": "rozeria",
-      "jpn_ro": "rozeria"
+      "jpn": "roselia",
+      "jpn_ro": "roselia"
     },
     "gen-7": {
       "forms": {
@@ -9963,12 +9963,12 @@
       "eng": "Swalot",
       "chs": "吞食兽",
       "jpn": "マルノーム",
-      "jpn_ro": "Marunōmu"
+      "jpn_ro": "Marunoom"
     },
     "slug": {
       "eng": "swalot",
-      "jpn": "marunomu",
-      "jpn_ro": "marunomu"
+      "jpn": "marunoom",
+      "jpn_ro": "marunoom"
     },
     "gen-7": {
       "forms": {
@@ -9992,12 +9992,12 @@
       "eng": "Carvanha",
       "chs": "利牙鱼",
       "jpn": "キバニア",
-      "jpn_ro": "Kibania"
+      "jpn_ro": "Kibanha"
     },
     "slug": {
       "eng": "carvanha",
-      "jpn": "kibania",
-      "jpn_ro": "kibania"
+      "jpn": "kibanha",
+      "jpn_ro": "kibanha"
     },
     "gen-7": {
       "forms": {
@@ -10115,12 +10115,12 @@
       "eng": "Numel",
       "chs": "呆火驼",
       "jpn": "ドンメル",
-      "jpn_ro": "Donmeru"
+      "jpn_ro": "Donmel"
     },
     "slug": {
       "eng": "numel",
-      "jpn": "donmeru",
-      "jpn_ro": "donmeru"
+      "jpn": "donmel",
+      "jpn_ro": "donmel"
     },
     "gen-7": {
       "forms": {
@@ -10144,12 +10144,12 @@
       "eng": "Camerupt",
       "chs": "喷火驼",
       "jpn": "バクーダ",
-      "jpn_ro": "Bakūda"
+      "jpn_ro": "Bakuuda"
     },
     "slug": {
       "eng": "camerupt",
-      "jpn": "bakuda",
-      "jpn_ro": "bakuda"
+      "jpn": "bakuuda",
+      "jpn_ro": "bakuuda"
     },
     "gen-7": {
       "forms": {
@@ -10180,12 +10180,12 @@
       "eng": "Torkoal",
       "chs": "煤炭龟",
       "jpn": "コータス",
-      "jpn_ro": "Kōtasu"
+      "jpn_ro": "Cotoise"
     },
     "slug": {
       "eng": "torkoal",
-      "jpn": "kotasu",
-      "jpn_ro": "kotasu"
+      "jpn": "cotoise",
+      "jpn_ro": "cotoise"
     },
     "gen-7": {
       "forms": {
@@ -10238,12 +10238,12 @@
       "eng": "Grumpig",
       "chs": "噗噗猪",
       "jpn": "ブーピッグ",
-      "jpn_ro": "Būpiggu"
+      "jpn_ro": "Boopig"
     },
     "slug": {
       "eng": "grumpig",
-      "jpn": "bupiggu",
-      "jpn_ro": "bupiggu"
+      "jpn": "boopig",
+      "jpn_ro": "boopig"
     },
     "gen-7": {
       "forms": {
@@ -10314,12 +10314,12 @@
       "eng": "Trapinch",
       "chs": "大颚蚁",
       "jpn": "ナックラー",
-      "jpn_ro": "Nakkurā"
+      "jpn_ro": "Nuckrar"
     },
     "slug": {
       "eng": "trapinch",
-      "jpn": "nakkura",
-      "jpn_ro": "nakkura"
+      "jpn": "nuckrar",
+      "jpn_ro": "nuckrar"
     },
     "gen-7": {
       "forms": {
@@ -10343,12 +10343,12 @@
       "eng": "Vibrava",
       "chs": "超音波幼虫",
       "jpn": "ビブラーバ",
-      "jpn_ro": "Biburāba"
+      "jpn_ro": "Vibrava"
     },
     "slug": {
       "eng": "vibrava",
-      "jpn": "biburaba",
-      "jpn_ro": "biburaba"
+      "jpn": "vibrava",
+      "jpn_ro": "vibrava"
     },
     "gen-7": {
       "forms": {
@@ -10459,12 +10459,12 @@
       "eng": "Swablu",
       "chs": "青绵鸟",
       "jpn": "チルット",
-      "jpn_ro": "Chirutto"
+      "jpn_ro": "Tyltto"
     },
     "slug": {
       "eng": "swablu",
-      "jpn": "chirutto",
-      "jpn_ro": "chirutto"
+      "jpn": "tyltto",
+      "jpn_ro": "tyltto"
     },
     "gen-7": {
       "forms": {
@@ -10582,12 +10582,12 @@
       "eng": "Lunatone",
       "chs": "月石",
       "jpn": "ルナトーン",
-      "jpn_ro": "Runatōn"
+      "jpn_ro": "Lunatone"
     },
     "slug": {
       "eng": "lunatone",
-      "jpn": "runaton",
-      "jpn_ro": "runaton"
+      "jpn": "lunatone",
+      "jpn_ro": "lunatone"
     },
     "gen-7": {
       "forms": {
@@ -10611,12 +10611,12 @@
       "eng": "Solrock",
       "chs": "太阳岩",
       "jpn": "ソルロック",
-      "jpn_ro": "Sorurokku"
+      "jpn_ro": "Solrock"
     },
     "slug": {
       "eng": "solrock",
-      "jpn": "sorurokku",
-      "jpn_ro": "sorurokku"
+      "jpn": "solrock",
+      "jpn_ro": "solrock"
     },
     "gen-7": {
       "forms": {
@@ -10640,12 +10640,12 @@
       "eng": "Barboach",
       "chs": "泥泥鳅",
       "jpn": "ドジョッチ",
-      "jpn_ro": "Dojotchi"
+      "jpn_ro": "Dojoach"
     },
     "slug": {
       "eng": "barboach",
-      "jpn": "dojotchi",
-      "jpn_ro": "dojotchi"
+      "jpn": "dojoach",
+      "jpn_ro": "dojoach"
     },
     "gen-7": {
       "forms": {
@@ -10756,12 +10756,12 @@
       "eng": "Baltoy",
       "chs": "天秤偶",
       "jpn": "ヤジロン",
-      "jpn_ro": "Yajiron"
+      "jpn_ro": "Yajilon"
     },
     "slug": {
       "eng": "baltoy",
-      "jpn": "yajiron",
-      "jpn_ro": "yajiron"
+      "jpn": "yajilon",
+      "jpn_ro": "yajilon"
     },
     "gen-7": {
       "forms": {
@@ -10785,12 +10785,12 @@
       "eng": "Claydol",
       "chs": "念力土偶",
       "jpn": "ネンドール",
-      "jpn_ro": "Nendōru"
+      "jpn_ro": "Nendoll"
     },
     "slug": {
       "eng": "claydol",
-      "jpn": "nendoru",
-      "jpn_ro": "nendoru"
+      "jpn": "nendoll",
+      "jpn_ro": "nendoll"
     },
     "gen-7": {
       "forms": {
@@ -10814,12 +10814,12 @@
       "eng": "Lileep",
       "chs": "触手百合",
       "jpn": "リリーラ",
-      "jpn_ro": "Rirīra"
+      "jpn_ro": "Lilyla"
     },
     "slug": {
       "eng": "lileep",
-      "jpn": "ririra",
-      "jpn_ro": "ririra"
+      "jpn": "lilyla",
+      "jpn_ro": "lilyla"
     },
     "gen-7": {
       "forms": {
@@ -10843,12 +10843,12 @@
       "eng": "Cradily",
       "chs": "摇篮百合",
       "jpn": "ユレイドル",
-      "jpn_ro": "Yureidoru"
+      "jpn_ro": "Yuradle"
     },
     "slug": {
       "eng": "cradily",
-      "jpn": "yureidoru",
-      "jpn_ro": "yureidoru"
+      "jpn": "yuradle",
+      "jpn_ro": "yuradle"
     },
     "gen-7": {
       "forms": {
@@ -10872,12 +10872,12 @@
       "eng": "Anorith",
       "chs": "太古羽虫",
       "jpn": "アノプス",
-      "jpn_ro": "Anopusu"
+      "jpn_ro": "Anopth"
     },
     "slug": {
       "eng": "anorith",
-      "jpn": "anopusu",
-      "jpn_ro": "anopusu"
+      "jpn": "anopth",
+      "jpn_ro": "anopth"
     },
     "gen-7": {
       "forms": {
@@ -10901,12 +10901,12 @@
       "eng": "Armaldo",
       "chs": "太古盔甲",
       "jpn": "アーマルド",
-      "jpn_ro": "Āmarudo"
+      "jpn_ro": "Armaldo"
     },
     "slug": {
       "eng": "armaldo",
-      "jpn": "amarudo",
-      "jpn_ro": "amarudo"
+      "jpn": "armaldo",
+      "jpn_ro": "armaldo"
     },
     "gen-7": {
       "forms": {
@@ -10930,12 +10930,12 @@
       "eng": "Feebas",
       "chs": "丑丑鱼",
       "jpn": "ヒンバス",
-      "jpn_ro": "Hinbasu"
+      "jpn_ro": "Hinbass"
     },
     "slug": {
       "eng": "feebas",
-      "jpn": "hinbasu",
-      "jpn_ro": "hinbasu"
+      "jpn": "hinbass",
+      "jpn_ro": "hinbass"
     },
     "gen-7": {
       "forms": {
@@ -10959,12 +10959,12 @@
       "eng": "Milotic",
       "chs": "美纳斯",
       "jpn": "ミロカロス",
-      "jpn_ro": "Mirokarosu"
+      "jpn_ro": "Milokaross"
     },
     "slug": {
       "eng": "milotic",
-      "jpn": "mirokarosu",
-      "jpn_ro": "mirokarosu"
+      "jpn": "milokaross",
+      "jpn_ro": "milokaross"
     },
     "gen-7": {
       "forms": {
@@ -10988,12 +10988,12 @@
       "eng": "Castform",
       "chs": "飘浮泡泡",
       "jpn": "ポワルン",
-      "jpn_ro": "Powarun"
+      "jpn_ro": "Powalen"
     },
     "slug": {
       "eng": "castform",
-      "jpn": "powarun",
-      "jpn_ro": "powarun"
+      "jpn": "powalen",
+      "jpn_ro": "powalen"
     },
     "gen-7": {
       "forms": {
@@ -11067,12 +11067,12 @@
       "eng": "Shuppet",
       "chs": "怨影娃娃",
       "jpn": "カゲボウズ",
-      "jpn_ro": "Kagebōzu"
+      "jpn_ro": "Kagebouzu"
     },
     "slug": {
       "eng": "shuppet",
-      "jpn": "kagebozu",
-      "jpn_ro": "kagebozu"
+      "jpn": "kagebouzu",
+      "jpn_ro": "kagebouzu"
     },
     "gen-7": {
       "forms": {
@@ -11096,12 +11096,12 @@
       "eng": "Banette",
       "chs": "诅咒娃娃",
       "jpn": "ジュペッタ",
-      "jpn_ro": "Jupetta"
+      "jpn_ro": "Juppeta"
     },
     "slug": {
       "eng": "banette",
-      "jpn": "jupetta",
-      "jpn_ro": "jupetta"
+      "jpn": "juppeta",
+      "jpn_ro": "juppeta"
     },
     "gen-7": {
       "forms": {
@@ -11161,12 +11161,12 @@
       "eng": "Dusclops",
       "chs": "彷徨夜灵",
       "jpn": "サマヨール",
-      "jpn_ro": "Samayōru"
+      "jpn_ro": "Samayouru"
     },
     "slug": {
       "eng": "dusclops",
-      "jpn": "samayoru",
-      "jpn_ro": "samayoru"
+      "jpn": "samayouru",
+      "jpn_ro": "samayouru"
     },
     "gen-7": {
       "forms": {
@@ -11342,12 +11342,12 @@
       "eng": "Glalie",
       "chs": "冰鬼护",
       "jpn": "オニゴーリ",
-      "jpn_ro": "Onigōri"
+      "jpn_ro": "Onigohri"
     },
     "slug": {
       "eng": "glalie",
-      "jpn": "onigori",
-      "jpn_ro": "onigori"
+      "jpn": "onigohri",
+      "jpn_ro": "onigohri"
     },
     "gen-7": {
       "forms": {
@@ -11407,12 +11407,12 @@
       "eng": "Sealeo",
       "chs": "海魔狮",
       "jpn": "トドグラー",
-      "jpn_ro": "Todogurā"
+      "jpn_ro": "Todoggler"
     },
     "slug": {
       "eng": "sealeo",
-      "jpn": "todogura",
-      "jpn_ro": "todogura"
+      "jpn": "todoggler",
+      "jpn_ro": "todoggler"
     },
     "gen-7": {
       "forms": {
@@ -11436,12 +11436,12 @@
       "eng": "Walrein",
       "chs": "帝牙海狮",
       "jpn": "トドゼルガ",
-      "jpn_ro": "Todozeruga"
+      "jpn_ro": "Todoseruga"
     },
     "slug": {
       "eng": "walrein",
-      "jpn": "todozeruga",
-      "jpn_ro": "todozeruga"
+      "jpn": "todoseruga",
+      "jpn_ro": "todoseruga"
     },
     "gen-7": {
       "forms": {
@@ -11465,12 +11465,12 @@
       "eng": "Clamperl",
       "chs": "珍珠贝",
       "jpn": "パールル",
-      "jpn_ro": "Pāruru"
+      "jpn_ro": "Pearlulu"
     },
     "slug": {
       "eng": "clamperl",
-      "jpn": "paruru",
-      "jpn_ro": "paruru"
+      "jpn": "pearlulu",
+      "jpn_ro": "pearlulu"
     },
     "gen-7": {
       "forms": {
@@ -11494,12 +11494,12 @@
       "eng": "Huntail",
       "chs": "猎斑鱼",
       "jpn": "ハンテール",
-      "jpn_ro": "Hantēru"
+      "jpn_ro": "Huntail"
     },
     "slug": {
       "eng": "huntail",
-      "jpn": "hanteru",
-      "jpn_ro": "hanteru"
+      "jpn": "huntail",
+      "jpn_ro": "huntail"
     },
     "gen-7": {
       "forms": {
@@ -11523,12 +11523,12 @@
       "eng": "Gorebyss",
       "chs": "樱花鱼",
       "jpn": "サクラビス",
-      "jpn_ro": "Sakurabisu"
+      "jpn_ro": "Sakurabyss"
     },
     "slug": {
       "eng": "gorebyss",
-      "jpn": "sakurabisu",
-      "jpn_ro": "sakurabisu"
+      "jpn": "sakurabyss",
+      "jpn_ro": "sakurabyss"
     },
     "gen-7": {
       "forms": {
@@ -11552,12 +11552,12 @@
       "eng": "Relicanth",
       "chs": "古空棘鱼",
       "jpn": "ジーランス",
-      "jpn_ro": "Jīransu"
+      "jpn_ro": "Glanth"
     },
     "slug": {
       "eng": "relicanth",
-      "jpn": "jiransu",
-      "jpn_ro": "jiransu"
+      "jpn": "glanth",
+      "jpn_ro": "glanth"
     },
     "gen-7": {
       "forms": {
@@ -11581,12 +11581,12 @@
       "eng": "Luvdisc",
       "chs": "爱心鱼",
       "jpn": "ラブカス",
-      "jpn_ro": "Rabukasu"
+      "jpn_ro": "Lovecus"
     },
     "slug": {
       "eng": "luvdisc",
-      "jpn": "rabukasu",
-      "jpn_ro": "rabukasu"
+      "jpn": "lovecus",
+      "jpn_ro": "lovecus"
     },
     "gen-7": {
       "forms": {
@@ -11610,12 +11610,12 @@
       "eng": "Bagon",
       "chs": "宝贝龙",
       "jpn": "タツベイ",
-      "jpn_ro": "Tatsubei"
+      "jpn_ro": "Tatsubay"
     },
     "slug": {
       "eng": "bagon",
-      "jpn": "tatsubei",
-      "jpn_ro": "tatsubei"
+      "jpn": "tatsubay",
+      "jpn_ro": "tatsubay"
     },
     "gen-7": {
       "forms": {
@@ -11639,12 +11639,12 @@
       "eng": "Shelgon",
       "chs": "甲壳龙",
       "jpn": "コモルー",
-      "jpn_ro": "Komorū"
+      "jpn_ro": "Komoruu"
     },
     "slug": {
       "eng": "shelgon",
-      "jpn": "komoru",
-      "jpn_ro": "komoru"
+      "jpn": "komoruu",
+      "jpn_ro": "komoruu"
     },
     "gen-7": {
       "forms": {
@@ -11704,12 +11704,12 @@
       "eng": "Beldum",
       "chs": "铁哑铃",
       "jpn": "ダンバル",
-      "jpn_ro": "Danbaru"
+      "jpn_ro": "Dumbber"
     },
     "slug": {
       "eng": "beldum",
-      "jpn": "danbaru",
-      "jpn_ro": "danbaru"
+      "jpn": "dumbber",
+      "jpn_ro": "dumbber"
     },
     "gen-7": {
       "forms": {
@@ -11733,12 +11733,12 @@
       "eng": "Metang",
       "chs": "金属怪",
       "jpn": "メタング",
-      "jpn_ro": "Metangu"
+      "jpn_ro": "Metang"
     },
     "slug": {
       "eng": "metang",
-      "jpn": "metangu",
-      "jpn_ro": "metangu"
+      "jpn": "metang",
+      "jpn_ro": "metang"
     },
     "gen-7": {
       "forms": {
@@ -11957,12 +11957,12 @@
       "eng": "Kyogre",
       "chs": "盖欧卡",
       "jpn": "カイオーガ",
-      "jpn_ro": "Kaiorga"
+      "jpn_ro": "Kyogre"
     },
     "slug": {
       "eng": "kyogre",
-      "jpn": "kaiorga",
-      "jpn_ro": "kaiorga"
+      "jpn": "kyogre",
+      "jpn_ro": "kyogre"
     },
     "gen-7": {
       "forms": {
@@ -12472,12 +12472,12 @@
       "eng": "Staraptor",
       "chs": "姆克鹰",
       "jpn": "ムクホーク",
-      "jpn_ro": "Mukuhōku"
+      "jpn_ro": "Mukuhawk"
     },
     "slug": {
       "eng": "staraptor",
-      "jpn": "mukuhoku",
-      "jpn_ro": "mukuhoku"
+      "jpn": "mukuhawk",
+      "jpn_ro": "mukuhawk"
     },
     "gen-7": {
       "forms": {
@@ -12530,12 +12530,12 @@
       "eng": "Bibarel",
       "chs": "大尾狸",
       "jpn": "ビーダル",
-      "jpn_ro": "Bīdaru"
+      "jpn_ro": "Beadaru"
     },
     "slug": {
       "eng": "bibarel",
-      "jpn": "bidaru",
-      "jpn_ro": "bidaru"
+      "jpn": "beadaru",
+      "jpn_ro": "beadaru"
     },
     "gen-7": {
       "forms": {
@@ -12559,12 +12559,12 @@
       "eng": "Kricketot",
       "chs": "圆法师",
       "jpn": "コロボーシ",
-      "jpn_ro": "Korobōshi"
+      "jpn_ro": "Korobohshi"
     },
     "slug": {
       "eng": "kricketot",
-      "jpn": "koroboshi",
-      "jpn_ro": "koroboshi"
+      "jpn": "korobohshi",
+      "jpn_ro": "korobohshi"
     },
     "gen-7": {
       "forms": {
@@ -12588,12 +12588,12 @@
       "eng": "Kricketune",
       "chs": "音箱蟀",
       "jpn": "コロトック",
-      "jpn_ro": "Korotokku"
+      "jpn_ro": "Korotock"
     },
     "slug": {
       "eng": "kricketune",
-      "jpn": "korotokku",
-      "jpn_ro": "korotokku"
+      "jpn": "korotock",
+      "jpn_ro": "korotock"
     },
     "gen-7": {
       "forms": {
@@ -12820,12 +12820,12 @@
       "eng": "Shieldon",
       "chs": "盾甲龙",
       "jpn": "タテトプス",
-      "jpn_ro": "Tatetopusu"
+      "jpn_ro": "Tatetops"
     },
     "slug": {
       "eng": "shieldon",
-      "jpn": "tatetopusu",
-      "jpn_ro": "tatetopusu"
+      "jpn": "tatetops",
+      "jpn_ro": "tatetops"
     },
     "gen-7": {
       "forms": {
@@ -12878,12 +12878,12 @@
       "eng": "Burmy",
       "chs": "结草儿",
       "jpn": "ミノムッチ",
-      "jpn_ro": "Minomutchi"
+      "jpn_ro": "Minomucchi"
     },
     "slug": {
       "eng": "burmy",
-      "jpn": "minomutchi",
-      "jpn_ro": "minomutchi"
+      "jpn": "minomucchi",
+      "jpn_ro": "minomucchi"
     },
     "gen-7": {
       "forms": {
@@ -12930,12 +12930,12 @@
       "eng": "Wormadam",
       "chs": "结草贵妇",
       "jpn": "ミノマダム",
-      "jpn_ro": "Minomadamu"
+      "jpn_ro": "Minomadam"
     },
     "slug": {
       "eng": "wormadam",
-      "jpn": "minomadamu",
-      "jpn_ro": "minomadamu"
+      "jpn": "minomadam",
+      "jpn_ro": "minomadam"
     },
     "gen-7": {
       "forms": {
@@ -12982,12 +12982,12 @@
       "eng": "Mothim",
       "chs": "绅士蛾",
       "jpn": "ガーメイル",
-      "jpn_ro": "Gāmeiru"
+      "jpn_ro": "Gamale"
     },
     "slug": {
       "eng": "mothim",
-      "jpn": "gameiru",
-      "jpn_ro": "gameiru"
+      "jpn": "gamale",
+      "jpn_ro": "gamale"
     },
     "gen-7": {
       "forms": {
@@ -13154,12 +13154,12 @@
       "eng": "Floatzel",
       "chs": "浮潜鼬",
       "jpn": "フローゼル",
-      "jpn_ro": "Furōzeru"
+      "jpn_ro": "Floazel"
     },
     "slug": {
       "eng": "floatzel",
-      "jpn": "furozeru",
-      "jpn_ro": "furozeru"
+      "jpn": "floazel",
+      "jpn_ro": "floazel"
     },
     "gen-7": {
       "forms": {
@@ -13302,12 +13302,12 @@
       "eng": "Gastrodon",
       "chs": "海兔兽",
       "jpn": "トリトドン",
-      "jpn_ro": "Toritodon"
+      "jpn_ro": "Tritodon"
     },
     "slug": {
       "eng": "gastrodon",
-      "jpn": "toritodon",
-      "jpn_ro": "toritodon"
+      "jpn": "tritodon",
+      "jpn_ro": "tritodon"
     },
     "gen-7": {
       "forms": {
@@ -13644,12 +13644,12 @@
       "eng": "Stunky",
       "chs": "臭鼬噗",
       "jpn": "スカンプー",
-      "jpn_ro": "Sukanpū"
+      "jpn_ro": "Skunpuu"
     },
     "slug": {
       "eng": "stunky",
-      "jpn": "sukanpu",
-      "jpn_ro": "sukanpu"
+      "jpn": "skunpuu",
+      "jpn_ro": "skunpuu"
     },
     "gen-7": {
       "forms": {
@@ -13702,12 +13702,12 @@
       "eng": "Bronzor",
       "chs": "铜镜怪",
       "jpn": "ドーミラー",
-      "jpn_ro": "Dōmirā"
+      "jpn_ro": "Dohmirror"
     },
     "slug": {
       "eng": "bronzor",
-      "jpn": "domira",
-      "jpn_ro": "domira"
+      "jpn": "dohmirror",
+      "jpn_ro": "dohmirror"
     },
     "gen-7": {
       "forms": {
@@ -14093,12 +14093,12 @@
       "eng": "Hippopotas",
       "chs": "沙河马",
       "jpn": "ヒポポタス",
-      "jpn_ro": "Hipopotasu"
+      "jpn_ro": "Hippopotas"
     },
     "slug": {
       "eng": "hippopotas",
-      "jpn": "hipopotasu",
-      "jpn_ro": "hipopotasu"
+      "jpn": "hippopotas",
+      "jpn_ro": "hippopotas"
     },
     "gen-7": {
       "forms": {
@@ -14153,12 +14153,12 @@
       "eng": "Skorupi",
       "chs": "钳尾蝎",
       "jpn": "スコルピ",
-      "jpn_ro": "Sukorupi"
+      "jpn_ro": "Scorupi"
     },
     "slug": {
       "eng": "skorupi",
-      "jpn": "sukorupi",
-      "jpn_ro": "sukorupi"
+      "jpn": "scorupi",
+      "jpn_ro": "scorupi"
     },
     "gen-7": {
       "forms": {
@@ -14414,12 +14414,12 @@
       "eng": "Abomasnow",
       "chs": "暴雪王",
       "jpn": "ユキノオー",
-      "jpn_ro": "Yukinoō"
+      "jpn_ro": "Yukinooh"
     },
     "slug": {
       "eng": "abomasnow",
-      "jpn": "yukinoo",
-      "jpn_ro": "yukinoo"
+      "jpn": "yukinooh",
+      "jpn_ro": "yukinooh"
     },
     "gen-7": {
       "forms": {
@@ -14479,12 +14479,12 @@
       "eng": "Magnezone",
       "chs": "自爆磁怪",
       "jpn": "ジバコイル",
-      "jpn_ro": "Jibakoiru"
+      "jpn_ro": "Jibacoil"
     },
     "slug": {
       "eng": "magnezone",
-      "jpn": "jibakoiru",
-      "jpn_ro": "jibakoiru"
+      "jpn": "jibacoil",
+      "jpn_ro": "jibacoil"
     },
     "gen-7": {
       "forms": {
@@ -14827,12 +14827,12 @@
       "eng": "Porygon-Z",
       "chs": "多边兽Ｚ",
       "jpn": "ポリゴンZ",
-      "jpn_ro": "PorygonZ"
+      "jpn_ro": "Porygon-Z"
     },
     "slug": {
       "eng": "porygon-z",
-      "jpn": "porygonz",
-      "jpn_ro": "porygonz"
+      "jpn": "porygon-z",
+      "jpn_ro": "porygon-z"
     },
     "gen-7": {
       "forms": {
@@ -14892,12 +14892,12 @@
       "eng": "Probopass",
       "chs": "大朝北鼻",
       "jpn": "ダイノーズ",
-      "jpn_ro": "Dainōzu"
+      "jpn_ro": "Dainose"
     },
     "slug": {
       "eng": "probopass",
-      "jpn": "dainozu",
-      "jpn_ro": "dainozu"
+      "jpn": "dainose",
+      "jpn_ro": "dainose"
     },
     "gen-7": {
       "forms": {
@@ -15291,12 +15291,12 @@
       "eng": "Cresselia",
       "chs": "克雷色利亚",
       "jpn": "クレセリア",
-      "jpn_ro": "Crecelia"
+      "jpn_ro": "Cresselia"
     },
     "slug": {
       "eng": "cresselia",
-      "jpn": "crecelia",
-      "jpn_ro": "crecelia"
+      "jpn": "cresselia",
+      "jpn_ro": "cresselia"
     },
     "gen-7": {
       "forms": {
@@ -20449,12 +20449,12 @@
       "eng": "Chesnaught",
       "chs": "布里卡隆",
       "jpn": "ブリガロン",
-      "jpn_ro": "Briggaron"
+      "jpn_ro": "Brigarron"
     },
     "slug": {
       "eng": "chesnaught",
-      "jpn": "briggaron",
-      "jpn_ro": "briggaron"
+      "jpn": "brigarron",
+      "jpn_ro": "brigarron"
     },
     "gen-7": {
       "forms": {
@@ -20507,12 +20507,12 @@
       "eng": "Braixen",
       "chs": "长尾火狐",
       "jpn": "テールナー",
-      "jpn_ro": "Teruna"
+      "jpn_ro": "Tairenar"
     },
     "slug": {
       "eng": "braixen",
-      "jpn": "teruna",
-      "jpn_ro": "teruna"
+      "jpn": "tairenar",
+      "jpn_ro": "tairenar"
     },
     "gen-7": {
       "forms": {
@@ -20536,12 +20536,12 @@
       "eng": "Delphox",
       "chs": "妖火红狐",
       "jpn": "マフォクシー",
-      "jpn_ro": "Mafoxy"
+      "jpn_ro": "Mahoxy"
     },
     "slug": {
       "eng": "delphox",
-      "jpn": "mafoxy",
-      "jpn_ro": "mafoxy"
+      "jpn": "mahoxy",
+      "jpn_ro": "mahoxy"
     },
     "gen-7": {
       "forms": {
@@ -20594,12 +20594,12 @@
       "eng": "Frogadier",
       "chs": "呱头蛙",
       "jpn": "ゲコガシラ",
-      "jpn_ro": "Gekogahshier"
+      "jpn_ro": "Gekogashira"
     },
     "slug": {
       "eng": "frogadier",
-      "jpn": "gekogahshier",
-      "jpn_ro": "gekogahshier"
+      "jpn": "gekogashira",
+      "jpn_ro": "gekogashira"
     },
     "gen-7": {
       "forms": {
@@ -21527,12 +21527,12 @@
       "eng": "Floette",
       "chs": "花叶蒂",
       "jpn": "フラエッテ",
-      "jpn_ro": "Flaette"
+      "jpn_ro": "Floette"
     },
     "slug": {
       "eng": "floette",
-      "jpn": "flaette",
-      "jpn_ro": "flaette"
+      "jpn": "floette",
+      "jpn_ro": "floette"
     },
     "gen-7": {
       "forms": {
@@ -22000,12 +22000,12 @@
       "eng": "Aegislash",
       "chs": "坚盾剑怪",
       "jpn": "ギルガルド",
-      "jpn_ro": "Gillguard"
+      "jpn_ro": "Gillgard"
     },
     "slug": {
       "eng": "aegislash",
-      "jpn": "gillguard",
-      "jpn_ro": "gillguard"
+      "jpn": "gillgard",
+      "jpn_ro": "gillgard"
     },
     "gen-7": {
       "forms": {
@@ -23678,12 +23678,12 @@
       "eng": "Yungoos",
       "chs": "猫鼬少",
       "jpn": "ヤングース",
-      "jpn_ro": "Yangūsu"
+      "jpn_ro": "Youngoose"
     },
     "slug": {
       "eng": "yungoos",
-      "jpn": "yangusu",
-      "jpn_ro": "yangusu"
+      "jpn": "youngoose",
+      "jpn_ro": "youngoose"
     },
     "gen-7": {
       "forms": {
@@ -23707,12 +23707,12 @@
       "eng": "Gumshoos",
       "chs": "猫鼬探长",
       "jpn": "デカグース",
-      "jpn_ro": "Dekagūsu"
+      "jpn_ro": "Dekagoose"
     },
     "slug": {
       "eng": "gumshoos",
-      "jpn": "dekagusu",
-      "jpn_ro": "dekagusu"
+      "jpn": "dekagoose",
+      "jpn_ro": "dekagoose"
     },
     "gen-7": {
       "forms": {
@@ -23774,12 +23774,12 @@
       "eng": "Charjabug",
       "chs": "虫电宝",
       "jpn": "デンヂムシ",
-      "jpn_ro": "Denjimushi"
+      "jpn_ro": "Dendimushi"
     },
     "slug": {
       "eng": "charjabug",
-      "jpn": "denjimushi",
-      "jpn_ro": "denjimushi"
+      "jpn": "dendimushi",
+      "jpn_ro": "dendimushi"
     },
     "gen-7": {
       "forms": {
@@ -23803,12 +23803,12 @@
       "eng": "Vikavolt",
       "chs": "锹农炮虫",
       "jpn": "クワガノン",
-      "jpn_ro": "Kuwaganon"
+      "jpn_ro": "Kuwagannon"
     },
     "slug": {
       "eng": "vikavolt",
-      "jpn": "kuwaganon",
-      "jpn_ro": "kuwaganon"
+      "jpn": "kuwagannon",
+      "jpn_ro": "kuwagannon"
     },
     "gen-7": {
       "forms": {
@@ -23987,12 +23987,12 @@
       "eng": "Ribombee",
       "chs": "蝶结萌虻",
       "jpn": "アブリボン",
-      "jpn_ro": "Aburibon"
+      "jpn_ro": "Aburibbon"
     },
     "slug": {
       "eng": "ribombee",
-      "jpn": "aburibon",
-      "jpn_ro": "aburibon"
+      "jpn": "aburibbon",
+      "jpn_ro": "aburibbon"
     },
     "gen-7": {
       "forms": {
@@ -24063,12 +24063,12 @@
       "eng": "Lycanroc",
       "chs": "鬃岩狼人",
       "jpn": "ルガルガン",
-      "jpn_ro": "Lugalgan"
+      "jpn_ro": "Lugarugan"
     },
     "slug": {
       "eng": "lycanroc",
-      "jpn": "lugalgan",
-      "jpn_ro": "lugalgan"
+      "jpn": "lugarugan",
+      "jpn_ro": "lugarugan"
     },
     "gen-7": {
       "forms": {
@@ -24372,12 +24372,12 @@
       "eng": "Lurantis",
       "chs": "兰螳花",
       "jpn": "ラランテス",
-      "jpn_ro": "Rarantesu"
+      "jpn_ro": "Lalantes"
     },
     "slug": {
       "eng": "lurantis",
-      "jpn": "rarantesu",
-      "jpn_ro": "rarantesu"
+      "jpn": "lalantes",
+      "jpn_ro": "lalantes"
     },
     "gen-7": {
       "forms": {
@@ -24410,12 +24410,12 @@
       "eng": "Morelull",
       "chs": "睡睡菇",
       "jpn": "ネマシュ",
-      "jpn_ro": "Nemashu"
+      "jpn_ro": "Nemasyu"
     },
     "slug": {
       "eng": "morelull",
-      "jpn": "nemashu",
-      "jpn_ro": "nemashu"
+      "jpn": "nemasyu",
+      "jpn_ro": "nemasyu"
     },
     "gen-7": {
       "forms": {
@@ -24439,12 +24439,12 @@
       "eng": "Shiinotic",
       "chs": "灯罩夜菇",
       "jpn": "マシェード",
-      "jpn_ro": "Mashēdo"
+      "jpn_ro": "Mashade"
     },
     "slug": {
       "eng": "shiinotic",
-      "jpn": "mashedo",
-      "jpn_ro": "mashedo"
+      "jpn": "mashade",
+      "jpn_ro": "mashade"
     },
     "gen-7": {
       "forms": {
@@ -24468,12 +24468,12 @@
       "eng": "Salandit",
       "chs": "夜盗火蜥",
       "jpn": "ヤトウモリ",
-      "jpn_ro": "Yatōmori"
+      "jpn_ro": "Yatoumori"
     },
     "slug": {
       "eng": "salandit",
-      "jpn": "yatomori",
-      "jpn_ro": "yatomori"
+      "jpn": "yatoumori",
+      "jpn_ro": "yatoumori"
     },
     "gen-7": {
       "forms": {
@@ -24497,12 +24497,12 @@
       "eng": "Salazzle",
       "chs": "焰后蜥",
       "jpn": "エンニュート",
-      "jpn_ro": "Ennyūto"
+      "jpn_ro": "Ennewt"
     },
     "slug": {
       "eng": "salazzle",
-      "jpn": "ennyuto",
-      "jpn_ro": "ennyuto"
+      "jpn": "ennewt",
+      "jpn_ro": "ennewt"
     },
     "gen-7": {
       "forms": {
@@ -24709,12 +24709,12 @@
       "eng": "Oranguru",
       "chs": "智挥猩",
       "jpn": "ヤレユータン",
-      "jpn_ro": "Yareyūtan"
+      "jpn_ro": "Yareyuutan"
     },
     "slug": {
       "eng": "oranguru",
-      "jpn": "yareyutan",
-      "jpn_ro": "yareyutan"
+      "jpn": "yareyuutan",
+      "jpn_ro": "yareyuutan"
     },
     "gen-7": {
       "forms": {
@@ -24738,12 +24738,12 @@
       "eng": "Passimian",
       "chs": "投掷猴",
       "jpn": "ナゲツケサル",
-      "jpn_ro": "Nagetsukesaru"
+      "jpn_ro": "Nagetukesaru"
     },
     "slug": {
       "eng": "passimian",
-      "jpn": "nagetsukesaru",
-      "jpn_ro": "nagetsukesaru"
+      "jpn": "nagetukesaru",
+      "jpn_ro": "nagetukesaru"
     },
     "gen-7": {
       "forms": {
@@ -24825,7 +24825,7 @@
       "eng": "Sandygast",
       "chs": "沙丘娃",
       "jpn": "スナバァ",
-      "jpn_ro": "Sunabā"
+      "jpn_ro": "Sunaba"
     },
     "slug": {
       "eng": "sandygast",
@@ -24854,12 +24854,12 @@
       "eng": "Palossand",
       "chs": "噬沙堡爷",
       "jpn": "シロデスナ",
-      "jpn_ro": "Shirodesuna"
+      "jpn_ro": "Sirodethna"
     },
     "slug": {
       "eng": "palossand",
-      "jpn": "shirodesuna",
-      "jpn_ro": "shirodesuna"
+      "jpn": "sirodethna",
+      "jpn_ro": "sirodethna"
     },
     "gen-7": {
       "forms": {
@@ -24912,12 +24912,12 @@
       "eng": "Type: Null",
       "chs": "属性：空",
       "jpn": "タイプ：ヌル",
-      "jpn_ro": "Type: Null"
+      "jpn_ro": "Type:Null"
     },
     "slug": {
       "eng": "type-null",
-      "jpn": "type-null",
-      "jpn_ro": "type-null"
+      "jpn": "type:null",
+      "jpn_ro": "type:null"
     },
     "gen-7": {
       "forms": {
@@ -25547,12 +25547,12 @@
       "eng": "Drampa",
       "chs": "老翁龙",
       "jpn": "ジジーロン",
-      "jpn_ro": "Jijīron"
+      "jpn_ro": "Jijilong"
     },
     "slug": {
       "eng": "drampa",
-      "jpn": "jijiron",
-      "jpn_ro": "jijiron"
+      "jpn": "jijilong",
+      "jpn_ro": "jijilong"
     },
     "gen-7": {
       "forms": {
@@ -25605,12 +25605,12 @@
       "eng": "Jangmo-o",
       "chs": "心鳞宝",
       "jpn": "ジャラコ",
-      "jpn_ro": "Jarako"
+      "jpn_ro": "Jyarako"
     },
     "slug": {
       "eng": "jangmo-o",
-      "jpn": "jarako",
-      "jpn_ro": "jarako"
+      "jpn": "jyarako",
+      "jpn_ro": "jyarako"
     },
     "gen-7": {
       "forms": {
@@ -25634,12 +25634,12 @@
       "eng": "Hakamo-o",
       "chs": "鳞甲龙",
       "jpn": "ジャランゴ",
-      "jpn_ro": "Jarango"
+      "jpn_ro": "Jyarango"
     },
     "slug": {
       "eng": "hakamo-o",
-      "jpn": "jarango",
-      "jpn_ro": "jarango"
+      "jpn": "jyarango",
+      "jpn_ro": "jyarango"
     },
     "gen-7": {
       "forms": {
@@ -25663,12 +25663,12 @@
       "eng": "Kommo-o",
       "chs": "杖尾鳞甲龙",
       "jpn": "ジャラランガ",
-      "jpn_ro": "Jararanga"
+      "jpn_ro": "Jyararanga"
     },
     "slug": {
       "eng": "kommo-o",
-      "jpn": "jararanga",
-      "jpn_ro": "jararanga"
+      "jpn": "jyararanga",
+      "jpn_ro": "jyararanga"
     },
     "gen-7": {
       "forms": {
@@ -25933,12 +25933,12 @@
       "eng": "Nihilego",
       "chs": "虚吾伊德",
       "jpn": "ウツロイド",
-      "jpn_ro": "Utsuroido"
+      "jpn_ro": "Uturoid"
     },
     "slug": {
       "eng": "nihilego",
-      "jpn": "utsuroido",
-      "jpn_ro": "utsuroido"
+      "jpn": "uturoid",
+      "jpn_ro": "uturoid"
     },
     "gen-7": {
       "forms": {
@@ -25962,12 +25962,12 @@
       "eng": "Buzzwole",
       "chs": "爆肌蚊",
       "jpn": "マッシブーン",
-      "jpn_ro": "Masshibūn"
+      "jpn_ro": "Massivoon"
     },
     "slug": {
       "eng": "buzzwole",
-      "jpn": "masshibun",
-      "jpn_ro": "masshibun"
+      "jpn": "massivoon",
+      "jpn_ro": "massivoon"
     },
     "gen-7": {
       "forms": {
@@ -25991,12 +25991,12 @@
       "eng": "Pheromosa",
       "chs": "费洛美螂",
       "jpn": "フェローチェ",
-      "jpn_ro": "Ferōche"
+      "jpn_ro": "Pheroache"
     },
     "slug": {
       "eng": "pheromosa",
-      "jpn": "feroche",
-      "jpn_ro": "feroche"
+      "jpn": "pheroache",
+      "jpn_ro": "pheroache"
     },
     "gen-7": {
       "forms": {
@@ -26020,12 +26020,12 @@
       "eng": "Xurkitree",
       "chs": "电束木",
       "jpn": "デンジュモク",
-      "jpn_ro": "Denjumoku"
+      "jpn_ro": "Denjyumoku"
     },
     "slug": {
       "eng": "xurkitree",
-      "jpn": "denjumoku",
-      "jpn_ro": "denjumoku"
+      "jpn": "denjyumoku",
+      "jpn_ro": "denjyumoku"
     },
     "gen-7": {
       "forms": {
@@ -26078,12 +26078,12 @@
       "eng": "Kartana",
       "chs": "纸御剑",
       "jpn": "カミツルギ",
-      "jpn_ro": "Kamitsurugi"
+      "jpn_ro": "Kamiturugi"
     },
     "slug": {
       "eng": "kartana",
-      "jpn": "kamitsurugi",
-      "jpn_ro": "kamitsurugi"
+      "jpn": "kamiturugi",
+      "jpn_ro": "kamiturugi"
     },
     "gen-7": {
       "forms": {
@@ -26107,12 +26107,12 @@
       "eng": "Guzzlord",
       "chs": "恶食大王",
       "jpn": "アクジキング",
-      "jpn_ro": "Akujikingu"
+      "jpn_ro": "Akuziking"
     },
     "slug": {
       "eng": "guzzlord",
-      "jpn": "akujikingu",
-      "jpn_ro": "akujikingu"
+      "jpn": "akuziking",
+      "jpn_ro": "akuziking"
     },
     "gen-7": {
       "forms": {
@@ -26260,12 +26260,12 @@
       "eng": "Poipole",
       "chs": "毒贝比",
       "jpn": "ベベノム",
-      "jpn_ro": "Bebenomu"
+      "jpn_ro": "Bevenom"
     },
     "slug": {
       "eng": "poipole",
-      "jpn": "bebenomu",
-      "jpn_ro": "bebenomu"
+      "jpn": "bevenom",
+      "jpn_ro": "bevenom"
     },
     "gen-7": {
       "forms": {
@@ -26289,12 +26289,12 @@
       "eng": "Naganadel",
       "chs": "四颚针龙",
       "jpn": "アーゴヨン",
-      "jpn_ro": "Aagoyon"
+      "jpn_ro": "Agoyon"
     },
     "slug": {
       "eng": "naganadel",
-      "jpn": "aagoyon",
-      "jpn_ro": "aagoyon"
+      "jpn": "agoyon",
+      "jpn_ro": "agoyon"
     },
     "gen-7": {
       "forms": {
@@ -26318,12 +26318,12 @@
       "eng": "Stakataka",
       "chs": "垒磊石",
       "jpn": "ツンデツンデ",
-      "jpn_ro": "Tsundetsunde"
+      "jpn_ro": "Tundetunde"
     },
     "slug": {
       "eng": "stakataka",
-      "jpn": "tsundetsunde",
-      "jpn_ro": "tsundetsunde"
+      "jpn": "tundetunde",
+      "jpn_ro": "tundetunde"
     },
     "gen-7": {
       "forms": {
@@ -26490,12 +26490,12 @@
       "eng": "Thwackey",
       "chs": "啪咚猴",
       "jpn": "バチンキー",
-      "jpn_ro": "Bachinkī"
+      "jpn_ro": "Bachinkey"
     },
     "slug": {
       "eng": "thwackey",
-      "jpn": "bachinki",
-      "jpn_ro": "bachinki"
+      "jpn": "bachinkey",
+      "jpn_ro": "bachinkey"
     },
     "gen-7": {
     },
@@ -26513,12 +26513,12 @@
       "eng": "Rillaboom",
       "chs": "轰擂金刚猩",
       "jpn": "ゴリランダー",
-      "jpn_ro": "Gorirandā"
+      "jpn_ro": "Gorirander"
     },
     "slug": {
       "eng": "rillaboom",
-      "jpn": "goriranda",
-      "jpn_ro": "goriranda"
+      "jpn": "gorirander",
+      "jpn_ro": "gorirander"
     },
     "gen-7": {
     },
@@ -26562,12 +26562,12 @@
       "eng": "Raboot",
       "chs": "腾蹴小将",
       "jpn": "ラビフット",
-      "jpn_ro": "Rabifutto"
+      "jpn_ro": "Rabbifuto"
     },
     "slug": {
       "eng": "raboot",
-      "jpn": "rabifutto",
-      "jpn_ro": "rabifutto"
+      "jpn": "rabbifuto",
+      "jpn_ro": "rabbifuto"
     },
     "gen-7": {
     },
@@ -26585,12 +26585,12 @@
       "eng": "Cinderace",
       "chs": "闪焰王牌",
       "jpn": "エースバーン",
-      "jpn_ro": "Ēsubān"
+      "jpn_ro": "Aceburn"
     },
     "slug": {
       "eng": "cinderace",
-      "jpn": "esuban",
-      "jpn_ro": "esuban"
+      "jpn": "aceburn",
+      "jpn_ro": "aceburn"
     },
     "gen-7": {
     },
@@ -26801,12 +26801,12 @@
       "eng": "Blipbug",
       "chs": "索侦虫",
       "jpn": "サッチムシ",
-      "jpn_ro": "Satchimushi"
+      "jpn_ro": "Sacchimushi"
     },
     "slug": {
       "eng": "blipbug",
-      "jpn": "satchimushi",
-      "jpn_ro": "satchimushi"
+      "jpn": "sacchimushi",
+      "jpn_ro": "sacchimushi"
     },
     "gen-7": {
     },
@@ -26824,7 +26824,7 @@
       "eng": "Dottler",
       "chs": "天罩虫",
       "jpn": "レドームシ",
-      "jpn_ro": "Redōmushi"
+      "jpn_ro": "Redomushi"
     },
     "slug": {
       "eng": "dottler",
@@ -26847,12 +26847,12 @@
       "eng": "Orbeetle",
       "chs": "以欧路普",
       "jpn": "イオルブ",
-      "jpn_ro": "Iorubu"
+      "jpn_ro": "Eolb"
     },
     "slug": {
       "eng": "orbeetle",
-      "jpn": "iorubu",
-      "jpn_ro": "iorubu"
+      "jpn": "eolb",
+      "jpn_ro": "eolb"
     },
     "gen-7": {
     },
@@ -26896,12 +26896,12 @@
       "eng": "Thievul",
       "chs": "狐大盗",
       "jpn": "フォクスライ",
-      "jpn_ro": "Fokusurai"
+      "jpn_ro": "Foxly"
     },
     "slug": {
       "eng": "thievul",
-      "jpn": "fokusurai",
-      "jpn_ro": "fokusurai"
+      "jpn": "foxly",
+      "jpn_ro": "foxly"
     },
     "gen-7": {
     },
@@ -26988,12 +26988,12 @@
       "eng": "Dubwool",
       "chs": "毛毛角羊",
       "jpn": "バイウールー",
-      "jpn_ro": "Baiūrū"
+      "jpn_ro": "Baiwooluu"
     },
     "slug": {
       "eng": "dubwool",
-      "jpn": "baiuru",
-      "jpn_ro": "baiuru"
+      "jpn": "baiwooluu",
+      "jpn_ro": "baiwooluu"
     },
     "gen-7": {
     },
@@ -27083,12 +27083,12 @@
       "eng": "Boltund",
       "chs": "逐电犬",
       "jpn": "パルスワン",
-      "jpn_ro": "Parusuwan"
+      "jpn_ro": "Pulsewan"
     },
     "slug": {
       "eng": "boltund",
-      "jpn": "parusuwan",
-      "jpn_ro": "parusuwan"
+      "jpn": "pulsewan",
+      "jpn_ro": "pulsewan"
     },
     "gen-7": {
     },
@@ -27178,12 +27178,12 @@
       "eng": "Applin",
       "chs": "啃果虫",
       "jpn": "カジッチュ",
-      "jpn_ro": "Kajitchu"
+      "jpn_ro": "Kajicchu"
     },
     "slug": {
       "eng": "applin",
-      "jpn": "kajitchu",
-      "jpn_ro": "kajitchu"
+      "jpn": "kajicchu",
+      "jpn_ro": "kajicchu"
     },
     "gen-7": {
     },
@@ -27201,12 +27201,12 @@
       "eng": "Flapple",
       "chs": "苹裹龙",
       "jpn": "アップリュー",
-      "jpn_ro": "Appuryū"
+      "jpn_ro": "Appryu"
     },
     "slug": {
       "eng": "flapple",
-      "jpn": "appuryu",
-      "jpn_ro": "appuryu"
+      "jpn": "appryu",
+      "jpn_ro": "appryu"
     },
     "gen-7": {
     },
@@ -27227,12 +27227,12 @@
       "eng": "Appletun",
       "chs": "丰蜜龙",
       "jpn": "タルップル",
-      "jpn_ro": "Taruppuru"
+      "jpn_ro": "Tarupple"
     },
     "slug": {
       "eng": "appletun",
-      "jpn": "taruppuru",
-      "jpn_ro": "taruppuru"
+      "jpn": "tarupple",
+      "jpn_ro": "tarupple"
     },
     "gen-7": {
     },
@@ -27328,12 +27328,12 @@
       "eng": "Arrokuda",
       "chs": "刺梭鱼",
       "jpn": "サシカマス",
-      "jpn_ro": "Sashikamasu"
+      "jpn_ro": "Sasikamasu"
     },
     "slug": {
       "eng": "arrokuda",
-      "jpn": "sashikamasu",
-      "jpn_ro": "sashikamasu"
+      "jpn": "sasikamasu",
+      "jpn_ro": "sasikamasu"
     },
     "gen-7": {
     },
@@ -27351,12 +27351,12 @@
       "eng": "Barraskewda",
       "chs": "戽斗尖梭",
       "jpn": "カマスジョー",
-      "jpn_ro": "Kamasujō"
+      "jpn_ro": "Kamasujaw"
     },
     "slug": {
       "eng": "barraskewda",
-      "jpn": "kamasujo",
-      "jpn_ro": "kamasujo"
+      "jpn": "kamasujaw",
+      "jpn_ro": "kamasujaw"
     },
     "gen-7": {
     },
@@ -27374,12 +27374,12 @@
       "eng": "Toxel",
       "chs": "毒电婴",
       "jpn": "エレズン",
-      "jpn_ro": "Erezun"
+      "jpn_ro": "Eleson"
     },
     "slug": {
       "eng": "toxel",
-      "jpn": "erezun",
-      "jpn_ro": "erezun"
+      "jpn": "eleson",
+      "jpn_ro": "eleson"
     },
     "gen-7": {
     },
@@ -27397,12 +27397,12 @@
       "eng": "Toxtricity",
       "chs": "颤弦蝾螈",
       "jpn": "ストリンダー",
-      "jpn_ro": "Sutorindā"
+      "jpn_ro": "Strinder"
     },
     "slug": {
       "eng": "toxtricity",
-      "jpn": "sutorinda",
-      "jpn_ro": "sutorinda"
+      "jpn": "strinder",
+      "jpn_ro": "strinder"
     },
     "gen-7": {
     },
@@ -27506,12 +27506,12 @@
       "eng": "Grapploct",
       "chs": "八爪武师",
       "jpn": "オトスパス",
-      "jpn_ro": "Otosupasu"
+      "jpn_ro": "Otosupus"
     },
     "slug": {
       "eng": "grapploct",
-      "jpn": "otosupasu",
-      "jpn_ro": "otosupasu"
+      "jpn": "otosupus",
+      "jpn_ro": "otosupus"
     },
     "gen-7": {
     },
@@ -27575,12 +27575,12 @@
       "eng": "Hatenna",
       "chs": "迷布莉姆",
       "jpn": "ミブリム",
-      "jpn_ro": "Miburimu"
+      "jpn_ro": "Mibrim"
     },
     "slug": {
       "eng": "hatenna",
-      "jpn": "miburimu",
-      "jpn_ro": "miburimu"
+      "jpn": "mibrim",
+      "jpn_ro": "mibrim"
     },
     "gen-7": {
     },
@@ -27598,12 +27598,12 @@
       "eng": "Hattrem",
       "chs": "提布莉姆",
       "jpn": "テブリム",
-      "jpn_ro": "Teburimu"
+      "jpn_ro": "Tebrim"
     },
     "slug": {
       "eng": "hattrem",
-      "jpn": "teburimu",
-      "jpn_ro": "teburimu"
+      "jpn": "tebrim",
+      "jpn_ro": "tebrim"
     },
     "gen-7": {
     },
@@ -27621,12 +27621,12 @@
       "eng": "Hatterene",
       "chs": "布莉姆温",
       "jpn": "ブリムオン",
-      "jpn_ro": "Burimuon"
+      "jpn_ro": "Brimuon"
     },
     "slug": {
       "eng": "hatterene",
-      "jpn": "burimuon",
-      "jpn_ro": "burimuon"
+      "jpn": "brimuon",
+      "jpn_ro": "brimuon"
     },
     "gen-7": {
     },
@@ -27647,7 +27647,7 @@
       "eng": "Impidimp",
       "chs": "捣蛋小妖",
       "jpn": "ベロバー",
-      "jpn_ro": "Berobā"
+      "jpn_ro": "Beroba"
     },
     "slug": {
       "eng": "impidimp",
@@ -27670,12 +27670,12 @@
       "eng": "Morgrem",
       "chs": "诈唬魔",
       "jpn": "ギモー",
-      "jpn_ro": "Gimō"
+      "jpn_ro": "Gimoh"
     },
     "slug": {
       "eng": "morgrem",
-      "jpn": "gimo",
-      "jpn_ro": "gimo"
+      "jpn": "gimoh",
+      "jpn_ro": "gimoh"
     },
     "gen-7": {
     },
@@ -27693,12 +27693,12 @@
       "eng": "Grimmsnarl",
       "chs": "长毛巨魔",
       "jpn": "オーロンゲ",
-      "jpn_ro": "Ōronge"
+      "jpn_ro": "Ohlonge"
     },
     "slug": {
       "eng": "grimmsnarl",
-      "jpn": "oronge",
-      "jpn_ro": "oronge"
+      "jpn": "ohlonge",
+      "jpn_ro": "ohlonge"
     },
     "gen-7": {
     },
@@ -27742,12 +27742,12 @@
       "eng": "Perrserker",
       "chs": "喵头目",
       "jpn": "ニャイキング",
-      "jpn_ro": "Nyaikingu"
+      "jpn_ro": "Nyaiking"
     },
     "slug": {
       "eng": "perrserker",
-      "jpn": "nyaikingu",
-      "jpn_ro": "nyaikingu"
+      "jpn": "nyaiking",
+      "jpn_ro": "nyaiking"
     },
     "gen-7": {
     },
@@ -27765,12 +27765,12 @@
       "eng": "Cursola",
       "chs": "魔灵珊瑚",
       "jpn": "サニゴーン",
-      "jpn_ro": "Sanigōn"
+      "jpn_ro": "Sunigoon"
     },
     "slug": {
       "eng": "cursola",
-      "jpn": "sanigon",
-      "jpn_ro": "sanigon"
+      "jpn": "sunigoon",
+      "jpn_ro": "sunigoon"
     },
     "gen-7": {
     },
@@ -27811,12 +27811,12 @@
       "eng": "Mr. Rime",
       "chs": "踏冰人偶",
       "jpn": "バリコオル",
-      "jpn_ro": "Barikōru"
+      "jpn_ro": "Barrikohru"
     },
     "slug": {
       "eng": "mr-rime",
-      "jpn": "barikoru",
-      "jpn_ro": "barikoru"
+      "jpn": "barrikohru",
+      "jpn_ro": "barrikohru"
     },
     "gen-7": {
     },
@@ -27834,12 +27834,12 @@
       "eng": "Runerigus",
       "chs": "死神板",
       "jpn": "デスバーン",
-      "jpn_ro": "Desubān"
+      "jpn_ro": "Deathbarn"
     },
     "slug": {
       "eng": "runerigus",
-      "jpn": "desuban",
-      "jpn_ro": "desuban"
+      "jpn": "deathbarn",
+      "jpn_ro": "deathbarn"
     },
     "gen-7": {
     },
@@ -27857,12 +27857,12 @@
       "eng": "Milcery",
       "chs": "小仙奶",
       "jpn": "マホミル",
-      "jpn_ro": "Mahomiru"
+      "jpn_ro": "Mahomil"
     },
     "slug": {
       "eng": "milcery",
-      "jpn": "mahomiru",
-      "jpn_ro": "mahomiru"
+      "jpn": "mahomil",
+      "jpn_ro": "mahomil"
     },
     "gen-7": {
     },
@@ -28186,7 +28186,7 @@
       "eng": "Falinks",
       "chs": "列阵兵",
       "jpn": "タイレーツ",
-      "jpn_ro": "Tairētsu"
+      "jpn_ro": "Tairetsu"
     },
     "slug": {
       "eng": "falinks",
@@ -28209,7 +28209,7 @@
       "eng": "Pincurchin",
       "chs": "啪嚓海胆",
       "jpn": "バチンウニ",
-      "jpn_ro": "Bachin'uni"
+      "jpn_ro": "Bachinuni"
     },
     "slug": {
       "eng": "pincurchin",
@@ -28255,12 +28255,12 @@
       "eng": "Frosmoth",
       "chs": "雪绒蛾",
       "jpn": "モスノー",
-      "jpn_ro": "Mosunō"
+      "jpn_ro": "Mothnow"
     },
     "slug": {
       "eng": "frosmoth",
-      "jpn": "mosuno",
-      "jpn_ro": "mosuno"
+      "jpn": "mothnow",
+      "jpn_ro": "mothnow"
     },
     "gen-7": {
     },
@@ -28278,12 +28278,12 @@
       "eng": "Stonjourner",
       "chs": "巨石丁",
       "jpn": "イシヘンジン",
-      "jpn_ro": "Ishihenjin"
+      "jpn_ro": "Ishihengin"
     },
     "slug": {
       "eng": "stonjourner",
-      "jpn": "ishihenjin",
-      "jpn_ro": "ishihenjin"
+      "jpn": "ishihengin",
+      "jpn_ro": "ishihengin"
     },
     "gen-7": {
     },
@@ -28301,7 +28301,7 @@
       "eng": "Eiscue",
       "chs": "冰砌鹅",
       "jpn": "コオリッポ",
-      "jpn_ro": "Kōrippo"
+      "jpn_ro": "Korippo"
     },
     "slug": {
       "eng": "eiscue",
@@ -28331,12 +28331,12 @@
       "eng": "Indeedee",
       "chs": "爱管侍",
       "jpn": "イエッサン",
-      "jpn_ro": "Iessan"
+      "jpn_ro": "Yessan"
     },
     "slug": {
       "eng": "indeedee",
-      "jpn": "iessan",
-      "jpn_ro": "iessan"
+      "jpn": "yessan",
+      "jpn_ro": "yessan"
     },
     "gen-7": {
     },
@@ -28385,12 +28385,12 @@
       "eng": "Cufant",
       "chs": "铜象",
       "jpn": "ゾウドウ",
-      "jpn_ro": "Zōdō"
+      "jpn_ro": "Zoudou"
     },
     "slug": {
       "eng": "cufant",
-      "jpn": "zodo",
-      "jpn_ro": "zodo"
+      "jpn": "zoudou",
+      "jpn_ro": "zoudou"
     },
     "gen-7": {
     },
@@ -28408,12 +28408,12 @@
       "eng": "Copperajah",
       "chs": "大王铜象",
       "jpn": "ダイオウドウ",
-      "jpn_ro": "Daiōdō"
+      "jpn_ro": "Daioudou"
     },
     "slug": {
       "eng": "copperajah",
-      "jpn": "daiodo",
-      "jpn_ro": "daiodo"
+      "jpn": "daioudou",
+      "jpn_ro": "daioudou"
     },
     "gen-7": {
     },
@@ -28457,12 +28457,12 @@
       "eng": "Arctozolt",
       "chs": "雷鸟海兽",
       "jpn": "パッチルドン",
-      "jpn_ro": "Patchirudon"
+      "jpn_ro": "Patchilldon"
     },
     "slug": {
       "eng": "arctozolt",
-      "jpn": "patchirudon",
-      "jpn_ro": "patchirudon"
+      "jpn": "patchilldon",
+      "jpn_ro": "patchilldon"
     },
     "gen-7": {
     },
@@ -28503,12 +28503,12 @@
       "eng": "Arctovish",
       "chs": "鳃鱼海兽",
       "jpn": "ウオチルドン",
-      "jpn_ro": "Uochirudon"
+      "jpn_ro": "Uochilldon"
     },
     "slug": {
       "eng": "arctovish",
-      "jpn": "uochirudon",
-      "jpn_ro": "uochirudon"
+      "jpn": "uochilldon",
+      "jpn_ro": "uochilldon"
     },
     "gen-7": {
     },
@@ -28575,12 +28575,12 @@
       "eng": "Drakloak",
       "chs": "多龙奇",
       "jpn": "ドロンチ",
-      "jpn_ro": "Doronchi"
+      "jpn_ro": "Doronch"
     },
     "slug": {
       "eng": "drakloak",
-      "jpn": "doronchi",
-      "jpn_ro": "doronchi"
+      "jpn": "doronch",
+      "jpn_ro": "doronch"
     },
     "gen-7": {
     },
@@ -28598,12 +28598,12 @@
       "eng": "Dragapult",
       "chs": "多龙巴鲁托",
       "jpn": "ドラパルト",
-      "jpn_ro": "Doraparuto"
+      "jpn_ro": "Dorapult"
     },
     "slug": {
       "eng": "dragapult",
-      "jpn": "doraparuto",
-      "jpn_ro": "doraparuto"
+      "jpn": "dorapult",
+      "jpn_ro": "dorapult"
     },
     "gen-7": {
     },
@@ -28681,12 +28681,12 @@
       "eng": "Eternatus",
       "chs": "无极汰那",
       "jpn": "ムゲンダイナ",
-      "jpn_ro": "Mugendaina"
+      "jpn_ro": "Mugendina"
     },
     "slug": {
       "eng": "eternatus",
-      "jpn": "mugendaina",
-      "jpn_ro": "mugendaina"
+      "jpn": "mugendina",
+      "jpn_ro": "mugendina"
     },
     "gen-7": {
     },
