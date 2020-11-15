@@ -47,7 +47,7 @@ Each entry in the `dex.json` file contains the following data (example):
   },
   "slug": {
     "eng": "charizard",
-    "jpn": "lizardon",
+    "jpn": "riza-don",
     "jpn_ro": "lizardon"
   },
   "gen-7": {
@@ -86,7 +86,7 @@ Each entry in the `dex.json` file contains the following data (example):
 // ...
 ```
 
-The **`jpn_ro`** item in the `name` and `slug` objects refers to the official romanization of the Pokémon's name, rather than a Hepburn transliteration. For example, アーボック is "Arbok", rather than "Ābokku".
+The `name` and `slug` objects contain the Pokémon's name in various languages, including a romanized version of the Japanese name. The **`jpn_ro`** item contains GAME FREAK's official rōmaji names that are mainly used in merchandise. For example, for カメール (Wartortle), the `jpn` slug is *"kame-ru"*, while the `jpn_ro` slug is *"kameil"*.
 
 The **`forms`** object contains a list of all sprites pertaining to a Pokémon. It always contains at least a `"$"` (dollar sign) value, which means the regular form or default sprite. Each form object can contain the following details:
 
