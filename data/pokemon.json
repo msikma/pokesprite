@@ -4474,7 +4474,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -4630,6 +4630,9 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "galar": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -4659,6 +4662,9 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "galar": {
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -4687,6 +4693,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -5368,7 +5377,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -6254,6 +6263,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -7759,7 +7771,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7788,7 +7800,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7817,7 +7829,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7940,7 +7952,11 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
+        },
+        "shadow": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -7969,7 +7985,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -8089,7 +8105,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -8183,7 +8199,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -8277,7 +8293,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -9645,7 +9661,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -10510,7 +10526,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -10919,7 +10935,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11270,7 +11286,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11454,7 +11470,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11570,7 +11586,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11690,7 +11706,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11784,7 +11800,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11816,7 +11832,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11845,7 +11861,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11874,7 +11890,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11907,7 +11923,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11943,7 +11959,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11979,7 +11995,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "primal": {
           "is_prev_gen_icon": true
@@ -12015,7 +12031,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "primal": {
           "is_prev_gen_icon": true
@@ -12051,7 +12067,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -13172,7 +13188,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -13894,7 +13910,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -13985,7 +14001,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -14613,7 +14629,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14642,7 +14658,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15061,7 +15077,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15090,7 +15106,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15148,7 +15164,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15177,7 +15193,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15206,7 +15222,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15235,7 +15251,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15273,14 +15289,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "altered": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "origin": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15309,7 +15325,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15636,7 +15652,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -16714,7 +16730,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -17747,7 +17763,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17805,7 +17821,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19262,7 +19278,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20028,14 +20044,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20073,14 +20089,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20176,14 +20192,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20365,22 +20381,23 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "burn": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "chill": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "douse": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "shock": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "standard": {
-          "is_prev_gen_icon": true
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22498,7 +22515,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22556,7 +22573,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23130,14 +23147,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "active": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "neutral": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23166,7 +23183,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23208,17 +23225,17 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "10": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "50": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "complete": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23251,7 +23268,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -23319,7 +23336,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25719,7 +25736,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25748,7 +25765,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25777,7 +25794,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25806,7 +25823,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25951,7 +25968,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25980,7 +25997,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26009,7 +26026,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26038,7 +26055,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26067,7 +26084,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26096,7 +26113,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26125,7 +26142,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26307,7 +26324,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26336,7 +26353,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26365,7 +26382,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -28778,6 +28795,127 @@
           "is_prev_gen_icon": false
         },
         "dada": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "894": {
+    "idx": "894",
+    "name": {
+      "eng": "Regieleki",
+      "chs": "雷吉艾勒奇",
+      "jpn": "レジエレキ",
+      "jpn_ro": "Regieleki"
+    },
+    "slug": {
+      "eng": "regieleki",
+      "jpn": "rejiereki",
+      "jpn_ro": "regieleki"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "895": {
+    "idx": "895",
+    "name": {
+      "eng": "Regidrago",
+      "chs": "雷吉鐸拉戈",
+      "jpn": "レジドラゴ",
+      "jpn_ro": "Regidrago"
+    },
+    "slug": {
+      "eng": "regidrago",
+      "jpn": "rejidorago",
+      "jpn_ro": "regidrago"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "896": {
+    "idx": "896",
+    "name": {
+      "eng": "Glastrier",
+      "chs": "雪暴馬",
+      "jpn": "ブリザポス",
+      "jpn_ro": "Blizzapos"
+    },
+    "slug": {
+      "eng": "glastrier",
+      "jpn": "burizaposu",
+      "jpn_ro": "blizzapos"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "897": {
+    "idx": "897",
+    "name": {
+      "eng": "Spectrier",
+      "chs": "靈幽馬",
+      "jpn": "レイスポス",
+      "jpn_ro": "Wraithpos"
+    },
+    "slug": {
+      "eng": "spectrier",
+      "jpn": "reisuposu",
+      "jpn_ro": "wraithpos"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "898": {
+    "idx": "898",
+    "name": {
+      "eng": "Calyrex",
+      "chs": "蕾冠王",
+      "jpn": "バドレックス",
+      "jpn_ro": "Budrex"
+    },
+    "slug": {
+      "eng": "calyrex",
+      "jpn": "badorekkusu",
+      "jpn_ro": "budrex"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        },
+        "ice-rider": {
+          "is_prev_gen_icon": false
+        },
+        "shadow-rider": {
           "is_prev_gen_icon": false
         }
       }
