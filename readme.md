@@ -95,7 +95,7 @@ The **`forms`** object contains a list of all sprites pertaining to a Pokémon.
 | `is_alias_of` | This form uses the sprite of another form and does not have its own image |
 | `is_unofficial_icon` | This sprite is not a verbatim original and has been edited in some way (e.g. *Pumpkaboo* and *Gourgeist*)† |
 | `is_unofficial_legacy_icon` | As above, but only for the smaller legacy 40×30 sprites (only used for *Melmetal*) |
-| `is_prev_gen_icon` | This sprite is actually from an earlier generation |
+| `is_prev_gen_icon` | This sprite is actually [from an earlier generation](docs/notes/unupdated-sprites.md) |
 | `has_right` | A unique right-facing sprite is available (e.g. *Roselia*—only for Gen 7 Pokémon) |
 | `has_female` | This Pokémon has visible gender differences (e.g. *Unfezant*) |
 | `has_unofficial_female_icon` | The female version of this Pokémon's sprite was custom made (e.g. *Pikachu*) |
