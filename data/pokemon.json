@@ -25183,7 +25183,6 @@
         "green-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "green-meteor": {
@@ -25198,7 +25197,6 @@
         "indigo-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "indigo-meteor": {
@@ -25213,7 +25211,6 @@
         "orange-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "orange-meteor": {
@@ -25228,7 +25225,6 @@
         "red-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "red-meteor": {
@@ -25243,7 +25239,6 @@
         "violet-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "violet-meteor": {
@@ -25258,7 +25253,6 @@
         "yellow-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "yellow-meteor": {
@@ -25288,7 +25282,6 @@
           "is_prev_gen_icon": true
         },
         "green-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25300,7 +25293,6 @@
           "is_prev_gen_icon": true
         },
         "indigo-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25312,7 +25304,6 @@
           "is_prev_gen_icon": true
         },
         "orange-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25324,7 +25315,6 @@
           "is_prev_gen_icon": true
         },
         "red-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25336,7 +25326,6 @@
           "is_prev_gen_icon": true
         },
         "violet-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25348,7 +25337,6 @@
           "is_prev_gen_icon": true
         },
         "yellow-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
