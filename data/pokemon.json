@@ -135,7 +135,7 @@
     },
     "slug": {
       "eng": "charmeleon",
-      "jpn": "lizardo",
+      "jpn": "riza-do",
       "jpn_ro": "lizardo"
     },
     "gen-7": {
@@ -164,7 +164,7 @@
     },
     "slug": {
       "eng": "charizard",
-      "jpn": "lizardon",
+      "jpn": "riza-don",
       "jpn_ro": "lizardon"
     },
     "gen-7": {
@@ -239,7 +239,7 @@
     },
     "slug": {
       "eng": "wartortle",
-      "jpn": "kameil",
+      "jpn": "kame-ru",
       "jpn_ro": "kameil"
     },
     "gen-7": {
@@ -268,7 +268,7 @@
     },
     "slug": {
       "eng": "blastoise",
-      "jpn": "kamex",
+      "jpn": "kamekkusu",
       "jpn_ro": "kamex"
     },
     "gen-7": {
@@ -307,7 +307,7 @@
     },
     "slug": {
       "eng": "caterpie",
-      "jpn": "caterpie",
+      "jpn": "kyatapi-",
       "jpn_ro": "caterpie"
     },
     "gen-7": {
@@ -336,7 +336,7 @@
     },
     "slug": {
       "eng": "metapod",
-      "jpn": "transel",
+      "jpn": "toranseru",
       "jpn_ro": "transel"
     },
     "gen-7": {
@@ -365,7 +365,7 @@
     },
     "slug": {
       "eng": "butterfree",
-      "jpn": "butterfree",
+      "jpn": "batafuri-",
       "jpn_ro": "butterfree"
     },
     "gen-7": {
@@ -397,7 +397,7 @@
     },
     "slug": {
       "eng": "weedle",
-      "jpn": "beedle",
+      "jpn": "bi-doru",
       "jpn_ro": "beedle"
     },
     "gen-7": {
@@ -426,7 +426,7 @@
     },
     "slug": {
       "eng": "kakuna",
-      "jpn": "cocoon",
+      "jpn": "koku-n",
       "jpn_ro": "cocoon"
     },
     "gen-7": {
@@ -455,7 +455,7 @@
     },
     "slug": {
       "eng": "beedrill",
-      "jpn": "spear",
+      "jpn": "supia-",
       "jpn_ro": "spear"
     },
     "gen-7": {
@@ -520,7 +520,7 @@
     },
     "slug": {
       "eng": "pidgeotto",
-      "jpn": "pigeon",
+      "jpn": "pijon",
       "jpn_ro": "pigeon"
     },
     "gen-7": {
@@ -549,7 +549,7 @@
     },
     "slug": {
       "eng": "pidgeot",
-      "jpn": "pigeot",
+      "jpn": "pijotto",
       "jpn_ro": "pigeot"
     },
     "gen-7": {
@@ -704,7 +704,7 @@
     },
     "slug": {
       "eng": "fearow",
-      "jpn": "onidrill",
+      "jpn": "onidoriru",
       "jpn_ro": "onidrill"
     },
     "gen-7": {
@@ -733,7 +733,7 @@
     },
     "slug": {
       "eng": "ekans",
-      "jpn": "arbo",
+      "jpn": "a-bo",
       "jpn_ro": "arbo"
     },
     "gen-7": {
@@ -762,7 +762,7 @@
     },
     "slug": {
       "eng": "arbok",
-      "jpn": "arbok",
+      "jpn": "a-bokku",
       "jpn_ro": "arbok"
     },
     "gen-7": {
@@ -791,7 +791,7 @@
     },
     "slug": {
       "eng": "pikachu",
-      "jpn": "pikachu",
+      "jpn": "pikachuu",
       "jpn_ro": "pikachu"
     },
     "gen-7": {
@@ -958,7 +958,7 @@
     },
     "slug": {
       "eng": "raichu",
-      "jpn": "raichu",
+      "jpn": "raichuu",
       "jpn_ro": "raichu"
     },
     "gen-7": {
@@ -994,7 +994,7 @@
     },
     "slug": {
       "eng": "sandshrew",
-      "jpn": "sand",
+      "jpn": "sando",
       "jpn_ro": "sand"
     },
     "gen-7": {
@@ -1030,7 +1030,7 @@
     },
     "slug": {
       "eng": "sandslash",
-      "jpn": "sandpan",
+      "jpn": "sandopan",
       "jpn_ro": "sandpan"
     },
     "gen-7": {
@@ -1066,7 +1066,7 @@
     },
     "slug": {
       "eng": "nidoran-f",
-      "jpn": "nidoran",
+      "jpn": "nidoran-m",
       "jpn_ro": "nidoran"
     },
     "gen-7": {
@@ -1095,7 +1095,7 @@
     },
     "slug": {
       "eng": "nidorina",
-      "jpn": "nidorina",
+      "jpn": "nidori-na",
       "jpn_ro": "nidorina"
     },
     "gen-7": {
@@ -1124,7 +1124,7 @@
     },
     "slug": {
       "eng": "nidoqueen",
-      "jpn": "nidoqueen",
+      "jpn": "nidokuin",
       "jpn_ro": "nidoqueen"
     },
     "gen-7": {
@@ -1153,7 +1153,7 @@
     },
     "slug": {
       "eng": "nidoran-m",
-      "jpn": "nidoran",
+      "jpn": "nidoran-f",
       "jpn_ro": "nidoran"
     },
     "gen-7": {
@@ -1182,7 +1182,7 @@
     },
     "slug": {
       "eng": "nidorino",
-      "jpn": "nidorino",
+      "jpn": "nidori-no",
       "jpn_ro": "nidorino"
     },
     "gen-7": {
@@ -1211,7 +1211,7 @@
     },
     "slug": {
       "eng": "nidoking",
-      "jpn": "nidoking",
+      "jpn": "nidokingu",
       "jpn_ro": "nidoking"
     },
     "gen-7": {
@@ -1269,7 +1269,7 @@
     },
     "slug": {
       "eng": "clefable",
-      "jpn": "pixy",
+      "jpn": "pikushi-",
       "jpn_ro": "pixy"
     },
     "gen-7": {
@@ -1334,7 +1334,7 @@
     },
     "slug": {
       "eng": "ninetales",
-      "jpn": "kyukon",
+      "jpn": "kyuukon",
       "jpn_ro": "kyukon"
     },
     "gen-7": {
@@ -1428,7 +1428,7 @@
     },
     "slug": {
       "eng": "zubat",
-      "jpn": "zubat",
+      "jpn": "zubatto",
       "jpn_ro": "zubat"
     },
     "gen-7": {
@@ -1457,7 +1457,7 @@
     },
     "slug": {
       "eng": "golbat",
-      "jpn": "golbat",
+      "jpn": "gorubatto",
       "jpn_ro": "golbat"
     },
     "gen-7": {
@@ -1544,7 +1544,7 @@
     },
     "slug": {
       "eng": "vileplume",
-      "jpn": "ruffresia",
+      "jpn": "rafureshia",
       "jpn_ro": "ruffresia"
     },
     "gen-7": {
@@ -1573,7 +1573,7 @@
     },
     "slug": {
       "eng": "paras",
-      "jpn": "paras",
+      "jpn": "parasu",
       "jpn_ro": "paras"
     },
     "gen-7": {
@@ -1602,7 +1602,7 @@
     },
     "slug": {
       "eng": "parasect",
-      "jpn": "parasect",
+      "jpn": "parasekuto",
       "jpn_ro": "parasect"
     },
     "gen-7": {
@@ -1631,7 +1631,7 @@
     },
     "slug": {
       "eng": "venonat",
-      "jpn": "kongpang",
+      "jpn": "konpan",
       "jpn_ro": "kongpang"
     },
     "gen-7": {
@@ -1660,7 +1660,7 @@
     },
     "slug": {
       "eng": "venomoth",
-      "jpn": "morphon",
+      "jpn": "morufon",
       "jpn_ro": "morphon"
     },
     "gen-7": {
@@ -1689,7 +1689,7 @@
     },
     "slug": {
       "eng": "diglett",
-      "jpn": "digda",
+      "jpn": "diguda",
       "jpn_ro": "digda"
     },
     "gen-7": {
@@ -1725,7 +1725,7 @@
     },
     "slug": {
       "eng": "dugtrio",
-      "jpn": "dugtrio",
+      "jpn": "dagutorio",
       "jpn_ro": "dugtrio"
     },
     "gen-7": {
@@ -1761,7 +1761,7 @@
     },
     "slug": {
       "eng": "meowth",
-      "jpn": "nyarth",
+      "jpn": "nya-su",
       "jpn_ro": "nyarth"
     },
     "gen-7": {
@@ -1803,7 +1803,7 @@
     },
     "slug": {
       "eng": "persian",
-      "jpn": "persian",
+      "jpn": "perushian",
       "jpn_ro": "persian"
     },
     "gen-7": {
@@ -1839,7 +1839,7 @@
     },
     "slug": {
       "eng": "psyduck",
-      "jpn": "koduck",
+      "jpn": "kodakku",
       "jpn_ro": "koduck"
     },
     "gen-7": {
@@ -1868,7 +1868,7 @@
     },
     "slug": {
       "eng": "golduck",
-      "jpn": "golduck",
+      "jpn": "gorudakku",
       "jpn_ro": "golduck"
     },
     "gen-7": {
@@ -1897,7 +1897,7 @@
     },
     "slug": {
       "eng": "mankey",
-      "jpn": "mankey",
+      "jpn": "manki-",
       "jpn_ro": "mankey"
     },
     "gen-7": {
@@ -1955,7 +1955,7 @@
     },
     "slug": {
       "eng": "growlithe",
-      "jpn": "gardie",
+      "jpn": "ga-di",
       "jpn_ro": "gardie"
     },
     "gen-7": {
@@ -1984,7 +1984,7 @@
     },
     "slug": {
       "eng": "arcanine",
-      "jpn": "windie",
+      "jpn": "uindi",
       "jpn_ro": "windie"
     },
     "gen-7": {
@@ -2100,7 +2100,7 @@
     },
     "slug": {
       "eng": "abra",
-      "jpn": "casey",
+      "jpn": "ke-shi",
       "jpn_ro": "casey"
     },
     "gen-7": {
@@ -2129,7 +2129,7 @@
     },
     "slug": {
       "eng": "kadabra",
-      "jpn": "yungerer",
+      "jpn": "yungera-",
       "jpn_ro": "yungerer"
     },
     "gen-7": {
@@ -2158,7 +2158,7 @@
     },
     "slug": {
       "eng": "alakazam",
-      "jpn": "foodin",
+      "jpn": "fu-din",
       "jpn_ro": "foodin"
     },
     "gen-7": {
@@ -2194,7 +2194,7 @@
     },
     "slug": {
       "eng": "machop",
-      "jpn": "wanriky",
+      "jpn": "wanriki-",
       "jpn_ro": "wanriky"
     },
     "gen-7": {
@@ -2223,7 +2223,7 @@
     },
     "slug": {
       "eng": "machoke",
-      "jpn": "goriky",
+      "jpn": "go-riki-",
       "jpn_ro": "goriky"
     },
     "gen-7": {
@@ -2252,7 +2252,7 @@
     },
     "slug": {
       "eng": "machamp",
-      "jpn": "kairiky",
+      "jpn": "kairiki-",
       "jpn_ro": "kairiky"
     },
     "gen-7": {
@@ -2342,7 +2342,7 @@
     },
     "slug": {
       "eng": "victreebel",
-      "jpn": "utsubot",
+      "jpn": "utsubotto",
       "jpn_ro": "utsubot"
     },
     "gen-7": {
@@ -2429,7 +2429,7 @@
     },
     "slug": {
       "eng": "geodude",
-      "jpn": "isitsubute",
+      "jpn": "ishitsubute",
       "jpn_ro": "isitsubute"
     },
     "gen-7": {
@@ -2465,7 +2465,7 @@
     },
     "slug": {
       "eng": "graveler",
-      "jpn": "golone",
+      "jpn": "goro-n",
       "jpn_ro": "golone"
     },
     "gen-7": {
@@ -2501,7 +2501,7 @@
     },
     "slug": {
       "eng": "golem",
-      "jpn": "golonya",
+      "jpn": "goro-nya",
       "jpn_ro": "golonya"
     },
     "gen-7": {
@@ -2537,7 +2537,7 @@
     },
     "slug": {
       "eng": "ponyta",
-      "jpn": "ponyta",
+      "jpn": "poni-ta",
       "jpn_ro": "ponyta"
     },
     "gen-7": {
@@ -2569,7 +2569,7 @@
     },
     "slug": {
       "eng": "rapidash",
-      "jpn": "gallop",
+      "jpn": "gyaroppu",
       "jpn_ro": "gallop"
     },
     "gen-7": {
@@ -2676,7 +2676,7 @@
     },
     "slug": {
       "eng": "magnemite",
-      "jpn": "coil",
+      "jpn": "koiru",
       "jpn_ro": "coil"
     },
     "gen-7": {
@@ -2705,7 +2705,7 @@
     },
     "slug": {
       "eng": "magneton",
-      "jpn": "rarecoil",
+      "jpn": "reakoiru",
       "jpn_ro": "rarecoil"
     },
     "gen-7": {
@@ -2766,7 +2766,7 @@
     },
     "slug": {
       "eng": "doduo",
-      "jpn": "dodo",
+      "jpn": "do-do-",
       "jpn_ro": "dodo"
     },
     "gen-7": {
@@ -2795,7 +2795,7 @@
     },
     "slug": {
       "eng": "dodrio",
-      "jpn": "dodorio",
+      "jpn": "do-dorio",
       "jpn_ro": "dodorio"
     },
     "gen-7": {
@@ -2824,7 +2824,7 @@
     },
     "slug": {
       "eng": "seel",
-      "jpn": "pawou",
+      "jpn": "pauwau",
       "jpn_ro": "pawou"
     },
     "gen-7": {
@@ -2882,7 +2882,7 @@
     },
     "slug": {
       "eng": "grimer",
-      "jpn": "betbeter",
+      "jpn": "betobeta-",
       "jpn_ro": "betbeter"
     },
     "gen-7": {
@@ -2918,7 +2918,7 @@
     },
     "slug": {
       "eng": "muk",
-      "jpn": "betbeton",
+      "jpn": "betobeton",
       "jpn_ro": "betbeton"
     },
     "gen-7": {
@@ -2954,7 +2954,7 @@
     },
     "slug": {
       "eng": "shellder",
-      "jpn": "shellder",
+      "jpn": "sheruda-",
       "jpn_ro": "shellder"
     },
     "gen-7": {
@@ -2983,7 +2983,7 @@
     },
     "slug": {
       "eng": "cloyster",
-      "jpn": "parshen",
+      "jpn": "parushen",
       "jpn_ro": "parshen"
     },
     "gen-7": {
@@ -3012,7 +3012,7 @@
     },
     "slug": {
       "eng": "gastly",
-      "jpn": "ghos",
+      "jpn": "go-su",
       "jpn_ro": "ghos"
     },
     "gen-7": {
@@ -3041,7 +3041,7 @@
     },
     "slug": {
       "eng": "haunter",
-      "jpn": "ghost",
+      "jpn": "go-suto",
       "jpn_ro": "ghost"
     },
     "gen-7": {
@@ -3070,7 +3070,7 @@
     },
     "slug": {
       "eng": "gengar",
-      "jpn": "gangar",
+      "jpn": "genga-",
       "jpn_ro": "gangar"
     },
     "gen-7": {
@@ -3109,7 +3109,7 @@
     },
     "slug": {
       "eng": "onix",
-      "jpn": "iwark",
+      "jpn": "iwa-ku",
       "jpn_ro": "iwark"
     },
     "gen-7": {
@@ -3138,7 +3138,7 @@
     },
     "slug": {
       "eng": "drowzee",
-      "jpn": "sleepe",
+      "jpn": "suri-pu",
       "jpn_ro": "sleepe"
     },
     "gen-7": {
@@ -3167,7 +3167,7 @@
     },
     "slug": {
       "eng": "hypno",
-      "jpn": "sleeper",
+      "jpn": "suri-pa-",
       "jpn_ro": "sleeper"
     },
     "gen-7": {
@@ -3196,7 +3196,7 @@
     },
     "slug": {
       "eng": "krabby",
-      "jpn": "crab",
+      "jpn": "kurabu",
       "jpn_ro": "crab"
     },
     "gen-7": {
@@ -3225,7 +3225,7 @@
     },
     "slug": {
       "eng": "kingler",
-      "jpn": "kingler",
+      "jpn": "kingura-",
       "jpn_ro": "kingler"
     },
     "gen-7": {
@@ -3286,7 +3286,7 @@
     },
     "slug": {
       "eng": "electrode",
-      "jpn": "marumine",
+      "jpn": "marumain",
       "jpn_ro": "marumine"
     },
     "gen-7": {
@@ -3344,7 +3344,7 @@
     },
     "slug": {
       "eng": "exeggutor",
-      "jpn": "nassy",
+      "jpn": "nasshi-",
       "jpn_ro": "nassy"
     },
     "gen-7": {
@@ -3463,7 +3463,7 @@
     },
     "slug": {
       "eng": "hitmonlee",
-      "jpn": "sawamular",
+      "jpn": "sawamura-",
       "jpn_ro": "sawamular"
     },
     "gen-7": {
@@ -3492,7 +3492,7 @@
     },
     "slug": {
       "eng": "hitmonchan",
-      "jpn": "ebiwalar",
+      "jpn": "ebiwara-",
       "jpn_ro": "ebiwalar"
     },
     "gen-7": {
@@ -3550,7 +3550,7 @@
     },
     "slug": {
       "eng": "koffing",
-      "jpn": "dogars",
+      "jpn": "doga-su",
       "jpn_ro": "dogars"
     },
     "gen-7": {
@@ -3579,7 +3579,7 @@
     },
     "slug": {
       "eng": "weezing",
-      "jpn": "matadogas",
+      "jpn": "matadogasu",
       "jpn_ro": "matadogas"
     },
     "gen-7": {
@@ -3611,7 +3611,7 @@
     },
     "slug": {
       "eng": "rhyhorn",
-      "jpn": "sihorn",
+      "jpn": "saiho-n",
       "jpn_ro": "sihorn"
     },
     "gen-7": {
@@ -3640,7 +3640,7 @@
     },
     "slug": {
       "eng": "rhydon",
-      "jpn": "sidon",
+      "jpn": "saidon",
       "jpn_ro": "sidon"
     },
     "gen-7": {
@@ -3669,7 +3669,7 @@
     },
     "slug": {
       "eng": "chansey",
-      "jpn": "lucky",
+      "jpn": "rakki-",
       "jpn_ro": "lucky"
     },
     "gen-7": {
@@ -3727,7 +3727,7 @@
     },
     "slug": {
       "eng": "kangaskhan",
-      "jpn": "garura",
+      "jpn": "garu-ra",
       "jpn_ro": "garura"
     },
     "gen-7": {
@@ -3763,7 +3763,7 @@
     },
     "slug": {
       "eng": "horsea",
-      "jpn": "tattu",
+      "jpn": "tattsu-",
       "jpn_ro": "tattu"
     },
     "gen-7": {
@@ -3792,7 +3792,7 @@
     },
     "slug": {
       "eng": "seadra",
-      "jpn": "seadra",
+      "jpn": "shi-dora",
       "jpn_ro": "seadra"
     },
     "gen-7": {
@@ -3850,7 +3850,7 @@
     },
     "slug": {
       "eng": "seaking",
-      "jpn": "azumao",
+      "jpn": "azumaou",
       "jpn_ro": "azumao"
     },
     "gen-7": {
@@ -3908,7 +3908,7 @@
     },
     "slug": {
       "eng": "starmie",
-      "jpn": "starmie",
+      "jpn": "suta-mi-",
       "jpn_ro": "starmie"
     },
     "gen-7": {
@@ -3937,7 +3937,7 @@
     },
     "slug": {
       "eng": "mr-mime",
-      "jpn": "barrierd",
+      "jpn": "bariya-do",
       "jpn_ro": "barrierd"
     },
     "gen-7": {
@@ -3969,7 +3969,7 @@
     },
     "slug": {
       "eng": "scyther",
-      "jpn": "strike",
+      "jpn": "sutoraiku",
       "jpn_ro": "strike"
     },
     "gen-7": {
@@ -3998,7 +3998,7 @@
     },
     "slug": {
       "eng": "jynx",
-      "jpn": "rougela",
+      "jpn": "ru-jura",
       "jpn_ro": "rougela"
     },
     "gen-7": {
@@ -4027,7 +4027,7 @@
     },
     "slug": {
       "eng": "electabuzz",
-      "jpn": "eleboo",
+      "jpn": "erebu-",
       "jpn_ro": "eleboo"
     },
     "gen-7": {
@@ -4056,7 +4056,7 @@
     },
     "slug": {
       "eng": "magmar",
-      "jpn": "boober",
+      "jpn": "bu-ba-",
       "jpn_ro": "boober"
     },
     "gen-7": {
@@ -4085,7 +4085,7 @@
     },
     "slug": {
       "eng": "pinsir",
-      "jpn": "kailios",
+      "jpn": "kairosu",
       "jpn_ro": "kailios"
     },
     "gen-7": {
@@ -4121,7 +4121,7 @@
     },
     "slug": {
       "eng": "tauros",
-      "jpn": "kentauros",
+      "jpn": "kentarosu",
       "jpn_ro": "kentauros"
     },
     "gen-7": {
@@ -4150,7 +4150,7 @@
     },
     "slug": {
       "eng": "magikarp",
-      "jpn": "koiking",
+      "jpn": "koikingu",
       "jpn_ro": "koiking"
     },
     "gen-7": {
@@ -4179,7 +4179,7 @@
     },
     "slug": {
       "eng": "gyarados",
-      "jpn": "gyarados",
+      "jpn": "gyaradosu",
       "jpn_ro": "gyarados"
     },
     "gen-7": {
@@ -4215,7 +4215,7 @@
     },
     "slug": {
       "eng": "lapras",
-      "jpn": "laplace",
+      "jpn": "rapurasu",
       "jpn_ro": "laplace"
     },
     "gen-7": {
@@ -4276,7 +4276,7 @@
     },
     "slug": {
       "eng": "eevee",
-      "jpn": "eievui",
+      "jpn": "i-bui",
       "jpn_ro": "eievui"
     },
     "gen-7": {
@@ -4315,7 +4315,7 @@
     },
     "slug": {
       "eng": "vaporeon",
-      "jpn": "showers",
+      "jpn": "shawa-zu",
       "jpn_ro": "showers"
     },
     "gen-7": {
@@ -4344,7 +4344,7 @@
     },
     "slug": {
       "eng": "jolteon",
-      "jpn": "thunders",
+      "jpn": "sanda-su",
       "jpn_ro": "thunders"
     },
     "gen-7": {
@@ -4373,7 +4373,7 @@
     },
     "slug": {
       "eng": "flareon",
-      "jpn": "booster",
+      "jpn": "bu-suta-",
       "jpn_ro": "booster"
     },
     "gen-7": {
@@ -4402,7 +4402,7 @@
     },
     "slug": {
       "eng": "porygon",
-      "jpn": "porygon",
+      "jpn": "porigon",
       "jpn_ro": "porygon"
     },
     "gen-7": {
@@ -4431,7 +4431,7 @@
     },
     "slug": {
       "eng": "omanyte",
-      "jpn": "omnite",
+      "jpn": "omunaito",
       "jpn_ro": "omnite"
     },
     "gen-7": {
@@ -4460,7 +4460,7 @@
     },
     "slug": {
       "eng": "omastar",
-      "jpn": "omstar",
+      "jpn": "omusuta-",
       "jpn_ro": "omstar"
     },
     "gen-7": {
@@ -4474,7 +4474,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -4518,7 +4518,7 @@
     },
     "slug": {
       "eng": "kabutops",
-      "jpn": "kabutops",
+      "jpn": "kabutopusu",
       "jpn_ro": "kabutops"
     },
     "gen-7": {
@@ -4547,7 +4547,7 @@
     },
     "slug": {
       "eng": "aerodactyl",
-      "jpn": "ptera",
+      "jpn": "putera",
       "jpn_ro": "ptera"
     },
     "gen-7": {
@@ -4615,7 +4615,7 @@
     },
     "slug": {
       "eng": "articuno",
-      "jpn": "freezer",
+      "jpn": "furi-za-",
       "jpn_ro": "freezer"
     },
     "gen-7": {
@@ -4629,6 +4629,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -4644,7 +4647,7 @@
     },
     "slug": {
       "eng": "zapdos",
-      "jpn": "thunder",
+      "jpn": "sanda-",
       "jpn_ro": "thunder"
     },
     "gen-7": {
@@ -4658,6 +4661,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -4673,7 +4679,7 @@
     },
     "slug": {
       "eng": "moltres",
-      "jpn": "fire",
+      "jpn": "faiya-",
       "jpn_ro": "fire"
     },
     "gen-7": {
@@ -4687,6 +4693,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -4702,7 +4711,7 @@
     },
     "slug": {
       "eng": "dratini",
-      "jpn": "miniryu",
+      "jpn": "miniryuu",
       "jpn_ro": "miniryu"
     },
     "gen-7": {
@@ -4731,7 +4740,7 @@
     },
     "slug": {
       "eng": "dragonair",
-      "jpn": "hakuryu",
+      "jpn": "hakuryu-",
       "jpn_ro": "hakuryu"
     },
     "gen-7": {
@@ -4760,7 +4769,7 @@
     },
     "slug": {
       "eng": "dragonite",
-      "jpn": "kairyu",
+      "jpn": "kairyu-",
       "jpn_ro": "kairyu"
     },
     "gen-7": {
@@ -4789,7 +4798,7 @@
     },
     "slug": {
       "eng": "mewtwo",
-      "jpn": "mewtwo",
+      "jpn": "myuutsu-",
       "jpn_ro": "mewtwo"
     },
     "gen-7": {
@@ -4832,7 +4841,7 @@
     },
     "slug": {
       "eng": "mew",
-      "jpn": "mew",
+      "jpn": "myuu",
       "jpn_ro": "mew"
     },
     "gen-7": {
@@ -4861,7 +4870,7 @@
     },
     "slug": {
       "eng": "chikorita",
-      "jpn": "chicorita",
+      "jpn": "chikori-ta",
       "jpn_ro": "chicorita"
     },
     "gen-7": {
@@ -4890,7 +4899,7 @@
     },
     "slug": {
       "eng": "bayleef",
-      "jpn": "bayleaf",
+      "jpn": "beiri-fu",
       "jpn_ro": "bayleaf"
     },
     "gen-7": {
@@ -4919,7 +4928,7 @@
     },
     "slug": {
       "eng": "meganium",
-      "jpn": "meganium",
+      "jpn": "meganiumu",
       "jpn_ro": "meganium"
     },
     "gen-7": {
@@ -4977,7 +4986,7 @@
     },
     "slug": {
       "eng": "quilava",
-      "jpn": "magmarashi",
+      "jpn": "magumarashi",
       "jpn_ro": "magmarashi"
     },
     "gen-7": {
@@ -5006,7 +5015,7 @@
     },
     "slug": {
       "eng": "typhlosion",
-      "jpn": "bakphoon",
+      "jpn": "bakufu-n",
       "jpn_ro": "bakphoon"
     },
     "gen-7": {
@@ -5064,7 +5073,7 @@
     },
     "slug": {
       "eng": "croconaw",
-      "jpn": "alligates",
+      "jpn": "arigeitsu",
       "jpn_ro": "alligates"
     },
     "gen-7": {
@@ -5093,7 +5102,7 @@
     },
     "slug": {
       "eng": "feraligatr",
-      "jpn": "ordile",
+      "jpn": "o-dairu",
       "jpn_ro": "ordile"
     },
     "gen-7": {
@@ -5180,7 +5189,7 @@
     },
     "slug": {
       "eng": "hoothoot",
-      "jpn": "hoho",
+      "jpn": "ho-ho-",
       "jpn_ro": "hoho"
     },
     "gen-7": {
@@ -5325,7 +5334,7 @@
     },
     "slug": {
       "eng": "ariados",
-      "jpn": "ariados",
+      "jpn": "ariadosu",
       "jpn_ro": "ariados"
     },
     "gen-7": {
@@ -5354,7 +5363,7 @@
     },
     "slug": {
       "eng": "crobat",
-      "jpn": "crobat",
+      "jpn": "kurobatto",
       "jpn_ro": "crobat"
     },
     "gen-7": {
@@ -5368,7 +5377,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -5383,7 +5392,7 @@
     },
     "slug": {
       "eng": "chinchou",
-      "jpn": "chonchie",
+      "jpn": "chonchi-",
       "jpn_ro": "chonchie"
     },
     "gen-7": {
@@ -5412,7 +5421,7 @@
     },
     "slug": {
       "eng": "lanturn",
-      "jpn": "lantern",
+      "jpn": "ranta-n",
       "jpn_ro": "lantern"
     },
     "gen-7": {
@@ -5441,7 +5450,7 @@
     },
     "slug": {
       "eng": "pichu",
-      "jpn": "pichu",
+      "jpn": "pichu-",
       "jpn_ro": "pichu"
     },
     "gen-7": {
@@ -5479,7 +5488,7 @@
     },
     "slug": {
       "eng": "cleffa",
-      "jpn": "py",
+      "jpn": "pi",
       "jpn_ro": "py"
     },
     "gen-7": {
@@ -5537,7 +5546,7 @@
     },
     "slug": {
       "eng": "togepi",
-      "jpn": "togepy",
+      "jpn": "togepi-",
       "jpn_ro": "togepy"
     },
     "gen-7": {
@@ -5566,7 +5575,7 @@
     },
     "slug": {
       "eng": "togetic",
-      "jpn": "togechick",
+      "jpn": "togechikku",
       "jpn_ro": "togechick"
     },
     "gen-7": {
@@ -5595,7 +5604,7 @@
     },
     "slug": {
       "eng": "natu",
-      "jpn": "naty",
+      "jpn": "neiti",
       "jpn_ro": "naty"
     },
     "gen-7": {
@@ -5624,7 +5633,7 @@
     },
     "slug": {
       "eng": "xatu",
-      "jpn": "natio",
+      "jpn": "neitio",
       "jpn_ro": "natio"
     },
     "gen-7": {
@@ -5653,7 +5662,7 @@
     },
     "slug": {
       "eng": "mareep",
-      "jpn": "merriep",
+      "jpn": "meri-pu",
       "jpn_ro": "merriep"
     },
     "gen-7": {
@@ -5711,7 +5720,7 @@
     },
     "slug": {
       "eng": "ampharos",
-      "jpn": "denryu",
+      "jpn": "denryuu",
       "jpn_ro": "denryu"
     },
     "gen-7": {
@@ -5776,7 +5785,7 @@
     },
     "slug": {
       "eng": "marill",
-      "jpn": "maril",
+      "jpn": "mariru",
       "jpn_ro": "maril"
     },
     "gen-7": {
@@ -5805,7 +5814,7 @@
     },
     "slug": {
       "eng": "azumarill",
-      "jpn": "marilli",
+      "jpn": "mariruri",
       "jpn_ro": "marilli"
     },
     "gen-7": {
@@ -5834,7 +5843,7 @@
     },
     "slug": {
       "eng": "sudowoodo",
-      "jpn": "usokkie",
+      "jpn": "usokki-",
       "jpn_ro": "usokkie"
     },
     "gen-7": {
@@ -5892,7 +5901,7 @@
     },
     "slug": {
       "eng": "hoppip",
-      "jpn": "hanecco",
+      "jpn": "hanekko",
       "jpn_ro": "hanecco"
     },
     "gen-7": {
@@ -5921,7 +5930,7 @@
     },
     "slug": {
       "eng": "skiploom",
-      "jpn": "popocco",
+      "jpn": "popokko",
       "jpn_ro": "popocco"
     },
     "gen-7": {
@@ -5950,7 +5959,7 @@
     },
     "slug": {
       "eng": "jumpluff",
-      "jpn": "watacco",
+      "jpn": "watakko",
       "jpn_ro": "watacco"
     },
     "gen-7": {
@@ -5979,7 +5988,7 @@
     },
     "slug": {
       "eng": "aipom",
-      "jpn": "eipam",
+      "jpn": "eipamu",
       "jpn_ro": "eipam"
     },
     "gen-7": {
@@ -6008,7 +6017,7 @@
     },
     "slug": {
       "eng": "sunkern",
-      "jpn": "himanuts",
+      "jpn": "himanattsu",
       "jpn_ro": "himanuts"
     },
     "gen-7": {
@@ -6095,7 +6104,7 @@
     },
     "slug": {
       "eng": "wooper",
-      "jpn": "upah",
+      "jpn": "upa-",
       "jpn_ro": "upah"
     },
     "gen-7": {
@@ -6124,7 +6133,7 @@
     },
     "slug": {
       "eng": "quagsire",
-      "jpn": "nuoh",
+      "jpn": "nuo-",
       "jpn_ro": "nuoh"
     },
     "gen-7": {
@@ -6153,7 +6162,7 @@
     },
     "slug": {
       "eng": "espeon",
-      "jpn": "eifie",
+      "jpn": "e-fi",
       "jpn_ro": "eifie"
     },
     "gen-7": {
@@ -6182,7 +6191,7 @@
     },
     "slug": {
       "eng": "umbreon",
-      "jpn": "blacky",
+      "jpn": "burakki-",
       "jpn_ro": "blacky"
     },
     "gen-7": {
@@ -6240,7 +6249,7 @@
     },
     "slug": {
       "eng": "slowking",
-      "jpn": "yadoking",
+      "jpn": "yadokingu",
       "jpn_ro": "yadoking"
     },
     "gen-7": {
@@ -6254,6 +6263,9 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false
+        },
+        "galar": {
           "is_prev_gen_icon": false
         }
       }
@@ -6269,7 +6281,7 @@
     },
     "slug": {
       "eng": "misdreavus",
-      "jpn": "muma",
+      "jpn": "muuma",
       "jpn_ro": "muma"
     },
     "gen-7": {
@@ -6298,7 +6310,7 @@
     },
     "slug": {
       "eng": "unown",
-      "jpn": "unknown",
+      "jpn": "anno-n",
       "jpn_ro": "unknown"
     },
     "gen-7": {
@@ -6525,7 +6537,7 @@
     },
     "slug": {
       "eng": "wobbuffet",
-      "jpn": "sonans",
+      "jpn": "so-nansu",
       "jpn_ro": "sonans"
     },
     "gen-7": {
@@ -6612,7 +6624,7 @@
     },
     "slug": {
       "eng": "forretress",
-      "jpn": "foretos",
+      "jpn": "foretosu",
       "jpn_ro": "foretos"
     },
     "gen-7": {
@@ -6641,7 +6653,7 @@
     },
     "slug": {
       "eng": "dunsparce",
-      "jpn": "nokocchi",
+      "jpn": "nokotchi",
       "jpn_ro": "nokocchi"
     },
     "gen-7": {
@@ -6670,7 +6682,7 @@
     },
     "slug": {
       "eng": "gligar",
-      "jpn": "gliger",
+      "jpn": "guraiga-",
       "jpn_ro": "gliger"
     },
     "gen-7": {
@@ -6699,7 +6711,7 @@
     },
     "slug": {
       "eng": "steelix",
-      "jpn": "haganeil",
+      "jpn": "hagane-ru",
       "jpn_ro": "haganeil"
     },
     "gen-7": {
@@ -6735,7 +6747,7 @@
     },
     "slug": {
       "eng": "snubbull",
-      "jpn": "bulu",
+      "jpn": "buru-",
       "jpn_ro": "bulu"
     },
     "gen-7": {
@@ -6764,7 +6776,7 @@
     },
     "slug": {
       "eng": "granbull",
-      "jpn": "granbulu",
+      "jpn": "guranburu",
       "jpn_ro": "granbulu"
     },
     "gen-7": {
@@ -6793,7 +6805,7 @@
     },
     "slug": {
       "eng": "qwilfish",
-      "jpn": "harysen",
+      "jpn": "hari-sen",
       "jpn_ro": "harysen"
     },
     "gen-7": {
@@ -6822,7 +6834,7 @@
     },
     "slug": {
       "eng": "scizor",
-      "jpn": "hassam",
+      "jpn": "hassamu",
       "jpn_ro": "hassam"
     },
     "gen-7": {
@@ -6887,7 +6899,7 @@
     },
     "slug": {
       "eng": "heracross",
-      "jpn": "heracros",
+      "jpn": "herakurosu",
       "jpn_ro": "heracros"
     },
     "gen-7": {
@@ -6923,7 +6935,7 @@
     },
     "slug": {
       "eng": "sneasel",
-      "jpn": "nyula",
+      "jpn": "nyu-ra",
       "jpn_ro": "nyula"
     },
     "gen-7": {
@@ -7010,7 +7022,7 @@
     },
     "slug": {
       "eng": "slugma",
-      "jpn": "magmag",
+      "jpn": "magumaggu",
       "jpn_ro": "magmag"
     },
     "gen-7": {
@@ -7039,7 +7051,7 @@
     },
     "slug": {
       "eng": "magcargo",
-      "jpn": "magcargot",
+      "jpn": "magukarugo",
       "jpn_ro": "magcargot"
     },
     "gen-7": {
@@ -7068,7 +7080,7 @@
     },
     "slug": {
       "eng": "swinub",
-      "jpn": "urimoo",
+      "jpn": "urimu-",
       "jpn_ro": "urimoo"
     },
     "gen-7": {
@@ -7097,7 +7109,7 @@
     },
     "slug": {
       "eng": "piloswine",
-      "jpn": "inomoo",
+      "jpn": "inomu-",
       "jpn_ro": "inomoo"
     },
     "gen-7": {
@@ -7126,7 +7138,7 @@
     },
     "slug": {
       "eng": "corsola",
-      "jpn": "sunnygo",
+      "jpn": "sani-go",
       "jpn_ro": "sunnygo"
     },
     "gen-7": {
@@ -7187,7 +7199,7 @@
     },
     "slug": {
       "eng": "octillery",
-      "jpn": "okutank",
+      "jpn": "okutan",
       "jpn_ro": "okutank"
     },
     "gen-7": {
@@ -7216,7 +7228,7 @@
     },
     "slug": {
       "eng": "delibird",
-      "jpn": "delibird",
+      "jpn": "deriba-do",
       "jpn_ro": "delibird"
     },
     "gen-7": {
@@ -7274,7 +7286,7 @@
     },
     "slug": {
       "eng": "skarmory",
-      "jpn": "airmd",
+      "jpn": "ea-mudo",
       "jpn_ro": "airmd"
     },
     "gen-7": {
@@ -7303,7 +7315,7 @@
     },
     "slug": {
       "eng": "houndour",
-      "jpn": "delvil",
+      "jpn": "derubiru",
       "jpn_ro": "delvil"
     },
     "gen-7": {
@@ -7332,7 +7344,7 @@
     },
     "slug": {
       "eng": "houndoom",
-      "jpn": "hellgar",
+      "jpn": "heruga-",
       "jpn_ro": "hellgar"
     },
     "gen-7": {
@@ -7368,7 +7380,7 @@
     },
     "slug": {
       "eng": "kingdra",
-      "jpn": "kingdra",
+      "jpn": "kingudora",
       "jpn_ro": "kingdra"
     },
     "gen-7": {
@@ -7455,7 +7467,7 @@
     },
     "slug": {
       "eng": "porygon2",
-      "jpn": "porygon2",
+      "jpn": "porigon2",
       "jpn_ro": "porygon2"
     },
     "gen-7": {
@@ -7513,7 +7525,7 @@
     },
     "slug": {
       "eng": "smeargle",
-      "jpn": "doble",
+      "jpn": "do-buru",
       "jpn_ro": "doble"
     },
     "gen-7": {
@@ -7542,7 +7554,7 @@
     },
     "slug": {
       "eng": "tyrogue",
-      "jpn": "balkie",
+      "jpn": "baruki-",
       "jpn_ro": "balkie"
     },
     "gen-7": {
@@ -7571,7 +7583,7 @@
     },
     "slug": {
       "eng": "hitmontop",
-      "jpn": "kapoerer",
+      "jpn": "kapoera-",
       "jpn_ro": "kapoerer"
     },
     "gen-7": {
@@ -7600,7 +7612,7 @@
     },
     "slug": {
       "eng": "smoochum",
-      "jpn": "muchul",
+      "jpn": "muchu-ru",
       "jpn_ro": "muchul"
     },
     "gen-7": {
@@ -7629,7 +7641,7 @@
     },
     "slug": {
       "eng": "elekid",
-      "jpn": "elekid",
+      "jpn": "erekiddo",
       "jpn_ro": "elekid"
     },
     "gen-7": {
@@ -7658,7 +7670,7 @@
     },
     "slug": {
       "eng": "magby",
-      "jpn": "buby",
+      "jpn": "bubi",
       "jpn_ro": "buby"
     },
     "gen-7": {
@@ -7687,7 +7699,7 @@
     },
     "slug": {
       "eng": "miltank",
-      "jpn": "miltank",
+      "jpn": "mirutanku",
       "jpn_ro": "miltank"
     },
     "gen-7": {
@@ -7716,7 +7728,7 @@
     },
     "slug": {
       "eng": "blissey",
-      "jpn": "happinas",
+      "jpn": "hapinasu",
       "jpn_ro": "happinas"
     },
     "gen-7": {
@@ -7759,7 +7771,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7788,7 +7800,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7803,7 +7815,7 @@
     },
     "slug": {
       "eng": "suicune",
-      "jpn": "suicune",
+      "jpn": "suikun",
       "jpn_ro": "suicune"
     },
     "gen-7": {
@@ -7817,7 +7829,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7832,7 +7844,7 @@
     },
     "slug": {
       "eng": "larvitar",
-      "jpn": "yogiras",
+      "jpn": "yo-girasu",
       "jpn_ro": "yogiras"
     },
     "gen-7": {
@@ -7861,7 +7873,7 @@
     },
     "slug": {
       "eng": "pupitar",
-      "jpn": "sanagiras",
+      "jpn": "sanagirasu",
       "jpn_ro": "sanagiras"
     },
     "gen-7": {
@@ -7890,7 +7902,7 @@
     },
     "slug": {
       "eng": "tyranitar",
-      "jpn": "bangiras",
+      "jpn": "bangirasu",
       "jpn_ro": "bangiras"
     },
     "gen-7": {
@@ -7926,7 +7938,7 @@
     },
     "slug": {
       "eng": "lugia",
-      "jpn": "lugia",
+      "jpn": "rugia",
       "jpn_ro": "lugia"
     },
     "gen-7": {
@@ -7940,7 +7952,11 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
+        },
+        "shadow": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -7969,7 +7985,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -7984,7 +8000,7 @@
     },
     "slug": {
       "eng": "celebi",
-      "jpn": "celebi",
+      "jpn": "serebi",
       "jpn_ro": "celebi"
     },
     "gen-7": {
@@ -8042,7 +8058,7 @@
     },
     "slug": {
       "eng": "grovyle",
-      "jpn": "juptile",
+      "jpn": "juputoru",
       "jpn_ro": "juptile"
     },
     "gen-7": {
@@ -8089,7 +8105,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -8136,7 +8152,7 @@
     },
     "slug": {
       "eng": "combusken",
-      "jpn": "wakasyamo",
+      "jpn": "wakashamo",
       "jpn_ro": "wakasyamo"
     },
     "gen-7": {
@@ -8165,7 +8181,7 @@
     },
     "slug": {
       "eng": "blaziken",
-      "jpn": "bursyamo",
+      "jpn": "basha-mo",
       "jpn_ro": "bursyamo"
     },
     "gen-7": {
@@ -8183,7 +8199,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -8230,7 +8246,7 @@
     },
     "slug": {
       "eng": "marshtomp",
-      "jpn": "numacraw",
+      "jpn": "numakuro-",
       "jpn_ro": "numacraw"
     },
     "gen-7": {
@@ -8259,7 +8275,7 @@
     },
     "slug": {
       "eng": "swampert",
-      "jpn": "laglarge",
+      "jpn": "ragura-ji",
       "jpn_ro": "laglarge"
     },
     "gen-7": {
@@ -8277,7 +8293,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -8324,7 +8340,7 @@
     },
     "slug": {
       "eng": "mightyena",
-      "jpn": "graena",
+      "jpn": "guraena",
       "jpn_ro": "graena"
     },
     "gen-7": {
@@ -8446,7 +8462,7 @@
     },
     "slug": {
       "eng": "silcoon",
-      "jpn": "karasalis",
+      "jpn": "karasarisu",
       "jpn_ro": "karasalis"
     },
     "gen-7": {
@@ -8475,7 +8491,7 @@
     },
     "slug": {
       "eng": "beautifly",
-      "jpn": "agehunt",
+      "jpn": "agehanto",
       "jpn_ro": "agehunt"
     },
     "gen-7": {
@@ -8504,7 +8520,7 @@
     },
     "slug": {
       "eng": "cascoon",
-      "jpn": "mayuld",
+      "jpn": "mayurudo",
       "jpn_ro": "mayuld"
     },
     "gen-7": {
@@ -8533,7 +8549,7 @@
     },
     "slug": {
       "eng": "dustox",
-      "jpn": "dokucale",
+      "jpn": "dokukeiru",
       "jpn_ro": "dokucale"
     },
     "gen-7": {
@@ -8562,7 +8578,7 @@
     },
     "slug": {
       "eng": "lotad",
-      "jpn": "hassboh",
+      "jpn": "hasubo-",
       "jpn_ro": "hassboh"
     },
     "gen-7": {
@@ -8591,7 +8607,7 @@
     },
     "slug": {
       "eng": "lombre",
-      "jpn": "hasubrero",
+      "jpn": "hasuburero",
       "jpn_ro": "hasubrero"
     },
     "gen-7": {
@@ -8649,7 +8665,7 @@
     },
     "slug": {
       "eng": "seedot",
-      "jpn": "taneboh",
+      "jpn": "tanebo-",
       "jpn_ro": "taneboh"
     },
     "gen-7": {
@@ -8707,7 +8723,7 @@
     },
     "slug": {
       "eng": "shiftry",
-      "jpn": "dirteng",
+      "jpn": "da-tengu",
       "jpn_ro": "dirteng"
     },
     "gen-7": {
@@ -8765,7 +8781,7 @@
     },
     "slug": {
       "eng": "swellow",
-      "jpn": "ohsubame",
+      "jpn": "oosubame",
       "jpn_ro": "ohsubame"
     },
     "gen-7": {
@@ -8794,7 +8810,7 @@
     },
     "slug": {
       "eng": "wingull",
-      "jpn": "camome",
+      "jpn": "kyamome",
       "jpn_ro": "camome"
     },
     "gen-7": {
@@ -8823,7 +8839,7 @@
     },
     "slug": {
       "eng": "pelipper",
-      "jpn": "pelipper",
+      "jpn": "perippa-",
       "jpn_ro": "pelipper"
     },
     "gen-7": {
@@ -8852,7 +8868,7 @@
     },
     "slug": {
       "eng": "ralts",
-      "jpn": "ralts",
+      "jpn": "rarutosu",
       "jpn_ro": "ralts"
     },
     "gen-7": {
@@ -8881,7 +8897,7 @@
     },
     "slug": {
       "eng": "kirlia",
-      "jpn": "kirlia",
+      "jpn": "kiruria",
       "jpn_ro": "kirlia"
     },
     "gen-7": {
@@ -8910,7 +8926,7 @@
     },
     "slug": {
       "eng": "gardevoir",
-      "jpn": "sirnight",
+      "jpn": "sa-naito",
       "jpn_ro": "sirnight"
     },
     "gen-7": {
@@ -8975,7 +8991,7 @@
     },
     "slug": {
       "eng": "masquerain",
-      "jpn": "amemoth",
+      "jpn": "amemo-su",
       "jpn_ro": "amemoth"
     },
     "gen-7": {
@@ -9004,7 +9020,7 @@
     },
     "slug": {
       "eng": "shroomish",
-      "jpn": "kinococo",
+      "jpn": "kinokoko",
       "jpn_ro": "kinococo"
     },
     "gen-7": {
@@ -9120,7 +9136,7 @@
     },
     "slug": {
       "eng": "slaking",
-      "jpn": "kekking",
+      "jpn": "kekkingu",
       "jpn_ro": "kekking"
     },
     "gen-7": {
@@ -9149,7 +9165,7 @@
     },
     "slug": {
       "eng": "nincada",
-      "jpn": "tutinin",
+      "jpn": "tsuchinin",
       "jpn_ro": "tutinin"
     },
     "gen-7": {
@@ -9265,7 +9281,7 @@
     },
     "slug": {
       "eng": "loudred",
-      "jpn": "dogohmb",
+      "jpn": "dogo-mu",
       "jpn_ro": "dogohmb"
     },
     "gen-7": {
@@ -9294,7 +9310,7 @@
     },
     "slug": {
       "eng": "exploud",
-      "jpn": "bakuong",
+      "jpn": "bakuongu",
       "jpn_ro": "bakuong"
     },
     "gen-7": {
@@ -9410,7 +9426,7 @@
     },
     "slug": {
       "eng": "nosepass",
-      "jpn": "nosepass",
+      "jpn": "nozupasu",
       "jpn_ro": "nosepass"
     },
     "gen-7": {
@@ -9439,7 +9455,7 @@
     },
     "slug": {
       "eng": "skitty",
-      "jpn": "eneco",
+      "jpn": "eneko",
       "jpn_ro": "eneco"
     },
     "gen-7": {
@@ -9533,7 +9549,7 @@
     },
     "slug": {
       "eng": "mawile",
-      "jpn": "kucheat",
+      "jpn": "kuchi-to",
       "jpn_ro": "kucheat"
     },
     "gen-7": {
@@ -9569,7 +9585,7 @@
     },
     "slug": {
       "eng": "aron",
-      "jpn": "cokodora",
+      "jpn": "kokodora",
       "jpn_ro": "cokodora"
     },
     "gen-7": {
@@ -9627,7 +9643,7 @@
     },
     "slug": {
       "eng": "aggron",
-      "jpn": "bossgodora",
+      "jpn": "bosugodora",
       "jpn_ro": "bossgodora"
     },
     "gen-7": {
@@ -9645,7 +9661,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -9692,7 +9708,7 @@
     },
     "slug": {
       "eng": "medicham",
-      "jpn": "charem",
+      "jpn": "cha-remu",
       "jpn_ro": "charem"
     },
     "gen-7": {
@@ -9757,7 +9773,7 @@
     },
     "slug": {
       "eng": "manectric",
-      "jpn": "livolt",
+      "jpn": "raiboruto",
       "jpn_ro": "livolt"
     },
     "gen-7": {
@@ -9793,7 +9809,7 @@
     },
     "slug": {
       "eng": "plusle",
-      "jpn": "prasle",
+      "jpn": "purasuru",
       "jpn_ro": "prasle"
     },
     "gen-7": {
@@ -9822,7 +9838,7 @@
     },
     "slug": {
       "eng": "minun",
-      "jpn": "minun",
+      "jpn": "mainan",
       "jpn_ro": "minun"
     },
     "gen-7": {
@@ -9851,7 +9867,7 @@
     },
     "slug": {
       "eng": "volbeat",
-      "jpn": "barubeat",
+      "jpn": "barubi-to",
       "jpn_ro": "barubeat"
     },
     "gen-7": {
@@ -9880,7 +9896,7 @@
     },
     "slug": {
       "eng": "illumise",
-      "jpn": "illumise",
+      "jpn": "irumi-ze",
       "jpn_ro": "illumise"
     },
     "gen-7": {
@@ -9909,7 +9925,7 @@
     },
     "slug": {
       "eng": "roselia",
-      "jpn": "roselia",
+      "jpn": "rozeria",
       "jpn_ro": "roselia"
     },
     "gen-7": {
@@ -9938,7 +9954,7 @@
     },
     "slug": {
       "eng": "gulpin",
-      "jpn": "gokulin",
+      "jpn": "gokurin",
       "jpn_ro": "gokulin"
     },
     "gen-7": {
@@ -9967,7 +9983,7 @@
     },
     "slug": {
       "eng": "swalot",
-      "jpn": "marunoom",
+      "jpn": "maruno-mu",
       "jpn_ro": "marunoom"
     },
     "gen-7": {
@@ -9996,7 +10012,7 @@
     },
     "slug": {
       "eng": "carvanha",
-      "jpn": "kibanha",
+      "jpn": "kibania",
       "jpn_ro": "kibanha"
     },
     "gen-7": {
@@ -10025,7 +10041,7 @@
     },
     "slug": {
       "eng": "sharpedo",
-      "jpn": "samehader",
+      "jpn": "samehada-",
       "jpn_ro": "samehader"
     },
     "gen-7": {
@@ -10090,7 +10106,7 @@
     },
     "slug": {
       "eng": "wailord",
-      "jpn": "whaloh",
+      "jpn": "hoeruo-",
       "jpn_ro": "whaloh"
     },
     "gen-7": {
@@ -10119,7 +10135,7 @@
     },
     "slug": {
       "eng": "numel",
-      "jpn": "donmel",
+      "jpn": "donmeru",
       "jpn_ro": "donmel"
     },
     "gen-7": {
@@ -10148,7 +10164,7 @@
     },
     "slug": {
       "eng": "camerupt",
-      "jpn": "bakuuda",
+      "jpn": "baku-da",
       "jpn_ro": "bakuuda"
     },
     "gen-7": {
@@ -10184,7 +10200,7 @@
     },
     "slug": {
       "eng": "torkoal",
-      "jpn": "cotoise",
+      "jpn": "ko-tasu",
       "jpn_ro": "cotoise"
     },
     "gen-7": {
@@ -10213,7 +10229,7 @@
     },
     "slug": {
       "eng": "spoink",
-      "jpn": "baneboo",
+      "jpn": "banebu-",
       "jpn_ro": "baneboo"
     },
     "gen-7": {
@@ -10242,7 +10258,7 @@
     },
     "slug": {
       "eng": "grumpig",
-      "jpn": "boopig",
+      "jpn": "bu-piggu",
       "jpn_ro": "boopig"
     },
     "gen-7": {
@@ -10271,7 +10287,7 @@
     },
     "slug": {
       "eng": "spinda",
-      "jpn": "patcheel",
+      "jpn": "patchi-ru",
       "jpn_ro": "patcheel"
     },
     "gen-7": {
@@ -10318,7 +10334,7 @@
     },
     "slug": {
       "eng": "trapinch",
-      "jpn": "nuckrar",
+      "jpn": "nakkura-",
       "jpn_ro": "nuckrar"
     },
     "gen-7": {
@@ -10347,7 +10363,7 @@
     },
     "slug": {
       "eng": "vibrava",
-      "jpn": "vibrava",
+      "jpn": "bibura-ba",
       "jpn_ro": "vibrava"
     },
     "gen-7": {
@@ -10376,7 +10392,7 @@
     },
     "slug": {
       "eng": "flygon",
-      "jpn": "flygon",
+      "jpn": "furaigon",
       "jpn_ro": "flygon"
     },
     "gen-7": {
@@ -10434,7 +10450,7 @@
     },
     "slug": {
       "eng": "cacturne",
-      "jpn": "noctus",
+      "jpn": "nokutasu",
       "jpn_ro": "noctus"
     },
     "gen-7": {
@@ -10463,7 +10479,7 @@
     },
     "slug": {
       "eng": "swablu",
-      "jpn": "tyltto",
+      "jpn": "chirutto",
       "jpn_ro": "tyltto"
     },
     "gen-7": {
@@ -10492,7 +10508,7 @@
     },
     "slug": {
       "eng": "altaria",
-      "jpn": "tyltalis",
+      "jpn": "chirutarisu",
       "jpn_ro": "tyltalis"
     },
     "gen-7": {
@@ -10510,7 +10526,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -10528,7 +10544,7 @@
     },
     "slug": {
       "eng": "zangoose",
-      "jpn": "zangoose",
+      "jpn": "zangu-su",
       "jpn_ro": "zangoose"
     },
     "gen-7": {
@@ -10557,7 +10573,7 @@
     },
     "slug": {
       "eng": "seviper",
-      "jpn": "habunake",
+      "jpn": "habune-ku",
       "jpn_ro": "habunake"
     },
     "gen-7": {
@@ -10586,7 +10602,7 @@
     },
     "slug": {
       "eng": "lunatone",
-      "jpn": "lunatone",
+      "jpn": "runato-n",
       "jpn_ro": "lunatone"
     },
     "gen-7": {
@@ -10615,7 +10631,7 @@
     },
     "slug": {
       "eng": "solrock",
-      "jpn": "solrock",
+      "jpn": "sorurokku",
       "jpn_ro": "solrock"
     },
     "gen-7": {
@@ -10644,7 +10660,7 @@
     },
     "slug": {
       "eng": "barboach",
-      "jpn": "dojoach",
+      "jpn": "dojotchi",
       "jpn_ro": "dojoach"
     },
     "gen-7": {
@@ -10731,7 +10747,7 @@
     },
     "slug": {
       "eng": "crawdaunt",
-      "jpn": "shizariger",
+      "jpn": "shizariga-",
       "jpn_ro": "shizariger"
     },
     "gen-7": {
@@ -10760,7 +10776,7 @@
     },
     "slug": {
       "eng": "baltoy",
-      "jpn": "yajilon",
+      "jpn": "yajiron",
       "jpn_ro": "yajilon"
     },
     "gen-7": {
@@ -10789,7 +10805,7 @@
     },
     "slug": {
       "eng": "claydol",
-      "jpn": "nendoll",
+      "jpn": "nendo-ru",
       "jpn_ro": "nendoll"
     },
     "gen-7": {
@@ -10818,7 +10834,7 @@
     },
     "slug": {
       "eng": "lileep",
-      "jpn": "lilyla",
+      "jpn": "riri-ra",
       "jpn_ro": "lilyla"
     },
     "gen-7": {
@@ -10847,7 +10863,7 @@
     },
     "slug": {
       "eng": "cradily",
-      "jpn": "yuradle",
+      "jpn": "yureidoru",
       "jpn_ro": "yuradle"
     },
     "gen-7": {
@@ -10876,7 +10892,7 @@
     },
     "slug": {
       "eng": "anorith",
-      "jpn": "anopth",
+      "jpn": "anopusu",
       "jpn_ro": "anopth"
     },
     "gen-7": {
@@ -10905,7 +10921,7 @@
     },
     "slug": {
       "eng": "armaldo",
-      "jpn": "armaldo",
+      "jpn": "a-marudo",
       "jpn_ro": "armaldo"
     },
     "gen-7": {
@@ -10919,7 +10935,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -10934,7 +10950,7 @@
     },
     "slug": {
       "eng": "feebas",
-      "jpn": "hinbass",
+      "jpn": "hinbasu",
       "jpn_ro": "hinbass"
     },
     "gen-7": {
@@ -10963,7 +10979,7 @@
     },
     "slug": {
       "eng": "milotic",
-      "jpn": "milokaross",
+      "jpn": "mirokarosu",
       "jpn_ro": "milokaross"
     },
     "gen-7": {
@@ -10992,7 +11008,7 @@
     },
     "slug": {
       "eng": "castform",
-      "jpn": "powalen",
+      "jpn": "powarun",
       "jpn_ro": "powalen"
     },
     "gen-7": {
@@ -11100,7 +11116,7 @@
     },
     "slug": {
       "eng": "banette",
-      "jpn": "juppeta",
+      "jpn": "jupetta",
       "jpn_ro": "juppeta"
     },
     "gen-7": {
@@ -11165,7 +11181,7 @@
     },
     "slug": {
       "eng": "dusclops",
-      "jpn": "samayouru",
+      "jpn": "samayo-ru",
       "jpn_ro": "samayouru"
     },
     "gen-7": {
@@ -11194,7 +11210,7 @@
     },
     "slug": {
       "eng": "tropius",
-      "jpn": "tropius",
+      "jpn": "toropiusu",
       "jpn_ro": "tropius"
     },
     "gen-7": {
@@ -11223,7 +11239,7 @@
     },
     "slug": {
       "eng": "chimecho",
-      "jpn": "chirean",
+      "jpn": "chiri-n",
       "jpn_ro": "chirean"
     },
     "gen-7": {
@@ -11252,7 +11268,7 @@
     },
     "slug": {
       "eng": "absol",
-      "jpn": "absol",
+      "jpn": "abusoru",
       "jpn_ro": "absol"
     },
     "gen-7": {
@@ -11270,7 +11286,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11288,7 +11304,7 @@
     },
     "slug": {
       "eng": "wynaut",
-      "jpn": "sohnano",
+      "jpn": "so-nano",
       "jpn_ro": "sohnano"
     },
     "gen-7": {
@@ -11346,7 +11362,7 @@
     },
     "slug": {
       "eng": "glalie",
-      "jpn": "onigohri",
+      "jpn": "onigo-ri",
       "jpn_ro": "onigohri"
     },
     "gen-7": {
@@ -11411,7 +11427,7 @@
     },
     "slug": {
       "eng": "sealeo",
-      "jpn": "todoggler",
+      "jpn": "todogura-",
       "jpn_ro": "todoggler"
     },
     "gen-7": {
@@ -11440,7 +11456,7 @@
     },
     "slug": {
       "eng": "walrein",
-      "jpn": "todoseruga",
+      "jpn": "todozeruga",
       "jpn_ro": "todoseruga"
     },
     "gen-7": {
@@ -11454,7 +11470,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11469,7 +11485,7 @@
     },
     "slug": {
       "eng": "clamperl",
-      "jpn": "pearlulu",
+      "jpn": "pa-ruru",
       "jpn_ro": "pearlulu"
     },
     "gen-7": {
@@ -11498,7 +11514,7 @@
     },
     "slug": {
       "eng": "huntail",
-      "jpn": "huntail",
+      "jpn": "hante-ru",
       "jpn_ro": "huntail"
     },
     "gen-7": {
@@ -11527,7 +11543,7 @@
     },
     "slug": {
       "eng": "gorebyss",
-      "jpn": "sakurabyss",
+      "jpn": "sakurabisu",
       "jpn_ro": "sakurabyss"
     },
     "gen-7": {
@@ -11556,7 +11572,7 @@
     },
     "slug": {
       "eng": "relicanth",
-      "jpn": "glanth",
+      "jpn": "ji-ransu",
       "jpn_ro": "glanth"
     },
     "gen-7": {
@@ -11570,7 +11586,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11585,7 +11601,7 @@
     },
     "slug": {
       "eng": "luvdisc",
-      "jpn": "lovecus",
+      "jpn": "rabukasu",
       "jpn_ro": "lovecus"
     },
     "gen-7": {
@@ -11614,7 +11630,7 @@
     },
     "slug": {
       "eng": "bagon",
-      "jpn": "tatsubay",
+      "jpn": "tatsubei",
       "jpn_ro": "tatsubay"
     },
     "gen-7": {
@@ -11643,7 +11659,7 @@
     },
     "slug": {
       "eng": "shelgon",
-      "jpn": "komoruu",
+      "jpn": "komoru-",
       "jpn_ro": "komoruu"
     },
     "gen-7": {
@@ -11672,7 +11688,7 @@
     },
     "slug": {
       "eng": "salamence",
-      "jpn": "bohmander",
+      "jpn": "bo-manda",
       "jpn_ro": "bohmander"
     },
     "gen-7": {
@@ -11690,7 +11706,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11708,7 +11724,7 @@
     },
     "slug": {
       "eng": "beldum",
-      "jpn": "dumbber",
+      "jpn": "danbaru",
       "jpn_ro": "dumbber"
     },
     "gen-7": {
@@ -11737,7 +11753,7 @@
     },
     "slug": {
       "eng": "metang",
-      "jpn": "metang",
+      "jpn": "metangu",
       "jpn_ro": "metang"
     },
     "gen-7": {
@@ -11766,7 +11782,7 @@
     },
     "slug": {
       "eng": "metagross",
-      "jpn": "metagross",
+      "jpn": "metagurosu",
       "jpn_ro": "metagross"
     },
     "gen-7": {
@@ -11784,7 +11800,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11802,7 +11818,7 @@
     },
     "slug": {
       "eng": "regirock",
-      "jpn": "regirock",
+      "jpn": "rejirokku",
       "jpn_ro": "regirock"
     },
     "gen-7": {
@@ -11816,7 +11832,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11831,7 +11847,7 @@
     },
     "slug": {
       "eng": "regice",
-      "jpn": "regice",
+      "jpn": "rejiaisu",
       "jpn_ro": "regice"
     },
     "gen-7": {
@@ -11845,7 +11861,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11860,7 +11876,7 @@
     },
     "slug": {
       "eng": "registeel",
-      "jpn": "registeel",
+      "jpn": "rejisuchiru",
       "jpn_ro": "registeel"
     },
     "gen-7": {
@@ -11874,7 +11890,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -11889,7 +11905,7 @@
     },
     "slug": {
       "eng": "latias",
-      "jpn": "latias",
+      "jpn": "ratiasu",
       "jpn_ro": "latias"
     },
     "gen-7": {
@@ -11907,7 +11923,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11925,7 +11941,7 @@
     },
     "slug": {
       "eng": "latios",
-      "jpn": "latios",
+      "jpn": "ratiosu",
       "jpn_ro": "latios"
     },
     "gen-7": {
@@ -11943,7 +11959,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -11961,7 +11977,7 @@
     },
     "slug": {
       "eng": "kyogre",
-      "jpn": "kyogre",
+      "jpn": "kaio-ga",
       "jpn_ro": "kyogre"
     },
     "gen-7": {
@@ -11979,7 +11995,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "primal": {
           "is_prev_gen_icon": true
@@ -11997,7 +12013,7 @@
     },
     "slug": {
       "eng": "groudon",
-      "jpn": "groudon",
+      "jpn": "gura-don",
       "jpn_ro": "groudon"
     },
     "gen-7": {
@@ -12015,7 +12031,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "primal": {
           "is_prev_gen_icon": true
@@ -12033,7 +12049,7 @@
     },
     "slug": {
       "eng": "rayquaza",
-      "jpn": "rayquaza",
+      "jpn": "rekkuuza",
       "jpn_ro": "rayquaza"
     },
     "gen-7": {
@@ -12051,7 +12067,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -12069,7 +12085,7 @@
     },
     "slug": {
       "eng": "jirachi",
-      "jpn": "jirachi",
+      "jpn": "jira-chi",
       "jpn_ro": "jirachi"
     },
     "gen-7": {
@@ -12098,7 +12114,7 @@
     },
     "slug": {
       "eng": "deoxys",
-      "jpn": "deoxys",
+      "jpn": "deokishisu",
       "jpn_ro": "deoxys"
     },
     "gen-7": {
@@ -12157,7 +12173,7 @@
     },
     "slug": {
       "eng": "turtwig",
-      "jpn": "naetle",
+      "jpn": "naetoru",
       "jpn_ro": "naetle"
     },
     "gen-7": {
@@ -12215,7 +12231,7 @@
     },
     "slug": {
       "eng": "torterra",
-      "jpn": "dodaitose",
+      "jpn": "dodaitosu",
       "jpn_ro": "dodaitose"
     },
     "gen-7": {
@@ -12331,7 +12347,7 @@
     },
     "slug": {
       "eng": "piplup",
-      "jpn": "pochama",
+      "jpn": "potchama",
       "jpn_ro": "pochama"
     },
     "gen-7": {
@@ -12389,7 +12405,7 @@
     },
     "slug": {
       "eng": "empoleon",
-      "jpn": "emperte",
+      "jpn": "enperuto",
       "jpn_ro": "emperte"
     },
     "gen-7": {
@@ -12447,7 +12463,7 @@
     },
     "slug": {
       "eng": "staravia",
-      "jpn": "mukubird",
+      "jpn": "mukuba-do",
       "jpn_ro": "mukubird"
     },
     "gen-7": {
@@ -12476,7 +12492,7 @@
     },
     "slug": {
       "eng": "staraptor",
-      "jpn": "mukuhawk",
+      "jpn": "mukuho-ku",
       "jpn_ro": "mukuhawk"
     },
     "gen-7": {
@@ -12534,7 +12550,7 @@
     },
     "slug": {
       "eng": "bibarel",
-      "jpn": "beadaru",
+      "jpn": "bi-daru",
       "jpn_ro": "beadaru"
     },
     "gen-7": {
@@ -12563,7 +12579,7 @@
     },
     "slug": {
       "eng": "kricketot",
-      "jpn": "korobohshi",
+      "jpn": "korobo-shi",
       "jpn_ro": "korobohshi"
     },
     "gen-7": {
@@ -12592,7 +12608,7 @@
     },
     "slug": {
       "eng": "kricketune",
-      "jpn": "korotock",
+      "jpn": "korotokku",
       "jpn_ro": "korotock"
     },
     "gen-7": {
@@ -12621,7 +12637,7 @@
     },
     "slug": {
       "eng": "shinx",
-      "jpn": "kolink",
+      "jpn": "korinku",
       "jpn_ro": "kolink"
     },
     "gen-7": {
@@ -12650,7 +12666,7 @@
     },
     "slug": {
       "eng": "luxio",
-      "jpn": "luxio",
+      "jpn": "rukushio",
       "jpn_ro": "luxio"
     },
     "gen-7": {
@@ -12679,7 +12695,7 @@
     },
     "slug": {
       "eng": "luxray",
-      "jpn": "rentorar",
+      "jpn": "rentora-",
       "jpn_ro": "rentorar"
     },
     "gen-7": {
@@ -12708,7 +12724,7 @@
     },
     "slug": {
       "eng": "budew",
-      "jpn": "subomie",
+      "jpn": "subomi-",
       "jpn_ro": "subomie"
     },
     "gen-7": {
@@ -12737,7 +12753,7 @@
     },
     "slug": {
       "eng": "roserade",
-      "jpn": "roserade",
+      "jpn": "rozureido",
       "jpn_ro": "roserade"
     },
     "gen-7": {
@@ -12766,7 +12782,7 @@
     },
     "slug": {
       "eng": "cranidos",
-      "jpn": "zugaidos",
+      "jpn": "zugaidosu",
       "jpn_ro": "zugaidos"
     },
     "gen-7": {
@@ -12795,7 +12811,7 @@
     },
     "slug": {
       "eng": "rampardos",
-      "jpn": "rampald",
+      "jpn": "ramuparudo",
       "jpn_ro": "rampald"
     },
     "gen-7": {
@@ -12824,7 +12840,7 @@
     },
     "slug": {
       "eng": "shieldon",
-      "jpn": "tatetops",
+      "jpn": "tatetopusu",
       "jpn_ro": "tatetops"
     },
     "gen-7": {
@@ -12853,7 +12869,7 @@
     },
     "slug": {
       "eng": "bastiodon",
-      "jpn": "torideps",
+      "jpn": "toridepusu",
       "jpn_ro": "torideps"
     },
     "gen-7": {
@@ -12882,7 +12898,7 @@
     },
     "slug": {
       "eng": "burmy",
-      "jpn": "minomucchi",
+      "jpn": "minomutchi",
       "jpn_ro": "minomucchi"
     },
     "gen-7": {
@@ -12934,7 +12950,7 @@
     },
     "slug": {
       "eng": "wormadam",
-      "jpn": "minomadam",
+      "jpn": "minomadamu",
       "jpn_ro": "minomadam"
     },
     "gen-7": {
@@ -12986,7 +13002,7 @@
     },
     "slug": {
       "eng": "mothim",
-      "jpn": "gamale",
+      "jpn": "ga-meiru",
       "jpn_ro": "gamale"
     },
     "gen-7": {
@@ -13042,7 +13058,7 @@
     },
     "slug": {
       "eng": "combee",
-      "jpn": "mitsuhoney",
+      "jpn": "mitsuhani-",
       "jpn_ro": "mitsuhoney"
     },
     "gen-7": {
@@ -13071,7 +13087,7 @@
     },
     "slug": {
       "eng": "vespiquen",
-      "jpn": "beequen",
+      "jpn": "bi-kuin",
       "jpn_ro": "beequen"
     },
     "gen-7": {
@@ -13129,7 +13145,7 @@
     },
     "slug": {
       "eng": "buizel",
-      "jpn": "buoysel",
+      "jpn": "buizeru",
       "jpn_ro": "buoysel"
     },
     "gen-7": {
@@ -13158,7 +13174,7 @@
     },
     "slug": {
       "eng": "floatzel",
-      "jpn": "floazel",
+      "jpn": "furo-zeru",
       "jpn_ro": "floazel"
     },
     "gen-7": {
@@ -13172,7 +13188,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -13216,7 +13232,7 @@
     },
     "slug": {
       "eng": "cherrim",
-      "jpn": "cherrim",
+      "jpn": "cherimu",
       "jpn_ro": "cherrim"
     },
     "gen-7": {
@@ -13306,7 +13322,7 @@
     },
     "slug": {
       "eng": "gastrodon",
-      "jpn": "tritodon",
+      "jpn": "toritodon",
       "jpn_ro": "tritodon"
     },
     "gen-7": {
@@ -13351,7 +13367,7 @@
     },
     "slug": {
       "eng": "ambipom",
-      "jpn": "eteboth",
+      "jpn": "etebo-su",
       "jpn_ro": "eteboth"
     },
     "gen-7": {
@@ -13409,7 +13425,7 @@
     },
     "slug": {
       "eng": "drifblim",
-      "jpn": "fuwaride",
+      "jpn": "fuwaraido",
       "jpn_ro": "fuwaride"
     },
     "gen-7": {
@@ -13438,7 +13454,7 @@
     },
     "slug": {
       "eng": "buneary",
-      "jpn": "mimirol",
+      "jpn": "mimiroru",
       "jpn_ro": "mimirol"
     },
     "gen-7": {
@@ -13467,7 +13483,7 @@
     },
     "slug": {
       "eng": "lopunny",
-      "jpn": "mimilop",
+      "jpn": "mimiroppu",
       "jpn_ro": "mimilop"
     },
     "gen-7": {
@@ -13503,7 +13519,7 @@
     },
     "slug": {
       "eng": "mismagius",
-      "jpn": "mumargi",
+      "jpn": "muuma-ji",
       "jpn_ro": "mumargi"
     },
     "gen-7": {
@@ -13532,7 +13548,7 @@
     },
     "slug": {
       "eng": "honchkrow",
-      "jpn": "dongkarasu",
+      "jpn": "donkarasu",
       "jpn_ro": "dongkarasu"
     },
     "gen-7": {
@@ -13561,7 +13577,7 @@
     },
     "slug": {
       "eng": "glameow",
-      "jpn": "nyarmar",
+      "jpn": "nyaruma-",
       "jpn_ro": "nyarmar"
     },
     "gen-7": {
@@ -13619,7 +13635,7 @@
     },
     "slug": {
       "eng": "chingling",
-      "jpn": "lisyan",
+      "jpn": "ri-shan",
       "jpn_ro": "lisyan"
     },
     "gen-7": {
@@ -13648,7 +13664,7 @@
     },
     "slug": {
       "eng": "stunky",
-      "jpn": "skunpuu",
+      "jpn": "sukanpu-",
       "jpn_ro": "skunpuu"
     },
     "gen-7": {
@@ -13677,7 +13693,7 @@
     },
     "slug": {
       "eng": "skuntank",
-      "jpn": "skutank",
+      "jpn": "sukatanku",
       "jpn_ro": "skutank"
     },
     "gen-7": {
@@ -13706,7 +13722,7 @@
     },
     "slug": {
       "eng": "bronzor",
-      "jpn": "dohmirror",
+      "jpn": "do-mira-",
       "jpn_ro": "dohmirror"
     },
     "gen-7": {
@@ -13735,7 +13751,7 @@
     },
     "slug": {
       "eng": "bronzong",
-      "jpn": "dohtakun",
+      "jpn": "do-takun",
       "jpn_ro": "dohtakun"
     },
     "gen-7": {
@@ -13851,7 +13867,7 @@
     },
     "slug": {
       "eng": "chatot",
-      "jpn": "perap",
+      "jpn": "perappu",
       "jpn_ro": "perap"
     },
     "gen-7": {
@@ -13894,7 +13910,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -13938,7 +13954,7 @@
     },
     "slug": {
       "eng": "gabite",
-      "jpn": "gabite",
+      "jpn": "gabaito",
       "jpn_ro": "gabite"
     },
     "gen-7": {
@@ -13967,7 +13983,7 @@
     },
     "slug": {
       "eng": "garchomp",
-      "jpn": "gaburias",
+      "jpn": "gaburiasu",
       "jpn_ro": "gaburias"
     },
     "gen-7": {
@@ -13985,7 +14001,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -14032,7 +14048,7 @@
     },
     "slug": {
       "eng": "riolu",
-      "jpn": "riolu",
+      "jpn": "rioru",
       "jpn_ro": "riolu"
     },
     "gen-7": {
@@ -14061,7 +14077,7 @@
     },
     "slug": {
       "eng": "lucario",
-      "jpn": "lucario",
+      "jpn": "rukario",
       "jpn_ro": "lucario"
     },
     "gen-7": {
@@ -14097,7 +14113,7 @@
     },
     "slug": {
       "eng": "hippopotas",
-      "jpn": "hippopotas",
+      "jpn": "hipopotasu",
       "jpn_ro": "hippopotas"
     },
     "gen-7": {
@@ -14127,7 +14143,7 @@
     },
     "slug": {
       "eng": "hippowdon",
-      "jpn": "kabaldon",
+      "jpn": "kabarudon",
       "jpn_ro": "kabaldon"
     },
     "gen-7": {
@@ -14157,7 +14173,7 @@
     },
     "slug": {
       "eng": "skorupi",
-      "jpn": "scorupi",
+      "jpn": "sukorupi",
       "jpn_ro": "scorupi"
     },
     "gen-7": {
@@ -14215,7 +14231,7 @@
     },
     "slug": {
       "eng": "croagunk",
-      "jpn": "gureggru",
+      "jpn": "guregguru",
       "jpn_ro": "gureggru"
     },
     "gen-7": {
@@ -14244,7 +14260,7 @@
     },
     "slug": {
       "eng": "toxicroak",
-      "jpn": "dokurog",
+      "jpn": "dokuroggu",
       "jpn_ro": "dokurog"
     },
     "gen-7": {
@@ -14273,7 +14289,7 @@
     },
     "slug": {
       "eng": "carnivine",
-      "jpn": "muskippa",
+      "jpn": "masukippa",
       "jpn_ro": "muskippa"
     },
     "gen-7": {
@@ -14331,7 +14347,7 @@
     },
     "slug": {
       "eng": "lumineon",
-      "jpn": "neolant",
+      "jpn": "neoranto",
       "jpn_ro": "neolant"
     },
     "gen-7": {
@@ -14418,7 +14434,7 @@
     },
     "slug": {
       "eng": "abomasnow",
-      "jpn": "yukinooh",
+      "jpn": "yukinoo-",
       "jpn_ro": "yukinooh"
     },
     "gen-7": {
@@ -14454,7 +14470,7 @@
     },
     "slug": {
       "eng": "weavile",
-      "jpn": "manyula",
+      "jpn": "manyu-ra",
       "jpn_ro": "manyula"
     },
     "gen-7": {
@@ -14483,7 +14499,7 @@
     },
     "slug": {
       "eng": "magnezone",
-      "jpn": "jibacoil",
+      "jpn": "jibakoiru",
       "jpn_ro": "jibacoil"
     },
     "gen-7": {
@@ -14512,7 +14528,7 @@
     },
     "slug": {
       "eng": "lickilicky",
-      "jpn": "berobelt",
+      "jpn": "beroberuto",
       "jpn_ro": "berobelt"
     },
     "gen-7": {
@@ -14541,7 +14557,7 @@
     },
     "slug": {
       "eng": "rhyperior",
-      "jpn": "dosidon",
+      "jpn": "dosaidon",
       "jpn_ro": "dosidon"
     },
     "gen-7": {
@@ -14570,7 +14586,7 @@
     },
     "slug": {
       "eng": "tangrowth",
-      "jpn": "mojumbo",
+      "jpn": "mojanbo",
       "jpn_ro": "mojumbo"
     },
     "gen-7": {
@@ -14599,7 +14615,7 @@
     },
     "slug": {
       "eng": "electivire",
-      "jpn": "elekible",
+      "jpn": "erekiburu",
       "jpn_ro": "elekible"
     },
     "gen-7": {
@@ -14613,7 +14629,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14628,7 +14644,7 @@
     },
     "slug": {
       "eng": "magmortar",
-      "jpn": "booburn",
+      "jpn": "bu-ba-n",
       "jpn_ro": "booburn"
     },
     "gen-7": {
@@ -14642,7 +14658,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -14657,7 +14673,7 @@
     },
     "slug": {
       "eng": "togekiss",
-      "jpn": "togekiss",
+      "jpn": "togekissu",
       "jpn_ro": "togekiss"
     },
     "gen-7": {
@@ -14715,7 +14731,7 @@
     },
     "slug": {
       "eng": "leafeon",
-      "jpn": "leafia",
+      "jpn": "ri-fia",
       "jpn_ro": "leafia"
     },
     "gen-7": {
@@ -14744,7 +14760,7 @@
     },
     "slug": {
       "eng": "glaceon",
-      "jpn": "glacia",
+      "jpn": "gureishia",
       "jpn_ro": "glacia"
     },
     "gen-7": {
@@ -14773,7 +14789,7 @@
     },
     "slug": {
       "eng": "gliscor",
-      "jpn": "glion",
+      "jpn": "guraion",
       "jpn_ro": "glion"
     },
     "gen-7": {
@@ -14802,7 +14818,7 @@
     },
     "slug": {
       "eng": "mamoswine",
-      "jpn": "mammoo",
+      "jpn": "manmu-",
       "jpn_ro": "mammoo"
     },
     "gen-7": {
@@ -14831,7 +14847,7 @@
     },
     "slug": {
       "eng": "porygon-z",
-      "jpn": "porygon-z",
+      "jpn": "porigonz",
       "jpn_ro": "porygon-z"
     },
     "gen-7": {
@@ -14896,7 +14912,7 @@
     },
     "slug": {
       "eng": "probopass",
-      "jpn": "dainose",
+      "jpn": "daino-zu",
       "jpn_ro": "dainose"
     },
     "gen-7": {
@@ -14925,7 +14941,7 @@
     },
     "slug": {
       "eng": "dusknoir",
-      "jpn": "yonoir",
+      "jpn": "yonowa-ru",
       "jpn_ro": "yonoir"
     },
     "gen-7": {
@@ -14983,7 +14999,7 @@
     },
     "slug": {
       "eng": "rotom",
-      "jpn": "rotom",
+      "jpn": "rotomu",
       "jpn_ro": "rotom"
     },
     "gen-7": {
@@ -15047,7 +15063,7 @@
     },
     "slug": {
       "eng": "uxie",
-      "jpn": "yuxie",
+      "jpn": "yukushi-",
       "jpn_ro": "yuxie"
     },
     "gen-7": {
@@ -15061,7 +15077,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15076,7 +15092,7 @@
     },
     "slug": {
       "eng": "mesprit",
-      "jpn": "emrit",
+      "jpn": "emuritto",
       "jpn_ro": "emrit"
     },
     "gen-7": {
@@ -15090,7 +15106,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15105,7 +15121,7 @@
     },
     "slug": {
       "eng": "azelf",
-      "jpn": "agnome",
+      "jpn": "agunomu",
       "jpn_ro": "agnome"
     },
     "gen-7": {
@@ -15134,7 +15150,7 @@
     },
     "slug": {
       "eng": "dialga",
-      "jpn": "dialga",
+      "jpn": "diaruga",
       "jpn_ro": "dialga"
     },
     "gen-7": {
@@ -15148,7 +15164,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15163,7 +15179,7 @@
     },
     "slug": {
       "eng": "palkia",
-      "jpn": "palkia",
+      "jpn": "parukia",
       "jpn_ro": "palkia"
     },
     "gen-7": {
@@ -15177,7 +15193,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15192,7 +15208,7 @@
     },
     "slug": {
       "eng": "heatran",
-      "jpn": "heatran",
+      "jpn": "hi-doran",
       "jpn_ro": "heatran"
     },
     "gen-7": {
@@ -15206,7 +15222,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15221,7 +15237,7 @@
     },
     "slug": {
       "eng": "regigigas",
-      "jpn": "regigigas",
+      "jpn": "rejigigasu",
       "jpn_ro": "regigigas"
     },
     "gen-7": {
@@ -15235,7 +15251,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15273,14 +15289,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "altered": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "origin": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15295,7 +15311,7 @@
     },
     "slug": {
       "eng": "cresselia",
-      "jpn": "cresselia",
+      "jpn": "kureseria",
       "jpn_ro": "cresselia"
     },
     "gen-7": {
@@ -15309,7 +15325,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15324,7 +15340,7 @@
     },
     "slug": {
       "eng": "phione",
-      "jpn": "phione",
+      "jpn": "fione",
       "jpn_ro": "phione"
     },
     "gen-7": {
@@ -15353,7 +15369,7 @@
     },
     "slug": {
       "eng": "manaphy",
-      "jpn": "manaphy",
+      "jpn": "manafi",
       "jpn_ro": "manaphy"
     },
     "gen-7": {
@@ -15382,7 +15398,7 @@
     },
     "slug": {
       "eng": "darkrai",
-      "jpn": "darkrai",
+      "jpn": "da-kurai",
       "jpn_ro": "darkrai"
     },
     "gen-7": {
@@ -15411,7 +15427,7 @@
     },
     "slug": {
       "eng": "shaymin",
-      "jpn": "shaymin",
+      "jpn": "sheimi",
       "jpn_ro": "shaymin"
     },
     "gen-7": {
@@ -15456,7 +15472,7 @@
     },
     "slug": {
       "eng": "arceus",
-      "jpn": "arceus",
+      "jpn": "aruseusu",
       "jpn_ro": "arceus"
     },
     "gen-7": {
@@ -15622,7 +15638,7 @@
     },
     "slug": {
       "eng": "victini",
-      "jpn": "victini",
+      "jpn": "bikutini",
       "jpn_ro": "victini"
     },
     "gen-7": {
@@ -15636,7 +15652,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -15651,7 +15667,7 @@
     },
     "slug": {
       "eng": "snivy",
-      "jpn": "tsutarja",
+      "jpn": "tsuta-ja",
       "jpn_ro": "tsutarja"
     },
     "gen-7": {
@@ -15680,7 +15696,7 @@
     },
     "slug": {
       "eng": "servine",
-      "jpn": "janovy",
+      "jpn": "janobi-",
       "jpn_ro": "janovy"
     },
     "gen-7": {
@@ -15709,7 +15725,7 @@
     },
     "slug": {
       "eng": "serperior",
-      "jpn": "jalorda",
+      "jpn": "jaro-da",
       "jpn_ro": "jalorda"
     },
     "gen-7": {
@@ -15767,7 +15783,7 @@
     },
     "slug": {
       "eng": "pignite",
-      "jpn": "chaoboo",
+      "jpn": "chaobu-",
       "jpn_ro": "chaoboo"
     },
     "gen-7": {
@@ -15796,7 +15812,7 @@
     },
     "slug": {
       "eng": "emboar",
-      "jpn": "enbuoh",
+      "jpn": "enbuo-",
       "jpn_ro": "enbuoh"
     },
     "gen-7": {
@@ -15941,7 +15957,7 @@
     },
     "slug": {
       "eng": "watchog",
-      "jpn": "miruhog",
+      "jpn": "miruhoggu",
       "jpn_ro": "miruhog"
     },
     "gen-7": {
@@ -15970,7 +15986,7 @@
     },
     "slug": {
       "eng": "lillipup",
-      "jpn": "yorterrie",
+      "jpn": "yo-teri-",
       "jpn_ro": "yorterrie"
     },
     "gen-7": {
@@ -15999,7 +16015,7 @@
     },
     "slug": {
       "eng": "herdier",
-      "jpn": "herderrie",
+      "jpn": "ha-deria",
       "jpn_ro": "herderrie"
     },
     "gen-7": {
@@ -16028,7 +16044,7 @@
     },
     "slug": {
       "eng": "stoutland",
-      "jpn": "mooland",
+      "jpn": "mu-rando",
       "jpn_ro": "mooland"
     },
     "gen-7": {
@@ -16086,7 +16102,7 @@
     },
     "slug": {
       "eng": "liepard",
-      "jpn": "lepardas",
+      "jpn": "reparudasu",
       "jpn_ro": "lepardas"
     },
     "gen-7": {
@@ -16144,7 +16160,7 @@
     },
     "slug": {
       "eng": "simisage",
-      "jpn": "yanakkie",
+      "jpn": "yanakki-",
       "jpn_ro": "yanakkie"
     },
     "gen-7": {
@@ -16202,7 +16218,7 @@
     },
     "slug": {
       "eng": "simisear",
-      "jpn": "baokkie",
+      "jpn": "baokki-",
       "jpn_ro": "baokkie"
     },
     "gen-7": {
@@ -16260,7 +16276,7 @@
     },
     "slug": {
       "eng": "simipour",
-      "jpn": "hiyakkie",
+      "jpn": "hiyakki-",
       "jpn_ro": "hiyakkie"
     },
     "gen-7": {
@@ -16318,7 +16334,7 @@
     },
     "slug": {
       "eng": "musharna",
-      "jpn": "musharna",
+      "jpn": "musha-na",
       "jpn_ro": "musharna"
     },
     "gen-7": {
@@ -16376,7 +16392,7 @@
     },
     "slug": {
       "eng": "tranquill",
-      "jpn": "hatoboh",
+      "jpn": "hato-bo-",
       "jpn_ro": "hatoboh"
     },
     "gen-7": {
@@ -16405,7 +16421,7 @@
     },
     "slug": {
       "eng": "unfezant",
-      "jpn": "kenhallow",
+      "jpn": "kenhorou",
       "jpn_ro": "kenhallow"
     },
     "gen-7": {
@@ -16464,7 +16480,7 @@
     },
     "slug": {
       "eng": "zebstrika",
-      "jpn": "zebraika",
+      "jpn": "zeburaika",
       "jpn_ro": "zebraika"
     },
     "gen-7": {
@@ -16522,7 +16538,7 @@
     },
     "slug": {
       "eng": "boldore",
-      "jpn": "gantle",
+      "jpn": "gantoru",
       "jpn_ro": "gantle"
     },
     "gen-7": {
@@ -16551,7 +16567,7 @@
     },
     "slug": {
       "eng": "gigalith",
-      "jpn": "gigaiath",
+      "jpn": "gigaiasu",
       "jpn_ro": "gigaiath"
     },
     "gen-7": {
@@ -16638,7 +16654,7 @@
     },
     "slug": {
       "eng": "drilbur",
-      "jpn": "mogurew",
+      "jpn": "moguryu-",
       "jpn_ro": "mogurew"
     },
     "gen-7": {
@@ -16667,7 +16683,7 @@
     },
     "slug": {
       "eng": "excadrill",
-      "jpn": "doryuzu",
+      "jpn": "doryuuzu",
       "jpn_ro": "doryuzu"
     },
     "gen-7": {
@@ -16714,7 +16730,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -16732,7 +16748,7 @@
     },
     "slug": {
       "eng": "timburr",
-      "jpn": "dokkorer",
+      "jpn": "dokkora-",
       "jpn_ro": "dokkorer"
     },
     "gen-7": {
@@ -16790,7 +16806,7 @@
     },
     "slug": {
       "eng": "conkeldurr",
-      "jpn": "roubushin",
+      "jpn": "ro-bushin",
       "jpn_ro": "roubushin"
     },
     "gen-7": {
@@ -17080,7 +17096,7 @@
     },
     "slug": {
       "eng": "whirlipede",
-      "jpn": "wheega",
+      "jpn": "hoi-ga",
       "jpn_ro": "wheega"
     },
     "gen-7": {
@@ -17109,7 +17125,7 @@
     },
     "slug": {
       "eng": "scolipede",
-      "jpn": "pendror",
+      "jpn": "pendora-",
       "jpn_ro": "pendror"
     },
     "gen-7": {
@@ -17167,7 +17183,7 @@
     },
     "slug": {
       "eng": "whimsicott",
-      "jpn": "elfuun",
+      "jpn": "erufu-n",
       "jpn_ro": "elfuun"
     },
     "gen-7": {
@@ -17225,7 +17241,7 @@
     },
     "slug": {
       "eng": "lilligant",
-      "jpn": "dredear",
+      "jpn": "doredia",
       "jpn_ro": "dredear"
     },
     "gen-7": {
@@ -17254,7 +17270,7 @@
     },
     "slug": {
       "eng": "basculin",
-      "jpn": "bassrao",
+      "jpn": "basurao",
       "jpn_ro": "bassrao"
     },
     "gen-7": {
@@ -17299,7 +17315,7 @@
     },
     "slug": {
       "eng": "sandile",
-      "jpn": "meguroco",
+      "jpn": "meguroko",
       "jpn_ro": "meguroco"
     },
     "gen-7": {
@@ -17328,7 +17344,7 @@
     },
     "slug": {
       "eng": "krokorok",
-      "jpn": "waruvile",
+      "jpn": "warubiru",
       "jpn_ro": "waruvile"
     },
     "gen-7": {
@@ -17357,7 +17373,7 @@
     },
     "slug": {
       "eng": "krookodile",
-      "jpn": "waruvial",
+      "jpn": "warubiaru",
       "jpn_ro": "waruvial"
     },
     "gen-7": {
@@ -17469,7 +17485,7 @@
     },
     "slug": {
       "eng": "maractus",
-      "jpn": "maracacchi",
+      "jpn": "marakatchi",
       "jpn_ro": "maracacchi"
     },
     "gen-7": {
@@ -17527,7 +17543,7 @@
     },
     "slug": {
       "eng": "crustle",
-      "jpn": "iwapalace",
+      "jpn": "iwaparesu",
       "jpn_ro": "iwapalace"
     },
     "gen-7": {
@@ -17614,7 +17630,7 @@
     },
     "slug": {
       "eng": "sigilyph",
-      "jpn": "symboler",
+      "jpn": "shinbora-",
       "jpn_ro": "symboler"
     },
     "gen-7": {
@@ -17675,7 +17691,7 @@
     },
     "slug": {
       "eng": "cofagrigus",
-      "jpn": "desukarn",
+      "jpn": "desuka-n",
       "jpn_ro": "desukarn"
     },
     "gen-7": {
@@ -17704,7 +17720,7 @@
     },
     "slug": {
       "eng": "tirtouga",
-      "jpn": "protoga",
+      "jpn": "puroto-ga",
       "jpn_ro": "protoga"
     },
     "gen-7": {
@@ -17733,7 +17749,7 @@
     },
     "slug": {
       "eng": "carracosta",
-      "jpn": "abagoura",
+      "jpn": "abago-ra",
       "jpn_ro": "abagoura"
     },
     "gen-7": {
@@ -17747,7 +17763,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17762,7 +17778,7 @@
     },
     "slug": {
       "eng": "archen",
-      "jpn": "archen",
+      "jpn": "a-ken",
       "jpn_ro": "archen"
     },
     "gen-7": {
@@ -17791,7 +17807,7 @@
     },
     "slug": {
       "eng": "archeops",
-      "jpn": "archeos",
+      "jpn": "a-keosu",
       "jpn_ro": "archeos"
     },
     "gen-7": {
@@ -17805,7 +17821,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -17849,7 +17865,7 @@
     },
     "slug": {
       "eng": "garbodor",
-      "jpn": "dustdas",
+      "jpn": "dasutodasu",
       "jpn_ro": "dustdas"
     },
     "gen-7": {
@@ -17881,7 +17897,7 @@
     },
     "slug": {
       "eng": "zorua",
-      "jpn": "zorua",
+      "jpn": "zoroa",
       "jpn_ro": "zorua"
     },
     "gen-7": {
@@ -17910,7 +17926,7 @@
     },
     "slug": {
       "eng": "zoroark",
-      "jpn": "zoroark",
+      "jpn": "zoroa-ku",
       "jpn_ro": "zoroark"
     },
     "gen-7": {
@@ -17939,7 +17955,7 @@
     },
     "slug": {
       "eng": "minccino",
-      "jpn": "chillarmy",
+      "jpn": "chira-mi",
       "jpn_ro": "chillarmy"
     },
     "gen-7": {
@@ -17968,7 +17984,7 @@
     },
     "slug": {
       "eng": "cinccino",
-      "jpn": "chillaccino",
+      "jpn": "chirachi-no",
       "jpn_ro": "chillaccino"
     },
     "gen-7": {
@@ -17997,7 +18013,7 @@
     },
     "slug": {
       "eng": "gothita",
-      "jpn": "gothimu",
+      "jpn": "gochimu",
       "jpn_ro": "gothimu"
     },
     "gen-7": {
@@ -18026,7 +18042,7 @@
     },
     "slug": {
       "eng": "gothorita",
-      "jpn": "gothimiru",
+      "jpn": "gochimiru",
       "jpn_ro": "gothimiru"
     },
     "gen-7": {
@@ -18055,7 +18071,7 @@
     },
     "slug": {
       "eng": "gothitelle",
-      "jpn": "gothiruselle",
+      "jpn": "gochiruzeru",
       "jpn_ro": "gothiruselle"
     },
     "gen-7": {
@@ -18084,7 +18100,7 @@
     },
     "slug": {
       "eng": "solosis",
-      "jpn": "uniran",
+      "jpn": "yuniran",
       "jpn_ro": "uniran"
     },
     "gen-7": {
@@ -18113,7 +18129,7 @@
     },
     "slug": {
       "eng": "duosion",
-      "jpn": "doublan",
+      "jpn": "daburan",
       "jpn_ro": "doublan"
     },
     "gen-7": {
@@ -18142,7 +18158,7 @@
     },
     "slug": {
       "eng": "reuniclus",
-      "jpn": "lanculus",
+      "jpn": "rankurusu",
       "jpn_ro": "lanculus"
     },
     "gen-7": {
@@ -18171,7 +18187,7 @@
     },
     "slug": {
       "eng": "ducklett",
-      "jpn": "koaruhie",
+      "jpn": "koaruhi-",
       "jpn_ro": "koaruhie"
     },
     "gen-7": {
@@ -18200,7 +18216,7 @@
     },
     "slug": {
       "eng": "swanna",
-      "jpn": "swanna",
+      "jpn": "suwanna",
       "jpn_ro": "swanna"
     },
     "gen-7": {
@@ -18229,7 +18245,7 @@
     },
     "slug": {
       "eng": "vanillite",
-      "jpn": "vanipeti",
+      "jpn": "baniputchi",
       "jpn_ro": "vanipeti"
     },
     "gen-7": {
@@ -18258,7 +18274,7 @@
     },
     "slug": {
       "eng": "vanillish",
-      "jpn": "vanirich",
+      "jpn": "baniritchi",
       "jpn_ro": "vanirich"
     },
     "gen-7": {
@@ -18287,7 +18303,7 @@
     },
     "slug": {
       "eng": "vanilluxe",
-      "jpn": "baivanilla",
+      "jpn": "baibanira",
       "jpn_ro": "baivanilla"
     },
     "gen-7": {
@@ -18492,7 +18508,7 @@
     },
     "slug": {
       "eng": "escavalier",
-      "jpn": "chevargo",
+      "jpn": "shubarugo",
       "jpn_ro": "chevargo"
     },
     "gen-7": {
@@ -18579,7 +18595,7 @@
     },
     "slug": {
       "eng": "frillish",
-      "jpn": "pururill",
+      "jpn": "pururiru",
       "jpn_ro": "pururill"
     },
     "gen-7": {
@@ -18609,7 +18625,7 @@
     },
     "slug": {
       "eng": "jellicent",
-      "jpn": "burungel",
+      "jpn": "burungeru",
       "jpn_ro": "burungel"
     },
     "gen-7": {
@@ -18697,7 +18713,7 @@
     },
     "slug": {
       "eng": "galvantula",
-      "jpn": "dentula",
+      "jpn": "denchura",
       "jpn_ro": "dentula"
     },
     "gen-7": {
@@ -18726,7 +18742,7 @@
     },
     "slug": {
       "eng": "ferroseed",
-      "jpn": "tesseed",
+      "jpn": "tesshi-do",
       "jpn_ro": "tesseed"
     },
     "gen-7": {
@@ -18755,7 +18771,7 @@
     },
     "slug": {
       "eng": "ferrothorn",
-      "jpn": "nutrey",
+      "jpn": "nattorei",
       "jpn_ro": "nutrey"
     },
     "gen-7": {
@@ -18900,7 +18916,7 @@
     },
     "slug": {
       "eng": "eelektrik",
-      "jpn": "shibibeel",
+      "jpn": "shibibi-ru",
       "jpn_ro": "shibibeel"
     },
     "gen-7": {
@@ -18958,7 +18974,7 @@
     },
     "slug": {
       "eng": "elgyem",
-      "jpn": "ligray",
+      "jpn": "rigure-",
       "jpn_ro": "ligray"
     },
     "gen-7": {
@@ -18987,7 +19003,7 @@
     },
     "slug": {
       "eng": "beheeyem",
-      "jpn": "ohbem",
+      "jpn": "o-bemu",
       "jpn_ro": "ohbem"
     },
     "gen-7": {
@@ -19045,7 +19061,7 @@
     },
     "slug": {
       "eng": "lampent",
-      "jpn": "lampler",
+      "jpn": "ranpura-",
       "jpn_ro": "lampler"
     },
     "gen-7": {
@@ -19074,7 +19090,7 @@
     },
     "slug": {
       "eng": "chandelure",
-      "jpn": "chandela",
+      "jpn": "shandera",
       "jpn_ro": "chandela"
     },
     "gen-7": {
@@ -19161,7 +19177,7 @@
     },
     "slug": {
       "eng": "haxorus",
-      "jpn": "ononokus",
+      "jpn": "ononokusu",
       "jpn_ro": "ononokus"
     },
     "gen-7": {
@@ -19190,7 +19206,7 @@
     },
     "slug": {
       "eng": "cubchoo",
-      "jpn": "kumasyun",
+      "jpn": "kumashun",
       "jpn_ro": "kumasyun"
     },
     "gen-7": {
@@ -19219,7 +19235,7 @@
     },
     "slug": {
       "eng": "beartic",
-      "jpn": "tunbear",
+      "jpn": "tsunbea-",
       "jpn_ro": "tunbear"
     },
     "gen-7": {
@@ -19248,7 +19264,7 @@
     },
     "slug": {
       "eng": "cryogonal",
-      "jpn": "freegeo",
+      "jpn": "furi-jio",
       "jpn_ro": "freegeo"
     },
     "gen-7": {
@@ -19262,7 +19278,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -19306,7 +19322,7 @@
     },
     "slug": {
       "eng": "accelgor",
-      "jpn": "agilder",
+      "jpn": "agiruda-",
       "jpn_ro": "agilder"
     },
     "gen-7": {
@@ -19367,7 +19383,7 @@
     },
     "slug": {
       "eng": "mienfoo",
-      "jpn": "kojofu",
+      "jpn": "kojofu-",
       "jpn_ro": "kojofu"
     },
     "gen-7": {
@@ -19425,7 +19441,7 @@
     },
     "slug": {
       "eng": "druddigon",
-      "jpn": "crimgan",
+      "jpn": "kurimugan",
       "jpn_ro": "crimgan"
     },
     "gen-7": {
@@ -19454,7 +19470,7 @@
     },
     "slug": {
       "eng": "golett",
-      "jpn": "gobit",
+      "jpn": "gobitto",
       "jpn_ro": "gobit"
     },
     "gen-7": {
@@ -19483,7 +19499,7 @@
     },
     "slug": {
       "eng": "golurk",
-      "jpn": "goloog",
+      "jpn": "goru-gu",
       "jpn_ro": "goloog"
     },
     "gen-7": {
@@ -19570,7 +19586,7 @@
     },
     "slug": {
       "eng": "bouffalant",
-      "jpn": "buffron",
+      "jpn": "baffuron",
       "jpn_ro": "buffron"
     },
     "gen-7": {
@@ -19628,7 +19644,7 @@
     },
     "slug": {
       "eng": "braviary",
-      "jpn": "warrgle",
+      "jpn": "wo-guru",
       "jpn_ro": "warrgle"
     },
     "gen-7": {
@@ -19657,7 +19673,7 @@
     },
     "slug": {
       "eng": "vullaby",
-      "jpn": "valchai",
+      "jpn": "baruchai",
       "jpn_ro": "valchai"
     },
     "gen-7": {
@@ -19686,7 +19702,7 @@
     },
     "slug": {
       "eng": "mandibuzz",
-      "jpn": "vulgina",
+      "jpn": "baruji-na",
       "jpn_ro": "vulgina"
     },
     "gen-7": {
@@ -19744,7 +19760,7 @@
     },
     "slug": {
       "eng": "durant",
-      "jpn": "aiant",
+      "jpn": "aianto",
       "jpn_ro": "aiant"
     },
     "gen-7": {
@@ -19802,7 +19818,7 @@
     },
     "slug": {
       "eng": "zweilous",
-      "jpn": "dihead",
+      "jpn": "jiheddo",
       "jpn_ro": "dihead"
     },
     "gen-7": {
@@ -19860,7 +19876,7 @@
     },
     "slug": {
       "eng": "larvesta",
-      "jpn": "merlarva",
+      "jpn": "meraruba",
       "jpn_ro": "merlarva"
     },
     "gen-7": {
@@ -19889,7 +19905,7 @@
     },
     "slug": {
       "eng": "volcarona",
-      "jpn": "ulgamoth",
+      "jpn": "urugamosu",
       "jpn_ro": "ulgamoth"
     },
     "gen-7": {
@@ -19918,7 +19934,7 @@
     },
     "slug": {
       "eng": "cobalion",
-      "jpn": "cobalon",
+      "jpn": "kobaruon",
       "jpn_ro": "cobalon"
     },
     "gen-7": {
@@ -19947,7 +19963,7 @@
     },
     "slug": {
       "eng": "terrakion",
-      "jpn": "terrakion",
+      "jpn": "terakion",
       "jpn_ro": "terrakion"
     },
     "gen-7": {
@@ -19976,7 +19992,7 @@
     },
     "slug": {
       "eng": "virizion",
-      "jpn": "virizion",
+      "jpn": "birijion",
       "jpn_ro": "virizion"
     },
     "gen-7": {
@@ -20005,7 +20021,7 @@
     },
     "slug": {
       "eng": "tornadus",
-      "jpn": "tornelos",
+      "jpn": "torunerosu",
       "jpn_ro": "tornelos"
     },
     "gen-7": {
@@ -20028,14 +20044,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20050,7 +20066,7 @@
     },
     "slug": {
       "eng": "thundurus",
-      "jpn": "voltolos",
+      "jpn": "borutorosu",
       "jpn_ro": "voltolos"
     },
     "gen-7": {
@@ -20073,14 +20089,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20095,7 +20111,7 @@
     },
     "slug": {
       "eng": "reshiram",
-      "jpn": "reshiram",
+      "jpn": "reshiramu",
       "jpn_ro": "reshiram"
     },
     "gen-7": {
@@ -20124,7 +20140,7 @@
     },
     "slug": {
       "eng": "zekrom",
-      "jpn": "zekrom",
+      "jpn": "zekuromu",
       "jpn_ro": "zekrom"
     },
     "gen-7": {
@@ -20153,7 +20169,7 @@
     },
     "slug": {
       "eng": "landorus",
-      "jpn": "landlos",
+      "jpn": "randorosu",
       "jpn_ro": "landlos"
     },
     "gen-7": {
@@ -20176,14 +20192,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "incarnate": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "therian": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20198,7 +20214,7 @@
     },
     "slug": {
       "eng": "kyurem",
-      "jpn": "kyurem",
+      "jpn": "kyuremu",
       "jpn_ro": "kyurem"
     },
     "gen-7": {
@@ -20241,7 +20257,7 @@
     },
     "slug": {
       "eng": "keldeo",
-      "jpn": "keldeo",
+      "jpn": "kerudio",
       "jpn_ro": "keldeo"
     },
     "gen-7": {
@@ -20286,7 +20302,7 @@
     },
     "slug": {
       "eng": "meloetta",
-      "jpn": "meloetta",
+      "jpn": "meroetta",
       "jpn_ro": "meloetta"
     },
     "gen-7": {
@@ -20331,7 +20347,7 @@
     },
     "slug": {
       "eng": "genesect",
-      "jpn": "genesect",
+      "jpn": "genosekuto",
       "jpn_ro": "genesect"
     },
     "gen-7": {
@@ -20365,22 +20381,23 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "burn": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "chill": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "douse": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "shock": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "standard": {
-          "is_prev_gen_icon": true
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -20424,7 +20441,7 @@
     },
     "slug": {
       "eng": "quilladin",
-      "jpn": "hariborg",
+      "jpn": "haribo-gu",
       "jpn_ro": "hariborg"
     },
     "gen-7": {
@@ -20453,7 +20470,7 @@
     },
     "slug": {
       "eng": "chesnaught",
-      "jpn": "brigarron",
+      "jpn": "burigaron",
       "jpn_ro": "brigarron"
     },
     "gen-7": {
@@ -20511,7 +20528,7 @@
     },
     "slug": {
       "eng": "braixen",
-      "jpn": "tairenar",
+      "jpn": "te-runa-",
       "jpn_ro": "tairenar"
     },
     "gen-7": {
@@ -20540,7 +20557,7 @@
     },
     "slug": {
       "eng": "delphox",
-      "jpn": "mahoxy",
+      "jpn": "mafokushi-",
       "jpn_ro": "mahoxy"
     },
     "gen-7": {
@@ -20672,7 +20689,7 @@
     },
     "slug": {
       "eng": "bunnelby",
-      "jpn": "horubee",
+      "jpn": "horubi-",
       "jpn_ro": "horubee"
     },
     "gen-7": {
@@ -20701,7 +20718,7 @@
     },
     "slug": {
       "eng": "diggersby",
-      "jpn": "horudo",
+      "jpn": "horu-do",
       "jpn_ro": "horudo"
     },
     "gen-7": {
@@ -20788,7 +20805,7 @@
     },
     "slug": {
       "eng": "talonflame",
-      "jpn": "fiarrow",
+      "jpn": "faiaro-",
       "jpn_ro": "fiarrow"
     },
     "gen-7": {
@@ -21026,7 +21043,7 @@
     },
     "slug": {
       "eng": "spewpa",
-      "jpn": "kofuurai",
+      "jpn": "kofu-rai",
       "jpn_ro": "kofuurai"
     },
     "gen-7": {
@@ -21235,7 +21252,7 @@
     },
     "slug": {
       "eng": "vivillon",
-      "jpn": "viviyon",
+      "jpn": "bibiyon",
       "jpn_ro": "viviyon"
     },
     "gen-7": {
@@ -21465,7 +21482,7 @@
     },
     "slug": {
       "eng": "flabebe",
-      "jpn": "flabebe",
+      "jpn": "furabebe",
       "jpn_ro": "flabebe"
     },
     "gen-7": {
@@ -21531,7 +21548,7 @@
     },
     "slug": {
       "eng": "floette",
-      "jpn": "floette",
+      "jpn": "furaette",
       "jpn_ro": "floette"
     },
     "gen-7": {
@@ -21604,7 +21621,7 @@
     },
     "slug": {
       "eng": "florges",
-      "jpn": "florges",
+      "jpn": "fura-jesu",
       "jpn_ro": "florges"
     },
     "gen-7": {
@@ -21670,7 +21687,7 @@
     },
     "slug": {
       "eng": "skiddo",
-      "jpn": "meecle",
+      "jpn": "me-kuru",
       "jpn_ro": "meecle"
     },
     "gen-7": {
@@ -21699,7 +21716,7 @@
     },
     "slug": {
       "eng": "gogoat",
-      "jpn": "gogoat",
+      "jpn": "go-go-to",
       "jpn_ro": "gogoat"
     },
     "gen-7": {
@@ -21728,7 +21745,7 @@
     },
     "slug": {
       "eng": "pancham",
-      "jpn": "yancham",
+      "jpn": "yanchamu",
       "jpn_ro": "yancham"
     },
     "gen-7": {
@@ -21786,7 +21803,7 @@
     },
     "slug": {
       "eng": "furfrou",
-      "jpn": "trimmien",
+      "jpn": "torimian",
       "jpn_ro": "trimmien"
     },
     "gen-7": {
@@ -21887,7 +21904,7 @@
     },
     "slug": {
       "eng": "espurr",
-      "jpn": "nyasper",
+      "jpn": "nyasupa-",
       "jpn_ro": "nyasper"
     },
     "gen-7": {
@@ -21916,7 +21933,7 @@
     },
     "slug": {
       "eng": "meowstic",
-      "jpn": "nyaonix",
+      "jpn": "nyaonikusu",
       "jpn_ro": "nyaonix"
     },
     "gen-7": {
@@ -21975,7 +21992,7 @@
     },
     "slug": {
       "eng": "doublade",
-      "jpn": "nidangill",
+      "jpn": "nidangiru",
       "jpn_ro": "nidangill"
     },
     "gen-7": {
@@ -22004,7 +22021,7 @@
     },
     "slug": {
       "eng": "aegislash",
-      "jpn": "gillgard",
+      "jpn": "girugarudo",
       "jpn_ro": "gillgard"
     },
     "gen-7": {
@@ -22078,7 +22095,7 @@
     },
     "slug": {
       "eng": "aromatisse",
-      "jpn": "frefuwan",
+      "jpn": "furefuwan",
       "jpn_ro": "frefuwan"
     },
     "gen-7": {
@@ -22136,7 +22153,7 @@
     },
     "slug": {
       "eng": "slurpuff",
-      "jpn": "peroream",
+      "jpn": "perori-mu",
       "jpn_ro": "peroream"
     },
     "gen-7": {
@@ -22165,7 +22182,7 @@
     },
     "slug": {
       "eng": "inkay",
-      "jpn": "maaiika",
+      "jpn": "ma-i-ka",
       "jpn_ro": "maaiika"
     },
     "gen-7": {
@@ -22194,7 +22211,7 @@
     },
     "slug": {
       "eng": "malamar",
-      "jpn": "calamanero",
+      "jpn": "karamanero",
       "jpn_ro": "calamanero"
     },
     "gen-7": {
@@ -22252,7 +22269,7 @@
     },
     "slug": {
       "eng": "barbaracle",
-      "jpn": "gamenodes",
+      "jpn": "gamenodesu",
       "jpn_ro": "gamenodes"
     },
     "gen-7": {
@@ -22281,7 +22298,7 @@
     },
     "slug": {
       "eng": "skrelp",
-      "jpn": "kuzumo",
+      "jpn": "kuzumo-",
       "jpn_ro": "kuzumo"
     },
     "gen-7": {
@@ -22310,7 +22327,7 @@
     },
     "slug": {
       "eng": "dragalge",
-      "jpn": "dramidoro",
+      "jpn": "doramidoro",
       "jpn_ro": "dramidoro"
     },
     "gen-7": {
@@ -22368,7 +22385,7 @@
     },
     "slug": {
       "eng": "clawitzer",
-      "jpn": "bloster",
+      "jpn": "burosuta-",
       "jpn_ro": "bloster"
     },
     "gen-7": {
@@ -22426,7 +22443,7 @@
     },
     "slug": {
       "eng": "heliolisk",
-      "jpn": "elezard",
+      "jpn": "ereza-do",
       "jpn_ro": "elezard"
     },
     "gen-7": {
@@ -22455,7 +22472,7 @@
     },
     "slug": {
       "eng": "tyrunt",
-      "jpn": "chigoras",
+      "jpn": "chigorasu",
       "jpn_ro": "chigoras"
     },
     "gen-7": {
@@ -22484,7 +22501,7 @@
     },
     "slug": {
       "eng": "tyrantrum",
-      "jpn": "gachigoras",
+      "jpn": "gachigorasu",
       "jpn_ro": "gachigoras"
     },
     "gen-7": {
@@ -22498,7 +22515,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22513,7 +22530,7 @@
     },
     "slug": {
       "eng": "amaura",
-      "jpn": "amarus",
+      "jpn": "amarusu",
       "jpn_ro": "amarus"
     },
     "gen-7": {
@@ -22556,7 +22573,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -22571,7 +22588,7 @@
     },
     "slug": {
       "eng": "sylveon",
-      "jpn": "nymphia",
+      "jpn": "ninfia",
       "jpn_ro": "nymphia"
     },
     "gen-7": {
@@ -22600,7 +22617,7 @@
     },
     "slug": {
       "eng": "hawlucha",
-      "jpn": "luchabull",
+      "jpn": "ruchaburu",
       "jpn_ro": "luchabull"
     },
     "gen-7": {
@@ -22658,7 +22675,7 @@
     },
     "slug": {
       "eng": "carbink",
-      "jpn": "melecie",
+      "jpn": "mereshi-",
       "jpn_ro": "melecie"
     },
     "gen-7": {
@@ -22716,7 +22733,7 @@
     },
     "slug": {
       "eng": "sliggoo",
-      "jpn": "numeil",
+      "jpn": "numeiru",
       "jpn_ro": "numeil"
     },
     "gen-7": {
@@ -22745,7 +22762,7 @@
     },
     "slug": {
       "eng": "goodra",
-      "jpn": "numelgon",
+      "jpn": "numerugon",
       "jpn_ro": "numelgon"
     },
     "gen-7": {
@@ -22774,7 +22791,7 @@
     },
     "slug": {
       "eng": "klefki",
-      "jpn": "cleffy",
+      "jpn": "kureffi",
       "jpn_ro": "cleffy"
     },
     "gen-7": {
@@ -22803,7 +22820,7 @@
     },
     "slug": {
       "eng": "phantump",
-      "jpn": "bokurei",
+      "jpn": "bokure-",
       "jpn_ro": "bokurei"
     },
     "gen-7": {
@@ -22832,7 +22849,7 @@
     },
     "slug": {
       "eng": "trevenant",
-      "jpn": "ohrot",
+      "jpn": "o-rotto",
       "jpn_ro": "ohrot"
     },
     "gen-7": {
@@ -22861,7 +22878,7 @@
     },
     "slug": {
       "eng": "pumpkaboo",
-      "jpn": "bakeccha",
+      "jpn": "baketcha",
       "jpn_ro": "bakeccha"
     },
     "gen-7": {
@@ -22926,7 +22943,7 @@
     },
     "slug": {
       "eng": "gourgeist",
-      "jpn": "pumpjin",
+      "jpn": "panpujin",
       "jpn_ro": "pumpjin"
     },
     "gen-7": {
@@ -22991,7 +23008,7 @@
     },
     "slug": {
       "eng": "bergmite",
-      "jpn": "kachikohru",
+      "jpn": "kachiko-ru",
       "jpn_ro": "kachikohru"
     },
     "gen-7": {
@@ -23020,7 +23037,7 @@
     },
     "slug": {
       "eng": "avalugg",
-      "jpn": "crebase",
+      "jpn": "kurebe-su",
       "jpn_ro": "crebase"
     },
     "gen-7": {
@@ -23049,7 +23066,7 @@
     },
     "slug": {
       "eng": "noibat",
-      "jpn": "onbat",
+      "jpn": "onbatto",
       "jpn_ro": "onbat"
     },
     "gen-7": {
@@ -23078,7 +23095,7 @@
     },
     "slug": {
       "eng": "noivern",
-      "jpn": "onvern",
+      "jpn": "onba-n",
       "jpn_ro": "onvern"
     },
     "gen-7": {
@@ -23107,7 +23124,7 @@
     },
     "slug": {
       "eng": "xerneas",
-      "jpn": "xerneas",
+      "jpn": "zeruneasu",
       "jpn_ro": "xerneas"
     },
     "gen-7": {
@@ -23130,14 +23147,14 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "active": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "neutral": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23152,7 +23169,7 @@
     },
     "slug": {
       "eng": "yveltal",
-      "jpn": "yveltal",
+      "jpn": "iberutaru",
       "jpn_ro": "yveltal"
     },
     "gen-7": {
@@ -23166,7 +23183,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23181,7 +23198,7 @@
     },
     "slug": {
       "eng": "zygarde",
-      "jpn": "zygarde",
+      "jpn": "jigarude",
       "jpn_ro": "zygarde"
     },
     "gen-7": {
@@ -23208,17 +23225,17 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "10": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "50": {
           "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "complete": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23233,7 +23250,7 @@
     },
     "slug": {
       "eng": "diancie",
-      "jpn": "diancie",
+      "jpn": "dianshi-",
       "jpn_ro": "diancie"
     },
     "gen-7": {
@@ -23251,7 +23268,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         },
         "mega": {
           "is_prev_gen_icon": true
@@ -23269,7 +23286,7 @@
     },
     "slug": {
       "eng": "hoopa",
-      "jpn": "hoopa",
+      "jpn": "fu-pa",
       "jpn_ro": "hoopa"
     },
     "gen-7": {
@@ -23305,7 +23322,7 @@
     },
     "slug": {
       "eng": "volcanion",
-      "jpn": "volcanion",
+      "jpn": "borukenion",
       "jpn_ro": "volcanion"
     },
     "gen-7": {
@@ -23319,7 +23336,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -23334,7 +23351,7 @@
     },
     "slug": {
       "eng": "rowlet",
-      "jpn": "mokuroh",
+      "jpn": "mokuro-",
       "jpn_ro": "mokuroh"
     },
     "gen-7": {
@@ -23363,7 +23380,7 @@
     },
     "slug": {
       "eng": "dartrix",
-      "jpn": "fukuthrow",
+      "jpn": "fukusuro-",
       "jpn_ro": "fukuthrow"
     },
     "gen-7": {
@@ -23392,7 +23409,7 @@
     },
     "slug": {
       "eng": "decidueye",
-      "jpn": "junaiper",
+      "jpn": "junaipa-",
       "jpn_ro": "junaiper"
     },
     "gen-7": {
@@ -23421,7 +23438,7 @@
     },
     "slug": {
       "eng": "litten",
-      "jpn": "nyabby",
+      "jpn": "nyabi-",
       "jpn_ro": "nyabby"
     },
     "gen-7": {
@@ -23450,7 +23467,7 @@
     },
     "slug": {
       "eng": "torracat",
-      "jpn": "nyaheat",
+      "jpn": "nyahi-to",
       "jpn_ro": "nyaheat"
     },
     "gen-7": {
@@ -23537,7 +23554,7 @@
     },
     "slug": {
       "eng": "brionne",
-      "jpn": "osyamari",
+      "jpn": "oshamari",
       "jpn_ro": "osyamari"
     },
     "gen-7": {
@@ -23566,7 +23583,7 @@
     },
     "slug": {
       "eng": "primarina",
-      "jpn": "ashirene",
+      "jpn": "ashire-nu",
       "jpn_ro": "ashirene"
     },
     "gen-7": {
@@ -23682,7 +23699,7 @@
     },
     "slug": {
       "eng": "yungoos",
-      "jpn": "youngoose",
+      "jpn": "yangu-su",
       "jpn_ro": "youngoose"
     },
     "gen-7": {
@@ -23711,7 +23728,7 @@
     },
     "slug": {
       "eng": "gumshoos",
-      "jpn": "dekagoose",
+      "jpn": "dekagu-su",
       "jpn_ro": "dekagoose"
     },
     "gen-7": {
@@ -23778,7 +23795,7 @@
     },
     "slug": {
       "eng": "charjabug",
-      "jpn": "dendimushi",
+      "jpn": "dendjimushi",
       "jpn_ro": "dendimushi"
     },
     "gen-7": {
@@ -23807,7 +23824,7 @@
     },
     "slug": {
       "eng": "vikavolt",
-      "jpn": "kuwagannon",
+      "jpn": "kuwaganon",
       "jpn_ro": "kuwagannon"
     },
     "gen-7": {
@@ -23962,7 +23979,7 @@
     },
     "slug": {
       "eng": "cutiefly",
-      "jpn": "abuly",
+      "jpn": "aburi-",
       "jpn_ro": "abuly"
     },
     "gen-7": {
@@ -23991,7 +24008,7 @@
     },
     "slug": {
       "eng": "ribombee",
-      "jpn": "aburibbon",
+      "jpn": "aburibon",
       "jpn_ro": "aburibbon"
     },
     "gen-7": {
@@ -24067,7 +24084,7 @@
     },
     "slug": {
       "eng": "lycanroc",
-      "jpn": "lugarugan",
+      "jpn": "rugarugan",
       "jpn_ro": "lugarugan"
     },
     "gen-7": {
@@ -24347,7 +24364,7 @@
     },
     "slug": {
       "eng": "fomantis",
-      "jpn": "farikiri",
+      "jpn": "karikiri",
       "jpn_ro": "farikiri"
     },
     "gen-7": {
@@ -24376,7 +24393,7 @@
     },
     "slug": {
       "eng": "lurantis",
-      "jpn": "lalantes",
+      "jpn": "rarantesu",
       "jpn_ro": "lalantes"
     },
     "gen-7": {
@@ -24414,7 +24431,7 @@
     },
     "slug": {
       "eng": "morelull",
-      "jpn": "nemasyu",
+      "jpn": "nemashu",
       "jpn_ro": "nemasyu"
     },
     "gen-7": {
@@ -24443,7 +24460,7 @@
     },
     "slug": {
       "eng": "shiinotic",
-      "jpn": "mashade",
+      "jpn": "mashe-do",
       "jpn_ro": "mashade"
     },
     "gen-7": {
@@ -24501,7 +24518,7 @@
     },
     "slug": {
       "eng": "salazzle",
-      "jpn": "ennewt",
+      "jpn": "ennyu-to",
       "jpn_ro": "ennewt"
     },
     "gen-7": {
@@ -24655,7 +24672,7 @@
     },
     "slug": {
       "eng": "tsareena",
-      "jpn": "amajo",
+      "jpn": "ama-jo",
       "jpn_ro": "amajo"
     },
     "gen-7": {
@@ -24684,7 +24701,7 @@
     },
     "slug": {
       "eng": "comfey",
-      "jpn": "cuwawa",
+      "jpn": "kyuwawa-",
       "jpn_ro": "cuwawa"
     },
     "gen-7": {
@@ -24713,7 +24730,7 @@
     },
     "slug": {
       "eng": "oranguru",
-      "jpn": "yareyuutan",
+      "jpn": "yareyu-tan",
       "jpn_ro": "yareyuutan"
     },
     "gen-7": {
@@ -24742,7 +24759,7 @@
     },
     "slug": {
       "eng": "passimian",
-      "jpn": "nagetukesaru",
+      "jpn": "nagetsukesaru",
       "jpn_ro": "nagetukesaru"
     },
     "gen-7": {
@@ -24858,7 +24875,7 @@
     },
     "slug": {
       "eng": "palossand",
-      "jpn": "sirodethna",
+      "jpn": "shirodesuna",
       "jpn_ro": "sirodethna"
     },
     "gen-7": {
@@ -24916,7 +24933,7 @@
     },
     "slug": {
       "eng": "type-null",
-      "jpn": "type:null",
+      "jpn": "taipu:nuru",
       "jpn_ro": "type:null"
     },
     "gen-7": {
@@ -24945,7 +24962,7 @@
     },
     "slug": {
       "eng": "silvally",
-      "jpn": "silvady",
+      "jpn": "shiruvadi",
       "jpn_ro": "silvady"
     },
     "gen-7": {
@@ -25166,7 +25183,6 @@
         "green-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "green-meteor": {
@@ -25181,7 +25197,6 @@
         "indigo-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "indigo-meteor": {
@@ -25196,7 +25211,6 @@
         "orange-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "orange-meteor": {
@@ -25211,7 +25225,6 @@
         "red-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "red-meteor": {
@@ -25226,7 +25239,6 @@
         "violet-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "violet-meteor": {
@@ -25241,7 +25253,6 @@
         "yellow-gen7": {
           "has_female": false,
           "has_right": true,
-          "is_alias_of": "blue-gen7",
           "is_unofficial_icon": true
         },
         "yellow-meteor": {
@@ -25271,7 +25282,6 @@
           "is_prev_gen_icon": true
         },
         "green-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25283,7 +25293,6 @@
           "is_prev_gen_icon": true
         },
         "indigo-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25295,7 +25304,6 @@
           "is_prev_gen_icon": true
         },
         "orange-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25307,7 +25315,6 @@
           "is_prev_gen_icon": true
         },
         "red-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25319,7 +25326,6 @@
           "is_prev_gen_icon": true
         },
         "violet-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25331,7 +25337,6 @@
           "is_prev_gen_icon": true
         },
         "yellow-gen7": {
-          "is_alias_of": "blue-gen7",
           "is_prev_gen_icon": true,
           "is_unofficial_icon": true
         },
@@ -25381,7 +25386,7 @@
     },
     "slug": {
       "eng": "turtonator",
-      "jpn": "bakugames",
+      "jpn": "bakugamesu",
       "jpn_ro": "bakugames"
     },
     "gen-7": {
@@ -25551,7 +25556,7 @@
     },
     "slug": {
       "eng": "drampa",
-      "jpn": "jijilong",
+      "jpn": "jiji-ron",
       "jpn_ro": "jijilong"
     },
     "gen-7": {
@@ -25609,7 +25614,7 @@
     },
     "slug": {
       "eng": "jangmo-o",
-      "jpn": "jyarako",
+      "jpn": "jarako",
       "jpn_ro": "jyarako"
     },
     "gen-7": {
@@ -25638,7 +25643,7 @@
     },
     "slug": {
       "eng": "hakamo-o",
-      "jpn": "jyarango",
+      "jpn": "jarango",
       "jpn_ro": "jyarango"
     },
     "gen-7": {
@@ -25667,7 +25672,7 @@
     },
     "slug": {
       "eng": "kommo-o",
-      "jpn": "jyararanga",
+      "jpn": "jararanga",
       "jpn_ro": "jyararanga"
     },
     "gen-7": {
@@ -25719,7 +25724,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25748,7 +25753,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25763,7 +25768,7 @@
     },
     "slug": {
       "eng": "tapu-bulu",
-      "jpn": "kapu-bulul",
+      "jpn": "kapu-bururu",
       "jpn_ro": "kapu-bulul"
     },
     "gen-7": {
@@ -25777,7 +25782,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25806,7 +25811,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25821,7 +25826,7 @@
     },
     "slug": {
       "eng": "cosmog",
-      "jpn": "cosmog",
+      "jpn": "kosumoggu",
       "jpn_ro": "cosmog"
     },
     "gen-7": {
@@ -25850,7 +25855,7 @@
     },
     "slug": {
       "eng": "cosmoem",
-      "jpn": "cosmovum",
+      "jpn": "kosumoumu",
       "jpn_ro": "cosmovum"
     },
     "gen-7": {
@@ -25879,7 +25884,7 @@
     },
     "slug": {
       "eng": "solgaleo",
-      "jpn": "solgaleo",
+      "jpn": "sorugareo",
       "jpn_ro": "solgaleo"
     },
     "gen-7": {
@@ -25908,7 +25913,7 @@
     },
     "slug": {
       "eng": "lunala",
-      "jpn": "lunala",
+      "jpn": "runaa-ra",
       "jpn_ro": "lunala"
     },
     "gen-7": {
@@ -25937,7 +25942,7 @@
     },
     "slug": {
       "eng": "nihilego",
-      "jpn": "uturoid",
+      "jpn": "utsuroido",
       "jpn_ro": "uturoid"
     },
     "gen-7": {
@@ -25951,7 +25956,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25966,7 +25971,7 @@
     },
     "slug": {
       "eng": "buzzwole",
-      "jpn": "massivoon",
+      "jpn": "masshibu-n",
       "jpn_ro": "massivoon"
     },
     "gen-7": {
@@ -25980,7 +25985,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -25995,7 +26000,7 @@
     },
     "slug": {
       "eng": "pheromosa",
-      "jpn": "pheroache",
+      "jpn": "fero-che",
       "jpn_ro": "pheroache"
     },
     "gen-7": {
@@ -26009,7 +26014,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26024,7 +26029,7 @@
     },
     "slug": {
       "eng": "xurkitree",
-      "jpn": "denjyumoku",
+      "jpn": "denjumoku",
       "jpn_ro": "denjyumoku"
     },
     "gen-7": {
@@ -26038,7 +26043,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26067,7 +26072,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26082,7 +26087,7 @@
     },
     "slug": {
       "eng": "kartana",
-      "jpn": "kamiturugi",
+      "jpn": "kamitsurugi",
       "jpn_ro": "kamiturugi"
     },
     "gen-7": {
@@ -26096,7 +26101,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26111,7 +26116,7 @@
     },
     "slug": {
       "eng": "guzzlord",
-      "jpn": "akuziking",
+      "jpn": "akujikingu",
       "jpn_ro": "akuziking"
     },
     "gen-7": {
@@ -26125,7 +26130,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26140,7 +26145,7 @@
     },
     "slug": {
       "eng": "necrozma",
-      "jpn": "necrozma",
+      "jpn": "nekurozuma",
       "jpn_ro": "necrozma"
     },
     "gen-7": {
@@ -26190,7 +26195,7 @@
     },
     "slug": {
       "eng": "magearna",
-      "jpn": "magearna",
+      "jpn": "magiana",
       "jpn_ro": "magearna"
     },
     "gen-7": {
@@ -26226,7 +26231,7 @@
     },
     "slug": {
       "eng": "marshadow",
-      "jpn": "marshadow",
+      "jpn": "ma-shado-",
       "jpn_ro": "marshadow"
     },
     "gen-7": {
@@ -26264,7 +26269,7 @@
     },
     "slug": {
       "eng": "poipole",
-      "jpn": "bevenom",
+      "jpn": "bebenomu",
       "jpn_ro": "bevenom"
     },
     "gen-7": {
@@ -26293,7 +26298,7 @@
     },
     "slug": {
       "eng": "naganadel",
-      "jpn": "agoyon",
+      "jpn": "a-goyon",
       "jpn_ro": "agoyon"
     },
     "gen-7": {
@@ -26307,7 +26312,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26322,7 +26327,7 @@
     },
     "slug": {
       "eng": "stakataka",
-      "jpn": "tundetunde",
+      "jpn": "tsundetsunde",
       "jpn_ro": "tundetunde"
     },
     "gen-7": {
@@ -26336,7 +26341,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26351,7 +26356,7 @@
     },
     "slug": {
       "eng": "blacephalon",
-      "jpn": "zugadoon",
+      "jpn": "zugado-n",
       "jpn_ro": "zugadoon"
     },
     "gen-7": {
@@ -26365,7 +26370,7 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": false
         }
       }
     }
@@ -26409,7 +26414,7 @@
     },
     "slug": {
       "eng": "meltan",
-      "jpn": "meltan",
+      "jpn": "merutan",
       "jpn_ro": "meltan"
     },
     "gen-7": {
@@ -26438,7 +26443,7 @@
     },
     "slug": {
       "eng": "melmetal",
-      "jpn": "melmetal",
+      "jpn": "merumetaru",
       "jpn_ro": "melmetal"
     },
     "gen-7": {
@@ -26494,7 +26499,7 @@
     },
     "slug": {
       "eng": "thwackey",
-      "jpn": "bachinkey",
+      "jpn": "bachinki-",
       "jpn_ro": "bachinkey"
     },
     "gen-7": {
@@ -26517,7 +26522,7 @@
     },
     "slug": {
       "eng": "rillaboom",
-      "jpn": "gorirander",
+      "jpn": "goriranda-",
       "jpn_ro": "gorirander"
     },
     "gen-7": {
@@ -26543,7 +26548,7 @@
     },
     "slug": {
       "eng": "scorbunny",
-      "jpn": "hibanny",
+      "jpn": "hibani-",
       "jpn_ro": "hibanny"
     },
     "gen-7": {
@@ -26566,7 +26571,7 @@
     },
     "slug": {
       "eng": "raboot",
-      "jpn": "rabbifuto",
+      "jpn": "rabifutto",
       "jpn_ro": "rabbifuto"
     },
     "gen-7": {
@@ -26589,7 +26594,7 @@
     },
     "slug": {
       "eng": "cinderace",
-      "jpn": "aceburn",
+      "jpn": "e-suba-n",
       "jpn_ro": "aceburn"
     },
     "gen-7": {
@@ -26779,7 +26784,7 @@
     },
     "slug": {
       "eng": "corviknight",
-      "jpn": "armorga",
+      "jpn": "a-ma-gaa",
       "jpn_ro": "armorga"
     },
     "gen-7": {
@@ -26805,7 +26810,7 @@
     },
     "slug": {
       "eng": "blipbug",
-      "jpn": "sacchimushi",
+      "jpn": "satchimushi",
       "jpn_ro": "sacchimushi"
     },
     "gen-7": {
@@ -26828,7 +26833,7 @@
     },
     "slug": {
       "eng": "dottler",
-      "jpn": "redomushi",
+      "jpn": "redo-mushi",
       "jpn_ro": "redomushi"
     },
     "gen-7": {
@@ -26851,7 +26856,7 @@
     },
     "slug": {
       "eng": "orbeetle",
-      "jpn": "eolb",
+      "jpn": "iorubu",
       "jpn_ro": "eolb"
     },
     "gen-7": {
@@ -26900,7 +26905,7 @@
     },
     "slug": {
       "eng": "thievul",
-      "jpn": "foxly",
+      "jpn": "fokusurai",
       "jpn_ro": "foxly"
     },
     "gen-7": {
@@ -26969,7 +26974,7 @@
     },
     "slug": {
       "eng": "wooloo",
-      "jpn": "wooluu",
+      "jpn": "u-ru-",
       "jpn_ro": "wooluu"
     },
     "gen-7": {
@@ -26992,7 +26997,7 @@
     },
     "slug": {
       "eng": "dubwool",
-      "jpn": "baiwooluu",
+      "jpn": "baiu-ru-",
       "jpn_ro": "baiwooluu"
     },
     "gen-7": {
@@ -27087,7 +27092,7 @@
     },
     "slug": {
       "eng": "boltund",
-      "jpn": "pulsewan",
+      "jpn": "parusuwan",
       "jpn_ro": "pulsewan"
     },
     "gen-7": {
@@ -27182,7 +27187,7 @@
     },
     "slug": {
       "eng": "applin",
-      "jpn": "kajicchu",
+      "jpn": "kajitchu",
       "jpn_ro": "kajicchu"
     },
     "gen-7": {
@@ -27205,7 +27210,7 @@
     },
     "slug": {
       "eng": "flapple",
-      "jpn": "appryu",
+      "jpn": "appuryu-",
       "jpn_ro": "appryu"
     },
     "gen-7": {
@@ -27231,7 +27236,7 @@
     },
     "slug": {
       "eng": "appletun",
-      "jpn": "tarupple",
+      "jpn": "taruppuru",
       "jpn_ro": "tarupple"
     },
     "gen-7": {
@@ -27303,7 +27308,7 @@
     },
     "slug": {
       "eng": "cramorant",
-      "jpn": "uu",
+      "jpn": "uuu",
       "jpn_ro": "uu"
     },
     "gen-7": {
@@ -27332,7 +27337,7 @@
     },
     "slug": {
       "eng": "arrokuda",
-      "jpn": "sasikamasu",
+      "jpn": "sashikamasu",
       "jpn_ro": "sasikamasu"
     },
     "gen-7": {
@@ -27355,7 +27360,7 @@
     },
     "slug": {
       "eng": "barraskewda",
-      "jpn": "kamasujaw",
+      "jpn": "kamasujo-",
       "jpn_ro": "kamasujaw"
     },
     "gen-7": {
@@ -27378,7 +27383,7 @@
     },
     "slug": {
       "eng": "toxel",
-      "jpn": "eleson",
+      "jpn": "erezun",
       "jpn_ro": "eleson"
     },
     "gen-7": {
@@ -27401,7 +27406,7 @@
     },
     "slug": {
       "eng": "toxtricity",
-      "jpn": "strinder",
+      "jpn": "sutorinda-",
       "jpn_ro": "strinder"
     },
     "gen-7": {
@@ -27510,7 +27515,7 @@
     },
     "slug": {
       "eng": "grapploct",
-      "jpn": "otosupus",
+      "jpn": "otosupasu",
       "jpn_ro": "otosupus"
     },
     "gen-7": {
@@ -27556,7 +27561,7 @@
     },
     "slug": {
       "eng": "polteageist",
-      "jpn": "potdeath",
+      "jpn": "pottodesu",
       "jpn_ro": "potdeath"
     },
     "gen-7": {
@@ -27579,7 +27584,7 @@
     },
     "slug": {
       "eng": "hatenna",
-      "jpn": "mibrim",
+      "jpn": "miburimu",
       "jpn_ro": "mibrim"
     },
     "gen-7": {
@@ -27602,7 +27607,7 @@
     },
     "slug": {
       "eng": "hattrem",
-      "jpn": "tebrim",
+      "jpn": "teburimu",
       "jpn_ro": "tebrim"
     },
     "gen-7": {
@@ -27625,7 +27630,7 @@
     },
     "slug": {
       "eng": "hatterene",
-      "jpn": "brimuon",
+      "jpn": "burimuon",
       "jpn_ro": "brimuon"
     },
     "gen-7": {
@@ -27651,7 +27656,7 @@
     },
     "slug": {
       "eng": "impidimp",
-      "jpn": "beroba",
+      "jpn": "beroba-",
       "jpn_ro": "beroba"
     },
     "gen-7": {
@@ -27674,7 +27679,7 @@
     },
     "slug": {
       "eng": "morgrem",
-      "jpn": "gimoh",
+      "jpn": "gimo-",
       "jpn_ro": "gimoh"
     },
     "gen-7": {
@@ -27697,7 +27702,7 @@
     },
     "slug": {
       "eng": "grimmsnarl",
-      "jpn": "ohlonge",
+      "jpn": "o-ronge",
       "jpn_ro": "ohlonge"
     },
     "gen-7": {
@@ -27746,7 +27751,7 @@
     },
     "slug": {
       "eng": "perrserker",
-      "jpn": "nyaiking",
+      "jpn": "nyaikingu",
       "jpn_ro": "nyaiking"
     },
     "gen-7": {
@@ -27769,7 +27774,7 @@
     },
     "slug": {
       "eng": "cursola",
-      "jpn": "sunigoon",
+      "jpn": "sanigo-n",
       "jpn_ro": "sunigoon"
     },
     "gen-7": {
@@ -27792,7 +27797,7 @@
     },
     "slug": {
       "eng": "sirfetchd",
-      "jpn": "negigaknight",
+      "jpn": "negiganaito",
       "jpn_ro": "negigaknight"
     },
     "gen-7": {
@@ -27815,7 +27820,7 @@
     },
     "slug": {
       "eng": "mr-rime",
-      "jpn": "barrikohru",
+      "jpn": "barikooru",
       "jpn_ro": "barrikohru"
     },
     "gen-7": {
@@ -27838,7 +27843,7 @@
     },
     "slug": {
       "eng": "runerigus",
-      "jpn": "deathbarn",
+      "jpn": "desuba-n",
       "jpn_ro": "deathbarn"
     },
     "gen-7": {
@@ -27861,7 +27866,7 @@
     },
     "slug": {
       "eng": "milcery",
-      "jpn": "mahomil",
+      "jpn": "mahomiru",
       "jpn_ro": "mahomil"
     },
     "gen-7": {
@@ -27884,7 +27889,7 @@
     },
     "slug": {
       "eng": "alcremie",
-      "jpn": "mawhip",
+      "jpn": "mahoippu",
       "jpn_ro": "mawhip"
     },
     "gen-7": {
@@ -28190,7 +28195,7 @@
     },
     "slug": {
       "eng": "falinks",
-      "jpn": "tairetsu",
+      "jpn": "taire-tsu",
       "jpn_ro": "tairetsu"
     },
     "gen-7": {
@@ -28259,7 +28264,7 @@
     },
     "slug": {
       "eng": "frosmoth",
-      "jpn": "mothnow",
+      "jpn": "mosuno-",
       "jpn_ro": "mothnow"
     },
     "gen-7": {
@@ -28282,7 +28287,7 @@
     },
     "slug": {
       "eng": "stonjourner",
-      "jpn": "ishihengin",
+      "jpn": "ishihenjin",
       "jpn_ro": "ishihengin"
     },
     "gen-7": {
@@ -28305,7 +28310,7 @@
     },
     "slug": {
       "eng": "eiscue",
-      "jpn": "korippo",
+      "jpn": "koorippo",
       "jpn_ro": "korippo"
     },
     "gen-7": {
@@ -28335,7 +28340,7 @@
     },
     "slug": {
       "eng": "indeedee",
-      "jpn": "yessan",
+      "jpn": "iessan",
       "jpn_ro": "yessan"
     },
     "gen-7": {
@@ -28359,7 +28364,7 @@
     },
     "slug": {
       "eng": "morpeko",
-      "jpn": "morpeko",
+      "jpn": "morupeko",
       "jpn_ro": "morpeko"
     },
     "gen-7": {
@@ -28461,7 +28466,7 @@
     },
     "slug": {
       "eng": "arctozolt",
-      "jpn": "patchilldon",
+      "jpn": "patchirudon",
       "jpn_ro": "patchilldon"
     },
     "gen-7": {
@@ -28507,7 +28512,7 @@
     },
     "slug": {
       "eng": "arctovish",
-      "jpn": "uochilldon",
+      "jpn": "uochirudon",
       "jpn_ro": "uochilldon"
     },
     "gen-7": {
@@ -28530,7 +28535,7 @@
     },
     "slug": {
       "eng": "duraludon",
-      "jpn": "duraludon",
+      "jpn": "jurarudon",
       "jpn_ro": "duraludon"
     },
     "gen-7": {
@@ -28579,7 +28584,7 @@
     },
     "slug": {
       "eng": "drakloak",
-      "jpn": "doronch",
+      "jpn": "doronchi",
       "jpn_ro": "doronch"
     },
     "gen-7": {
@@ -28602,7 +28607,7 @@
     },
     "slug": {
       "eng": "dragapult",
-      "jpn": "dorapult",
+      "jpn": "doraparuto",
       "jpn_ro": "dorapult"
     },
     "gen-7": {
@@ -28625,7 +28630,7 @@
     },
     "slug": {
       "eng": "zacian",
-      "jpn": "zacian",
+      "jpn": "zashian",
       "jpn_ro": "zacian"
     },
     "gen-7": {
@@ -28685,7 +28690,7 @@
     },
     "slug": {
       "eng": "eternatus",
-      "jpn": "mugendina",
+      "jpn": "mugendaina",
       "jpn_ro": "mugendina"
     },
     "gen-7": {
@@ -28734,7 +28739,7 @@
     },
     "slug": {
       "eng": "urshifu",
-      "jpn": "wulaosu",
+      "jpn": "u-raosu",
       "jpn_ro": "wulaosu"
     },
     "gen-7": {
@@ -28767,7 +28772,7 @@
     },
     "slug": {
       "eng": "zarude",
-      "jpn": "zarude",
+      "jpn": "zaru-do",
       "jpn_ro": "zarude"
     },
     "gen-7": {
@@ -28778,6 +28783,127 @@
           "is_prev_gen_icon": false
         },
         "dada": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "894": {
+    "idx": "894",
+    "name": {
+      "eng": "Regieleki",
+      "chs": "雷吉艾勒奇",
+      "jpn": "レジエレキ",
+      "jpn_ro": "Regieleki"
+    },
+    "slug": {
+      "eng": "regieleki",
+      "jpn": "rejiereki",
+      "jpn_ro": "regieleki"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "895": {
+    "idx": "895",
+    "name": {
+      "eng": "Regidrago",
+      "chs": "雷吉鐸拉戈",
+      "jpn": "レジドラゴ",
+      "jpn_ro": "Regidrago"
+    },
+    "slug": {
+      "eng": "regidrago",
+      "jpn": "rejidorago",
+      "jpn_ro": "regidrago"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "896": {
+    "idx": "896",
+    "name": {
+      "eng": "Glastrier",
+      "chs": "雪暴馬",
+      "jpn": "ブリザポス",
+      "jpn_ro": "Blizzapos"
+    },
+    "slug": {
+      "eng": "glastrier",
+      "jpn": "burizaposu",
+      "jpn_ro": "blizzapos"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "897": {
+    "idx": "897",
+    "name": {
+      "eng": "Spectrier",
+      "chs": "靈幽馬",
+      "jpn": "レイスポス",
+      "jpn_ro": "Wraithpos"
+    },
+    "slug": {
+      "eng": "spectrier",
+      "jpn": "reisuposu",
+      "jpn_ro": "wraithpos"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "898": {
+    "idx": "898",
+    "name": {
+      "eng": "Calyrex",
+      "chs": "蕾冠王",
+      "jpn": "バドレックス",
+      "jpn_ro": "Budrex"
+    },
+    "slug": {
+      "eng": "calyrex",
+      "jpn": "badorekkusu",
+      "jpn_ro": "budrex"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false
+        },
+        "ice-rider": {
+          "is_prev_gen_icon": false
+        },
+        "shadow-rider": {
           "is_prev_gen_icon": false
         }
       }

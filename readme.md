@@ -1,4 +1,4 @@
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/pokesprite-images.svg)](https://badge.fury.io/js/pokesprite-images) ![Updated for](https://img.shields.io/badge/Updated%20for-Pok%C3%A9mon%20Sword%2FShield%20(Isle%20of%20Armor%20DLC)-blue)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/pokesprite-images.svg)](https://badge.fury.io/js/pokesprite-images) ![Updated for](https://img.shields.io/badge/Updated%20for-Pok%C3%A9mon%20Sword%2FShield%20(Crown%20Tundra%20DLC)-blue)
 
 # PokéSprite
 
@@ -47,7 +47,7 @@ Each entry in the `dex.json` file contains the following data (example):
   },
   "slug": {
     "eng": "charizard",
-    "jpn": "lizardon",
+    "jpn": "riza-don",
     "jpn_ro": "lizardon"
   },
   "gen-7": {
@@ -86,7 +86,7 @@ Each entry in the `dex.json` file contains the following data (example):
 // ...
 ```
 
-The **`jpn_ro`** item in the `name` and `slug` objects refers to the official romanization of the Pokémon's name, rather than a Hepburn transliteration. For example, アーボック is "Arbok", rather than "Ābokku".
+The `name` and `slug` objects contain the Pokémon's name in various languages, including a romanized version of the Japanese name. The **`jpn_ro`** item contains GAME FREAK's official rōmaji names that are mainly used in merchandise. For example, for カメール (Wartortle), the `jpn` slug is *"kame-ru"*, while the `jpn_ro` slug is *"kameil"*.
 
 The **`forms`** object contains a list of all sprites pertaining to a Pokémon. It always contains at least a `"$"` (dollar sign) value, which means the regular form or default sprite. Each form object can contain the following details:
 
@@ -95,7 +95,7 @@ The **`forms`** object contains a list of all sprites pertaining to a Pokémon.
 | `is_alias_of` | This form uses the sprite of another form and does not have its own image |
 | `is_unofficial_icon` | This sprite is not a verbatim original and has been edited in some way (e.g. *Pumpkaboo* and *Gourgeist*)† |
 | `is_unofficial_legacy_icon` | As above, but only for the smaller legacy 40×30 sprites (only used for *Melmetal*) |
-| `is_prev_gen_icon` | This sprite is actually from an earlier generation |
+| `is_prev_gen_icon` | This sprite is actually [from an earlier generation](docs/notes/unupdated-sprites.md) |
 | `has_right` | A unique right-facing sprite is available (e.g. *Roselia*—only for Gen 7 Pokémon) |
 | `has_female` | This Pokémon has visible gender differences (e.g. *Unfezant*) |
 | `has_unofficial_female_icon` | The female version of this Pokémon's sprite was custom made (e.g. *Pikachu*) |
