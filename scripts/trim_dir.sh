@@ -16,9 +16,14 @@ function check_prerequisites {
 }
 
 function trim {
-  # Note: adds a 1px transparent border before trimming to ensure that only transparent pixels are removed.
-  # Add e.g. "-border 2x2" right before the output (before PNG32:..) to add transparent padding.
-  magick convert "$1" -bordercolor none -border 1x1 -trim +repage PNG32:"$1"
+  # trim transparent pixels
+  echo "trimming $1"
+  convert "$1" -trim +repage "$1"
+#   magick mogrify -path "$1" -trim +repage -format png *.png
+  # add 3px border
+  convert "$1" -bordercolor transparent -border 3 "$1"
+#   mogrify -path fullpathto/temp2 -resize 60x60% -quality 60 -format jpg *.png
+#   magick mogrify -path $1 -bordercolor transparent -border 3 -format png *.png
 }
 
 function trim_dir {
