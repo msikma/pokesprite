@@ -48,6 +48,12 @@
   "item_0703": {
     "gen6": "key-item/adventure-rules"
   },
+  "item_0718": {
+    "gen3": "key-item/mach-bike-gen3"
+  },
+  "item_0719": {
+    "gen3": "key-item/acro-bike-gen3"
+  },
   "item_0728": {
     "gen3": "key-item/go-goggles-gen3"
   },
@@ -59,6 +65,12 @@
   },
   "item_0874": {
     "gen3": "key-item/silph-scope-gen3"
+  },
+  "item_0877": {
+    "gen3": "key-item/gold-teeth-gen3"
+  },
+  "item_0878": {
+    "gen3": "key-item/lift-key-gen3"
   },
   "item_1080": {
     "gen7": "key-item/fishing-rod-gen7"
