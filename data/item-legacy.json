@@ -6,10 +6,10 @@
     "gen7": "key-item/tm-case"
   },
   "item_0164": {
-    "gen3": "berry/razz-gen3"
+    "gen7": "berry/razz-gen7"
   },
   "item_0166": {
-    "gen3": "berry/nanab-gen3"
+    "gen7": "berry/nanab-gen7"
   },
   "item_0442": {
     "gen3": "key-item/town-map-gen3",
@@ -23,6 +23,7 @@
   },
   "item_0471": {
     "gen3": "key-item/dowsing-machine-gen3",
+    "gen4": "key-item/dowsing-machine-gen4",
     "gen5": "key-item/dowsing-machine-gen5"
   },
   "item_0475": {
@@ -48,6 +49,12 @@
   "item_0703": {
     "gen6": "key-item/adventure-rules"
   },
+  "item_0718": {
+    "gen3": "key-item/mach-bike-gen3"
+  },
+  "item_0719": {
+    "gen3": "key-item/acro-bike-gen3"
+  },
   "item_0728": {
     "gen3": "key-item/go-goggles-gen3"
   },
@@ -59,6 +66,12 @@
   },
   "item_0874": {
     "gen3": "key-item/silph-scope-gen3"
+  },
+  "item_0877": {
+    "gen3": "key-item/gold-teeth-gen3"
+  },
+  "item_0878": {
+    "gen3": "key-item/lift-key-gen3"
   },
   "item_1080": {
     "gen7": "key-item/fishing-rod-gen7"
