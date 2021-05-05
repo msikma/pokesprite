@@ -15,7 +15,7 @@
         "gen-4": "ribbon/ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -34,8 +34,8 @@
         "gen-8": "ribbon/gen8/alert-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -54,8 +54,8 @@
         "gen-8": "ribbon/gen8/alola-champion-ribbon.png"
       },
       "resolution": {
-        "gen-7": "1x",
-        "gen-8": "2x"
+        "gen-7": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -74,8 +74,8 @@
         "gen-8": "ribbon/gen8/artist-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -94,8 +94,8 @@
         "gen-8": "ribbon/gen8/battle-champion-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -114,8 +114,8 @@
         "gen-8": "ribbon/gen8/battle-memory-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -133,7 +133,7 @@
         "gen-6": "ribbon/battle-memory-ribbon-gold.png"
       },
       "resolution": {
-        "gen-6": "1x"
+        "gen-6": ["1x"]
       }
     },
     {
@@ -152,8 +152,8 @@
         "gen-8": "ribbon/gen8/battle-royal-master-ribbon.png"
       },
       "resolution": {
-        "gen-7": "1x",
-        "gen-8": "2x"
+        "gen-7": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -172,8 +172,8 @@
         "gen-8": "ribbon/gen8/battle-tree-great-ribbon.png"
       },
       "resolution": {
-        "gen-7": "1x",
-        "gen-8": "2x"
+        "gen-7": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -192,8 +192,8 @@
         "gen-8": "ribbon/gen8/battle-tree-master-ribbon.png"
       },
       "resolution": {
-        "gen-7": "1x",
-        "gen-8": "2x"
+        "gen-7": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -212,8 +212,8 @@
         "gen-8": "ribbon/gen8/beauty-master-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -231,7 +231,7 @@
         "gen-3": "ribbon/beauty-ribbon-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -249,7 +249,7 @@
         "gen-4": "ribbon/beauty-ribbon-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -267,7 +267,7 @@
         "gen-4": "ribbon/beauty-ribbon-great-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -285,7 +285,7 @@
         "gen-3": "ribbon/beauty-ribbon-hyper-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -303,7 +303,7 @@
         "gen-3": "ribbon/beauty-ribbon-master-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -321,7 +321,7 @@
         "gen-4": "ribbon/beauty-ribbon-master-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -339,7 +339,7 @@
         "gen-3": "ribbon/beauty-ribbon-super-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -357,7 +357,7 @@
         "gen-4": "ribbon/beauty-ribbon-ultra-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -376,8 +376,8 @@
         "gen-8": "ribbon/gen8/best-friends-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -396,8 +396,8 @@
         "gen-8": "ribbon/gen8/birthday-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -415,7 +415,7 @@
         "gen-4": "ribbon/blue-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -434,8 +434,8 @@
         "gen-8": "ribbon/gen8/careless-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -453,7 +453,7 @@
         "gen-4": "ribbon/carnival-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -472,8 +472,8 @@
         "gen-8": "ribbon/gen8/champion-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -492,8 +492,8 @@
         "gen-8": "ribbon/gen8/classic-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -512,8 +512,8 @@
         "gen-8": "ribbon/gen8/cleverness-master-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -532,8 +532,8 @@
         "gen-8": "ribbon/gen8/contest-memory-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -551,7 +551,7 @@
         "gen-6": "ribbon/contest-memory-ribbon-gold.png"
       },
       "resolution": {
-        "gen-6": "1x"
+        "gen-6": ["1x"]
       }
     },
     {
@@ -570,8 +570,8 @@
         "gen-8": "ribbon/gen8/contest-star-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -589,7 +589,7 @@
         "gen-3": "ribbon/cool-ribbon-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -607,7 +607,7 @@
         "gen-4": "ribbon/cool-ribbon-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -625,7 +625,7 @@
         "gen-4": "ribbon/cool-ribbon-great-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -643,7 +643,7 @@
         "gen-3": "ribbon/cool-ribbon-hyper-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -661,7 +661,7 @@
         "gen-3": "ribbon/cool-ribbon-master-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -679,7 +679,7 @@
         "gen-4": "ribbon/cool-ribbon-master-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -697,7 +697,7 @@
         "gen-3": "ribbon/cool-ribbon-super-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -715,7 +715,7 @@
         "gen-4": "ribbon/cool-ribbon-ultra-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -734,8 +734,8 @@
         "gen-8": "ribbon/gen8/coolness-master-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -754,8 +754,8 @@
         "gen-8": "ribbon/gen8/country-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -773,7 +773,7 @@
         "gen-3": "ribbon/cute-ribbon-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -791,7 +791,7 @@
         "gen-4": "ribbon/cute-ribbon-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -809,7 +809,7 @@
         "gen-4": "ribbon/cute-ribbon-great-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -827,7 +827,7 @@
         "gen-3": "ribbon/cute-ribbon-hyper-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -845,7 +845,7 @@
         "gen-3": "ribbon/cute-ribbon-master-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -863,7 +863,7 @@
         "gen-4": "ribbon/cute-ribbon-master-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -881,7 +881,7 @@
         "gen-3": "ribbon/cute-ribbon-super-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -899,7 +899,7 @@
         "gen-4": "ribbon/cute-ribbon-ultra-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -918,8 +918,8 @@
         "gen-8": "ribbon/gen8/cuteness-master-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -937,7 +937,7 @@
         "gen-4": "ribbon/double-ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -956,8 +956,8 @@
         "gen-8": "ribbon/gen8/downcast-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -976,8 +976,8 @@
         "gen-8": "ribbon/gen8/earth-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -996,8 +996,8 @@
         "gen-8": "ribbon/gen8/effort-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1016,8 +1016,8 @@
         "gen-8": "ribbon/gen8/event-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1036,8 +1036,8 @@
         "gen-8": "ribbon/gen8/expert-battler-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1055,7 +1055,7 @@
         "gen-4": "ribbon/festival-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1074,8 +1074,8 @@
         "gen-8": "ribbon/gen8/footprint-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1094,8 +1094,8 @@
         "gen-8": "ribbon/gen8/gorgeous-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1114,8 +1114,8 @@
         "gen-8": "ribbon/gen8/gorgeous-royal-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1133,7 +1133,7 @@
         "gen-4": "ribbon/great-ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1151,7 +1151,7 @@
         "gen-4": "ribbon/green-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1169,7 +1169,7 @@
         "gen-4": "ribbon/history-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1188,8 +1188,8 @@
         "gen-8": "ribbon/gen8/hoenn-champion-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1208,8 +1208,8 @@
         "gen-8": "ribbon/gen8/kalos-champion-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1227,7 +1227,7 @@
         "gen-3": "ribbon/land-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1246,8 +1246,8 @@
         "gen-8": "ribbon/gen8/legend-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1265,7 +1265,7 @@
         "gen-3": "ribbon/marine-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1283,7 +1283,7 @@
         "gen-4": "ribbon/multi-ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1302,8 +1302,8 @@
         "gen-8": "ribbon/gen8/national-champion-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1322,8 +1322,8 @@
         "gen-8": "ribbon/gen8/national-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1341,7 +1341,7 @@
         "gen-4": "ribbon/pair-ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1360,8 +1360,8 @@
         "gen-8": "ribbon/gen8/premier-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1380,8 +1380,8 @@
         "gen-8": "ribbon/gen8/record-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1399,7 +1399,7 @@
         "gen-4": "ribbon/red-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1418,8 +1418,8 @@
         "gen-8": "ribbon/gen8/regional-champion-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1438,8 +1438,8 @@
         "gen-8": "ribbon/gen8/relax-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1458,8 +1458,8 @@
         "gen-8": "ribbon/gen8/royal-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1478,8 +1478,8 @@
         "gen-8": "ribbon/gen8/shock-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1498,8 +1498,8 @@
         "gen-8": "ribbon/gen8/sinnoh-champion-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1518,8 +1518,8 @@
         "gen-8": "ribbon/gen8/skillful-battler-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1537,7 +1537,7 @@
         "gen-3": "ribbon/sky-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1555,7 +1555,7 @@
         "gen-3": "ribbon/smart-ribbon-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1573,7 +1573,7 @@
         "gen-4": "ribbon/smart-ribbon-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1591,7 +1591,7 @@
         "gen-4": "ribbon/smart-ribbon-great-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1609,7 +1609,7 @@
         "gen-3": "ribbon/smart-ribbon-hyper-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1627,7 +1627,7 @@
         "gen-4": "ribbon/smart-ribbon-master-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1645,7 +1645,7 @@
         "gen-3": "ribbon/smart-ribbon-master-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1663,7 +1663,7 @@
         "gen-3": "ribbon/smart-ribbon-super-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1681,7 +1681,7 @@
         "gen-4": "ribbon/smart-ribbon-ultra-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1700,8 +1700,8 @@
         "gen-8": "ribbon/gen8/smile-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1720,8 +1720,8 @@
         "gen-8": "ribbon/gen8/snooze-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x",
-        "gen-8": "2x"
+        "gen-4": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1740,8 +1740,8 @@
         "gen-8": "ribbon/gen8/souvenir-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1760,8 +1760,8 @@
         "gen-8": "ribbon/gen8/special-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1779,7 +1779,7 @@
         "gen-4": "ribbon/tough-ribbon-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1797,7 +1797,7 @@
         "gen-3": "ribbon/tough-ribbon-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1815,7 +1815,7 @@
         "gen-4": "ribbon/tough-ribbon-great-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1833,7 +1833,7 @@
         "gen-3": "ribbon/tough-ribbon-hyper-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1851,7 +1851,7 @@
         "gen-4": "ribbon/tough-ribbon-master-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1869,7 +1869,7 @@
         "gen-3": "ribbon/tough-ribbon-master-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1887,7 +1887,7 @@
         "gen-3": "ribbon/tough-ribbon-super-hoenn.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1905,7 +1905,7 @@
         "gen-4": "ribbon/tough-ribbon-ultra-sinnoh.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -1924,8 +1924,8 @@
         "gen-8": "ribbon/gen8/toughness-master-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1944,8 +1944,8 @@
         "gen-8": "ribbon/gen8/training-ribbon.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -1963,7 +1963,7 @@
         "gen-3": "ribbon/victory-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -1981,7 +1981,7 @@
         "gen-3": "ribbon/winning-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x"
+        "gen-3": ["1x"]
       }
     },
     {
@@ -2000,8 +2000,8 @@
         "gen-8": "ribbon/gen8/wishing-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -2019,7 +2019,7 @@
         "gen-4": "ribbon/world-ability-ribbon.png"
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -2038,8 +2038,8 @@
         "gen-8": "ribbon/gen8/world-champion-ribbon.png"
       },
       "resolution": {
-        "gen-5": "1x",
-        "gen-8": "2x"
+        "gen-5": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -2058,8 +2058,8 @@
         "gen-8": "ribbon/gen8/world-ribbon.png"
       },
       "resolution": {
-        "gen-3": "1x",
-        "gen-8": "2x"
+        "gen-3": ["1x"],
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -2077,7 +2077,7 @@
         "gen-8": "ribbon/gen8/galar-champion-ribbon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -2095,7 +2095,7 @@
         "gen-8": "ribbon/gen8/tower-master-ribbon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+8x8"]
       }
     },
     {
@@ -2113,7 +2113,7 @@
         "gen-8": "ribbon/gen8/master-rank-ribbon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+8x8"]
       }
     }
   ],
@@ -2129,8 +2129,8 @@
         "gen-8": "body-style/head-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2144,8 +2144,8 @@
         "gen-8": "body-style/head-legs-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2159,8 +2159,8 @@
         "gen-8": "body-style/fins-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2174,8 +2174,8 @@
         "gen-8": "body-style/insectoid-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2189,8 +2189,8 @@
         "gen-8": "body-style/quadruped-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2204,8 +2204,8 @@
         "gen-8": "body-style/wings-multiple-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2219,8 +2219,8 @@
         "gen-8": "body-style/multiple-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2234,8 +2234,8 @@
         "gen-8": "body-style/tentacles-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2249,8 +2249,8 @@
         "gen-8": "body-style/head-base-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2264,8 +2264,8 @@
         "gen-8": "body-style/bipedal-tailed-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2279,8 +2279,8 @@
         "gen-8": "body-style/bipedal-tailless-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2294,8 +2294,8 @@
         "gen-8": "body-style/wings-single-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2309,8 +2309,8 @@
         "gen-8": "body-style/serpentine-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2324,8 +2324,8 @@
         "gen-8": "body-style/head-arms-gen8.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-8": "2x"
+        "gen-6": ["1x"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     }
   ],
@@ -2351,7 +2351,7 @@
         "gen-8": "mark/lunchtime-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2375,7 +2375,7 @@
         "gen-8": "mark/sleepy-time-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2399,7 +2399,7 @@
         "gen-8": "mark/dusk-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2423,7 +2423,7 @@
         "gen-8": "mark/dawn-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2447,7 +2447,7 @@
         "gen-8": "mark/cloudy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2471,7 +2471,7 @@
         "gen-8": "mark/rainy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2495,7 +2495,7 @@
         "gen-8": "mark/stormy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2519,7 +2519,7 @@
         "gen-8": "mark/snowy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2543,7 +2543,7 @@
         "gen-8": "mark/blizzard-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2567,7 +2567,7 @@
         "gen-8": "mark/dry-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2591,7 +2591,7 @@
         "gen-8": "mark/sandstorm-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2615,7 +2615,7 @@
         "gen-8": "mark/misty-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2639,7 +2639,7 @@
         "gen-8": "mark/destiny-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2663,7 +2663,7 @@
         "gen-8": "mark/fishing-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2687,7 +2687,7 @@
         "gen-8": "mark/curry-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2711,7 +2711,7 @@
         "gen-8": "mark/rare-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2735,7 +2735,7 @@
         "gen-8": "mark/uncommon-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2759,7 +2759,7 @@
         "gen-8": "mark/rowdy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2783,7 +2783,7 @@
         "gen-8": "mark/absent-minded-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2807,7 +2807,7 @@
         "gen-8": "mark/jittery-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2831,7 +2831,7 @@
         "gen-8": "mark/excited-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2855,7 +2855,7 @@
         "gen-8": "mark/charismatic-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2879,7 +2879,7 @@
         "gen-8": "mark/calmness-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2903,7 +2903,7 @@
         "gen-8": "mark/intense-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2927,7 +2927,7 @@
         "gen-8": "mark/zoned-out-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2951,7 +2951,7 @@
         "gen-8": "mark/joyful-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2975,7 +2975,7 @@
         "gen-8": "mark/angry-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -2999,7 +2999,7 @@
         "gen-8": "mark/smiley-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3023,7 +3023,7 @@
         "gen-8": "mark/teary-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3047,7 +3047,7 @@
         "gen-8": "mark/upbeat-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3071,7 +3071,7 @@
         "gen-8": "mark/peeved-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3095,7 +3095,7 @@
         "gen-8": "mark/intellectual-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3119,7 +3119,7 @@
         "gen-8": "mark/ferocious-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3143,7 +3143,7 @@
         "gen-8": "mark/crafty-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3167,7 +3167,7 @@
         "gen-8": "mark/scowling-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3191,7 +3191,7 @@
         "gen-8": "mark/kindly-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3215,7 +3215,7 @@
         "gen-8": "mark/flustered-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3239,7 +3239,7 @@
         "gen-8": "mark/pumped-up-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3263,7 +3263,7 @@
         "gen-8": "mark/zero-energy-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3287,7 +3287,7 @@
         "gen-8": "mark/prideful-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3311,7 +3311,7 @@
         "gen-8": "mark/unsure-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3335,7 +3335,7 @@
         "gen-8": "mark/humble-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3359,7 +3359,7 @@
         "gen-8": "mark/thorny-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3383,7 +3383,7 @@
         "gen-8": "mark/vigor-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3407,7 +3407,7 @@
         "gen-8": "mark/slump-mark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     }
   ],
@@ -3426,7 +3426,7 @@
         ]
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -3443,7 +3443,7 @@
         ]
       },
       "resolution": {
-        "gen-4": "1x"
+        "gen-4": ["1x"]
       }
     },
     {
@@ -3458,8 +3458,8 @@
         "gen-7": "special-attribute/mega-evolution-sigil.png"
       },
       "resolution": {
-        "gen-6": "1x",
-        "gen-7": "1x"
+        "gen-6": ["1x"],
+        "gen-7": ["1x"]
       }
     },
     {
@@ -3473,7 +3473,7 @@
         "gen-8": "special-attribute/mega-evolution-sigil-hires.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "14x14+0x0"]
       }
     },
     {
@@ -3487,7 +3487,7 @@
         "gen-8": "special-attribute/gigantamax-icon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "15x12+0x0"]
       }
     }
   ],
@@ -3508,7 +3508,7 @@
         "gen-8": "type-logos/gen8/normal.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3527,7 +3527,7 @@
         "gen-8": "type-logos/gen8/fighting.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3546,7 +3546,7 @@
         "gen-8": "type-logos/gen8/flying.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3565,7 +3565,7 @@
         "gen-8": "type-logos/gen8/poison.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3584,7 +3584,7 @@
         "gen-8": "type-logos/gen8/ground.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3603,7 +3603,7 @@
         "gen-8": "type-logos/gen8/rock.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3622,7 +3622,7 @@
         "gen-8": "type-logos/gen8/bug.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3641,7 +3641,7 @@
         "gen-8": "type-logos/gen8/ghost.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3660,7 +3660,7 @@
         "gen-8": "type-logos/gen8/steel.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3679,7 +3679,7 @@
         "gen-8": "type-logos/gen8/fire.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3698,7 +3698,7 @@
         "gen-8": "type-logos/gen8/water.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3717,7 +3717,7 @@
         "gen-8": "type-logos/gen8/grass.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3736,7 +3736,7 @@
         "gen-8": "type-logos/gen8/electric.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3755,7 +3755,7 @@
         "gen-8": "type-logos/gen8/psychic.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3774,7 +3774,7 @@
         "gen-8": "type-logos/gen8/ice.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3793,7 +3793,7 @@
         "gen-8": "type-logos/gen8/dragon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3812,7 +3812,7 @@
         "gen-8": "type-logos/gen8/dark.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3831,7 +3831,7 @@
         "gen-8": "type-logos/gen8/fairy.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": ["2x", "32x32+0x0"]
       }
     }
   ],
@@ -3848,9 +3848,9 @@
         "gen-8": "types/gen8/normal.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3865,9 +3865,9 @@
         "gen-8": "types/gen8/fighting.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3882,9 +3882,9 @@
         "gen-8": "types/gen8/flying.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3899,9 +3899,9 @@
         "gen-8": "types/gen8/poison.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3916,9 +3916,9 @@
         "gen-8": "types/gen8/ground.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3933,9 +3933,9 @@
         "gen-8": "types/gen8/rock.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3950,9 +3950,9 @@
         "gen-8": "types/gen8/bug.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3967,9 +3967,9 @@
         "gen-8": "types/gen8/ghost.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -3984,9 +3984,9 @@
         "gen-8": "types/gen8/steel.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4001,9 +4001,9 @@
         "gen-8": "types/gen8/fire.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4018,9 +4018,9 @@
         "gen-8": "types/gen8/water.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4035,9 +4035,9 @@
         "gen-8": "types/gen8/grass.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4052,9 +4052,9 @@
         "gen-8": "types/gen8/electric.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4069,9 +4069,9 @@
         "gen-8": "types/gen8/psychic.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4086,9 +4086,9 @@
         "gen-8": "types/gen8/ice.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4103,9 +4103,9 @@
         "gen-8": "types/gen8/dragon.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4120,9 +4120,9 @@
         "gen-8": "types/gen8/dark.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     },
     {
@@ -4137,9 +4137,9 @@
         "gen-8": "types/gen8/fairy.png"
       },
       "resolution": {
-        "go": "2x",
-        "masters": "2x",
-        "gen-8": "2x"
+        "go": ["2x", "32x32+0x0"],
+        "masters": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "32x32+0x0"]
       }
     }
   ],
@@ -4156,9 +4156,9 @@
         "gen-4": "seals/gen4/move-physical.png"
       },
       "resolution": {
-        "home": "3x",
-        "gen-8": "2x",
-        "gen-4": "1x"
+        "home": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "24x16+0x0"],
+        "gen-4": ["1x"]
       }
     },
     {
@@ -4173,9 +4173,9 @@
         "gen-4": "seals/gen4/move-special.png"
       },
       "resolution": {
-        "home": "3x",
-        "gen-8": "2x",
-        "gen-4": "1x"
+        "home": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "24x16+0x0"],
+        "gen-4": ["1x"]
       }
     },
     {
@@ -4190,9 +4190,9 @@
         "gen-4": "seals/gen4/move-status.png"
       },
       "resolution": {
-        "home": "3x",
-        "gen-8": "2x",
-        "gen-4": "1x"
+        "home": ["2x", "32x32+0x0"],
+        "gen-8": ["2x", "24x16+0x0"],
+        "gen-4": ["1x"]
       }
     }
   ]
