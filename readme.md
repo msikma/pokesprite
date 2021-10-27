@@ -160,6 +160,7 @@ If your project uses PokéSprite and you'd like to be added to this list, feel f
 **Other Pokémon artwork related links:**
 
 * [Project Pokémon - Animated 3D sprites index](https://projectpokemon.org/docs/spriteindex_148/)
+* [Bulbapedia - List of game sprites](https://archives.bulbagarden.net/wiki/Category:Game_sprites) – contains many other graphics and icons not included in this project
 
 ## License
 
