@@ -151,6 +151,7 @@ For a better example of what many adjacent sprites look like with this setup, se
 * **[PikaSprite](https://github.com/arcanis/pikasprite)** – a different interface for PokéSprite sprites
 * **[DexTool](https://github.com/PoshoDev/DexTool)** – management tools for a Pokémon living Dex, shiny hunting and streaming
 * [Spinda Painter](https://msikma.github.io/spinda-spots/) – proof of concept for displaying accurate Spinda spots on its box sprite
+* [pokemonsay](https://github.com/HRKings/pokemonsay-newgenerations) – version of [cowsay](https://en.wikipedia.org/wiki/Cowsay) with Pokémon sprites
 * Many Google Sheets used by Pokémon traders
 
 If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues) to request it.
