@@ -151,8 +151,6 @@ For a better example of what many adjacent sprites look like with this setup, se
 * **[PikaSprite](https://github.com/arcanis/pikasprite)** – a different interface for PokéSprite sprites
 * **[DexTool](https://github.com/PoshoDev/DexTool)** – management tools for a Pokémon living Dex, shiny hunting and streaming
 * [Spinda Painter](https://msikma.github.io/spinda-spots/) – proof of concept for displaying accurate Spinda spots on its box sprite
-* [PokéDings](https://github.com/msikma/PokeDings) – webfont and SVG icons of special characters used in Pokémon nicknames
-* [PokéResources](https://github.com/msikma/pokeresources) – Various Pokémon image resources
 * Many Google Sheets used by Pokémon traders
 
 If your project uses PokéSprite and you'd like to be added to this list, feel free to [open an issue](https://github.com/msikma/pokesprite/issues) to request it.
@@ -161,6 +159,8 @@ If your project uses PokéSprite and you'd like to be added to this list, feel f
 
 * [Project Pokémon - Animated 3D sprites index](https://projectpokemon.org/docs/spriteindex_148/)
 * [Bulbapedia - List of game sprites](https://archives.bulbagarden.net/wiki/Category:Game_sprites) – contains many other graphics and icons not included in this project
+* [PokéDings](https://github.com/msikma/PokeDings) – webfont and SVG icons of special characters used in Pokémon nicknames
+* [PokéResources](https://github.com/msikma/pokeresources) – Various Pokémon image resources
 
 ## License
 
