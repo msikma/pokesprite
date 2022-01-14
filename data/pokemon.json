@@ -6543,14 +6543,18 @@
     "gen-7": {
       "forms": {
         "$": {
-          "has_female": false,
-          "has_right": false
+          "has_female": true,
+          "has_right": false,
+          "has_unofficial_female_icon": true
         }
       }
     },
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
+          "has_right": false,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": false
         }
       }
