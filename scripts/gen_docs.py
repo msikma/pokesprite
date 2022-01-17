@@ -35,6 +35,7 @@ DOCS_BASE_URL = 'https://msikma.github.io/pokesprite'
 REPO_BASE_URL = 'https://raw.githubusercontent.com/msikma/pokesprite/master'
 REPO_PACKAGE = f'{BASE_DIR}/package.json'
 DEX_SPRITE_DIR = { 7: f'{REPO_BASE_URL}/pokemon-gen7x', 8: f'{REPO_BASE_URL}/pokemon-gen8' }
+REPO_BASE_URL = 'file:///Users/msikma/Projects/pokesprite'
 
 # Text displayed for "empty" values (instead of an empty table cell)
 EMPTY_PLACEHOLDER = '–'
@@ -69,7 +70,7 @@ def generate_index_page(version, commit):
         <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" /></p>
         <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
         <h3>Legacy images</h3>
-        <p>As of Feb 2020, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
+        <p>As of Oct 2020, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC releases). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
         <p><strong>Archived versions of the legacy overview pages:</strong></p>
         <ul>
           %(old_links)s
