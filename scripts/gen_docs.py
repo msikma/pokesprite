@@ -35,7 +35,6 @@ DOCS_BASE_URL = 'https://msikma.github.io/pokesprite'
 REPO_BASE_URL = 'https://raw.githubusercontent.com/msikma/pokesprite/master'
 REPO_PACKAGE = f'{BASE_DIR}/package.json'
 DEX_SPRITE_DIR = { 7: f'{REPO_BASE_URL}/pokemon-gen7x', 8: f'{REPO_BASE_URL}/pokemon-gen8' }
-REPO_BASE_URL = 'file:///Users/msikma/Projects/pokesprite'
 
 # Text displayed for "empty" values (instead of an empty table cell)
 EMPTY_PLACEHOLDER = '–'
