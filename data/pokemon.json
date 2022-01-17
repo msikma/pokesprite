@@ -15553,7 +15553,7 @@
         "unknown": {
           "has_female": false,
           "has_right": false,
-          "is_alias_of": "$"
+          "is_unofficial_icon": true
         },
         "water": {
           "has_female": false,
@@ -15619,8 +15619,8 @@
           "is_prev_gen_icon": true
         },
         "unknown": {
-          "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         },
         "water": {
           "is_prev_gen_icon": true
@@ -27244,9 +27244,6 @@
     "gen-8": {
       "forms": {
         "$": {
-          "is_prev_gen_icon": false
-        },
-        "gmax": {
           "is_prev_gen_icon": false
         }
       }
