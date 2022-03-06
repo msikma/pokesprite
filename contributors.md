@@ -13,6 +13,8 @@ All shiny sprites were made by [@Dada78641](https://twitter.com/dada78641) excep
 
 The [alternate sizes for Pumpkaboo and Gourgeist](https://github.com/msikma/pokesprite/pull/27) were contributed by [@5310](https://github.com/5310). The [Alcremie form variations](https://twitter.com/mattgcn/status/1205639857567141889) were contributed by [@mattgcn](https://twitter.com/mattgcn). The [female version of Wobbuffet](https://github.com/msikma/pokesprite/issues/114) was contributed by [@jeroenpastoor](https://github.com/jeroenpastoor).
 
+The Pokémon Legends: Arceus sprite collection is taken from the [National Pokédex - Icon Dex](https://www.deviantart.com/pikafan2000/art/National-Pokedex-Version-Delta-Icon-Dex-824897934) project and its abundance of collaborators and contributors.
+
 Special thanks to [@koenigderluegner](https://github.com/koenigderluegner) for his help on the <i title="Pokémon Let's Go, Pikachu! and Let's Go, Eevee!">LP/LE</i> and <i title="Pokémon Sword and Shield">SW/SH</i> update (original and DLC) and for tagging all the new inventory sprites.
 
 Also, special thanks to anyone who reported issues, gave suggestions or sent in contributions.
