@@ -2007,6 +2007,10 @@
         "hisui": {
           "is_prev_gen_icon": false,
           "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -3315,6 +3319,10 @@
           "is_prev_gen_icon": true
         },
         "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
           "is_prev_gen_icon": false,
           "is_unofficial_icon": true
         }
@@ -17312,6 +17320,10 @@
         "hisui": {
           "is_prev_gen_icon": false,
           "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -23134,6 +23146,10 @@
           "is_prev_gen_icon": false
         },
         "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
           "is_prev_gen_icon": false,
           "is_unofficial_icon": true
         }
@@ -29039,6 +29055,10 @@
     "gen-8": {
       "forms": {
         "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "noble": {
           "is_prev_gen_icon": false,
           "is_unofficial_icon": true
         }
