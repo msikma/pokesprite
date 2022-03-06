@@ -17357,6 +17357,10 @@
         "red-striped": {
           "is_alias_of": "$",
           "is_prev_gen_icon": false
+        },
+        "white-striped": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
