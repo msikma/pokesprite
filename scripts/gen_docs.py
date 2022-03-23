@@ -69,7 +69,7 @@ def generate_index_page(version, commit):
         <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" /></p>
         <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
         <h3>Legacy images</h3>
-        <p>As of Oct 2020, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC releases). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
+        <p>As of Mar 2022, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC releases, and Pokémon Legends: Arceus). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
         <p><strong>Archived versions of the legacy overview pages:</strong></p>
         <ul>
           %(old_links)s
@@ -102,7 +102,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_
 
   if title is None and gen:
     title = 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else '')
-  
+
   main_info = '''
     <p>This table lists all inventory item sprites. These items are from the last several games and is up-to-date as of Pokémon Sword/Shield. The sprites are from Gen 3 through 8.</p>
     <p>All sprites are 32×32 in size. There are two sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites, and both are listed below.</p>
@@ -206,7 +206,7 @@ def run_cmd(cmd):
   return subprocess.check_output(cmd, cwd=BASE_DIR).strip().decode('utf-8')
 
 def write_file(filename, content):
-  with open(filename, 'wt') as file:
+  with open(filename, 'wt', encoding="utf8") as file:
     print(content, file=file)
 
 def docs_url(slug):
@@ -236,7 +236,7 @@ def read_repo_state():
 
 def read_json_file(file):
   '''Reads a single JSON and returns a dict'''
-  with open(file) as json_file:
+  with open(file, encoding="utf8") as json_file:
     return json.load(json_file)
 
 def read_data():
@@ -535,7 +535,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      
+
       buffer.append('<td class="image item type-icon-' + name_eng + '">' + \
         f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
         get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
@@ -582,7 +582,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       sprites_counter += 1
       row_n += 1
     buffer.append('</tbody>')
-  
+
   # Body styles
   buffer.append('<tbody>')
   buffer.append('<tr><th></th><th colspan="6" class="group" id="body-style">%s</th></tr>' % groups['body-style']['name']['eng'])
@@ -615,7 +615,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       sprites_counter += 1
       row_n += 1
     buffer.append('</tbody>')
-  
+
   buffer.append('<tfoot>')
   buffer.append('<tr>')
   buffer.append('''
@@ -657,7 +657,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
     if not item_dict.get(group):
       item_dict[group] = []
     item_dict[group].append({ 'name': name, 'id': id, 'linked': True })
-  
+
   for item, details in itm_unl.items():
     group, name = item.split('/')
     type = { 'name': name, 'id': None, 'linked': False, 'type': details['type'], 'dupe_id': details.get('of', {}).get('item_id') }

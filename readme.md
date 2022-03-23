@@ -12,7 +12,7 @@ These sprites can be used as individual files, or accessed programmatically usin
 
 ## Sprites and metadata
 
-This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8), including the DLC, are included. Item sprites are available with Gen 8 style white outlines and without.
+This project contains both Pokémon box sprites and item sprites. For Pokémon, both the old style sprites from *Pokémon Sun/Moon* (Gen 7) and the new style sprites from *Pokémon Sword/Shield* (Gen 8), including the DLC, are included, as well as a number of unofficial sprites for *Pokémon Legends: Arceus*. Item sprites are available with Gen 8 style white outlines and without.
 
 | Directory | Example | Size | Type | Description |
 |:----------|:-------:|:----------|:-----|:------------|
@@ -171,4 +171,4 @@ The sprite images are © Nintendo/Creatures Inc./GAME FREAK Inc.
 
 Everything else, and the programming code, is governed by the [MIT license](http://opensource.org/licenses/MIT).
 
-See [the contributors file](contributors.md) for further information.
+This project couldn't have been made without the help of numerous contributions from the community. See [the contributors file](contributors.md) for further information and full credits.
