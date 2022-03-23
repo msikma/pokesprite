@@ -29023,7 +29023,7 @@
     },
     "slug": {
       "eng": "wyrdeer",
-      "jpn": "",
+      "jpn": "ayashishi",
       "jpn_ro": "ayashishi"
     },
     "gen-7": {
@@ -29047,7 +29047,7 @@
     },
     "slug": {
       "eng": "kleavor",
-      "jpn": "",
+      "jpn": "basagiri",
       "jpn_ro": "basagiri"
     },
     "gen-7": {
@@ -29075,7 +29075,7 @@
     },
     "slug": {
       "eng": "ursaluna",
-      "jpn": "",
+      "jpn": "gachiguma",
       "jpn_ro": "gachiguma"
     },
     "gen-7": {
@@ -29099,7 +29099,7 @@
     },
     "slug": {
       "eng": "basculegion",
-      "jpn": "",
+      "jpn": "idaitou",
       "jpn_ro": "idaitou"
     },
     "gen-7": {
@@ -29121,12 +29121,12 @@
       "eng": "Sneasler",
       "chs": "大狃拉",
       "jpn": "オオニューラ",
-      "jpn_ro": "Oonyūra"
+      "jpn_ro": "Oonyula"
     },
     "slug": {
       "eng": "sneasler",
-      "jpn": "",
-      "jpn_ro": "0onyūra"
+      "jpn": "oonyu-ra",
+      "jpn_ro": "oonyula"
     },
     "gen-7": {
     },
@@ -29145,12 +29145,12 @@
       "eng": "Overqwil",
       "chs": "萬針魚",
       "jpn": "ハリーマン",
-      "jpn_ro": "Harīman"
+      "jpn_ro": "Hariman"
     },
     "slug": {
       "eng": "overqwil",
-      "jpn": "",
-      "jpn_ro": "harīman"
+      "jpn": "hari-man",
+      "jpn_ro": "hariman"
     },
     "gen-7": {
     },
@@ -29169,12 +29169,12 @@
       "eng": "Enamorus",
       "chs": "眷戀雲",
       "jpn": "ラブトロス",
-      "jpn_ro": "Rabutorosu"
+      "jpn_ro": "Rabutoros"
     },
     "slug": {
       "eng": "enamorus",
-      "jpn": "",
-      "jpn_ro": "rabutorosu"
+      "jpn": "rabutorosu",
+      "jpn_ro": "rabutoros"
     },
     "gen-7": {
     },
