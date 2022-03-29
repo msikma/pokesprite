@@ -152,6 +152,7 @@ For a better example of what many adjacent sprites look like with this setup, se
 * **[DexTool](https://github.com/PoshoDev/DexTool)** – management tools for a Pokémon living Dex, shiny hunting and streaming
 * [Spinda Painter](https://msikma.github.io/spinda-spots/) – proof of concept for displaying accurate Spinda spots on its box sprite
 * [pokemonsay](https://github.com/HRKings/pokemonsay-newgenerations) – version of [cowsay](https://en.wikipedia.org/wiki/Cowsay) with Pokémon sprites
+* [pokemonshow](https://github.com/eramdam/pokemonshow) – another project that shows Pokémon in the terminal
 * [Random Pokémon Generator](https://ptgigi.com/apps/pokemon/randomizer/) – generates Pokémon teams by a given list of filters
 * [Pokémon Type Swap Generator](https://ptgigi.com/apps/pokemon/typeswap/) – a Pokémon type swapping app
 * Many Google Sheets used by Pokémon traders
