@@ -79,7 +79,7 @@
 .markdown-body .pokesprite tbody tr.variable-height td {
   vertical-align: middle;
 }
-.markdown-body .pokesprite tbody attr span {
+.markdown-body .pokesprite tbody span[title] {
   border-bottom: 1px dotted var(--gh-black);
 }
 .markdown-body .pokesprite tbody th,

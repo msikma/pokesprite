@@ -66,8 +66,8 @@ def generate_index_page(version, commit):
         <h1 class="title">%(title_sprite)sPokéSprite</h1>
         <h2 class="subtitle">Database project of box and inventory sprites from the Pokémon core series games</h2>
         <ul class="menu">%(menu_links)s</ul>
-        <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" /></p>
-        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
+        <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" alt="" /></p>
+        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</p>
         <h3>Legacy images</h3>
         <p>As of Mar 2022, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC releases, and Pokémon Legends: Arceus). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
         <p><strong>Archived versions of the legacy overview pages:</strong></p>
@@ -136,7 +136,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_
         <h2 class="subtitle">Database project of box and inventory sprites from the Pokémon core series games</h2>
         <ul class="menu">%(menu_links)s</ul>
         %(main_info)s
-        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
+        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</p>
       </div>
       <table class="pokesprite">
         %(table_content)s
@@ -177,7 +177,7 @@ def get_title_venusaur():
 def wrap_in_html(content, title, version, commit, res_dir = '.'):
   return '''
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>PokéSprite%(title)s</title>
@@ -268,7 +268,7 @@ def get_pkm_form(form_name, form_alias, is_unofficial_icon, is_female, has_unoff
   if len(title):
     title = '; '.join(title)
     daggers = ''.join(daggers)
-    return f'<attr title="{title}"><span>{form_name}</span>{daggers}</attr>'
+    return f'<span title="{title}">{form_name}{daggers}</span>'
 
   return form_name
 
@@ -441,7 +441,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       desc_eng = desc.get('eng')
       desc_gen = desc.get('from_gen')
       desc_eng_esc = html.escape(desc_eng) if desc_eng else ''
-      name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>' if desc_eng else name_eng
+      name_eng_desc = f'<span title="{desc_eng_esc}">{name_eng}</span>' if desc_eng else name_eng
       row_n = 0
       files = item['files'].items()
       buffer.append('<tbody class="alternating">')
@@ -694,7 +694,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
       buffer.append(f'<td>{group}</td>')
       if expl:
         expl_esc = html.escape(expl)
-        buffer.append(f'<td class="item-id" colspan="2"><attr title="{expl_esc}"><span><code>{filename}</code></span>†</attr></td>')
+        buffer.append(f'<td class="item-id" colspan="2"><span title="{expl_esc}"><code>{filename}</code>†</span></td>')
       else:
         buffer.append(f'<td colspan="2" class="item-id"><code>{filename}</code></td>')
       buffer.append('</tr>')
