@@ -891,5 +891,16 @@
   "item_1603": "key-item/shaderoot-carrot",
   "item_1604": "other-item/dynite-ore",
   "item_1605": "key-item/carrot-seeds",
-  "item_1606": "other-item/ability-patch"
+  "item_1606": "other-item/ability-patch",
+  "item_1710^o": "ball/hisuian-poke",
+  "item_1711^o": "ball/hisuian-great",
+  "item_1712^o": "ball/hisuian-ultra",
+  "item_1713^o": "ball/feather",
+  "item_1746^o": "ball/wing",
+  "item_1747^o": "ball/jet",
+  "item_1748^o": "ball/hisuian-heavy",
+  "item_1749^o": "ball/leaden",
+  "item_1750^o": "ball/gigaton",
+  "item_1771^o": "ball/origin",
+  "item_1785^o": "ball/strange"
 }
