@@ -423,7 +423,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons and marks
-  for misc_set in ['ribbon', 'mark', 'special-attribute']:
+  for misc_set in ['ribbon', 'mark', 'special-attribute', 'origin-marks']:
     buffer.append('<tbody>')
     buffer.append('<tr><th></th><th colspan="6" class="group" id="%s">%s</th></tr>' % (misc_set, groups[misc_set]['name']['eng']))
     buffer.append('</tbody>')
@@ -453,8 +453,10 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
           count = get_counter()
           gen_n = get_gen_str(k)
           res = item['resolution'][k]
+          default_background_color = item.get("default-background-color", {}).get(k, None)
           retina_type = \
             'ribbon-gen8' if (res == '2x' and misc_set in ['ribbon', 'mark']) else \
+            'origin-mark' if (res == '2x' and misc_set in ['origin-marks']) else \
             None
           buffer.append('<tr class="variable-height">')
           buffer.append(f'<td>{count}</td>')
@@ -464,7 +466,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
             buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
             buffer.append(f'<td{rowspan}>{name_jpn}</td>')
             buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+          buffer.append('<td class="image item"' + (f' style="background-color: {default_background_color}" ' if default_background_color else "") + '>' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
             if gen_row_n == 0:

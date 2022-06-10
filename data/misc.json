@@ -3519,6 +3519,144 @@
       }
     }
   ],
+  "origin-marks": [
+    {
+      "name": {
+        "eng": "Game Boy Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 1,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/game-boy.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "(Blue) Pentagon Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 6,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/pentagon.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "Clover Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 7,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/clover.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "GO Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 7,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/go.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "Let's Go Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 7,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/lets-go.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "Galar Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 8,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/galar.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "Sinnoh Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 8,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/sinnoh-gen8.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    },
+    {
+      "name": {
+        "eng": "Hisui Mark",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 8,
+      "files": {
+        "legends-arceus": "origin-marks/legends-arceus/hisui.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
+      }
+    }
+  ],
   "type-logos": [
     {
       "name": {
