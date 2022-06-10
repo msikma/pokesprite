@@ -3489,6 +3489,34 @@
       "resolution": {
         "gen-8": "2x"
       }
+    },
+    {
+      "name": {
+        "eng": "Alpha Icon",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 8,
+      "files": {
+        "gen-8": "special-attribute/alpha-icon.png"
+      },
+      "resolution": {
+        "gen-8": "1x"
+      }
+    },
+    {
+      "name": {
+        "eng": "Shiny Stars",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 2,
+      "files": {
+        "gen-8": "special-attribute/shiny-stars.png"
+      },
+      "resolution": {
+        "gen-8": "1x"
+      }
     }
   ],
   "type-logos": [
