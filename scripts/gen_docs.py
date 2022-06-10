@@ -457,6 +457,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
           retina_type = \
             'ribbon-gen8' if (res == '2x' and misc_set in ['ribbon', 'mark']) else \
             'origin-mark' if (res == '2x' and misc_set in ['origin-marks']) else \
+            'special-attribute' if (res == '2x' and misc_set in ['special-attribute']) else \
             None
           buffer.append('<tr class="variable-height">')
           buffer.append(f'<td>{count}</td>')

@@ -3473,7 +3473,7 @@
         "gen-8": "special-attribute/mega-evolution-sigil-hires.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": "1x"
       }
     },
     {
@@ -3487,7 +3487,7 @@
         "gen-8": "special-attribute/gigantamax-icon.png"
       },
       "resolution": {
-        "gen-8": "2x"
+        "gen-8": "1x"
       }
     },
     {
@@ -3498,10 +3498,10 @@
       },
       "origin_gen": 8,
       "files": {
-        "gen-8": "special-attribute/alpha-icon.png"
+        "legends-arceus": "special-attribute/alpha-icon.png"
       },
       "resolution": {
-        "gen-8": "1x"
+        "legends-arceus": "2x"
       }
     },
     {
@@ -3512,10 +3512,24 @@
       },
       "origin_gen": 2,
       "files": {
-        "gen-8": "special-attribute/shiny-stars.png"
+        "legends-arceus": "special-attribute/shiny-stars.png"
       },
       "resolution": {
-        "gen-8": "1x"
+        "legends-arceus": "2x"
+      }
+    },
+    {
+      "name": {
+        "eng": "Move Mastery",
+        "jpn": "",
+        "jpn_ro": ""
+      },
+      "origin_gen": 8,
+      "files": {
+        "legends-arceus": "special-attribute/move-mastery.png"
+      },
+      "resolution": {
+        "legends-arceus": "2x"
       }
     }
   ],
