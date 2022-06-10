@@ -3502,13 +3502,21 @@
         "gen-8": [
           "#9099a1",
           "#4d5052"
+        ],
+        "legends-arceus": [
+          "#9099a1",
+          "#4d5052"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/normal.png"
+        "gen-8": "type-logos/gen8/normal.png",
+        "legends-arceus": "type-logos/legends-arceus/normal.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3521,13 +3529,21 @@
         "gen-8": [
           "#ce4069",
           "#58414a"
+        ] ,
+        "legends-arceus": [
+          "#ce4069",
+          "#58414a"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/fighting.png"
+        "gen-8": "type-logos/gen8/fighting.png",
+        "legends-arceus": "type-logos/legends-arceus/fighting.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3540,13 +3556,21 @@
         "gen-8": [
           "#8fa8dd",
           "#4d525a"
+        ],
+        "legends-arceus": [
+          "#8fa8dd",
+          "#4d525a"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/flying.png"
+        "gen-8": "type-logos/gen8/flying.png",
+        "legends-arceus": "type-logos/legends-arceus/flying.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3559,13 +3583,21 @@
         "gen-8": [
           "#ab6ac8",
           "#524958"
+        ],
+        "legends-arceus": [
+          "#ab6ac8",
+          "#524958"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/poison.png"
+        "gen-8": "type-logos/gen8/poison.png",
+        "legends-arceus": "type-logos/legends-arceus/poison.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3578,13 +3610,21 @@
         "gen-8": [
           "#d97746",
           "#5a4a42"
+        ],
+        "legends-arceus": [
+          "#d97746",
+          "#5a4a42"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/ground.png"
+        "gen-8": "type-logos/gen8/ground.png",
+        "legends-arceus": "type-logos/legends-arceus/ground.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3597,13 +3637,21 @@
         "gen-8": [
           "#c7b78b",
           "#585550"
+        ],
+        "legends-arceus": [
+          "#c7b78b",
+          "#585550"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/rock.png"
+        "gen-8": "type-logos/gen8/rock.png",
+        "legends-arceus": "type-logos/legends-arceus/rock.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3616,13 +3664,21 @@
         "gen-8": [
           "#90c12c",
           "#4d553f"
+        ],
+        "legends-arceus": [
+          "#90c12c",
+          "#4d553f"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/bug.png"
+        "gen-8": "type-logos/gen8/bug.png",
+        "legends-arceus": "type-logos/legends-arceus/bug.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3635,13 +3691,21 @@
         "gen-8": [
           "#5269ac",
           "#424952"
+        ],
+        "legends-arceus": [
+          "#5269ac",
+          "#424952"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/ghost.png"
+        "gen-8": "type-logos/gen8/ghost.png",
+        "legends-arceus": "type-logos/legends-arceus/ghost.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3654,13 +3718,21 @@
         "gen-8": [
           "#5a8ea1",
           "#454d52"
+        ],
+        "legends-arceus": [
+          "#5a8ea1",
+          "#454d52"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/steel.png"
+        "gen-8": "type-logos/gen8/steel.png",
+        "legends-arceus": "type-logos/legends-arceus/steel.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3673,13 +3745,21 @@
         "gen-8": [
           "#ff9c54",
           "#605045"
+        ],
+        "legends-arceus": [
+          "#ff9c54",
+          "#605045"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/fire.png"
+        "gen-8": "type-logos/gen8/fire.png",
+        "legends-arceus": "type-logos/legends-arceus/fire.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3692,13 +3772,21 @@
         "gen-8": [
           "#4d90d5",
           "#424e5a"
+        ],
+        "legends-arceus": [
+          "#4d90d5",
+          "#424e5a"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/water.png"
+        "gen-8": "type-logos/gen8/water.png",
+        "legends-arceus": "type-logos/legends-arceus/water.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3711,13 +3799,21 @@
         "gen-8": [
           "#63bb5b",
           "#455547"
+        ],
+        "legends-arceus": [
+          "#63bb5b",
+          "#455547"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/grass.png"
+        "gen-8": "type-logos/gen8/grass.png",
+        "legends-arceus": "type-logos/legends-arceus/grass.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3730,13 +3826,21 @@
         "gen-8": [
           "#f3d23b",
           "#5d5942"
+        ],
+        "legends-arceus": [
+          "#f3d23b",
+          "#5d5942"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/electric.png"
+        "gen-8": "type-logos/gen8/electric.png",
+        "legends-arceus": "type-logos/legends-arceus/electric.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3749,13 +3853,21 @@
         "gen-8": [
           "#f97176",
           "#5d494a"
+        ],
+        "legends-arceus": [
+          "#f97176",
+          "#5d494a"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/psychic.png"
+        "gen-8": "type-logos/gen8/psychic.png",
+        "legends-arceus": "type-logos/legends-arceus/psychic.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3768,13 +3880,21 @@
         "gen-8": [
           "#74cec0",
           "#475858"
+        ],
+        "legends-arceus": [
+          "#74cec0",
+          "#475858"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/ice.png"
+        "gen-8": "type-logos/gen8/ice.png",
+        "legends-arceus": "type-logos/legends-arceus/ice.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3787,13 +3907,21 @@
         "gen-8": [
           "#0a6dc4",
           "#374958"
+        ],
+        "legends-arceus": [
+          "#0a6dc4",
+          "#374958"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/dragon.png"
+        "gen-8": "type-logos/gen8/dragon.png",
+        "legends-arceus": "type-logos/legends-arceus/dragon.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3806,13 +3934,21 @@
         "gen-8": [
           "#5a5366",
           "#45454a"
+        ],
+        "legends-arceus": [
+          "#5a5366",
+          "#45454a"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/dark.png"
+        "gen-8": "type-logos/gen8/dark.png",
+        "legends-arceus": "type-logos/legends-arceus/dark.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     },
     {
@@ -3825,13 +3961,21 @@
         "gen-8": [
           "#ec8fe6",
           "#5d4e5d"
+        ],
+        "legends-arceus": [
+          "#ec8fe6",
+          "#5d4e5d"
         ]
       },
       "files": {
-        "gen-8": "type-logos/gen8/fairy.png"
+        "gen-8": "type-logos/gen8/fairy.png",
+        "legends-arceus": "type-logos/legends-arceus/fairy.png"
       },
       "resolution": {
         "gen-8": "2x"
+      },
+      "default-background-color": {
+        "legends-arceus": "#b3b3b3"
       }
     }
   ],

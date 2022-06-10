@@ -355,7 +355,7 @@ def get_img_node(url, name, form_name, type, retina_type = None):
   return f'<img class="{cls}" src="{url}" alt="{form_name}" />'
 
 def get_gen_str(str):
-  return str.capitalize() if 'gen-' not in str else ('Gen ' + str.split('-')[1])
+  return str.replace("-", " ").title()
 
 def reset_counter():
   '''Resets the global sprite counter'''
@@ -528,6 +528,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       gen_n = get_gen_str(k)
       colors = item['colors'][k]
       main_color = colors[0]
+      default_background_color = item.get("default-background-color", {}).get(k, None)
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -536,7 +537,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
 
-      buffer.append('<td class="image item type-icon-' + name_eng + '">' + \
+      buffer.append('<td class="image item type-icon-' + name_eng + '"' + (f' style="background-color: {default_background_color}" ' if default_background_color else "") + '>' + \
         f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
         get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
