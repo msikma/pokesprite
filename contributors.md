@@ -15,7 +15,7 @@ The [alternate sizes for Pumpkaboo and Gourgeist](https://github.com/msikma/poke
 
 The Pokémon Legends: Arceus sprite collection is taken from the [National Pokédex - Icon Dex](https://www.deviantart.com/pikafan2000/art/National-Pokedex-Version-Delta-Icon-Dex-824897934) project and its abundance of collaborators and contributors.
 
-Special thanks to [@koenigderluegner](https://github.com/koenigderluegner) for his help on the <i title="Pokémon Let's Go, Pikachu! and Let's Go, Eevee!">LP/LE</i> and <i title="Pokémon Sword and Shield">SW/SH</i> update (original and DLC) and for tagging all the new inventory sprites.
+Special thanks to [@koenigderluegner](https://github.com/koenigderluegner) for his help on various later additions, like the <i title="Pokémon Let's Go, Pikachu! and Let's Go, Eevee!">LP/LE</i> and <i title="Pokémon Sword and Shield">SW/SH</i> update (original and DLC) and the <i title="Pokémon HOME">HOME 2.0.0</i> update inventory items.
 
 Also, special thanks to anyone who reported issues, gave suggestions or sent in contributions.
 
