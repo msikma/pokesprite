@@ -3493,8 +3493,8 @@
     {
       "name": {
         "eng": "Alpha Icon",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "オヤブンマーク",
+        "jpn_ro": "Oyabun maaku"
       },
       "origin_gen": 8,
       "files": {
@@ -3507,8 +3507,8 @@
     {
       "name": {
         "eng": "Shiny Stars",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "星マーク",
+        "jpn_ro": "Hoshi maaku"
       },
       "origin_gen": 2,
       "files": {
@@ -3521,8 +3521,8 @@
     {
       "name": {
         "eng": "Move Mastery",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "皆伝マーク",
+        "jpn_ro": "Kaiden maaku"
       },
       "origin_gen": 8,
       "files": {
@@ -3537,8 +3537,8 @@
     {
       "name": {
         "eng": "Game Boy Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "ゲームボーイマーク",
+        "jpn_ro": "Gameboy maaku"
       },
       "origin_gen": 1,
       "files": {
@@ -3555,9 +3555,9 @@
     },
     {
       "name": {
-        "eng": "(Blue) Pentagon Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "eng": "Pentagon Mark",
+        "jpn": "カロスマーク",
+        "jpn_ro": "Kalos maaku"
       },
       "origin_gen": 6,
       "files": {
@@ -3575,8 +3575,8 @@
     {
       "name": {
         "eng": "Clover Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "アローラマーク",
+        "jpn_ro": "Alola maaku"
       },
       "origin_gen": 7,
       "files": {
@@ -3594,8 +3594,8 @@
     {
       "name": {
         "eng": "GO Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "GOマーク",
+        "jpn_ro": "GO maaku"
       },
       "origin_gen": 7,
       "files": {
@@ -3613,8 +3613,8 @@
     {
       "name": {
         "eng": "Let's Go Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "ピカブイマーク",
+        "jpn_ro": "Pikabui maaku"
       },
       "origin_gen": 7,
       "files": {
@@ -3632,8 +3632,8 @@
     {
       "name": {
         "eng": "Galar Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "ガラルマーク",
+        "jpn_ro": "Galar maaku"
       },
       "origin_gen": 8,
       "files": {
@@ -3651,8 +3651,8 @@
     {
       "name": {
         "eng": "Sinnoh Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "シンオウマーク",
+        "jpn_ro": "Sinnoh maaku"
       },
       "origin_gen": 8,
       "files": {
@@ -3670,8 +3670,8 @@
     {
       "name": {
         "eng": "Hisui Mark",
-        "jpn": "",
-        "jpn_ro": ""
+        "jpn": "ヒスイマーク",
+        "jpn_ro": "Hisui maaku"
       },
       "origin_gen": 8,
       "files": {
