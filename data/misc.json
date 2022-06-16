@@ -3542,10 +3542,12 @@
       },
       "origin_gen": 1,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/game-boy.png"
+        "legends-arceus": "origin-marks/legends-arceus/game-boy.png",
+        "home": "origin-marks/home/game-boy.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3559,10 +3561,12 @@
       },
       "origin_gen": 6,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/pentagon.png"
+        "legends-arceus": "origin-marks/legends-arceus/pentagon.png",
+        "home": "origin-marks/home/pentagon.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3576,10 +3580,12 @@
       },
       "origin_gen": 7,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/clover.png"
+        "legends-arceus": "origin-marks/legends-arceus/clover.png",
+        "home": "origin-marks/home/clover.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3593,10 +3599,12 @@
       },
       "origin_gen": 7,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/go.png"
+        "legends-arceus": "origin-marks/legends-arceus/go.png",
+        "home": "origin-marks/home/go.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3610,10 +3618,12 @@
       },
       "origin_gen": 7,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/lets-go.png"
+        "legends-arceus": "origin-marks/legends-arceus/lets-go.png",
+        "home": "origin-marks/home/lets-go.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3627,10 +3637,12 @@
       },
       "origin_gen": 8,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/galar.png"
+        "legends-arceus": "origin-marks/legends-arceus/galar.png",
+        "home": "origin-marks/home/galar.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3644,10 +3656,12 @@
       },
       "origin_gen": 8,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/sinnoh-gen8.png"
+        "legends-arceus": "origin-marks/legends-arceus/sinnoh-gen8.png",
+        "home": "origin-marks/home/sinnoh-gen8.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
@@ -3661,10 +3675,12 @@
       },
       "origin_gen": 8,
       "files": {
-        "legends-arceus": "origin-marks/legends-arceus/hisui.png"
+        "legends-arceus": "origin-marks/legends-arceus/hisui.png",
+        "home": "origin-marks/home/hisui.png"
       },
       "resolution": {
-        "legends-arceus": "2x"
+        "legends-arceus": "2x",
+        "home": "2x"
       },
       "default-background-color": {
         "legends-arceus": "#b3b3b3"
