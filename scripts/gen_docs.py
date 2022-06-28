@@ -172,7 +172,7 @@ def get_menu_links(curr_page):
   return ''.join(menu_links)
 
 def get_title_venusaur():
-  return get_img_node(get_pkm_url(DEX_SPRITE_DIR[8], 'venusaur', True, False, False), None, 'Shiny Venusaur', 'p')
+  return get_img_node(get_pkm_url(DEX_SPRITE_DIR[8], 'venusaur', True, False, False), None, 'Shiny Venusaur', 'p', '1x')
 
 def wrap_in_html(content, title, version, commit, res_dir = '.'):
   return '''
@@ -348,11 +348,31 @@ def get_td_node(td):
   attr = ' class="image"' if str(td)[:4] == '<img' else ''
   return f'<td{attr}>{td}</td>'
 
-def get_img_node(url, name, form_name, type, retina_type = None):
+def get_img_node_style(size = None, padding = None):
+  if size is None and padding is None:
+    return ''
+  segments = []
+  if size is not None:
+    segments.append(f'width: {size[0]}px')
+    segments.append(f'height: {size[1]}px')
+  if padding is not None and (padding[0] != '0' and padding[1] != '0'):
+    padding_h = int(padding[0]) / 2
+    padding_v = int(padding[1]) / 2
+    segments.append(f'padding-left: {padding_h}px')
+    segments.append(f'padding-right: {padding_h}px')
+    segments.append(f'padding-top: {padding_v}px')
+    segments.append(f'padding-bottom: {padding_v}px')
+  return f' style="{"; ".join(segments)}"'
+
+def get_img_node(url, name, form_name, type, retina_type = None, display_values = None):
+  display_size, display_padding = display_values.split('+') if display_values is not None else [None, None]
+  size = display_size.split('x') if display_size is not None else None
+  padding = display_padding.split('x') if display_padding is not None else None
+  style = get_img_node_style(size, padding)
   form_name = html.escape(form_name)
-  cls = [type, 'retina retina-' + retina_type if retina_type else '']
+  cls = [type, 'retina' if retina_type != '1x' else '']
   cls = ' '.join(cls).strip()
-  return f'<img class="{cls}" src="{url}" alt="{form_name}" />'
+  return f'<img class="{cls}" src="{url}" alt="{form_name}"{style} />'
 
 def get_gen_str(str):
   return str.capitalize() if 'gen-' not in str else ('Gen ' + str.split('-')[1])
@@ -389,8 +409,8 @@ def append_pkm(cols, base, slug_display, slug_file, form_name, form_alias, has_f
   '''Adds a single Pokémon row'''
   cols.append([
     get_counter(),
-    get_img_node(get_pkm_url(base, slug_file, False, is_female, is_right), None, form_name, 'p'),
-    get_img_node(get_pkm_url(base, slug_file, True, is_female, is_right), None, form_name, 'p'),
+    get_img_node(get_pkm_url(base, slug_file, False, is_female, is_right), None, form_name, 'p', '1x'),
+    get_img_node(get_pkm_url(base, slug_file, True, is_female, is_right), None, form_name, 'p', '1x'),
     [get_pkm_form(form_name, form_alias, is_unofficial_icon, is_female, has_unofficial_female_icon), get_pkm_gender(is_female, has_female), get_pkm_gen(is_prev_gen_icon, docs_gen)],
     f'<code>{slug_display}</code>'
   ])
@@ -452,10 +472,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         for v in vs:
           count = get_counter()
           gen_n = get_gen_str(k)
-          res = item['resolution'][k]
-          retina_type = \
-            'ribbon-gen8' if (res == '2x' and misc_set in ['ribbon', 'mark']) else \
-            None
+          res_type = item['resolution'][k]
+          res_vals = res_type[1] if len(res_type) > 1 else None
           buffer.append('<tr class="variable-height">')
           buffer.append(f'<td>{count}</td>')
           if row_n == 0:
@@ -464,7 +482,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
             buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
             buffer.append(f'<td{rowspan}>{name_jpn}</td>')
             buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', res_type[0], res_vals) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
             if gen_row_n == 0:
@@ -495,6 +513,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     for k, v in files:
       count = get_counter()
       gen_n = get_gen_str(k)
+      res_type = item['resolution'][k]
+      res_vals = res_type[1] if len(res_type) > 1 else None
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -502,7 +522,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', res_type[0], res_vals) + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>{gen_n}</td>')
       buffer.append('</tr>')
@@ -526,6 +546,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     for k, v in files:
       count = get_counter()
       gen_n = get_gen_str(k)
+      res_type = item['resolution'][k]
+      res_vals = res_type[1] if len(res_type) > 1 else None
       colors = item['colors'][k]
       main_color = colors[0]
       buffer.append('<tr class="variable-height">')
@@ -538,7 +560,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
 
       buffer.append('<td class="image item type-icon-' + name_eng + '">' + \
         f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
-        get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
+        get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', res_type[0], res_vals) + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>{gen_n}</td>')
       buffer.append('</tr>')
@@ -563,11 +585,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     for k, v in files:
       count = get_counter()
       gen_n = get_gen_str(k)
-      res = item['resolution'][k]
-      retina_type = \
-        'seal-3x' if res == '3x' else \
-        'seal-2x' if res == '2x' else \
-        None
+      res_type = item['resolution'][k]
+      res_vals = res_type[1] if len(res_type) > 1 else None
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -575,7 +594,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', res_type[0], res_vals) + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>{gen_n}</td>')
       buffer.append('</tr>')
@@ -601,6 +620,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
     for k, v in files:
       count = get_counter()
       gen_n = get_gen_str(k)
+      res_type = item['resolution'][k]
+      res_vals = res_type[1] if len(res_type) > 1 else None
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -608,7 +629,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8' if k == 'gen-8' else '') + '</td>')
+      buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', res_type[0], res_vals) + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
       buffer.append(f'<td>{gen_n}</td>')
       buffer.append('</tr>')
@@ -681,7 +702,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
       name = item['name']
       id = item['id']
       expl = item.get('expl', False)
-      imgs = ['<td class="image item">' + get_img_node(get_itm_url(base_url, dir, group, name), None, f'"{name}" ({dir})', 'i') + '</td>' for dir in dirs]
+      imgs = ['<td class="image item">' + get_img_node(get_itm_url(base_url, dir, group, name), None, f'"{name}" ({dir})', 'i', '1x') + '</td>' for dir in dirs]
       filename = group + '/' + name + '.png'
       buffer.append('<tr>')
       buffer.append(f'<td>{count}</td>')
@@ -804,7 +825,7 @@ def generate_dex_table(dex, etc, gen, gen_dir, curr_page, json_file, add_female 
       name_eng = item['name']['eng']
       name_jpn = item['name']['jpn']
       file = item['file']
-      img = get_img_node(get_etc_url(base_url, file), None, name_eng, 'p')
+      img = get_img_node(get_etc_url(base_url, file), None, name_eng, 'p', '1x')
       buffer.append(f'''
         <td>{count}</td>
         <td rowspan="1">{EMPTY_PLACEHOLDER}</td>
