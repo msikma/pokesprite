@@ -453,7 +453,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
           count = get_counter()
           gen_n = get_gen_str(k)
           res = item['resolution'][k]
-          default_background_color = item.get("default-background-color", {}).get(k, None)
+          attributes = item.get("attributes", {}).get(k, {})
           retina_type = \
             'ribbon-gen8' if (res == '2x' and misc_set in ['ribbon', 'mark']) else \
             'origin-mark' if (res == '2x' and misc_set in ['origin-marks']) else \
@@ -467,7 +467,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
             buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
             buffer.append(f'<td{rowspan}>{name_jpn}</td>')
             buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-          buffer.append('<td class="image item"' + (f' style="background-color: {default_background_color}" ' if default_background_color else "") + '>' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+          buffer.append('<td class="image item' + (' is-all-white' if attributes.get('is_all_white') else '') + '">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
             if gen_row_n == 0:
@@ -531,7 +531,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       gen_n = get_gen_str(k)
       colors = item['colors'][k]
       main_color = colors[0]
-      default_background_color = item.get("default-background-color", {}).get(k, None)
+      attributes = item.get("attributes", {}).get(k, {})
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -540,7 +540,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
 
-      buffer.append('<td class="image item type-icon-' + name_eng + '"' + (f' style="background-color: {default_background_color}" ' if default_background_color else "") + '>' + \
+      buffer.append('<td class="image item type-icon-' + name_eng + (' is-all-white' if attributes.get('is_all_white') else '') + '">' + \
         f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
         get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')

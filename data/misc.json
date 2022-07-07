@@ -3549,8 +3549,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3568,8 +3570,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3587,8 +3591,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3606,8 +3612,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3625,8 +3633,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3644,8 +3654,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3663,8 +3675,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3682,8 +3696,10 @@
         "legends-arceus": "2x",
         "home": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     }
   ],
@@ -3711,8 +3727,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3738,8 +3756,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3765,8 +3785,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3792,8 +3814,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3819,8 +3843,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3846,8 +3872,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3873,8 +3901,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3900,8 +3930,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3927,8 +3959,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3954,8 +3988,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -3981,8 +4017,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4008,8 +4046,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4035,8 +4075,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4062,8 +4104,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4089,8 +4133,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4116,8 +4162,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4143,8 +4191,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     },
     {
@@ -4170,8 +4220,10 @@
       "resolution": {
         "gen-8": "2x"
       },
-      "default-background-color": {
-        "legends-arceus": "#b3b3b3"
+      "attributes": {
+        "legends-arceus": {
+          "is_all_white": true
+        }
       }
     }
   ],
