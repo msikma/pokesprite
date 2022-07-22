@@ -1,6 +1,6 @@
 {
   "name": "pokesprite-images",
-  "version": "2.6.1",
+  "version": "2.7.0",
   "description": "Database project of box and inventory sprites from the Pokémon core series games",
   "files": [
     "contributors.md",

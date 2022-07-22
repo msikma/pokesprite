@@ -207,6 +207,11 @@
         "eng": "Special attributes"
       }
     },
+    "origin-marks": {
+      "name": {
+        "eng": "Origin marks"
+      }
+    },
     "types": {
       "name": {
         "eng": "Type icons"
