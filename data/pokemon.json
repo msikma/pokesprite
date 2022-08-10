@@ -1970,6 +1970,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -1999,6 +2003,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -3272,6 +3284,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -3301,6 +3317,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -5030,6 +5054,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -6543,14 +6571,18 @@
     "gen-7": {
       "forms": {
         "$": {
-          "has_female": false,
-          "has_right": false
+          "has_female": true,
+          "has_right": false,
+          "has_unofficial_female_icon": true
         }
       }
     },
     "gen-8": {
       "forms": {
         "$": {
+          "has_female": true,
+          "has_right": false,
+          "has_unofficial_female_icon": true,
           "is_prev_gen_icon": false
         }
       }
@@ -6820,6 +6852,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -6950,6 +6986,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -15165,6 +15205,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "altered": {
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
+        },
+        "origin": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -15194,6 +15242,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "altered": {
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false
+        },
+        "origin": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -15553,7 +15609,7 @@
         "unknown": {
           "has_female": false,
           "has_right": false,
-          "is_alias_of": "$"
+          "is_unofficial_icon": true
         },
         "water": {
           "has_female": false,
@@ -15619,8 +15675,8 @@
           "is_prev_gen_icon": true
         },
         "unknown": {
-          "is_alias_of": "$",
-          "is_prev_gen_icon": true
+          "is_prev_gen_icon": true,
+          "is_unofficial_icon": true
         },
         "water": {
           "is_prev_gen_icon": true
@@ -15914,6 +15970,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -17256,6 +17316,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -17301,6 +17369,10 @@
         "red-striped": {
           "is_alias_of": "$",
           "is_prev_gen_icon": false
+        },
+        "white-striped": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -17912,6 +17984,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -17941,6 +18017,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -19659,6 +19739,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -22748,6 +22832,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": true
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -22777,6 +22865,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -23052,6 +23144,14 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "hisui-noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -23424,6 +23524,10 @@
       "forms": {
         "$": {
           "is_prev_gen_icon": false
+        },
+        "hisui": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }
@@ -28905,6 +29009,189 @@
         },
         "shadow-rider": {
           "is_prev_gen_icon": false
+        }
+      }
+    }
+  },
+  "899": {
+    "idx": "899",
+    "name": {
+      "eng": "Wyrdeer",
+      "chs": "詭角鹿",
+      "jpn": "アヤシシ",
+      "jpn_ro": "Ayashishi"
+    },
+    "slug": {
+      "eng": "wyrdeer",
+      "jpn": "ayashishi",
+      "jpn_ro": "ayashishi"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "900": {
+    "idx": "900",
+    "name": {
+      "eng": "Kleavor",
+      "chs": "劈斧螳螂",
+      "jpn": "バサギリ",
+      "jpn_ro": "Basagiri"
+    },
+    "slug": {
+      "eng": "kleavor",
+      "jpn": "basagiri",
+      "jpn_ro": "basagiri"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "noble": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "901": {
+    "idx": "901",
+    "name": {
+      "eng": "Ursaluna",
+      "chs": "月月熊",
+      "jpn": "ガチグマ",
+      "jpn_ro": "Gachiguma"
+    },
+    "slug": {
+      "eng": "ursaluna",
+      "jpn": "gachiguma",
+      "jpn_ro": "gachiguma"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "902": {
+    "idx": "902",
+    "name": {
+      "eng": "Basculegion",
+      "chs": "幽尾玄魚",
+      "jpn": "イダイトウ",
+      "jpn_ro": "Idaitou"
+    },
+    "slug": {
+      "eng": "basculegion",
+      "jpn": "idaitou",
+      "jpn_ro": "idaitou"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "has_female": true,
+          "is_prev_gen_icon": false,
+          "has_unofficial_female_icon": true,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "903": {
+    "idx": "903",
+    "name": {
+      "eng": "Sneasler",
+      "chs": "大狃拉",
+      "jpn": "オオニューラ",
+      "jpn_ro": "Oonyula"
+    },
+    "slug": {
+      "eng": "sneasler",
+      "jpn": "oonyu-ra",
+      "jpn_ro": "oonyula"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "904": {
+    "idx": "904",
+    "name": {
+      "eng": "Overqwil",
+      "chs": "萬針魚",
+      "jpn": "ハリーマン",
+      "jpn_ro": "Hariman"
+    },
+    "slug": {
+      "eng": "overqwil",
+      "jpn": "hari-man",
+      "jpn_ro": "hariman"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        }
+      }
+    }
+  },
+  "905": {
+    "idx": "905",
+    "name": {
+      "eng": "Enamorus",
+      "chs": "眷戀雲",
+      "jpn": "ラブトロス",
+      "jpn_ro": "Rabutoros"
+    },
+    "slug": {
+      "eng": "enamorus",
+      "jpn": "rabutorosu",
+      "jpn_ro": "rabutoros"
+    },
+    "gen-7": {
+    },
+    "gen-8": {
+      "forms": {
+        "$": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "incarnate": {
+          "is_alias_of": "$",
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
+        },
+        "therian": {
+          "is_prev_gen_icon": false,
+          "is_unofficial_icon": true
         }
       }
     }

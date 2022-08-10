@@ -66,10 +66,10 @@ def generate_index_page(version, commit):
         <h1 class="title">%(title_sprite)sPokéSprite</h1>
         <h2 class="subtitle">Database project of box and inventory sprites from the Pokémon core series games</h2>
         <ul class="menu">%(menu_links)s</ul>
-        <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" /></p>
-        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
+        <p><img class="banner" src="%(example_image)s" width="%(example_image_width)s" alt="" /></p>
+        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</p>
         <h3>Legacy images</h3>
-        <p>As of Feb 2020, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
+        <p>As of Mar 2022, this project is up-to-date with Gen 8 (Pokémon Sword/Shield and its DLC releases, and Pokémon Legends: Arceus). All old images from Gen 7 (Pokémon Ultra Sun/Ultra Moon) are still available for legacy support.</p>
         <p><strong>Archived versions of the legacy overview pages:</strong></p>
         <ul>
           %(old_links)s
@@ -102,7 +102,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_
 
   if title is None and gen:
     title = 'Gen ' + str(gen) + (f' (new sprites only)' if new_sprites_only else '')
-  
+
   main_info = '''
     <p>This table lists all inventory item sprites. These items are from the last several games and is up-to-date as of Pokémon Sword/Shield. The sprites are from Gen 3 through 8.</p>
     <p>All sprites are 32×32 in size. There are two sets of sprites: one with a Sword/Shield style white outline around the sprites, and one without (as all previous games). Both sets contain the same number of sprites, and both are listed below.</p>
@@ -136,7 +136,7 @@ def wrap_docs_page(table_content, gen, gen_dir, curr_page, json_file, title, is_
         <h2 class="subtitle">Database project of box and inventory sprites from the Pokémon core series games</h2>
         <ul class="menu">%(menu_links)s</ul>
         %(main_info)s
-        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</a></p>
+        <p>See the <a href="%(project_url)s">project page on Github</a> for more information.</p>
       </div>
       <table class="pokesprite">
         %(table_content)s
@@ -177,7 +177,7 @@ def get_title_venusaur():
 def wrap_in_html(content, title, version, commit, res_dir = '.'):
   return '''
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>PokéSprite%(title)s</title>
@@ -206,7 +206,7 @@ def run_cmd(cmd):
   return subprocess.check_output(cmd, cwd=BASE_DIR).strip().decode('utf-8')
 
 def write_file(filename, content):
-  with open(filename, 'wt') as file:
+  with open(filename, 'wt', encoding="utf8") as file:
     print(content, file=file)
 
 def docs_url(slug):
@@ -236,7 +236,7 @@ def read_repo_state():
 
 def read_json_file(file):
   '''Reads a single JSON and returns a dict'''
-  with open(file) as json_file:
+  with open(file, encoding="utf8") as json_file:
     return json.load(json_file)
 
 def read_data():
@@ -268,7 +268,7 @@ def get_pkm_form(form_name, form_alias, is_unofficial_icon, is_female, has_unoff
   if len(title):
     title = '; '.join(title)
     daggers = ''.join(daggers)
-    return f'<attr title="{title}"><span>{form_name}</span>{daggers}</attr>'
+    return f'<span title="{title}">{form_name}{daggers}</span>'
 
   return form_name
 
@@ -355,7 +355,7 @@ def get_img_node(url, name, form_name, type, retina_type = None):
   return f'<img class="{cls}" src="{url}" alt="{form_name}" />'
 
 def get_gen_str(str):
-  return str.capitalize() if 'gen-' not in str else ('Gen ' + str.split('-')[1])
+  return str.replace("-", " ").title()
 
 def reset_counter():
   '''Resets the global sprite counter'''
@@ -423,7 +423,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
   buffer.append('<tbody>')
 
   # Ribbons and marks
-  for misc_set in ['ribbon', 'mark', 'special-attribute']:
+  for misc_set in ['ribbon', 'mark', 'special-attribute', 'origin-marks']:
     buffer.append('<tbody>')
     buffer.append('<tr><th></th><th colspan="6" class="group" id="%s">%s</th></tr>' % (misc_set, groups[misc_set]['name']['eng']))
     buffer.append('</tbody>')
@@ -441,7 +441,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       desc_eng = desc.get('eng')
       desc_gen = desc.get('from_gen')
       desc_eng_esc = html.escape(desc_eng) if desc_eng else ''
-      name_eng_desc = f'<attr title="{desc_eng_esc}">{name_eng}</attr>' if desc_eng else name_eng
+      name_eng_desc = f'<span title="{desc_eng_esc}">{name_eng}</span>' if desc_eng else name_eng
       row_n = 0
       files = item['files'].items()
       buffer.append('<tbody class="alternating">')
@@ -453,8 +453,11 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
           count = get_counter()
           gen_n = get_gen_str(k)
           res = item['resolution'][k]
+          attributes = item.get("attributes", {}).get(k, {})
           retina_type = \
             'ribbon-gen8' if (res == '2x' and misc_set in ['ribbon', 'mark']) else \
+            'origin-mark' if (res == '2x' and misc_set in ['origin-marks']) else \
+            'special-attribute' if (res == '2x' and misc_set in ['special-attribute']) else \
             None
           buffer.append('<tr class="variable-height">')
           buffer.append(f'<td>{count}</td>')
@@ -464,7 +467,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
             buffer.append(f'<td{rowspan}>{name_eng_desc}</td>')
             buffer.append(f'<td{rowspan}>{name_jpn}</td>')
             buffer.append(f'<td{rowspan}>Gen {origin_gen}</td>')
-          buffer.append('<td class="image item">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
+          buffer.append('<td class="image item' + (' is-all-white' if attributes.get('is_all_white') else '') + '">' + get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', retina_type) + '</td>')
           buffer.append(f'<td class="filler{" last-item" if len(vs) > 1 and row_n > 0 else ""}"><code>{v}</code></td>')
           if len(vs) > 1:
             if gen_row_n == 0:
@@ -528,6 +531,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       gen_n = get_gen_str(k)
       colors = item['colors'][k]
       main_color = colors[0]
+      attributes = item.get("attributes", {}).get(k, {})
       buffer.append('<tr class="variable-height">')
       buffer.append(f'<td>{count}</td>')
       if row_n == 0:
@@ -535,8 +539,8 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
         rowspan = f' rowspan="{rows}"' if rows > 1 else ''
         buffer.append(f'<td{rowspan}>{name_eng.capitalize()}</td>')
         buffer.append(f'<td{rowspan} colspan="2">{name_jpn}</td>')
-      
-      buffer.append('<td class="image item type-icon-' + name_eng + '">' + \
+
+      buffer.append('<td class="image item type-icon-' + name_eng + (' is-all-white' if attributes.get('is_all_white') else '') + '">' + \
         f'<style>tr:hover .type-icon-{name_eng} {{ background: {main_color} !important; }} tr:hover .type-icon-{name_eng} img {{ filter: brightness(100); }}</style>' + \
         get_img_node(get_misc_url(base_url, v), None, f"Sprite for '{name_eng}'", 'm', 'body-style-gen8') + '</td>')
       buffer.append(f'<td class="filler" colspan="1"><code>{v}</code></td>')
@@ -582,7 +586,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       sprites_counter += 1
       row_n += 1
     buffer.append('</tbody>')
-  
+
   # Body styles
   buffer.append('<tbody>')
   buffer.append('<tr><th></th><th colspan="6" class="group" id="body-style">%s</th></tr>' % groups['body-style']['name']['eng'])
@@ -615,7 +619,7 @@ def generate_misc_table(misc, meta, curr_page, json_file, version = '[unknown]',
       sprites_counter += 1
       row_n += 1
     buffer.append('</tbody>')
-  
+
   buffer.append('<tfoot>')
   buffer.append('<tr>')
   buffer.append('''
@@ -657,7 +661,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
     if not item_dict.get(group):
       item_dict[group] = []
     item_dict[group].append({ 'name': name, 'id': id, 'linked': True })
-  
+
   for item, details in itm_unl.items():
     group, name = item.split('/')
     type = { 'name': name, 'id': None, 'linked': False, 'type': details['type'], 'dupe_id': details.get('of', {}).get('item_id') }
@@ -694,7 +698,7 @@ def generate_items_table(itm, itm_unl, inv, etc, dirs, curr_page, json_file, ver
       buffer.append(f'<td>{group}</td>')
       if expl:
         expl_esc = html.escape(expl)
-        buffer.append(f'<td class="item-id" colspan="2"><attr title="{expl_esc}"><span><code>{filename}</code></span>†</attr></td>')
+        buffer.append(f'<td class="item-id" colspan="2"><span title="{expl_esc}"><code>{filename}</code>†</span></td>')
       else:
         buffer.append(f'<td colspan="2" class="item-id"><code>{filename}</code></td>')
       buffer.append('</tr>')
