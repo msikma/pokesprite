@@ -2082,6 +2082,24 @@
     },
     {
       "name": {
+        "eng": "Twinkling Star Ribbon",
+        "jpn": "トゥインクルスターリボン",
+        "jpn_ro": "Twinkle Star Ribbon"
+      },
+      "origin_gen": 8,
+      "description": {
+        "eng": "A Ribbon awarded to a Pokémon that has perfectly embodied shining brilliance in Super Contest Shows.",
+        "from_gen": 8
+      },
+      "files": {
+        "gen-8": "ribbon/gen8/twinkling-star-ribbon.png"
+      },
+      "resolution": {
+        "gen-8": "2x"
+      }
+    },
+    {
+      "name": {
         "eng": "Tower Master Ribbon",
         "jpn": "マスタータワーリボン",
         "jpn_ro": "Master Tower Ribbon"
